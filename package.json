@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "commonmark": "^0.29.3"
+    "commonmark": "^0.29.3",
+    "jsdom": "^16.4.0"
   }
 }

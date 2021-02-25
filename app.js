@@ -1,25 +1,6 @@
-const fs = require("fs");
-const commonmark = require("commonmark");
+const Scraper = require("./scraper");
+const { scrapeLydiahallie } = require("./scrapingFunctions");
 
-try {
-  const data = fs.readFileSync(
-    "./markdown/lydiahallie_javascript-questions.md",
-    "utf8"
-  );
-  parse(data);
-} catch (err) {
-  console.error(err);
-}
+const myScraper = new Scraper("./markdown/lydiahallie_javascript-questions.md");
 
-function parse(data) {
-  const reader = new commonmark.Parser();
-  const parsed = reader.parse(data);
-  const walker = parsed.walker();
-  let event, node;
-  while ((event = walker.next())) {
-    node = event.node;
-    if (node.type === 'code_block') {
-      console.log(node.literal);
-    }
-  }
-}
+myScraper.scrape(scrapeLydiahallie);
