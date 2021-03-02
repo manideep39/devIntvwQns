@@ -1,11 +1,18 @@
 const fs = require("fs");
 const commonmark = require("commonmark");
 const jsdom = require("jsdom");
-const TurndownService = require("turndown");
 
 class Scraper {
   constructor(mkFileLocation) {
     this.mkFileLocation = mkFileLocation;
+  }
+
+  get showMarkdown() {
+    return this.readMarkDownFile();
+  }
+
+  get showHtml() {
+    return this.markdown2Html();
   }
 
   readMarkDownFile() {
@@ -33,16 +40,6 @@ class Scraper {
     return document;
   }
 
-  static html2Markdown(htmlElement) {
-    const turndownService = new TurndownService();
-    const markdown = turndownService.turndown(htmlElement);
-    return markdown;
-  }
-
-  scrape(scrapingFunc) {
-    const dom = this.createDOM();
-    scrapingFunc(dom);
-  }
 }
 
 module.exports = Scraper;
