@@ -2,7 +2,7 @@ const fs = require("fs");
 const Cleaner = require("../cleaner");
 
 function scrapeLyndaRepo(document) {
-  const data = [];
+  const questions = [];
   const headings = document.querySelectorAll("h6");
   const codeBlocks = document.querySelectorAll("pre code");
   const optionsList = document.querySelectorAll("ul");
@@ -47,10 +47,10 @@ function scrapeLyndaRepo(document) {
       options,
     };
 
-    data.push(question);
+    questions.push(question);
   });
 
-  fs.writeFileSync("data.json", JSON.stringify({ data }));
+  fs.writeFileSync("data.json", JSON.stringify({ questions }));
 }
 
 module.exports = { scrapeLyndaRepo };
