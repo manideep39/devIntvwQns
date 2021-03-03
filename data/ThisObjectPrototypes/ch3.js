@@ -92,4 +92,4 @@ const Ch3Questions = [
   },
 ];
 
-export default Ch3Questions;
+module.exports = Ch3Questions;

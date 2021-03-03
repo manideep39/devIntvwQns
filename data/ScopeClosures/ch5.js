@@ -136,4 +136,5 @@ ${'```'}
     explanation: ` \`setTimeout\` is executed immediately which means the \`i\` in \`i*1000\` is what you would expect. However, \`timer\` does not get executed immediately. By the time \`timer\` is executed, the loop is finished, and \`i\` has a value of 6.`,
   },
 ];
-export default Ch5Questions;
+
+module.exports = Ch5Questions;

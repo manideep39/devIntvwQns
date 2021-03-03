@@ -133,4 +133,6 @@ ${'```'}
       'This one is a bit tricky. When `printFirstName()` is executed, the call-site actually does not have a context object because the call-site does not use the `person` context to reference the function. The default binding rule is therefore used to explain why the `this` falls back to the global object where there is a `var` with `firstName` of `"Joanna"`.',
   },
 ];
-export default Ch2Questions;
+
+module.exports = Ch2Questions;
+

@@ -66,4 +66,4 @@ const Ch1Questions = [
   }
 ];
 
-export default Ch1Questions;
+module.exports = Ch1Questions;

@@ -99,4 +99,5 @@ ${'```'}
     explanation: `Because \`var\` is not block scoped, \`i\` is stored in the global scope.`,
   },
 ];
-export default Ch3Questions;
+
+module.exports = Ch3Questions;

@@ -1,10 +1,10 @@
-const { tg } = require("../data/index");
+const { tg, top, scopeClosures } = require("../data/index");
 const Cleaner = require("../cleaner");
 
 function scrapeYDKJS(dataArray, fileName) {
   const data = [];
   dataArray.forEach((ele, ind) => {
-    console.log("number of questions: ", ind + 1);
+    console.log(`${fileName.split('/')[2].split('.')[0]} question ${ind + 1}`);
     const { question: statement, explanation, answers, correctAnswerId } = ele;
     const type =
       answers.length == 2 && ["True", "False"].includes(answers[0].text)
@@ -40,4 +40,6 @@ function scrapeYDKJS(dataArray, fileName) {
   Cleaner.saveFile(fileName, JSON.stringify({ questions: data }));
 }
 
-scrapeYDKJS(tg, './ydkjsData/typesGrammar.json');
+scrapeYDKJS(tg, "./ydkjsData/typesGrammar.json");
+scrapeYDKJS(top, "./ydkjsData/thisObjectPrototypes.json");
+scrapeYDKJS(scopeClosures, "./ydkjsData/scopeClosures.json");

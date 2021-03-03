@@ -100,4 +100,5 @@ ${'```'}
     explanation: `The compiler does a first pass through your code to determine lexical scope. This is what is known as "hoisting".`,
   },
 ];
-export default Ch4Questions;
+
+module.exports = Ch4Questions;

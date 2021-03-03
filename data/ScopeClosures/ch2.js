@@ -208,4 +208,4 @@ ${'```'}
   },
 ];
 
-export default Ch2Questions;
+module.exports = Ch2Questions;
