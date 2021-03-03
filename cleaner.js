@@ -1,20 +1,21 @@
+const fs = require("fs");
 const TurndownService = require("turndown");
 const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
 const { document } = new JSDOM().window;
 
 class Cleaner {
-  createElement(txt, tag) {
+  static createElement(txt, tag) {
     const statement = document.createElement(tag);
     statement.textContent = txt;
     return statement;
   }
 
-  createTag(tag) {
+  static createTag(tag) {
     return document.createElement(tag);
   }
 
-  createCodeblock(txt) {
+  static createCodeblock(txt) {
     return `<pre><code>${txt}</code></pre>`;
   }
 
@@ -22,6 +23,10 @@ class Cleaner {
     const turndownService = new TurndownService();
     const markdown = turndownService.turndown(htmlElement);
     return markdown;
+  }
+
+  static saveFile(fileName, data) {
+    fs.writeFileSync(fileName, data);
   }
 }
 

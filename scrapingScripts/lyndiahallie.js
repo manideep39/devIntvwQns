@@ -1,5 +1,12 @@
-const fs = require("fs");
 const Cleaner = require("../cleaner");
+const Scraper = require("../scraper");
+
+const scraper = new Scraper("../markdown/lydiahallie_javascript-questions.md");
+
+// console.log(scraper.showMarkdown);
+// console.log(scraper.showHtml);
+const dom = scraper.createDOM();
+scrapeLyndaRepo(dom);
 
 function scrapeLyndaRepo(document) {
   const questions = [];
@@ -9,21 +16,19 @@ function scrapeLyndaRepo(document) {
   const rightAnswers = document.querySelectorAll("h4");
   const explanations = [...document.querySelectorAll("details")];
 
-  const cleaner = new Cleaner("h1", ["pre", "code"], "p");
-
   headings.forEach((ele, ind) => {
     console.log("number of questions: ", ind + 1);
     // Statement: a)heading
     const heading = Cleaner.html2Markdown(
-      cleaner.createElement(ele.textContent.slice(3), "h1")
+      Cleaner.createElement(ele.textContent.slice(3), "h1")
     );
     // Statement: b)codeBlock
     const codeBlock = Cleaner.html2Markdown(
-      cleaner.createCodeblock(codeBlocks[ind].textContent)
+      Cleaner.createCodeblock(codeBlocks[ind].textContent)
     );
     // Explanation:
     const paragraphs = [...explanations[ind].children];
-    let explanation = cleaner.createTag("div");
+    let explanation = Cleaner.createTag("div");
     paragraphs
       .slice(3, paragraphs.length - 1)
       .forEach((pTag) => explanation.appendChild(pTag));
@@ -31,7 +36,7 @@ function scrapeLyndaRepo(document) {
     explanation = Cleaner.html2Markdown(explanation);
     // Options:
     const options = [...optionsList[ind].children].map((option) => {
-      const li = cleaner.createTag("li");
+      const li = Cleaner.createTag("li");
       [...option.childNodes].slice(1).map((node) => li.appendChild(node));
       return {
         text: Cleaner.html2Markdown(li),
@@ -50,7 +55,5 @@ function scrapeLyndaRepo(document) {
     questions.push(question);
   });
 
-  fs.writeFileSync("data.json", JSON.stringify({ questions }));
+  Cleaner.saveFile('./lyndiahallieData/lyndiahallie.json', JSON.stringify({ questions }))
 }
-
-module.exports = { scrapeLyndaRepo };
