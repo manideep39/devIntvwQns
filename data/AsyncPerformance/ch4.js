@@ -173,4 +173,5 @@ ${'```'}
       '`it.next().value` starts `main` and gets the value from `foo(500, 1)` which is a promise. We then resolve the promise, and then continue running `main`.',
   },
 ];
-export default Ch4Questions;
+
+module.exports = Ch4Questions;

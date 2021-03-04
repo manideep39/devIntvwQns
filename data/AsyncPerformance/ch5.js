@@ -88,4 +88,5 @@ const Ch5Questions = [
       'If your site or app allows for loading multiple tabs of the same page (a common feature), you may very well want to reduce the resource usage of their system by preventing duplicate dedicated Workers and using a Shared Worker.',
   },
 ];
-export default Ch5Questions;
+
+module.exports = Ch5Questions;

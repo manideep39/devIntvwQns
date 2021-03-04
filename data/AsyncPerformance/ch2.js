@@ -124,4 +124,5 @@ ${'```'}
       "The callback gets pushed onto the event loop immediately, but it doesn't run until the call stack is empty which occurs after the for loop and after `a++` is executed.",
   },
 ];
-export default Ch2Questions;
+
+module.exports = Ch2Questions;

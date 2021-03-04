@@ -1,10 +1,21 @@
-const { tg, top, scopeClosures } = require("../data/index");
 const Cleaner = require("../cleaner");
+
+const {
+  upGoing,
+  typesGrammar,
+  thisObjectPrototypes,
+  scopeClosures,
+  es6Beyond,
+  asyncPerformance,
+} = require("../data/index");
+
+let globalTotal = 0;
 
 function scrapeYDKJS(dataArray, fileName) {
   const data = [];
+  let localTotal = 0;
   dataArray.forEach((ele, ind) => {
-    console.log(`${fileName.split('/')[2].split('.')[0]} question ${ind + 1}`);
+    localTotal++;
     const { question: statement, explanation, answers, correctAnswerId } = ele;
     const type =
       answers.length == 2 && ["True", "False"].includes(answers[0].text)
@@ -37,9 +48,16 @@ function scrapeYDKJS(dataArray, fileName) {
     }
     data.push(question);
   });
+  globalTotal += localTotal;
   Cleaner.saveFile(fileName, JSON.stringify({ questions: data }));
+  console.log("Questions created: Local total: ", localTotal);
 }
 
-scrapeYDKJS(tg, "./ydkjsData/typesGrammar.json");
-scrapeYDKJS(top, "./ydkjsData/thisObjectPrototypes.json");
+scrapeYDKJS(upGoing, "./ydkjsData/upGoing.json");
+scrapeYDKJS(typesGrammar, "./ydkjsData/typesGrammar.json");
+scrapeYDKJS(thisObjectPrototypes, "./ydkjsData/thisObjectPrototypes.json");
 scrapeYDKJS(scopeClosures, "./ydkjsData/scopeClosures.json");
+scrapeYDKJS(es6Beyond, "./ydkjsData/es6Beyond.json");
+scrapeYDKJS(asyncPerformance, "./ydkjsData/asyncPerformance.json");
+
+console.log("\nQuestions created: Global total: ", globalTotal);

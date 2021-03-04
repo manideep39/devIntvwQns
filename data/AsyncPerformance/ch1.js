@@ -73,4 +73,5 @@ ${'```'}
       'Once the timer is up, the callback will get added to the event loop. If the event loop has 20 items, then the callback will execute once those 20 items are executed.',
   },
 ];
-export default Ch1Questions;
+
+module.exports = Ch1Questions;

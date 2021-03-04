@@ -219,4 +219,4 @@ ${'```'}
   }
 ];
 
-export default Ch8Questions;
+module.exports = Ch8Questions;

@@ -544,4 +544,5 @@ ${'```'}
   }
 ];
 
-export default Ch3Questions;
+module.exports = Ch3Questions;
+

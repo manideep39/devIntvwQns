@@ -266,4 +266,4 @@ ${'```'}
   },
 ];
 
-export default Ch5Questions;
+module.exports = Ch5Questions;

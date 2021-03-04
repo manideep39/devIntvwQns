@@ -162,4 +162,5 @@ ${'```'}
       'The error that gets sent to `Promise.all.catch()` is the rejected value of the first promise to reject. In this case that would be `prom2`.',
   },
 ];
-export default Ch3Questions;
+
+module.exports = Ch3Questions;
