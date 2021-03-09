@@ -1,1 +1,552 @@
-{"questions":[{"statement":"What gives a program state?","explanation":"A program is described as stateful if it is designed to remember preceding events or user interactions. The remembered information is called the state. Without state, a program could perform some tasks, but they would be extremely limited in functionality.","type":"MCQ","options":[{"text":"The ability for a program to execute","correct":false},{"text":"The ability for a program to be compiled","correct":false},{"text":"The ability to store values and pull values out of variables","correct":true},{"text":"The process of creating an Abstract Syntax Tree","correct":false}]},{"statement":"In a traditional compiled-language process, what is the correct order of the three main steps a program will undergo before executing?","explanation":"Tokenizing/Lexing is the process of breaking up a string of characters into meaningful chunks called tokens. Parsing is the act of taking a stream of tokens and turning it into a tree of nested elements which represent the structure of the program. Code-Generation is the process of taking the tree and turning it into executable code.","type":"MCQ","options":[{"text":"Tokenizing/Lexing, Parsing, Code-Generation","correct":true},{"text":"Tokenizing/Lexing, Code-Generation, Parsing","correct":false},{"text":"Parsing, Code-Generation, Tokenzing/Lexing","correct":false},{"text":"Code-Generation, Tokenzing/Lexing, Parsing","correct":false}]},{"statement":"In a traditional compiled-language process, during which phase is a string of characters broken into meaningful chunks?","explanation":"E. A string of characters is broken into meaningful chuncks during the tokenization/lexing phase. A token is a string with an assigned meaning. It is structured as a pair consisting of a token name and optional token value. Some common token names include: Identifiers, Keywords, Separators, operators, and literals.","type":"MCQ","options":[{"text":"Code-generation phase","correct":false},{"text":"Parsing phase","correct":false},{"text":"Execution phase","correct":false},{"text":"Tokenizing/Lexing phase","correct":true}]},{"statement":"Which of the following is the responsibility of Scope?","explanation":"The Scope is responsible for maintaing a look-up list of all declared identifiers and enforcing a strict set of rules as to how these are accessible to currently executing code.","type":"MCQ","options":[{"text":"Parsing and code-generation","correct":false},{"text":"Collecting and maintaining a look-up list of all declared variables","correct":true},{"text":"Start-to-Finish compilation and execution of the javaScript prgoram","correct":false},{"text":"Taking a stream of tokens and turning it into a tree of nested elements","correct":false}]},{"statement":"Two distinct actions are taken for a variable assignment such as \\`var a = 2; \\`","explanation":"Two distinct actions are taken for a variable assignment: First, Compiler declares a variable (if not previously declared in the current scope), and second, when executing, Engine looks up the variable in Scope and assigns to it, if found.","type":"MCQ","options":[{"text":"Compiler declares a variable (if not previously declared) while simultaneously Engine looks up the variable in Scope and assigns to it, if found.","correct":false},{"text":"Compiler declares a variable regardless of whether or not it was previously declared, while simultaneously Engine looks up the variable in Scope and assigns to it.","correct":false},{"text":"First, Compiler declares a variable (if not previously declared in the current scope), and second, when executing, Engine looks up the variable in Scope and assigns to it, if found.","correct":true},{"text":"First, Engine declares a variable (if not previously declared in the current scope), and second, when executing, Compiler looks up the variable in Scope and assigns to it, if found.","correct":false}]},{"statement":"Which of the statements below are true?","explanation":"The reference to \\`a\\` in \\`console.log( a );\\` is an RHS reference, because nothing is being assigned to \\`a\\` here. By contrast, in \\`a = 2;\\` the reference to \\`a\\` is an LHS reference, because we don&#39;t actually care what the current value is. We simply want to find the variable as \\`a\\` target for the \\`= 2\\` assignment operation.","type":"MCQ","options":[{"text":"LHS and RHS meaning \"left/right-hand side of an assignment\" always literally mean \"left/right side of the \\`=\\` assignment operator\"","correct":false},{"text":"The reference to \\`a\\` in the statements \\`console.log( a );\\` and in \\`a = 2; \\` is a LHS statement.","correct":false},{"text":"In \\`console.log( a );\\` the reference to \\`a\\` is an LHS reference, while in \\`a = 2; \\` the reference to \\`a\\` is an RHS statement.","correct":false},{"text":"In \\`console.log( a );\\` the reference to \\`a\\` is an RHS reference, while in \\`a = 2; \\` the reference to \\`a\\` is an LHS statement.","correct":true}]},{"statement":"Which of these next statements is true for traversing nested Scope?","explanation":"Engine starts at the currently executing Scope, looks for the variable there, then if not found, keeps going up one level, and so on. If the outermost global scope is reached, the search stops, whether it finds the variable or not.","type":"MCQ","options":[{"text":"Engine starts looking for a variable at the outermost global scope.","correct":false},{"text":"Engine starts looking for a variable at the innermost global scope.","correct":false},{"text":"If the variable was not found at the currently executing Scope, Engine keeps going down one level, and so on.","correct":false},{"text":"Engine starts looking for the variable at the currently executing Scope.","correct":true}]},{"statement":"Why does it matter whether we call it LHS or RHS?","explanation":"The names matter because these two types of look-ups behave differently in the circumstance where the variable has not yet been declared (is not found in any consulted Scope). If an RHS look-up fails to ever find a variable, this results in a \\`ReferenceError\\` being thrown by the Engine. By contrast, if the Engine is performing an LHS look-up and arrives at the top floor (global Scope) without finding it, and if the program is not running in \"Strict Mode\", then the global Scope will create a new variable of that name in the global scope.","type":"MCQ","options":[{"text":"Because these two types of look-ups behave differently when the variable has been declared and assigned the value \\`undefined\\`.","correct":false},{"text":"Because these two types of look-ups behave differently when the variable has been declared on global Scope vs. the currently executing Scope.","correct":false},{"text":"Because these two types of look-ups behave differently when the variable has not yet been declared (is not found in any consulted Scope).","correct":true},{"text":"If an LHS look-up fails to ever find a variable, anywhere in the nested Scopes, this results in a \\`ReferenceError\\` being thrown by the Engine.","correct":false}]},{"statement":"What is Parsing?","explanation":"Parsing is typically thought of as taking a string of text and making sense of it. However, the string of text is actually converted into tokens first. Parsing is actually taking the tokens and making them useful by converting them into an abstract syntax tree","type":"MCQ","options":[{"text":"Taking a string and converting it into tokens","correct":false},{"text":"Taking a stream of tokens and converting them into an abstract syntax tree","correct":true},{"text":"Taking an abstract syntax tree and converting it into zeroes and ones","correct":false},{"text":"Taking a string and converting it into assembly","correct":false}]},{"statement":"What is the responsibility of a JavaScript engine?","explanation":"The engine is the entirety of what reads and executes your code. Each browser has their own engine as does Node (built on Chrome's V8 JavaScript engine).","type":"MCQ","options":[{"text":"Handling all the dirty work of parsing and code-generation","correct":false},{"text":"Writing JavaScript code that is missing from the file","correct":false},{"text":"Start-to-finish compilation and execution of our JavaScript program","correct":true},{"text":"Find all unused code and remove it before code generation","correct":false}]},{"statement":"What is the difference between an LHS lookup and an RHS lookup?","explanation":"LHS stands for \"left hand side\", and RHS stands for \"right hand side\". For a = b, the RHS looks for the value of b, and the LHS looks for the location of a in memory, so that it can update its value.","type":"MCQ","options":[{"text":"LHS lookups search for variables whereas RHS search for values","correct":false},{"text":"LHS looks for assignment operator whereas RHS looks for the value to be assigned","correct":false},{"text":"LHS looks for the existence of a variable whereas RHS looks for the history of that variable","correct":false},{"text":"LHS looks for the variable container whereas RHS looks for the value of the variable","correct":true}]},{"statement":"How many LHS look-ups are in the code below: \\`\\`\\`js function foo(a){ var b = a; return a + b } var c = foo( 2 ); \\`\\`\\`","explanation":"\\`c = ..\\`, \\`a = 2\\` (implicit param assignment) and \\`b = ..\\`","type":"MCQ","options":[{"text":"1","correct":false},{"text":"2","correct":false},{"text":"3","correct":true},{"text":"4","correct":false}]},{"statement":"How many RHS look-ups are in the code below: \\`\\`\\`js function foo(a){ var b = a; return a + b } var c = foo( 2 ); \\`\\`\\`","explanation":"\\`foo(2..\\`, \\`= a;\\`, \\`a + ..\\` and \\`.. + b\\`","type":"MCQ","options":[{"text":"1","correct":false},{"text":"2","correct":false},{"text":"3","correct":false},{"text":"4","correct":true}]},{"statement":"If an RHS look-up fails to find a variable, what kind of error is thrown?","explanation":"A ReferenceError is thrown when trying to dereference a variable that has not been declared. The only way for an RHS look-up to fail is if the variable has not been declared.","type":"MCQ","options":[{"text":"\\`SyntaxError\\`","correct":false},{"text":"\\`ReferenceError\\`","correct":true},{"text":"\\`TypeError\\`","correct":false},{"text":"\\`EvalError\\`","correct":false}]},{"statement":"When is scoping determined in JavaScript?","explanation":"In JavaScript, scoping is lexical. It is based on where variables and blocks of scope are authored, by you, at write time, and thus is (mostly) set in stone by the time the lexer processes your code.","type":"MCQ","options":[{"text":"At author-time","correct":true},{"text":"At run-time","correct":false}]},{"statement":"What is logged to the console when the following code is executed: \\`\\`\\`js function foo(a) { var b = a \\* 2; function bar(c) { console.log( a, b, c ); } bar(b \\* 3); } foo( 2 ); \\`\\`\\`","explanation":"\\`c\\` is scoped to \\`bar\\`, \\`a\\` and \\`b\\` are scoped to \\`foo\\`. \\`bar\\` looks for \\`a\\` and \\`b\\` in its local scope, but can't find it, so checks its outer scope, \\`foo\\`, where it finds variables \\`a\\` and \\`b\\`. \\`bar\\` looks for \\`c\\` in its local scope, and finds it.","type":"MCQ","options":[{"text":"\\`2 4 12\\`","correct":true},{"text":"\\`undefined undefined undefined\\`","correct":false},{"text":"\\`2 4 undefined\\`","correct":false},{"text":"\\`ReferenceError\\`","correct":false}]},{"statement":"What is logged to the console when the following code is executed: \\`\\`\\`js function foo() { const a = 2 function bar() { console.log(a); } bar(); } const a = 1 foo(); \\`\\`\\`","explanation":"\\`a\\` is scoped to \\`foo\\`. \\`bar\\` looks for \\`a\\` in its local scope, but can't find it, so checks its outer scope, \\`foo\\`, where it finds \\`a\\` with a value of 2.","type":"MCQ","options":[{"text":"\\`undefined\\`","correct":false},{"text":"\\`null\\`","correct":false},{"text":"\\`1\\`","correct":false},{"text":"\\`2\\`","correct":true}]},{"statement":"What is logged to the console when the following code is executed: \\`\\`\\`js function bar(b) { console.log(a); } function foo() { const a = 5 bar(10); } foo(); \\`\\`\\`","explanation":"\\`bar\\` does not have \\`a\\` in its scope, so the engine looks in its outer scope, the global scope. It does not see an \\`a\\`, so it throws a \\`ReferenceError\\`.","type":"MCQ","options":[{"text":"\\`undefined\\`","correct":false},{"text":"\\`ReferenceError\\`","correct":true},{"text":"\\`5\\`","correct":false},{"text":"\\`10\\`","correct":false}]},{"statement":"What is logged to the console when the following code is executed: \\`\\`\\`js let a; function bar(b) { console.log(a); } function foo() { const a = 7 bar(9); } foo(); \\`\\`\\`","explanation":"\\`bar\\` does not have \\`a\\` in its scope, so the engine looks in its outer scope, the global scope. It sees \\`a\\`, but notices that there is no value assigned to it, thus it is \\`undefined\\`.","type":"MCQ","options":[{"text":"\\`undefined\\`","correct":true},{"text":"\\`ReferenceError\\`","correct":false},{"text":"\\`7\\`","correct":false},{"text":"\\`9\\`","correct":false}]},{"statement":"What is logged to the console when the following code is executed and the user clicks the button: \\`\\`\\`js const button = document.querySelector('button'); function bar() { const b = 1 console.log(b) button.addEventListener('click', bar) } \\`\\`\\`","explanation":"\\`bar\\` never gets called, so \\`console.log(b)\\` is never executed.","type":"MCQ","options":[{"text":"\\`undefined\\`","correct":false},{"text":"\\`null\\`","correct":false},{"text":"\\`1\\`","correct":false},{"text":"nothing is logged to the console","correct":true}]},{"statement":"What is logged to the console when the following code is executed: \\`\\`\\`js function bar(b) { function baz(a) { console.log(a) } const a = 7 } function foo(a) { a = 5; baz(a) } foo(4); \\`\\`\\`","explanation":"We first call \\`foo\\` with a value of 4. Inside \\`foo\\`, \\`a\\`'s value is changed from 4 to 5. We then try to call \\`baz\\`. \\`baz\\` is not in \\`foo\\`'s scope, so the engine looks at the outer scope, the global scope. It does not find \\`baz\\`, so it throws a \\`ReferenceError\\`.","type":"MCQ","options":[{"text":"\\`undefined\\`","correct":false},{"text":"\\`ReferenceError\\`","correct":true},{"text":"\\`5\\`","correct":false},{"text":"\\`7\\`","correct":false}]},{"statement":"Which two mechanisms in JavaScript can \"cheat\" lexical scope?","explanation":"\\`with\\` and \\`eval\\` are the only mechanisms that allow code to be executed dynamically which means they can \"cheat\" lexical scope.","type":"MCQ","options":[{"text":"\\`eval\\` and \\`with\\`","correct":true},{"text":"\\`eval\\` and \\`innerHTML\\`","correct":false},{"text":"\\`this\\` and \\`with\\`","correct":false},{"text":"\\`this\\` and \\`eval\\`","correct":false}]},{"statement":"There are two mechanisms in JavaScript that can \"cheat\" lexical scope. Why should they not be used?","explanation":"If the Engine finds an \\`eval(..)\\` or \\`with\\` in the code, it essentially has to assume that all its awareness of identifier location may be invalid, because it cannot know at lexing time exactly what code you may pass to \\`eval(..)\\` to modify the lexical scope, or the contents of the object you may pass to \\`with\\` to create a new lexical scope to be consulted.","type":"MCQ","options":[{"text":"There is no reason to not use them","correct":false},{"text":"They prevent the engine from using some or all of its optimizations","correct":true},{"text":"They are not readable","correct":false},{"text":"They are not implemented in all browsers","correct":false}]},{"statement":"What is going on under the hood when importing modules to prevent collisions?","explanation":"IIFEs are used to \"insert\" code without collisions. The IIFE gives each module its own scope which allows it to use whatever non-global variables it wants without side effects.","type":"MCQ","options":[{"text":"They are each wrapped in an IIFE","correct":true},{"text":"The code is injected and inserted as is","correct":false},{"text":"They use global namespaces","correct":false},{"text":"ES6 classes","correct":false}]},{"statement":"What is the main reason you should name your functions?","explanation":"If you are debugging an error, you might check the stack trace. If you encounter an anonymous function in the stack trace, you can't easily know which function it is referring to.","type":"MCQ","options":[{"text":"You have to name all functions, so this is a moot point","correct":false},{"text":"Easier debugging","correct":true},{"text":"You don't actually want to name your functions if possible because then you can't use IIFEs","correct":false},{"text":"Browser optimization","correct":false}]},{"statement":"JavaScript did not have a concept of block scoping before ES6","explanation":"Technically, it had block scoping in \\`catch\\` blocks as early as ES3. Standard block scoping was introduced in ES6 via \\`let\\` and \\`const\\`.","type":"TF","correct":false},{"statement":"What will be logged to the console upon execution of the code below: \\`\\`\\`js {let i = 0} console.log(i) \\`\\`\\`","explanation":"Because \\`let\\` is block scoped, \\`i\\` is only within scope inside the curly braces in the first line, not in the global scope.","type":"MCQ","options":[{"text":"\\`0\\`","correct":false},{"text":"\\`undefined\\`","correct":false},{"text":"\\`null\\`","correct":false},{"text":"\\`ReferenceError\\`","correct":true}]},{"statement":"What will be logged to the console upon execution of the code below: \\`\\`\\`js {var i = 0} console.log(i) \\`\\`\\`","explanation":"Because \\`var\\` is not block scoped, \\`i\\` is stored in the global scope.","type":"MCQ","options":[{"text":"\\`0\\`","correct":true},{"text":"\\`undefined\\`","correct":false},{"text":"\\`null\\`","correct":false},{"text":"\\`ReferenceError\\`","correct":false}]},{"statement":"What will be logged to the console upon execution of the code below: \\`\\`\\`js a = 3 var a; console.log(a) \\`\\`\\`","explanation":"\\`var a\\` is \"hoisted\" before the other lines of code are executed, thus by the time the engine executes the assignment and console logging, \\`var a\\` will have been declared and available.","type":"MCQ","options":[{"text":"\\`undefined\\`","correct":false},{"text":"\\`null\\`","correct":false},{"text":"\\`3\\`","correct":true},{"text":"\\`a\\`","correct":false}]},{"statement":"What will be logged to the console upon execution of the code below: \\`\\`\\`js console.log(a) var a = 3; \\`\\`\\`","explanation":"\\`var a\\` is \"hoisted\" before the other lines of code are executed. By the time the engine executes the \\`console.log\\`, \\`var a\\` will have been declared, but the definition will not have occurred.","type":"MCQ","options":[{"text":"\\`undefined\\`","correct":true},{"text":"\\`null\\`","correct":false},{"text":"\\`3\\`","correct":false},{"text":"\\`a\\`","correct":false}]},{"statement":"What will be logged to the console upon execution of the code below: \\`\\`\\`js foo(); var foo = function() { console.log('hello') }; \\`\\`\\`","explanation":"\\`var foo\\` is \"hoisted\" but the function is not. By the time the engine executes the first line, \\`var foo\\` will have been declared, so it is not a \\`ReferenceError\\`. We try to call it as a function, but its value is undefined which leaves us with a \\`TypeError\\`.","type":"MCQ","options":[{"text":"\\`'hello'\\`","correct":false},{"text":"\\`ReferenceError\\`","correct":false},{"text":"\\`TypeError\\`","correct":true},{"text":"\\`undefined\\`","correct":false}]},{"statement":"What will be logged to the console upon execution of the code below: \\`\\`\\`js foo(); var foo; function foo() { console.log( 1 ); } foo = function() { console.log( 2 ); }; \\`\\`\\`","explanation":"Because functions are \"hoisted\" before variables, \\`function foo\\` gets hoisted before \\`var foo\\`, and ultimately \\`var foo\\` is ignored.","type":"MCQ","options":[{"text":"\\`1\\`","correct":true},{"text":"\\`2\\`","correct":false},{"text":"\\`1\\` and then \\`2\\`","correct":false},{"text":"\\`2\\` and then \\`1\\`","correct":false}]},{"statement":"Declarations themselves are hoisted, but assignments, even assignments of function expressions, are not hoisted.","explanation":"The compiler does a first pass through your code to determine lexical scope. This is what is known as \"hoisting\".","type":"TF","correct":true},{"statement":"What is closure?","explanation":"Another way to explain closure is to say that functions always have access to their lexical scope, no matter how or when they are called.","type":"MCQ","options":[{"text":"The ability of a function to access its lexical scope when that function is executing outside its lexical scope.","correct":true},{"text":"When a function is used as a callback","correct":false},{"text":"When a function is nested within another function","correct":false},{"text":"When a function returns another function, it is said to have a closure over the second function","correct":false}]},{"statement":"What is logged to the console after executing the code below: \\`\\`\\`js var a = 1 function foo() { var a = 2; function bar() { console.log( a ); } return bar; } var baz = foo(); baz(); \\`\\`\\`","explanation":"\\`foo\\` returns the function \\`bar\\` which is assigned to \\`baz\\`. \\`bar\\` still has access to a in \\`foo\\` even after \\`foo\\` has been called because of closure.","type":"MCQ","options":[{"text":"\\`undefined\\`","correct":false},{"text":"\\`null\\`","correct":false},{"text":"\\`1\\`","correct":false},{"text":"\\`2\\`","correct":true}]},{"statement":"When is closure observed?","explanation":"Because closure is just a function accessing lexical scope when it's executed outside of its lexical scope, that can only happen if the function is passed around as a variable","type":"MCQ","options":[{"text":"When functions are passed around as variables and then executed","correct":true},{"text":"When \\`this\\` is used in a function","correct":false},{"text":"When shadowing occurs","correct":false},{"text":"When arrow functions are executed","correct":false}]},{"statement":"Is closure observed when the code below is executed: \\`\\`\\` function wait(message) { setTimeout( function timer(){ console.log( message ); }, 1000 ); } wait( \"Hello!\" ); \\`\\`\\`","explanation":"\\`wait\\` gets executed immediately, but \\`timer\\` executes every 1000ms, and it still can access \\`message\\`.","type":"MCQ","options":[{"text":"Yes","correct":true},{"text":"No","correct":false}]},{"statement":"What happens when this code is executed: \\`\\`\\` for (var i=1; i<=5; i++) { setTimeout( function timer(){ console.log( i ); }, i\\*1000 ); } \\`\\`\\`","explanation":"\\`setTimeout\\` is executed immediately which means the \\`i\\` in \\`i\\*1000\\` is what you would expect. However, \\`timer\\` does not get executed immediately. By the time \\`timer\\` is executed, the loop is finished, and \\`i\\` has a value of 6.","type":"MCQ","options":[{"text":"6 is printed 5 times all at 6 seconds","correct":false},{"text":"6 is printed 5 times at one second intervals","correct":true},{"text":"1, 2, 3, 4, 5 are printed all at 6 seconds","correct":false},{"text":"1, 2, 3, 4, 5 are printed each at one second intervals","correct":false}]}]}
+{
+  "questions": [
+    {
+      "statement": "What gives a program state?",
+      "explanation": "A program is described as stateful if it is designed to remember preceding events or user interactions. The remembered information is called the state. Without state, a program could perform some tasks, but they would be extremely limited in functionality.",
+      "type": "MCQ",
+      "options": [
+        { "text": "The ability for a program to execute", "correct": false },
+        {
+          "text": "The ability for a program to be compiled",
+          "correct": false
+        },
+        {
+          "text": "The ability to store values and pull values out of variables",
+          "correct": true
+        },
+        {
+          "text": "The process of creating an Abstract Syntax Tree",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "In a traditional compiled-language process, what is the correct order of the three main steps a program will undergo before executing?",
+      "explanation": "Tokenizing/Lexing is the process of breaking up a string of characters into meaningful chunks called tokens. Parsing is the act of taking a stream of tokens and turning it into a tree of nested elements which represent the structure of the program. Code-Generation is the process of taking the tree and turning it into executable code.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "Tokenizing/Lexing, Parsing, Code-Generation",
+          "correct": true
+        },
+        {
+          "text": "Tokenizing/Lexing, Code-Generation, Parsing",
+          "correct": false
+        },
+        {
+          "text": "Parsing, Code-Generation, Tokenzing/Lexing",
+          "correct": false
+        },
+        {
+          "text": "Code-Generation, Tokenzing/Lexing, Parsing",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "In a traditional compiled-language process, during which phase is a string of characters broken into meaningful chunks?",
+      "explanation": "E. A string of characters is broken into meaningful chuncks during the tokenization/lexing phase. A token is a string with an assigned meaning. It is structured as a pair consisting of a token name and optional token value. Some common token names include: Identifiers, Keywords, Separators, operators, and literals.",
+      "type": "MCQ",
+      "options": [
+        { "text": "Code-generation phase", "correct": false },
+        { "text": "Parsing phase", "correct": false },
+        { "text": "Execution phase", "correct": false },
+        { "text": "Tokenizing/Lexing phase", "correct": true }
+      ]
+    },
+    {
+      "statement": "Which of the following is the responsibility of Scope?",
+      "explanation": "The Scope is responsible for maintaing a look-up list of all declared identifiers and enforcing a strict set of rules as to how these are accessible to currently executing code.",
+      "type": "MCQ",
+      "options": [
+        { "text": "Parsing and code-generation", "correct": false },
+        {
+          "text": "Collecting and maintaining a look-up list of all declared variables",
+          "correct": true
+        },
+        {
+          "text": "Start-to-Finish compilation and execution of the javaScript prgoram",
+          "correct": false
+        },
+        {
+          "text": "Taking a stream of tokens and turning it into a tree of nested elements",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "Two distinct actions are taken for a variable assignment such as \\`var a = 2; \\`",
+      "explanation": "Two distinct actions are taken for a variable assignment: First, Compiler declares a variable (if not previously declared in the current scope), and second, when executing, Engine looks up the variable in Scope and assigns to it, if found.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "Compiler declares a variable (if not previously declared) while simultaneously Engine looks up the variable in Scope and assigns to it, if found.",
+          "correct": false
+        },
+        {
+          "text": "Compiler declares a variable regardless of whether or not it was previously declared, while simultaneously Engine looks up the variable in Scope and assigns to it.",
+          "correct": false
+        },
+        {
+          "text": "First, Compiler declares a variable (if not previously declared in the current scope), and second, when executing, Engine looks up the variable in Scope and assigns to it, if found.",
+          "correct": true
+        },
+        {
+          "text": "First, Engine declares a variable (if not previously declared in the current scope), and second, when executing, Compiler looks up the variable in Scope and assigns to it, if found.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "Which of the statements below are true?",
+      "explanation": "The reference to \\`a\\` in \\`console.log( a );\\` is an RHS reference, because nothing is being assigned to \\`a\\` here. By contrast, in \\`a = 2;\\` the reference to \\`a\\` is an LHS reference, because we don&#39;t actually care what the current value is. We simply want to find the variable as \\`a\\` target for the \\`= 2\\` assignment operation.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "LHS and RHS meaning \"left/right-hand side of an assignment\" always literally mean \"left/right side of the \\`=\\` assignment operator\"",
+          "correct": false
+        },
+        {
+          "text": "The reference to \\`a\\` in the statements \\`console.log( a );\\` and in \\`a = 2; \\` is a LHS statement.",
+          "correct": false
+        },
+        {
+          "text": "In \\`console.log( a );\\` the reference to \\`a\\` is an LHS reference, while in \\`a = 2; \\` the reference to \\`a\\` is an RHS statement.",
+          "correct": false
+        },
+        {
+          "text": "In \\`console.log( a );\\` the reference to \\`a\\` is an RHS reference, while in \\`a = 2; \\` the reference to \\`a\\` is an LHS statement.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "statement": "Which of these next statements is true for traversing nested Scope?",
+      "explanation": "Engine starts at the currently executing Scope, looks for the variable there, then if not found, keeps going up one level, and so on. If the outermost global scope is reached, the search stops, whether it finds the variable or not.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "Engine starts looking for a variable at the outermost global scope.",
+          "correct": false
+        },
+        {
+          "text": "Engine starts looking for a variable at the innermost global scope.",
+          "correct": false
+        },
+        {
+          "text": "If the variable was not found at the currently executing Scope, Engine keeps going down one level, and so on.",
+          "correct": false
+        },
+        {
+          "text": "Engine starts looking for the variable at the currently executing Scope.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "statement": "Why does it matter whether we call it LHS or RHS?",
+      "explanation": "The names matter because these two types of look-ups behave differently in the circumstance where the variable has not yet been declared (is not found in any consulted Scope). If an RHS look-up fails to ever find a variable, this results in a \\`ReferenceError\\` being thrown by the Engine. By contrast, if the Engine is performing an LHS look-up and arrives at the top floor (global Scope) without finding it, and if the program is not running in \"Strict Mode\", then the global Scope will create a new variable of that name in the global scope.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "Because these two types of look-ups behave differently when the variable has been declared and assigned the value \\`undefined\\`.",
+          "correct": false
+        },
+        {
+          "text": "Because these two types of look-ups behave differently when the variable has been declared on global Scope vs. the currently executing Scope.",
+          "correct": false
+        },
+        {
+          "text": "Because these two types of look-ups behave differently when the variable has not yet been declared (is not found in any consulted Scope).",
+          "correct": true
+        },
+        {
+          "text": "If an LHS look-up fails to ever find a variable, anywhere in the nested Scopes, this results in a \\`ReferenceError\\` being thrown by the Engine.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "What is Parsing?",
+      "explanation": "Parsing is typically thought of as taking a string of text and making sense of it. However, the string of text is actually converted into tokens first. Parsing is actually taking the tokens and making them useful by converting them into an abstract syntax tree",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "Taking a string and converting it into tokens",
+          "correct": false
+        },
+        {
+          "text": "Taking a stream of tokens and converting them into an abstract syntax tree",
+          "correct": true
+        },
+        {
+          "text": "Taking an abstract syntax tree and converting it into zeroes and ones",
+          "correct": false
+        },
+        {
+          "text": "Taking a string and converting it into assembly",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "What is the responsibility of a JavaScript engine?",
+      "explanation": "The engine is the entirety of what reads and executes your code. Each browser has their own engine as does Node (built on Chrome's V8 JavaScript engine).",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "Handling all the dirty work of parsing and code-generation",
+          "correct": false
+        },
+        {
+          "text": "Writing JavaScript code that is missing from the file",
+          "correct": false
+        },
+        {
+          "text": "Start-to-finish compilation and execution of our JavaScript program",
+          "correct": true
+        },
+        {
+          "text": "Find all unused code and remove it before code generation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "What is the difference between an LHS lookup and an RHS lookup?",
+      "explanation": "LHS stands for \"left hand side\", and RHS stands for \"right hand side\". For a = b, the RHS looks for the value of b, and the LHS looks for the location of a in memory, so that it can update its value.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "LHS lookups search for variables whereas RHS search for values",
+          "correct": false
+        },
+        {
+          "text": "LHS looks for assignment operator whereas RHS looks for the value to be assigned",
+          "correct": false
+        },
+        {
+          "text": "LHS looks for the existence of a variable whereas RHS looks for the history of that variable",
+          "correct": false
+        },
+        {
+          "text": "LHS looks for the variable container whereas RHS looks for the value of the variable",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "statement": "How many LHS look-ups are in the code below: \\`\\`\\`js function foo(a){ var b = a; return a + b } var c = foo( 2 ); \\`\\`\\`",
+      "explanation": "\\`c = ..\\`, \\`a = 2\\` (implicit param assignment) and \\`b = ..\\`",
+      "type": "MCQ",
+      "options": [
+        { "text": "1", "correct": false },
+        { "text": "2", "correct": false },
+        { "text": "3", "correct": true },
+        { "text": "4", "correct": false }
+      ]
+    },
+    {
+      "statement": "How many RHS look-ups are in the code below: \\`\\`\\`js function foo(a){ var b = a; return a + b } var c = foo( 2 ); \\`\\`\\`",
+      "explanation": "\\`foo(2..\\`, \\`= a;\\`, \\`a + ..\\` and \\`.. + b\\`",
+      "type": "MCQ",
+      "options": [
+        { "text": "1", "correct": false },
+        { "text": "2", "correct": false },
+        { "text": "3", "correct": false },
+        { "text": "4", "correct": true }
+      ]
+    },
+    {
+      "statement": "If an RHS look-up fails to find a variable, what kind of error is thrown?",
+      "explanation": "A ReferenceError is thrown when trying to dereference a variable that has not been declared. The only way for an RHS look-up to fail is if the variable has not been declared.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`SyntaxError\\`", "correct": false },
+        { "text": "\\`ReferenceError\\`", "correct": true },
+        { "text": "\\`TypeError\\`", "correct": false },
+        { "text": "\\`EvalError\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "When is scoping determined in JavaScript?",
+      "explanation": "In JavaScript, scoping is lexical. It is based on where variables and blocks of scope are authored, by you, at write time, and thus is (mostly) set in stone by the time the lexer processes your code.",
+      "type": "MCQ",
+      "options": [
+        { "text": "At author-time", "correct": true },
+        { "text": "At run-time", "correct": false }
+      ]
+    },
+    {
+      "statement": "What is logged to the console when the following code is executed: \\`\\`\\`js function foo(a) { var b = a \\* 2; function bar(c) { console.log( a, b, c ); } bar(b \\* 3); } foo( 2 ); \\`\\`\\`",
+      "explanation": "\\`c\\` is scoped to \\`bar\\`, \\`a\\` and \\`b\\` are scoped to \\`foo\\`. \\`bar\\` looks for \\`a\\` and \\`b\\` in its local scope, but can't find it, so checks its outer scope, \\`foo\\`, where it finds variables \\`a\\` and \\`b\\`. \\`bar\\` looks for \\`c\\` in its local scope, and finds it.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`2 4 12\\`", "correct": true },
+        { "text": "\\`undefined undefined undefined\\`", "correct": false },
+        { "text": "\\`2 4 undefined\\`", "correct": false },
+        { "text": "\\`ReferenceError\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What is logged to the console when the following code is executed: \\`\\`\\`js function foo() { const a = 2 function bar() { console.log(a); } bar(); } const a = 1 foo(); \\`\\`\\`",
+      "explanation": "\\`a\\` is scoped to \\`foo\\`. \\`bar\\` looks for \\`a\\` in its local scope, but can't find it, so checks its outer scope, \\`foo\\`, where it finds \\`a\\` with a value of 2.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`undefined\\`", "correct": false },
+        { "text": "\\`null\\`", "correct": false },
+        { "text": "\\`1\\`", "correct": false },
+        { "text": "\\`2\\`", "correct": true }
+      ]
+    },
+    {
+      "statement": "What is logged to the console when the following code is executed: \\`\\`\\`js function bar(b) { console.log(a); } function foo() { const a = 5 bar(10); } foo(); \\`\\`\\`",
+      "explanation": "\\`bar\\` does not have \\`a\\` in its scope, so the engine looks in its outer scope, the global scope. It does not see an \\`a\\`, so it throws a \\`ReferenceError\\`.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`undefined\\`", "correct": false },
+        { "text": "\\`ReferenceError\\`", "correct": true },
+        { "text": "\\`5\\`", "correct": false },
+        { "text": "\\`10\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What is logged to the console when the following code is executed: \\`\\`\\`js let a; function bar(b) { console.log(a); } function foo() { const a = 7 bar(9); } foo(); \\`\\`\\`",
+      "explanation": "\\`bar\\` does not have \\`a\\` in its scope, so the engine looks in its outer scope, the global scope. It sees \\`a\\`, but notices that there is no value assigned to it, thus it is \\`undefined\\`.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`undefined\\`", "correct": true },
+        { "text": "\\`ReferenceError\\`", "correct": false },
+        { "text": "\\`7\\`", "correct": false },
+        { "text": "\\`9\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What is logged to the console when the following code is executed and the user clicks the button: \\`\\`\\`js const button = document.querySelector('button'); function bar() { const b = 1 console.log(b) button.addEventListener('click', bar) } \\`\\`\\`",
+      "explanation": "\\`bar\\` never gets called, so \\`console.log(b)\\` is never executed.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`undefined\\`", "correct": false },
+        { "text": "\\`null\\`", "correct": false },
+        { "text": "\\`1\\`", "correct": false },
+        { "text": "nothing is logged to the console", "correct": true }
+      ]
+    },
+    {
+      "statement": "What is logged to the console when the following code is executed: \\`\\`\\`js function bar(b) { function baz(a) { console.log(a) } const a = 7 } function foo(a) { a = 5; baz(a) } foo(4); \\`\\`\\`",
+      "explanation": "We first call \\`foo\\` with a value of 4. Inside \\`foo\\`, \\`a\\`'s value is changed from 4 to 5. We then try to call \\`baz\\`. \\`baz\\` is not in \\`foo\\`'s scope, so the engine looks at the outer scope, the global scope. It does not find \\`baz\\`, so it throws a \\`ReferenceError\\`.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`undefined\\`", "correct": false },
+        { "text": "\\`ReferenceError\\`", "correct": true },
+        { "text": "\\`5\\`", "correct": false },
+        { "text": "\\`7\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "Which two mechanisms in JavaScript can \"cheat\" lexical scope?",
+      "explanation": "\\`with\\` and \\`eval\\` are the only mechanisms that allow code to be executed dynamically which means they can \"cheat\" lexical scope.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`eval\\` and \\`with\\`", "correct": true },
+        { "text": "\\`eval\\` and \\`innerHTML\\`", "correct": false },
+        { "text": "\\`this\\` and \\`with\\`", "correct": false },
+        { "text": "\\`this\\` and \\`eval\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "There are two mechanisms in JavaScript that can \"cheat\" lexical scope. Why should they not be used?",
+      "explanation": "If the Engine finds an \\`eval(..)\\` or \\`with\\` in the code, it essentially has to assume that all its awareness of identifier location may be invalid, because it cannot know at lexing time exactly what code you may pass to \\`eval(..)\\` to modify the lexical scope, or the contents of the object you may pass to \\`with\\` to create a new lexical scope to be consulted.",
+      "type": "MCQ",
+      "options": [
+        { "text": "There is no reason to not use them", "correct": false },
+        {
+          "text": "They prevent the engine from using some or all of its optimizations",
+          "correct": true
+        },
+        { "text": "They are not readable", "correct": false },
+        { "text": "They are not implemented in all browsers", "correct": false }
+      ]
+    },
+    {
+      "statement": "What is going on under the hood when importing modules to prevent collisions?",
+      "explanation": "IIFEs are used to \"insert\" code without collisions. The IIFE gives each module its own scope which allows it to use whatever non-global variables it wants without side effects.",
+      "type": "MCQ",
+      "options": [
+        { "text": "They are each wrapped in an IIFE", "correct": true },
+        { "text": "The code is injected and inserted as is", "correct": false },
+        { "text": "They use global namespaces", "correct": false },
+        { "text": "ES6 classes", "correct": false }
+      ]
+    },
+    {
+      "statement": "What is the main reason you should name your functions?",
+      "explanation": "If you are debugging an error, you might check the stack trace. If you encounter an anonymous function in the stack trace, you can't easily know which function it is referring to.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "You have to name all functions, so this is a moot point",
+          "correct": false
+        },
+        { "text": "Easier debugging", "correct": true },
+        {
+          "text": "You don't actually want to name your functions if possible because then you can't use IIFEs",
+          "correct": false
+        },
+        { "text": "Browser optimization", "correct": false }
+      ]
+    },
+    {
+      "statement": "JavaScript did not have a concept of block scoping before ES6",
+      "explanation": "Technically, it had block scoping in \\`catch\\` blocks as early as ES3. Standard block scoping was introduced in ES6 via \\`let\\` and \\`const\\`.",
+      "type": "TF",
+      "correct": false
+    },
+    {
+      "statement": "What will be logged to the console upon execution of the code below: \\`\\`\\`js {let i = 0} console.log(i) \\`\\`\\`",
+      "explanation": "Because \\`let\\` is block scoped, \\`i\\` is only within scope inside the curly braces in the first line, not in the global scope.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`0\\`", "correct": false },
+        { "text": "\\`undefined\\`", "correct": false },
+        { "text": "\\`null\\`", "correct": false },
+        { "text": "\\`ReferenceError\\`", "correct": true }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console upon execution of the code below: \\`\\`\\`js {var i = 0} console.log(i) \\`\\`\\`",
+      "explanation": "Because \\`var\\` is not block scoped, \\`i\\` is stored in the global scope.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`0\\`", "correct": true },
+        { "text": "\\`undefined\\`", "correct": false },
+        { "text": "\\`null\\`", "correct": false },
+        { "text": "\\`ReferenceError\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console upon execution of the code below: \\`\\`\\`js a = 3 var a; console.log(a) \\`\\`\\`",
+      "explanation": "\\`var a\\` is \"hoisted\" before the other lines of code are executed, thus by the time the engine executes the assignment and console logging, \\`var a\\` will have been declared and available.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`undefined\\`", "correct": false },
+        { "text": "\\`null\\`", "correct": false },
+        { "text": "\\`3\\`", "correct": true },
+        { "text": "\\`a\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console upon execution of the code below: \\`\\`\\`js console.log(a) var a = 3; \\`\\`\\`",
+      "explanation": "\\`var a\\` is \"hoisted\" before the other lines of code are executed. By the time the engine executes the \\`console.log\\`, \\`var a\\` will have been declared, but the definition will not have occurred.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`undefined\\`", "correct": true },
+        { "text": "\\`null\\`", "correct": false },
+        { "text": "\\`3\\`", "correct": false },
+        { "text": "\\`a\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console upon execution of the code below: \\`\\`\\`js foo(); var foo = function() { console.log('hello') }; \\`\\`\\`",
+      "explanation": "\\`var foo\\` is \"hoisted\" but the function is not. By the time the engine executes the first line, \\`var foo\\` will have been declared, so it is not a \\`ReferenceError\\`. We try to call it as a function, but its value is undefined which leaves us with a \\`TypeError\\`.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`'hello'\\`", "correct": false },
+        { "text": "\\`ReferenceError\\`", "correct": false },
+        { "text": "\\`TypeError\\`", "correct": true },
+        { "text": "\\`undefined\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console upon execution of the code below: \\`\\`\\`js foo(); var foo; function foo() { console.log( 1 ); } foo = function() { console.log( 2 ); }; \\`\\`\\`",
+      "explanation": "Because functions are \"hoisted\" before variables, \\`function foo\\` gets hoisted before \\`var foo\\`, and ultimately \\`var foo\\` is ignored.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`1\\`", "correct": true },
+        { "text": "\\`2\\`", "correct": false },
+        { "text": "\\`1\\` and then \\`2\\`", "correct": false },
+        { "text": "\\`2\\` and then \\`1\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "Declarations themselves are hoisted, but assignments, even assignments of function expressions, are not hoisted.",
+      "explanation": "The compiler does a first pass through your code to determine lexical scope. This is what is known as \"hoisting\".",
+      "type": "TF",
+      "correct": true
+    },
+    {
+      "statement": "What is closure?",
+      "explanation": "Another way to explain closure is to say that functions always have access to their lexical scope, no matter how or when they are called.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "The ability of a function to access its lexical scope when that function is executing outside its lexical scope.",
+          "correct": true
+        },
+        { "text": "When a function is used as a callback", "correct": false },
+        {
+          "text": "When a function is nested within another function",
+          "correct": false
+        },
+        {
+          "text": "When a function returns another function, it is said to have a closure over the second function",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "What is logged to the console after executing the code below: \\`\\`\\`js var a = 1 function foo() { var a = 2; function bar() { console.log( a ); } return bar; } var baz = foo(); baz(); \\`\\`\\`",
+      "explanation": "\\`foo\\` returns the function \\`bar\\` which is assigned to \\`baz\\`. \\`bar\\` still has access to a in \\`foo\\` even after \\`foo\\` has been called because of closure.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`undefined\\`", "correct": false },
+        { "text": "\\`null\\`", "correct": false },
+        { "text": "\\`1\\`", "correct": false },
+        { "text": "\\`2\\`", "correct": true }
+      ]
+    },
+    {
+      "statement": "When is closure observed?",
+      "explanation": "Because closure is just a function accessing lexical scope when it's executed outside of its lexical scope, that can only happen if the function is passed around as a variable",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "When functions are passed around as variables and then executed",
+          "correct": true
+        },
+        { "text": "When \\`this\\` is used in a function", "correct": false },
+        { "text": "When shadowing occurs", "correct": false },
+        { "text": "When arrow functions are executed", "correct": false }
+      ]
+    },
+    {
+      "statement": "Is closure observed when the code below is executed: \\`\\`\\` function wait(message) { setTimeout( function timer(){ console.log( message ); }, 1000 ); } wait( \"Hello!\" ); \\`\\`\\`",
+      "explanation": "\\`wait\\` gets executed immediately, but \\`timer\\` executes every 1000ms, and it still can access \\`message\\`.",
+      "type": "MCQ",
+      "options": [
+        { "text": "Yes", "correct": true },
+        { "text": "No", "correct": false }
+      ]
+    },
+    {
+      "statement": "What happens when this code is executed: \\`\\`\\` for (var i=1; i<=5; i++) { setTimeout( function timer(){ console.log( i ); }, i\\*1000 ); } \\`\\`\\`",
+      "explanation": "\\`setTimeout\\` is executed immediately which means the \\`i\\` in \\`i\\*1000\\` is what you would expect. However, \\`timer\\` does not get executed immediately. By the time \\`timer\\` is executed, the loop is finished, and \\`i\\` has a value of 6.",
+      "type": "MCQ",
+      "options": [
+        { "text": "6 is printed 5 times all at 6 seconds", "correct": false },
+        {
+          "text": "6 is printed 5 times at one second intervals",
+          "correct": true
+        },
+        {
+          "text": "1, 2, 3, 4, 5 are printed all at 6 seconds",
+          "correct": false
+        },
+        {
+          "text": "1, 2, 3, 4, 5 are printed each at one second intervals",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

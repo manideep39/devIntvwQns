@@ -1,1 +1,665 @@
-{"questions":[{"statement":"How many expressions are there in the following statement: \\`a = b \\* 2;\\` ?","explanation":"This statement has four expressions in it: 2 is a literal value expression; b is a variable expression, which means to retrieve its current value; b \\\\\\* 2 is an arithmetic expression, which means to do the multiplication; a = b \\\\\\* 2 is an assignment expression, which means to assign the result of the b \\\\\\* 2 expression to the variable a.","type":"MCQ","options":[{"text":"One","correct":false},{"text":"Two","correct":false},{"text":"Three","correct":false},{"text":"Four","correct":true}]},{"statement":"What is a computer program (source code / code)?","explanation":"A program, often referred to as source code or just code, is a set of special instructions to tell the computer what tasks to perform. Usually code is saved in a text file, although with JavaScript you can also type code directly into a developer console in a browser.","type":"MCQ","options":[{"text":"A set of special instructions to tell the computer what tasks to perform.","correct":true},{"text":"A planned series of future events or performances.","correct":false},{"text":"A sheet or booklet giving details of items or performers at an event or performance.","correct":false},{"text":"A plan of action to accomplish a specified end.","correct":false}]},{"statement":"What is a computer language (syntax)?","explanation":"The rules for valid format and combinations of instructions is called a computer language, sometimes referred to as its syntax, much the same as English tells you how to spell words and how to create valid sentences using words and punctuation.","type":"MCQ","options":[{"text":"The arrangement of words and phrases to create well-formed sentences.","correct":false},{"text":"The rules for valid format and combinations of instructions.","correct":true},{"text":"The use of words in a structured and conventional way.","correct":false},{"text":"A system of communication.","correct":false}]},{"statement":"What is an expression?","explanation":"Statements are made up of one or more expressions. An expression is any reference to a variable or value, or a set of variable(s) and value(s) combined with operators.","type":"MCQ","options":[{"text":"The action of making known one's thoughts or feelings.","correct":false},{"text":"Values that are included directly in the source code.","correct":false},{"text":"Any reference to a variable or value OR a set of variable(s) and value(s) combined with operators.","correct":true},{"text":"A statement that performs actions with values and variables.","correct":false}]},{"statement":"Interpreting the code is when... ?","explanation":"Statements like a = b \\\\\\* 2 are helpful for developers when reading and writing, but are not actually in a form the computer can directly understand. So a special utility on the computer (either an interpreter or a compiler) is used to translate the code you write into commands a computer can understand. For some computer languages, this translation of commands is typically done from top to bottom, line by line, every time the program is run, which is usually called interpreting the code.","type":"MCQ","options":[{"text":"Changes to values are tracked as your program runs.","correct":false},{"text":"Actions are performed with values and variables such as assignment and mathematic multiplication.","correct":false},{"text":"The translation of commands is done ahead of time so when the program is executed, what's running is the already translated computer instructions.","correct":false},{"text":"Translation of commands is typically done from top to bottom, line by line, every time the program is run.","correct":true}]},{"statement":"Compiling is when... ?","explanation":"It's typically asserted that JavaScript is interpreted, because your JavaScript source code is processed each time it's run. But that's not entirely accurate. The JavaScript engine actually compiles the program on the fly and then immediately runs the compiled code.","type":"MCQ","options":[{"text":"The translation of commands is done ahead of time so when the program is executed, what's running is the already translated computer instructions.","correct":true},{"text":"Changes to values are tracked as your program runs.","correct":false},{"text":"Actions are performed with values and variables such as assignment and mathematic multiplication.","correct":false},{"text":"Translation of commands is typically done from top to bottom, line by line, every time the program is run.","correct":false}]},{"statement":"Which of these next expressions has exactly one literal value, one variable, and one operator?","explanation":"Characters like \\`=\\` and \\`\\*\\` are called operators. They perform actions with the values and variables such as assignment and mathematic multiplication. Variables are like simple boxes you can store any of your stuff in, and should be declared before they are used. In programs, variables hold values to be used by the program. By contrast to variables, literal values are the value itself. For example, \\`4\\` or \\`\"cat\"\\` is a literal value. In other words, it stands alone without being stored in a variable.","type":"MCQ","options":[{"text":"\\`var even = 4;\\`","correct":true},{"text":"\\`var farm = \"cat\" + \"dog\" + \"cow\";\\`","correct":false},{"text":"\\`var newCounter = oldCounter + 1;\\`","correct":false},{"text":"\\`var bool = 5 > minimum;\\`","correct":false}]},{"statement":"Which of these next statements is NOT true about \\`alert()\\` and \\`console.log()\\`? Remember, you can open the console in your browser and experiment.","explanation":"This statement is not true, because the console can display many \\`log()\\` messages simultaneously (unlike the \\`alert()\\` method, which only displays one at a time). This is what makes \\`console.log()\\` a great tool for debugging your code, and for finding out what&#39;s going on under the hood.","type":"MCQ","options":[{"text":"Using \\`alert()\\` will block your user from interacting with your web page until the alert is closed.","correct":false},{"text":"The user cannot view more than one \\`alert()\\` message at a time.","correct":false},{"text":"The user cannot view more than one \\`console.log()\\` message at a time.","correct":true},{"text":"\\`console.log()\\` statements often have an interactive pointer to the line of code that issued the logged statement.","correct":false}]},{"statement":"Which is the correct way to get input from the user?","explanation":"The \\`prompt()\\` method displays a dialog box that prompts the visitor for input. A prompt box is often used if you want the user to input a value before entering a page. The \\`prompt()\\` method returns the input value if the user clicks \"OK\". If the user clicks \"cancel\" the method returns \\`null\\`.","type":"MCQ","options":[{"text":"\\`var name = console.log(\"What is your name? \");\\`","correct":false},{"text":"\\`var name = alert(\"What is your name? \");\\`","correct":false},{"text":"\\`var name = console.get(\"What is your name? \");\\`","correct":false},{"text":"\\`var name = prompt(\"What is your name? \");\\`","correct":true}]},{"statement":"Fill in the blanks: In the expression \\`var num = 20; \\`, the operator \\`=\\` is used to \\_\\_\\_\\_\\_\\_ the literal value \\`20\\` to the \\_\\_\\_\\_\\_\\_\\_ \\`num\\`. The keyword \\`var\\` is used to \\_\\_\\_\\_\\_\\_\\_ the variable.","explanation":"In the expression \\`var num = 20; \\`, the operator \\`=\\` is used to assign the literal value \\`20\\` to the variable \\`num\\`. The keyword \\`var\\` is used to declare the variable.","type":"MCQ","options":[{"text":"assign, variable, declare","correct":true},{"text":"assign, variable, increase","correct":false},{"text":"declare, variable, introduce","correct":false},{"text":"introduce, variable, declare","correct":false}]},{"statement":"Which of these next expressions is NOT a compound assignment?","explanation":"Compound Assignment examples: \\`-=\\`, \\`\\*=\\`, and \\`+=\\` are compound operators that combine a math operation with assignment, as in \\`a += 2\\` (same as \\`a = a + 2\\`). The double equal sign \\`==\\` is used to check equality.","type":"MCQ","options":[{"text":"\\`var even \\*= 2; \\`","correct":false},{"text":"\\`var counter += 1; \\`","correct":false},{"text":"\\`var diff -= 2; \\`","correct":false},{"text":"\\`b == a; \\`","correct":true}]},{"statement":"Which of these next equations will output the boolean value \\`false\\`? Remember, you can open the console in your browser and experiment.","explanation":"When we use the\\`==\\` loose equals operator to make the comparison like \\`\"99.00\" == 99.00\\`, JavaScript will convert the left-hand side \\`\"99.00\"\\` to its number equivalent \\`99.00\\`. The comparison then becomes \\`99.00 == 99.00\\`, which is of course \\`true\\`. This is even true when the negative sign is outside of the double quotes, like so: \\`-\"99\" == -99.00\\`; . However, comparing negative and positive values returns false even when using the loose equals \\`==\\`.","type":"MCQ","options":[{"text":"\\`99 === Number(\"99\"); \\`","correct":false},{"text":"\\`-\"99\" == 99; \\`","correct":true},{"text":"\\`-\"99\" == -99.00; \\`","correct":false},{"text":"\\`99 == \"99.00\"; \\`","correct":false}]},{"statement":"Which of these next statements is false?","explanation":"JavaScript requires wrapping the conditional in parentheses, otherwise it returns a syntax error. You can test this by running the code \\`if true { console.log(\"this is true!\"); }\\` in your browser console. Remember to also try running the same code with parentheses around the conditional.","type":"MCQ","options":[{"text":"The if statement requires an expression that can be treated as either \\`true\\` or \\`false\\`.","correct":false},{"text":"You can provide an alternative if the condition is not \\`true\\`, called an else clause.","correct":false},{"text":"JavaScript defines a list of specific values that are considered \"falsy\" (e.g: \\`0\\`, \\`\"\"\\`). Any other value not on the \"falsy\" list is automatically \"truthy\" (e.g: \\`99.99\\`, \\`\"free\"\\`)","correct":false},{"text":"The code: \\`if true { console.log(\"this is true!\"); }\\` is written in valid syntax and will print out the string.","correct":true}]},{"statement":"Which of these next statements is NOT an example of how functions improve our code?","explanation":"A function does not have to include a loop in order to save us time and make our code more readable. Some functions only have one line of code, for example console.log() (as shown in the chapter's examples)","type":"MCQ","options":[{"text":"Functions allow us to split our code into reusable pieces which saves time and energy.","correct":false},{"text":"Functions make our code more readable.","correct":false},{"text":"Each function gets its own scope, which includes a collection of variables as well as the rules for how those variables are accessed. This allows us to be in better control of our variables and prevent bugs.","correct":false},{"text":"All functions use loops (for, while, or do...while), which shorten our code significantly.","correct":true}]},{"statement":"Fill in the blank: You need \\_\\_\\_\\_\\_\\_\\_ to perform actions on values.","explanation":"The =, +, /, and \\* characters are examples of operators. They perform actions with the values and variables such as assignment, summation, division and mathematic multiplication.","type":"MCQ","options":[{"text":"operators","correct":true},{"text":"values","correct":false},{"text":"types","correct":false},{"text":"variables","correct":false}]},{"statement":"Fill in the blank: You need \\_\\_\\_\\_\\_\\_\\_ to store data (aka state) during the execution of your program.","explanation":"Variables are like simple boxes you can store any of your stuff in. In programs, variables hold values (like the number 42) to be used by the program. Think of them as symbolic placeholders for the values themselves.","type":"MCQ","options":[{"text":"loops","correct":false},{"text":"functions","correct":false},{"text":"variables","correct":true},{"text":"if statements","correct":false}]},{"statement":"You need \\_\\_\\_\\_\\_\\_\\_ like \\_\\_\\_\\_\\_\\_\\_ to make decisions.","explanation":"Conditionals are just simple \"yes or no\" questions used to make decisions. Does my account have enough balance to purchase this?. The most common conditional is an if statement.","type":"MCQ","options":[{"text":"loops, do...while","correct":false},{"text":"functions, scope","correct":false},{"text":"conditionals, if statements","correct":true},{"text":"strings, \"Hello, Worlds\"","correct":false}]},{"statement":"You need \\_\\_\\_\\_\\_\\_\\_ to repeat tasks until a condition stops being true.","explanation":"Repeating a set of actions until a certain condition fails -- in other words, repeating only while the condition holds -- is the job of programming loops. Loops can take different forms, but they all satisfy this basic behavior.","type":"MCQ","options":[{"text":"variables","correct":false},{"text":"loops","correct":true},{"text":"conditionals","correct":false},{"text":"operators","correct":false}]},{"statement":"You need \\_\\_\\_\\_\\_\\_\\_ to organize your code into logical and reusable chunks.","explanation":"A function is generally a named section of code that can be \"called\" by name, and the code inside it will be run each time. Functions are often used for code that you plan to call multiple times, but they can also be useful just to organize related bits of code into named collections, even if you only plan to call them once.","type":"MCQ","options":[{"text":"conditionals","correct":false},{"text":"loops","correct":false},{"text":"functions","correct":true},{"text":"operators","correct":false}]},{"statement":"Which of the following are ALL built-in types of values?","explanation":"JavaScript has typed values, not typed variables. The following built-in types are available: string, number, boolean, null and undefined, object, symbol (new to ES6)","type":"MCQ","options":[{"text":"string, operator, boolean","correct":false},{"text":"object, number, null","correct":true},{"text":"boolean, scope, number","correct":false},{"text":"undefined, string literal, object","correct":false}]},{"statement":"What is the operator that can be used to find out the type of a value?","explanation":"JavaScript provides a typeof operator that can examine a value and tell you what type it is. The return value from the typeof operator is always one of six (seven as of ES6! - the \"symbol\" type) string values. That is, typeof \"abc\" returns \"string\", not string.","type":"MCQ","options":[{"text":"\\`var\\`","correct":false},{"text":"\\`obj\\`","correct":false},{"text":"\\`typeof\\`","correct":true},{"text":"\\`return\\`","correct":false}]},{"statement":"What is the return value of: \\`typeof null\\`?","explanation":"typeof null is an interesting case, because it errantly returns \"object\", when you&#39;d expect it to return \"null\" (just like \\`typeof undefined\\` returns \\`undefined\\`). You can run this command in your console and see for yourself.","type":"MCQ","options":[{"text":"\\`boolean\\`","correct":false},{"text":"\\`object\\`","correct":true},{"text":"\\`undefined\\`","correct":false},{"text":"\\`number\\`","correct":false}]},{"statement":"What is the return value of: \\`typeof \\[1,2,3\\] === typeof {val: 'a', val: 'b', val: 'c'};\\` ?","explanation":"Arrays are special objects, so the typeof of both expressions are objects and the return value is \\`true\\`. Run both expressions in your console to see that the return value of \\`typeof \\[1,2,3\\]\\` and \\`typeof {1, 2, 3}\\` is object.","type":"MCQ","options":[{"text":"true","correct":true},{"text":"false","correct":false},{"text":"undefined","correct":false},{"text":"Syntax error","correct":false}]},{"statement":"In which ways can properties be accessed in an object?","explanation":"Properties can either be accessed with dot notation (i.e., obj.a) or bracket notation (i.e., obj\\[\"a\"\\]). Dot notation is shorter and generally easier to read, and is thus preferred when possible.","type":"MCQ","options":[{"text":"with dot notation OR bracket notation","correct":true},{"text":"by the values corresponding to the properties","correct":false},{"text":"with the object's prototype","correct":false},{"text":"the same as in an array","correct":false}]},{"statement":"What is the main difference between an array and an object?","explanation":"An array is an object that holds values (of any type) not particularly in named properties/keys, but rather in numerically indexed positions. Languages that start counting at zero, like JS does, use 0 as the index of the first element in the array.","type":"MCQ","options":[{"text":"the maximum length of values they can hold","correct":false},{"text":"positions in arrays begin from 0 and in objects from 1","correct":false},{"text":"arrays hold values with indexed positions instead of key/value pairs","correct":true},{"text":"anything can be stored in objects but only strings and numbers in an array","correct":false}]},{"statement":"Which of the following is an array property?","explanation":"Because arrays are special objects (as typeof implies), they can also have properties, including the automatically updated length property.","type":"MCQ","options":[{"text":"values","correct":false},{"text":"count","correct":false},{"text":"limit","correct":false},{"text":"length","correct":true}]},{"statement":"What is the most appropriate use of an object?","explanation":"You theoretically could use an array as a normal object with your own named properties, or you could use an object but only give it numeric properties (0, 1, etc.) similar to an array. However, this would generally be considered improper usage of the respective types. The best and most natural approach is to use arrays for numerically positioned values and use objects for named properties.","type":"MCQ","options":[{"text":"to have numeric properties (keys)","correct":false},{"text":"to only store strings","correct":false},{"text":"to hold pairs of named properties and values","correct":true},{"text":"to find out the count of properties","correct":false}]},{"statement":"What are the types of coercion (conversion from one type to another)?","explanation":"Coercion comes in two forms in JavaScript: explicit and implicit. Explicit coercion is simply that you can see obviously from the code that a conversion from one type to another will occur, whereas implicit coercion is when the type conversion can happen as more of a non-obvious side effect of some other operation.","type":"MCQ","options":[{"text":"natural and unnatural","correct":false},{"text":"implicit and explicit","correct":true},{"text":"normal and abnormal","correct":false},{"text":"equal and unequal","correct":false}]},{"statement":"Which of these next statments is an implicit coercion (conversion from one type to another)?","explanation":"Implicit coercion is when the type conversion can happen as more of a non-obvious side effect of some other operation, such as multiplication by 1 in the second answer.","type":"MCQ","options":[{"text":"\\`var b = Number( \"5\" );\\`","correct":false},{"text":"\\`var b = \"5\" \\* 1;\\`","correct":true},{"text":"\\`var b = \"Hello, world\" \\* 1;\\`","correct":false},{"text":"\\`var b = String( 5 );\\`","correct":false}]},{"statement":"If \\`var a = 42\\` and \\`var b = \"42\"\\`, what will the statements \\`a === b\\` AND \\`a == b\\` return?","explanation":"\\`==\\` checks for value equality with coercion allowed, and \\`===\\` checks for value equality without allowing coercion; \\`===\\` is often called \"strict equality\" for this reason. In the \\`a == b\\` comparison, JS notices that the types do not match, so it goes through an ordered series of steps to coerce one or both values to a different type until the types match, where then a simple value equality can be checked. The \\`a === b\\` produces false, because the coercion is not allowed, so the simple value comparison obviously fails.","type":"MCQ","options":[{"text":"\\`true\\` / \\`true\\`","correct":false},{"text":"\\`false\\` / \\`true\\`","correct":true},{"text":"\\`true\\` / \\`false\\`","correct":false},{"text":"\\`false\\` / \\`false\\`","correct":false}]},{"statement":"What happens when you assign a variable that has not yet been declared?","explanation":"If you try to set a variable that hasn't been declared, you'll either end up creating a variable in the top-level global scope (bad!) or getting an error, depending on \"strict mode\" (see \"Strict Mode\").","type":"MCQ","options":[{"text":"it is automatically declared and hoisted to the top of its scope","correct":false},{"text":"it becomes available only in inner/lower scopes","correct":false},{"text":"it is automatically created in the top-level global scope","correct":true},{"text":"it makes the code easier to maintain","correct":false}]},{"statement":"In which of these cases would we probably be safe using == rather than === for comparison?","explanation":"You should avoid using \\`==\\` and use \\`===\\` in these incidents: (1) If either value (aka side) in a comparison could be the \\`true\\` or \\`false\\` value. (2) If either value in a comparison could be of these specific values: \\`0\\`, \\`\"\"\\`, or \\`\\[\\]\\` -- empty array. In all other cases, you&#39;re safe to use \\`==\\`. Not only is it safe, but in many cases it simplifies your code in a way that improves readability.","type":"MCQ","options":[{"text":"If either value (aka side) in a comparison could be the \\`true\\` or \\`false\\` value.","correct":false},{"text":"If either value in a comparison could be \\`0\\`.","correct":false},{"text":"If either value in a comparison could be \\`undefined\\`.","correct":true},{"text":"If either value in a comparison could be an empty string \\`\"\"\\` or an empty array \\`\\[\\]\\`.","correct":false}]},{"statement":"If \\`a === 5\\`, which of the following is a correct use of the ternary operator and returns \\`true\\`?","explanation":"Another form of conditional in JavaScript is the \"conditional operator,\" often called the \"ternary operator. It&#39;s like a more concise form of a single \\`if\\`..\\`else\\` statement. If the test expression evaluates as \\`true\\`, the first clause \\`true\\` results, otherwise the second clause \\`false\\` results.","type":"MCQ","options":[{"text":"\\`a < 20 ? true : false\\`","correct":true},{"text":"\\`a < 20 : false ? true\\`","correct":false},{"text":"\\`a < 20 : true : false\\`","correct":false},{"text":"\\`a < 20 ? false : true\\`","correct":false}]},{"statement":"Which of these next variable names is NOT a valid identifier?","explanation":"An identifier must start with a-z, A-Z, $, or \\_. It can then contain any of those characters plus the numerals 0-9.","type":"MCQ","options":[{"text":"\\`var counter;\\`","correct":false},{"text":"\\`var \\_sumOf5;\\`","correct":false},{"text":"\\`var 5thItem;\\`","correct":true},{"text":"\\`var $amount;\\`","correct":false}]},{"statement":"Which of these next statements is true about scopes?","explanation":"When you declare a variable, it is available anywhere in that scope, as well as any lower/inner scopes. This means that if you declare a function within a function, the outer function is able to access the vairables declared inside it's child function. However, the child/inner function cannot access it's parent/outer function's scope.","type":"MCQ","options":[{"text":"When you declare a variable, it is only available anywhere in that scope.","correct":false},{"text":"When you declare a variable, it is available anywhere in that scope, as well as any sibling scopes.","correct":false},{"text":"When you declare a variable, it is available anywhere in that scope, as well as any upper/outer scopes.","correct":false},{"text":"When you declare a variable, it is available anywhere in that scope, as well as any lower/inner scopes.","correct":true}]},{"statement":"What will happen if you try to access a variable's value in a scope where it's not available?","explanation":"If you try to access a variable's value in a scope where it's not available, you'll get a ReferenceError thrown. The ReferenceError object represents an error when a non-existent variable is referenced. If you try to set a variable that hasn't been declared, you'll either end up creating a variable in the top-level global scope (bad!) or getting an error (depending on \"strict mode\"). You can try this out in your console, and see for yourself.","type":"MCQ","options":[{"text":"\\`SyntaxError\\`","correct":false},{"text":"\\`ReferenceError\\`","correct":true},{"text":"\\`InternalError\\`","correct":false},{"text":"\\`TypeError\\`","correct":false}]},{"statement":"Which of these statements is NOT true about strict mode?","explanation":"To invoke strict mode for an entire script, put the exact statement \\`use strict\\`;","type":"MCQ","options":[{"text":"ES5 added a \"strict mode\" to the language, which is seen as keeping the code to a safer and more appropriate set of guidelines.","correct":false},{"text":"One key difference (improvement!) with strict mode is disallowing the implicit auto-global variable declaration from omitting the \\`var\\`.","correct":false},{"text":"To invoke strict mode for an entire script, put the exact statement \\`use strict mode\\`; (or \\`use strict mode;\\`) before any other statements.","correct":true},{"text":"You can opt in to strict mode for an individual function, or an entire file, depending on where you put the strict mode pragma.","correct":false}]},{"statement":"Which of the lines below will print \\`\"Hello!\"\\` to the console when executed?","explanation":"Immediately Invoked Function Expressions (IIFE) is a way to execute a function expression. It requires an outer set of parentheses \\`( .. )\\` that surrounds the function expression. It also requires a final set of parentheses at the end of the expression, which is what actually executes the function expression referenced immediately before it.","type":"MCQ","options":[{"text":"\\`(function (){ console( \"Hello!\" ); })();\\`","correct":false},{"text":"\\`function (){ console.log( \"Hello!\" ); }();\\`","correct":false},{"text":"\\`function (){ console.log( \"Hello!\" ); }\\`","correct":false},{"text":"\\`(function (){ console.log( \"Hello!\" ); })();\\`","correct":true}]},{"statement":"What is Polyfilling?","explanation":"The word \"polyfill\" is an invented term used to refer to taking the definition of a newer feature and producing a piece of code that's equivalent to the behavior, but is able to run in older JS environments. For example, ES6 defines a utility called Number.isNaN(..) to provide an accurate non-buggy check for NaN values, deprecating the original isNaN(..) utility. But it's easy to polyfill that utility so that you can start using it in your code regardless of whether the end user is in an ES6 browser or not.","type":"MCQ","options":[{"text":"Taking the definition of a newer feature and producing code that offers equivalent behavior, but is able to run in newer JS environments.","correct":false},{"text":"Taking the definition of a newer feature and producing code that offers equivalent behavior, but is able to run in older JS environments.","correct":true},{"text":"A way to \"remember\" and continue to access the scope of a function (its variables) even once the function has finished running.","correct":false},{"text":"A way to \"remember\" and continue to access the scope of a function (its variables) even before the function started running.","correct":false}]},{"statement":"What is Transpiling?","explanation":"Transpiling is using a tool that converts your newer code into older code equivalents. The term combines the terms for transforming + compiling. Essentially, your source code is authored in the new syntax form, but what you deploy to the browser is the transpiled code in old syntax form. You typically insert the transpiler into your build process, similar to your code linter or your minifier.","type":"MCQ","options":[{"text":"A way to define private implementation details (variables, functions), as well as a public API that is accessible from the outside.","correct":false},{"text":"A way to define public implementation details (variables, functions), as well as a private API that is not accessible to the outside.","correct":false},{"text":"Using a tool that converts your older code into newer code equivalents.","correct":false},{"text":"Using a tool that converts your newer code into older code equivalents.","correct":true}]},{"statement":"Which of the following expressions is controlled by JavaScript specification?","explanation":"The document variable exists as a global variable when your code is running in a browser. It's not provided by the JS engine, nor is it particularly controlled by the JavaScript specification. Similarly alert(..) and console.log(..) is provided to your JS program by the browser, not by the JS engine itself. The call you make sends the message to the browser internals and it handles drawing, displaying the message box or logging the message to console.","type":"MCQ","options":[{"text":"\\`var el = document.getElementById( \"foo\" );\\`","correct":false},{"text":"\\`console.log(\"Hello World!\");\\`","correct":false},{"text":"\\`alert(document.URL);\\`","correct":false},{"text":"\\`var a = Object.assign({}, { foo : \"bar\"})\\`","correct":true}]}]}
+{
+  "questions": [
+    {
+      "statement": "How many expressions are there in the following statement: \\`a = b \\* 2;\\` ?",
+      "explanation": "This statement has four expressions in it: 2 is a literal value expression; b is a variable expression, which means to retrieve its current value; b \\\\\\* 2 is an arithmetic expression, which means to do the multiplication; a = b \\\\\\* 2 is an assignment expression, which means to assign the result of the b \\\\\\* 2 expression to the variable a.",
+      "type": "MCQ",
+      "options": [
+        { "text": "One", "correct": false },
+        { "text": "Two", "correct": false },
+        { "text": "Three", "correct": false },
+        { "text": "Four", "correct": true }
+      ]
+    },
+    {
+      "statement": "What is a computer program (source code / code)?",
+      "explanation": "A program, often referred to as source code or just code, is a set of special instructions to tell the computer what tasks to perform. Usually code is saved in a text file, although with JavaScript you can also type code directly into a developer console in a browser.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "A set of special instructions to tell the computer what tasks to perform.",
+          "correct": true
+        },
+        {
+          "text": "A planned series of future events or performances.",
+          "correct": false
+        },
+        {
+          "text": "A sheet or booklet giving details of items or performers at an event or performance.",
+          "correct": false
+        },
+        {
+          "text": "A plan of action to accomplish a specified end.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "What is a computer language (syntax)?",
+      "explanation": "The rules for valid format and combinations of instructions is called a computer language, sometimes referred to as its syntax, much the same as English tells you how to spell words and how to create valid sentences using words and punctuation.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "The arrangement of words and phrases to create well-formed sentences.",
+          "correct": false
+        },
+        {
+          "text": "The rules for valid format and combinations of instructions.",
+          "correct": true
+        },
+        {
+          "text": "The use of words in a structured and conventional way.",
+          "correct": false
+        },
+        { "text": "A system of communication.", "correct": false }
+      ]
+    },
+    {
+      "statement": "What is an expression?",
+      "explanation": "Statements are made up of one or more expressions. An expression is any reference to a variable or value, or a set of variable(s) and value(s) combined with operators.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "The action of making known one's thoughts or feelings.",
+          "correct": false
+        },
+        {
+          "text": "Values that are included directly in the source code.",
+          "correct": false
+        },
+        {
+          "text": "Any reference to a variable or value OR a set of variable(s) and value(s) combined with operators.",
+          "correct": true
+        },
+        {
+          "text": "A statement that performs actions with values and variables.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "Interpreting the code is when... ?",
+      "explanation": "Statements like a = b \\\\\\* 2 are helpful for developers when reading and writing, but are not actually in a form the computer can directly understand. So a special utility on the computer (either an interpreter or a compiler) is used to translate the code you write into commands a computer can understand. For some computer languages, this translation of commands is typically done from top to bottom, line by line, every time the program is run, which is usually called interpreting the code.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "Changes to values are tracked as your program runs.",
+          "correct": false
+        },
+        {
+          "text": "Actions are performed with values and variables such as assignment and mathematic multiplication.",
+          "correct": false
+        },
+        {
+          "text": "The translation of commands is done ahead of time so when the program is executed, what's running is the already translated computer instructions.",
+          "correct": false
+        },
+        {
+          "text": "Translation of commands is typically done from top to bottom, line by line, every time the program is run.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "statement": "Compiling is when... ?",
+      "explanation": "It's typically asserted that JavaScript is interpreted, because your JavaScript source code is processed each time it's run. But that's not entirely accurate. The JavaScript engine actually compiles the program on the fly and then immediately runs the compiled code.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "The translation of commands is done ahead of time so when the program is executed, what's running is the already translated computer instructions.",
+          "correct": true
+        },
+        {
+          "text": "Changes to values are tracked as your program runs.",
+          "correct": false
+        },
+        {
+          "text": "Actions are performed with values and variables such as assignment and mathematic multiplication.",
+          "correct": false
+        },
+        {
+          "text": "Translation of commands is typically done from top to bottom, line by line, every time the program is run.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "Which of these next expressions has exactly one literal value, one variable, and one operator?",
+      "explanation": "Characters like \\`=\\` and \\`\\*\\` are called operators. They perform actions with the values and variables such as assignment and mathematic multiplication. Variables are like simple boxes you can store any of your stuff in, and should be declared before they are used. In programs, variables hold values to be used by the program. By contrast to variables, literal values are the value itself. For example, \\`4\\` or \\`\"cat\"\\` is a literal value. In other words, it stands alone without being stored in a variable.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`var even = 4;\\`", "correct": true },
+        {
+          "text": "\\`var farm = \"cat\" + \"dog\" + \"cow\";\\`",
+          "correct": false
+        },
+        { "text": "\\`var newCounter = oldCounter + 1;\\`", "correct": false },
+        { "text": "\\`var bool = 5 > minimum;\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "Which of these next statements is NOT true about \\`alert()\\` and \\`console.log()\\`? Remember, you can open the console in your browser and experiment.",
+      "explanation": "This statement is not true, because the console can display many \\`log()\\` messages simultaneously (unlike the \\`alert()\\` method, which only displays one at a time). This is what makes \\`console.log()\\` a great tool for debugging your code, and for finding out what&#39;s going on under the hood.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "Using \\`alert()\\` will block your user from interacting with your web page until the alert is closed.",
+          "correct": false
+        },
+        {
+          "text": "The user cannot view more than one \\`alert()\\` message at a time.",
+          "correct": false
+        },
+        {
+          "text": "The user cannot view more than one \\`console.log()\\` message at a time.",
+          "correct": true
+        },
+        {
+          "text": "\\`console.log()\\` statements often have an interactive pointer to the line of code that issued the logged statement.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "Which is the correct way to get input from the user?",
+      "explanation": "The \\`prompt()\\` method displays a dialog box that prompts the visitor for input. A prompt box is often used if you want the user to input a value before entering a page. The \\`prompt()\\` method returns the input value if the user clicks \"OK\". If the user clicks \"cancel\" the method returns \\`null\\`.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "\\`var name = console.log(\"What is your name? \");\\`",
+          "correct": false
+        },
+        {
+          "text": "\\`var name = alert(\"What is your name? \");\\`",
+          "correct": false
+        },
+        {
+          "text": "\\`var name = console.get(\"What is your name? \");\\`",
+          "correct": false
+        },
+        {
+          "text": "\\`var name = prompt(\"What is your name? \");\\`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "statement": "Fill in the blanks: In the expression \\`var num = 20; \\`, the operator \\`=\\` is used to \\_\\_\\_\\_\\_\\_ the literal value \\`20\\` to the \\_\\_\\_\\_\\_\\_\\_ \\`num\\`. The keyword \\`var\\` is used to \\_\\_\\_\\_\\_\\_\\_ the variable.",
+      "explanation": "In the expression \\`var num = 20; \\`, the operator \\`=\\` is used to assign the literal value \\`20\\` to the variable \\`num\\`. The keyword \\`var\\` is used to declare the variable.",
+      "type": "MCQ",
+      "options": [
+        { "text": "assign, variable, declare", "correct": true },
+        { "text": "assign, variable, increase", "correct": false },
+        { "text": "declare, variable, introduce", "correct": false },
+        { "text": "introduce, variable, declare", "correct": false }
+      ]
+    },
+    {
+      "statement": "Which of these next expressions is NOT a compound assignment?",
+      "explanation": "Compound Assignment examples: \\`-=\\`, \\`\\*=\\`, and \\`+=\\` are compound operators that combine a math operation with assignment, as in \\`a += 2\\` (same as \\`a = a + 2\\`). The double equal sign \\`==\\` is used to check equality.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`var even \\*= 2; \\`", "correct": false },
+        { "text": "\\`var counter += 1; \\`", "correct": false },
+        { "text": "\\`var diff -= 2; \\`", "correct": false },
+        { "text": "\\`b == a; \\`", "correct": true }
+      ]
+    },
+    {
+      "statement": "Which of these next equations will output the boolean value \\`false\\`? Remember, you can open the console in your browser and experiment.",
+      "explanation": "When we use the\\`==\\` loose equals operator to make the comparison like \\`\"99.00\" == 99.00\\`, JavaScript will convert the left-hand side \\`\"99.00\"\\` to its number equivalent \\`99.00\\`. The comparison then becomes \\`99.00 == 99.00\\`, which is of course \\`true\\`. This is even true when the negative sign is outside of the double quotes, like so: \\`-\"99\" == -99.00\\`; . However, comparing negative and positive values returns false even when using the loose equals \\`==\\`.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`99 === Number(\"99\"); \\`", "correct": false },
+        { "text": "\\`-\"99\" == 99; \\`", "correct": true },
+        { "text": "\\`-\"99\" == -99.00; \\`", "correct": false },
+        { "text": "\\`99 == \"99.00\"; \\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "Which of these next statements is false?",
+      "explanation": "JavaScript requires wrapping the conditional in parentheses, otherwise it returns a syntax error. You can test this by running the code \\`if true { console.log(\"this is true!\"); }\\` in your browser console. Remember to also try running the same code with parentheses around the conditional.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "The if statement requires an expression that can be treated as either \\`true\\` or \\`false\\`.",
+          "correct": false
+        },
+        {
+          "text": "You can provide an alternative if the condition is not \\`true\\`, called an else clause.",
+          "correct": false
+        },
+        {
+          "text": "JavaScript defines a list of specific values that are considered \"falsy\" (e.g: \\`0\\`, \\`\"\"\\`). Any other value not on the \"falsy\" list is automatically \"truthy\" (e.g: \\`99.99\\`, \\`\"free\"\\`)",
+          "correct": false
+        },
+        {
+          "text": "The code: \\`if true { console.log(\"this is true!\"); }\\` is written in valid syntax and will print out the string.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "statement": "Which of these next statements is NOT an example of how functions improve our code?",
+      "explanation": "A function does not have to include a loop in order to save us time and make our code more readable. Some functions only have one line of code, for example console.log() (as shown in the chapter's examples)",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "Functions allow us to split our code into reusable pieces which saves time and energy.",
+          "correct": false
+        },
+        { "text": "Functions make our code more readable.", "correct": false },
+        {
+          "text": "Each function gets its own scope, which includes a collection of variables as well as the rules for how those variables are accessed. This allows us to be in better control of our variables and prevent bugs.",
+          "correct": false
+        },
+        {
+          "text": "All functions use loops (for, while, or do...while), which shorten our code significantly.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "statement": "Fill in the blank: You need \\_\\_\\_\\_\\_\\_\\_ to perform actions on values.",
+      "explanation": "The =, +, /, and \\* characters are examples of operators. They perform actions with the values and variables such as assignment, summation, division and mathematic multiplication.",
+      "type": "MCQ",
+      "options": [
+        { "text": "operators", "correct": true },
+        { "text": "values", "correct": false },
+        { "text": "types", "correct": false },
+        { "text": "variables", "correct": false }
+      ]
+    },
+    {
+      "statement": "Fill in the blank: You need \\_\\_\\_\\_\\_\\_\\_ to store data (aka state) during the execution of your program.",
+      "explanation": "Variables are like simple boxes you can store any of your stuff in. In programs, variables hold values (like the number 42) to be used by the program. Think of them as symbolic placeholders for the values themselves.",
+      "type": "MCQ",
+      "options": [
+        { "text": "loops", "correct": false },
+        { "text": "functions", "correct": false },
+        { "text": "variables", "correct": true },
+        { "text": "if statements", "correct": false }
+      ]
+    },
+    {
+      "statement": "You need \\_\\_\\_\\_\\_\\_\\_ like \\_\\_\\_\\_\\_\\_\\_ to make decisions.",
+      "explanation": "Conditionals are just simple \"yes or no\" questions used to make decisions. Does my account have enough balance to purchase this?. The most common conditional is an if statement.",
+      "type": "MCQ",
+      "options": [
+        { "text": "loops, do...while", "correct": false },
+        { "text": "functions, scope", "correct": false },
+        { "text": "conditionals, if statements", "correct": true },
+        { "text": "strings, \"Hello, Worlds\"", "correct": false }
+      ]
+    },
+    {
+      "statement": "You need \\_\\_\\_\\_\\_\\_\\_ to repeat tasks until a condition stops being true.",
+      "explanation": "Repeating a set of actions until a certain condition fails -- in other words, repeating only while the condition holds -- is the job of programming loops. Loops can take different forms, but they all satisfy this basic behavior.",
+      "type": "MCQ",
+      "options": [
+        { "text": "variables", "correct": false },
+        { "text": "loops", "correct": true },
+        { "text": "conditionals", "correct": false },
+        { "text": "operators", "correct": false }
+      ]
+    },
+    {
+      "statement": "You need \\_\\_\\_\\_\\_\\_\\_ to organize your code into logical and reusable chunks.",
+      "explanation": "A function is generally a named section of code that can be \"called\" by name, and the code inside it will be run each time. Functions are often used for code that you plan to call multiple times, but they can also be useful just to organize related bits of code into named collections, even if you only plan to call them once.",
+      "type": "MCQ",
+      "options": [
+        { "text": "conditionals", "correct": false },
+        { "text": "loops", "correct": false },
+        { "text": "functions", "correct": true },
+        { "text": "operators", "correct": false }
+      ]
+    },
+    {
+      "statement": "Which of the following are ALL built-in types of values?",
+      "explanation": "JavaScript has typed values, not typed variables. The following built-in types are available: string, number, boolean, null and undefined, object, symbol (new to ES6)",
+      "type": "MCQ",
+      "options": [
+        { "text": "string, operator, boolean", "correct": false },
+        { "text": "object, number, null", "correct": true },
+        { "text": "boolean, scope, number", "correct": false },
+        { "text": "undefined, string literal, object", "correct": false }
+      ]
+    },
+    {
+      "statement": "What is the operator that can be used to find out the type of a value?",
+      "explanation": "JavaScript provides a typeof operator that can examine a value and tell you what type it is. The return value from the typeof operator is always one of six (seven as of ES6! - the \"symbol\" type) string values. That is, typeof \"abc\" returns \"string\", not string.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`var\\`", "correct": false },
+        { "text": "\\`obj\\`", "correct": false },
+        { "text": "\\`typeof\\`", "correct": true },
+        { "text": "\\`return\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What is the return value of: \\`typeof null\\`?",
+      "explanation": "typeof null is an interesting case, because it errantly returns \"object\", when you&#39;d expect it to return \"null\" (just like \\`typeof undefined\\` returns \\`undefined\\`). You can run this command in your console and see for yourself.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`boolean\\`", "correct": false },
+        { "text": "\\`object\\`", "correct": true },
+        { "text": "\\`undefined\\`", "correct": false },
+        { "text": "\\`number\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What is the return value of: \\`typeof \\[1,2,3\\] === typeof {val: 'a', val: 'b', val: 'c'};\\` ?",
+      "explanation": "Arrays are special objects, so the typeof of both expressions are objects and the return value is \\`true\\`. Run both expressions in your console to see that the return value of \\`typeof \\[1,2,3\\]\\` and \\`typeof {1, 2, 3}\\` is object.",
+      "type": "MCQ",
+      "options": [
+        { "text": "true", "correct": true },
+        { "text": "false", "correct": false },
+        { "text": "undefined", "correct": false },
+        { "text": "Syntax error", "correct": false }
+      ]
+    },
+    {
+      "statement": "In which ways can properties be accessed in an object?",
+      "explanation": "Properties can either be accessed with dot notation (i.e., obj.a) or bracket notation (i.e., obj\\[\"a\"\\]). Dot notation is shorter and generally easier to read, and is thus preferred when possible.",
+      "type": "MCQ",
+      "options": [
+        { "text": "with dot notation OR bracket notation", "correct": true },
+        {
+          "text": "by the values corresponding to the properties",
+          "correct": false
+        },
+        { "text": "with the object's prototype", "correct": false },
+        { "text": "the same as in an array", "correct": false }
+      ]
+    },
+    {
+      "statement": "What is the main difference between an array and an object?",
+      "explanation": "An array is an object that holds values (of any type) not particularly in named properties/keys, but rather in numerically indexed positions. Languages that start counting at zero, like JS does, use 0 as the index of the first element in the array.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "the maximum length of values they can hold",
+          "correct": false
+        },
+        {
+          "text": "positions in arrays begin from 0 and in objects from 1",
+          "correct": false
+        },
+        {
+          "text": "arrays hold values with indexed positions instead of key/value pairs",
+          "correct": true
+        },
+        {
+          "text": "anything can be stored in objects but only strings and numbers in an array",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "Which of the following is an array property?",
+      "explanation": "Because arrays are special objects (as typeof implies), they can also have properties, including the automatically updated length property.",
+      "type": "MCQ",
+      "options": [
+        { "text": "values", "correct": false },
+        { "text": "count", "correct": false },
+        { "text": "limit", "correct": false },
+        { "text": "length", "correct": true }
+      ]
+    },
+    {
+      "statement": "What is the most appropriate use of an object?",
+      "explanation": "You theoretically could use an array as a normal object with your own named properties, or you could use an object but only give it numeric properties (0, 1, etc.) similar to an array. However, this would generally be considered improper usage of the respective types. The best and most natural approach is to use arrays for numerically positioned values and use objects for named properties.",
+      "type": "MCQ",
+      "options": [
+        { "text": "to have numeric properties (keys)", "correct": false },
+        { "text": "to only store strings", "correct": false },
+        {
+          "text": "to hold pairs of named properties and values",
+          "correct": true
+        },
+        { "text": "to find out the count of properties", "correct": false }
+      ]
+    },
+    {
+      "statement": "What are the types of coercion (conversion from one type to another)?",
+      "explanation": "Coercion comes in two forms in JavaScript: explicit and implicit. Explicit coercion is simply that you can see obviously from the code that a conversion from one type to another will occur, whereas implicit coercion is when the type conversion can happen as more of a non-obvious side effect of some other operation.",
+      "type": "MCQ",
+      "options": [
+        { "text": "natural and unnatural", "correct": false },
+        { "text": "implicit and explicit", "correct": true },
+        { "text": "normal and abnormal", "correct": false },
+        { "text": "equal and unequal", "correct": false }
+      ]
+    },
+    {
+      "statement": "Which of these next statments is an implicit coercion (conversion from one type to another)?",
+      "explanation": "Implicit coercion is when the type conversion can happen as more of a non-obvious side effect of some other operation, such as multiplication by 1 in the second answer.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`var b = Number( \"5\" );\\`", "correct": false },
+        { "text": "\\`var b = \"5\" \\* 1;\\`", "correct": true },
+        { "text": "\\`var b = \"Hello, world\" \\* 1;\\`", "correct": false },
+        { "text": "\\`var b = String( 5 );\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "If \\`var a = 42\\` and \\`var b = \"42\"\\`, what will the statements \\`a === b\\` AND \\`a == b\\` return?",
+      "explanation": "\\`==\\` checks for value equality with coercion allowed, and \\`===\\` checks for value equality without allowing coercion; \\`===\\` is often called \"strict equality\" for this reason. In the \\`a == b\\` comparison, JS notices that the types do not match, so it goes through an ordered series of steps to coerce one or both values to a different type until the types match, where then a simple value equality can be checked. The \\`a === b\\` produces false, because the coercion is not allowed, so the simple value comparison obviously fails.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`true\\` / \\`true\\`", "correct": false },
+        { "text": "\\`false\\` / \\`true\\`", "correct": true },
+        { "text": "\\`true\\` / \\`false\\`", "correct": false },
+        { "text": "\\`false\\` / \\`false\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What happens when you assign a variable that has not yet been declared?",
+      "explanation": "If you try to set a variable that hasn't been declared, you'll either end up creating a variable in the top-level global scope (bad!) or getting an error, depending on \"strict mode\" (see \"Strict Mode\").",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "it is automatically declared and hoisted to the top of its scope",
+          "correct": false
+        },
+        {
+          "text": "it becomes available only in inner/lower scopes",
+          "correct": false
+        },
+        {
+          "text": "it is automatically created in the top-level global scope",
+          "correct": true
+        },
+        { "text": "it makes the code easier to maintain", "correct": false }
+      ]
+    },
+    {
+      "statement": "In which of these cases would we probably be safe using == rather than === for comparison?",
+      "explanation": "You should avoid using \\`==\\` and use \\`===\\` in these incidents: (1) If either value (aka side) in a comparison could be the \\`true\\` or \\`false\\` value. (2) If either value in a comparison could be of these specific values: \\`0\\`, \\`\"\"\\`, or \\`\\[\\]\\` -- empty array. In all other cases, you&#39;re safe to use \\`==\\`. Not only is it safe, but in many cases it simplifies your code in a way that improves readability.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "If either value (aka side) in a comparison could be the \\`true\\` or \\`false\\` value.",
+          "correct": false
+        },
+        {
+          "text": "If either value in a comparison could be \\`0\\`.",
+          "correct": false
+        },
+        {
+          "text": "If either value in a comparison could be \\`undefined\\`.",
+          "correct": true
+        },
+        {
+          "text": "If either value in a comparison could be an empty string \\`\"\"\\` or an empty array \\`\\[\\]\\`.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "If \\`a === 5\\`, which of the following is a correct use of the ternary operator and returns \\`true\\`?",
+      "explanation": "Another form of conditional in JavaScript is the \"conditional operator,\" often called the \"ternary operator. It&#39;s like a more concise form of a single \\`if\\`..\\`else\\` statement. If the test expression evaluates as \\`true\\`, the first clause \\`true\\` results, otherwise the second clause \\`false\\` results.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`a < 20 ? true : false\\`", "correct": true },
+        { "text": "\\`a < 20 : false ? true\\`", "correct": false },
+        { "text": "\\`a < 20 : true : false\\`", "correct": false },
+        { "text": "\\`a < 20 ? false : true\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "Which of these next variable names is NOT a valid identifier?",
+      "explanation": "An identifier must start with a-z, A-Z, $, or \\_. It can then contain any of those characters plus the numerals 0-9.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`var counter;\\`", "correct": false },
+        { "text": "\\`var \\_sumOf5;\\`", "correct": false },
+        { "text": "\\`var 5thItem;\\`", "correct": true },
+        { "text": "\\`var $amount;\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "Which of these next statements is true about scopes?",
+      "explanation": "When you declare a variable, it is available anywhere in that scope, as well as any lower/inner scopes. This means that if you declare a function within a function, the outer function is able to access the vairables declared inside it's child function. However, the child/inner function cannot access it's parent/outer function's scope.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "When you declare a variable, it is only available anywhere in that scope.",
+          "correct": false
+        },
+        {
+          "text": "When you declare a variable, it is available anywhere in that scope, as well as any sibling scopes.",
+          "correct": false
+        },
+        {
+          "text": "When you declare a variable, it is available anywhere in that scope, as well as any upper/outer scopes.",
+          "correct": false
+        },
+        {
+          "text": "When you declare a variable, it is available anywhere in that scope, as well as any lower/inner scopes.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "statement": "What will happen if you try to access a variable's value in a scope where it's not available?",
+      "explanation": "If you try to access a variable's value in a scope where it's not available, you'll get a ReferenceError thrown. The ReferenceError object represents an error when a non-existent variable is referenced. If you try to set a variable that hasn't been declared, you'll either end up creating a variable in the top-level global scope (bad!) or getting an error (depending on \"strict mode\"). You can try this out in your console, and see for yourself.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`SyntaxError\\`", "correct": false },
+        { "text": "\\`ReferenceError\\`", "correct": true },
+        { "text": "\\`InternalError\\`", "correct": false },
+        { "text": "\\`TypeError\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "Which of these statements is NOT true about strict mode?",
+      "explanation": "To invoke strict mode for an entire script, put the exact statement \\`use strict\\`;",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "ES5 added a \"strict mode\" to the language, which is seen as keeping the code to a safer and more appropriate set of guidelines.",
+          "correct": false
+        },
+        {
+          "text": "One key difference (improvement!) with strict mode is disallowing the implicit auto-global variable declaration from omitting the \\`var\\`.",
+          "correct": false
+        },
+        {
+          "text": "To invoke strict mode for an entire script, put the exact statement \\`use strict mode\\`; (or \\`use strict mode;\\`) before any other statements.",
+          "correct": true
+        },
+        {
+          "text": "You can opt in to strict mode for an individual function, or an entire file, depending on where you put the strict mode pragma.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "Which of the lines below will print \\`\"Hello!\"\\` to the console when executed?",
+      "explanation": "Immediately Invoked Function Expressions (IIFE) is a way to execute a function expression. It requires an outer set of parentheses \\`( .. )\\` that surrounds the function expression. It also requires a final set of parentheses at the end of the expression, which is what actually executes the function expression referenced immediately before it.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "\\`(function (){ console( \"Hello!\" ); })();\\`",
+          "correct": false
+        },
+        {
+          "text": "\\`function (){ console.log( \"Hello!\" ); }();\\`",
+          "correct": false
+        },
+        {
+          "text": "\\`function (){ console.log( \"Hello!\" ); }\\`",
+          "correct": false
+        },
+        {
+          "text": "\\`(function (){ console.log( \"Hello!\" ); })();\\`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "statement": "What is Polyfilling?",
+      "explanation": "The word \"polyfill\" is an invented term used to refer to taking the definition of a newer feature and producing a piece of code that's equivalent to the behavior, but is able to run in older JS environments. For example, ES6 defines a utility called Number.isNaN(..) to provide an accurate non-buggy check for NaN values, deprecating the original isNaN(..) utility. But it's easy to polyfill that utility so that you can start using it in your code regardless of whether the end user is in an ES6 browser or not.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "Taking the definition of a newer feature and producing code that offers equivalent behavior, but is able to run in newer JS environments.",
+          "correct": false
+        },
+        {
+          "text": "Taking the definition of a newer feature and producing code that offers equivalent behavior, but is able to run in older JS environments.",
+          "correct": true
+        },
+        {
+          "text": "A way to \"remember\" and continue to access the scope of a function (its variables) even once the function has finished running.",
+          "correct": false
+        },
+        {
+          "text": "A way to \"remember\" and continue to access the scope of a function (its variables) even before the function started running.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "What is Transpiling?",
+      "explanation": "Transpiling is using a tool that converts your newer code into older code equivalents. The term combines the terms for transforming + compiling. Essentially, your source code is authored in the new syntax form, but what you deploy to the browser is the transpiled code in old syntax form. You typically insert the transpiler into your build process, similar to your code linter or your minifier.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "A way to define private implementation details (variables, functions), as well as a public API that is accessible from the outside.",
+          "correct": false
+        },
+        {
+          "text": "A way to define public implementation details (variables, functions), as well as a private API that is not accessible to the outside.",
+          "correct": false
+        },
+        {
+          "text": "Using a tool that converts your older code into newer code equivalents.",
+          "correct": false
+        },
+        {
+          "text": "Using a tool that converts your newer code into older code equivalents.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "statement": "Which of the following expressions is controlled by JavaScript specification?",
+      "explanation": "The document variable exists as a global variable when your code is running in a browser. It's not provided by the JS engine, nor is it particularly controlled by the JavaScript specification. Similarly alert(..) and console.log(..) is provided to your JS program by the browser, not by the JS engine itself. The call you make sends the message to the browser internals and it handles drawing, displaying the message box or logging the message to console.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "\\`var el = document.getElementById( \"foo\" );\\`",
+          "correct": false
+        },
+        { "text": "\\`console.log(\"Hello World!\");\\`", "correct": false },
+        { "text": "\\`alert(document.URL);\\`", "correct": false },
+        {
+          "text": "\\`var a = Object.assign({}, { foo : \"bar\"})\\`",
+          "correct": true
+        }
+      ]
+    }
+  ]
+}

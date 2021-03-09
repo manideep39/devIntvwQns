@@ -1,1 +1,1107 @@
-{"questions":[{"statement":"Transpiling is transforming your ES6+ code into equivalent code that works in ES5 environments.","explanation":"The idea behind a technique called transpiling (transformation + compiling) is to use a special tool to transform your ES6 code into equivalent (or close!) matches that work in ES5 environments.","type":"TF","correct":true},{"statement":"What are polyfills?","explanation":"Transpiling with polyfills allows you to develop using the latest JavaScript APIs without worrying about breaking your app in certain browsers.","type":"MCQ","options":[{"text":"A pattern for defining equivalent behavior from a newer environment into an older environment, when possible.","correct":true},{"text":"3rd party libraries you use in your code base","correct":false},{"text":"Objects that contain multiple functions","correct":false},{"text":"A new feature of ES6 that provides syntactic sugar on top of functions","correct":false}]},{"statement":"In general, new APIs cannot be polyfilled, but syntax often can be.","explanation":"Not all new ES6 features need a transpiler. Polyfills (aka shims) are a pattern for defining equivalent behavior from a newer environment into an older environment, when possible. Syntax cannot be polyfilled, but APIs often can be.","type":"TF","correct":false},{"statement":"It is invalid in JS to create a standalone block statement like the following: \\`\\`\\`js { let a = 3; console.log( a ); } \\`\\`\\`","explanation":"It's not very common or idiomatic thus far in JS to use a standalone \\`{ .. }\\` block, but it's always been valid","type":"TF","correct":false},{"statement":"What will be logged to the console when the following code is executed? \\`\\`\\`js { console.log( a ); console.log( b ); var a; let b; } \\`\\`\\`","explanation":"Accessing a let-declared variable earlier than its \\`let\\` .. declaration/initialization causes an error, whereas with \\`var\\` declarations the ordering doesn’t matter","type":"MCQ","options":[{"text":"\\`ReferenceError\\` / \\`ReferenceError\\`","correct":false},{"text":"\\`undefined\\` / \\`undefined\\`","correct":false},{"text":"\\`ReferenceError\\` / \\`undefined\\`","correct":false},{"text":"\\`undefined\\` / \\`ReferenceError\\`","correct":true}]},{"statement":"What will be logged to the console when the following is executed? \\`\\`\\`js let nums = \\[\\] for (let i = 1; i < 6; i++) { nums.push(function() {console.log(i)}); } nums.forEach(fn => fn()); \\`\\`\\`","explanation":"The \\`let i\\` in the for header declares an \\`i\\` not just for the for loop itself, but it redeclares a new \\`i\\` for each iteration of the loop. That means that closures created inside the loop iteration close over those per-iteration variables the way you'd expect. If you tried that same snippet but with \\`var i\\` in the for loop header, you'd get \\`6,6,6,6,6\\` instead.","type":"MCQ","options":[{"text":"\\`1,2,3,4,5\\`","correct":true},{"text":"\\`5,5,5,5,5\\`","correct":false},{"text":"\\`6,6,6,6,6\\`","correct":false},{"text":"\\`1,1,1,1,1\\`","correct":false}]},{"statement":"What will be logged to the console when the following is executed? \\`\\`\\`js let a = \\[2,3,4\\]; let b = \\[ 1, ...a, 5 \\]; console.log(b); \\`\\`\\`","explanation":"When \\`...\\` is used in front of an array, it acts to “spread” it out into its individual values.","type":"MCQ","options":[{"text":"\\`\\[1, null, 5\\]\\`","correct":false},{"text":"\\`\\[1, undefined, 5\\]\\`","correct":false},{"text":"\\`\\[1, 2, 3, 4, 5\\]\\`","correct":true},{"text":"\\`\\[1, \\[2, 3, 4\\], 5\\]\\`","correct":false}]},{"statement":"What will the value of parameter \\`\\`\\`z\\`\\`\\` be inside the following function? \\`\\`\\`js function foo(x, y, ...z) { console.log( z ); } foo( 1, 2, 3, 4, 5 ); \\`\\`\\`","explanation":"The other common usage of \\`...\\` can be seen as almost the opposite; instead of spreading a value out, the \\`...\\` gathers a set of values together into an array","type":"MCQ","options":[{"text":"\\`\\[3, 4, 5\\]\\`","correct":true},{"text":"\\`3\\`","correct":false},{"text":"\\`undefined\\`","correct":false},{"text":"\\`\\[1, 2, 3, 4, 5\\]\\`","correct":false}]},{"statement":"In the following code, \\`function foo (x=20) {...}\\`, what does \"x=20\" accomplish?","explanation":"In ES6+, you can provide a default value for a function parameter. The default value is used if the argument is \\*undefined\\* (including if no argument is passed). It is not used for other falsy values (i.e. 0, NaN, an empty string, etc.).","type":"MCQ","options":[{"text":"It assigns \\*x\\* a default value of 20 if the argument passed to the function is \\*undefined\\*.","correct":true},{"text":"Any value passed to the function gets changed to 20.","correct":false},{"text":"The function will only accept arguments which are equal to 20.","correct":false},{"text":"It assigns \\*x\\* a default value of 20 if the argument passed to the function is \"falsy\".","correct":false}]},{"statement":"What will be logged to the console when the following function is executed? \\`\\`\\`js function foo(x = 11, y = 31) { console.log( x + y ); } foo(null, 6); foo(undefined, 6); \\`\\`\\`","explanation":"\\`null\\` coerces to \\`0\\`, so the default value is never used. \\`undefined\\` is the same as a missing argument, so the default value is used in this case.","type":"MCQ","options":[{"text":"\\`17\\` / \\`17\\`","correct":false},{"text":"\\`6\\` / \\`17\\`","correct":true},{"text":"\\`NaN\\` / \\`NaN\\`","correct":false},{"text":"\\`6\\` / \\`6\\`","correct":false}]},{"statement":"Function default values can only be simple values like \\`31\\`; they cannot be an expression or a function call.","explanation":"Function default values can be more than just simple values like \\`31\\`; they can be any valid expression, even a function call.","type":"TF","correct":false},{"statement":"What will be logged to the console when the following code is executed: \\`\\`\\`js { const a = 2; a = 3; console.log(a) } \\`\\`\\`","explanation":"You are not allowed to change the value the variable holds once it's been set, at declaration time. A \\`const\\` declaration must have an explicit initialization.","type":"MCQ","options":[{"text":"\\`3\\`","correct":false},{"text":"\\`TypeError\\`","correct":true},{"text":"\\`2\\`","correct":false},{"text":"\\`SyntaxError\\`","correct":false}]},{"statement":"With ES6, this is valid JavaScript: \\`\\`\\`js { let a = 2, b, c; // .. } \\`\\`\\`","explanation":"Block scoping is now possible with the \\`let\\` and \\`const\\` keywords.","type":"TF","correct":true},{"statement":"What variables are scoped within the \\`for\\` loop: \\`\\`\\`js let a = 2; if (a > 1) { let b = a \\* 3; for (let i = a; i <= b; i++) { let j = i + 10; } let c = a + b; } \\`\\`\\`","explanation":"\\`j\\` is clearly scoped to the \\`for\\` loop, but \\`i\\` is not so obvious. A new \\`i\\` is scoped to the block for each iteration.","type":"MCQ","options":[{"text":"\\`j\\`","correct":false},{"text":"\\`i\\`, \\`j\\`","correct":true},{"text":"\\`i\\`, \\`j\\`, \\`a\\`, \\`b\\`","correct":false}]},{"statement":"What will be logged to the console when the following code is executed: \\`\\`\\`js { const a = \\[1,2,3\\]; a.push( 4 ); console.log( a ); } \\`\\`\\`","explanation":"Constants are not a restriction on the value itself, but on the variable's assignment of that value. In other words, the value is not frozen or immutable because of \\`const\\`, just the assignment of it. If the value is complex, such as an object or array, the contents of the value can still be modified:","type":"MCQ","options":[{"text":"\\`\\[1, 2, 3, 4\\]\\`","correct":true},{"text":"\\`\\[1, 2, 3\\]\\`","correct":false},{"text":"\\`TypeError\\`","correct":false}]},{"statement":"What does the following line of code do? \\`\\`\\`js let { baz: bam } = bar(); \\`\\`\\`","explanation":"The syntactic pattern here is source: target. \\`baz: bam\\` means the \\`baz\\` property is the source value and \\`bam\\` is the target variable to assign to.","type":"MCQ","options":[{"text":"It destructures the object property \\`baz\\` and assigns it to the variable \\`bam\\`","correct":true},{"text":"It destructures the object property \\`bam\\` and assigns it to the variable \\`baz\\`","correct":false}]},{"statement":"What will be logged to the console when the following code is executed? \\`\\`\\`js let x = 10, y = 20; \\[ y, x \\] = \\[ x, y \\]; console.log( x, y ); \\`\\`\\`","explanation":"With destructuring, you can even solve the traditional \"swap two variables\" task without a temporary variable","type":"MCQ","options":[{"text":"\\`20 10\\`","correct":true},{"text":"\\`10 20\\`","correct":false},{"text":"\\`undefined undefined\\`","correct":false}]},{"statement":"The following is valid object destructuring syntax: \\`\\`\\`js let x, y, z; { x, y, z } = bar(); \\`\\`\\`","explanation":"For the object destructuring form specifically, when leaving off a var/let/const declarator, we have to surround the whole assignment expression in ( ), because otherwise the { .. } on the lefthand side as the first element in the statement is taken to be a block statement instead of an object. So the valid way to destructure in this case is like this: \\`( { x, y, z } = bar() );\\`","type":"TF","correct":false},{"statement":"What will be logged to the console when this code runs? \\`\\`\\`js let o = \\[1,2,3\\], a, b, c, p; p = \\[a,b,c\\] = o; console.log(p === o); \\`\\`\\`","explanation":"The assignment expression with object or array destructuring has as its completion value the full righthand object/array value. In the previous snippet, \\`p\\` was assigned the \\`o\\` array reference.","type":"MCQ","options":[{"text":"\\`true\\`","correct":true},{"text":"\\`false\\`","correct":false}]},{"statement":"With both object and array destructuring assignment, you must assign all the values that are present.","explanation":"With both array destructuring assignment and object destructuring assignment, you do not have to assign all the values that are present.","type":"TF","correct":false},{"statement":"What will be logged to the console when the following is executed? \\`\\`\\`js let arr = \\[1, 2, 3, 4\\]; let obj = {a: \"x\", b: \"y\", c: \"z\"}; let \\[,,,x,y\\] = arr; let {a, d} = obj; console.log(x, y); console.log(a, d); \\`\\`\\`","explanation":"if you try to assign more values than are present in the value you're destructuring/decomposing, you get graceful fallback to \\`undefined\\`","type":"MCQ","options":[{"text":"\\`undefined undefined\\` / \\`x undefined\\`","correct":false},{"text":"\\`4 undefined\\` / \\`x undefined\\`","correct":true},{"text":"\\`3 4\\` / \\`x y\\`","correct":false},{"text":"\\`4 null\\` / \\`x z\\`","correct":false}]},{"statement":"What will be logged to the console when the following is executed? \\`\\`\\`js let o = {x: {y: {z: 6}}}; let {x: {y: { z: n, p: c = 3 } } } = o; console.log(n, c); \\`\\`\\`","explanation":"If the values you're destructuring have nested objects or arrays, you can destructure those nested values as well","type":"MCQ","options":[{"text":"\\`undefined\\` / \\`undefined\\`","correct":false},{"text":"\\`6\\` / \\`3\\`","correct":true},{"text":"\\`6\\` / \\`undefined\\`","correct":false}]},{"statement":"What will be logged to the console when this function is called as follows: \\`\\`\\`js function fn({ x = 10 } = {}, { y } = { y: 10 }) { console.log( x, y ); } fn(); fn({}, {}); \\`\\`\\`","explanation":"It's pretty clear that named parameter \\`x\\` is defaulting to \\`10\\` if not passed as a property of that same name in the first argument's object. But what about \\`y\\` being \\`undefined\\`? The \\`{ y: 10 }\\` value is an object as a function parameter default value, not a destructuring default value. As such, it only applies if the second argument is not passed at all, or is passed as \\`undefined\\`.","type":"MCQ","options":[{"text":"\\`10 10\\` / \\`10 undefined\\`","correct":true},{"text":"\\`{} {y: 10}\\` / \\`10 undefined\\`","correct":false},{"text":"\\`10 undefined\\` / \\`10 undefined\\`","correct":false},{"text":"\\`10 10\\` / \\`10 10\\`","correct":false}]},{"statement":"You should use concise methods only if you’re never going to need them to do recursion or event binding/unbinding.","explanation":"Concise methods imply anonymous function expressions. An anonymous function doesn't have a lexical name you can use inside the function itself.","type":"TF","correct":true},{"statement":"What will be logged to the console when this code is executed? \\`\\`\\`js var o1 = { foo() { console.log( \"o1:foo\" ); } }; var o2 = { foo() { super.foo(); console.log( \"o2:foo\" ); } }; Object.setPrototypeOf( o2, o1 ); o2.foo(); \\`\\`\\`","explanation":"The \\`super\\` reference in the \\`o2.foo()\\` method is locked statically to \\`o2\\`, and specifically to the \\`\\[\\[Prototype\\]\\]\\` of \\`o2\\`. \\`super\\` here would basically be \\`Object.getPrototypeOf(o2)\\` -- resolves to \\`o1\\` of course -- which is how it finds and calls \\`o1.foo()\\`","type":"MCQ","options":[{"text":"\\`o1:foo\\` / \\`o2:foo\\`","correct":true},{"text":"\\`o2:foo\\` / \\`o1:foo\\`","correct":false},{"text":"\\`o2:foo\\`","correct":false},{"text":"\\`o1:foo\\`","correct":false}]},{"statement":"Arrow functions are always anonymous function expressions; there is no arrow function declaration.","explanation":"It also should be clear that they are anonymous function expressions — they have no named reference for the purposes of recursion or event binding/unbinding","type":"TF","correct":true},{"statement":"Which of the following statements is true:","explanation":"Inside arrow functions, the \\`this\\` binding is not dynamic, but is instead lexical.","type":"MCQ","options":[{"text":"\\`this\\` binding inside arrow functions is dynamic","correct":false},{"text":"\\`this\\` binding inside arrow functions is lexical","correct":true},{"text":"You cannot use \\`this\\` inside arrow functions","correct":false},{"text":"\\`this\\` always points to the global object inside arrow functions","correct":false}]},{"statement":"What will be logged to the console when the following is executed? \\`\\`\\`js for (let a of \\[1, 2, 3\\]) { console.log(a); } \\`\\`\\`","explanation":"for..in loops over the keys/indexes in an array, while for..of loops over the values of the array.","type":"MCQ","options":[{"text":"\\`1\\`, \\`2\\`, \\`3\\`","correct":true},{"text":"\\`0\\`, \\`1\\`, \\`2\\`","correct":false}]},{"statement":"Which of the following statements is not true:","explanation":"You cannot and should not use \\`new\\` with \\`Symbol(..)\\`. It's not a constructor, nor are you producing an object. The correct way to create a new symbol is like this: \\`let sym = Symbol( \"some optional description\" );\\`","type":"MCQ","options":[{"text":"You should always use \\`new Symbol(...)\\` to create a new symbol.","correct":true},{"text":"Unlike the other primitive types, symbols don’t have a literal form.","correct":false},{"text":"The \\`typeof\\` operator outputs \\`\"symbol\"\\` when used in front of a symbol value and that is the primary way to identify one.","correct":false},{"text":"The parameter passed to \\`Symbol(..)\\` is optional. If passed, it should be a string that gives a friendly description for the symbol’s purpose.","correct":false}]},{"statement":"The main point of a symbol is to create a string-like value that can’t collide with any other value.","explanation":"You can think of this symbol value as an automatically generated, unique (within your application) string value.","type":"TF","correct":true},{"statement":"What will be logged to the console when the following code is executed: \\`\\`\\`js var arr = \\[1,2,3\\]; var it = arr\\[Symbol.iterator\\](); console.log(it.next().value); \\`\\`\\`","explanation":"Each time the method located at \\`Symbol.iterator\\` (see Chapters 2 and 7) is invoked on this \\`arr\\` value, it will produce a new fresh iterator. Most structures will do the same, including all the built-in data structures in JS.","type":"MCQ","options":[{"text":"\\`1\\`","correct":true},{"text":"\\`undefined\\`","correct":false},{"text":"\\`TypeError\\`","correct":false},{"text":"\\`ReferenceError\\`","correct":false}]},{"statement":"What will be logged to the console when the following code is executed: \\`\\`\\`js let str = \"hi\"; let it = str\\[Symbol.iterator\\](); it.next(); it.next(); console.log(it.next()); \\`\\`\\`","explanation":"The \\`it\\` iterator doesn't report \\`done: true\\` when you receive the \\`'i'\\` value. You have to call \\`next()\\` again, in essence going beyond the end of the string's values, to get the complete signal \\`done: true\\`","type":"MCQ","options":[{"text":"\\`{value: 'i', done: true}\\`","correct":false},{"text":"\\`{value: undefined, done: true}\\`","correct":true},{"text":"\\`{value: 'i', done: false}\\`","correct":false},{"text":"\\`{value: undefined, done: false}\\`","correct":false}]},{"statement":"What will be logged to the console when the following code is executed: \\`\\`\\`js var a = \\[1,2,3,4,5\\]; function foo(x,y,z,w,p) { console.log( x + y + z + w + p ); } foo( ...a ); \\`\\`\\`","explanation":"The \\`...\\` spread operator fully exhausts an iterator.","type":"MCQ","options":[{"text":"\\`15\\`","correct":true},{"text":"\\`NaN\\`","correct":false},{"text":"\\`TypeError\\`","correct":false},{"text":"\\`SyntaxError\\`","correct":false}]},{"statement":"Which of the following is the correct way to declare a generator function?","explanation":"The position of the \\* is not functionally relevant. The only difference here is stylistic preference.","type":"MCQ","options":[{"text":"\\`function \\*foo() { .. }\\` or \\`function\\* foo() { .. }\\`","correct":false},{"text":"\\`function \\* foo() { .. }\\` or \\`function\\* foo() { .. }\\`","correct":false},{"text":"All of the above","correct":true},{"text":"None of the above","correct":false}]},{"statement":"What will the last line of code do when it is executed? \\`\\`\\`js function \\*rand() { while (true) { yield Math.random(); } } const it = rand(); it.next(); \\`\\`\\`","explanation":"You can put \\`yield\\` inside a loop, and it can represent a repeated pause point. \\`yield\\` is not just a pause point. It’s an expression that sends out a value when pausing the generator. The code here generates and yields a new random number whenever \\`it.next()\\` is called.","type":"MCQ","options":[{"text":"It will generate a new random number","correct":true},{"text":"It will start an infinite loop","correct":false}]},{"statement":"What will be logged to the console when the following code is executed? \\`\\`\\`js function \\*foo() { yield \\*\\[1, 2, 3\\]; yield \"we're done\"; } const it = foo(); it.next(); console.log(it.next().value); \\`\\`\\`","explanation":"In the same way that the \\`\\*\\` makes a \\`function\\` declaration into \\`function \\*\\` generator declaration, a \\`\\*\\` makes \\`yield\\` into \\`yield \\*\\`, which is a very different mechanism, called yield delegation. \\`yield \\* ..\\` requires an iterable; it then invokes that iterable's iterator, and delegates its own host generator's control to that iterator until it's exhausted.","type":"MCQ","options":[{"text":"\\`\\[1, 2, 3\\]\\`","correct":false},{"text":"\\`2\\`","correct":true},{"text":"\\`\"we're done\"\\`","correct":false},{"text":"\\`1\\`","correct":false}]},{"statement":"Which of the following is not true of ES6 modules?","explanation":"Modules are no different from other ES6 features in that they should be used, but polyfills might be needed for older browsers.","type":"MCQ","options":[{"text":"You cannot have multiple modules in a file","correct":false},{"text":"Once you define statically what all the top-level exports are on your module's public API, those cannot be amended later.","correct":false},{"text":"There is only one instance of the module, which maintains its state. Every time you import that module into another module, you get a reference to the one centralized instance.","correct":false},{"text":"ES6 modules are still experimental and should not be used","correct":true}]},{"statement":"What is the difference between importing default exports and named exports?","explanation":"As the name suggests, the default export is the default export for that module, whereas named exports need to be imported by name.","type":"MCQ","options":[{"text":"Named exports are imported as \\`import { foo } from \"foo\";\\`, and default exports are imported as \\`import foo from \"foo\";\\`","correct":true},{"text":"Named exports are imported as \\`import foo from \"foo\";\\`, and default exports are imported as \\`import { foo } from \"foo\";\\`","correct":false}]},{"statement":"You cannot put either an \\`import\\` or \\`export\\` inside an \\`if\\` conditional.","explanation":"They must appear outside of all blocks and functions.","type":"TF","correct":true},{"statement":"Which of the following is an invalid export?","explanation":"You currently cannot do \\`export default var foo = ..\\` (or \\`let\\` or \\`const\\`), in a frustrating case of inconsistency. At the time of this writing, there's already discussion of adding that capability in soon, post-ES6, for consistency sake.","type":"MCQ","options":[{"text":"\\`export default const PI = 3.14;\\`","correct":true},{"text":"\\`export const PI = 3.14;\\`","correct":false},{"text":"\\`export function foo() { .. }\\`","correct":false},{"text":"\\`export default function foo() { .. }\\`","correct":false}]},{"statement":"What of the following options is an incorrect way of importing the following exports: \\`\\`\\`js export default function foo() { .. } export function bar() { .. } export function baz() { .. } \\`\\`\\`","explanation":"the default keyword in a module's export specifies a named export where the name is actually default","type":"MCQ","options":[{"text":"\\`import {foo, bar, baz} from \"foo\";\\`","correct":true},{"text":"\\`import foo, { bar, baz } from \"foo\";\\`","correct":false},{"text":"\\`import { default as foo, bar as x, baz as y} from \"foo\";\\`","correct":false},{"text":"\\`import FOOFN, { bar, baz} from \"foo\";\\`","correct":false}]},{"statement":"All imported bindings are immutable and/or read-only and any subsequent assignment attempts will throw a \\`TypeError\\`","explanation":"You cannot reassign an imported function or variable in your code.","type":"TF","correct":true},{"statement":"\\`class Foo {...}\\` creates a constructor function named \\`Foo\\`","explanation":"\\`class Foo\\` implies creating a (special) function of the name Foo, much like you did pre-ES6.","type":"TF","correct":true},{"statement":"Which of the following statements about classes is not true:","explanation":"While \\`function Foo() {...}\\` is “hoisted”, \\`class Foo\\` is not.","type":"MCQ","options":[{"text":"\\`class Foo\\` is hoisted","correct":true},{"text":"The \\`Foo(...)\\` constructor call \\*must\\* be made with the \\`new\\` keyword","correct":false},{"text":"A \\`class\\` can be thought of as a macro, used to automatically populate a \\`prototype\\` object","correct":false},{"text":"Unlike object literals, there are no commas separating members in a \\`class\\` body","correct":false}]},{"statement":"What will be logged to the console when the following code is executed: \\`\\`\\`js class Foo { constructor(x) { this.x = x; } print() { console.log(\"Foo:\", this.x); } } class Bar extends Foo { constructor(x, y) { super(x); this.y = y; } print() { super.print(); console.log(\"Bar:\", this.y); } } const b = new Bar(3, 6); b.print(); \\`\\`\\`","explanation":"In the constructor, \\`super\\` automatically refers to the \"parent constructor,\" which in the previous example is \\`Foo(..)\\`. In a method, it refers to the \"parent object,\" such that you can then make a property/method access off it, such as \\`super.print()\\`.","type":"MCQ","options":[{"text":"\\`Foo: 3\\` / \\`Bar: 6\\`","correct":true},{"text":"\\`Foo: 3\\`","correct":false},{"text":"\\`Bar: 6\\`","correct":false},{"text":"\\`Foo: undefined\\` / \\`Bar: 6\\`","correct":true}]},{"statement":"What will be logged to the console when the following code is executed: \\`\\`\\`js class Foo { ... } class Bar extends Foo { ... } console.log(Foo.isPrototypeOf(Bar)); \\`\\`\\`","explanation":"\\`Bar extends Foo\\` of course means to link the \\[\\[Prototype\\]\\] of \\`Bar.prototype\\` to \\`Foo.prototype\\`","type":"MCQ","options":[{"text":"\\`true\\`","correct":true},{"text":"\\`false\\`","correct":false}]},{"statement":"Constructors are required for both classes and subclasses","explanation":"Constructors are not required for classes or subclasses; a default constructor is substituted in both cases if omitted. Furthermore, the default subclass constructor automatically calls the parent constructor, and passes along any arguments.","type":"TF","correct":false},{"statement":"In a constructor of a subclass, you cannot access \\`this\\` until \\`super(..)\\` has been called.","explanation":"The reason is nuanced and complicated, but it boils down to the fact that the parent constructor is actually the one creating/initializing your instance's \\`this\\`, which you cannot access before it is actually created.","type":"TF","correct":true},{"statement":"What will be logged to the console when the following code is executed: \\`\\`\\`js class Foo { static cool() { console.log( \"cool\" ); } wow() { console.log( \"wow\" ); } } class Bar extends Foo { static awesome() { super.cool(); console.log( \"awesome\" ); } neat() { super.wow(); console.log( \"neat\" ); } } var b = new Bar(); b.awesome(); \\`\\`\\`","explanation":"Be careful not to get confused that static members are on the class's prototype chain.They're actually on the dual/parallel chain between the function constructors.","type":"MCQ","options":[{"text":"\\`TypeError\\`","correct":true},{"text":"\\`\"cool\"\\` / \\`\"awesome\"\\`","correct":false},{"text":"\\`undefined\\`","correct":false},{"text":"\\`undefined\\` / \\`\"awesome\"\\`","correct":false}]},{"statement":"What are the two possible outcomes of a \\`Promise\\`?","explanation":"If there are no errors, then the Promise will get resolved, but if an error occurs typically the Promise will get rejected.","type":"MCQ","options":[{"text":"Fulfilled and rejected","correct":true},{"text":"Completed and in progress","correct":false},{"text":"Returned and incomplete","correct":false}]},{"statement":"A promise can only be resolved (fulfilled or rejected) once","explanation":"Promises can only be resolved (fulfillment or rejection) once. Any further attempts to fulfill or reject are simply ignored. Thus, once a Promise is resolved, it's an immutable value that cannot be changed.","type":"TF","correct":true},{"statement":"This is a valid way to construct a promise: \\`\\`\\`js var p = new Promise(() => { return setTimeout(() => 5, 1000) } ); \\`\\`\\`","explanation":"There are a couple things wrong with this code. For one, \\`setTimeout\\` does not return the return value of the callback. \\`fn\\` in \\`new Promise(fn)\\` needs to have an argument, such as \\`resolve\\`, which you call on your desired return value.","type":"TF","correct":false},{"statement":"This is a valid way to construct and consume a promise: \\`\\`\\`js var p = new Promise((resolve) => { setTimeout(() => resolve(5), 1000); } ); p.done(val => { console.log(val); }); \\`\\`\\`","explanation":"\\`done\\` is not a valid method for a Promise. The code above would be valid if it were replaced with \\`.then()\\`","type":"TF","correct":false},{"statement":"What do \\`.then(..)\\` and \\`.catch(..)\\` methods return when invoked on a promise?","explanation":"Both \\`then(..)\\` and \\`catch(..)\\` automatically construct and return another promise instance, which is wired to receive the resolution from whatever the return value is from the original promise's fulfillment or rejection handler (whichever is actually called)","type":"MCQ","options":[{"text":"another promise","correct":true},{"text":"an object","correct":false},{"text":"\\`undefined\\`","correct":false},{"text":"a function","correct":false}]},{"statement":"What are thenables?","explanation":"Any object (or function) with a \\`then(..)\\` function on it is assumed to be a thenable. Any place where the Promise mechanisms can accept and adopt the state of a genuine promise, they can also handle a thenable.","type":"MCQ","options":[{"text":"Just another word for Promises","correct":false},{"text":"The next version of promises introduced in ES7","correct":false},{"text":"Promise-like objects that generally can interoperate with Promise mechanisms","correct":true},{"text":"Promises that are used with generators","correct":false}]},{"statement":"\\`p1\\` and \\`p2\\` have essentially the same behavior: \\`\\`\\`js var p1 = Promise.resolve( 42 ); var p2 = new Promise( function pr(resolve){ resolve( 42 ); } ); \\`\\`\\`","explanation":"\\`Promise.resolve\\` creates a resolved promise. To access the value \\`42\\`, you need to call \\`.then()\\`","type":"TF","correct":true},{"statement":"What will be logged to the console when the following is executed? \\`\\`\\`js const a = 42, b = Promise.resolve(43), c = 44; Promise.all(\\[a, b, c\\]).then(val => console.log(val)); \\`\\`\\`","explanation":"\\`Promise.all(\\[ .. \\])\\` accepts an array of one or more values (e.g., immediate values, promises, thenables). It returns a promise back that will be fulfilled if all the values fulfill, or reject immediately once the first of any of them rejects","type":"MCQ","options":[{"text":"\\`42\\`","correct":false},{"text":"\\`43\\`","correct":false},{"text":"\\`\\[42, 43, 44\\]\\`","correct":true}]},{"statement":"What will be logged to the console when the following is executed? \\`\\`\\`js const a = 42, b = Promise.resolve(43), c = 44; Promise.race(\\[a, b, c\\]).then(val => console.log(val)); \\`\\`\\`","explanation":"While \\`Promise.all(\\[ .. \\])\\` waits for all fulfillments (or the first rejection), \\`Promise.race(\\[ .. \\])\\` waits only for either the first fulfillment or rejection.","type":"MCQ","options":[{"text":"\\`42\\`","correct":true},{"text":"\\`43\\`","correct":false},{"text":"\\`\\[42, 43, 44\\]\\`","correct":false}]},{"statement":"What will be logged to the console when the following is executed? \\`\\`\\`js const a = Promise.resolve(43), b = 42, c = Promise.reject(\"Oops\"); Promise.race(\\[a, b, c\\]) .then(val => console.log(val)) .catch(e => console.log(e)); \\`\\`\\`","explanation":"While \\`Promise.all(\\[ .. \\])\\` waits for all fulfillments (or the first rejection), \\`Promise.race(\\[ .. \\])\\` waits only for either the first fulfillment or rejection (whichever happens first). In the code snippet above, if we changed the order of the array to \\`Promise.race(\\[c, b, a\\])\\` then we'd get \\`'Oops'\\` printed instead.","type":"MCQ","options":[{"text":"\\`42\\`","correct":false},{"text":"\\`43\\`","correct":true},{"text":"\\`\"Oops\"\\`","correct":false}]},{"statement":"What do typed arrays allow you to do in JavaScript?","explanation":"It'd be tempting to look at a feature named \"typed array\" and assume it means an array of a specific type of values, like an array of only strings. However, typed arrays are really more about providing structured access to binary data using array-like semantics (indexed access, etc.). The \"type\" in the name refers to a \"view\" layered on type of the bucket of bits, which is essentially a mapping of whether the bits should be viewed as an array of 8-bit signed integers, 16-bit signed integers, and so on.","type":"MCQ","options":[{"text":"Create arrays of a specific type of values, like an array of only strings","correct":false},{"text":"Provide structured access to binary data using array-like semantics","correct":true}]},{"statement":"What is the difference between maps and objects?","explanation":"Maps were added in ES6 and are just like objects except the keys can be anything, even arrays or objects!","type":"MCQ","options":[{"text":"Object keys have to be strings, and map keys can be any value","correct":true},{"text":"Maps are immutable, and objects are not","correct":false},{"text":"Objects are the JavaScript version of maps","correct":false},{"text":"There is no difference","correct":false}]},{"statement":"The following code is valid ES6: \\`\\`\\`js var m = new Map(); var x = { id: 1 }, y = { id: 2 }; m\\[x\\] = y; \\`\\`\\`","explanation":"Maps do not support the \\`\\[\\]\\` syntax. \\`set\\` operations must be done like \\`m.set(x, y)\\`.","type":"TF","correct":false},{"statement":"Which of the following statements about WeakMaps is not true:","explanation":"WeakMaps take (only) objects as keys. Those objects are held weakly, which means if the object itself is GC'd, the entry in the WeakMap is also removed.","type":"MCQ","options":[{"text":"WeakMaps take only objects as keys","correct":false},{"text":"WeakMaps do not expose any iterators over their keys, values, or entries","correct":false},{"text":"If an object used as a key in a WeakMap is garbage collected, the entry is not removed","correct":true},{"text":"WeakMaps do not have a \\`size\\` property or \\`clear()\\` method","correct":false}]},{"statement":"What will be logged to the console when the following code is executed: \\`\\`\\`js let duplicates = \\[1, 2, 2, 3, 4, 4, 4, 5\\]; let newSet = new Set(duplicates); console.log(newSet.size); \\`\\`\\`","explanation":"Sets can be constructed with iterators such as arrays, and they only store unique values. They are kind of like objects with keys but no values.","type":"MCQ","options":[{"text":"\\`8\\`","correct":false},{"text":"\\`5\\`","correct":true},{"text":"\\`TypeError\\`","correct":false},{"text":"\\`SyntaxError\\`","correct":false}]},{"statement":"What is one way to copy a set: \\`\\`\\`js let values = \\[1, 1, 2, 3\\]; let setValues = new Set(values) \\`\\`\\`","explanation":"The constructor is the only way to make a new set, and it will copy values from the set into a new set.","type":"MCQ","options":[{"text":"\\`let copy = setValues.copy()\\`","correct":false},{"text":"\\`let copy = Set.assign(new Set(), setValues)\\`","correct":false},{"text":"\\`let copy = new Set(\\[setValues\\])\\`","correct":false},{"text":"\\`let copy = new Set(setValues)\\`","correct":true}]},{"statement":"Which of the following statements about Sets is not true:","explanation":"A set doesn't need (and doesn't have) a \\`get(..)\\` because you don't retrieve a value from a set, but rather test if it is present or not, using \\`has(..)\\`","type":"MCQ","options":[{"text":"A set is a collection of unique values (duplicates are ignored)","correct":false},{"text":"The \\`add()\\` method is used to add new items to a set","correct":false},{"text":"The \\`get()\\` method is used to retrieve an item from a set","correct":true},{"text":"The \\`has()\\` method is used to test if a value is present or not","correct":false}]},{"statement":"This is a valid way to create an array from a set: \\`\\`\\`js let s = new Set(\\[1, 2, 2, 3, 3, 3\\]); let a = \\[...s\\]; \\`\\`\\`","explanation":"You can use the spread operator with sets","type":"TF","correct":true},{"statement":"Which of the following are valid ways to make an iterator of map keys: \\`\\`\\`js var newMap = new Map() var x = {\"foo\": 1} var xVal = \"foo1\"; var y = {\"foo\": 2} var yVal = \"foo2\"; newMap.set(x, xVal) newMap.set(y, yVal) \\`\\`\\`","explanation":"\\`newMap.keys()\\` will create an iterator of the keys. \\`newMap.forEach()\\` iterates over the values, and \\`entries()\\` creates a two dimensional array of keys and values.","type":"MCQ","options":[{"text":"\\`newMap.keys()\\`","correct":true},{"text":"\\`newMap.keys\\`","correct":false},{"text":"\\`newMap.entries()\\`","correct":false},{"text":"\\`newMap.forEach(key => {...})\\`","correct":false}]},{"statement":"Which of the following statements about WeakSets is true:","explanation":"Whereas a WeakMap holds its keys weakly (but its values strongly), a WeakSet holds its values weakly (there aren't really keys).","type":"MCQ","options":[{"text":"A WeakSet holds its values weakly","correct":true},{"text":"A WeakSet holds its keys weakly","correct":false},{"text":"WeakSet values can be primitives like strings or numbers","correct":false}]},{"statement":"What will be logged to the console when the following code is executed? \\`\\`\\`js let arr = Array(5); console.log(arr.length); \\`\\`\\`","explanation":"There's a well known gotcha with the \\`Array(..)\\` constructor, which is that if there's only one argument passed, and that argument is a number, instead of making an array of one element with that number value in it, it constructs an empty array with a length property equal to the number.","type":"MCQ","options":[{"text":"\\`5\\`","correct":true},{"text":"\\`1\\`","correct":false},{"text":"\\`4\\`","correct":false},{"text":"\\`0\\`","correct":false}]},{"statement":"What will be logged to the console when the following code is executed? \\`\\`\\`js Array(1, 2, 3).length === Array.of(5, 6, 7).length \\`\\`\\`","explanation":"\\`Array.of(..)\\` replaces \\`Array(..)\\` as the preferred function-form constructor for arrays","type":"MCQ","options":[{"text":"\\`true\\`","correct":true},{"text":"\\`false\\`","correct":false}]},{"statement":"What will be logged to the console when the following code is executed? \\`\\`\\`js let arrLike = { length: 4, 0: \"foo\", 2: \"bar\" }; console.log(Array.from(arrLike)); \\`\\`\\`","explanation":"\\`Array.from(..)\\` looks to see if the first argument is an iterable, and if so, it uses the iterator to produce values to \"copy\" into the returned array. If you pass an array-like object as the first argument, it simply loops over the value, accessing numerically named properties from \\`0\\` up to whatever the value of \\`length\\` is. \\`Array.from(..)\\` never produces empty slots.","type":"MCQ","options":[{"text":"\\`\\[\"foo\", undefined, \"bar\", undefined\\]\\`","correct":true},{"text":"\\`\\[undefined, undefined, undefined, undefined\\]\\`","correct":false},{"text":"\\`\\[\"foo\", \"bar\"\\]\\`","correct":false},{"text":"\\`\\[\"foo\",,\"bar\",,\\]\\`","correct":false}]},{"statement":"\\`Array.from(..)\\` takes an optional second argument, which is a \\_\\_\\_\\_ callback.","explanation":"The second argument, if provided, is a mapping callback (almost the same as the regular \\`Array#map(..)\\` expects) which is called to map/transform each value from the source to the returned target.","type":"MCQ","options":[{"text":"mapping","correct":true},{"text":"filtering","correct":false},{"text":"sorting","correct":false},{"text":"reducing","correct":false}]},{"statement":"What does the following line of code do? \\`\\`\\`js let a = Array.from( { length: 2 } ); \\`\\`\\`","explanation":"You can use \\`Array.from()\\` to create an array of \\`undefined\\` values","type":"MCQ","options":[{"text":"It creates an array with two \\`undefined\\` values","correct":true},{"text":"It creates an array with two empty slots","correct":false}]},{"statement":"What will be logged to the console when the following code is executed? \\`\\`\\`js let x = NaN, y = 0, z = -0; console.log(Object.is(x, x)); console.log(Object.is(y, z)); \\`\\`\\`","explanation":"\\`Object.is(..)\\` is basically the same as \\`===\\`, with two exceptions: \\`Object.is(NaN, NaN)\\` is \\`true\\` and \\`Object.is(0, -0)\\` is \\`false\\`","type":"MCQ","options":[{"text":"\\`true\\` / \\`false\\`","correct":true},{"text":"\\`false\\` / \\`true\\`","correct":false},{"text":"\\`false\\` / \\`false\\`","correct":false},{"text":"\\`true\\` / \\`true\\`","correct":false}]},{"statement":"What will be logged to the console when the following code is executed? \\`\\`\\`js console.log(Number.isInteger(4.0)); \\`\\`\\`","explanation":"In JavaScript, there’s no difference between \\`4\\`, \\`4.\\`, \\`4.0\\`, or \\`4.0000\\`. All of these would be considered an “integer”","type":"MCQ","options":[{"text":"\\`true\\`","correct":true},{"text":"\\`false\\`","correct":false}]},{"statement":"What is \\`Number.MAX\\_SAFE\\_INTEGER\\`?","explanation":"Max safe integer is the highest integer that can safely be represented in a JavaScript number value which is \\`2^53 - 1\\`.","type":"MCQ","options":[{"text":"\\`2^53 - 1\\`","correct":true},{"text":"\\`2^32 - 1\\`","correct":false},{"text":"\\`2^32\\`","correct":false},{"text":"\\`Infinity\\`","correct":false}]},{"statement":"Why would you use \\`Number.isNaN()\\` instead of \\`isNaN()\\`?","explanation":"\\`isNaN()\\` checks for things that are not a number. So that includes \\`NaN\\` and any other value that isn't a number.","type":"MCQ","options":[{"text":"If you are literally checking for the value \\`NaN\\`","correct":true},{"text":"If you want to determine if a value is not of type number, so that does not include \\`NaN\\`","correct":false},{"text":"If you want to determine if a value is not of type number, including \\`NaN\\`","correct":false},{"text":"If you want to use the faster, ES6 version","correct":false}]},{"statement":"What will be logged to the console when the following code is executed: \\`\\`\\`js var obj1 = { a: 4 }; var obj2 = { b: obj1 } Object.assign(obj1, obj2) console.log(obj1) \\`\\`\\`","explanation":"\\`Object.assign(obj1, obj2)\\` takes \\`obj2\\` and merges it into \\`obj1\\`. In the example above, after the merge, the attribute \\`\"b\"\\` actually references \\`obj1\\` itself recursively.","type":"MCQ","options":[{"text":"\\`{ a: 4 }\\`","correct":false},{"text":"\\`{ a: 4, b: obj1 }\\`","correct":true},{"text":"\\`{ a: 4, b: \"\\[Object object\\]\" }\\`","correct":false},{"text":"\\`TypeError\\`","correct":false}]},{"statement":"What will be logged to the console when the following code is executed: \\`\\`\\`js console.log(Array(4).fill(3)) \\`\\`\\`","explanation":"\\`Array(4)\\` creates an array with 4 spots, and \\`fill(3)\\` fills them with the value 3","type":"MCQ","options":[{"text":"\\`\\[4, 4, 4\\]\\`","correct":false},{"text":"\\`\\[3, 3, 3, 3\\]\\`","correct":true},{"text":"\\`TypeError\\`","correct":false},{"text":"\\`\\[7\\]\\`","correct":false}]},{"statement":"What will be logged to the console when the following code is executed: \\`\\`\\`js var foo = \\[1, \"2\", 2, 4, \"2\"\\]; var newFoo = foo.find((val) => { return val == 2 }) console.log(newFoo + 1) \\`\\`\\`","explanation":"\\`foo.find()\\` returns the first value for which the comparison is truthy, so \\`\"2\"\\` at index 1. \\`1\\` is then coerced into \\`\"1\"\\` and added to \\`\"2\"\\` which is \\`\"21\"\\`.","type":"MCQ","options":[{"text":"\\`\"2,2,21\"\\`","correct":false},{"text":"\\`\"21\"\\`","correct":true},{"text":"\\`3\\`","correct":false},{"text":"\\`NaN\\`","correct":false}]},{"statement":"What will be logged to the console when the following code is executed: \\`\\`\\`js var abc = function def() { let a = 5; } console.log(abc.name) \\`\\`\\`","explanation":"The \\`name\\` property of a function will refer to the lexical binding name if it exists. In this case, it is \\`\"def\"\\`. If the function was anonymous, the name property would be \\`\"abc\"\\`.","type":"MCQ","options":[{"text":"\\`\"abc\"\\`","correct":false},{"text":"\\`\"def\"\\`","correct":true},{"text":"\\`\\[\"def\", \"name\"\\]\\`","correct":false},{"text":"\\`undefined\\`","correct":false}]},{"statement":"What will be logged to the console when the following code is executed: \\`\\`\\`js var o = {}; o\\[2\\] = true; o\\[1\\] = true; o.b = \"awesome\"; o.a = \"cool\"; console.log(Object.getOwnPropertyNames( o )); \\`\\`\\`","explanation":"The ordering is: 1. First, enumerate any owned properties that are integer indexes, in ascending numeric order. 2. Next, enumerate the rest of the owned string property names in creation order. 3. Finally, enumerate owned symbol properties in creation order.","type":"MCQ","options":[{"text":"\\`\\[1,2,\"b\",\"a\"\\]\\`","correct":true},{"text":"\\`\\[1,2,\"a\",\"b\"\\]\\`","correct":false},{"text":"Order cannot be guaranteed","correct":false},{"text":"\\`\\[2,1,\"b\",\"a\"\\]\\`","correct":false}]},{"statement":"What will be logged to the console when the following code is executed: \\`\\`\\`js var arr = \\[4, 5, 6, 7\\]; arr\\[Symbol.iterator\\] = function\\* () { var idx = 0; do { yield 3; } while ((idx += 1) < this.length); }; console.log(\\[...arr\\]) \\`\\`\\`","explanation":"The generator defines how to iterate through values in \\`arr\\`. We defined it to return the value \\`3\\` for each element in the array.","type":"MCQ","options":[{"text":"\\`\\[4, 5, 6, 7\\]\\`","correct":false},{"text":"\\`\\[3, 3, 3, 3\\]\\`","correct":true},{"text":"\\`\\[4, 5, 6\\]\\`","correct":false},{"text":"\\`\\[3, 3, 3\\]\\`","correct":false}]},{"statement":"What will be logged to the console when the following code is executed: \\`\\`\\`js var obj1 = { a: 3 } var obj2 = { b: 3 } obj1.toString = () => \"foo\" obj2\\[Symbol.toStringTag\\] = \"foo\"; console.log(obj1.toString() === obj2.toString()) \\`\\`\\`","explanation":"\\`obj1.toString()\\` is \\`\"foo\"\\` and \\`obj2.toString()\\` is \\`\"\\[object foo\\]\"\\`","type":"MCQ","options":[{"text":"\\`true\\`","correct":false},{"text":"\\`false\\`","correct":true},{"text":"\\`SyntaxError\\`","correct":false},{"text":"\\`TypeError\\`","correct":false}]},{"statement":"What will be logged to the console when the following code is executed: \\`\\`\\`js var arr = \\[1, 2, 3, 4, 5\\]; arr\\[Symbol.toPrimitive\\] = function () { return 5 }; console.log(arr + 10); \\`\\`\\`","explanation":"\\`toPrimitive\\` is used when an object must be coerced to a primitive value. We are overriding its typical functionality for \\`arr\\` and forcing it to be \\`5\\`.","type":"MCQ","options":[{"text":"\\`\"1,2,3,4,510\"\\`","correct":false},{"text":"\\`15\\`","correct":true},{"text":"\\`TypeError\\`","correct":false},{"text":"\\`ReferenceError\\`","correct":false}]},{"statement":"What will be logged to the console when the following code is executed? \\`\\`\\`js let obj = {a: 1, b: 2}; let handlers = { get(target,key,context) { if (Reflect.has( target, key )) { return Reflect.get(target, key, context); } else { throw \"No such property/method!\"; } } } let proxy = new Proxy(obj, handlers); console.log(proxy.c); \\`\\`\\`","explanation":"A proxy is a special kind of object you create that \"wraps\" -- or sits in front of -- another normal object. You can register special handlers (aka traps) on the proxy object which are called when various operations are performed against the proxy. These handlers have the opportunity to perform extra logic in addition to forwarding the operations on to the original target/wrapped object.","type":"MCQ","options":[{"text":"No such property/method!","correct":true},{"text":"\\`undefined\\`","correct":false},{"text":"\\`null\\`","correct":false}]},{"statement":"The following code is a valid way for testing whether arrow functions work in the runtime environment: \\`\\`\\`js try { a = () => {}; ARROW\\_FUNCS\\_ENABLED = true; } catch (err) { ARROW\\_FUNCS\\_ENABLED = false; } \\`\\`\\`","explanation":"Unfortunately, this doesn't work, because our JS programs are compiled. Thus, the engine will choke on the arrow function syntax if it doesn't already support it. The alternative would be to use \\`new Function( \"(() => { })\" );\\` inside the \\`try\\` block.","type":"TF","correct":false},{"statement":"Tail Call Optimization helps us save memory when we do object oriented programming","explanation":"Certain patterns of function calls in recursive programming, called tail calls, can be optimized in a way to avoid the extra allocation of stack frames. Instead of creating a new stack frame for the next function call, the engine just reuses the existing stack frame. That works because a function doesn't need to preserve any of the current state.","type":"TF","correct":false},{"statement":"Tail Call Optimization will be applied to the following code: \\`\\`\\`js \"use strict\"; function foo(x) { return x \\* 2; } function bar(x) { x = x + 1; if (x > 10) { return foo( x ); } else { return bar( x + 1 ); } } bar( 5 ); \\`\\`\\`","explanation":"\\`foo(..)\\` and \\`bar(..)\\` both are in tail position, as they're the last thing to happen in their code path (other than the return). In both cases, the function calls are in proper tail position. Proper Tail Calls (PTC) of these forms can be optimized.","type":"TF","correct":true},{"statement":"Tail Call Optimization (TCO) can only be applied in strict mode","explanation":"This optimization can only be applied in strict mode. Yet another reason to always be writing all your code as strict!","type":"TF","correct":true},{"statement":"What do \\`async\\` functions return?","explanation":"\\`async\\` functions return a promise which can then be consumed via \\`await\\` or with \\`.then()\\`.","type":"MCQ","options":[{"text":"a promise","correct":true},{"text":"a callback","correct":false},{"text":"a resolved promise","correct":false},{"text":"an object","correct":false}]},{"statement":"The \\`await\\` keyword can only be used inside an \\`async\\` function","explanation":"The \\`await\\` expression causes \\`async\\` function execution to pause until a \\`Promise\\` is resolved, that is fulfilled or rejected, and to resume execution of the \\`async\\` function after fulfillment. When resumed, the value of the \\`await\\` expression is that of the fulfilled \\`Promise\\`.","type":"TF","correct":true},{"statement":"What will be logged to the console when the following code is executed: \\`\\`\\`js var obj = { a: 1, b: 2 }; Object.observe( obj, function (changes) { console.log(changes) } ); obj.a = 3 \\`\\`\\`","explanation":"Trick question! \\`Object.observe()\\` has been deprecated. ES6 Proxies are recommended as an alternative.","type":"MCQ","options":[{"text":"\\`TypeError\\`","correct":true},{"text":"\\`{change: {a: 3}}\\`","correct":false},{"text":"\\`\"change\"\\`","correct":false},{"text":"\\`\\[{change: {a: 3}}\\]\\`","correct":false}]},{"statement":"What will be logged to the console when the following code is executed? \\`\\`\\`js let a = 2; console.log(a \\*\\* 4 === Math.pow(a, 4)); \\`\\`\\`","explanation":"The \\`\\*\\*\\` operator has been proposed for JavaScript to perform exponentiation in the same way that \\`Math.pow(..)\\` does","type":"MCQ","options":[{"text":"\\`true\\`","correct":true},{"text":"\\`false\\`","correct":false}]},{"statement":"What will be logged to the console when the following code is executed: \\`\\`\\`js var o1 = { a: 1, b: 2 }, o2 = { c: 3 }, o3 = { ...o1, ...o2, d: 4 }; console.log(o3.a, o3.b, o3.c, o3.d); \\`\\`\\`","explanation":"The spread operator here works similar to that with arrays.","type":"MCQ","options":[{"text":"\\`1 2 3 4\\`","correct":true},{"text":"\\`TypeError\\`","correct":false},{"text":"\\`4\\`","correct":false},{"text":"\\`3 4\\`","correct":false}]},{"statement":"What will be logged to the console when the following code is executed: \\`\\`\\`js let o1 = {a: 1, b: 2, c: 3}; let {b, ...o2} = o1; console.log(o2); \\`\\`\\`","explanation":"The \\`...\\` operator might also be used to gather an object's destructured properties back into an object","type":"MCQ","options":[{"text":"\\`{a: 1, c: 3}\\`","correct":true},{"text":"\\`{b: 2, c: 3}\\`","correct":false},{"text":"\\`{a: 1, b: 2, c: 3}\\`","correct":false},{"text":"\\`{a: 1, b: 2}\\`","correct":false}]},{"statement":"What will be logged to the console when the following code is executed: \\`\\`\\`js var arr = \\[1, 2, 3, 'hello'\\]; console.log(arr.includes('hello')); \\`\\`\\`","explanation":"\\`Array.prototype.includes(x)\\` simply checks to see if an element value is equal to \\`x\\`","type":"MCQ","options":[{"text":"\\`true\\`","correct":true},{"text":"\\`false\\`","correct":false},{"text":"\\`TypeError\\`","correct":false}]},{"statement":"What is WebAssembly?","explanation":"WebAssembly proposes a format for a binary representation of a highly compressed AST (syntax tree) of code, which can then give instructions directly to the JS engine and its underpinnings, without having to be parsed by JS, or even behave by the rules of JS.","type":"MCQ","options":[{"text":"A new programming language","correct":false},{"text":"The future replacement of JavaScript","correct":false},{"text":"A new binary represenation of code","correct":true},{"text":"A new JavaScript framework","correct":false}]}]}
+{
+  "questions": [
+    {
+      "statement": "Transpiling is transforming your ES6+ code into equivalent code that works in ES5 environments.",
+      "explanation": "The idea behind a technique called transpiling (transformation + compiling) is to use a special tool to transform your ES6 code into equivalent (or close!) matches that work in ES5 environments.",
+      "type": "TF",
+      "correct": true
+    },
+    {
+      "statement": "What are polyfills?",
+      "explanation": "Transpiling with polyfills allows you to develop using the latest JavaScript APIs without worrying about breaking your app in certain browsers.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "A pattern for defining equivalent behavior from a newer environment into an older environment, when possible.",
+          "correct": true
+        },
+        {
+          "text": "3rd party libraries you use in your code base",
+          "correct": false
+        },
+        { "text": "Objects that contain multiple functions", "correct": false },
+        {
+          "text": "A new feature of ES6 that provides syntactic sugar on top of functions",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "In general, new APIs cannot be polyfilled, but syntax often can be.",
+      "explanation": "Not all new ES6 features need a transpiler. Polyfills (aka shims) are a pattern for defining equivalent behavior from a newer environment into an older environment, when possible. Syntax cannot be polyfilled, but APIs often can be.",
+      "type": "TF",
+      "correct": false
+    },
+    {
+      "statement": "It is invalid in JS to create a standalone block statement like the following: \\`\\`\\`js { let a = 3; console.log( a ); } \\`\\`\\`",
+      "explanation": "It's not very common or idiomatic thus far in JS to use a standalone \\`{ .. }\\` block, but it's always been valid",
+      "type": "TF",
+      "correct": false
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed? \\`\\`\\`js { console.log( a ); console.log( b ); var a; let b; } \\`\\`\\`",
+      "explanation": "Accessing a let-declared variable earlier than its \\`let\\` .. declaration/initialization causes an error, whereas with \\`var\\` declarations the ordering doesn’t matter",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "\\`ReferenceError\\` / \\`ReferenceError\\`",
+          "correct": false
+        },
+        { "text": "\\`undefined\\` / \\`undefined\\`", "correct": false },
+        { "text": "\\`ReferenceError\\` / \\`undefined\\`", "correct": false },
+        { "text": "\\`undefined\\` / \\`ReferenceError\\`", "correct": true }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following is executed? \\`\\`\\`js let nums = \\[\\] for (let i = 1; i < 6; i++) { nums.push(function() {console.log(i)}); } nums.forEach(fn => fn()); \\`\\`\\`",
+      "explanation": "The \\`let i\\` in the for header declares an \\`i\\` not just for the for loop itself, but it redeclares a new \\`i\\` for each iteration of the loop. That means that closures created inside the loop iteration close over those per-iteration variables the way you'd expect. If you tried that same snippet but with \\`var i\\` in the for loop header, you'd get \\`6,6,6,6,6\\` instead.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`1,2,3,4,5\\`", "correct": true },
+        { "text": "\\`5,5,5,5,5\\`", "correct": false },
+        { "text": "\\`6,6,6,6,6\\`", "correct": false },
+        { "text": "\\`1,1,1,1,1\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following is executed? \\`\\`\\`js let a = \\[2,3,4\\]; let b = \\[ 1, ...a, 5 \\]; console.log(b); \\`\\`\\`",
+      "explanation": "When \\`...\\` is used in front of an array, it acts to “spread” it out into its individual values.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`\\[1, null, 5\\]\\`", "correct": false },
+        { "text": "\\`\\[1, undefined, 5\\]\\`", "correct": false },
+        { "text": "\\`\\[1, 2, 3, 4, 5\\]\\`", "correct": true },
+        { "text": "\\`\\[1, \\[2, 3, 4\\], 5\\]\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will the value of parameter \\`\\`\\`z\\`\\`\\` be inside the following function? \\`\\`\\`js function foo(x, y, ...z) { console.log( z ); } foo( 1, 2, 3, 4, 5 ); \\`\\`\\`",
+      "explanation": "The other common usage of \\`...\\` can be seen as almost the opposite; instead of spreading a value out, the \\`...\\` gathers a set of values together into an array",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`\\[3, 4, 5\\]\\`", "correct": true },
+        { "text": "\\`3\\`", "correct": false },
+        { "text": "\\`undefined\\`", "correct": false },
+        { "text": "\\`\\[1, 2, 3, 4, 5\\]\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "In the following code, \\`function foo (x=20) {...}\\`, what does \"x=20\" accomplish?",
+      "explanation": "In ES6+, you can provide a default value for a function parameter. The default value is used if the argument is \\*undefined\\* (including if no argument is passed). It is not used for other falsy values (i.e. 0, NaN, an empty string, etc.).",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "It assigns \\*x\\* a default value of 20 if the argument passed to the function is \\*undefined\\*.",
+          "correct": true
+        },
+        {
+          "text": "Any value passed to the function gets changed to 20.",
+          "correct": false
+        },
+        {
+          "text": "The function will only accept arguments which are equal to 20.",
+          "correct": false
+        },
+        {
+          "text": "It assigns \\*x\\* a default value of 20 if the argument passed to the function is \"falsy\".",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following function is executed? \\`\\`\\`js function foo(x = 11, y = 31) { console.log( x + y ); } foo(null, 6); foo(undefined, 6); \\`\\`\\`",
+      "explanation": "\\`null\\` coerces to \\`0\\`, so the default value is never used. \\`undefined\\` is the same as a missing argument, so the default value is used in this case.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`17\\` / \\`17\\`", "correct": false },
+        { "text": "\\`6\\` / \\`17\\`", "correct": true },
+        { "text": "\\`NaN\\` / \\`NaN\\`", "correct": false },
+        { "text": "\\`6\\` / \\`6\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "Function default values can only be simple values like \\`31\\`; they cannot be an expression or a function call.",
+      "explanation": "Function default values can be more than just simple values like \\`31\\`; they can be any valid expression, even a function call.",
+      "type": "TF",
+      "correct": false
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js { const a = 2; a = 3; console.log(a) } \\`\\`\\`",
+      "explanation": "You are not allowed to change the value the variable holds once it's been set, at declaration time. A \\`const\\` declaration must have an explicit initialization.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`3\\`", "correct": false },
+        { "text": "\\`TypeError\\`", "correct": true },
+        { "text": "\\`2\\`", "correct": false },
+        { "text": "\\`SyntaxError\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "With ES6, this is valid JavaScript: \\`\\`\\`js { let a = 2, b, c; // .. } \\`\\`\\`",
+      "explanation": "Block scoping is now possible with the \\`let\\` and \\`const\\` keywords.",
+      "type": "TF",
+      "correct": true
+    },
+    {
+      "statement": "What variables are scoped within the \\`for\\` loop: \\`\\`\\`js let a = 2; if (a > 1) { let b = a \\* 3; for (let i = a; i <= b; i++) { let j = i + 10; } let c = a + b; } \\`\\`\\`",
+      "explanation": "\\`j\\` is clearly scoped to the \\`for\\` loop, but \\`i\\` is not so obvious. A new \\`i\\` is scoped to the block for each iteration.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`j\\`", "correct": false },
+        { "text": "\\`i\\`, \\`j\\`", "correct": true },
+        { "text": "\\`i\\`, \\`j\\`, \\`a\\`, \\`b\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js { const a = \\[1,2,3\\]; a.push( 4 ); console.log( a ); } \\`\\`\\`",
+      "explanation": "Constants are not a restriction on the value itself, but on the variable's assignment of that value. In other words, the value is not frozen or immutable because of \\`const\\`, just the assignment of it. If the value is complex, such as an object or array, the contents of the value can still be modified:",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`\\[1, 2, 3, 4\\]\\`", "correct": true },
+        { "text": "\\`\\[1, 2, 3\\]\\`", "correct": false },
+        { "text": "\\`TypeError\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What does the following line of code do? \\`\\`\\`js let { baz: bam } = bar(); \\`\\`\\`",
+      "explanation": "The syntactic pattern here is source: target. \\`baz: bam\\` means the \\`baz\\` property is the source value and \\`bam\\` is the target variable to assign to.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "It destructures the object property \\`baz\\` and assigns it to the variable \\`bam\\`",
+          "correct": true
+        },
+        {
+          "text": "It destructures the object property \\`bam\\` and assigns it to the variable \\`baz\\`",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed? \\`\\`\\`js let x = 10, y = 20; \\[ y, x \\] = \\[ x, y \\]; console.log( x, y ); \\`\\`\\`",
+      "explanation": "With destructuring, you can even solve the traditional \"swap two variables\" task without a temporary variable",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`20 10\\`", "correct": true },
+        { "text": "\\`10 20\\`", "correct": false },
+        { "text": "\\`undefined undefined\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "The following is valid object destructuring syntax: \\`\\`\\`js let x, y, z; { x, y, z } = bar(); \\`\\`\\`",
+      "explanation": "For the object destructuring form specifically, when leaving off a var/let/const declarator, we have to surround the whole assignment expression in ( ), because otherwise the { .. } on the lefthand side as the first element in the statement is taken to be a block statement instead of an object. So the valid way to destructure in this case is like this: \\`( { x, y, z } = bar() );\\`",
+      "type": "TF",
+      "correct": false
+    },
+    {
+      "statement": "What will be logged to the console when this code runs? \\`\\`\\`js let o = \\[1,2,3\\], a, b, c, p; p = \\[a,b,c\\] = o; console.log(p === o); \\`\\`\\`",
+      "explanation": "The assignment expression with object or array destructuring has as its completion value the full righthand object/array value. In the previous snippet, \\`p\\` was assigned the \\`o\\` array reference.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`true\\`", "correct": true },
+        { "text": "\\`false\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "With both object and array destructuring assignment, you must assign all the values that are present.",
+      "explanation": "With both array destructuring assignment and object destructuring assignment, you do not have to assign all the values that are present.",
+      "type": "TF",
+      "correct": false
+    },
+    {
+      "statement": "What will be logged to the console when the following is executed? \\`\\`\\`js let arr = \\[1, 2, 3, 4\\]; let obj = {a: \"x\", b: \"y\", c: \"z\"}; let \\[,,,x,y\\] = arr; let {a, d} = obj; console.log(x, y); console.log(a, d); \\`\\`\\`",
+      "explanation": "if you try to assign more values than are present in the value you're destructuring/decomposing, you get graceful fallback to \\`undefined\\`",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "\\`undefined undefined\\` / \\`x undefined\\`",
+          "correct": false
+        },
+        { "text": "\\`4 undefined\\` / \\`x undefined\\`", "correct": true },
+        { "text": "\\`3 4\\` / \\`x y\\`", "correct": false },
+        { "text": "\\`4 null\\` / \\`x z\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following is executed? \\`\\`\\`js let o = {x: {y: {z: 6}}}; let {x: {y: { z: n, p: c = 3 } } } = o; console.log(n, c); \\`\\`\\`",
+      "explanation": "If the values you're destructuring have nested objects or arrays, you can destructure those nested values as well",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`undefined\\` / \\`undefined\\`", "correct": false },
+        { "text": "\\`6\\` / \\`3\\`", "correct": true },
+        { "text": "\\`6\\` / \\`undefined\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when this function is called as follows: \\`\\`\\`js function fn({ x = 10 } = {}, { y } = { y: 10 }) { console.log( x, y ); } fn(); fn({}, {}); \\`\\`\\`",
+      "explanation": "It's pretty clear that named parameter \\`x\\` is defaulting to \\`10\\` if not passed as a property of that same name in the first argument's object. But what about \\`y\\` being \\`undefined\\`? The \\`{ y: 10 }\\` value is an object as a function parameter default value, not a destructuring default value. As such, it only applies if the second argument is not passed at all, or is passed as \\`undefined\\`.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`10 10\\` / \\`10 undefined\\`", "correct": true },
+        { "text": "\\`{} {y: 10}\\` / \\`10 undefined\\`", "correct": false },
+        { "text": "\\`10 undefined\\` / \\`10 undefined\\`", "correct": false },
+        { "text": "\\`10 10\\` / \\`10 10\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "You should use concise methods only if you’re never going to need them to do recursion or event binding/unbinding.",
+      "explanation": "Concise methods imply anonymous function expressions. An anonymous function doesn't have a lexical name you can use inside the function itself.",
+      "type": "TF",
+      "correct": true
+    },
+    {
+      "statement": "What will be logged to the console when this code is executed? \\`\\`\\`js var o1 = { foo() { console.log( \"o1:foo\" ); } }; var o2 = { foo() { super.foo(); console.log( \"o2:foo\" ); } }; Object.setPrototypeOf( o2, o1 ); o2.foo(); \\`\\`\\`",
+      "explanation": "The \\`super\\` reference in the \\`o2.foo()\\` method is locked statically to \\`o2\\`, and specifically to the \\`\\[\\[Prototype\\]\\]\\` of \\`o2\\`. \\`super\\` here would basically be \\`Object.getPrototypeOf(o2)\\` -- resolves to \\`o1\\` of course -- which is how it finds and calls \\`o1.foo()\\`",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`o1:foo\\` / \\`o2:foo\\`", "correct": true },
+        { "text": "\\`o2:foo\\` / \\`o1:foo\\`", "correct": false },
+        { "text": "\\`o2:foo\\`", "correct": false },
+        { "text": "\\`o1:foo\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "Arrow functions are always anonymous function expressions; there is no arrow function declaration.",
+      "explanation": "It also should be clear that they are anonymous function expressions — they have no named reference for the purposes of recursion or event binding/unbinding",
+      "type": "TF",
+      "correct": true
+    },
+    {
+      "statement": "Which of the following statements is true:",
+      "explanation": "Inside arrow functions, the \\`this\\` binding is not dynamic, but is instead lexical.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "\\`this\\` binding inside arrow functions is dynamic",
+          "correct": false
+        },
+        {
+          "text": "\\`this\\` binding inside arrow functions is lexical",
+          "correct": true
+        },
+        {
+          "text": "You cannot use \\`this\\` inside arrow functions",
+          "correct": false
+        },
+        {
+          "text": "\\`this\\` always points to the global object inside arrow functions",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following is executed? \\`\\`\\`js for (let a of \\[1, 2, 3\\]) { console.log(a); } \\`\\`\\`",
+      "explanation": "for..in loops over the keys/indexes in an array, while for..of loops over the values of the array.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`1\\`, \\`2\\`, \\`3\\`", "correct": true },
+        { "text": "\\`0\\`, \\`1\\`, \\`2\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "Which of the following statements is not true:",
+      "explanation": "You cannot and should not use \\`new\\` with \\`Symbol(..)\\`. It's not a constructor, nor are you producing an object. The correct way to create a new symbol is like this: \\`let sym = Symbol( \"some optional description\" );\\`",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "You should always use \\`new Symbol(...)\\` to create a new symbol.",
+          "correct": true
+        },
+        {
+          "text": "Unlike the other primitive types, symbols don’t have a literal form.",
+          "correct": false
+        },
+        {
+          "text": "The \\`typeof\\` operator outputs \\`\"symbol\"\\` when used in front of a symbol value and that is the primary way to identify one.",
+          "correct": false
+        },
+        {
+          "text": "The parameter passed to \\`Symbol(..)\\` is optional. If passed, it should be a string that gives a friendly description for the symbol’s purpose.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "The main point of a symbol is to create a string-like value that can’t collide with any other value.",
+      "explanation": "You can think of this symbol value as an automatically generated, unique (within your application) string value.",
+      "type": "TF",
+      "correct": true
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js var arr = \\[1,2,3\\]; var it = arr\\[Symbol.iterator\\](); console.log(it.next().value); \\`\\`\\`",
+      "explanation": "Each time the method located at \\`Symbol.iterator\\` (see Chapters 2 and 7) is invoked on this \\`arr\\` value, it will produce a new fresh iterator. Most structures will do the same, including all the built-in data structures in JS.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`1\\`", "correct": true },
+        { "text": "\\`undefined\\`", "correct": false },
+        { "text": "\\`TypeError\\`", "correct": false },
+        { "text": "\\`ReferenceError\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js let str = \"hi\"; let it = str\\[Symbol.iterator\\](); it.next(); it.next(); console.log(it.next()); \\`\\`\\`",
+      "explanation": "The \\`it\\` iterator doesn't report \\`done: true\\` when you receive the \\`'i'\\` value. You have to call \\`next()\\` again, in essence going beyond the end of the string's values, to get the complete signal \\`done: true\\`",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`{value: 'i', done: true}\\`", "correct": false },
+        { "text": "\\`{value: undefined, done: true}\\`", "correct": true },
+        { "text": "\\`{value: 'i', done: false}\\`", "correct": false },
+        { "text": "\\`{value: undefined, done: false}\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js var a = \\[1,2,3,4,5\\]; function foo(x,y,z,w,p) { console.log( x + y + z + w + p ); } foo( ...a ); \\`\\`\\`",
+      "explanation": "The \\`...\\` spread operator fully exhausts an iterator.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`15\\`", "correct": true },
+        { "text": "\\`NaN\\`", "correct": false },
+        { "text": "\\`TypeError\\`", "correct": false },
+        { "text": "\\`SyntaxError\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "Which of the following is the correct way to declare a generator function?",
+      "explanation": "The position of the \\* is not functionally relevant. The only difference here is stylistic preference.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "\\`function \\*foo() { .. }\\` or \\`function\\* foo() { .. }\\`",
+          "correct": false
+        },
+        {
+          "text": "\\`function \\* foo() { .. }\\` or \\`function\\* foo() { .. }\\`",
+          "correct": false
+        },
+        { "text": "All of the above", "correct": true },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will the last line of code do when it is executed? \\`\\`\\`js function \\*rand() { while (true) { yield Math.random(); } } const it = rand(); it.next(); \\`\\`\\`",
+      "explanation": "You can put \\`yield\\` inside a loop, and it can represent a repeated pause point. \\`yield\\` is not just a pause point. It’s an expression that sends out a value when pausing the generator. The code here generates and yields a new random number whenever \\`it.next()\\` is called.",
+      "type": "MCQ",
+      "options": [
+        { "text": "It will generate a new random number", "correct": true },
+        { "text": "It will start an infinite loop", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed? \\`\\`\\`js function \\*foo() { yield \\*\\[1, 2, 3\\]; yield \"we're done\"; } const it = foo(); it.next(); console.log(it.next().value); \\`\\`\\`",
+      "explanation": "In the same way that the \\`\\*\\` makes a \\`function\\` declaration into \\`function \\*\\` generator declaration, a \\`\\*\\` makes \\`yield\\` into \\`yield \\*\\`, which is a very different mechanism, called yield delegation. \\`yield \\* ..\\` requires an iterable; it then invokes that iterable's iterator, and delegates its own host generator's control to that iterator until it's exhausted.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`\\[1, 2, 3\\]\\`", "correct": false },
+        { "text": "\\`2\\`", "correct": true },
+        { "text": "\\`\"we're done\"\\`", "correct": false },
+        { "text": "\\`1\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "Which of the following is not true of ES6 modules?",
+      "explanation": "Modules are no different from other ES6 features in that they should be used, but polyfills might be needed for older browsers.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "You cannot have multiple modules in a file",
+          "correct": false
+        },
+        {
+          "text": "Once you define statically what all the top-level exports are on your module's public API, those cannot be amended later.",
+          "correct": false
+        },
+        {
+          "text": "There is only one instance of the module, which maintains its state. Every time you import that module into another module, you get a reference to the one centralized instance.",
+          "correct": false
+        },
+        {
+          "text": "ES6 modules are still experimental and should not be used",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "statement": "What is the difference between importing default exports and named exports?",
+      "explanation": "As the name suggests, the default export is the default export for that module, whereas named exports need to be imported by name.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "Named exports are imported as \\`import { foo } from \"foo\";\\`, and default exports are imported as \\`import foo from \"foo\";\\`",
+          "correct": true
+        },
+        {
+          "text": "Named exports are imported as \\`import foo from \"foo\";\\`, and default exports are imported as \\`import { foo } from \"foo\";\\`",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "You cannot put either an \\`import\\` or \\`export\\` inside an \\`if\\` conditional.",
+      "explanation": "They must appear outside of all blocks and functions.",
+      "type": "TF",
+      "correct": true
+    },
+    {
+      "statement": "Which of the following is an invalid export?",
+      "explanation": "You currently cannot do \\`export default var foo = ..\\` (or \\`let\\` or \\`const\\`), in a frustrating case of inconsistency. At the time of this writing, there's already discussion of adding that capability in soon, post-ES6, for consistency sake.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`export default const PI = 3.14;\\`", "correct": true },
+        { "text": "\\`export const PI = 3.14;\\`", "correct": false },
+        { "text": "\\`export function foo() { .. }\\`", "correct": false },
+        {
+          "text": "\\`export default function foo() { .. }\\`",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "What of the following options is an incorrect way of importing the following exports: \\`\\`\\`js export default function foo() { .. } export function bar() { .. } export function baz() { .. } \\`\\`\\`",
+      "explanation": "the default keyword in a module's export specifies a named export where the name is actually default",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "\\`import {foo, bar, baz} from \"foo\";\\`",
+          "correct": true
+        },
+        {
+          "text": "\\`import foo, { bar, baz } from \"foo\";\\`",
+          "correct": false
+        },
+        {
+          "text": "\\`import { default as foo, bar as x, baz as y} from \"foo\";\\`",
+          "correct": false
+        },
+        {
+          "text": "\\`import FOOFN, { bar, baz} from \"foo\";\\`",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "All imported bindings are immutable and/or read-only and any subsequent assignment attempts will throw a \\`TypeError\\`",
+      "explanation": "You cannot reassign an imported function or variable in your code.",
+      "type": "TF",
+      "correct": true
+    },
+    {
+      "statement": "\\`class Foo {...}\\` creates a constructor function named \\`Foo\\`",
+      "explanation": "\\`class Foo\\` implies creating a (special) function of the name Foo, much like you did pre-ES6.",
+      "type": "TF",
+      "correct": true
+    },
+    {
+      "statement": "Which of the following statements about classes is not true:",
+      "explanation": "While \\`function Foo() {...}\\` is “hoisted”, \\`class Foo\\` is not.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`class Foo\\` is hoisted", "correct": true },
+        {
+          "text": "The \\`Foo(...)\\` constructor call \\*must\\* be made with the \\`new\\` keyword",
+          "correct": false
+        },
+        {
+          "text": "A \\`class\\` can be thought of as a macro, used to automatically populate a \\`prototype\\` object",
+          "correct": false
+        },
+        {
+          "text": "Unlike object literals, there are no commas separating members in a \\`class\\` body",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js class Foo { constructor(x) { this.x = x; } print() { console.log(\"Foo:\", this.x); } } class Bar extends Foo { constructor(x, y) { super(x); this.y = y; } print() { super.print(); console.log(\"Bar:\", this.y); } } const b = new Bar(3, 6); b.print(); \\`\\`\\`",
+      "explanation": "In the constructor, \\`super\\` automatically refers to the \"parent constructor,\" which in the previous example is \\`Foo(..)\\`. In a method, it refers to the \"parent object,\" such that you can then make a property/method access off it, such as \\`super.print()\\`.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`Foo: 3\\` / \\`Bar: 6\\`", "correct": true },
+        { "text": "\\`Foo: 3\\`", "correct": false },
+        { "text": "\\`Bar: 6\\`", "correct": false },
+        { "text": "\\`Foo: undefined\\` / \\`Bar: 6\\`", "correct": true }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js class Foo { ... } class Bar extends Foo { ... } console.log(Foo.isPrototypeOf(Bar)); \\`\\`\\`",
+      "explanation": "\\`Bar extends Foo\\` of course means to link the \\[\\[Prototype\\]\\] of \\`Bar.prototype\\` to \\`Foo.prototype\\`",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`true\\`", "correct": true },
+        { "text": "\\`false\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "Constructors are required for both classes and subclasses",
+      "explanation": "Constructors are not required for classes or subclasses; a default constructor is substituted in both cases if omitted. Furthermore, the default subclass constructor automatically calls the parent constructor, and passes along any arguments.",
+      "type": "TF",
+      "correct": false
+    },
+    {
+      "statement": "In a constructor of a subclass, you cannot access \\`this\\` until \\`super(..)\\` has been called.",
+      "explanation": "The reason is nuanced and complicated, but it boils down to the fact that the parent constructor is actually the one creating/initializing your instance's \\`this\\`, which you cannot access before it is actually created.",
+      "type": "TF",
+      "correct": true
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js class Foo { static cool() { console.log( \"cool\" ); } wow() { console.log( \"wow\" ); } } class Bar extends Foo { static awesome() { super.cool(); console.log( \"awesome\" ); } neat() { super.wow(); console.log( \"neat\" ); } } var b = new Bar(); b.awesome(); \\`\\`\\`",
+      "explanation": "Be careful not to get confused that static members are on the class's prototype chain.They're actually on the dual/parallel chain between the function constructors.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`TypeError\\`", "correct": true },
+        { "text": "\\`\"cool\"\\` / \\`\"awesome\"\\`", "correct": false },
+        { "text": "\\`undefined\\`", "correct": false },
+        { "text": "\\`undefined\\` / \\`\"awesome\"\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What are the two possible outcomes of a \\`Promise\\`?",
+      "explanation": "If there are no errors, then the Promise will get resolved, but if an error occurs typically the Promise will get rejected.",
+      "type": "MCQ",
+      "options": [
+        { "text": "Fulfilled and rejected", "correct": true },
+        { "text": "Completed and in progress", "correct": false },
+        { "text": "Returned and incomplete", "correct": false }
+      ]
+    },
+    {
+      "statement": "A promise can only be resolved (fulfilled or rejected) once",
+      "explanation": "Promises can only be resolved (fulfillment or rejection) once. Any further attempts to fulfill or reject are simply ignored. Thus, once a Promise is resolved, it's an immutable value that cannot be changed.",
+      "type": "TF",
+      "correct": true
+    },
+    {
+      "statement": "This is a valid way to construct a promise: \\`\\`\\`js var p = new Promise(() => { return setTimeout(() => 5, 1000) } ); \\`\\`\\`",
+      "explanation": "There are a couple things wrong with this code. For one, \\`setTimeout\\` does not return the return value of the callback. \\`fn\\` in \\`new Promise(fn)\\` needs to have an argument, such as \\`resolve\\`, which you call on your desired return value.",
+      "type": "TF",
+      "correct": false
+    },
+    {
+      "statement": "This is a valid way to construct and consume a promise: \\`\\`\\`js var p = new Promise((resolve) => { setTimeout(() => resolve(5), 1000); } ); p.done(val => { console.log(val); }); \\`\\`\\`",
+      "explanation": "\\`done\\` is not a valid method for a Promise. The code above would be valid if it were replaced with \\`.then()\\`",
+      "type": "TF",
+      "correct": false
+    },
+    {
+      "statement": "What do \\`.then(..)\\` and \\`.catch(..)\\` methods return when invoked on a promise?",
+      "explanation": "Both \\`then(..)\\` and \\`catch(..)\\` automatically construct and return another promise instance, which is wired to receive the resolution from whatever the return value is from the original promise's fulfillment or rejection handler (whichever is actually called)",
+      "type": "MCQ",
+      "options": [
+        { "text": "another promise", "correct": true },
+        { "text": "an object", "correct": false },
+        { "text": "\\`undefined\\`", "correct": false },
+        { "text": "a function", "correct": false }
+      ]
+    },
+    {
+      "statement": "What are thenables?",
+      "explanation": "Any object (or function) with a \\`then(..)\\` function on it is assumed to be a thenable. Any place where the Promise mechanisms can accept and adopt the state of a genuine promise, they can also handle a thenable.",
+      "type": "MCQ",
+      "options": [
+        { "text": "Just another word for Promises", "correct": false },
+        {
+          "text": "The next version of promises introduced in ES7",
+          "correct": false
+        },
+        {
+          "text": "Promise-like objects that generally can interoperate with Promise mechanisms",
+          "correct": true
+        },
+        { "text": "Promises that are used with generators", "correct": false }
+      ]
+    },
+    {
+      "statement": "\\`p1\\` and \\`p2\\` have essentially the same behavior: \\`\\`\\`js var p1 = Promise.resolve( 42 ); var p2 = new Promise( function pr(resolve){ resolve( 42 ); } ); \\`\\`\\`",
+      "explanation": "\\`Promise.resolve\\` creates a resolved promise. To access the value \\`42\\`, you need to call \\`.then()\\`",
+      "type": "TF",
+      "correct": true
+    },
+    {
+      "statement": "What will be logged to the console when the following is executed? \\`\\`\\`js const a = 42, b = Promise.resolve(43), c = 44; Promise.all(\\[a, b, c\\]).then(val => console.log(val)); \\`\\`\\`",
+      "explanation": "\\`Promise.all(\\[ .. \\])\\` accepts an array of one or more values (e.g., immediate values, promises, thenables). It returns a promise back that will be fulfilled if all the values fulfill, or reject immediately once the first of any of them rejects",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`42\\`", "correct": false },
+        { "text": "\\`43\\`", "correct": false },
+        { "text": "\\`\\[42, 43, 44\\]\\`", "correct": true }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following is executed? \\`\\`\\`js const a = 42, b = Promise.resolve(43), c = 44; Promise.race(\\[a, b, c\\]).then(val => console.log(val)); \\`\\`\\`",
+      "explanation": "While \\`Promise.all(\\[ .. \\])\\` waits for all fulfillments (or the first rejection), \\`Promise.race(\\[ .. \\])\\` waits only for either the first fulfillment or rejection.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`42\\`", "correct": true },
+        { "text": "\\`43\\`", "correct": false },
+        { "text": "\\`\\[42, 43, 44\\]\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following is executed? \\`\\`\\`js const a = Promise.resolve(43), b = 42, c = Promise.reject(\"Oops\"); Promise.race(\\[a, b, c\\]) .then(val => console.log(val)) .catch(e => console.log(e)); \\`\\`\\`",
+      "explanation": "While \\`Promise.all(\\[ .. \\])\\` waits for all fulfillments (or the first rejection), \\`Promise.race(\\[ .. \\])\\` waits only for either the first fulfillment or rejection (whichever happens first). In the code snippet above, if we changed the order of the array to \\`Promise.race(\\[c, b, a\\])\\` then we'd get \\`'Oops'\\` printed instead.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`42\\`", "correct": false },
+        { "text": "\\`43\\`", "correct": true },
+        { "text": "\\`\"Oops\"\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What do typed arrays allow you to do in JavaScript?",
+      "explanation": "It'd be tempting to look at a feature named \"typed array\" and assume it means an array of a specific type of values, like an array of only strings. However, typed arrays are really more about providing structured access to binary data using array-like semantics (indexed access, etc.). The \"type\" in the name refers to a \"view\" layered on type of the bucket of bits, which is essentially a mapping of whether the bits should be viewed as an array of 8-bit signed integers, 16-bit signed integers, and so on.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "Create arrays of a specific type of values, like an array of only strings",
+          "correct": false
+        },
+        {
+          "text": "Provide structured access to binary data using array-like semantics",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "statement": "What is the difference between maps and objects?",
+      "explanation": "Maps were added in ES6 and are just like objects except the keys can be anything, even arrays or objects!",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "Object keys have to be strings, and map keys can be any value",
+          "correct": true
+        },
+        { "text": "Maps are immutable, and objects are not", "correct": false },
+        {
+          "text": "Objects are the JavaScript version of maps",
+          "correct": false
+        },
+        { "text": "There is no difference", "correct": false }
+      ]
+    },
+    {
+      "statement": "The following code is valid ES6: \\`\\`\\`js var m = new Map(); var x = { id: 1 }, y = { id: 2 }; m\\[x\\] = y; \\`\\`\\`",
+      "explanation": "Maps do not support the \\`\\[\\]\\` syntax. \\`set\\` operations must be done like \\`m.set(x, y)\\`.",
+      "type": "TF",
+      "correct": false
+    },
+    {
+      "statement": "Which of the following statements about WeakMaps is not true:",
+      "explanation": "WeakMaps take (only) objects as keys. Those objects are held weakly, which means if the object itself is GC'd, the entry in the WeakMap is also removed.",
+      "type": "MCQ",
+      "options": [
+        { "text": "WeakMaps take only objects as keys", "correct": false },
+        {
+          "text": "WeakMaps do not expose any iterators over their keys, values, or entries",
+          "correct": false
+        },
+        {
+          "text": "If an object used as a key in a WeakMap is garbage collected, the entry is not removed",
+          "correct": true
+        },
+        {
+          "text": "WeakMaps do not have a \\`size\\` property or \\`clear()\\` method",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js let duplicates = \\[1, 2, 2, 3, 4, 4, 4, 5\\]; let newSet = new Set(duplicates); console.log(newSet.size); \\`\\`\\`",
+      "explanation": "Sets can be constructed with iterators such as arrays, and they only store unique values. They are kind of like objects with keys but no values.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`8\\`", "correct": false },
+        { "text": "\\`5\\`", "correct": true },
+        { "text": "\\`TypeError\\`", "correct": false },
+        { "text": "\\`SyntaxError\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What is one way to copy a set: \\`\\`\\`js let values = \\[1, 1, 2, 3\\]; let setValues = new Set(values) \\`\\`\\`",
+      "explanation": "The constructor is the only way to make a new set, and it will copy values from the set into a new set.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`let copy = setValues.copy()\\`", "correct": false },
+        {
+          "text": "\\`let copy = Set.assign(new Set(), setValues)\\`",
+          "correct": false
+        },
+        {
+          "text": "\\`let copy = new Set(\\[setValues\\])\\`",
+          "correct": false
+        },
+        { "text": "\\`let copy = new Set(setValues)\\`", "correct": true }
+      ]
+    },
+    {
+      "statement": "Which of the following statements about Sets is not true:",
+      "explanation": "A set doesn't need (and doesn't have) a \\`get(..)\\` because you don't retrieve a value from a set, but rather test if it is present or not, using \\`has(..)\\`",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "A set is a collection of unique values (duplicates are ignored)",
+          "correct": false
+        },
+        {
+          "text": "The \\`add()\\` method is used to add new items to a set",
+          "correct": false
+        },
+        {
+          "text": "The \\`get()\\` method is used to retrieve an item from a set",
+          "correct": true
+        },
+        {
+          "text": "The \\`has()\\` method is used to test if a value is present or not",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "This is a valid way to create an array from a set: \\`\\`\\`js let s = new Set(\\[1, 2, 2, 3, 3, 3\\]); let a = \\[...s\\]; \\`\\`\\`",
+      "explanation": "You can use the spread operator with sets",
+      "type": "TF",
+      "correct": true
+    },
+    {
+      "statement": "Which of the following are valid ways to make an iterator of map keys: \\`\\`\\`js var newMap = new Map() var x = {\"foo\": 1} var xVal = \"foo1\"; var y = {\"foo\": 2} var yVal = \"foo2\"; newMap.set(x, xVal) newMap.set(y, yVal) \\`\\`\\`",
+      "explanation": "\\`newMap.keys()\\` will create an iterator of the keys. \\`newMap.forEach()\\` iterates over the values, and \\`entries()\\` creates a two dimensional array of keys and values.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`newMap.keys()\\`", "correct": true },
+        { "text": "\\`newMap.keys\\`", "correct": false },
+        { "text": "\\`newMap.entries()\\`", "correct": false },
+        { "text": "\\`newMap.forEach(key => {...})\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "Which of the following statements about WeakSets is true:",
+      "explanation": "Whereas a WeakMap holds its keys weakly (but its values strongly), a WeakSet holds its values weakly (there aren't really keys).",
+      "type": "MCQ",
+      "options": [
+        { "text": "A WeakSet holds its values weakly", "correct": true },
+        { "text": "A WeakSet holds its keys weakly", "correct": false },
+        {
+          "text": "WeakSet values can be primitives like strings or numbers",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed? \\`\\`\\`js let arr = Array(5); console.log(arr.length); \\`\\`\\`",
+      "explanation": "There's a well known gotcha with the \\`Array(..)\\` constructor, which is that if there's only one argument passed, and that argument is a number, instead of making an array of one element with that number value in it, it constructs an empty array with a length property equal to the number.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`5\\`", "correct": true },
+        { "text": "\\`1\\`", "correct": false },
+        { "text": "\\`4\\`", "correct": false },
+        { "text": "\\`0\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed? \\`\\`\\`js Array(1, 2, 3).length === Array.of(5, 6, 7).length \\`\\`\\`",
+      "explanation": "\\`Array.of(..)\\` replaces \\`Array(..)\\` as the preferred function-form constructor for arrays",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`true\\`", "correct": true },
+        { "text": "\\`false\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed? \\`\\`\\`js let arrLike = { length: 4, 0: \"foo\", 2: \"bar\" }; console.log(Array.from(arrLike)); \\`\\`\\`",
+      "explanation": "\\`Array.from(..)\\` looks to see if the first argument is an iterable, and if so, it uses the iterator to produce values to \"copy\" into the returned array. If you pass an array-like object as the first argument, it simply loops over the value, accessing numerically named properties from \\`0\\` up to whatever the value of \\`length\\` is. \\`Array.from(..)\\` never produces empty slots.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "\\`\\[\"foo\", undefined, \"bar\", undefined\\]\\`",
+          "correct": true
+        },
+        {
+          "text": "\\`\\[undefined, undefined, undefined, undefined\\]\\`",
+          "correct": false
+        },
+        { "text": "\\`\\[\"foo\", \"bar\"\\]\\`", "correct": false },
+        { "text": "\\`\\[\"foo\",,\"bar\",,\\]\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "\\`Array.from(..)\\` takes an optional second argument, which is a \\_\\_\\_\\_ callback.",
+      "explanation": "The second argument, if provided, is a mapping callback (almost the same as the regular \\`Array#map(..)\\` expects) which is called to map/transform each value from the source to the returned target.",
+      "type": "MCQ",
+      "options": [
+        { "text": "mapping", "correct": true },
+        { "text": "filtering", "correct": false },
+        { "text": "sorting", "correct": false },
+        { "text": "reducing", "correct": false }
+      ]
+    },
+    {
+      "statement": "What does the following line of code do? \\`\\`\\`js let a = Array.from( { length: 2 } ); \\`\\`\\`",
+      "explanation": "You can use \\`Array.from()\\` to create an array of \\`undefined\\` values",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "It creates an array with two \\`undefined\\` values",
+          "correct": true
+        },
+        { "text": "It creates an array with two empty slots", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed? \\`\\`\\`js let x = NaN, y = 0, z = -0; console.log(Object.is(x, x)); console.log(Object.is(y, z)); \\`\\`\\`",
+      "explanation": "\\`Object.is(..)\\` is basically the same as \\`===\\`, with two exceptions: \\`Object.is(NaN, NaN)\\` is \\`true\\` and \\`Object.is(0, -0)\\` is \\`false\\`",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`true\\` / \\`false\\`", "correct": true },
+        { "text": "\\`false\\` / \\`true\\`", "correct": false },
+        { "text": "\\`false\\` / \\`false\\`", "correct": false },
+        { "text": "\\`true\\` / \\`true\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed? \\`\\`\\`js console.log(Number.isInteger(4.0)); \\`\\`\\`",
+      "explanation": "In JavaScript, there’s no difference between \\`4\\`, \\`4.\\`, \\`4.0\\`, or \\`4.0000\\`. All of these would be considered an “integer”",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`true\\`", "correct": true },
+        { "text": "\\`false\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What is \\`Number.MAX\\_SAFE\\_INTEGER\\`?",
+      "explanation": "Max safe integer is the highest integer that can safely be represented in a JavaScript number value which is \\`2^53 - 1\\`.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`2^53 - 1\\`", "correct": true },
+        { "text": "\\`2^32 - 1\\`", "correct": false },
+        { "text": "\\`2^32\\`", "correct": false },
+        { "text": "\\`Infinity\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "Why would you use \\`Number.isNaN()\\` instead of \\`isNaN()\\`?",
+      "explanation": "\\`isNaN()\\` checks for things that are not a number. So that includes \\`NaN\\` and any other value that isn't a number.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "If you are literally checking for the value \\`NaN\\`",
+          "correct": true
+        },
+        {
+          "text": "If you want to determine if a value is not of type number, so that does not include \\`NaN\\`",
+          "correct": false
+        },
+        {
+          "text": "If you want to determine if a value is not of type number, including \\`NaN\\`",
+          "correct": false
+        },
+        {
+          "text": "If you want to use the faster, ES6 version",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js var obj1 = { a: 4 }; var obj2 = { b: obj1 } Object.assign(obj1, obj2) console.log(obj1) \\`\\`\\`",
+      "explanation": "\\`Object.assign(obj1, obj2)\\` takes \\`obj2\\` and merges it into \\`obj1\\`. In the example above, after the merge, the attribute \\`\"b\"\\` actually references \\`obj1\\` itself recursively.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`{ a: 4 }\\`", "correct": false },
+        { "text": "\\`{ a: 4, b: obj1 }\\`", "correct": true },
+        {
+          "text": "\\`{ a: 4, b: \"\\[Object object\\]\" }\\`",
+          "correct": false
+        },
+        { "text": "\\`TypeError\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js console.log(Array(4).fill(3)) \\`\\`\\`",
+      "explanation": "\\`Array(4)\\` creates an array with 4 spots, and \\`fill(3)\\` fills them with the value 3",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`\\[4, 4, 4\\]\\`", "correct": false },
+        { "text": "\\`\\[3, 3, 3, 3\\]\\`", "correct": true },
+        { "text": "\\`TypeError\\`", "correct": false },
+        { "text": "\\`\\[7\\]\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js var foo = \\[1, \"2\", 2, 4, \"2\"\\]; var newFoo = foo.find((val) => { return val == 2 }) console.log(newFoo + 1) \\`\\`\\`",
+      "explanation": "\\`foo.find()\\` returns the first value for which the comparison is truthy, so \\`\"2\"\\` at index 1. \\`1\\` is then coerced into \\`\"1\"\\` and added to \\`\"2\"\\` which is \\`\"21\"\\`.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`\"2,2,21\"\\`", "correct": false },
+        { "text": "\\`\"21\"\\`", "correct": true },
+        { "text": "\\`3\\`", "correct": false },
+        { "text": "\\`NaN\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js var abc = function def() { let a = 5; } console.log(abc.name) \\`\\`\\`",
+      "explanation": "The \\`name\\` property of a function will refer to the lexical binding name if it exists. In this case, it is \\`\"def\"\\`. If the function was anonymous, the name property would be \\`\"abc\"\\`.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`\"abc\"\\`", "correct": false },
+        { "text": "\\`\"def\"\\`", "correct": true },
+        { "text": "\\`\\[\"def\", \"name\"\\]\\`", "correct": false },
+        { "text": "\\`undefined\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js var o = {}; o\\[2\\] = true; o\\[1\\] = true; o.b = \"awesome\"; o.a = \"cool\"; console.log(Object.getOwnPropertyNames( o )); \\`\\`\\`",
+      "explanation": "The ordering is: 1. First, enumerate any owned properties that are integer indexes, in ascending numeric order. 2. Next, enumerate the rest of the owned string property names in creation order. 3. Finally, enumerate owned symbol properties in creation order.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`\\[1,2,\"b\",\"a\"\\]\\`", "correct": true },
+        { "text": "\\`\\[1,2,\"a\",\"b\"\\]\\`", "correct": false },
+        { "text": "Order cannot be guaranteed", "correct": false },
+        { "text": "\\`\\[2,1,\"b\",\"a\"\\]\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js var arr = \\[4, 5, 6, 7\\]; arr\\[Symbol.iterator\\] = function\\* () { var idx = 0; do { yield 3; } while ((idx += 1) < this.length); }; console.log(\\[...arr\\]) \\`\\`\\`",
+      "explanation": "The generator defines how to iterate through values in \\`arr\\`. We defined it to return the value \\`3\\` for each element in the array.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`\\[4, 5, 6, 7\\]\\`", "correct": false },
+        { "text": "\\`\\[3, 3, 3, 3\\]\\`", "correct": true },
+        { "text": "\\`\\[4, 5, 6\\]\\`", "correct": false },
+        { "text": "\\`\\[3, 3, 3\\]\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js var obj1 = { a: 3 } var obj2 = { b: 3 } obj1.toString = () => \"foo\" obj2\\[Symbol.toStringTag\\] = \"foo\"; console.log(obj1.toString() === obj2.toString()) \\`\\`\\`",
+      "explanation": "\\`obj1.toString()\\` is \\`\"foo\"\\` and \\`obj2.toString()\\` is \\`\"\\[object foo\\]\"\\`",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`true\\`", "correct": false },
+        { "text": "\\`false\\`", "correct": true },
+        { "text": "\\`SyntaxError\\`", "correct": false },
+        { "text": "\\`TypeError\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js var arr = \\[1, 2, 3, 4, 5\\]; arr\\[Symbol.toPrimitive\\] = function () { return 5 }; console.log(arr + 10); \\`\\`\\`",
+      "explanation": "\\`toPrimitive\\` is used when an object must be coerced to a primitive value. We are overriding its typical functionality for \\`arr\\` and forcing it to be \\`5\\`.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`\"1,2,3,4,510\"\\`", "correct": false },
+        { "text": "\\`15\\`", "correct": true },
+        { "text": "\\`TypeError\\`", "correct": false },
+        { "text": "\\`ReferenceError\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed? \\`\\`\\`js let obj = {a: 1, b: 2}; let handlers = { get(target,key,context) { if (Reflect.has( target, key )) { return Reflect.get(target, key, context); } else { throw \"No such property/method!\"; } } } let proxy = new Proxy(obj, handlers); console.log(proxy.c); \\`\\`\\`",
+      "explanation": "A proxy is a special kind of object you create that \"wraps\" -- or sits in front of -- another normal object. You can register special handlers (aka traps) on the proxy object which are called when various operations are performed against the proxy. These handlers have the opportunity to perform extra logic in addition to forwarding the operations on to the original target/wrapped object.",
+      "type": "MCQ",
+      "options": [
+        { "text": "No such property/method!", "correct": true },
+        { "text": "\\`undefined\\`", "correct": false },
+        { "text": "\\`null\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "The following code is a valid way for testing whether arrow functions work in the runtime environment: \\`\\`\\`js try { a = () => {}; ARROW\\_FUNCS\\_ENABLED = true; } catch (err) { ARROW\\_FUNCS\\_ENABLED = false; } \\`\\`\\`",
+      "explanation": "Unfortunately, this doesn't work, because our JS programs are compiled. Thus, the engine will choke on the arrow function syntax if it doesn't already support it. The alternative would be to use \\`new Function( \"(() => { })\" );\\` inside the \\`try\\` block.",
+      "type": "TF",
+      "correct": false
+    },
+    {
+      "statement": "Tail Call Optimization helps us save memory when we do object oriented programming",
+      "explanation": "Certain patterns of function calls in recursive programming, called tail calls, can be optimized in a way to avoid the extra allocation of stack frames. Instead of creating a new stack frame for the next function call, the engine just reuses the existing stack frame. That works because a function doesn't need to preserve any of the current state.",
+      "type": "TF",
+      "correct": false
+    },
+    {
+      "statement": "Tail Call Optimization will be applied to the following code: \\`\\`\\`js \"use strict\"; function foo(x) { return x \\* 2; } function bar(x) { x = x + 1; if (x > 10) { return foo( x ); } else { return bar( x + 1 ); } } bar( 5 ); \\`\\`\\`",
+      "explanation": "\\`foo(..)\\` and \\`bar(..)\\` both are in tail position, as they're the last thing to happen in their code path (other than the return). In both cases, the function calls are in proper tail position. Proper Tail Calls (PTC) of these forms can be optimized.",
+      "type": "TF",
+      "correct": true
+    },
+    {
+      "statement": "Tail Call Optimization (TCO) can only be applied in strict mode",
+      "explanation": "This optimization can only be applied in strict mode. Yet another reason to always be writing all your code as strict!",
+      "type": "TF",
+      "correct": true
+    },
+    {
+      "statement": "What do \\`async\\` functions return?",
+      "explanation": "\\`async\\` functions return a promise which can then be consumed via \\`await\\` or with \\`.then()\\`.",
+      "type": "MCQ",
+      "options": [
+        { "text": "a promise", "correct": true },
+        { "text": "a callback", "correct": false },
+        { "text": "a resolved promise", "correct": false },
+        { "text": "an object", "correct": false }
+      ]
+    },
+    {
+      "statement": "The \\`await\\` keyword can only be used inside an \\`async\\` function",
+      "explanation": "The \\`await\\` expression causes \\`async\\` function execution to pause until a \\`Promise\\` is resolved, that is fulfilled or rejected, and to resume execution of the \\`async\\` function after fulfillment. When resumed, the value of the \\`await\\` expression is that of the fulfilled \\`Promise\\`.",
+      "type": "TF",
+      "correct": true
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js var obj = { a: 1, b: 2 }; Object.observe( obj, function (changes) { console.log(changes) } ); obj.a = 3 \\`\\`\\`",
+      "explanation": "Trick question! \\`Object.observe()\\` has been deprecated. ES6 Proxies are recommended as an alternative.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`TypeError\\`", "correct": true },
+        { "text": "\\`{change: {a: 3}}\\`", "correct": false },
+        { "text": "\\`\"change\"\\`", "correct": false },
+        { "text": "\\`\\[{change: {a: 3}}\\]\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed? \\`\\`\\`js let a = 2; console.log(a \\*\\* 4 === Math.pow(a, 4)); \\`\\`\\`",
+      "explanation": "The \\`\\*\\*\\` operator has been proposed for JavaScript to perform exponentiation in the same way that \\`Math.pow(..)\\` does",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`true\\`", "correct": true },
+        { "text": "\\`false\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js var o1 = { a: 1, b: 2 }, o2 = { c: 3 }, o3 = { ...o1, ...o2, d: 4 }; console.log(o3.a, o3.b, o3.c, o3.d); \\`\\`\\`",
+      "explanation": "The spread operator here works similar to that with arrays.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`1 2 3 4\\`", "correct": true },
+        { "text": "\\`TypeError\\`", "correct": false },
+        { "text": "\\`4\\`", "correct": false },
+        { "text": "\\`3 4\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js let o1 = {a: 1, b: 2, c: 3}; let {b, ...o2} = o1; console.log(o2); \\`\\`\\`",
+      "explanation": "The \\`...\\` operator might also be used to gather an object's destructured properties back into an object",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`{a: 1, c: 3}\\`", "correct": true },
+        { "text": "\\`{b: 2, c: 3}\\`", "correct": false },
+        { "text": "\\`{a: 1, b: 2, c: 3}\\`", "correct": false },
+        { "text": "\\`{a: 1, b: 2}\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js var arr = \\[1, 2, 3, 'hello'\\]; console.log(arr.includes('hello')); \\`\\`\\`",
+      "explanation": "\\`Array.prototype.includes(x)\\` simply checks to see if an element value is equal to \\`x\\`",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`true\\`", "correct": true },
+        { "text": "\\`false\\`", "correct": false },
+        { "text": "\\`TypeError\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What is WebAssembly?",
+      "explanation": "WebAssembly proposes a format for a binary representation of a highly compressed AST (syntax tree) of code, which can then give instructions directly to the JS engine and its underpinnings, without having to be parsed by JS, or even behave by the rules of JS.",
+      "type": "MCQ",
+      "options": [
+        { "text": "A new programming language", "correct": false },
+        { "text": "The future replacement of JavaScript", "correct": false },
+        { "text": "A new binary represenation of code", "correct": true },
+        { "text": "A new JavaScript framework", "correct": false }
+      ]
+    }
+  ]
+}
