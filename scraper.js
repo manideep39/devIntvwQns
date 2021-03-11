@@ -33,13 +33,12 @@ class Scraper {
     return htmlStr;
   }
 
-  createDOM() {
-    const htmlStr = this.markdown2Html();
+  createDOM(html) {
+    const htmlStr = html || this.markdown2Html();
     const { JSDOM } = jsdom;
     const { document } = new JSDOM(htmlStr).window;
     return document;
   }
-
 }
 
 module.exports = Scraper;

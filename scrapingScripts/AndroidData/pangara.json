@@ -1,0 +1,194 @@
+{
+  "questions": [
+    {
+      "type": "LONG",
+      "statement": "What is Android and who founded it?",
+      "explanation": "Android is an open-source, linux-based operating system. It was founded by Andy Rubin and it is used in mobiles, tablets, televisions etc."
+    },
+    {
+      "type": "LONG",
+      "statement": "Please name the Android Application Architecture.",
+      "explanation": "*   **Activities** dictate the UI and handle the user interaction with a smartphone screen. Activity performs actions on the screen.\n*   **Broadcast Receivers** respond to broadcast messages from other application in or from the system. This is implemented as a subclass of **BroadcastReceiver** class and each message is recognized as an **Intent** object.\n*   **Services** . These are used to perform background functions.\n*   **Intent** . This is what enables inter connectivity between activities and data passing mechanism.\n*   **Resource Externalisation** which refers to strings and graphics.\n*   **Notification** for dialogue box, icon, light, notification, sound and toast\n*   **Content Providers** for sharing data between applications"
+    },
+    {
+      "type": "LONG",
+      "statement": "What are the additional components of Android?",
+      "explanation": "*   **Fragments** serve as a portion of user interface in an Activity.\n*   **Views** are UI elements that are drawn on-screen including buttons, lists forms, etc.\n*   **Layouts** view hierarchies that control screen format and the appearance of the views.\n*   **Intents** are messages that wire components together.\n*   **Resources** are external elements (strings, constants and drawable pictures).\n*   **Manifest** is the configuration file for the app."
+    },
+    {
+      "type": "LONG",
+      "statement": "What notifications are available in Android and what is their usage?",
+      "explanation": "**Snackbars &Toast Notification** − Shows up as a pop up message on the surface of the window.\n\n**Snackbars** contain a single line of text that is directly relation to the operation that is performed. They typically contain a text action and no icons. Only one snackbar can be displayed at a time and it can contain a singly action, neither of which may be “Dismiss” or “Cancel.”\n\n**Toasts** are only available with Androids and they are used for system message. They also display at the bottom of the screen but they can’t be swiped off-screen.\n\n**Status Bar Notifications** show notifications on the status bar.\n\nFor more information about Snackbars and Toast, visit [here](https://material.io/guidelines/components/snackbars-toasts.html#) .\n\n**Dialogue Notification** − An actively related notification."
+    },
+    {
+      "type": "LONG",
+      "statement": "How do you Translate in Android?",
+      "explanation": "Android uses Google translator to translate data from one language into another language and places it as a string while development."
+    },
+    {
+      "type": "LONG",
+      "statement": "What types of flags are used to run an application in Android?",
+      "explanation": "FLAG\\_ACTIVITY\\_NEW\\_TASK\n\nFLAG\\_ACTIVITY\\_CLEAR\\_TOP."
+    },
+    {
+      "type": "LONG",
+      "statement": "Android Versions go under code names, please give as many of the code names as you know.",
+      "explanation": "Aestro, Blender, Cupcake, Donut, Eclair, Froyo, Gingerbread, Honeycomb, Ice Cream Sandwich, Jelly Bean, Kitkat, Lollipop, Marshmallow"
+    },
+    {
+      "type": "LONG",
+      "statement": "What are the main advantages of Android?",
+      "explanation": "Android is an open source operating system which means that is is free to the end user. There are no license, development or distribution fees. It supports many different technologies including camera, bluetooth, wifi, speech, and edge. In addition it also utilises a highly optimised virtual machine called DVM (Dalvik Virtual Machine) for use on mobile devices."
+    },
+    {
+      "type": "LONG",
+      "statement": "Can you name the database which Android uses and give a brief description about it?",
+      "explanation": "The name of the database is SQLite which is an open-source relational database. It can be used to perform the usual database functions on Android devices. Not only is it easy to store, manipulate and retrieve data but it is also embedded into the Android platform as a default. No setup is necessary, the administration is already in place."
+    },
+    {
+      "type": "LONG",
+      "statement": "What are the different types of storages that are available in Android and what is their usage?",
+      "explanation": "*   **Shared Preferences** store private primitive data in key-value pairs. **SharedPreferences** class helps to provide a general framework that allows users to save and retrieve persistent key-value pairs of primitive data types. SharedPreferences can be used to save primitive data such as booleans, floats, ints, longs and strings. This data persists across user sessions even when one’s application is killed. For more information on how to get a SharedPreferences object for one’s application click [here](https://developer.android.com/guide/topics/data/data-storage.html) .\n*   **Internal Storage** stores private data on the device memory. Once can save files directly on the device’s internal storage. The files saved to the internal storage are private to you application by default and other applications cannot access them either. When the user uninstalls your application, the files will then be removed.\n*   **External Storage** stores public date on the shared external storage. Every Android-compatible device can support a shared “external storage” where one’s files can be saved. This can be removable storage media (SD card) or internal (non-removable) storage.\n*   **SQLite Databases** stores structured data in a private database. Android provides full support for SQLite databases. Any databases that one creates can be accessible by name to any class in the application. Please note they are not accessible outside of the application.\n*   **Network Connection** stores data on the web with one’s own network server. In order to do network operations, one must use classes in the following packages below:\n\n[java.net.\\*](https://developer.android.com/reference/java/net/package-summary.html)\n\n[android.net.\\*](https://developer.android.com/reference/android/net/package-summary.html)"
+    },
+    {
+      "type": "LONG",
+      "statement": "What are application Widgets in Android?",
+      "explanation": "Application Widgets are miniature application views that can embedded in other applications (such as the Home screen) and receive periodic updates. These views are often referred to as Widgets in the user interface, and you can publish one with an App Widget provider."
+    },
+    {
+      "type": "LONG",
+      "statement": "What are the Android core building blocks",
+      "explanation": "The core building blocks for Android are as follows:\n\n*   **Activity** — The class representing a single screen, i.e. a Frame in AWT\n*   **View** — The UI element for example a label, button or text field. Basically anything that is seen is a view\n*   **Intent** — that which is used for invoking components. For example start the service, display a web page or broadcast a message.\n*   **Service** — the background process. These come in two types local which is accessed from the application and remote which can be accessed from other devices.\n*   **Content Provider** — these are used to share data between different applications.\n*   **Fragment** — separate parts of the activity which can be displayed in multiples at the same time.\n*   **AndroidManifest.xml** — This holds information regarding activities, permissions and content providers etc.\n*   **Android Virtual Device (AVD)** — Which is used for testing the application without need a tablet or other device."
+    },
+    {
+      "type": "LONG",
+      "statement": "Can you name the 7 life-cycle methods of Android activity and explain a little about each one?",
+      "explanation": "The [7 life-cycle methods](https://www.javatpoint.com/android-life-cycle-of-activity) are as follows:\n\n1) **onCreate()** — meaning that an activity has been created\n\n2) **onStart()** — meaning it has become visible to the user.\n\n3) **onResume()** — meaning that the activity has started interacting with the user\n\n4) **onPause()** — meaning the activity is not visible to the user\n\n5) **onStop()** — meaning it is no longer visible to the end user\n\n6) **onRestart()** — meaning the activity has stopped, prior to being started\n\n7) o**nDestroy()** — meaning the activity will be destroyed"
+    },
+    {
+      "type": "LONG",
+      "statement": "What does ADB in Android stand for?",
+      "explanation": "ADB acts as a bridge between emulator and IDE. It also executes remote shell commands to run applications on an emulator."
+    },
+    {
+      "type": "LONG",
+      "statement": "What is ANR in Android?",
+      "explanation": "ANR stands for application is not responding. It is a dialog box that appears when the application is not responding."
+    },
+    {
+      "type": "LONG",
+      "statement": "What does ADT stand for?",
+      "explanation": "ADT is Android development tool and it is used to develop the applications and test the applications."
+    },
+    {
+      "type": "LONG",
+      "statement": "What does DDMS stand for and what are its capabilities",
+      "explanation": "This refers to the Delvik Debug Monitor Server. Thesis a debugging tool that is included in Android Studio. It can be used for port-forwarding services, thread and heap information on the device, screen capture on the device, logcat, process, and radio state information. In addition it provides, among other services, incoming call and SMS spoofing, and location data spoofing.\n\nFor more information please read [**here**](https://developer.android.com/studio/profile/ddms.html) ."
+    },
+    {
+      "type": "LONG",
+      "statement": "What is an intent and give three examples of how it is used?",
+      "explanation": "Three common uses for an intent are:\n\n*   **Starting an Activity** It is normal to start a new instance of an activity by passing an intent to _startActivity()_ method.\n*   **Delivering a Broadcast** This can be done by passing an intent to _sendBroadcast(), sendStickyBroadcast(), and sendOrderedBroadcast()_\n*   **Starting a Service** this can be used to perform a one-time operation, for example download a file. It’s achieved by passing an intent to _startService()_\n\nFor more information please refer to [**this section**](https://developer.android.com/guide/components/intents-filters.html) of the Android Developer’s Guide."
+    },
+    {
+      "type": "LONG",
+      "statement": "Can an intent be used to give data to a ContentProvider ?",
+      "explanation": "No, an _intent_ cannot be used to give data to a _ContentProvider._ In order to use data in a _ContentProvider_ you have to use _ContentResolver_ instead. This is in the application’s _Context_ and is used to communicate with the provider as a client. The provider object works by receiving data requests, performing the required action and then returning the results."
+    },
+    {
+      "type": "LONG",
+      "statement": "Using with intent, we can launch an activity.",
+      "explanation": "                                            Intent intent = new Intent(this, MyTestActivity.class);\n                                            startActivity(intent);"
+    },
+    {
+      "type": "LONG",
+      "statement": "Define the application resource file in Android.",
+      "explanation": "JSON,XML bitmap.etc are application resources.You can injected these files to build process and can load them from the code."
+    },
+    {
+      "type": "LONG",
+      "statement": "What is an Adapter in Android?",
+      "explanation": "An Adapter acts as a bridge. It converts data items into new items so it can be displayed in UI components.\n\nFor more information about Adapters, visit [here](http://abhiandroid.com/ui/adapter) ."
+    },
+    {
+      "type": "LONG",
+      "statement": "Where are layouts placed in Android?",
+      "explanation": "In The Layout folder, layouts are placed as XML files."
+    },
+    {
+      "type": "LONG",
+      "statement": "What is a singleton class in Android?",
+      "explanation": "A class that can create only an object, that object can be shared withl other classes."
+    },
+    {
+      "type": "LONG",
+      "statement": "What is a fragment in Android?",
+      "explanation": "A fragment is a piece of activity and it is always contained in activity. With fragment, we can reuse it in many activities and it is more flexible to locate on a screen."
+    },
+    {
+      "type": "LONG",
+      "statement": "What is sleep mode in Android?",
+      "explanation": "Sleep mode means that the CPU will be sleeping and it doesn’t accept any commands from an Android device except Radio interface layer and alarm."
+    },
+    {
+      "type": "LONG",
+      "statement": "Which kernal is used in Android?",
+      "explanation": "Android is a customised Linux 3.6 kernel."
+    },
+    {
+      "type": "LONG",
+      "statement": "Which exceptions are available in Android?",
+      "explanation": "InflateException,Surface.OutOfResourceException,SurfaceHolder.BadSurfaceTypeException,and WindowManager.BadTokenException"
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the order of the dialog-box in Android?",
+      "explanation": "The order is: Positive, Neutral, Negative."
+    },
+    {
+      "type": "LONG",
+      "statement": "What is a drawable folder in Android?",
+      "explanation": "A compiled visual resource that can used as a backgrounds,banners, icons,splash screen etc."
+    },
+    {
+      "type": "LONG",
+      "statement": "What does ContentProvider mean and what is it’s normal use?",
+      "explanation": "A ContentProvider is used to manage access of a structured set of data. It identifies the data and provides mechanisms for defining the data security. It is the standard interface connecting data within one process with the code running in another. For more information please refer to [**this section**](http://developer.android.com/guide/topics/providers/content-providers.html) of the Android Developer’s Guide."
+    },
+    {
+      "type": "LONG",
+      "statement": "How do you pass the data to sub-activities android?",
+      "explanation": "Using with Bundle, we can pass the data to sub activities.\n\nBundle bun = new Bundle();\n\nbun.putString(“EMAIL”, “[contact@tutorials.com](mailto:contact@tutorials.com) “);"
+    },
+    {
+      "type": "LONG",
+      "statement": "You are reorienting a screen, instead of Android tearing down the foreground and restoring the view values in the activity’s layout, a view’s value is not restored after the reorientation. What is the likely reason for this?",
+      "explanation": "The most likely reason is that the developer has not verified that it has a valid _id._ An Android system will only restore the state of views in the activity if each view is given a unique _id_ . This is supplied by the attribute, _android:id_\n\nFor more information please refer to [**this section**](http://developer.android.com/training/basics/activity-lifecycle/recreating.html) of the Android Developer’s Guide."
+    },
+    {
+      "type": "LONG",
+      "statement": "Describe the Android library.",
+      "explanation": "An Android library is a development project that holds shared Android source code and other resources. It holds everything necessary in order to build an app including source code, resource files, and an Android manifest. It compiles everything into an Android Archive (AAR) file that can be used as a dependency for an Android app module."
+    },
+    {
+      "type": "LONG",
+      "statement": "When is the Android library module used?",
+      "explanation": "The Android library module can be used when one is building multiple apps that require or use the same components like activities, services, or UI layouts. It’s also used when one is building an app that exists in multiple APK variations such as free and paid version that need the same core components for both.\n\nThis guide can help users learn how to create an [Android library.](https://developer.android.com/studio/projects/android-library.html)\n\nIn order to stay up-to-date with the latest Android developments, it’s important that you continue to develop your skills as the systems develop and change over time as well. This will allow you to stay ahead of the competition and become a more valuable asset to your client and your team."
+    },
+    {
+      "type": "LONG",
+      "statement": "What is a Thread?",
+      "explanation": "“A _thread_ is a thread of execution in a program.” Each thread has a priority and the higher priority the thread has they’re executed in preference to threads with lower priority. When code is running in thread and creates a new Thread object, the new thread has its priority initially set equal to the priority of the creating thread, and is a daemon thread if and only if the creating thread is a daemon."
+    },
+    {
+      "type": "LONG",
+      "statement": "How does one create a new thread of execution?",
+      "explanation": "There are two ways that one can create a new thread of execution. One is by declaring a class to be a subclass of Thread. The subclass will override the run method of class **Thread.** The subclass can be allocated and started. An example of a thread that compuets primes larger than a stated value is below:\n\n                                            class PrimeThread extends Thread {\n                                            long minPrime;\n                                            PrimeThread(long minPrime) {\n                                            this.minPrime = minPrime;\n                                            }\n                                            public void run() {\n                                            // compute primes larger than minPrime\n                                            . . .\n                                            }\n                                            }\n                                        \n\n**The code below would create a thread and start it running:**\n\n                                            PrimeThread p = new PrimeThread(143);\n                                            p.start();\n                                        \n\nAnother way to create a thread is to declare a class that implements a **Runnable interface.** This class will implement the run method. The class can be allocated, passed as an argument when creating Thread and started.\n\n                                            class PrimeRun implements Runnable {\n                                            long minPrime;\n                                            PrimeRun(long minPrime) {\n                                            this.minPrime = minPrime;\n                                            }\n                                            public void run() {\n                                            // compute primes larger than minPrime\n                                            . . .\n                                            }\n                                            }\n                                        \n\n**The code below would create a thread and start running:**\n\n                                            PrimeRun p = new PrimeRun(143);\n                                            new Thread(p).start();"
+    },
+    {
+      "type": "LONG",
+      "statement": "Can more than one thread have the same name?",
+      "explanation": "Yes. Every thread has a name in order to be identified. If a name is not specified when a thread is created, a new name is created for it.\n\nFor more information about Android thread visit [here](https://developer.android.com/reference/java/lang/Thread.html) ."
+    }
+  ]
+}
