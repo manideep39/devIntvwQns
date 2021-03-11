@@ -541,9 +541,3 @@ When using `translate()`, the element still occupies its original space (sort of
 - https://www.paulirish.com/2012/why-moving-elements-with-translate-is-better-than-posabs-topleft/
 
 [[↑] Back to top](#table-of-contents)
-
-### Other Answers
-
-- https://neal.codes/blog/front-end-interview-css-questions
-- https://quizlet.com/28293152/front-end-interview-questions-css-flash-cards/
-- http://peterdoes.it/2015/12/03/a-personal-exercise-front-end-job-interview-questions-and-my-answers-all/

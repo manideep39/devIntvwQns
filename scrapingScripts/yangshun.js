@@ -12,8 +12,6 @@ function scrapeYangshun(scraper, fileName) {
   // console.log(scraper.showHtml);
   let count = 0;
   const document = scraper.createDOM();
-  const tableOfCont = document.querySelectorAll("[href='#table-of-contents']");
-  [...tableOfCont].map((ele) => ele.parentNode.remove());
   const bodyChildren = [...document.body.children];
   const questions = [];
   let start = false;
@@ -25,7 +23,10 @@ function scrapeYangshun(scraper, fileName) {
     if (node.nodeName === "H3") {
       start = true;
       question["statement"] = Cleaner.html2Markdown(node);
-    } else if (node.nodeName === "H6") {
+    } else if (
+      node.nodeName === "H6" ||
+      (node.querySelector("[href='#table-of-contents']") && start)
+    ) {
       const expCont = document.createElement("div");
       expCont.append(...explanation);
       question["explanation"] = Cleaner.html2Markdown(expCont);
