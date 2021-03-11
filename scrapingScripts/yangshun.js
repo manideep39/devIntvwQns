@@ -9,8 +9,6 @@ scrapeYangshun(cssFileScraper, "./yangshunData/yangshunCss.json");
 scrapeYangshun(jsFileScraper, "./yangshunData/yangshunJs.json");
 
 function scrapeYangshun(scraper, fileName) {
-  // console.log(scraper.showMarkdown);
-  // console.log(scraper.showHtml);
   let count = 0;
   const document = scraper.createDOM();
   const bodyChildren = [...document.body.children];
