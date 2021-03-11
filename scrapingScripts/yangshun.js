@@ -6,6 +6,7 @@ const jsFileScraper = new Scraper("../markdown/yangshun/javascript.md");
 
 scrapeYangshun(htmlFileScraper, "./yangshunData/yangshunHtml.json");
 scrapeYangshun(cssFileScraper, "./yangshunData/yangshunCss.json");
+scrapeYangshun(jsFileScraper, "./yangshunData/yangshunJs.json");
 
 function scrapeYangshun(scraper, fileName) {
   // console.log(scraper.showMarkdown);
@@ -24,8 +25,9 @@ function scrapeYangshun(scraper, fileName) {
       start = true;
       question["statement"] = Cleaner.html2Markdown(node);
     } else if (
-      node.nodeName === "H6" ||
-      (node.querySelector("[href='#table-of-contents']") && start)
+      start &&
+      (node.nodeName === "H6" ||
+        node.querySelector("[href='#table-of-contents']"))
     ) {
       const expCont = document.createElement("div");
       expCont.append(...explanation);
