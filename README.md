@@ -1,5 +1,5 @@
 # Developer Interview Questions
-Scraping developer interview questions. 
+
 
 | Languages | Question types | Total questions |
 |-----------|----------------|:---------------:|
