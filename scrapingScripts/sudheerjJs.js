@@ -8,14 +8,14 @@ const scraperJs = new Scraper("../markdown/sudheerj/javascript.md");
   - This handles all the questions except the exercise in the .md file.  
 */
 
-scrapeSudheerj(scraperJs, "./sudheerjData/sudheerjJs.json");
+scrapeSudheerjJs(scraperJs, "./sudheerjData/sudheerjJs.json");
 
-function scrapeSudheerj(scraper, saveFileTo) {
+function scrapeSudheerjJs(scraper, saveFileTo) {
   let count = 0;
   const questions = [];
   const document = scraper.createDOM();
   const container = document.querySelector("ol");
-  console.log(container.children.length);
+
   [...container.children].map((list) => {
     // ----- some cleaning ---
     const tableOfCont = list.querySelector("[href='#table-of-contents']");
@@ -35,6 +35,7 @@ function scrapeSudheerj(scraper, saveFileTo) {
     questions.push(question);
     count++;
   });
+
   Cleaner.saveFile(saveFileTo, JSON.stringify({ questions }));
   console.log("Total questions scraped: ", count);
 }
