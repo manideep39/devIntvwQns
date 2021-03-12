@@ -1,12 +1,12 @@
 const Scraper = require("../scraper");
 const Cleaner = require("../cleaner");
-const scraper = new Scraper("../markdown/sudheerj-javascript-cod-exe.md");
+const scraperJsCodExe = new Scraper("../markdown/sudheerj/javascriptCodExe.md");
 
 // console.log(scraper.showMarkdown);
 // console.log(scraper.showHtml);
-scrapeSudheerjJsCodExe();
+scrapeSudheerjJsCodExe(scraperJsCodExe, "./sudheerjData/sudheerjJsCodExe.json");
 
-function scrapeSudheerjJsCodExe() {
+function scrapeSudheerjJsCodExe(scraper, saveFileTo) {
   let count = 0;
   const document = scraper.createDOM();
   const h4 = [...document.querySelectorAll("h4")];
@@ -38,9 +38,6 @@ function scrapeSudheerjJsCodExe() {
     });
     count++;
   });
-  Cleaner.saveFile(
-    "./sudheerjJsDataCodExe/sudheerjJsDataCodExe.json",
-    JSON.stringify({ questions })
-  );
+  Cleaner.saveFile(saveFileTo, JSON.stringify({ questions }));
   console.log("Total questions scraped: ", count);
 }

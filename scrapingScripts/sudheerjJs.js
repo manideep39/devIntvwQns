@@ -1,6 +1,6 @@
 const Scraper = require("../scraper");
 const Cleaner = require("../cleaner");
-const scraper = new Scraper("../markdown/sudheerj-javascript.md");
+const scraperJs = new Scraper("../markdown/sudheerj/javascript.md");
 
 /* 
   - Table in markdown are not handled, they will be just text in a p tag
@@ -8,15 +8,14 @@ const scraper = new Scraper("../markdown/sudheerj-javascript.md");
   - This handles all the questions except the exercise in the .md file.  
 */
 
-// console.log(scraper.showMarkdown);
-// console.log(scraper.showHtml);
-scrapeSudheerjJs();
+scrapeSudheerj(scraperJs, "./sudheerjData/sudheerjJs.json");
 
-function scrapeSudheerjJs() {
+function scrapeSudheerj(scraper, saveFileTo) {
   let count = 0;
   const questions = [];
   const document = scraper.createDOM();
   const container = document.querySelector("ol");
+  console.log(container.children.length);
   [...container.children].map((list) => {
     // ----- some cleaning ---
     const tableOfCont = list.querySelector("[href='#table-of-contents']");
@@ -36,9 +35,6 @@ function scrapeSudheerjJs() {
     questions.push(question);
     count++;
   });
-  Cleaner.saveFile(
-    "./sudheerjJsData/sudheerjJsData.json",
-    JSON.stringify({ questions })
-  );
+  Cleaner.saveFile(saveFileTo, JSON.stringify({ questions }));
   console.log("Total questions scraped: ", count);
 }
