@@ -1,10 +1,28 @@
 const fs = require("fs");
 const commonmark = require("commonmark");
 const jsdom = require("jsdom");
+const TurndownService = require("turndown");
 
 class Scraper {
   constructor(mkFileLocation) {
     this.mkFileLocation = mkFileLocation;
+  }
+
+  static html2Markdown(htmlElement) {
+    const turndownService = new TurndownService();
+    const markdown = turndownService.turndown(htmlElement);
+    return markdown;
+  }
+
+  static saveHtml(fileName, html) {
+    fs.writeFileSync(
+      fileName,
+      `<!DOCTYPE html><html lang="en"><head><script defer src="./script.js"></script></head><body>${html}</body></html>`
+    );
+  }
+
+  static saveFile(fileName, data) {
+    fs.writeFileSync(fileName, data);
   }
 
   get showMarkdown() {
