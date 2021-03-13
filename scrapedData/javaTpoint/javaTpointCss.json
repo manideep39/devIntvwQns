@@ -1,0 +1,179 @@
+{
+  "questions": [
+    {
+      "type": "LONG",
+      "statement": "What is CSS?",
+      "explanation": "CSS stands for Cascading Style Sheet. It is a popular styling language which is used with HTML to design websites. It can also be used with any XML documents including plain XML, SVG, and XUL.[More details...](what-is-css)"
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the origin of CSS?",
+      "explanation": "SGML (Standard Generalized Markup Language) is the origin of CSS. It is a language that defines markup languages."
+    },
+    {
+      "type": "LONG",
+      "statement": "What are the different variations of CSS?",
+      "explanation": "Following are the different variations of CSS:\n\n*   CSS1\n*   CSS2\n*   CSS2.1\n*   CSS3\n*   CSS4"
+    },
+    {
+      "type": "LONG",
+      "statement": "How can you integrate CSS on a web page?",
+      "explanation": "There are three methods to integrate CSS on web pages.\n\n1.  Inline method - It is used to insert style sheets in HTML document\n2.  Embedded/Internal method - It is used to add a unique style to a single document\n3.  Linked/Imported/External method - It is used when you want to make changes on multiple pages.\n\n[More details...](how-to-add-css)"
+    },
+    {
+      "type": "LONG",
+      "statement": "What are the advantages of CSS?",
+      "explanation": "*   Bandwidth\n*   Site-wide consistency\n*   Page reformatting\n*   Accessibility\n*   Content separated from presentation"
+    },
+    {
+      "type": "LONG",
+      "statement": "What are the limitations of CSS?",
+      "explanation": "*   Ascending by selectors is not possible\n*   Limitations of vertical control\n*   No expressions\n*   No column declaration\n*   Pseudo-class not controlled by dynamic behavior\n*   Rules, styles, targeting specific text not possible"
+    },
+    {
+      "type": "LONG",
+      "statement": "What are the CSS frameworks?",
+      "explanation": "CSS frameworks are the preplanned libraries which make easy and more standard compliant web page styling. The frequently used CSS frameworks are: -\n\n*   Bootstrap\n*   Foundation\n*   Semantic UI\n*   Gumby\n*   Ulkit"
+    },
+    {
+      "type": "LONG",
+      "statement": "Why background and color are the separate properties if they should always be set together?",
+      "explanation": "There are two reasons behind this:\n\n*   It enhances the legibility of style sheets. The background property is a complex property in CSS, and if it is combined with color, the complexity will further increase.\n*   Color is an inherited property while the background is not. So this can make confusion further."
+    },
+    {
+      "type": "LONG",
+      "statement": "What is Embedded Style Sheet?",
+      "explanation": "An Embedded style sheet is a CSS style specification method used with HTML. You can embed the entire stylesheet in an HTML document by using the STYLE element. [More details...](internal-css)\n\n<style> body { background-color: linen; } h1 { color: red; margin-left: 80px; } </style>"
+    },
+    {
+      "type": "LONG",
+      "statement": "What are the advantages of Embedded Style Sheets?",
+      "explanation": "*   You can create classes for use on multiple tag types in the document.\n*   You can use selector and grouping methods to apply styles in complex situations.\n*   No extra download is required to import the information."
+    },
+    {
+      "type": "LONG",
+      "statement": "What is a CSS selector?",
+      "explanation": "It is a string that identifies the elements to which a particular declaration apply. It is also referred as a link between the HTML document and the style sheet. It is equivalent of HTML elements. There are several different types of selectors in CSS: -\n\n*   CSS Element Selector\n*   CSS Id Selector\n*   CSS Class Selector\n*   CSS Universal Selector\n*   CSS Group Selector\n\n[More details...](css-selector)"
+    },
+    {
+      "type": "LONG",
+      "statement": "Name some CSS style components.",
+      "explanation": "Some CSS Style components are:\n\n*   Selector\n*   Property\n*   Value"
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the use of CSS Opacity?",
+      "explanation": "The CSS opacity property is used to specify the transparency of an element. In simple word, you can say that it specifies the clarity of the image. In technical terms, Opacity is defined as the degree to which light is allowed to travel through an object. For example:\n\n<style> img.trans { opacity: 0.4; filter: alpha(opacity=40); /\\* For IE8 and earlier \\*/ } </style>"
+    },
+    {
+      "type": "LONG",
+      "statement": "Explain universal selector.",
+      "explanation": "The universal selector matches the name of any of the element type instead of selecting elements of a specific type.\n\n<style> \\* { color: green; font-size: 20px; } </style>"
+    },
+    {
+      "type": "LONG",
+      "statement": "Which command is used for the selection of all the elements of a paragraph?",
+      "explanation": "The p\\[lang\\] command is used for selecting all the elements of a paragraph."
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the use of % unit?",
+      "explanation": "It is used for defining percentage values."
+    },
+    {
+      "type": "LONG",
+      "statement": "Name the property used to specify the background color of an element.",
+      "explanation": "The background-color property is used to specify the background color of the element. For example:\n\n<style> h2,p{ background-color: #b0d4de; } </style>"
+    },
+    {
+      "type": "LONG",
+      "statement": "Name the property for controlling the image repetition of the background.",
+      "explanation": "The background-repeat property repeats the background image horizontally and vertically. Some images are repeated only horizontally or vertically.\n\n<style> body { background-image: url(\"paper1.gif\"); margin-left:100px; } </style>"
+    },
+    {
+      "type": "LONG",
+      "statement": "Name the property for controlling the image position in the background.",
+      "explanation": "The background-position property is used to define the initial position of the background image. By default, the background image is placed on the top-left of the webpage.\n\nYou can set the following positions:\n\n1.  center\n2.  top\n3.  bottom\n4.  left\n5.  right\n\nbackground: white url('good-morning.jpg'); background-repeat: no-repeat; background-attachment: fixed; background-position: center;"
+    },
+    {
+      "type": "LONG",
+      "statement": "Name the property for controlling the image scroll in the background.",
+      "explanation": "The background-attachment property is used to specify if the background image is fixed or scroll with the rest of the page in the browser window. If you set fixed the background image, then the image not move during scrolling in the browser. Let's take an example with the fixed background image.\n\nbackground: white url('bbb.gif'); background-repeat: no-repeat; background-attachment: fixed;"
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the use of ruleset?",
+      "explanation": "The ruleset is used to identify that selectors can be attached with other selectors. It has two parts:\n\n*   Selector - Selector indicates the HTML element you want to style.\n*   Declaration Block - The declaration block can contain one or more declarations separated by a semicolon."
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the difference between class selectors and id selectors?",
+      "explanation": "An overall block is given to class selector while id selectors take only a single element differing from other elements.\n\n#### CSS Class Selector\n\n<style> .center { text-align: center; color: blue; } </style>\n\n#### CSS Id Selector\n\n<style> #para1 { text-align: center; color: blue; } </style>\n\n[More details...](css-selector)"
+    },
+    {
+      "type": "LONG",
+      "statement": "What are the advantages of External Style Sheets?",
+      "explanation": "*   You can create classes for reusing it in many documents.\n*   By using it, you can control the styles of multiple documents from one file.\n*   In complex situations, you can use selectors and grouping methods to apply styles.\n\n[More details...](external-css)"
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the difference between inline, embedded and external style sheets?",
+      "explanation": "**Inline**: Inline Style Sheet is used to style only a small piece of code.\n\n#### Syntax\n\n<htmltag style=\"cssproperty1:value; cssproperty2:value;\"> </htmltag>\n\n**Embedded**: Embedded style sheets are put between the <head>...</head> tags.\n\n#### Syntax\n\n<style> body { background-color: linen; } h1 { color: red; margin-left: 80px; } </style>\n\n**External**: This is used to apply the style to all the pages within your website by changing just one style sheet.\n\n#### Syntax\n\n<head> <link rel=\"stylesheet\" type=\"text/css\" href=\"mystyle.css\"> </head>"
+    },
+    {
+      "type": "LONG",
+      "statement": "What is RWD?",
+      "explanation": "RWD stands for Responsive Web Design. This technique is used to display the designed page perfectly on every screen size and device, for example, mobile, tablet, desktop and laptop. You don't need to create a different page for each device."
+    },
+    {
+      "type": "LONG",
+      "statement": "What are the benefits of CSS sprites?",
+      "explanation": "If a web page has a large number of images that take a longer time to load because each image separately sends out an HTTP request. The concept of CSS sprites is used to reduce the loading time for a web page because it combines the various small images into one image. It reduces the number of HTTP requests and hence the loading time."
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the difference between logical tags and physical tags?",
+      "explanation": "*   Physical tags are referred to as presentational markup while logical tags are useless for appearances.\n*   Physical tags are newer versions, on the other hand, logical tags are old and concentrate on content."
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the CSS Box model and what are its elements?",
+      "explanation": "The CSS box model is used to define the design and layout of elements of CSS.\n\nThe elements are:\n\n*   Margin - It removes the area around the border. It is transparent.\n*   Border - It represents the area around the padding\n*   Padding - It removes the area around the content. It is transparent.\n*   Content - It represents the content like text, images, etc."
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the float property of CSS?",
+      "explanation": "The CSS float property is used to move the image to the right or left along with the texts to be wrapped around it. It doesn't change the property of the elements used before it.\n\nTo understand its purpose and origin, let's take a look at its print display. In the print display, an image is set into the page such that text wraps around it as needed.\n\nIts web layout is also just similar to print layout.\n\n  \n[More details...](css-float)"
+    },
+    {
+      "type": "LONG",
+      "statement": "How to restore the default property value using CSS?",
+      "explanation": "In short, there is no easy way to restore to default values to whatever a browser uses.\n\nThe closest option is to use the 'initial' property value, which restores the default CSS values, rather than the browser's default styles."
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the purpose of the z-index and how is it used?",
+      "explanation": "The z-index helps to specify the stack order of positioned elements that may overlap one another. The z-index default value is zero and can take on either a positive or negative number.\n\nAn element with a higher z-index is always stacked above than a lower index.\n\nZ-Index can take the following values:\n\n*   **Auto:** Sets the stack order equal to its parents.\n*   **Number:** Orders the stack order.\n*   **Initial:** Sets this property to its default value (0).\n*   **Inherit:** Inherits this property from its parent element."
+    },
+    {
+      "type": "LONG",
+      "statement": "Explain the difference between visibility: hidden and display: none?",
+      "explanation": "**visibility: hidden** hides the element, but it occupies space and affects the layout of the document.\n\n<!DOCTYPE html> <html> <head> <style> h1.vis { visibility: visible; } h1.hid { visibility: hidden; } </style> </head> <body> <h1 class=\"vis\">It is visible</h1> <h1 class=\"hid\">It is hidden</h1> <p>Note - Second heading is hidden, but it still occupy space.</p> </body> </html>\n\n**display: none** also hides the element but not occupy space. It will not affect the layout of the document.\n\n<!DOCTYPE html> <html> <head> <style> h1.vis { display: block; } h1.hid { display: none; } </style> </head> <body> <h1 class=\"vis\">It is visible</h1> <h1 class=\"hid\">It is hidden</h1> <p>Note - Second heading is hidden and not occupy space.</p> </body> </html>"
+    },
+    {
+      "type": "LONG",
+      "statement": "What do you understand by W3C?",
+      "explanation": "W3C stands for World Wide Web Consortium. Its purpose is to deliver the information of the World Wide Web. It also develops rules and guidelines for the Web."
+    },
+    {
+      "type": "LONG",
+      "statement": "What is tweening?",
+      "explanation": "It is the process of generating intermediate frames between two images.\n\nIt gives the impression that the first image has smoothly evolved into the second one.\n\nIt is an important method used in all types of animations.\n\nIn CSS3, Transforms (matrix, translate, rotate, scale) module can be used to achieve tweening."
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the difference between CSS2 and CSS3?",
+      "explanation": "The main difference between CSS2 and CSS3 is that CSS3 is divided into different sections which are also known as modules. Unlike CSS2, CSS3 modules are supported by many browsers.\n\nApart from that, CSS3 contains new General Sibling Combinators which is responsible for matching the sibling elements with the given elements."
+    }
+  ]
+}

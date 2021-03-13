@@ -1,0 +1,254 @@
+{
+  "questions": [
+    {
+      "type": "LONG",
+      "statement": "What is Android?",
+      "explanation": "Android is an open-source, Linux-based operating system used in mobiles, tablets, televisions, etc."
+    },
+    {
+      "type": "LONG",
+      "statement": "Who is the founder of Android?",
+      "explanation": "Andy Rubin."
+    },
+    {
+      "type": "LONG",
+      "statement": "Explain the Android application Architecture.",
+      "explanation": "Following is a list of components of Android application architecture:\n\n*   **Services:** Used to perform background functionalities.\n*   **Intent:** Used to perform the interconnection between activities and the data passing mechanism.\n*   **Resource Externalization:** strings and graphics.\n*   **Notification:** light, sound, icon, notification, dialog box and toast.\n*   **Content Providers:** It will share the data between applications."
+    },
+    {
+      "type": "LONG",
+      "statement": "What are the code names of android?",
+      "explanation": "1.  Aestro\n2.  Blender\n3.  Cupcake\n4.  Donut\n5.  Eclair\n6.  Froyo\n7.  Gingerbread\n8.  Honeycomb\n9.  Ice Cream Sandwich\n10.  Jelly Bean\n11.  KitKat\n12.  Lollipop\n13.  Marshmallow\n\n[More details...](android-history-and-versions)"
+    },
+    {
+      "type": "LONG",
+      "statement": "What are the advantages of Android?",
+      "explanation": "**Open-source:** It means no license, distribution and development fee.\n\n**Platform-independent:** It supports Windows, Mac, and Linux platforms.\n\n**Supports various technologies:** It supports camera, Bluetooth, wifi, speech, EDGE etc. technologies.\n\n**Highly optimized Virtual Machine:** Android uses a highly optimized virtual machine for mobile devices, called DVM (Dalvik Virtual Machine)."
+    },
+    {
+      "type": "LONG",
+      "statement": "Does android support other languages than java?",
+      "explanation": "Yes, an android app can be developed in C/C++ also using android NDK (Native Development Kit). It makes the performance faster. It should be used with Android SDK."
+    },
+    {
+      "type": "LONG",
+      "statement": "What are the core building blocks of android?",
+      "explanation": "The core building blocks of Android are:\n\n*   Activity\n*   View\n*   Intent\n*   Service\n*   Content Provider\n*   Fragment etc.\n\n[More details...](android-core-building-blocks)"
+    },
+    {
+      "type": "LONG",
+      "statement": "What is activity in Android?",
+      "explanation": "Activity is like a frame or window in java that represents GUI. It represents one screen of android."
+    },
+    {
+      "type": "LONG",
+      "statement": "What are the life cycle methods of android activity?",
+      "explanation": "There are 7 life-cycle methods of activity. They are as follows:\n\n1.  onCreate()\n2.  onStart()\n3.  onResume()\n4.  onPause()\n5.  onStop()\n6.  onRestart()\n7.  onDestroy()\n\n[More details...](android-life-cycle-of-activity)"
+    },
+    {
+      "type": "LONG",
+      "statement": "What is intent?",
+      "explanation": "It is a kind of message or information that is passed to the components. It is used to launch an activity, display a web page, send SMS, send email, etc. There are two types of intents in android:\n\n1.  Implicit Intent\n2.  Explicit Intent"
+    },
+    {
+      "type": "LONG",
+      "statement": "How are view elements identified in the android program?",
+      "explanation": "View elements can be identified using the keyword findViewById."
+    },
+    {
+      "type": "LONG",
+      "statement": "Define Android toast.",
+      "explanation": "An android toast provides feedback to the users about the operation being performed by them. It displays the message regarding the status of operation initiated by the user."
+    },
+    {
+      "type": "LONG",
+      "statement": "Give a list of impotent folders in android",
+      "explanation": "The following folders are declared as impotent in android:\n\n*   AndroidManifest.xml\n*   build.xml\n*   bin/\n*   src/\n*   res/\n*   assets/"
+    },
+    {
+      "type": "LONG",
+      "statement": "Explain the use of 'bundle' in android?",
+      "explanation": "We use bundles to pass the required data to various subfolders."
+    },
+    {
+      "type": "LONG",
+      "statement": "What is an application resource file?",
+      "explanation": "The files which can be injected for the building up of a process are called as application resource file."
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the use of LINUX ID in android?",
+      "explanation": "A unique Linux ID is assigned to each application in android. It is used for the tracking of a process."
+    },
+    {
+      "type": "LONG",
+      "statement": "Can the bytecode be written in java be run on android?",
+      "explanation": "No"
+    },
+    {
+      "type": "LONG",
+      "statement": "List the various storages that are provided by Android.",
+      "explanation": "The various storage provided by android are:\n\n*   Shared Preferences\n*   Internal Storage\n*   External Storage\n*   SQLite Databases\n*   Network Connection"
+    },
+    {
+      "type": "LONG",
+      "statement": "How are layouts placed in Android?",
+      "explanation": "Layouts in Android are placed as XML files."
+    },
+    {
+      "type": "LONG",
+      "statement": "Where are layouts placed in Android?",
+      "explanation": "Layouts in Android are placed in the layout folder."
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the implicit intent in android?",
+      "explanation": "The Implicit intent is used to invoke the system components."
+    },
+    {
+      "type": "LONG",
+      "statement": "What is explicit intent in android?",
+      "explanation": "An explicit intent is used to invoke the activity class."
+    },
+    {
+      "type": "LONG",
+      "statement": "How to call another activity in android?",
+      "explanation": "Intent i = new Intent(getApplicationContext(), ActivityTwo.class); startActivity(i);"
+    },
+    {
+      "type": "LONG",
+      "statement": "What is service in android?",
+      "explanation": "A service is a component that runs in the background. It is used to play music, handle network transaction, etc.\n\n[More details...](android-service-tutorial)"
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the name of the database used in android?",
+      "explanation": "**SQLite:** An opensource and lightweight relational database for mobile devices.\n\n[More details...](android-sqlite-tutorial)"
+    },
+    {
+      "type": "LONG",
+      "statement": "What is AAPT?",
+      "explanation": "AAPT is an acronym for android asset packaging tool. It handles the packaging process."
+    },
+    {
+      "type": "LONG",
+      "statement": "What is a content provider?",
+      "explanation": "A content provider is used to share information between Android applications."
+    },
+    {
+      "type": "LONG",
+      "statement": "What is fragment?",
+      "explanation": "The fragment is a part of Activity by which we can display multiple screens on one activity."
+    },
+    {
+      "type": "LONG",
+      "statement": "What is ADB?",
+      "explanation": "ADB stands for Android Debug Bridge. It is a command line tool that is used to communicate with the emulator instance."
+    },
+    {
+      "type": "LONG",
+      "statement": "What is NDK?",
+      "explanation": "NDK stands for Native Development Kit. By using NDK, you can develop a part of an app using native language such as C/C++ to boost the performance."
+    },
+    {
+      "type": "LONG",
+      "statement": "What is ANR?",
+      "explanation": "ANR stands for Application Not Responding. It is a dialog box that appears if the application is no longer responding."
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the Google Android SDK?",
+      "explanation": "The Google Android SDK is a toolset which is used by developers to write apps on Android-enabled devices. It contains a graphical interface that emulates an Android-driven handheld environment and allows them to test and debug their codes."
+    },
+    {
+      "type": "LONG",
+      "statement": "What is an APK format?",
+      "explanation": "APK is a short form stands for Android Packaging Key. It is a compressed key with classes, UI's, supportive assets and manifest. All files are compressed to a single file is called APK."
+    },
+    {
+      "type": "LONG",
+      "statement": "Which language does Android support to develop an application?",
+      "explanation": "Android applications are written by using the java (Android SDK) and C/C++ (Android NDK)."
+    },
+    {
+      "type": "LONG",
+      "statement": "What is ADT in Android?",
+      "explanation": "ADT stands for Android Development Tool. It is used to develop the applications and test the applications."
+    },
+    {
+      "type": "LONG",
+      "statement": "What is View Group in Android?",
+      "explanation": "View Group is a collection of views and other child views. It is an invisible part and the base class for layouts."
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the Adapter in Android?",
+      "explanation": "An adapter is used to create a child view to present the parent view items."
+    },
+    {
+      "type": "LONG",
+      "statement": "What is nine-patch images tool in Android?",
+      "explanation": "We can change bitmap images into nine sections with four corners, four edges, and an axis."
+    },
+    {
+      "type": "LONG",
+      "statement": "Which kernel is used in Android?",
+      "explanation": "Android is a customized Linux 3.6 kernel."
+    },
+    {
+      "type": "LONG",
+      "statement": "What is application Widgets in Android?",
+      "explanation": "Application widgets are miniature application views that can be embedded in other applications and receive periodic updates."
+    },
+    {
+      "type": "LONG",
+      "statement": "Which types of flags are used to run an application on Android?",
+      "explanation": "Following are two types of flags to run an application in Android:\n\n*   FLAG\\_ACTIVITY\\_NEW\\_TASK\n*   FLAG\\_ACTIVITY\\_CLEAR\\_TOP"
+    },
+    {
+      "type": "LONG",
+      "statement": "What is a singleton class in Android?",
+      "explanation": "A singleton class is a class which can create only an object that can be shared by all other classes."
+    },
+    {
+      "type": "LONG",
+      "statement": "What is sleep mode in Android?",
+      "explanation": "In sleep mode, CPU is slept and doesn't accept any commands from android device except Radio interface layer and alarm."
+    },
+    {
+      "type": "LONG",
+      "statement": "What do you mean by a drawable folder in Android?",
+      "explanation": "In Android, a drawable folder is compiled a visual resource that can use as a background, banners, icons, splash screen, etc."
+    },
+    {
+      "type": "LONG",
+      "statement": "What is DDMS?",
+      "explanation": "DDMS stands for Dalvik Debug Monitor Server. It gives the wide array of debugging features:\n\n1.  Port forwarding services\n2.  Screen capture\n3.  Thread and heap information\n4.  Network traffic tracking\n5.  Location data spoofing"
+    },
+    {
+      "type": "LONG",
+      "statement": "Define Android Architecture?",
+      "explanation": "The Android architecture consists of 4 components:\n\n1.  Linux Kernal\n2.  Libraries\n3.  Android Framework\n4.  Android Applications\n\n[More details...](android-software-stack)"
+    },
+    {
+      "type": "LONG",
+      "statement": "What is a portable wi-fi hotspot?",
+      "explanation": "The portable wi-fi hotspot is used to share internet connection to other wireless devices."
+    },
+    {
+      "type": "LONG",
+      "statement": "Name the dialog box which is supported by Android?",
+      "explanation": "*   Alert Dialog\n*   Progress Dialog\n*   Date Picker Dialog\n*   Time picker Dialog"
+    },
+    {
+      "type": "LONG",
+      "statement": "Name some exceptions in Android?",
+      "explanation": "*   Inflate Exception\n*   Surface.OutOfResourceException\n*   SurfaceHolder.BadSurfaceTypeException\n*   WindowManager.BadTokenException"
+    },
+    {
+      "type": "LONG",
+      "statement": "What are the basic tools used to develop an Android app?",
+      "explanation": "*   JDK\n*   Eclipse+ADT plugin\n*   SDK Tools"
+    }
+  ]
+}

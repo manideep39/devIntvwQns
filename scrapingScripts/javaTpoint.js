@@ -4,14 +4,28 @@ const scraperHtml = new Scraper(
   undefined,
   "https://www.javatpoint.com/html-interview-questions"
 );
-
-scraperHtml.saveHtml("../scrapingSource/html/javaTpointHtml.html");
-scrapeJavaTpointHtml(
-  scraperHtml,
-  "../scrapedData/javaTpoint/javaTpointHtml.json"
+const scraperAndroid = new Scraper(
+  undefined,
+  "https://www.javatpoint.com/android-interview-questions"
 );
 
-async function scrapeJavaTpointHtml(scraper, saveFileTo) {
+const scraperCss = new Scraper(
+  undefined,
+  "https://www.javatpoint.com/css-interview-questions"
+);
+
+scraperCss.saveHtml("../scrapingSource/html/javaTpoint.html");
+
+scrapeJavaTpoint(scraperHtml, "../scrapedData/javaTpoint/javaTpointHtml.json");
+
+scrapeJavaTpoint(scraperCss, "../scrapedData/javaTpoint/javaTpointCss.json");
+
+scrapeJavaTpoint(
+  scraperAndroid,
+  "../scrapedData/javaTpoint/javaTpointAndroid.json"
+);
+
+async function scrapeJavaTpoint(scraper, saveFileTo) {
   const htmlStr = await scraper.fetchHtml();
   const document = scraper.createDOM(htmlStr);
   [...document.querySelectorAll("img")].forEach((node) => node.remove());

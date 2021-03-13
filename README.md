@@ -5,10 +5,10 @@
 |       Contents       |      Question types      | Total questions |
 | :------------------: | :----------------------: | :-------------: |
 |         HTML         |           LONG           |     **55**      |
-|         CSS          |           LONG           |     **31**      |
+|         CSS          |           LONG           |     **66**      |
 |      JavaScript      | MCQ</br>TF</br>LONG</br> |     **896**     |
 |       ReactJS        |           LONG           |     **327**     |
-|       Android        |           LONG           |     **38**      |
+|       Android        |           LONG           |     **88**      |
 |       Node JS        |           LONG           |     **43**      |
 |      Express JS      |           LONG           |     **21**      |
 | MongoDB and Mongoose |           LONG           |     **17**      |
@@ -30,4 +30,4 @@
 
 - **Websites:**
 
-  - [https://www.javatpoint.com/](https://www.javatpoint.com/html-interview-questions)
+  - [javatpoint](https://www.javatpoint.com/)
