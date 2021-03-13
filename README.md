@@ -2,16 +2,16 @@
 
 ### Scraped data breakdown:
 
-| Languages            |                Question types                 | Total questions |
-| -------------------- | :-------------------------------------------: | :-------------: |
-| HTML                 |                     LONG                      |     **11**      |
-| CSS                  |                     LONG                      |     **31**      |
-| JavaScript           | <ul><li>MCQ</li><li>TF</li><li>LONG</li></ul> |     **896**     |
-| ReactJS              |                     LONG                      |     **327**     |
-| Android              |                     LONG                      |     **38**      |
-| Node JS              |                     LONG                      |     **43**      |
-| Express JS           |                     LONG                      |     **21**      |
-| MongoDB and Mongoose |                     LONG                      |     **17**      |
+| Languages            |      Question types      | Total questions |
+| -------------------- | :----------------------: | :-------------: |
+| HTML                 |           LONG           |     **11**      |
+| CSS                  |           LONG           |     **31**      |
+| JavaScript           | MCQ</br>TF</br>LONG</br> |     **896**     |
+| ReactJS              |           LONG           |     **327**     |
+| Android              |           LONG           |     **38**      |
+| Node JS              |           LONG           |     **43**      |
+| Express JS           |           LONG           |     **21**      |
+| MongoDB and Mongoose |           LONG           |     **17**      |
 
 ### Scraped data from the following:
 
