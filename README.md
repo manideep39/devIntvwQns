@@ -2,7 +2,7 @@
 
 ### Scraped data breakdown:
 
-|      Languages       |      Question types      | Total questions |
+|       Contents       |      Question types      | Total questions |
 | :------------------: | :----------------------: | :-------------: |
 |         HTML         |           LONG           |     **11**      |
 |         CSS          |           LONG           |     **31**      |
