@@ -4,7 +4,7 @@
 
 |       Contents       |      Question types      | Total questions |
 | :------------------: | :----------------------: | :-------------: |
-|         HTML         |           LONG           |     **11**      |
+|         HTML         |           LONG           |     **55**      |
 |         CSS          |           LONG           |     **31**      |
 |      JavaScript      | MCQ</br>TF</br>LONG</br> |     **896**     |
 |       ReactJS        |           LONG           |     **327**     |
@@ -25,4 +25,9 @@
   - [Gauthamjm007/NodeJS-MongoDB-Expess-Interview-Questions](https://github.com/Gauthamjm007/NodeJS-MongoDB-Expess-Interview-Questions/blob/master/README.md#table-of-contents---express-js)
 
 - **Medium blogs:**
+
   - [Android Interview Questions & How to Interview Candidates](https://medium.com/@PangaraWorld/android-interview-questions-how-to-interview-candidates-1e695c2ad24f)
+
+- **Websites:**
+
+  - [https://www.javatpoint.com/](https://www.javatpoint.com/html-interview-questions)
