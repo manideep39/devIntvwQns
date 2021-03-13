@@ -1,0 +1,224 @@
+{
+  "questions": [
+    {
+      "type": "LONG",
+      "statement": "What is HTML?",
+      "explanation": "HTML stands for Hyper Text Markup Language. It is a language of World Wide Web. It is a standard text formatting language which is used to create and display pages on the Web. It makes the text more interactive and dynamic. It can turn text into images, tables, links. [More details.](what-is-html)"
+    },
+    {
+      "type": "LONG",
+      "statement": "What are Tags?",
+      "explanation": "HTML tags are composed of three things: an opening tag, content and ending tag. Some tags are unclosed tags.\n\nHTML documents contain two things:\n\n*   content, and\n*   tags\n\nWhen a web browser reads an HTML document, the browser reads it from top to bottom and left to right. HTML tags are used to create HTML documents and render their properties. Each HTML tags have different properties.\n\n#### Syntax\n\n<tag> content </tag>\n\nContent is placed between tags to display data on the web page.\n\n[More details.](html-tags)"
+    },
+    {
+      "type": "LONG",
+      "statement": "Do all HTML tags have an end tag?",
+      "explanation": "No. There are some HTML tags that don't need a closing tag. For example: <image> tag, <br> tag. [More details.](html-tags)"
+    },
+    {
+      "type": "LONG",
+      "statement": "What is formatting in HTML?",
+      "explanation": "The HTML formatting is a process of format the text for a better look and feel. It uses different tags to make text bold, italicized, underlined. [More details.](html-formatting)"
+    },
+    {
+      "type": "LONG",
+      "statement": "How many types of heading does an HTML contain?",
+      "explanation": "The HTML contains six types of headings which are defined with the <h1> to <h6> tags. Each type of heading tag displays different text size from another. So, <h1> is the largest heading tag and <h6> is the smallest one. For example:\n\n<h1>Heading no. 1</h1> <h2>Heading no. 2</h2> <h3>Heading no. 3</h3> <h4>Heading no. 4</h4> <h5>Heading no. 5</h5> <h6>Heading no. 6</h6>\n\n[More details.](html-heading)"
+    },
+    {
+      "type": "LONG",
+      "statement": "How to create a hyperlink in HTML?",
+      "explanation": "The HTML provides an anchor tag to create a hyperlink that links one page to another page. These tags can appear in any of the following ways:\n\n*   Unvisited link - It is displayed, underlined and blue.\n*   Visited link - It is displayed, underlined and purple.\n*   Active link - It is displayed, underlined and red.\n\n[More details.](html-anchor)"
+    },
+    {
+      "type": "LONG",
+      "statement": "Which HTML tag is used to display the data in the tabular form?",
+      "explanation": "The **HTML table tag** is used to display data in tabular form (row \\* column). It also manages the layout of the page, e.g., header section, navigation bar, body content, footer section. Here is the list of tags used while displaying the data in the tabular form:\n\nTag\n\nDescription\n\n<table>\n\nIt defines a table.\n\n<tr>\n\nIt defines a row in a table.\n\n<th>\n\nIt defines a header cell in a table.\n\n<td>\n\nIt defines a cell in a table.\n\n<caption>\n\nIt defines the table caption.\n\n<colgroup>\n\nIt specifies a group of one or more columns in a table for formatting.\n\n<col>\n\nIt is used with <colgroup> element to specify column properties for each column.\n\n<tbody>\n\nIt is used to group the body content in a table.\n\n<thead>\n\nIt is used to group the header content in a table.\n\n<tfooter>\n\nIt is used to group the footer content in a table."
+    },
+    {
+      "type": "LONG",
+      "statement": "What are some common lists that are used when designing a page?",
+      "explanation": "There are many common lists which are used to design a page. You can choose any or a combination of the following list types:\n\n*   Ordered list - The ordered list displays elements in numbered format. It is represented by <ol> tag.\n*   Unordered list - The unordered list displays elements in bulleted format. It is represented by <ul> tag.\n*   Definition list - The definition list displays elements in definition form like in dictionary. The <dl>, <dt> and <dd> tags are used to define description list.\n\n[More details.](html-lists)"
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the difference between HTML elements and tags?",
+      "explanation": "HTML elements communicate to the browser to render text. When the elements are enclosed by brackets <>, they form HTML tags. Most of the time, tags come in a pair and surround content."
+    },
+    {
+      "type": "LONG",
+      "statement": "What is semantic HTML?",
+      "explanation": "Semantic HTML is a coding style. It is the use of HTML markup to reinforce the semantics or meaning of the content. For example: In semantic HTML <b> </b> tag is not used for bold statement as well as <i> </i> tag is used for italic. Instead of these we use <strong></strong> and <em></em> tags."
+    },
+    {
+      "type": "LONG",
+      "statement": "What is an image map?",
+      "explanation": "Image map facilitates you to link many different web pages using a single image. It is represented by <map> tag. You can define shapes in images that you want to make part of an image mapping."
+    },
+    {
+      "type": "LONG",
+      "statement": "How to insert a copyright symbol on a browser page?",
+      "explanation": "You can insert a copyright symbol by using &copy; or &#169; in an HTML file."
+    },
+    {
+      "type": "LONG",
+      "statement": "How to create a nested webpage in HTML?",
+      "explanation": "The HTML iframe tag is used to display a nested webpage. In other words, it represents a webpage within a webpage. The HTML <iframe> tag defines an inline frame. For example:\n\n<!DOCTYPE html> <html> <body> <h2>HTML Iframes example</h2> <p>Use the height and width attributes to specify the size of the iframe:</p> <iframe src=\"https://www.javatpoint.com/\" height=\"300\" width=\"400\"></iframe> </body> </html>"
+    },
+    {
+      "type": "LONG",
+      "statement": "How do you keep list elements straight in an HTML file?",
+      "explanation": "You can keep the list elements straight by using indents."
+    },
+    {
+      "type": "LONG",
+      "statement": "Does a hyperlink only apply to text?",
+      "explanation": "No, you can use hyperlinks on text and images both. The HTML anchor tag defines a hyperlink that links one page to another page. The \"href\" attribute is the most important attribute of the HTML anchor tag.\n\n#### Syntax\n\n<a href = \"...........\"> Link Text </a>\n\n[More details.](html-anchor)"
+    },
+    {
+      "type": "LONG",
+      "statement": "What is a style sheet?",
+      "explanation": "A style sheet is used to build a consistent, transportable, and well-designed style template. You can add these templates on several different web pages. It describes the look and formatting of a document written in markup language."
+    },
+    {
+      "type": "LONG",
+      "statement": "Can you create a multi-colored text on a web page?",
+      "explanation": "Yes. To create a multicolor text on a web page you can use <font color =\"color\"> </font> for the specific texts you want to color."
+    },
+    {
+      "type": "LONG",
+      "statement": "Is it possible to change the color of the bullet?",
+      "explanation": "The color of the bullet is always the color of the first text of the list. So, if you want to change the color of the bullet, you must change the color of the text."
+    },
+    {
+      "type": "LONG",
+      "statement": "Explain the layout of HTML?",
+      "explanation": "HTML layout specifies a way in which the web page is arranged.\n\n  \n  \n\nEvery website has a specific layout to display content in a specific manner.\n\nFollowing are different HTML5 elements which are used to define the different parts of a webpage.\n\n*   <header>: It is used to define a header for a document or a section.\n*   <nav>: It is used to define a container for navigation links\n*   <section>: It is used to define a section in a document\n*   <article>: It is used to define an independent, self-contained article\n*   <aside>: It is used to define content aside from the content (like a sidebar)\n*   <footer>: It is used to define a footer for a document or a section"
+    },
+    {
+      "type": "LONG",
+      "statement": "What is a marquee?",
+      "explanation": "Marquee is used to put the scrolling text on a web page. It scrolls the image or text up, down, left or right automatically. You should put the text which you want to scroll within the <marquee>......</marquee> tag. [More details.](marquee-html)"
+    },
+    {
+      "type": "LONG",
+      "statement": "How many tags can be used to separate a section of texts?",
+      "explanation": "Three tags are used to separate the texts.\n\n*   <br> tag - Usually <br> tag is used to separate the line of text. It breaks the current line and conveys the flow to the next line\n*   <p> tag - The <p> tag contains the text in the form of a new paragraph.\n*   <blockquote> tag - It is used to define a large quoted section. If you have a large quotation, then put the entire text within <blockquote>.............</blockquote> tag."
+    },
+    {
+      "type": "LONG",
+      "statement": "How to make a picture of a background image of a web page?",
+      "explanation": "To make a picture a background image on a web page, you should put the following tag code after the </head> tag.\n\n<body background = \"image.gif\">\n\nHere, replace the \"image.gif\" with the name of your image file which you want to display on your web page."
+    },
+    {
+      "type": "LONG",
+      "statement": "What are empty elements?",
+      "explanation": "HTML elements with no content are called empty elements. For example: <br>, <hr> etc."
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the use of a span tag? Give one example.",
+      "explanation": "The span tag is used for following things:\n\n*   For adding color on text\n*   For adding background on text\n*   Highlight any color text\n\n**Example:**\n\n<p> <span style=\"color:#ffffff;\"> In this page we use span. </span> </p>"
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the use of an iframe tag?",
+      "explanation": "An iframe is used to display a web page within a web page.\n\n**Syntax:**\n\n<iframe src=\"URL\"></iframe>\n\n**Example:**\n\n<iframe src=\"demo\\_iframe.html\" width=\"200px\" height=\"200px\"></iframe>\n\n**Target to a link:**\n\n<iframe src=\"http://www.javatpoint.com\" name=\"iframe\\_a\"></iframe>"
+    },
+    {
+      "type": "LONG",
+      "statement": "What are the entities in HTML?",
+      "explanation": "The HTML character entities are used as a replacement for reserved characters in HTML. You can also replace characters that are not present on your keyboard by entities. These characters are replaced because some characters are reserved in HTML."
+    },
+    {
+      "type": "LONG",
+      "statement": "Why is a URL encoded in HTML?",
+      "explanation": "An URL is encoded to convert non-ASCII characters into a format that can be used over the Internet because a URL is sent over the Internet by using the ASCII character-set only. If a URL contains characters outside the ASCII set, the URL has to be converted. The non-ASCII characters are replaced with a \"%\" followed by hexadecimal digits."
+    },
+    {
+      "type": "LONG",
+      "statement": "Does a <!DOCTYPE html> tag is a HTML tag?",
+      "explanation": "No, the <!DOCTYPE html> declaration is not an HTML tag. There are many type of HTML e.g. HTML 4.01 Strict, HTML 4.01 Transitional, HTML 4.01 Frameset, XHTML 1.0 Strict, XHTML 1.0 Transitional, XHTML 1.0 Frameset, XHTML 1.1 etc. So, <!DOCTYPE html> is used to instruct the web browser about the HTML page."
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the canvas element in HTML5?",
+      "explanation": "The <canvas> element is a container that is used to draw graphics on the web page using scripting language like JavaScript. It allows for dynamic and scriptable rendering of 2D shapes and bitmap images. There are several methods in canvas to draw paths, boxes, circles, text and add images. For Example:\n\n<canvas id=\"myCanvas1\" width=\"300\" height=\"100\" style=\"border:2px solid;\"> Your browser does not support the HTML5 canvas tag. </canvas>\n\n[More details.](html-canvas)"
+    },
+    {
+      "type": "LONG",
+      "statement": "What is SVG?",
+      "explanation": "HTML SVG is used to describe the two-dimensional vector and vector/raster graphics. SVG images and their behaviors are defined in XML text files. So as XML files, you can create and edit an SVG image with the text editor. It is mostly used for vector type diagrams like pie charts, 2-Dimensional graphs in an X, Y coordinate system.\n\n<svg width=\"100\" height=\"100\"> <circle cx=\"50\" cy=\"50\" r=\"40\" stroke=\"yellow\" stroke-width=\"4\" fill=\"red\" /> </svg>\n\n[More details.](html-svg)"
+    },
+    {
+      "type": "LONG",
+      "statement": "What are the different new form element types in HTML 5?",
+      "explanation": "Following is a list of 10 frequently used new elements in HTML 5:\n\n*   Color\n*   Date\n*   Datetime-local\n*   Email\n*   Time\n*   Url\n*   Range\n*   Telephone\n*   Number\n*   Search"
+    },
+    {
+      "type": "LONG",
+      "statement": "Is there any need to change the web browsers to support HTML5?",
+      "explanation": "No. Almost all browsers (updated versions) support HTML 5. For example Chrome, Firefox, Opera, Safari, IE."
+    },
+    {
+      "type": "LONG",
+      "statement": "Which type of video formats are supported by HTML5?",
+      "explanation": "HTML 5 supports three types of video format:\n\n*   mp4\n*   WebM\n*   Ogg\n\n[More details.](html-video)"
+    },
+    {
+      "type": "LONG",
+      "statement": "Is audio tag supported in HTML 5?",
+      "explanation": "Yes. It is used to add sound or music files on the web page. There are three supported file formats for HTML 5 audio tag.\n\n1.  mp3\n2.  WAV\n3.  Ogg\n\nLet's see the code to play mp3 file using HTML audio tag.\n\n<audio controls> <source src=\"koyal.mp3\" type=\"audio/mpeg\"> Your browser does not support the html audio tag. </audio>\n\nInstead of koyal.mp3, you can pass any mp3 file name.\n\n[More details.](html-audio)"
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the difference between progress and meter tag?",
+      "explanation": "The progress tag is used to represent the progress of the task only while the meter tag is used to measure data within a given range. [More details.](html-progress-tag)"
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the use of figure tag in HTML 5?",
+      "explanation": "The figure tag is used to add a photo in the document on the web page. It is used to handle the group of diagrams, photos, code listing with some embedded content.\n\n<p>The Taj Mahal is widely recognized as \"the jewel of Muslim art in India and one of the universally admired masterpieces of the world's heritage.\"</p> <figure> <img src=\"htmlpages/images/tajmahal.jpg\" alt=\"Taj Mahal\"/> </figure>\n\n[More details.](html-figure-tag)"
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the use of figcaption tag in HTML 5?",
+      "explanation": "The <figcaption> element is used to provide a caption to an image. It is an optional tag and can appear before or after the content within the <figure> tag. The <figcaption> element is used with <figure> element and it can be placed as the first or last child of the <figure> element.\n\n<figure> <img src=\"htmlpages/images/tajmahal.jpg\" alt=\"Taj Mahal\"/> <figcaption>Fig.1.1 - A front view of the great Taj Mahal in Agra.</figcaption> </figure>\n\n[More details.](html-figcaption-tag)"
+    },
+    {
+      "type": "LONG",
+      "statement": "What is button tag?",
+      "explanation": "The button tag is used in HTML 5. It is used to create a clickable button within the HTML form on the web page. It is generally used to create a \"submit\" or \"reset\" button. Let's see the code to display the button.\n\n<button name=\"button\" type=\"button\">Click Here</button>\n\n[More details.](html-button-tag)"
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the use of details and summary tag?",
+      "explanation": "The details tag is used to specify some additional details on the web page. It can be viewed or hidden on demand. The summary tag is used with details tag. [More details.](html-details-tag)"
+    },
+    {
+      "type": "LONG",
+      "statement": "What is datalist tag?",
+      "explanation": "The HTML 5 datalist tag provides an autocomplete feature on the form element. It facilitates users to choose the predefined options to the users to select data.\n\n<label> Enter your favorite cricket player: Press any character<br /> <input type=\"text\" id=\"favCktPlayer\" list=\"CktPlayers\"> <datalist id=\"CktPlayers\"> <option value=\"Sachin Tendulkar\"> <option value=\"Brian Lara\"> <option value=\"Jacques Kallis\"> <option value=\"Ricky Ponting\"> <option value=\"Rahul Dravid\"> <option value=\"Shane Warne\"> <option value=\"Rohit Sharma\"> <option value=\"Donald Bradman\"> <option value=\"Saurav Ganguly \"> <option value=\"AB diVilliers\"> <option value=\"Mahendra Singh Dhoni\"> <option value=\"Adam Gilchrist\"> </datalist> </label>\n\n[More details.](html-datalist-tag)"
+    },
+    {
+      "type": "LONG",
+      "statement": "How are tags migrated from HTML4 to HTML5?",
+      "explanation": "No.\n\nTypical HTML4\n\nTypical HTML5\n\n1)\n\n<div id=\"header\">\n\n<header>\n\n2)\n\n<div id=\"menu\">\n\n<nav>\n\n3)\n\n<div id=\"content\">\n\n<section>\n\n4)\n\n<div id=\"post\">\n\n<article>\n\n5)\n\n<div id=\"footer\">\n\n<footer>\n\n### Header and Footer Example\n\n**HTML 4 Header and Footer:**\n\n<div id=\"header\"> <h1>Monday Times</h1> </div> . . . <div id=\"footer\"> <p>&copy; JavaTpoint. All rights reserved.</p> </div>\n\n**HTML 5 Header and Footer:**\n\n<header> <h1>Monday Times</h1> </header> . . . <footer> <p>© JavaTpoint. All rights reserved.</p> </footer>\n\n### Menu Example\n\n**HTML 4 Menu:**\n\n<div id=\"menu\"> <ul> <li>News</li> <li>Sports</li> <li>Weather</li> </ul> </div>\n\n**HTML 5 Menu:**\n\n<nav> <ul> <li>News</li> <li>Sports</li> <li>Weather</li> </ul> </nav>"
+    },
+    {
+      "type": "LONG",
+      "statement": "If I do not put <!DOCTYPE html> will HTML 5 work?",
+      "explanation": "No, the browser will not be able to identify that it is an HTML document and HTML 5 tags do not function properly.."
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the use of the required attribute in HTML5?",
+      "explanation": "It forces a user to fill text on the text field or text area before submitting the form. It is used for form validation.\n\n**Example:**\n\nName: <input type=\"text\" name=\"name\" required>"
+    },
+    {
+      "type": "LONG",
+      "statement": "What are the new <input> types for form validation in HTML5?",
+      "explanation": "The new input types for form validation are email, URL, number, tel, and date.\n\n**Example:**\n\n<input type=\"email\">"
+    }
+  ]
+}

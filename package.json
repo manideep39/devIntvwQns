@@ -9,8 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.21.1",
     "commonmark": "^0.29.3",
     "jsdom": "^16.4.0",
+    "node-fetch": "^2.6.1",
     "turndown": "^7.0.0"
   }
 }
