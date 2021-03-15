@@ -16,7 +16,7 @@ class Scraper {
     return markdown;
   }
 
-  async saveHtml(fileName, htmlBody, callback) {
+  async saveHtml(fileName, htmlBody) {
     const html =
       htmlBody ||
       (await (async () => {
