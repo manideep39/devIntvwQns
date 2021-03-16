@@ -14,15 +14,25 @@ const scraperCss = new Scraper(
   "https://www.javatpoint.com/css-interview-questions"
 );
 
-scraperCss.saveHtml("../scrapingSource/html/javaTpoint.html");
+const scraperReact = new Scraper(
+  undefined,
+  "https://www.javatpoint.com/react-interview-questions"
+);
 
-scrapeJavaTpoint(scraperHtml, "../scrapedData/javaTpoint/javaTpointHtml.json");
+scraperReact.saveHtml("../scrapingSource/html/test.html");
 
-scrapeJavaTpoint(scraperCss, "../scrapedData/javaTpoint/javaTpointCss.json");
+// scrapeJavaTpoint(scraperHtml, "../scrapedData/javaTpoint/javaTpointHtml.json");
+
+// scrapeJavaTpoint(scraperCss, "../scrapedData/javaTpoint/javaTpointCss.json");
+
+// scrapeJavaTpoint(
+//   scraperAndroid,
+//   "../scrapedData/javaTpoint/javaTpointAndroid.json"
+// );
 
 scrapeJavaTpoint(
-  scraperAndroid,
-  "../scrapedData/javaTpoint/javaTpointAndroid.json"
+  scraperReact,
+  "../scrapedData/javaTpoint/javaTpointReact.json"
 );
 
 async function scrapeJavaTpoint(scraper, saveFileTo) {
@@ -34,12 +44,16 @@ async function scrapeJavaTpoint(scraper, saveFileTo) {
   let explanationCont = [];
   let statement = "";
   let start = false;
-  data.forEach((node) => {
+  data.forEach((node, ind) => {
     if (node.nodeName === "H3" && !start) {
       start = true;
       statement = document.createElement("h3");
       statement.textContent = node.textContent.split(")")[1].trim();
-    } else if (node.nodeName === "HR" || node.id === "interviewcategory") {
+    } else if (
+      node.nodeName === "HR" ||
+      node.id === "interviewcategory" ||
+      node.nodeName === "H2"
+    ) {
       if (statement && explanationCont.length) {
         const explanation = document.createElement("div");
         explanation.append(...explanationCont);
@@ -52,7 +66,15 @@ async function scrapeJavaTpoint(scraper, saveFileTo) {
       explanationCont = [];
       start = false;
     } else if (start) {
-      explanationCont.push(node);
+      if (node.className === "codeblock") {
+        const pre = document.createElement("pre");
+        const code = document.createElement("code");
+        code.innerHTML = node.innerHTML;
+        pre.append(code);
+        explanationCont.push(pre);
+      } else {
+        explanationCont.push(node);
+      }
     }
   });
   Scraper.saveFile(saveFileTo, JSON.stringify({ questions }));
