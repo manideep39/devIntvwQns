@@ -19,16 +19,22 @@ const scraperReact = new Scraper(
   "https://www.javatpoint.com/react-interview-questions"
 );
 
-scraperReact.saveHtml("../scrapingSource/html/test.html");
+const scraperJs = new Scraper(
+  undefined,
+  "https://www.javatpoint.com/javascript-interview-questions"
+);
 
-// scrapeJavaTpoint(scraperHtml, "../scrapedData/javaTpoint/javaTpointHtml.json");
+const scraperNode = new Scraper(
+  undefined,
+  "https://www.javatpoint.com/node-js-interview-questions"
+);
 
-// scrapeJavaTpoint(scraperCss, "../scrapedData/javaTpoint/javaTpointCss.json");
+const scraperMongoDB = new Scraper(
+  undefined,
+  "https://www.javatpoint.com/mongodb-interview-questions"
+);
 
-// scrapeJavaTpoint(
-//   scraperAndroid,
-//   "../scrapedData/javaTpoint/javaTpointAndroid.json"
-// );
+scraperMongoDB.saveHtml("../scrapingSource/html/test.html");
 
 scrapeJavaTpoint(
   scraperReact,
@@ -52,7 +58,8 @@ async function scrapeJavaTpoint(scraper, saveFileTo) {
     } else if (
       node.nodeName === "HR" ||
       node.id === "interviewcategory" ||
-      node.nodeName === "H2"
+      node.nodeName === "H2" ||
+      node.nodeName === "H3"
     ) {
       if (statement && explanationCont.length) {
         const explanation = document.createElement("div");
@@ -63,8 +70,13 @@ async function scrapeJavaTpoint(scraper, saveFileTo) {
           explanation: Scraper.html2Markdown(explanation),
         });
       }
-      explanationCont = [];
       start = false;
+      if (node.nodeName === "H3") {
+        statement = document.createElement("h3");
+        statement.textContent = node.textContent.split(")")[1].trim();
+        start = true;
+      }
+      explanationCont = [];
     } else if (start) {
       if (node.className === "codeblock") {
         const pre = document.createElement("pre");

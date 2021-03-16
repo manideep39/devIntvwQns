@@ -1,0 +1,164 @@
+{
+  "questions": [
+    {
+      "type": "LONG",
+      "statement": "What is Node.js?",
+      "explanation": "Node.js is Server-side scripting which is used to build scalable programs. It is a web application framework built on Google Chrome's JavaScript Engine. It runs within the Node.js runtime on Mac OS, Windows, and Linux with no changes. This runtime facilitates you to execute a JavaScript code on any machine outside a browser."
+    },
+    {
+      "type": "LONG",
+      "statement": "Is Node.js free to use?",
+      "explanation": "Yes. It is released under MIT license and is free to use."
+    },
+    {
+      "type": "LONG",
+      "statement": "Is Node a single threaded application?",
+      "explanation": "Yes. Node is a single-threaded application with event looping."
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the purpose of Node.js?",
+      "explanation": "These are the following purposes of Node.js:\n\n*   Real-time web applications\n*   Network applications\n*   Distributed systems\n*   General purpose applications"
+    },
+    {
+      "type": "LONG",
+      "statement": "What are the advantages of Node.js?",
+      "explanation": "Following are the main advantages of Node.js:\n\n*   Node.js is asynchronous and event-driven. All API?s of Node.js library are non-blocking, and its server doesn't wait for an API to return data. It moves to the next API after calling it, and a notification mechanism of Events of Node.js responds to the server from the previous API call.\n*   Node.js is very fast because it builds on Google Chrome?s V8 JavaScript engine. Its library is very fast in code execution.\n*   Node.js is single threaded but highly scalable.\n*   Node.js provides a facility of no buffering. Its application never buffers any data. It outputs the data in chunks."
+    },
+    {
+      "type": "LONG",
+      "statement": "Explain Node.js web application architecture?",
+      "explanation": "A web application distinguishes into 4 layers:\n\n*   **Client Layer:** The Client layer contains web browsers, mobile browsers or applications which can make an HTTP request to the web server.\n*   **Server Layer:** The Server layer contains the Web server which can intercept the request made by clients and pass them the response.\n*   **Business Layer:** The business layer contains application server which is utilized by the web server to do required processing. This layer interacts with the data layer via database or some external programs.\n*   **Data Layer:** The Data layer contains databases or any source of data."
+    },
+    {
+      "type": "LONG",
+      "statement": "What do you understand by the term I/O?",
+      "explanation": "I/O stands for input and output. It accesses anything outside of your application. It loaded into the machine memory to run the program, once the application starts."
+    },
+    {
+      "type": "LONG",
+      "statement": "How many types of API functions are available in Node.js?",
+      "explanation": "There are two types of API functions in Node.js:\n\n*   Asynchronous, Non-blocking functions\n*   Synchronous, Blocking functions"
+    },
+    {
+      "type": "LONG",
+      "statement": "What is error-first callback?",
+      "explanation": "Error-first callbacks are used to pass errors and data. If something goes wrong, the programmer has to check the first argument because it is always an error argument. Additional arguments are used to pass data.\n\n    fs.readFile(filePath, function(err, data) {  \n      if (err) {\n        //handle the error\n      }\n      // use the data object\n    });"
+    },
+    {
+      "type": "LONG",
+      "statement": "What is an asynchronous API?",
+      "explanation": "All the API's of Node.js library are asynchronous means non-blocking. A Node.js based server never waits for an API to return data. The Node.js server moves to the next API after calling it, and a notification mechanism of Events of Node.js responds to the server for the previous API call."
+    },
+    {
+      "type": "LONG",
+      "statement": "How can you avoid callbacks?",
+      "explanation": "To avoid callbacks, you can use any one of the following options:\n\n*   You can use **modularization**. It breaks callbacks into independent functions.\n*   You can use **promises**.\n*   You can use **yield** with Generators and Promises."
+    },
+    {
+      "type": "LONG",
+      "statement": "Does Node.js provide Debugger?",
+      "explanation": "Yes, Node.js provides a simple TCP based protocol and built-in debugging client. For debugging your JavaScript file, you can use debug argument followed by the js file name you want to debug.\n\n#### Syntax:\n\n        node debug [script.js | -e \"script\" | <host>:<port>]"
+    },
+    {
+      "type": "LONG",
+      "statement": "What is a control flow function?",
+      "explanation": "Control flow function is a generic piece of code that runs in between several asynchronous function calls."
+    },
+    {
+      "type": "LONG",
+      "statement": "How \"Control Flow\" controls the functions calls?",
+      "explanation": "The control flow does the following job:\n\n*   Control the order of execution\n*   Collect data\n*   Limit concurrency\n*   Call the next step in a program"
+    },
+    {
+      "type": "LONG",
+      "statement": "Is it possible to access DOM in Node?",
+      "explanation": "No, it is not possible to access DOM in Node."
+    },
+    {
+      "type": "LONG",
+      "statement": "What types of tasks can be done asynchronously using the event loop?",
+      "explanation": "*   I/O operations\n*   Heavy computation\n*   Anything requiring blocking"
+    },
+    {
+      "type": "LONG",
+      "statement": "What is REPL in Node.js?",
+      "explanation": "REPL stands for Read Eval Print Loop. It specifies a computer environment like a window console or Unix/Linux shell where you can enter a command, and the computer responds with an output.\n\nREPL environment incorporates with Node.js."
+    },
+    {
+      "type": "LONG",
+      "statement": "Explain the tasks of terms used in Node REPL.",
+      "explanation": "Following are the terms used in REPL with their defined tasks:\n\n**Read:** It reads user's input; parse the input into JavaScript data-structure and stores in memory.\n\n**Eval:** It takes and evaluates the data structure.\n\n**Print:** It is used to print the result.\n\n**Loop:** It loops the above command until user press ctrl-c twice to terminate."
+    },
+    {
+      "type": "LONG",
+      "statement": "Is it possible to evaluate simple expressions using Node REPL?",
+      "explanation": "Yes. You can evaluate simple expressions using Node REPL."
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the use of the underscore variable in REPL?",
+      "explanation": "In REPL, the underscore variable is used to get the last result.\n\n    C:\\Nodejs_WorkSpace>node\n    > var x = 10\n    undefined\n    > var y = 20\n    undefined\n    > x + y\n    30\n    > var sum = _\n    undefined\n    > console.log(sum)\n    30\n    undefined\n    >"
+    },
+    {
+      "type": "LONG",
+      "statement": "Does Node.js supports cryptography?",
+      "explanation": "Yes, Node.js Crypto module supports cryptography. It provides cryptographic functionality that includes a set of wrappers for open SSL's hash HMAC, cipher, decipher, sign and verify functions. For example:\n\n        const crypto = require('crypto');  \n        const secret = 'abcdefg';  \n        const hash = crypto.createHmac('sha256', secret)  \n                           .update('Welcome to JavaTpoint')  \n                           .digest('hex');  \n        console.log(hash);"
+    },
+    {
+      "type": "LONG",
+      "statement": "What is npm? What is the main functionality of npm?",
+      "explanation": "npm stands for Node Package Manager. Following are the two main functionalities of npm:\n\n*   Online repositories for node.js packages/modules which are searchable on search.nodejs.org\n*   Command line utility to install packages, do version management and dependency management of Node.js packages."
+    },
+    {
+      "type": "LONG",
+      "statement": "What tools can be used to assure a consistent style in Node.js?",
+      "explanation": "Following is a list of tools that can be used in developing code in teams, to enforce a given style guide and to catch common errors using static analysis.\n\n*   JSLint\n*   JSHint\n*   ESLint\n*   JSCS"
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the difference between operational and programmer errors?",
+      "explanation": "Operational errors are not bugs, but create problems with the system like request timeout or hardware failure. On the other hand, programmer errors are actual bugs."
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the difference between the global installation of dependencies and local installation of dependencies?",
+      "explanation": "*   Global installation of dependencies is stored in /npm directory. While local installation of dependencies stores in the local mode. Here local mode refers to the package installation in node\\_modules directory lying in the folder where Node application is present.\n*   Globally deployed packages cannot be imported using require() in Node application directly. On the other hand, locally deployed packages are accessible via require().\n*   To install a Node project globally -g flag is used.\n    \n    C:\\\\Nodejs\\_WorkSpace>npm install express ?g\n    \n*   To install a Node project locally, the syntax is:\n    \n    C:\\\\Nodejs\\_WorkSpace>npm install express"
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the use of a buffer class in Node.js?",
+      "explanation": "The Node.js provides Buffer class to store raw data similar to an array of integers but corresponds to a raw memory allocation outside the V8 heap. It is a global class and can be accessed in an application without importing a buffer module. Buffer class is used because pure JavaScript is not compatible with binary data. So, when dealing with TCP streams or the file system, it's necessary to handle octet streams."
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the role of assert in Node.js?",
+      "explanation": "The Node.js Assert is a way to write tests. It provides no feedback when running your test unless one fails. The assert module provides a simple set of assertion tests that can be used to test invariants. The module is intended for internal use by Node.js, but can be used in application code via require ('assert'). For example:\n\n        var assert = require('assert');  \n        function add (a, b) {  \n          return a + b;  \n        }  \n        var expected = add(1,2);  \n        assert( expected === 3, 'one plus two is three');"
+    },
+    {
+      "type": "LONG",
+      "statement": "What are the streams in Node.js?",
+      "explanation": "The Streams are the objects that facilitate you to read data from a source and write data to a destination. There are four types of streams in Node.js:\n\n*   **Readable:** This stream is used for reading operations.\n*   **Writable:** This stream is used for write operations.\n*   **Duplex:** This stream can be used for both reading and write operations.\n*   **Transform:** It is a type of duplex stream where the output computes according to input."
+    },
+    {
+      "type": "LONG",
+      "statement": "What is event-driven programming in Node.js?",
+      "explanation": "In Node.js, event-driven programming means as soon as Node starts its server, it initiates its variables, declares functions and then waits for an event to occur. It is one of the reasons why Node.js is pretty fast compared to other similar technologies."
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the difference between events and callbacks in Node.js?",
+      "explanation": "Although, Events and Callbacks look similar the differences lies in the fact that callback functions are called when an asynchronous function returns its result whereas event handling works on the observer pattern. Whenever an event gets fired, its listener function starts executing. Node.js has multiple in-built events available through the events module and EventEmitter class which is used to bind events and event listeners."
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the Punycode in Node.js?",
+      "explanation": "The Punycode is an encoding syntax which is used to convert Unicode (UTF-8) string of characters to ASCII string of characters. It is bundled with Node.js v0.6.2 and later versions. If you want to use it with other Node.js versions, then use npm to install Punycode module first. You have to used require ('Punycode') to access it.\n\n#### Syntax:\n\n        punycode = require('punycode');"
+    },
+    {
+      "type": "LONG",
+      "statement": "What does Node.js TTY module contains?",
+      "explanation": "The Node.js TTY module contains tty.ReadStream and tty.WriteStream classes. In most cases, there is no need to use this module directly. You have to used require ('tty') to access this module.\n\n#### Syntax:\n\n    var tty = require('tty');"
+    }
+  ]
+}

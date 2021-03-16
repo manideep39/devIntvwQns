@@ -1,0 +1,304 @@
+{
+  "questions": [
+    {
+      "type": "LONG",
+      "statement": "What is JavaScript?",
+      "explanation": "**JavaScript** is _a scripting language_. It is different from Java language. It is object-based, lightweight, cross-platform translated language. It is widely used for client-side validation. The JavaScript Translator (embedded in the browser) is responsible for translating the JavaScript code for the web browser. [More details.](javascript-tutorial)"
+    },
+    {
+      "type": "LONG",
+      "statement": "List some features of JavaScript.",
+      "explanation": "Some of the features of JavaScript are:\n\n*   Lightweight\n*   Interpreted programming language\n*   Good for the applications which are network-centric\n*   Complementary to Java\n*   Complementary to HTML\n*   Open source\nCross-platform"
+    },
+    {
+      "type": "LONG",
+      "statement": "List some of the advantages of JavaScript.",
+      "explanation": "Some of the advantages of JavaScript are:\n\n*   Server interaction is less\n*   Feedback to the visitors is immediate\n*   Interactivity is high\n*   Interfaces are richer"
+    },
+    {
+      "type": "LONG",
+      "statement": "List some of the disadvantages of JavaScript.",
+      "explanation": "Some of the disadvantages of JavaScript are:\n\n*   No support for multithreading\n*   No support for multiprocessing\n*   Reading and writing of files is not allowed\n*   No support for networking applications."
+    },
+    {
+      "type": "LONG",
+      "statement": "Define a named function in JavaScript.",
+      "explanation": "The function which has named at the time of definition is called a named function. For example\n\n    function msg()\n    {\n      document.writeln(\"Named Function\");\n    }\n    msg();"
+    },
+    {
+      "type": "LONG",
+      "statement": "Name the types of functions",
+      "explanation": "The types of function are:\n\n*   Named - These type of functions contains name at the time of definition. For Example:\n\nfunction display() { document.writeln(\"Named Function\"); } display();\n\n*   Anonymous - These type of functions doesn't contain any name. They are declared dynamically at runtime.\n\nvar display=function() { document.writeln(\"Anonymous Function\"); } display();"
+    },
+    {
+      "type": "LONG",
+      "statement": "Define anonymous function",
+      "explanation": "It is a function that has no name. These functions are declared dynamically at runtime using the function operator instead of the function declaration. The function operator is more flexible than a function declaration. It can be easily used in the place of an expression. For example:\n\n    var display=function()\n    {\n      alert(\"Anonymous Function is invoked\");\n    }\n    display();"
+    },
+    {
+      "type": "LONG",
+      "statement": "Can an anonymous function be assigned to a variable?",
+      "explanation": "Yes, you can assign an anonymous function to a variable."
+    },
+    {
+      "type": "LONG",
+      "statement": "In JavaScript what is an argument object?",
+      "explanation": "The variables of JavaScript represent the arguments that are passed to a function."
+    },
+    {
+      "type": "LONG",
+      "statement": "Define closure.",
+      "explanation": "In JavaScript, we need closures when a variable which is defined outside the scope in reference is accessed from some inner scope.\n\n    var num = 10;\n    function sum() \n    {\n    document.writeln(num+num);\n    } \n    sum();"
+    },
+    {
+      "type": "LONG",
+      "statement": "If we want to return the character from a specific index which method is used?",
+      "explanation": "The JavaScript string charAt() method is used to find out a char value present at the specified index. The index number starts from 0 and goes to n-1, where n is the length of the string. The index value can't be a negative, greater than or equal to the length of the string. For example:\n\n    var str=\"Javatpoint\";  \n    document.writeln(str.charAt(4));"
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the difference between JavaScript and JScript?",
+      "explanation": "Netscape provided the JavaScript language. Microsoft changed the name and called it JScript to avoid the trademark issue. In other words, you can say JScript is the same as JavaScript, but Microsoft provides it."
+    },
+    {
+      "type": "LONG",
+      "statement": "How to write a hello world example of JavaScript?",
+      "explanation": "A simple example of JavaScript hello world is given below. You need to place it inside the body tag of HTML.\n\n    <script type=\"text/javascript\">\n    document.write(\"JavaScript Hello World!\");\n    </script>\n    \n\n[More details.](javascript-example)"
+    },
+    {
+      "type": "LONG",
+      "statement": "How to use external JavaScript file?",
+      "explanation": "I am assuming that js file name is message.js, place the following script tag inside the head tag.\n\n    <script type=\"text/javascript\" src=\"message.js\"></script>\n    \n\n[More details.](external-javascript-file)"
+    },
+    {
+      "type": "LONG",
+      "statement": "Is JavaScript case sensitive language?",
+      "explanation": "Yes, JavaScript is a case sensitive language. For example:\n\n    Var msg = \"JavaScript is a case-sensitive language\"; //Here, var should be used to declare a variable\n    function display() \n    {\n    document.writeln(msg); // It will not display the result.\n    } \n    display();"
+    },
+    {
+      "type": "LONG",
+      "statement": "What is BOM?",
+      "explanation": "**BOM** stands for _Browser Object Model_. It provides interaction with the browser. The default object of a browser is a window. So, you can call all the functions of the window by specifying the window or directly. The window object provides various properties like document, history, screen, navigator, location, innerHeight, innerWidth,\n\n[More Details: Browser Object Model](browser-object-model)"
+    },
+    {
+      "type": "LONG",
+      "statement": "What is DOM? What is the use of document object?",
+      "explanation": "**DOM** stands for _Document Object Model_. A document object represents the HTML document. It can be used to access and change the content of HTML.\n\n[More Details: Document Object Model](document-object-model)"
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the use of window object?",
+      "explanation": "The window object is created automatically by the browser that represents a window of a browser. It is not an object of JavaScript. It is a browser object.\n\nThe window object is used to display the popup dialog box. Let's see with description.\n\n<table class=\"alt\"><tbody><tr><th>Method</th><th>Description</th></tr><tr><td>alert()</td><td>displays the alert box containing the message with ok button.</td></tr><tr><td>confirm()</td><td>displays the confirm dialog box containing the message with ok and cancel button.</td></tr><tr><td>prompt()</td><td>displays a dialog box to get input from the user.</td></tr><tr><td>open()</td><td>opens the new window.</td></tr><tr><td>close()</td><td>closes the current window.</td></tr><tr><td>setTimeout()</td><td>performs the action after specified time like calling function, evaluating expressions.</td></tr></tbody></table>\n\n[More details.](window-object)"
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the use of history object?",
+      "explanation": "The history object of a browser can be used to switch to history pages such as back and forward from the current page or another page. There are three methods of history object.\n\n1.  history.back() - It loads the previous page.\n2.  history.forward() - It loads the next page.\n3.  history.go(number) - The number may be positive for forward, negative for backward. It loads the given page number.\n\n[More details.](javascript-history-object)"
+    },
+    {
+      "type": "LONG",
+      "statement": "How to write a comment in JavaScript?",
+      "explanation": "There are two types of comments in JavaScript.\n\n1.  Single Line Comment: It is represented by // (double forward slash)\n2.  Multi-Line Comment: Slash represents it with asterisk symbol as /\\* write comment here \\*/\n\n[More details.](javascript-comment)"
+    },
+    {
+      "type": "LONG",
+      "statement": "How to create a function in JavaScript?",
+      "explanation": "To create a function in JavaScript, follow the following syntax.\n\n    function function_name(){\n    //function body\n    }\n    \n\n[More details.](javascript-function)"
+    },
+    {
+      "type": "LONG",
+      "statement": "What are the JavaScript data types?",
+      "explanation": "There are two types of data types in JavaScript:\n\n1.  Primitive Data Types - The primitive data types are as follows:\n\n<table class=\"alt\"><tbody><tr><th>Data Type</th><th>Description</th></tr><tr><td>String</td><td>represents a sequence of characters, e.g., \"hello\"</td></tr><tr><td>Number</td><td>represents numeric values, e.g., 100</td></tr><tr><td>Boolean</td><td>represents boolean value either false or true</td></tr><tr><td>Undefined</td><td>represents an undefined value</td></tr><tr><td>Null</td><td>represents null, i.e., no value at all</td></tr></tbody></table>\n\n3.  Non-primitive Data Types - The non-primitive data types are as follows:\n\n<table class=\"alt\"><tbody><tr><th>Data Type</th><th>Description</th></tr><tr><td>Object</td><td>represents an instance through which we can access members</td></tr><tr><td>Array</td><td>represents a group of similar values</td></tr><tr><td>RegExp</td><td>represents regular expression</td></tr></tbody></table>\n\n[More details.](javascript-data-types)"
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the difference between == and ===?",
+      "explanation": "The == operator checks equality only whereas === checks equality, and data type, i.e., a value must be of the same type."
+    },
+    {
+      "type": "LONG",
+      "statement": "How to write HTML code dynamically using JavaScript?",
+      "explanation": "The innerHTML property is used to write the HTML code using JavaScript dynamically. Let's see a simple example:\n\n    document.getElementById('mylocation').innerHTML=\"<h2>This is heading using JavaScript</h2>\"; \n    \n\n[More details.](javascript-innerHTML)"
+    },
+    {
+      "type": "LONG",
+      "statement": "How to write normal text code using JavaScript dynamically?",
+      "explanation": "The innerText property is used to write the simple text using JavaScript dynamically. Let's see a simple example:\n\n    document.getElementById('mylocation').innerText=\"This is text using JavaScript\"; \n    \n\n[More details.](javascript-innerText)"
+    },
+    {
+      "type": "LONG",
+      "statement": "How to create objects in JavaScript?",
+      "explanation": "There are 3 ways to create an object in JavaScript.\n\n1.  By object literal\n2.  By creating an instance of Object\n3.  By Object Constructor\n\nLet's see a simple code to create an object using object literal.\n\n    emp={id:102,name:\"Rahul Kumar\",salary:50000} \n    \n\n[More details.](javascript-objects)"
+    },
+    {
+      "type": "LONG",
+      "statement": "How to create an array in JavaScript?",
+      "explanation": "There are 3 ways to create an array in JavaScript.\n\n1.  By array literal\n2.  By creating an instance of Array\n3.  By using an Array constructor\n\nLet's see a simple code to create an array using object literal.\n\n    var emp=[\"Shyam\",\"Vimal\",\"Ratan\"];  \n    \n\n[More details.](javascript-array)"
+    },
+    {
+      "type": "LONG",
+      "statement": "What does the isNaN(",
+      "explanation": "The isNan() function returns true if the variable value is not a number. For example:\n\n    function number(num) {\n      if (isNaN(num)) {\n        return \"Not a Number\";\n      }\n      return \"Number\";\n    }\n    console.log(number('1000F'));\n    // expected output: \"Not a Number\"\n    \n    console.log(number('1000'));\n    // expected output: \"Number\""
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the output of 10+20+\"30\" in JavaScript?",
+      "explanation": "3030 because 10+20 will be 30. If there is numeric value before and after +, it treats as binary + (arithmetic operator).\n\n    function display()\n    {\n      document.writeln(10+20+\"30\");\n    }\n    display();"
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the output of \"10\"+20+30 in JavaScript?",
+      "explanation": "102030 because after a string all the + will be treated as string concatenation operator (not binary +).\n\n    function display()\n    {\n      document.writeln(\"10\"+20+30);\n    }\n    display();"
+    },
+    {
+      "type": "LONG",
+      "statement": "Difference between Client side JavaScript and Server side JavaScript?",
+      "explanation": "**Client-side JavaScript** comprises the basic language and predefined objects which are relevant to running JavaScript in a browser. The client-side JavaScript is embedded directly by in the HTML pages. The browser interprets this script at runtime.\n\n**Server-side JavaScript** also resembles client-side JavaScript. It has a relevant JavaScript which is to run in a server. The server-side JavaScript are deployed only after compilation."
+    },
+    {
+      "type": "LONG",
+      "statement": "In which location cookies are stored on the hard disk?",
+      "explanation": "The storage of cookies on the hard disk depends on the OS and the browser.\n\nThe Netscape Navigator on Windows uses a cookies.txt file that contains all the cookies. The path is c:\\\\Program Files\\\\Netscape\\\\Users\\\\username\\\\cookies.txt\n\nThe Internet Explorer stores the cookies on a file username@website.txt. The path is: c:\\\\Windows\\\\Cookies\\\\username@Website.txt."
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the real name of JavaScript?",
+      "explanation": "The original name was **Mocha**, a name chosen by Marc Andreessen, founder of Netscape. In September of 1995, the name was changed to LiveScript. In December 1995, after receiving a trademark license from Sun, the name JavaScript was adopted."
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the difference between undefined value and null value?",
+      "explanation": "**Undefined value:** A value that is not defined and has no keyword is known as undefined value. For example:\n\n    int number;//Here, a number has an undefined value.\n    \n\n**Null value:** A value that is explicitly specified by the keyword \"null\" is known as a null value. For example:\n\n    String str=null;//Here, str has a null value."
+    },
+    {
+      "type": "LONG",
+      "statement": "How to set the cursor to wait in JavaScript?",
+      "explanation": "The cursor can be set to wait in JavaScript by using the property \"cursor\". The following example illustrates the usage:\n\n    <script>\n    window.document.body.style.cursor = \"wait\"; \n    </script>"
+    },
+    {
+      "type": "LONG",
+      "statement": "What is this \\[\\[\\[\\]\\]\\]?",
+      "explanation": "This is a three-dimensional array.\n\n    var myArray = [[[]]];"
+    },
+    {
+      "type": "LONG",
+      "statement": "Are Java and JavaScript same?",
+      "explanation": "No, Java and JavaScript are the two different languages. Java is a robust, secured and object-oriented programming language whereas JavaScript is a client-side scripting language with some limitations."
+    },
+    {
+      "type": "LONG",
+      "statement": "What is negative infinity?",
+      "explanation": "Negative Infinity is a number in JavaScript which can be derived by dividing the negative number by zero. For example:\n\n    var num=-5;\n    function display()\n    {\n      document.writeln(num/0);\n    }\n    display();\n    //expected output: -Infinity"
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the difference between View state and Session state?",
+      "explanation": "\"View state\" is specific to a page in a session whereas \"Session state\" is specific to a user or browser that can be accessed across all pages in the web application."
+    },
+    {
+      "type": "LONG",
+      "statement": "What are the pop-up boxes available in JavaScript?",
+      "explanation": "*   Alert Box\n*   Confirm Box\n*   Prompt Box\n\n#### Example of alert() in JavaScript\n\n    <script type=\"text/javascript\">\n    function msg(){\n     alert(\"Hello Alert Box\");\n    }\n    </script>\n    <input type=\"button\" value=\"click\" onclick=\"msg()\"/>\n    \n\n#### Example of confirm() in JavaScript\n\n    <script type=\"text/javascript\">\n    function msg(){\n    var v= confirm(\"Are u sure?\");\n    if(v==true){\n    alert(\"ok\");\n    }\n    else{\n    alert(\"cancel\");\n    }\n    \n    }\n    </script>\n    \n    <input type=\"button\" value=\"delete record\" onclick=\"msg()\"/>\n    \n    \n\n#### Example of prompt() in JavaScript\n\n    <script type=\"text/javascript\">\n    function msg(){\n    var v= prompt(\"Who are you?\");\n    alert(\"I am \"+v);\n    \n    }\n    </script>\n    \n    <input type=\"button\" value=\"click\" onclick=\"msg()\"/>"
+    },
+    {
+      "type": "LONG",
+      "statement": "How can we detect OS of the client machine using JavaScript?",
+      "explanation": "The **navigator.appVersion** string can be used to detect the operating system on the client machine."
+    },
+    {
+      "type": "LONG",
+      "statement": "How to submit a form using JavaScript by clicking a link?",
+      "explanation": "Let's see the JavaScript code to submit the form by clicking the link.\n\n    <form name=\"myform\" action=\"index.php\">\n    Search: <input type='text' name='query' />\n    <a href=\"javascript: submitform()\">Search</a>\n    </form>\n    <script type=\"text/javascript\">\n    function submitform()\n    {\n      document.myform.submit();\n    }\n    </script>"
+    },
+    {
+      "type": "LONG",
+      "statement": "Is JavaScript faster than ASP script?",
+      "explanation": "Yes, because it doesn't require web server's support for execution."
+    },
+    {
+      "type": "LONG",
+      "statement": "How to change the background color of HTML document using JavaScript?",
+      "explanation": "    <script type=\"text/javascript\">\n    document.body.bgColor=\"pink\";\n    </script>"
+    },
+    {
+      "type": "LONG",
+      "statement": "How to handle exceptions in JavaScript?",
+      "explanation": "By the help of try/catch block, we can handle exceptions in JavaScript. JavaScript supports try, catch, finally and throw keywords for exception handling."
+    },
+    {
+      "type": "LONG",
+      "statement": "How to validate a form in JavaScript?",
+      "explanation": "    <script>\n    function validateform(){\n    var name=document.myform.name.value;\n    var password=document.myform.password.value;\n    \n    if (name==null || name==\"\"){\n      alert(\"Name can't be blank\");\n      return false;\n    }else if(password.length<6){\n      alert(\"Password must be at least 6 characters long.\");\n      return false;\n      }\n    }\n    </script>\n    <body>\n    <form name=\"myform\" method=\"post\" action=\"abc.jsp\" onsubmit=\"return validateform()\" >\n    Name: <input type=\"text\" name=\"name\"><br/>\n    Password: <input type=\"password\" name=\"password\"><br/>\n    <input type=\"submit\" value=\"register\">\n    </form>\n    \n    \n\n[Test it Now](http://www.javatpoint.com/oprweb/test.jsp?filename=jsvalidation1)\n\nVisit here: [JavaScript form validation](javascript-form-validation)."
+    },
+    {
+      "type": "LONG",
+      "statement": "How to validate email in JavaScript?",
+      "explanation": "    <script>\n    function validateemail()\n    {\n    var x=document.myform.email.value;\n    var atposition=x.indexOf(\"@\");\n    var dotposition=x.lastIndexOf(\".\");\n    if (atposition<1 || dotposition<atposition+2 || dotposition+2>=x.length){\n      alert(\"Please enter a valid e-mail address \\n atpostion:\"+atposition+\"\\n dotposition:\"+dotposition);\n      return false;\n      }\n    }\n    </script>\n    <body>\n    <form name=\"myform\"  method=\"post\" action=\"#\" onsubmit=\"return validateemail();\">\n    Email: <input type=\"text\" name=\"email\"><br/>\n    \n    <input type=\"submit\" value=\"register\">\n    </form>\n    \n\n[Test it Now](http://www.javatpoint.com/oprweb/test.jsp?filename=jsvalidation3)\n\nVisit here: [JavaScript Email validation](javascript-form-validation#email)."
+    },
+    {
+      "type": "LONG",
+      "statement": "What is this keyword in JavaScript?",
+      "explanation": "The this keyword is a reference variable that refers to the current object. For example:\n\n    var address=  \n    {  \n    company:\"Javatpoint\",  \n    city:\"Noida\",  \n    state:\"UP\",  \n    fullAddress:function()  \n    {  \n    return this.company+\" \"+this.city+\" \"+this.state;  \n    }  \n    };  \n    var fetch=address.fullAddress();  \n    document.writeln(fetch);"
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the requirement of debugging in JavaScript?",
+      "explanation": "JavaScript didn't show any error message in a browser. However, these mistakes can affect the output. The best practice to find out the error is to debug the code. The code can be debugged easily by using web browsers like Google Chrome, Mozilla Firebox.\n\nTo perform debugging, we can use any of the following approaches:\n\n*   Using console.log() method\n*   Using debugger keyword"
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the use of debugger keyword in JavaScript?",
+      "explanation": "JavaScript debugger keyword sets the breakpoint through the code itself. The debugger stops the execution of the program at the position it is applied. Now, we can start the flow of execution manually. If an exception occurs, the execution will stop again on that particular line.. For example:\n\n    function display()\n    {\n    x = 10;  \n    y = 15;  \n    z = x + y;  \n    debugger;  \n    document.write(z);  \n    document.write(a);   \n    }   \n    display();"
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the role of a strict mode in JavaScript?",
+      "explanation": "The JavaScript strict mode is used to generates silent errors. It provides \"use strict\"; expression to enable the strict mode. This expression can only be placed as the first statement in a script or a function. For example:\n\n     \"use strict\";  \n    x=10;  \n    console.log(x);"
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the use of Math object in JavaScript?",
+      "explanation": "The JavaScript math object provides several constants and methods to perform a mathematical operation. Unlike date object, it doesn't have constructors. For example:\n\n     function display()\n    {\n      document.writeln(Math.random());\n    }\n    display();"
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the use of a Date object in JavaScript?",
+      "explanation": "The JavaScript date object can be used to get a year, month and day. You can display a timer on the webpage by the help of JavaScript date object.\n\n     function display()\n    {\n      var date=new Date();  \n    var day=date.getDate();  \n    var month=date.getMonth()+1;  \n    var year=date.getFullYear();  \n    document.write(\"<br>Date is: \"+day+\"/\"+month+\"/\"+year);  \n    }\n    display();"
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the use of a Number object in JavaScript?",
+      "explanation": "The JavaScript number object enables you to represent a numeric value. It may be integer or floating-point. JavaScript number object follows the IEEE standard to represent the floating-point numbers.\n\n     function display()\n    {\n    var x=102;//integer value  \n    var y=102.7;//floating point value  \n    var z=13e4;//exponent value, output: 130000  \n    var n=new Number(16);//integer value by number object  \n    document.write(x+\" \"+y+\" \"+z+\" \"+n);  \n    }   \n    display();"
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the use of a Boolean object in JavaScript?",
+      "explanation": "The JavaScript Boolean is an object that represents value in two states: true or false. You can create the JavaScript Boolean object by Boolean() constructor.\n\n     function display()\n    {\n    document.writeln(10<20);//true  \n    document.writeln(10<5);//false   \n    }   \n    display();"
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the use of a TypedArray object in JavaScript?",
+      "explanation": "The JavaScript TypedArray object illustrates an array like a view of an underlying binary data buffer. There is any number of different global properties, whose values are TypedArray constructors for specific element types.\n\n     function display()\n    {\n    var arr1= [1,2,3,4,5,6,7,8,9,10];   \n           arr1.copyWithin(2) ; \n           document.write(arr1);  \n    }\n    display();"
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the use of a Set object in JavaScript?",
+      "explanation": "The JavaScript Set object is used to store the elements with unique values. The values can be of any type i.e. whether primitive values or object references. For example:\n\n     function display()\n    {\n    var set = new Set();  \n    set.add(\"jQuery\");  \n    set.add(\"AngularJS\");  \n    set.add(\"Bootstrap\");  \n    for (let elements of set) {  \n     document.writeln(elements+\"<br>\");  \n    }   \n    }\n    display();"
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the use of a WeakSet object in JavaScript?",
+      "explanation": "The JavaScript WeakSet object is the type of collection that allows us to store weakly held objects. Unlike Set, the WeakSet are the collections of objects only. It doesn't contain the arbitrary values. For example:\n\n     function display()\n    {\n    var ws = new WeakSet();  \n    var obj1={};  \n    var obj2={};  \n    ws.add(obj1);  \n    ws.add(obj2);  \n    //Let's check whether the WeakSet object contains the added object  \n    document.writeln(ws.has(obj1)+\"<br>\");  \n    document.writeln(ws.has(obj2));   \n    }   \n    display()"
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the use of a Map object in JavaScript?",
+      "explanation": "The JavaScript Map object is used to map keys to values. It stores each element as key-value pair. It operates the elements such as search, update and delete on the basis of specified key. For example:\n\n     function display()\n    {\n    var map=new Map();  \n    map.set(1,\"jQuery\");  \n    map.set(2,\"AngularJS\");  \n    map.set(3,\"Bootstrap\");  \n    document.writeln(map.get(1)+\"<br>\");  \n    document.writeln(map.get(2)+\"<br>\");  \n    document.writeln(map.get(3));  \n    }\n    display();"
+    },
+    {
+      "type": "LONG",
+      "statement": "What is the use of a WeakMap object in JavaScript?",
+      "explanation": "The JavaScript WeakMap object is a type of collection which is almost similar to Map. It stores each element as a key-value pair where keys are weakly referenced. Here, the keys are objects and the values are arbitrary values. For example:\n\n     function display()\n    {\n    var wm = new WeakMap();  \n    var obj1 = {};  \n    var obj2 = {};  \n    var obj3= {};  \n    wm.set(obj1, \"jQuery\");  \n    wm.set(obj2, \"AngularJS\");  \n    wm.set(obj3,\"Bootstrap\");  \n    document.writeln(wm.has(obj2));   \n    }   \n    display();"
+    }
+  ]
+}
