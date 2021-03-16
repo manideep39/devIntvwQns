@@ -6,12 +6,12 @@
 | :------------------: | :----------------------: | :-------------: |
 |         HTML         |           LONG           |     **55**      |
 |         CSS          |           LONG           |     **66**      |
-|      JavaScript      | MCQ</br>TF</br>LONG</br> |     **896**     |
-|       ReactJS        |           LONG           |     **327**     |
+|      JavaScript      | MCQ</br>TF</br>LONG</br> |     **956**     |
+|       ReactJS        |           LONG           |     **392**     |
 |       Android        |           LONG           |     **88**      |
-|       Node JS        |           LONG           |     **43**      |
+|       Node JS        |           LONG           |     **75**      |
 |      Express JS      |           LONG           |     **21**      |
-| MongoDB and Mongoose |           LONG           |     **17**      |
+| MongoDB and Mongoose |           LONG           |     **65**      |
 
 ### Scraped data from the following:
 
