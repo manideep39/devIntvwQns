@@ -12,6 +12,7 @@ class Scraper {
 
   static html2Markdown(htmlElement) {
     const turndownService = new TurndownService();
+    turndownService.keep(["table"]);
     const markdown = turndownService.turndown(htmlElement);
     return markdown;
   }
