@@ -1,0 +1,304 @@
+{
+  "questions": [
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/javascript-interview-questions",
+      "statement": "What is JavaScript?",
+      "explanation": "JavaScript is a scripting language used for programming web pages as well as server systems. It is an object-oriented, interpreted, lightweight and powerful programming language, made up of first-class functions. The JavaScript can update the content dynamically for web pages."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/javascript-interview-questions",
+      "statement": "What are the differences between JavaScript and Java?",
+      "explanation": "Java is an object-oriented and structured programming language, which help to run web pages on different platforms. The java code should be compiled on the compiler. JavaScript is an object-oriented scripting language. In which, the scripts are optimized for both server and client-side. Javascript is introduced to perform HTML pages.\n\n> _Are you looking forward to becoming an Javascript Developer? Check out the [Javascript Certification Course](../../javascript-training \"Javascript Online Training\") and get certified._"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/javascript-interview-questions",
+      "statement": "Name the different types of JavaScript data?",
+      "explanation": "JavaScript data are of the following types - \n\n1.  String  \n2.  Function  \n3.  Boolean  \n4.  Object  \n5.  Number \n6.  Null\n\n **Top 10 Programming Languages that you need to watch out to boost your career in 2021**"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/javascript-interview-questions",
+      "statement": "What is the definition of global variables? In what way, these variables are declared?",
+      "explanation": "A global variable is a special kind of variable in JavaScript. This variable is easy to use and also available across the entire length of the JavaScript code. Mainly, the var keyword is used whether to declare a global or local variable."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/javascript-interview-questions",
+      "statement": "What is the definition of the prompt box?",
+      "explanation": "The Input provided by any user in the JavaScript is entered with the help of a prompt box. While putting forward the data or the input, the prompt box allows the user to do this with the help of a text box. To include the number, label box is also used.\n\nBasic JavaScript Interview Questions\n------------------------------------"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/javascript-interview-questions",
+      "statement": "Name the different types of groups of data types that are used in JavaScript and define them?",
+      "explanation": "**There are two basic groups of data types -** \n\n*   **Reference type-** These are complex types of data that can mainly include dates and strings. \n*   **Primitive type-** These are the types of data that include numbers"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/javascript-interview-questions",
+      "statement": "Name the problems that are associated with the use of global variables?",
+      "explanation": "Even though global variables are easy to use, these have some shortfalls. While using this type of variables, the problem of clashing of the variable names of different global and local scope occurs. The code that is often relied on the global variable also gets difficult to be tested and debugged."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/javascript-interview-questions",
+      "statement": "Which Company developed JavaScript?",
+      "explanation": "Netscape company had developed the JavaScript Programming Language."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/javascript-interview-questions",
+      "statement": "What type of variables we use in JavaScript?",
+      "explanation": "We use object data type variables in JavaScript."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/javascript-interview-questions",
+      "statement": "What is mean by NULL in JavaScript?",
+      "explanation": "If no value has been given to the variable then, it is called a null object (or) null value."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/javascript-interview-questions",
+      "statement": "Which property is used to detect the operating system in a cloud machine?",
+      "explanation": "Navigator. platform String property is used to detect issues of the operating system in a cloud."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/javascript-interview-questions",
+      "statement": "What are the pop-ups available in JavaScript?",
+      "explanation": "The popups available in JavaScript are Alert, Prompt, and Confirm."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/javascript-interview-questions",
+      "statement": "What is the Different between Null and Undefined?",
+      "explanation": "Both null and undefined have an empty value, but the difference between these two is:\n\n*   In undefined case, we don't assign a value for the variable.\n*   In the null case, we assign a zero value to the variable."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/javascript-interview-questions",
+      "statement": "What are the ways used to read and write a file in JavaScript?",
+      "explanation": "Two ways are available to read and write a file, they are:\n\n*   JavaScript Expressions\n*   Webpages and Active X objects"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/javascript-interview-questions",
+      "statement": "How to create an array in JavaScript?",
+      "explanation": "#### Subscribe to our youtube channel to get new updates..!\n\n**Ans.** Arrays are used to store various values in the single variable.\n\n**Defining an array in JavaScript:**\n\n    var mobile = [“Oppo”, “ Samsung”, “Vivo”]\n    \n    By using a new keyword:\n    \n    Var mobile = new array(“ Oppo”, “Samsung'', “Vivo”)"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/javascript-interview-questions",
+      "statement": "Mention the different types of functions that are supported by JavaScript? Define each of them?",
+      "explanation": "There are two types of functions that are supported by JavaScript. They are -\n\n*   **Anonymous function-** This type of function generally has no name and this is the difference between it and a normal function.  \n*   **Named function-** On the other hand, this function is named properly and specifically.\n\n\\----- **Related Page: [Full Stack Developer Interview Questions](../../full-stack-developer-interview-questions)** -----"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/javascript-interview-questions",
+      "statement": "What is mean by “this” in javaScript?",
+      "explanation": "“This” keyword is an object in a javascript, where it refers to. It has different values at different stages, whereas in method “this” is used as an owner object and in function, it is called a global object."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/javascript-interview-questions",
+      "statement": "How to submit a form in JavaScript?",
+      "explanation": "In JavaScript, we can submit a form by using\n\n    document.form[0].submit();"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/javascript-interview-questions",
+      "statement": "Does JavaScript support Automatic type conversion?",
+      "explanation": "Automatic type conversion is supported by javascript and usually, the developers of javascript use the automatic type conversion method."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/javascript-interview-questions",
+      "statement": "How to create objects in JavaScript?",
+      "explanation": "As JavaScript is an object-oriented scripting language, it is very easy to create objects in JavaScript.\n\n    var std = { name: “ David”,  age: 16, id: 364 };"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/javascript-interview-questions",
+      "statement": "What is the difference between the scope of the variables in JavaScript?",
+      "explanation": "JavaScript variables have different scope. The scope of the variable is nothing but the functionality of the variable.\n\n*   **Global variables-** Global variables consist of global scope whereas these variables can be utilized in the whole program repeatedly.\n*   **Local Variables-** Local variables have no scope and used only once in the whole program."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/javascript-interview-questions",
+      "statement": "What is mean by name function?",
+      "explanation": "The named function in JavaScript defines the name as well as the value of a function. It is defined by using the keyword \n\n\"function”\n\n    function named()\n    {\n    // write code\n    }"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/javascript-interview-questions",
+      "statement": "What is argument objects in javascript?",
+      "explanation": "The JavaScript variable represents the arguments that can be passed to the function. By using, ‘type of’ operator we can represent the argument objects.\n\n[\n\n### JavaScript Certification Training!\n\nExplore Curriculum\n\n](https://mindmajix.com/javascript-training#curriculum)\n\n**Example:**\n\n    function  fun(a)\n    {\n    console.log(typrof a, arguments.length);\n    }\n    fun(7); \n    fun( \"2\", \"3”, \"4\");\n    fun();"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/javascript-interview-questions",
+      "statement": "What is the meaning of the word 'callback'?",
+      "explanation": "The callback is a typical function of JavaScript that can be passed as an option or argument of JavaScript. Sometimes, callbacks can also be termed as simple events. Users are given calls to react to different kinds of triggered situations.\n\nAdvanced JavaScript Interview Questions\n---------------------------------------"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/javascript-interview-questions",
+      "statement": "List out different types of errors in JavaScript?",
+      "explanation": "Different types of errors in JavaScript are:\n\n*   **Run time errors-** errors occurred due to misrepresentation of HTML commands.\n*   **Load time errors-** errors occurred at the time of web page loading are known as load time errors. These errors may occur due to improper syntaxes\n*   **Logical errors-** logical errors may occur due to improper logical performance of the function."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/javascript-interview-questions",
+      "statement": "How to get an element by class in JavaScript?",
+      "explanation": "By using  method Document.getElementsByclass name(), we can get elements in class name."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/javascript-interview-questions",
+      "statement": "What is a closure?",
+      "explanation": "The closure is a primary mechanism to private the data items. Closures give access to the outer function’s scope from inner function scope. Closures are created for every function in JavaScript. To define a closure, create a function inside another function to expose it."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/javascript-interview-questions",
+      "statement": "What is “===” operator?",
+      "explanation": "“===” is a strict equality operator, returns a true value, if the two operands have the same value."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/javascript-interview-questions",
+      "statement": "How can we read the properties of JavaScript?",
+      "explanation": "Using dot(.) notation we can read and write the properties of JS."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/javascript-interview-questions",
+      "statement": "What is the difference between Attributes and properties?",
+      "explanation": "*   **Attributes-** Attributes provide the information about the details given to objects like name, age, id, etc,\n*   **Properties-** Properties gives information about the values given to the objects."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/javascript-interview-questions",
+      "statement": "What are the possible ways to define a variable in JavaScript?",
+      "explanation": "There are three possible ways to declare a variable in JavaScript are:\n\n*   Var- variables and values of variables can be declared to the Variable statement by Variable statement. Example - var b = 20;. Declaration of variables should be done before the execution of code.\n*   Const- A constant variable is assigned with one value only once before the execution of code.\n*   let- If let statements are used in the variable declaration, the variable values can be reassigned before the execution of code."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/javascript-interview-questions",
+      "statement": "What are the terms BOM and DOM in JavaScript?",
+      "explanation": "*   **BOM-** BOM is a Browser Object Model, in which the window object is supported by all the browsers. The JavaScript objects, variables and functions also become the members of the window object. This model deals with the objects of browsers like location, navigator, history, and screen.\n*   **DOM-** DOM is a Document Object Model in JavaScript that helps to access document and HTML elements. When a web page is loaded the browser creates a DOM for the page. All the objects on the page all arranged in an order."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/javascript-interview-questions",
+      "statement": "Explain the terms array slice() and array splice()?",
+      "explanation": "1.  **Array slice()** method removes the array items from the array and reforms the removed items into a new array. The selected items through an array slice() method are removed from the array and formed as another new array. \n2.   **array splice()** method removes the items of the selected array from the array and does not form another array."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/javascript-interview-questions",
+      "statement": "Define some of the methods in JavaScript?",
+      "explanation": "*   **confirm() -**   Helps to get confirm dialog box including messages.\n*   **open() -**   Helps to open the new window.\n*   **alert() -**  This method displays the alert box with messages\n*   **close() -**  Heps to close the window.\n*   **setTimeout() -** This method helps to perform certain operations after a specified time like evaluating expressions and calling functions."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/javascript-interview-questions",
+      "statement": "Explain what is NaN() function?",
+      "explanation": "A NAN (not a number) method is used to return a true value if the variable has no number.\n\n    function number(num)\n    {\n    if(isNaN(num))\n    { \n    returns if it is not a number;\n    }\n    return if it is a number;\n    }"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/javascript-interview-questions",
+      "statement": "Explain View state and Session state?",
+      "explanation": "*   **View State-** The particular point of time where the user spent on only a page of the session is called view state\n*   **Session State-** Where the browser or user spends on all pages of the application is called session state."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/javascript-interview-questions",
+      "statement": "How to make an array empty?",
+      "explanation": "Let us consider an array\n\n    Var array  =  [ “1”, “2”, “3,'' “4” ];\n    We consider four methods to empty an array\n    1. array  = []\n    2. array.length = 0;\n    3. array.splice(0, array.length);\n    4. while (array.length)\n    {\n    array.pop();\n    }"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/javascript-interview-questions",
+      "statement": "Define the mechanism of the type of operator?",
+      "explanation": "The type of operator is basically just the unary operator that is used before the single operand. The value indicates the operand's data type. The type includes Boolean, number, and string.\n\n### JavaScript Interview Questions for Experienced"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/javascript-interview-questions",
+      "statement": "Explain about MUL function in JavaScript?",
+      "explanation": "MUL is a multiplication function. The multiplication of numbers can be done as a value is defined in the function and the value is returned by another function and the process goes on.\n\n**Example:**\n\n    function  mul(a)\n    {\n    return function(b)\n    {\n    return function(c)\n    {\n    return  a*b*c;\n    };\n    };\n    }"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/javascript-interview-questions",
+      "statement": "Can redirection of a page is possible in JavaScript?",
+      "explanation": "Redirection of the page is possible in JavaScript. By using two ways we can redirect a page to other pages, they are:\n\n*   **Location.href-** This is one of the ways to redirect a page. By this, we can get back access to the document. \n\n    window.location.href  = (“http//jaquar.com”);\n\n*   **Location.replace-** In this, we can’t get access back the actual document.\n\n    window.location.href  = (“http//jaquar.com”);"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/javascript-interview-questions",
+      "statement": "How to add and remove properties from objects?",
+      "explanation": "By using,object.property\\_name The = value we can add a property to the JS object\n\nBy using, deleteobject.property\\_name is used to remove the property from the JS object."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/javascript-interview-questions",
+      "statement": "How to Validate a form in JavaScript?",
+      "explanation": "We can validate a variable by using the following script\n\n    <script>\n    function validateform()\n    {\n    var fullname  = document.firstform.fullname.val;\n    var pwd  =  document.pwd.val;\n    \n    if(fullname==null || fullname==\"\")\n    {\n    alert(\"fullname should be filled\")\n     return true;  \n    }\n    else if(password.length<5)\n    alert(\"pwd must me upto 5 characters long\"):\n    return false;\n    }\n    }\n    </script>\n    <body>\n    <form name =\" firstform\" method= \"post\"  action =\"xyz.jpg\" onsubmit =\" return validateform()\">\n    fullname = input type= \"text\" fullname =\"name\">\n    <br/>\n    pwd  = inputtype=\"pwd\" name=\"pw\">\n    <br/>\n    <inputtype=\"submit\"value\"register\">\n    </body>\n    </form>"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/javascript-interview-questions",
+      "statement": "How to represent the date object in JavaScript?",
+      "explanation": "Date object in JavaScript helps to get information about the day, month and year. By using date object we can set the timer on the screen.\n\n    function display() \n    {\n    var date = new date();\n    var day = date.getday();\n    var month= date.getmonth()+1;\n    Var year = date.getyear();\n    doc.write(\"date is: \"+day+\"/\"+month+\"/\"+year+\");\n    }\n    display();"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/javascript-interview-questions",
+      "statement": "What is meant by the debugger in JavaScript?",
+      "explanation": "Debugger keyword in JavaScript helps in setting a breakpoint in the code itself. The program will stop executing code where the debugger keyword is applied in the program.\n\n    function display()\n    {\n    a = 10;\n    b  = 20;\n    c  = a+b;\n    debugger;\n    doc.write(c);\n    doc.write(a);\n    }\n    display();"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/javascript-interview-questions",
+      "statement": "What is the use of Weakmap object in JavaScript?",
+      "explanation": "Weakmap is similar to a collection of objects like a map. If the weak map object is set to a process, it considers each element as a key object and that key object will have a weak reference.\n\n    function display()\n    {\n    var wm  = new WeakMap();\n    var object1 = {};\n    var object2 = {};\n    var object3 = {};\n    wm.set(object1, \"AngularJS\");\n    wm.set(object2, \"ReactJS\");\n    wm.set(object3, \"VueJS\");\n    doc.writeIn(wm.has(object3));\n    }\n    display();"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/javascript-interview-questions",
+      "statement": "Name some of the JavaScript frameworks?",
+      "explanation": "The applications written in JavaScript are known as JavaScript frameworks. These frameworks are a different form of JavaScript libraries and flows. Here is a list of some important frameworks, they are:\n\n*   Angular JS\n*   Vue \n*   React"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/javascript-interview-questions",
+      "statement": "Explain about escape characters?",
+      "explanation": "Espace characters are used to handle the special characters without breaking the code in javascript. It uses a black slash for different characters like single and double quotes, newline and so on\n\n*   ’ single quote\n*     backslash\n*   ’’ double quote\n*   n  newline\n*   b  backspace\n*   t  tab\n*   f   form feed"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/javascript-interview-questions",
+      "statement": "Write about number objects?",
+      "explanation": "Number objects help to represent the number of values to the variables. The values may be floating point or integer. In JavaScript, the floating points are represented by using the IEEE standard.\n\n    function display()\n    {\n    var a = 10;\n    var  b = 0.7;\n    var  c =  11d5;\n    doc.write(a+\" \"+b+\" \"+c+\");\n    }\n    display();"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/javascript-interview-questions",
+      "statement": "How set object is used in JavaScript?",
+      "explanation": "Set objects are used to store different values to the elements. The values may be a reference or primitive values.\n\n    function display()\n    {\n    var set = new Set();\n    set.add( \"Angular JS\":;\n    set.add(\" Vue\");\n    set.add(\"React JS);\n    for(set the elements of set)\n    {\n    doc.writeIn(elements):\n    }\n    }\n    display();"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/javascript-interview-questions",
+      "statement": "How to calculate Fibonacci series in JavaScript?",
+      "explanation": "Fibonacci series is a series of numbers, in which every value is the sum of the preceding two numbers starting with 0 and 1.\n\nExample - 0,1,1,2,3,5,8,13,21,34…….."
+    }
+  ]
+}

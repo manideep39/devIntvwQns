@@ -1,7 +1,7 @@
 const ScrapeTester = require("../scrapeTester");
 
 const scrapeTester = new ScrapeTester(
-  "../scrapedData/javaTpoint/javaTpointAndroid.json"
+  "../scrapedData/mindmajix/mindmajixMongodb.json"
 );
 
 scrapeTester.checkLongQnType("./testData.html");

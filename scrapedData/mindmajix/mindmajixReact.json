@@ -1,0 +1,358 @@
+{
+  "questions": [
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "What is React?",
+      "explanation": "[React](../../introduction-to-react-js) is a front-end JavaScript library that mainly follows the component-based approach for building a user interface (UI) components for a single page application. It is also used for handling the view layer in both mobile and web apps. Moreover, react plays a crucial role in developing interactive mobile and web UIs. It was created and developed by Jordan Walke; it was deployed first on the Facebook newsfeed in 2011."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "Why React is used?",
+      "explanation": "The following reasons make one to use React for building User Interfaces (UI), and they are:\n\n*   Easy to learn nature\n*   Simplicity\n*   High scalability\n*   Increase performance\n\n_**Also Read:**_ **[Full Stack Developer Interview Questions](../../full-stack-developer-interview-questions)**"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "How React works?",
+      "explanation": "Below is the sequence of steps which gives an idea about how does react work\n\n*   Firstly the react runs the diffing algorithm to identify the changes that are made in the virtual DOM.\n*   Next step is reconciliation, this is used to update the DOM as per the new features.\n*   Now, the virtual DOM, which is lightweight in nature and is detached from the specific implementation of the browser.\n*   Followingly the ReactElements which are present in virtual DOM are used to build basic nodes.\n*   Finally, if the ReactComponent changes the state; the diffing algorithm runs faster and identify the changes. After identification, it automatically updates the DOM with the change difference."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "What are the features of ReactJS?",
+      "explanation": "The features of React JS are as follows:\n\n#### **1\\. React improves SEO performance**\n\nReact boost the performance of the SEO to higher levels as a search engine faces the problem while reading JavaScript of high loaded applications.\n\n#### **2\\. React acts as a standard for mobile app development**\n\nIt provides a transition process as an ideal solution for both mobile and web applications for building rich user interfaces.\n\n#### **3\\. React makes the process of writing components easier**\n\nUsing React along with JSX will make you write components and code efficiently and clearly.\n\n#### **4\\. React increases efficiency**\n\nAs the React boost the efficiency of components by reusing them. This is the reason why it is considered as an ideal feature of React. It is considered as the most reusable system component.\n\n#### **5\\. React ensures stable code**\n\nIt ensures the stability of the code of an application by making use of downward dataflow."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "What are the Advantages of React JS?",
+      "explanation": "The advantages of React are as follows\n\n*   Usage of JSX makes it easier to read and write code\n*   Improves the performance of applications with the use of virtual DOM\n*   Provides an easier way to integrate with frameworks\n*   It can be shared and rendered both on server and client-side\n*   Writing integration and unit tests can be made smother by using tools"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "How is React different from AngularJS?",
+      "explanation": "The following table shows the major difference between AngularJS and React - Learn more at **[React JS vs Angular JS](../../react-js-vs-angular-js)**\n\n<table border=\"3\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:95%;\" class=\"table\"><tbody><tr style=\"height: 21px;\"><td style=\"width: 33.3333%; height: 21px; text-align: center;\"><div><strong>Factor</strong></div></td><td style=\"width: 33.3333%; height: 21px; text-align: center;\"><div><strong>React JS</strong></div></td><td style=\"width: 33.3333%; height: 21px; text-align: center;\"><div><strong>AngularJS</strong></div></td></tr><tr style=\"height: 21px;\"><td style=\"width: 33.3333%; height: 21px;\"><div><strong>Usage of DOM</strong></div></td><td style=\"width: 33.3333%; height: 21px;\"><div>Uses virtual DOM</div></td><td style=\"width: 33.3333%; height: 21px;\"><div>Uses real DOM</div></td></tr><tr style=\"height: 21px;\"><td style=\"width: 33.3333%; height: 21px;\"><div><strong>Language</strong></div></td><td style=\"width: 33.3333%; height: 21px;\"><div>Uses JavaScript with the extended XML syntax</div></td><td style=\"width: 33.3333%; height: 21px;\"><div>Uses TypeScript which is the superset of JavaScript</div></td></tr><tr style=\"height: 21px;\"><td style=\"width: 33.3333%; height: 21px;\"><div><strong>App Structure</strong></div></td><td style=\"width: 33.3333%; height: 21px;\"><div>It is represented only using the view of MVC</div></td><td style=\"width: 33.3333%; height: 21px;\"><div>Made of Complete MVC</div></td></tr><tr style=\"height: 21px;\"><td style=\"width: 33.3333%; height: 22px;\"><div><strong>Data Binding</strong></div></td><td style=\"width: 33.3333%; height: 22px;\"><div>One-way binding</div></td><td style=\"width: 33.3333%; height: 22px;\"><div>Two-way binding</div></td></tr></tbody></table>"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "How React JS framework is different as compared to others?",
+      "explanation": "Basically, ReactJS is a limited library that builds UI parts, it is essentially not quite the same as a considerable measure of other JavaScript structures. One common example is AngularJS approaches building an app simply by expanding HTML markup and infusing different develop such as controller at runtime. Therefore, AngularJS is exceptionally obstinate about the more noteworthy engineering of your application.\n\n**Also Read: [Learn React JS Tutorial](../../react-js-tutorial)**"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "Does React JS use HTML?",
+      "explanation": "No, It uses JSX which is similar to HTML."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "What is JSX?",
+      "explanation": "It is basically a novel dialect of the popular JavaScript that simply integrates the HTML templates into the code of JavaScript. The browser is not capable to read the code simply and thus there is a need for this integration. Generally, WebPack or Babel tools are considered for this task. It has become a very popular approach in the present scenario among the developers."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "What are the life Cycles of ReactJS?",
+      "explanation": "1\\. Initialization  \n2\\. State/Property Updates  \n3\\. Destruction"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "When ReactJS released?",
+      "explanation": "March 2013"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "How is React JS different from Angular JS?",
+      "explanation": "The first difference between both of them is their code dependency. ReactJS depends less on the code whereas AngularJS needs a lot of coding to be done. The packaging on React is quite strong as compared to the AngularJS. Another difference is React is equipped with Virtual Dom while the Angular has a Regular DOM. ReactJS is all about the components whereas AngularJS focus mainly on the Models, View as well as on Controllers. AngularJS was developed by Google while the ReactJS is the outcome of facebook. These are some of the common differences between the two."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "What is Redux?",
+      "explanation": "It is one of the most in-demand libraries for front-end development in today’s growing world. It is defined as the predictable state container mainly designed for JavaScript apps and also it is used for managing the entire state of an application. Redux is very small in size and has no dependencies. It builds applications that are easy to deploy in different environments and easy to test. Redux is very small in size and has no dependencies."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "What is Use of Redux thunk?",
+      "explanation": "Redux thunk acts as middleware which allows an individual to write action creators that return functions instead of actions. This is also used as a delay function in order to delay dispatch of an action if a certain condition is met. The two store methods _getState()_ and _dispatch()_ are provided as parameters to the inner function.\n\nIn order to activate Redux thunk, we must first use applyMiddleware() method as shown below:\n\n    import{ createStore, applyMiddleware } from 'redux';\n    import thunk from 'redux-thunk';\n    import rootReducer from './reducers/index';\n    \n    //Note: this API requires redux@>=3.1.0\n    \n    const store= createStore(\n         rootReducer,\n         applyMiddleware(thunk)\n    );"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "What do you know about Flux?",
+      "explanation": "Basically, Flux is a basic illustration that is helpful in maintaining the unidirectional data stream.  It is meant to control construed data unique fragments to make them interface with that data without creating issues. Flux configuration is insipid; it's not specific to React applications, nor is it required to collect a React application.  Flux is basically a straightforward idea, however in you have to exhibit a profound comprehension of its usage."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "What is the current stable version of ReactJS?",
+      "explanation": "\\*\\*\\*\\*\\*\\*Version: 16.12.0 \n\n\\*\\*\\*\\*\\*\\*Release on: Nov 14, 2019"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "What is the Repository URL of ReactJS?",
+      "explanation": "[https://github.com/facebook/react](https://github.com/facebook/react \"React Depositary in Github\")"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "What do you know about the component lifecycle in ReactJS?",
+      "explanation": "#### Subscribe to our youtube channel to get new updates..!\n\n**Ans.** Component lifecycle is an essential part of this platform. Basically, they have lifecycle events that fall in the three prime categories which are property updates, Initialization and third are Destruction. They are generally considered as a method of simply managing the state and properties of every reach component."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "Do you think React JS has any limitations? If so, tell a few?",
+      "explanation": "Yes, there are a few drawbacks which are associated with this platform. The leading drawback of the ReactJS is the size of its library. It is very complex and creates a lot of confusion among the developers. Also, there are lots of developers all over the world which really don’t like the JSX and inline templating. In addition to this, there is another major limitation of ReactJS and i.e. only cover one layer of the app and i.e.View. Thus to manage the development, developers have to depend on several other technologies which consume time."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "How the parent and child components exchange information?",
+      "explanation": "This task is generally performed with the help of functions. Actually, there are several functions which are provided to both parent and child components. They simply make use of them through props. Their communication should be accurate and reliable. The need of same can be there anytime and therefore functions are considered for this task. They always make sure that information can be exchanged easily and in an efficient manner among the parent and child components."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "What is a State in React and How is it used?",
+      "explanation": "In React, State is an object that represents how the component renders and behaves. States are the sources of data and allow you to create dynamic and interactive components. They are accessed using _this.state()_. For changing a value in the state object, call it using _this.setState()_ method."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "What are the differences between the Class component and Functional component?",
+      "explanation": "<table border=\"3\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:95%;\" class=\"table\"><tbody><tr style=\"height: 21px;\"><td style=\"width: 33.3333%; height: 21px; text-align: center;\"><div><strong>Parameter</strong></div></td><td style=\"width: 33.3333%; height: 21px; text-align: center;\"><div><strong>Class Component</strong></div></td><td style=\"width: 33.3333%; height: 21px; text-align: center;\"><div><strong>Functional Component</strong></div></td></tr><tr style=\"height: 21px;\"><td style=\"width: 33.3333%; height: 21px;\"><div>Syntax</div></td><td style=\"width: 33.3333%; height: 21px;\"><div>This component requests you to extend from React. Component to create render function that in turn returns a react element</div></td><td style=\"width: 33.3333%; height: 21px;\"><div>It is just a plain JavaScript function that accepts props as their arguments and returns the react element.</div></td></tr><tr style=\"height: 21px;\"><td style=\"width: 33.3333%; height: 21px;\"><div>Life cycle hooks</div></td><td style=\"width: 33.3333%; height: 21px;\"><div>Lifecycle hooks are created from the React Component. This class component makes lifecycle hooks available in it.</div></td><td style=\"width: 33.3333%; height: 21px;\"><div>We cannot use lifecycle hooks in a functional component.</div></td></tr><tr style=\"height: 21px;\"><td style=\"width: 33.3333%; height: 21px;\"><div>Readability</div></td><td style=\"width: 33.3333%; height: 21px;\"><div>They are very difficult to test and read</div></td><td style=\"width: 33.3333%; height: 21px;\"><div>They are much easier to test and read</div></td></tr></tbody></table>\n\n**Class Component Coding**\n\n    class App extends Component {\n        render () {\n            return (\n                <Text>Hello World!</Text>\n            )\n        }\n    }\n    \n\n**Functional  Component Coding**\n\n    const PageOne = () => {\n        return (\n            <h1>Page One</h1>\n        );\n    }"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "What are props in React?",
+      "explanation": "Props stand for properties in React and used for passing the information from one component to another. But the data with the Props are passed in a unidirectional flow, i.e., one way from parent to child. Further, they are read-only data, which means child components cannot change data coming from the parent."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "What are the significant differences between state and props?",
+      "explanation": "The difference between state and props are as follows:\n\n<table border=\"3\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:95%;\" class=\"table\"><tbody><tr style=\"height: 21px;\"><td style=\"width: 50%; text-align: center; height: 21px;\"><strong>State</strong></td><td style=\"width: 50%; text-align: center; height: 21px;\"><strong>Props</strong></td></tr><tr style=\"height: 21px;\"><td style=\"width: 50%; height: 21px;\">The state is completely managed within a component for internal communication.</td><td style=\"width: 50%; height: 21px;\">Props are directly passed to its parents with child component.</td></tr><tr style=\"height: 21px;\"><td style=\"width: 50%; height: 21px;\">State can be modified using setState() method.</td><td style=\"width: 50%; height: 21px;\">A particular component should never modify its own props.</td></tr><tr style=\"height: 21px;\"><td style=\"width: 50%; height: 21px;\">State changes can be asynchronous</td><td style=\"width: 50%; height: 21px;\">Props are read-only</td></tr></tbody></table>"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "What is the higher-order component?",
+      "explanation": "In ReactJS high order component can be defined as the function that is mainly used to collect the component and returns a new component. These components are the patterns that are extracted from the React’s compositional nature. One important aspect of this component is that it is used as a reusable component logic in the React. It provides us with the best way to share behaviour between different React components."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "How to embed two components in One component?",
+      "explanation": "    import React from 'react';\n    class App extends React.Component{\n        render(){\n            return(\n                <div>\n                <Header/>\n                <Content/>\n                </div>\n            );\n        }\n    }\n    class Header extends React.Component{\n        render(){\n            return(\n                <div>\n                <h1> Header</h1>\n                </div>\n    \n            )\n        }\n    }\n    class Content extends React.Component{\n        render(){\n            return(\n                <h2>Content</h2>\n                <p>The Content Text!!!</p>\n                </div>\n            )\n        }\n    }\n    export default App;"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "What are Synthetic events in React?",
+      "explanation": "React implements Synthetic events to improve the consistency and performance of applications and interfaces. The synthetic event is a cross-browser wrapper around the browser’s native event. It combines the behaviour of multiple browsers into a single API to make sure events have the same properties across different browsers and platforms.\n\n### React Interview Questions for Experienced"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "Give one basic difference between pros and state?",
+      "explanation": "Pros are immutable while the state is mutable. Both of them can update themselves easily."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "How do you tell React to build in Production mode and what will that do?",
+      "explanation": "Ordinarily, you'd utilize Webpack's **DefinePlugin** strategy to set **NODE\\_ENV** to production. This will strip out things like prototype approval and additional notices. Over that, it's likewise a smart thought to minify your code in light of the fact that React utilizes Uglify's dead-code end to strip out advancement just code and remarks, which will radically diminish the measure of your package."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "What do you understand with the term polling?",
+      "explanation": "The server needs to be monitored to for updates with respect to time. The primary aim in most of the cases is to check whether novel comments are there or not. This process is basically considered as pooling. It checks for updates approximately every 5 seconds. It is possible to change this time period easily. Pooling help keeping an eye on the users and always make sure that no negative information is present on the servers. Actually, it can create issues related to several things and thus pooling is considered."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "When would you use a Class Component over a Functional Component?",
+      "explanation": "If your component has state or a lifecycle method(s), use a Class component. or else, use a Functional component."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "What do you mean by virtual DOM?",
+      "explanation": "For all the available DOM objects in ReactJS, there is a parallel [virtual DOM](https://reactjs.org/docs/faq-internals.html) object. It is nothing but can be considered as the lighter version of the true copy and is powerful in eliminating the complex code. It is also used as a Blue Print for performing several basic experiments. Many developers also use it while practising this technology."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "Compare MVC with Flux?",
+      "explanation": "MVC approaches are presently considered as outdated. Although they are capable to handle data concerns, controllers as well as UI, many developers found that it doesn’t properly work when applications size increases. However, they are capable to handle some of the key issues such as eliminating the lack of data integrity as well as managing the data flow which is not properly defined. On the other side, Flux works perfectly with all the sizes irrespective of their size."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "What’s the difference between an Element and a Component in React?",
+      "explanation": "Basically, a React component describes what you need to see on the screen. Not all that basically, a React element is a protest portrayal of some UI. \n\nA React component is a function or a class which alternatively acknowledges input and returns a React component (ordinarily by means of **JSX** which gets transpiled to a createElement invocation)."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "Tell us three reasons behind the success of ReactJS?",
+      "explanation": "[\n\n### React JS Certification Training!\n\nExplore Curriculum\n\n](https://mindmajix.com/react-js-training#curriculum)\n\nReactJS is a technology that can be trusted for complex tasks. While performing any task through it, developers need not worry about the bugs. It always ensures error-free outcomes and the best part is it offers scalable apps. It is a very fast technology and can simply be trusted for quality outcomes."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "In which lifecycle event do you make AJAX requests and why?",
+      "explanation": "AJAX solicitations ought to go in the **componentDidMount** lifecycle event.   \nThere are a couple of reasons behind this, \n\nFiber, the following usage of React's reconciliation algorithm, will be able to begin and quit rendering as required for execution benefits. One of the exchange offs of this is **componentWillMount**, the other lifecycle event where it may bode well to influence an AJAX to ask for, will be \"non-deterministic\". This means React may begin calling **componentWillMount** at different circumstances at whenever point it senses that it needs to. This would clearly be a bad formula for AJAX requests. \n\nYou can't ensure the AJAX request won't resolve before the component mounts. In the event that it did, that would imply that you'd be attempting to setState on an unmounted component, which won't work, as well as React will holler at you for. Doing AJAX in componentDidMount will ensure that there's a component to update."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "What is the difference between createElement and cloneElement?",
+      "explanation": "**createElement** is the thing that JSX gets transpiled to and is the thing that React uses to make React Elements (protest representations of some UI). cloneElement is utilized as a part of request to clone a component and pass it new props. They nailed the naming on these two."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "What is meant by event handling?",
+      "explanation": "To capture the user’s information and other similar data, the event handling system is considered. It is generally done through DOM elements which are present in the code. This task is simple to accomplish. Two-way communication is considered in this approach."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "What is the second argument that can optionally be passed to setState and what is its purpose?",
+      "explanation": "A callback work which will be conjured when **setState** has completed and the part is re-rendered.   \nSomething that is not talked about a great deal is that **setState** is asynchronous, which is the reason it takes in a moment callback function. Ordinarily, it's best to utilize another lifecycle strategy instead of depending on this callback function, however, it's great to know it exists.\n\n    Class Training extends Course\n    {\n    this.state = {\n    sampleItem: 'learn',\n    }\n    handleChange = (event) => {\n    console.log(this.state.sampleItem)\n    this.setState({\n    sampleItem: event.target.value      //event.target.value = Welcome\n    }, () => console.log(this.state.sampleItem))\n    };\n\n**Output:**\n\nLearn\n\nWelcome"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "How many outermost elements can be there in a JSX expression?",
+      "explanation": "It must have one JSX element present so that the task can be accomplished easily. Having more than one expression is not an issue but probably it will slow down the process. There are also chances of confusion with more than one expression if you are new to this technology."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "What are controlled and uncontrolled components?",
+      "explanation": "There are components in the ReactJS that maintain their own internal state. They are basically considered as uncontrolled components. On the other side, the components which don’t maintain any internal state are considered as controlled components in ReactJS. Controlled components can easily be controlled by several methods. Most of the React components are controlled components."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "Mention the key benefits of Flux?",
+      "explanation": "Applications that are built on Flux have components that can simply be tested. By simply updating the store, developers are able to manage and test any react component. It cut down the overall risk of data affection. All the applications are highly scalable and suffer no compatibility issues."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "What's wrong with the following code?",
+      "explanation": "    this.setState{(prevState, props)=>\n    {\n    return {\n    streak: prevState.streak+props.count\n    }\n    })\n\nNothing isn't right with it. It's once in a while utilized and not outstanding, but rather you can likewise pass a function to setState that gets the past state and props and returns another state, similarly as we're doing above. Furthermore, is nothing amiss with it, as well as effectively recommended in case you're setting state in light of the previous state."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "Why browsers cannot read JSX?",
+      "explanation": "Actually, JSX is not considered as a proper JavaScript. Browsers cannot read them simply. There is always a need to compile the files that contain JavaScript Code. This is usually done with the help of JSX compiler which performs its task prior to file entering the browser. Also, compiling is not possible in every case. It depends on a lot of factors such as the source or nature of file or data."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "What are pure Functional Components?",
+      "explanation": "Traditional React Components as we have seen so far are making a class with class Example extends React.Component or React.createClass(). These make stateful components on the off chance that we at any point set the state (i.e. this.setState(), getInitialState(), or this.state = {} inside a constructor()). \n\nIn the event that we have no expectation for a Component to require state, or to require lifecycle methods, we can really compose Components with a pure function, consequently the expression \"pure function Component\":\n\n    function Date(props)\n    {\n    let {msg=\"The date is:\"} = props\n    let now = new Date()\n    return <div>\n    <span> {msg}</span>\n    <time> {now.toLocaleDateString()}</time>\n    </div>\n    \n    }\n    \n\nThis function that returns a React Element can be used wherever we see fit:\n\n    DOM.render(<div> <Date msg=\"Today is\"/></div>)\n\nYou might notice that also takes a prop – we can still pass information into the Component."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "What is the difference between Real DOM and virtual DOM?",
+      "explanation": "*   DOM stands for Document Object Model. It allows scripts and programs to dynamically access and update the content, structure, and style of a document. DOM is an abstraction of a structured code called HTML, also described as HTML DOM.\n*   Virtual DOM\n*   is a lightweight Javascript object, which is the copy of the representation of a DOM object. It is an abstraction of HTML DOM. Virtual is quite faster compared to DOM, performs its tasks reliably.\n\n<table border=\"3\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:95%;\" class=\"table\"><tbody><tr style=\"height: 22px;\"><td style=\"width: 50%; text-align: center; height: 22px;\"><div><strong>Virtual DOM</strong></div></td><td style=\"width: 50%; text-align: center; height: 22px;\"><div><strong>Real DOM</strong></div></td></tr><tr style=\"height: 22px;\"><td style=\"width: 50%; height: 22px;\"><div>Updates faster</div></td><td style=\"width: 50%; height: 22px;\"><div>Updates slower</div></td></tr><tr style=\"height: 22px;\"><td style=\"width: 50%; height: 22px;\"><div>No memory wastage</div></td><td style=\"width: 50%; height: 22px;\"><div>Excess memory wastage</div></td></tr><tr><td style=\"width: 50%;\"><div>Can't update HTML directly</div></td><td style=\"width: 50%;\"><div>Update HTML directly</div></td></tr><tr style=\"height: 22px;\"><td style=\"width: 50%; height: 22px;\"><div>DOM manipulation is easy</div></td><td style=\"width: 50%; height: 22px;\"><div>DOM manipulation costly</div></td></tr></tbody></table>"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "What happens during the lifecycle of a React component?",
+      "explanation": "A standout amongst the most valuable parts of React is its segment lifecycle — so seeing precisely how segments components after some time is instrumental in building a viable application."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "What exactly you can do if the expression contains more than one line?",
+      "explanation": "In such a situation, enclosing the multi-line JSX expression is an option. If you are a first time user, it may seem awkward but later you can understand everything very easily. Many times it becomes necessary to avoid multi-lines to perform the task reliably and for getting the results as expected."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "Is it possible to use the word “Class” in JSX. Why or why not?",
+      "explanation": "No, it is not possible in the JSX. This is because the word “Class” is a reticent (occupied) word in the JavaScript. However, you can use you are free to use the word “ClassName”. If you use the word “Class” the JSX will be translated to JavaScript immediately.\n\n##### **a) High-Level Component Lifecycle:**\n\nAt the highest level, React components have lifecycle events that fall into 3 general classifications: \n\n1.  Initialization\n2.  State/Property Updates\n3.  Destruction\n\nEach React component defines these events as a system for dealing with its properties, state, and rendered output. Some of these events just happen once, others happen more as often as possible; understanding these 3 general classes should help you clearly visualize when certain logic required to be applied.\n\nFor instance, a component may need to add an event audience to the DOM when it initially mounts. In any case, it ought to likely expel those event listeners when the component unmounts from the DOM with the goal that not relevant handling that doesn't occur.\n\n    class MyComponent extends React.Component{\n       //when the component is added to the DOM...\n    componentDidMount(){\n    window.addEventListener('resize',this.onResizeHandler);\n    }\n    //when the component is removed from the DOM...\n    componentWillmount(){\n    window.addEventListener('resize',this.onResizeHandler);\n    }\n    \n    onResizeHandler(){\n    console.log('The window has been resized!');\n    }\n    }\n    \n\n**b) Low-Level Component Lifecycle:**\n\nInside these 3 general buckets exist various particular lifecycle hooks — basically unique techniques - that can be used by any React component to all the more precisely manage updates. Seeing how and when these hooks fire is vital to building stable components and will empower you to control the rendering procedure (enhancing execution). \n\nObserve the diagram above. The events under \"Initialization\" just happen when a component is first initialized or added to the DOM. Thus, the events under \"Devastation\" just happen once (when the component is expelled from the DOM). However, the events under \"Update\" happen each time the properties or state of the component change. \n\nFor instance, components will naturally re-render themselves whenever their properties or state change. However, at times a component should not update - so keeping the component from re-rendering may enhance the execution of our application.\n\n    class MyComponent extends React.Component{\n        //only re-render if the ID has changed!\n        shouldComponentUpdate(nextProps, nextState;\n        }\n    }"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "What do you know about React Router?",
+      "explanation": "Rendering the components is an important task in ReactJS. React router is used to decide which components is to be rendered and which one should not. It also performs dictation during several activities."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "Compare Flux vs MVC",
+      "explanation": "Conventional MVC designs have functioned admirably to separate the worries of data (Model), UI (View) and logic (Controller) — however many web engineers have found impediments with that approach as applications develop in measure. In particular, MVC architectures as often as possible experience 2 primary issues:\n\n_**Ineffectively defined data flow:**_ The cascading updates which happen crosswise over perspectives frequently prompt a tangled web of events which is hard to debug. \n\n_**Lack of data integrity:**_ Model data can be changed from anyplace, yielding erratic results over the UI.\n\nWith the Flux pattern complex, UIs never again experience the ill effects of cascading updates; any given React component will have the capacity to recreate its state in light of the information given by the store. The flux pattern likewise upholds data integrity by limiting direct access to the shared data.\n\nWhile a technical interview, it is awesome to talk about the contrasts between the Flux and MVC configuration designs inside the setting of a particular illustration: \n\nFor instance, imagine we have a \"master/detail\" UI in which the client can choose a record from a rundown (master view) and alter it utilizing an auto-populated form (detail view). \n\nWith a MVC architecture, the data contained inside the Model is shared between both the master and detail views. Each of these perspectives may have its own particular Controller assigning updates between the Model and the View. Anytime the information contained inside the Model may be updated — and it's hard to know where precisely that change happened. Did it occur in one of the Views sharing that Model, or in one of the Controllers? Since the Model's information can be transformed by any performing artist in the application, the danger of information contamination in complex UIs is more prominent than we'd like. \n\nWith a Flux architecture, the Store data is correspondingly shared between different Views. However this data can't be straightforwardly changed — the greater part of the solicitations to update the data must go through the Action > Dispatcher chain first, eliminating the risk of arbitrary data pollution. At the point when refreshes are made to the data, it's presently significantly less demanding to find the code requesting for those progressions."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "What are the stateless components?",
+      "explanation": "On the off chance that React components are basically state machines that produce UI markup, at that point what are stateless segments? \n\nStateless components (a kind of \"reusable\" components) are simply pure functions that render DOM construct exclusively with respect to the properties gave to them. \n\nAs you can see, this component has no requirement for any internal state — not to mention a constructor or lifecycle handlers. The yield of the component is absolutely a function of the properties gave to it."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "What is one of the core types in React?",
+      "explanation": "ReactNode"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "What is redux?",
+      "explanation": "A method os handling the state (or data) of an application."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "Is it possible to display props on a parent component?",
+      "explanation": "Yes, it is possible. The best way to perform this task is by using the spread operator. It can also be done with listing the properties but this is a complex process."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "In ReactJS, why there is a need to capitalize on the components?",
+      "explanation": "It is necessary because components are not the DOM element but they are constructors. If they are not capitalized, they can cause various issues and can confuse developers with several elements. At the same time, the problem of integration of some elements and commands can be there."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "What are Synthetic events in React?",
+      "explanation": "React implements Synthetic events to improve the consistency and performance of applications and interfaces. The synthetic event is a cross-browser wrapper around the browser’s native event. It combines the behaviour of multiple browsers into a single API to make sure events have the same properties across different browsers and platforms."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "Explain DOM diffing?",
+      "explanation": "When the components are rendered twice, Virtual Dom begins checking the modifications elements have got. They represent the changed element on the page simply. There are several other elements that don’t go through changes. To cut down the changes to the DOM as an outcome of user activities, DOM doffing is considered. It is generally done to boost the performance of the browser. This is the reason for its ability to perform all the tasks quickly."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/reactjs-interview-questions",
+      "statement": "Is it possible to nest JSX elements into other JSX elements?",
+      "explanation": "It is possible. The process is quite similar to that of nesting the HTML elements. However, there are certain things that are different in this. You must be familiar with the source and destination elements to perform this task simply."
+    }
+  ]
+}

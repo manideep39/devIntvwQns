@@ -1,0 +1,196 @@
+{
+  "questions": [
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/android-interview-questions",
+      "statement": "What is Android?",
+      "explanation": "Ans) It is a compilation of all the software which is designed especially for mobile devices. This version is compatible with Smartphones and includes operating system, and some key applications. The application results in the execution of the process and the Dalvik Virtual Machine."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/android-interview-questions",
+      "statement": "Write another calling activity in android?",
+      "explanation": "1.    Intent i = newIntent(getApplicationContext(), ActivityTwo.class);\n\n         2.    startActivity(i);\n\n[Check Out Android Tutorials](../../android)"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/android-interview-questions",
+      "statement": "What is ANR?",
+      "explanation": "ANR stands for Application Not Responding, a dialog box that appears if the application is no longer responding."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/android-interview-questions",
+      "statement": "What is the Android application Architecture",
+      "explanation": "There are certain components that together make the [Android application](../../android/application-and-activities) Architecture. It includes:\n\n**1\\. Services:** That together creates the functionality to be performed in the background  \n**2\\. Internet:** It is performed for the internal connected between the activities and the mechanism that is passed through the data.  \n**3\\. Resource examination:** It includes strings and graphics  \n**4\\. Content providers:** It includes the data between the applications that are shared  \n**5\\. Notification:** It includes notification, light, sound, dialog box and icon to name a few"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/android-interview-questions",
+      "statement": "Could you explain the term An Activity",
+      "explanation": "It is all about the performance action which is done on screen. If you want to go ahead and conduct any kind of operation, you are allowed to do so with the help of an activity"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/android-interview-questions",
+      "statement": "Define the APK format?",
+      "explanation": "APK is an abbreviation of the [Android](../../android/services) packaging key. It encompasses of the UI, Classless, manifest and supportive assets to name a few. There are some of the files which are together compressed in a single document. This document is called the APK."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/android-interview-questions",
+      "statement": "Define Intent?",
+      "explanation": "There is a connection between the internal and external world of application. This connection is called intent. For some of the examples, if you open a PDF, there is an intent which is then connected to the web browser."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/android-interview-questions",
+      "statement": "Do you know the founder of Android:",
+      "explanation": "The founder of android was Andy Rubin who has literally changed the world and defined the technology in all new way."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/android-interview-questions",
+      "statement": "Are there any specific names of Android Codes:",
+      "explanation": "1\\. Blender  \n2\\. Donut  \n3\\. Froyo  \n4\\. Honycomb  \n5\\. Aestro  \n6\\. Cupcake  \n7\\. Eclair  \n8\\. Gingerbread  \n9\\. Ice Cream Sandwitch  \n10\\. Kitkat  \n11\\. Marshmallow  \n12\\. Jelly Bean  \n13\\. Lollipop\n\n#### Subscribe to our youtube channel to get new updates..!\n\nThese are some of the popular versions that Android has released so far. There are still many going to come but no doubt each version has been introduced with some specific concept."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/android-interview-questions",
+      "statement": "Why has Android gained so much popularity? What is making people choose this option?",
+      "explanation": "The prime reason of its popularity is the free usage. Furthermore, it comes with:\n\n**1\\. Open source:** In this there is no distribution, license or the development charge which is being included  \n**2\\. Technology gets support:** It is all about the Bluetooth, camera, Wi-Fi, speech and Edge to name a few that are being supported with it  \n**3\\. Independent platform:** It offers Mac, Windows and even the Linux based platforms for user friendly solution.  \n**4\\. Virtual machine with better optimization:** Android with the help of well optimized virtual machine choose the DVM called Dalvik Virtual Machine"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/android-interview-questions",
+      "statement": "Is there any language than Java that is being used in Android:",
+      "explanation": "Android app is loaded with different programming languages. You can develop it with C, C++ and even the Native Development Kit. The result is of course the best which is extremely good performance and faster solution."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/android-interview-questions",
+      "statement": "Why standard Java bytecode can run on Android?",
+      "explanation": "As you know Dalvik Virtual Machine is the platform that Android uses. It certainly needs a bytecode for smooth functioning. To make sure all the files are into Dalvik Executable files, the conversion of Java class files in Dalvik needs to be done. This can be done with the help of a tool known as  “dx”. Generally developer is not responsible for building such type of tool."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/android-interview-questions",
+      "statement": "Is it possible to program android application in Java?",
+      "explanation": "Though java language is used for Android but that does not necessarily mean that you can always program the application is the same language. However, you have a scope to create the application in native-code languages like C or C++"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/android-interview-questions",
+      "statement": "Where can you declare the activity to make sure system gets the access:",
+      "explanation": "To make sure activity is declared, it needs to be present the file of manifest"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/android-interview-questions",
+      "statement": "Could you explain the difference between an implicit intent and explicit intent?",
+      "explanation": "There are two types that you need to know which are:\n\n**1\\. Implicit:** It is related with the calling of default system such as sending email, SMS or even the dial number.  \n**2\\. Explicit intent:** it is associated with the component which related from the activity. In short we also call it an activity done by the explicit"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/android-interview-questions",
+      "statement": "Explain core building blocks of android:",
+      "explanation": "As a developer, it is important for the person to understand the Android blocks. No doubt there are many but the selective ones are mentioned below. The core building blocks of android are categorized into:\n\n[\n\n### Android Certification Training!\n\nExplore Curriculum\n\n](https://mindmajix.com/android-training#curriculum)\n\n1\\. View  \n2\\. Service  \n3\\. Activity  \n4\\. Intent  \n5\\. Content Provider  \n6\\. Fragment etc."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/android-interview-questions",
+      "statement": "Can you name the different storage methods in Android?",
+      "explanation": "Android is a platform that offers variety of options of data persistence. There are some shared choices called the storage for private yet the crucial data. It is stored in the pairs called the Key Value. It often gets quite restricted as it provides the value pairs based key. It is not possible to save your own type of Java. Other than this comes the internal storage which focuses on storing the private data on the memory of the Smart Phone."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/android-interview-questions",
+      "statement": "Can you describe about Action present in Android?",
+      "explanation": "There is a description of the intent sender which it requires which is called the action. It is included in Syntax and is comes with a description were an action is added to an intent filter. There is an element which shall have more than 2 elements. If it does not contain any then there is no intent object that will get from the filter."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/android-interview-questions",
+      "statement": "Could you explain about the dialog boxes that can be used in the Android Application?",
+      "explanation": "It consists of some of the parts such as:\n\n**\\*\\* DatePickerDialog:** This term is used by the user for time selection  \n**\\*\\* AlertDialog :** It is an alert box of dialogue which contains 3 button with a selectable elements list  \n**\\*\\* ProgressDialog:** This one is the extension that you might want to some buttons with it. It generally describes the progress bar  \n**\\*\\* TimePickerDialog:** This is used by the user for time selection"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/android-interview-questions",
+      "statement": "Could you explain in detail the life cycle methods that android activity consists of?",
+      "explanation": "Generally, this type of lifecycle is controlled with 7 methods. The prime focus of android Activity is to create a subclass of the Context Theme Wrapper class. It consists of:\n\n1\\. onStart()  \n2\\. onPause()  \n3\\. onRestart()  \n4\\. onCreate()  \n5\\. onResume()  \n6\\. onStop()  \n7\\. onDestroy()"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/android-interview-questions",
+      "statement": "What is the right kennel that can be used in Android:",
+      "explanation": "Since there are so many platforms but when it comes to Android the right one to choose is Linux 3.6 kernel"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/android-interview-questions",
+      "statement": "Do you know about the Android application Widgets",
+      "explanation": "It is nothing but the small application views which you can easily embed in some other application and thus get the updates on a periodic basis."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/android-interview-questions",
+      "statement": "What are the flags types by which Android Application runs",
+      "explanation": "The flags are categorized in two types for running the Android Application:\n\n1\\. LAG\\_ACTIVITY\\_NEW\\_TASK  \n2\\. FLAG\\_ACTIVITY\\_CLEAR\\_TOP"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/android-interview-questions",
+      "statement": "Could you explain in detail about a singleton class?",
+      "explanation": "In Android, there is a calls that creates an object which you can share with other classless. This class is nothing but a singleton."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/android-interview-questions",
+      "statement": "Could you name the resource in which there is a compilation of the visual resource and which you can use as a background, title and in other screen parts?",
+      "explanation": "There is a virtual resource which is generally used for different purposes such as title, background and even in other screen parts. It is called Drawable. It is generally stored in the files of the individuals or may be sometimes in drawable factors. There is an ADT project which is created and you will also have to store the bitmaps for some resolutions in subfolders of Drawable. If such bitmaps are offered in other folder, the option is on Android system for selecting the right option that would on its own make the choice depending on the configuration of the device."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/android-interview-questions",
+      "statement": "Is there a possibility to make two Android applications with same ID of Linux for sharing?",
+      "explanation": "The application need to sign with a same certificate to make sure that they share the same user ID and even the VM. There is no hard and fast rule but certainly to make the right use of it, it is important to understand the right process. This way, it becomes possible to go with the flow and get accurate results which are important."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/android-interview-questions",
+      "statement": "Is there any way for deployment which you can execute for JARs on Android?",
+      "explanation": "There is no such way since Android platform cannot support the JAR deployments effectively. Applications that are packed in the Android Package with the help of Android Asset Packaging software is later deployed for the platform of Android. This tool is offered by Google for the eclipse."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/android-interview-questions",
+      "statement": "Can you change the application name once it gets deployed?",
+      "explanation": "Generally, it is not advised for changing the name of the application once it gets deployed. Since this action will break certain functions there is a huge risk involved. Supposedly, there will no shortcuts that would work if you change the name of the application. It is of course possible to change but once the name is deployed, changing it makes no sense due to the huge loss risk."
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/android-interview-questions",
+      "statement": "Define ANR notification that is present in Android",
+      "explanation": "ANR is an abbreviation of Application Not Responding. Generally this dialog is popped up in Android system if the application is performing too many tasks on the main platform and becomes unresponsive for quite a long time. It is more like the system gets slowed down since too many applications becomes a burden and all of a sudden all the applications stops responding or shuts down automatically"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/android-interview-questions",
+      "statement": "Could you elaborate the three key loops that would help you monitor the activity?",
+      "explanation": "Android is an ultimate platform which offers great solution. However, each activity is tracked down and for this there is a loop. This helps in mentoring the activity. It is categorized into three things which are\n\n**• Visible lifetime** – there is an activity taking place between onStop with onStart  \n**• Entire lifetime** – there is an activity taking place between onCreate with onDestroy  \n**• Foreground lifetime** – there is an activity taking place between onPause with onResume"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/android-interview-questions",
+      "statement": "Name the basic tools that are used for develop an android app?",
+      "explanation": "Generally, an android app is categorized into:\n\n1\\. Eclipse+ADT plugin  \n2\\. JDK  \n3\\. SDK Tools"
+    },
+    {
+      "type": "LONG",
+      "source": "https://mindmajix.com/android-interview-questions",
+      "statement": "How can you prevent ANR?",
+      "explanation": "There is a technique that prevents the Android system from drawing the conclusion finally. There is a code that has been pretty much responsive for quite a long time. It is used for creating a child threat. Once the child thread is made, there are some of the actual parts of the codes which you can place. This way it is possible for the main threats to run at the less period that are related with unresponsive timing.\n\nIt is always better to learn and understand these interview questions. Prepare yourself well in advance for better success.\n\nExplore Android Sample Resumes! Download & Edit, Get Noticed by Top Employers!**[Download Now!](../../android-sample-resumes)**"
+    }
+  ]
+}
