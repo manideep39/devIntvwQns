@@ -6,12 +6,12 @@
 | :------------------: | :----------------------: | :-------------: |
 |         HTML         |           LONG           |     **55**      |
 |         CSS          |           LONG           |     **66**      |
-|      JavaScript      | MCQ</br>TF</br>LONG</br> |     **956**     |
-|       ReactJS        |           LONG           |     **392**     |
-|       Android        |           LONG           |     **88**      |
+|      JavaScript      | MCQ</br>TF</br>LONG</br> |    **1006**     |
+|       ReactJS        |           LONG           |     **510**     |
+|       Android        |           LONG           |     **120**     |
 |       Node JS        |           LONG           |     **75**      |
 |      Express JS      |           LONG           |     **21**      |
-| MongoDB and Mongoose |           LONG           |     **65**      |
+| MongoDB and Mongoose |           LONG           |     **299**     |
 
 ### Scraped data from the following:
 
@@ -31,3 +31,4 @@
 - **Websites:**
 
   - [javatpoint](https://www.javatpoint.com/)
+  - [mindmajix](https://mindmajix.com/)
