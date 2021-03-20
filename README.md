@@ -4,14 +4,16 @@
 
 |       Contents       |      Question types      | Total questions |
 | :------------------: | :----------------------: | :-------------: |
-|         HTML         |           LONG           |     **55**      |
-|         CSS          |           LONG           |     **66**      |
-|      JavaScript      | MCQ</br>TF</br>LONG</br> |    **1006**     |
-|       ReactJS        |           LONG           |     **510**     |
+|         HTML         |       MCQ</br>LONG       |     **191**     |
+|         CSS          |       MCQ</br>LONG       |     **196**     |
+|      JavaScript      | MCQ</br>TF</br>LONG</br> |    **1176**     |
+|       ReactJS        |       MCQ</br>LONG       |     **585**     |
 |       Android        |           LONG           |     **120**     |
-|       Node JS        |           LONG           |     **75**      |
+|       Node JS        |       MCQ</br>LONG       |     **129**     |
 |      Express JS      |           LONG           |     **21**      |
 | MongoDB and Mongoose |           LONG           |     **299**     |
+|         Java         |           MCQ            |     **350**     |
+|         SQL          |           MCQ            |     **99**      |
 
 ### Scraped data from the following:
 
@@ -32,3 +34,4 @@
 
   - [javatpoint](https://www.javatpoint.com/)
   - [mindmajix](https://mindmajix.com/)
+  - [freetimelearning](https://www.freetimelearning.com/)
