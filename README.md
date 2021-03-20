@@ -1,5 +1,8 @@
 # Developer Interview Questions
 
+| **Total Questions Scraped** | **4,346** |
+| :-------------------------: | :-------: |
+
 ### Scraped data breakdown:
 
 |       Contents       |      Question types      | Total questions |
@@ -7,13 +10,22 @@
 |         HTML         |       MCQ</br>LONG       |     **191**     |
 |         CSS          |       MCQ</br>LONG       |     **196**     |
 |      JavaScript      | MCQ</br>TF</br>LONG</br> |    **1176**     |
-|       ReactJS        |       MCQ</br>LONG       |     **585**     |
+|       React JS       |       MCQ</br>LONG       |     **585**     |
 |       Android        |           LONG           |     **120**     |
 |       Node JS        |       MCQ</br>LONG       |     **129**     |
 |      Express JS      |           LONG           |     **21**      |
 | MongoDB and Mongoose |           LONG           |     **299**     |
 |         Java         |           MCQ            |     **350**     |
 |         SQL          |           MCQ            |     **99**      |
+|      BOOTSTRAP       |           MCQ            |     **95**      |
+|   MATERIALIZE CSS    |           MCQ            |     **27**      |
+|        JQUERY        |           MCQ            |     **54**      |
+|         AJAX         |           MCQ            |     **35**      |
+|      ANGULAR JS      |           MCQ            |     **54**      |
+|      C-LANGUAGE      |           MCQ            |     **270**     |
+|         PHP          |           MCQ            |     **300**     |
+|        PYTHON        |           MCQ            |     **300**     |
+|       ANGULAR        |           MCQ            |     **45**      |
 
 ### Scraped data from the following:
 
