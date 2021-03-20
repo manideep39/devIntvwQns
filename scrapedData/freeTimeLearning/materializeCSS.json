@@ -1,0 +1,376 @@
+{
+  "questions": [
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/materialize-css-quiz.php?page=1",
+      "statement": "Who is inventor of Material Design ?",
+      "options": [
+        {
+          "text": "Alvin Wang, Alan Chang, Alex Mark and Kevin Louie",
+          "correct": true
+        },
+        { "text": "Tim Berners-Lee and James Gosling", "correct": false },
+        {
+          "text": "Guido van Rossum, Rasmus Lerdorf and Yukihiro Matsumoto",
+          "correct": false
+        },
+        { "text": "Mark Otto and Jacob Thornton", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/materialize-css-quiz.php?page=1",
+      "statement": "Which of the following is Material Design initial release date ?",
+      "options": [
+        { "text": "June 06, 2014", "correct": true },
+        { "text": "June 14, 2014", "correct": false },
+        { "text": "June 25, 2014", "correct": false },
+        { "text": "June 29, 2014", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/materialize-css-quiz.php?page=1",
+      "statement": "Who is developed Material Design ?",
+      "options": [
+        { "text": "Microsoft", "correct": true },
+        { "text": "Google", "correct": false },
+        { "text": "Oracle", "correct": false },
+        { "text": "Apple", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/materialize-css-quiz.php?page=1",
+      "statement": "What is Materialize UI components?",
+      "options": [
+        {
+          "text": "You can create faster, Innovative websites",
+          "correct": true
+        },
+        { "text": "Used web apps and android apps", "correct": false },
+        {
+          "text": "Creates beautiful and responsive websites",
+          "correct": false
+        },
+        { "text": "All of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/materialize-css-quiz.php?page=1",
+      "statement": "Which one is the Materialize CDN url ?",
+      "options": [
+        {
+          "text": "    <link rel=\"stylesheet\" href=\"https://cdn.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css\">",
+          "correct": true
+        },
+        {
+          "text": "    <link rel=\"stylesheet\" href=\"https://cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css\">",
+          "correct": false
+        },
+        {
+          "text": "    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css\">",
+          "correct": false
+        },
+        {
+          "text": "    <link rel=\"stylesheet\" href=\"https://cloudflare-cdnjs.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css\">",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/materialize-css-quiz.php?page=1",
+      "statement": "Which of the following Materialized CSS Grid System class defines size of screen ?",
+      "options": [
+        { "text": ".s, md, lg, xl", "correct": true },
+        { "text": ".sm, md, lg, xl", "correct": false },
+        { "text": ".s, .m, l, xl", "correct": false },
+        { "text": ".xs, sm, md, lg, xl", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/materialize-css-quiz.php?page=1",
+      "statement": "Which of the following class a text color?",
+      "options": [
+        { "text": ".blue-text", "correct": true },
+        { "text": ".blue", "correct": false },
+        { "text": ".text-blue", "correct": false },
+        { "text": ".blue-color", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/materialize-css-quiz.php?page=1",
+      "statement": "How to apply a background color?",
+      "options": [
+        { "text": ".blue-background", "correct": true },
+        { "text": ".blue-bg", "correct": false },
+        { "text": ".background-blue", "correct": false },
+        { "text": ".blue", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/materialize-css-quiz.php?page=1",
+      "statement": "How to signifies a materialize css \"offset\" class?",
+      "options": [
+        { "text": ".off-m3", "correct": true },
+        { "text": ".offset-m3", "correct": false },
+        { "text": ".m3-offset", "correct": false },
+        { "text": ".m3-off", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/materialize-css-quiz.php?page=1",
+      "statement": "Which one perfect Helpers classes in materialize css",
+      "options": [
+        { "text": "Alignment classes", "correct": true },
+        { "text": "Hiding and Showing classes", "correct": false },
+        { "text": "Formatting classes", "correct": false },
+        { "text": "All of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/materialize-css-quiz-section-2.php?page=1",
+      "statement": "Select one class in following Formatting classes :",
+      "options": [
+        { "text": ".truncate", "correct": true },
+        { "text": ".valign-wrapper", "correct": false },
+        { "text": ".medium-and-down", "correct": false },
+        { "text": ".center-align", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/materialize-css-quiz-section-2.php?page=1",
+      "statement": "Which class shapes an image to a responsive ?",
+      "options": [
+        { "text": ".img-responsive", "correct": true },
+        { "text": ".responsive", "correct": false },
+        { "text": ".responsive-img", "correct": false },
+        { "text": ".img-width-responsive", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/materialize-css-quiz-section-2.php?page=1",
+      "statement": "How to define a materialize pulse buttons?",
+      "options": [
+        {
+          "text": "    <a class=\"btn btn-floating btn-pulse\">",
+          "correct": true
+        },
+        {
+          "text": "    <a class=\"btn btn-floating pulse\">",
+          "correct": false
+        },
+        {
+          "text": "    <a class=\"btn floating-btn pulse\">",
+          "correct": false
+        },
+        {
+          "text": "    <a class=\"btn btn-floating pulse-btn\">",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/materialize-css-quiz-section-2.php?page=1",
+      "statement": "How to define a materialize shadow classes?",
+      "options": [
+        { "text": ".z-depth-3", "correct": true },
+        { "text": ".depth-shadow-3", "correct": false },
+        { "text": ".depth-z-3", "correct": false },
+        { "text": ".shadow-depth-3", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/materialize-css-quiz-section-2.php?page=1",
+      "statement": "How to display a badge in materialize css",
+      "options": [
+        { "text": "    <span class=\"badge-new\">", "correct": true },
+        { "text": "    <span class=\"new-badge\">", "correct": false },
+        { "text": "    <span class=\"text-badge\">", "correct": false },
+        { "text": "    <span class=\"badge\">", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/materialize-css-quiz-section-2.php?page=1",
+      "statement": "How to define a materialize wave classes?",
+      "options": [
+        { "text": "    <a class=\"effect-waves\">", "correct": true },
+        { "text": "    <a class=\"wav-effect\">", "correct": false },
+        { "text": "    <a class=\"waves-effect\">", "correct": false },
+        { "text": "    None of the above.", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/materialize-css-quiz-section-2.php?page=1",
+      "statement": "What is Materialize BreadCrumb",
+      "options": [
+        {
+          "text": "BreadCrumb is used to block the html elements.",
+          "correct": true
+        },
+        {
+          "text": "BreadCrumb is used to display your Current Location.",
+          "correct": false
+        },
+        {
+          "text": "BreadCrumb is used to display your css files.",
+          "correct": false
+        },
+        { "text": "All of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/materialize-css-quiz-section-2.php?page=1",
+      "statement": "Which class is used to create an image card ?",
+      "options": [
+        { "text": ".img-card", "correct": true },
+        { "text": ".image-card", "correct": false },
+        { "text": ".card-img", "correct": false },
+        { "text": ".card-image", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/materialize-css-quiz-section-2.php?page=1",
+      "statement": "How can you insert a search icon?",
+      "options": [
+        {
+          "text": "    <i class=\"material-icons\">search</i>",
+          "correct": true
+        },
+        { "text": "    <i class=\"md-icons\">search</i>", "correct": false },
+        {
+          "text": "    <i class=\"icons-material\">search</i>",
+          "correct": false
+        },
+        {
+          "text": "    <i class=\"material-search\">search</i>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/materialize-css-quiz-section-2.php?page=1",
+      "statement": "Which class is used to create a basic pagination?",
+      "options": [
+        { "text": ".page-pagination", "correct": true },
+        { "text": ".btn-pagination", "correct": false },
+        { "text": ".pagination", "correct": false },
+        { "text": ".page-navigation", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/materialize-css-quiz-section-3.php?page=1",
+      "statement": "Which class is used to create an footer?",
+      "options": [
+        { "text": "    <footer class=\"footer\">", "correct": false },
+        { "text": "    <footer class=\"footer-page\">", "correct": false },
+        { "text": "    <footer class=\"page-footer\">", "correct": true },
+        { "text": "    <footer class=\"main-footer\">", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/materialize-css-quiz-section-3.php?page=1",
+      "statement": "Which of the following classes adds borders on all sides of the table and cells?",
+      "options": [
+        { "text": ".table-bordered", "correct": false },
+        { "text": ".bordered", "correct": false },
+        { "text": ".bordered-table", "correct": true },
+        { "text": ".bordered-all", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/materialize-css-quiz-section-3.php?page=1",
+      "statement": "Which of the following classes are you used to materialize dropdown :",
+      "options": [
+        {
+          "text": "    <a class='dropdown-button btn blue' href='#'>Click Here!</a>",
+          "correct": false
+        },
+        {
+          "text": "    <a class='dropdown btn blue' href='#'>Click Here!</a>",
+          "correct": false
+        },
+        {
+          "text": "    <a class='button-dropdown btn blue' href='#'>Click Here!</a>",
+          "correct": true
+        },
+        {
+          "text": "    <a class='dropdown-active btn blue' href='#'>Click Here!</a>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/materialize-css-quiz-section-3.php?page=1",
+      "statement": "Which plugin is used to create a modal window?",
+      "options": [
+        { "text": "dialogbox", "correct": false },
+        { "text": "popup", "correct": false },
+        { "text": "modal", "correct": true },
+        { "text": "tooltip", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/materialize-css-quiz-section-3.php?page=1",
+      "statement": "How to define a materialize Scrollspy?",
+      "options": [
+        {
+          "text": "    <div class=\"section spy-scrollspy\">",
+          "correct": false
+        },
+        { "text": "    <div class=\"section scrollspy\">", "correct": false },
+        { "text": "    <div class=\"section scroll\">", "correct": true },
+        { "text": "    <div class=\"section scroll-spy\">", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/materialize-css-quiz-section-3.php?page=1",
+      "statement": "Which of the following classes are you used a slide out menu in material design ?",
+      "options": [
+        { "text": "    <ul class=\"side-bar\">", "correct": false },
+        { "text": "    <ul class=\"side-menu\">", "correct": false },
+        { "text": "    <ul class=\"side-navigation\">", "correct": true },
+        { "text": "    <ul class=\"side-nav\">", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/materialize-css-quiz-section-3.php?page=1",
+      "statement": "Select one perfect syntax in fixed width tabs  :",
+      "options": [
+        {
+          "text": "    <ul class=\"tabs tabs-fixed-width\">",
+          "correct": false
+        },
+        {
+          "text": "    <ul class=\"tabs tabs-width-fixed\">",
+          "correct": false
+        },
+        { "text": "    <ul class=\"tabs fixed-tabs-width\">", "correct": true },
+        { "text": "    <ul class=\"tabs tabs-fixed\">", "correct": false }
+      ]
+    }
+  ]
+}

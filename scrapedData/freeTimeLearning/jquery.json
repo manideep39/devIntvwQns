@@ -1,0 +1,682 @@
+{
+  "questions": [
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/jquery-quiz.php?page=1",
+      "statement": "Who is inventor of jQuery ?",
+      "options": [
+        { "text": "Guido van Rossum", "correct": false },
+        { "text": "Brendan Eich", "correct": false },
+        { "text": "Rasmus Lerdorf", "correct": false },
+        { "text": "John Resig", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/jquery-quiz.php?page=1",
+      "statement": "jQuery initial release date ?",
+      "options": [
+        { "text": "August 11, 2006", "correct": false },
+        { "text": "August 14, 2006", "correct": false },
+        { "text": "August 26, 2006", "correct": false },
+        { "text": "August 30, 2006", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/jquery-quiz.php?page=1",
+      "statement": "Which of the following is correct?",
+      "options": [
+        { "text": "jQuery is a JavaScript Library", "correct": false },
+        { "text": "jQuery is a JSON Library", "correct": false },
+        { "text": "jQuery is a Ajax Library", "correct": false },
+        { "text": "jQuery is a AngularJS Library", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/jquery-quiz.php?page=1",
+      "statement": "Which sign does jQuery use as a shortcut for jQuery?",
+      "options": [
+        { "text": "the ? Sign", "correct": false },
+        { "text": "the % sign", "correct": false },
+        { "text": "the $ sign", "correct": false },
+        { "text": "the # sign", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/jquery-quiz.php?page=1",
+      "statement": "Is jQuery a library for what type of scripting?",
+      "options": [
+        { "text": "Client scripting", "correct": false },
+        { "text": "Server scripting", "correct": false },
+        { "text": "PHP scripting", "correct": false },
+        { "text": "Database scripting", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/jquery-quiz.php?page=1",
+      "statement": "What scripting language is jQuery written in?",
+      "options": [
+        { "text": "C++", "correct": false },
+        { "text": "VBScript", "correct": false },
+        { "text": "JavaScript", "correct": false },
+        { "text": "C#", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/jquery-quiz.php?page=1",
+      "statement": "jquery html() method works for \\_\\_\\_\\_\\_\\_\\_",
+      "options": [
+        { "text": "HTML", "correct": false },
+        { "text": "XML", "correct": false },
+        { "text": "HTML and XML", "correct": false },
+        { "text": "None of the above", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/jquery-quiz.php?page=1",
+      "statement": "To select all the elements in the page which symbol do we have to used?",
+      "options": [
+        { "text": "#", "correct": false },
+        { "text": "$", "correct": false },
+        { "text": "!", "correct": false },
+        { "text": "\\*", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/jquery-quiz.php?page=1",
+      "statement": "What is full form of CDN?",
+      "options": [
+        { "text": "Content Distribution Network", "correct": false },
+        { "text": "Common Distribution Network", "correct": false },
+        { "text": "Collective Distribution Network", "correct": false },
+        { "text": "None of the above", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/jquery-quiz.php?page=1",
+      "statement": "What is meaning of AHAH ?",
+      "options": [
+        { "text": "Asynchronous HTTP and HTML", "correct": false },
+        { "text": "Asynchronous HTTP and HTTPs", "correct": false },
+        { "text": "Alternate HTTP and HTML", "correct": false },
+        { "text": "None of the above", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/jquery-quiz.php?page=2",
+      "statement": "jQuery method is used to perform an asynchronous HTTP request?",
+      "options": [
+        { "text": "jQuery.ajaxAsync()", "correct": false },
+        { "text": "jQuery.ajaxSetup()", "correct": false },
+        { "text": "jQuery.ajax()", "correct": true },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/jquery-quiz.php?page=2",
+      "statement": "CDN stands for\\_\\_\\_\\_\\_\\_\\_",
+      "options": [
+        { "text": "Content Distribution Network", "correct": false },
+        { "text": "Common Distribution Network", "correct": false },
+        { "text": "Collective Distribution Network", "correct": true },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/jquery-quiz.php?page=2",
+      "statement": "The \\_\\_\\_\\_\\_\\_\\_\\_ method works for accepting an array of DOM elements and pushes them into a stack.",
+      "options": [
+        { "text": "push()", "correct": false },
+        { "text": "pop()", "correct": false },
+        { "text": "popStack()", "correct": true },
+        { "text": "pushStack()", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/jquery-quiz.php?page=2",
+      "statement": "How many types of selectors available in jquery.",
+      "options": [
+        { "text": "1", "correct": false },
+        { "text": "2", "correct": false },
+        { "text": "3", "correct": true },
+        { "text": "4", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/jquery-quiz-section-2.php?page=1",
+      "statement": ".css(‘width’) and .width() are the two ways to change the width of \\_\\_\\_\\_\\_\\_\\_\\_\\_.",
+      "options": [
+        { "text": "selector", "correct": false },
+        { "text": "element", "correct": true },
+        { "text": "fade effect", "correct": false },
+        { "text": "radio button", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/jquery-quiz-section-2.php?page=1",
+      "statement": "What is the correct jQuery code to set the background color of all p elements to red?",
+      "options": [
+        {
+          "text": "$(\"p\").css(\"background-color\",\"red\");",
+          "correct": false
+        },
+        {
+          "text": "$(\"p\").manipulate(\"background-color\",\"red\");",
+          "correct": true
+        },
+        {
+          "text": "$(\"p\").style(\"background-color\",\"red\");",
+          "correct": false
+        },
+        {
+          "text": "$(\"p\").layout(\"background-color\",\"red\");",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/jquery-quiz-section-2.php?page=1",
+      "statement": "With jQuery, look at the following selector: $(\"div.intro\"). What does it select?",
+      "options": [
+        {
+          "text": "The first div element with class=\"intro\"",
+          "correct": false
+        },
+        { "text": "All div elements with id=\"intro\"", "correct": true },
+        { "text": "All div elements with class=\"intro\"", "correct": false },
+        { "text": "The first div element with id=\"intro\"", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/jquery-quiz-section-2.php?page=1",
+      "statement": "What will happen by $(\"#ftllogo\").html()",
+      "options": [
+        {
+          "text": "It will return html from ftllogo id element",
+          "correct": false
+        },
+        {
+          "text": "It will set blank html to ftllogo id element",
+          "correct": true
+        },
+        {
+          "text": "It will return html from ftllogo class element",
+          "correct": false
+        },
+        {
+          "text": "It will set blank html to ftllogo class element",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/jquery-quiz-section-2.php?page=1",
+      "statement": "Look at the following jQuery selector: $(\"div#intro .head\"). What does it select?",
+      "options": [
+        {
+          "text": "All elements with class=\"head\" inside the first div element with id=\"intro\"",
+          "correct": false
+        },
+        {
+          "text": "The first element with id=\"head\" inside any div element with class=\"intro\"",
+          "correct": true
+        },
+        {
+          "text": "All div elements with id=\"intro\" or class=\"head\"",
+          "correct": false
+        },
+        {
+          "text": "First element with id=“intro” or class=“head”",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/jquery-quiz-section-2.php?page=1",
+      "statement": "How can you get href value from <a href=\\\\\"http://www.freetimelearning.com\\\\\" id=\\\\\"logo\\\\\"/>",
+      "options": [
+        { "text": "$(\"#logo\").attr(\"#href\")", "correct": false },
+        { "text": "$(\"logo\").(\"href\")", "correct": true },
+        { "text": "$(\"#logo\").attr(\"href\")", "correct": false },
+        { "text": "$(\"#logo\").href", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/jquery-quiz-section-2.php?page=1",
+      "statement": "What does it mean by toggle()?",
+      "options": [
+        {
+          "text": "Selected element will be fadeIn and FadeOut",
+          "correct": false
+        },
+        {
+          "text": "Selected element will be animate with toggle",
+          "correct": true
+        },
+        {
+          "text": "Selected element will be sliding up and down",
+          "correct": false
+        },
+        { "text": "Selected element will be hide and show", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/jquery-quiz-section-2.php?page=1",
+      "statement": "Which jQuery method is used to hide selected elements?",
+      "options": [
+        { "text": "display(none)", "correct": false },
+        { "text": "visible(false)", "correct": true },
+        { "text": "hidden()", "correct": false },
+        { "text": "hide()", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/jquery-quiz-section-2.php?page=1",
+      "statement": "The\\_\\_\\_\\_\\_\\_ method is used to represent an array or an object in serialize manner.",
+      "options": [
+        { "text": "size()", "correct": false },
+        { "text": "length", "correct": true },
+        { "text": "param()", "correct": false },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/jquery-quiz-section-2.php?page=1",
+      "statement": "The .each method is the more convenient form of \\_\\_\\_\\_\\_\\_\\_ loop.",
+      "options": [
+        { "text": "do while", "correct": false },
+        { "text": "for", "correct": true },
+        { "text": "for each", "correct": false },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/jquery-quiz-section-3.php?page=1",
+      "statement": "Which jQuery method is used to perform an asynchronous HTTP request?",
+      "options": [
+        { "text": "jQuery.ajaxSetup()", "correct": false },
+        { "text": "jQuery.ajax()", "correct": true },
+        { "text": "jQuery.ajaxAsync()", "correct": false },
+        { "text": "None of the above.", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/jquery-quiz-section-3.php?page=1",
+      "statement": "What is the correct jQuery code for making all div elements 100 pixels high?",
+      "options": [
+        { "text": "$(\"div\").height(100)", "correct": false },
+        { "text": "$(\"div\").height=\"100\"", "correct": true },
+        { "text": "$(\"div\").yPos(100)", "correct": false },
+        { "text": "None of the above.", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/jquery-quiz-section-3.php?page=1",
+      "statement": "Which jQuery function is used to prevent code from running, before the document is finished loading?",
+      "options": [
+        { "text": "$(document).ready()", "correct": false },
+        { "text": "$(body).onload()", "correct": true },
+        { "text": "$(document).load()", "correct": false },
+        { "text": "$(load).document()", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/jquery-quiz-section-3.php?page=1",
+      "statement": "Which jQuery method should be used to deal with name conflicts?",
+      "options": [
+        { "text": "conflict()", "correct": false },
+        { "text": "noNameConflict()", "correct": true },
+        { "text": "nameConflict()", "correct": false },
+        { "text": "noConflict()", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/jquery-quiz-section-3.php?page=1",
+      "statement": "Which jQuery method is used to switch between adding/removing one or more classes (for CSS) from selected elements?",
+      "options": [
+        { "text": "switch()", "correct": false },
+        { "text": "toggleClass()", "correct": true },
+        { "text": "altClass()", "correct": false },
+        { "text": "switchClass()", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/jquery-quiz-section-3.php?page=1",
+      "statement": "Look at the following selector: $(\":disabled\"). What does it select?",
+      "options": [
+        { "text": "All hidden elements", "correct": false },
+        {
+          "text": "All elements that does not contain the text \"disabled\"",
+          "correct": true
+        },
+        { "text": "All disabled input elements", "correct": false },
+        {
+          "text": "All elements containing the text \"disabled\"",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/jquery-quiz-section-3.php?page=1",
+      "statement": "Which jQuery method returns the direct parent element of the selected element?",
+      "options": [
+        { "text": "ancestor()", "correct": false },
+        { "text": "parents()", "correct": true },
+        { "text": "parent()", "correct": false },
+        { "text": "ancestors()", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/jquery-quiz-section-3.php?page=1",
+      "statement": "jQuery \\_\\_\\_\\_\\_\\_is used to set/return arbitrary data to/from an element.",
+      "options": [
+        { "text": ".data()", "correct": false },
+        { "text": ".item()", "correct": true },
+        { "text": ".all", "correct": false },
+        { "text": "All of these", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/jquery-quiz-section-3.php?page=1",
+      "statement": "Which method acts on JQuery objects and translate the match DOM element into query string that can be pass along with AJAX request.",
+      "options": [
+        { "text": ".serialize()", "correct": false },
+        { "text": ".serializeAll()", "correct": true },
+        { "text": ".synchronized()", "correct": false },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/jquery-quiz-section-3.php?page=1",
+      "statement": "How many methods are available in jquery to give fade effect to the elements?",
+      "options": [
+        { "text": "One", "correct": false },
+        { "text": "Two", "correct": true },
+        { "text": "Three", "correct": false },
+        { "text": "Four", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/jquery-quiz-section-4.php?page=1",
+      "statement": "The .animate() method comes in \\_\\_\\_\\_\\_\\_ forms.",
+      "options": [
+        { "text": "One", "correct": false },
+        { "text": "Two", "correct": true },
+        { "text": "Three", "correct": false },
+        { "text": "Four", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/jquery-quiz-section-4.php?page=1",
+      "statement": "How many ways are there to change the width of the element in jquery.",
+      "options": [
+        { "text": "Two", "correct": false },
+        { "text": "Three", "correct": true },
+        { "text": "Four", "correct": false },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/jquery-quiz-section-4.php?page=1",
+      "statement": "How many types of selectors available in jquery.",
+      "options": [
+        { "text": "One", "correct": false },
+        { "text": "Two", "correct": true },
+        { "text": "Three", "correct": false },
+        { "text": "Four", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/jquery-quiz-section-4.php?page=1",
+      "statement": "What does .size() method of jquery returns?",
+      "options": [
+        { "text": "No. of element in object", "correct": false },
+        { "text": "No. of variable in object", "correct": true },
+        { "text": "Both a and b", "correct": false },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/jquery-quiz-section-4.php?page=1",
+      "statement": "Highlight page element under mouse cursor by using :",
+      "options": [
+        { "text": ".hover()", "correct": false },
+        { "text": ".stopPropagation()", "correct": true },
+        { "text": ".toggle()", "correct": false },
+        { "text": ".trigger()", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/jquery-quiz-section-4.php?page=1",
+      "statement": "Which Method acts as explicit iterator.",
+      "options": [
+        { "text": ".hover()", "correct": false },
+        { "text": ".all()", "correct": true },
+        { "text": ".toggle()", "correct": false },
+        { "text": ".each()", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/jquery-quiz-section-4.php?page=1",
+      "statement": "    $.grep(array1, function1);\n\nThe above statement \\_\\_\\_ the elements of array1 array which satisfy function1 function.",
+      "options": [
+        { "text": "filters", "correct": false },
+        { "text": "updates", "correct": true },
+        { "text": "removes", "correct": false },
+        { "text": "sorts", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/jquery-quiz-section-4.php?page=1",
+      "statement": "To deal with cookies in jQuery we have to use \\_\\_\\_\\_\\_\\_ cookie plugin",
+      "options": [
+        { "text": "Dough", "correct": false },
+        { "text": "Session", "correct": true },
+        { "text": "Dazzler", "correct": false },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/jquery-quiz-section-4.php?page=1",
+      "statement": "Using \\_\\_\\_\\_\\_\\_\\_\\_ function, we can hold or release the execution of jQuery’s ready event.",
+      "options": [
+        { "text": "jQuery.holdReady()", "correct": false },
+        { "text": "jQuery.ready()", "correct": true },
+        { "text": "jQuery.hold()", "correct": false },
+        { "text": "jQuery.holdready()", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/jquery-quiz-section-4.php?page=1",
+      "statement": "Which method works for accepting an array of DOM elements and pushes them into a stack.",
+      "options": [
+        { "text": "push()", "correct": false },
+        { "text": "pop()", "correct": true },
+        { "text": "pushStack()", "correct": false },
+        { "text": "popStack()", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/jquery-quiz-section-5.php?page=1",
+      "statement": "Which method is provided by the jquery to create our own custom animation with fine-grained control.",
+      "options": [
+        { "text": ".animation()", "correct": false },
+        { "text": ".stopPropagation()", "correct": false },
+        { "text": ".toggle()", "correct": false },
+        { "text": ".animate()", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/jquery-quiz-section-5.php?page=1",
+      "statement": "Which of the following Jquery library extension?",
+      "options": [
+        { "text": ".html", "correct": false },
+        { "text": ".XML", "correct": false },
+        { "text": ".js", "correct": false },
+        { "text": ".lib", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/jquery-quiz-section-5.php?page=1",
+      "statement": "Consider the following code snippet:\n\n  **.Items 1**\n\n **.Items 2**\n\n **.Items 3**\n\nWhich of the following code snippets returns the same result as $(‘#id1 li’).not($(‘#li2’));?",
+      "options": [
+        { "text": "$(‘#id2’).siblings(‘#li2’);", "correct": false },
+        { "text": "$(‘#li2’).siblings();", "correct": false },
+        { "text": "$(‘#li2’).children();", "correct": false },
+        { "text": "$(‘#id2’).children(‘#li2’);", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/jquery-quiz-section-5.php?page=1",
+      "statement": "Consider the following code snippet?\n\n    function function1()\n      {\n        alert(arguments.length());\n      }​\n\nWhich of the following is true when you run function1();?",
+      "options": [
+        {
+          "text": "An error occurs because arguments variable is undefined.",
+          "correct": false
+        },
+        {
+          "text": "An error occurs because you call function1 with no arguments.",
+          "correct": false
+        },
+        { "text": "The alert box displays “undefined”.", "correct": false },
+        { "text": "The alert box displays 0.", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/jquery-quiz-section-5.php?page=1",
+      "statement": "    $.extend(false, object0, object1, object2);\n\n What does the code above do?",
+      "options": [
+        {
+          "text": "Extends the object0 by merging object1 and object2 with object0.",
+          "correct": false
+        },
+        {
+          "text": "Extends the object1 by merging object0 and object2 with object1.",
+          "correct": false
+        },
+        {
+          "text": "Extends the object2 by merging object0 and object1 with object2.",
+          "correct": false
+        },
+        {
+          "text": "The statement is invalid because its arguments are invalid.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/jquery-quiz-section-5.php?page=1",
+      "statement": "Using \\_\\_\\_\\_\\_\\_\\_\\_ function, we can hold or release the execution of jQuery’s ready event.",
+      "options": [
+        { "text": "jQuery.holdReady()", "correct": false },
+        { "text": "jQuery.ready()", "correct": false },
+        { "text": "jQuery.hold()", "correct": false },
+        { "text": "jQuery.holdready()", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/jquery-quiz-section-5.php?page=1",
+      "statement": "The ………. method is like offset(), except that it is a getter only and it returns element positions relative to their offset parent, rather to the document as a whole.",
+      "options": [
+        { "text": "width()", "correct": false },
+        { "text": "position()", "correct": false },
+        { "text": "setparent()", "correct": false },
+        { "text": "offsetparent()", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/jquery-quiz-section-5.php?page=1",
+      "statement": " jQuery code to set the background color of all span elements to blue?",
+      "options": [
+        {
+          "text": "$(“span”).style(“background-color”,”blue”);",
+          "correct": false
+        },
+        {
+          "text": "$(“span”).css(“background-color”,”blue”);",
+          "correct": false
+        },
+        {
+          "text": "$(“span”).manipulate(“background-color”,”blue”);",
+          "correct": false
+        },
+        {
+          "text": "$(“span”).layout(“background-color”,”blue”);",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/jquery-quiz-section-5.php?page=1",
+      "statement": "Which of the following is used for parsing JSON text?",
+      "options": [
+        { "text": "jQuery.each()", "correct": false },
+        { "text": "jQuery.parseJSON()", "correct": false },
+        { "text": "jQuery.noConflict()", "correct": false },
+        { "text": "None of the above", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/jquery-quiz-section-5.php?page=1",
+      "statement": "Select all elements that contain the specified text.",
+      "options": [
+        { "text": ":selects()", "correct": false },
+        { "text": ":contains()", "correct": false },
+        { "text": "Both", "correct": false },
+        { "text": "None of the above", "correct": true }
+      ]
+    }
+  ]
+}

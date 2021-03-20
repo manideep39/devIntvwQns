@@ -36,6 +36,51 @@ const sourceUrls = [
     5,
     "../scrapedData/freeTimeLearning/javascript.json",
   ],
+  [
+    "https://www.freetimelearning.com/online-quiz/bootstrap-quiz.php",
+    5,
+    "../scrapedData/freeTimeLearning/bootstrap.json",
+  ],
+  [
+    "https://www.freetimelearning.com/online-quiz/materialize-css-quiz.php",
+    3,
+    "../scrapedData/freeTimeLearning/materializeCSS.json",
+  ],
+  [
+    "https://www.freetimelearning.com/online-quiz/jquery-quiz.php",
+    5,
+    "../scrapedData/freeTimeLearning/jquery.json",
+  ],
+  [
+    "https://www.freetimelearning.com/online-quiz/ajax-quiz.php",
+    3,
+    "../scrapedData/freeTimeLearning/ajax.json",
+  ],
+  [
+    "https://www.freetimelearning.com/online-quiz/angularjs-quiz.php",
+    6,
+    "../scrapedData/freeTimeLearning/angularJs.json",
+  ],
+  [
+    "https://www.freetimelearning.com/online-quiz/c-language-quiz.php",
+    7,
+    "../scrapedData/freeTimeLearning/cLanguage.json",
+  ],
+  [
+    "https://www.freetimelearning.com/online-quiz/php-quiz.php",
+    8,
+    "../scrapedData/freeTimeLearning/php.json",
+  ],
+  [
+    "https://www.freetimelearning.com/online-quiz/python-quiz.php",
+    6,
+    "../scrapedData/freeTimeLearning/python.json",
+  ],
+  [
+    "https://www.freetimelearning.com/online-quiz/angular-quiz.php",
+    1,
+    "../scrapedData/freeTimeLearning/angular.json",
+  ],
 ];
 
 sourceUrls.forEach(([url, sections, saveFileTo], ind) => {

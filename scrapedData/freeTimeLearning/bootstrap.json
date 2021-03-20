@@ -1,0 +1,1169 @@
+{
+  "questions": [
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz.php?page=1",
+      "statement": "Who is inventor of Bootstrap ?",
+      "options": [
+        { "text": "James Gosling", "correct": false },
+        { "text": "Mark Jukervich", "correct": false },
+        { "text": "Mark Otto and Jacob Thornton", "correct": true },
+        { "text": "Tim Berners-Lee", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz.php?page=1",
+      "statement": "Which of the following is bootstrap initial release date ?",
+      "options": [
+        { "text": "August 11, 2011", "correct": false },
+        { "text": "August 19, 2011", "correct": false },
+        { "text": "August 23, 2011", "correct": true },
+        { "text": "August 29, 2011", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz.php?page=1",
+      "statement": "What is the main plus point os using Bootstrap ?",
+      "options": [
+        { "text": "Browser compatibility", "correct": false },
+        { "text": "Mobile-first approach", "correct": false },
+        { "text": "Responsive features", "correct": true },
+        { "text": "All of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz.php?page=1",
+      "statement": "Which of the following is a free front-end framework for faster and easier web development?",
+      "options": [
+        { "text": "HTML5", "correct": false },
+        { "text": "JQuery", "correct": false },
+        { "text": "Bootstrap", "correct": true },
+        { "text": "Javascript", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz.php?page=1",
+      "statement": "Bootstrap is written by using which of the following programming languages ?",
+      "options": [
+        { "text": "HTML, CSS", "correct": false },
+        { "text": "JavaScript", "correct": false },
+        { "text": "LESS, SASS", "correct": true },
+        { "text": "All of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz.php?page=1",
+      "statement": "Which of the following is not a benefit of bootstrap?",
+      "options": [
+        { "text": "Complexity", "correct": false },
+        { "text": "Browser compatibility", "correct": false },
+        { "text": "Responsive features", "correct": true },
+        { "text": "Mobile-first approach", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz.php?page=1",
+      "statement": "In Bootstrap meta name='viewport' content='width=device-width, initial-scale=1' the initial-scale=1 is used to ?",
+      "options": [
+        { "text": "Make zoom in Desktop only", "correct": false },
+        { "text": "Make zoom in Mobile only", "correct": false },
+        {
+          "text": "Initial zoom level when the page is first loaded by the browser",
+          "correct": true
+        },
+        { "text": "None of these", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz.php?page=1",
+      "statement": "Which of the following is correct about Bootstrap ?",
+      "options": [
+        {
+          "text": "Bootstrap's responsive CSS adjusts to Desktops,Tablets and Mobiles.",
+          "correct": false
+        },
+        {
+          "text": "Bootstrap is a simple user interface for developers.",
+          "correct": false
+        },
+        {
+          "text": "It contains beautiful and functional built-in components which are easy to customize.",
+          "correct": true
+        },
+        { "text": "All of the above.", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz.php?page=1",
+      "statement": "How many classes in bootstrap grid system?",
+      "options": [
+        { "text": "1", "correct": false },
+        { "text": "2", "correct": false },
+        { "text": "3", "correct": true },
+        { "text": "4", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz.php?page=1",
+      "statement": "What is the maximum number grid's allowed in bootstrap ?",
+      "options": [
+        { "text": "6 columns across the page", "correct": false },
+        { "text": "12 columns across the page", "correct": false },
+        { "text": "18 columns across the page", "correct": true },
+        { "text": "24 columns across the page", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz.php?page=2",
+      "statement": "Which of the following grid class is used for desktops?",
+      "options": [
+        { "text": "md", "correct": true },
+        { "text": "lg", "correct": false },
+        { "text": "sm", "correct": false },
+        { "text": "xs", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz.php?page=2",
+      "statement": "What are Bootstrap Carousel plugins?",
+      "options": [
+        { "text": ".carousel (options)", "correct": true },
+        { "text": ".carousel (‘pause’)", "correct": false },
+        { "text": ".carousel (‘cycle’)", "correct": false },
+        { "text": "All of these", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz.php?page=2",
+      "statement": "Medium Devices Are Defined As Having A Screen Width From",
+      "options": [
+        { "text": "512 Pixels To 2048 Pixels", "correct": true },
+        { "text": "768 Pixels To 991 Pixels", "correct": false },
+        { "text": "900 Pixels To 1000 Pixels", "correct": false },
+        { "text": "992 Pixels To 1199 Pixels", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz.php?page=2",
+      "statement": "What Layout Is Used For Providing 100% Width In Bootstrap?",
+      "options": [
+        { "text": "Fluid Layout", "correct": true },
+        { "text": "Fixed Layout", "correct": false },
+        { "text": "Both (a)and (b)", "correct": false },
+        { "text": "None Of The Above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz.php?page=2",
+      "statement": "Which Plugin Is Used To Cycle Through Elements, Like A Slideshow?",
+      "options": [
+        { "text": "Scrollspy", "correct": true },
+        { "text": "Orbit", "correct": false },
+        { "text": "Carousel", "correct": false },
+        { "text": "Slideshow", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz.php?page=2",
+      "statement": "Default Size Of H3 Bootstrap Heading",
+      "options": [
+        { "text": "18px", "correct": true },
+        { "text": "24px", "correct": false },
+        { "text": "26px", "correct": false },
+        { "text": "30px", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz.php?page=2",
+      "statement": "Default Size Of H5 Bootstrap Heading",
+      "options": [
+        { "text": "14px", "correct": true },
+        { "text": "16px", "correct": false },
+        { "text": "18px", "correct": false },
+        { "text": "20px", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz.php?page=2",
+      "statement": "Which Class Indicates A Dropdown Menu?",
+      "options": [
+        { "text": ".dropdown", "correct": true },
+        { "text": ".dropdown-list", "correct": false },
+        { "text": ".drop-list", "correct": false },
+        { "text": ".select", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz.php?page=2",
+      "statement": "Glyphicons Is Mainly Used For?",
+      "options": [
+        { "text": "Slideshow", "correct": true },
+        { "text": "Graphic Images", "correct": false },
+        { "text": "Animation", "correct": false },
+        { "text": "Providing Different Icons", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz.php?page=2",
+      "statement": "Which class creates a list of items?",
+      "options": [
+        { "text": "Lst-group", "correct": true },
+        { "text": "List-group", "correct": false },
+        { "text": "Menu-group", "correct": false },
+        { "text": "List-grp", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-2.php?page=1",
+      "statement": "Which of the following Bootstrap grid system class defines size of screen ?",
+      "options": [
+        { "text": "xs, sm, mid, lg", "correct": false },
+        { "text": "x, sm, md, lg", "correct": false },
+        { "text": "xs, sm, md, lg", "correct": true },
+        { "text": "s, sm, mid, lg", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-2.php?page=1",
+      "statement": "Bootstrap 3 global default font-size is ?",
+      "options": [
+        { "text": "12px;", "correct": false },
+        { "text": "14px;", "correct": false },
+        { "text": "16px;", "correct": true },
+        { "text": "18px;", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-2.php?page=1",
+      "statement": "Bootstrap 4 heading h4 font size?",
+      "options": [
+        { "text": "18px;", "correct": false },
+        { "text": "24px;", "correct": false },
+        { "text": "28px;", "correct": true },
+        { "text": "32px;", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-2.php?page=1",
+      "statement": "Which of the following classes provides a responsive fixed width container?",
+      "options": [
+        { "text": ".container-fixed", "correct": false },
+        { "text": ".container-fluid", "correct": false },
+        { "text": ".fluid-container", "correct": true },
+        { "text": ".container", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-2.php?page=1",
+      "statement": "The .container-fluid class provides",
+      "options": [
+        { "text": "Fixed width container", "correct": false },
+        { "text": "Half width container", "correct": false },
+        { "text": "Full width container", "correct": true },
+        { "text": "None of the above.", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-2.php?page=1",
+      "statement": "Which one is the bootstrap JS CDN url ?",
+      "options": [
+        {
+          "text": "    <script src=\"http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js\">",
+          "correct": false
+        },
+        {
+          "text": "    <script src=\"http://cdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js\">",
+          "correct": false
+        },
+        {
+          "text": "    <script src=\"http://maxcdn.bootstrap.com/bootstrap/3.3.7/js/bootstrap.min.js\">",
+          "correct": true
+        },
+        {
+          "text": "    <script src=\"http://max.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js\">",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-2.php?page=1",
+      "statement": "In Bootstrap to add a footer to a panel which of the following class is used ?",
+      "options": [
+        { "text": ".footer", "correct": false },
+        { "text": ".panel", "correct": false },
+        { "text": ".panel-footer", "correct": true },
+        { "text": ".footer-panel", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-2.php?page=1",
+      "statement": "In Bootstrap class .sm is used for of the following ?",
+      "options": [
+        { "text": "desktop", "correct": false },
+        { "text": "tablets", "correct": false },
+        { "text": "phones", "correct": true },
+        { "text": "larger desktops", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-2.php?page=1",
+      "statement": "Small Screen devices are considred having screen size from \\_\\_\\_\\_\\_\\_\\_\\_ to \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ ?",
+      "options": [
+        { "text": "320px; to 600px;", "correct": false },
+        { "text": "480px; to 600px;", "correct": false },
+        { "text": "700px; to 900px;", "correct": true },
+        { "text": "768px; to 991px;", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-2.php?page=1",
+      "statement": "Which of the following is Large devices screen width from ?",
+      "options": [
+        { "text": "1024 pixels and above", "correct": false },
+        { "text": "1000 pixels and above", "correct": false },
+        { "text": "1200 pixels and above", "correct": true },
+        { "text": "1100 pixels and above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-2.php?page=2",
+      "statement": "The container-fluid class provides",
+      "options": [
+        { "text": "Fixed width container", "correct": false },
+        { "text": "Full width container", "correct": true },
+        { "text": "Table format", "correct": false },
+        { "text": "To create a Form", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-2.php?page=2",
+      "statement": "Which of the following bootstrap styles can be used to create a Animated progress bar?",
+      "options": [
+        { "text": ".progress-active", "correct": false },
+        { "text": ".progress-striped", "correct": true },
+        { "text": ".active", "correct": false },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-2.php?page=2",
+      "statement": "Bootstrap’s global default line-height",
+      "options": [
+        { "text": "1.128", "correct": false },
+        { "text": "1.428", "correct": true },
+        { "text": "1.228", "correct": false },
+        { "text": "1.825", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-2.php?page=2",
+      "statement": "Which of the following aspect ratio is used with responsive video in bootstrap?",
+      "options": [
+        { "text": "Embed-responsive-4by3", "correct": false },
+        { "text": "Embed-responsive-16by9", "correct": true },
+        { "text": "Both (A) and (B) above", "correct": false },
+        { "text": "None Of The Above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-2.php?page=2",
+      "statement": "Which class is used to make a standard/default button in bootstrap?",
+      "options": [
+        { "text": "btn-default", "correct": false },
+        { "text": "btn-primary", "correct": true },
+        { "text": "btn", "correct": false },
+        { "text": "None Of The Above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-2.php?page=2",
+      "statement": "Which bootstrap uses flat design?",
+      "options": [
+        { "text": "Bootstrap", "correct": false },
+        { "text": "Bootstrap 2", "correct": true },
+        { "text": "Bootstrap 3", "correct": false },
+        { "text": "Bootstrap 4", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-2.php?page=2",
+      "statement": "\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ is used instead of less for stylesheets.",
+      "options": [
+        { "text": "Grid layout", "correct": false },
+        { "text": "Flexbox", "correct": true },
+        { "text": "Hackathon", "correct": false },
+        { "text": "Sass", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-2.php?page=2",
+      "statement": "Sass stands for \\_\\_\\_\\_",
+      "options": [
+        { "text": "Syntactically awesome Spreadsheets", "correct": false },
+        { "text": "Syntactically awesome Stylesheets", "correct": true },
+        { "text": "Scripting awesome Stylesheets", "correct": false },
+        { "text": "Scripting awesome Spreadsheets", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-2.php?page=2",
+      "statement": "\\_\\_\\_\\_\\_\\_\\_\\_ provides a set of stylesheets that provide basic style definition for HTML",
+      "options": [
+        { "text": "Bootstrap", "correct": false },
+        { "text": "Javascript", "correct": true },
+        { "text": "Flexbox", "correct": false },
+        { "text": "Sass", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-2.php?page=2",
+      "statement": "Bootstrap uses what?",
+      "options": [
+        { "text": "Pixels", "correct": false },
+        { "text": "Root ems", "correct": true },
+        { "text": "Less", "correct": false },
+        { "text": "Pager component", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-3.php?page=1",
+      "statement": "The class used to create an image gallery is",
+      "options": [
+        { "text": ".img-thumbnail", "correct": false },
+        { "text": ".thumbnail", "correct": true },
+        { "text": ".gallery", "correct": false },
+        { "text": ".slider", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-3.php?page=1",
+      "statement": "Which class shapes an image to a circle?",
+      "options": [
+        { "text": ".img-circle", "correct": false },
+        { "text": ".img-crl", "correct": true },
+        { "text": ".circle-img", "correct": false },
+        { "text": ".circle", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-3.php?page=1",
+      "statement": "Which of the following indicates a big box for calling extra attention to some special content or information?",
+      "options": [
+        { "text": "glyphicon", "correct": false },
+        { "text": "pagination", "correct": true },
+        { "text": "pager", "correct": false },
+        { "text": "jumbotron", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-3.php?page=1",
+      "statement": "In Bootstrap Glyphicons used for using ?",
+      "options": [
+        { "text": "Slideshow", "correct": false },
+        { "text": "Animation effects", "correct": true },
+        { "text": "Icons like badge or links etc,.", "correct": false },
+        { "text": "Favicon", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-3.php?page=1",
+      "statement": "In Bootstrap, which HTML element is used to create a lighter, secondary text in any heading?",
+      "options": [
+        { "text": "Mark", "correct": false },
+        { "text": "Abbr", "correct": true },
+        { "text": "Small", "correct": false },
+        { "text": "Code", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-3.php?page=1",
+      "statement": "Which of the following classes adds borders on all sides of the table and cells?",
+      "options": [
+        { "text": ".bordered-table", "correct": false },
+        { "text": ".table - bordered", "correct": true },
+        { "text": ".border-all", "correct": false },
+        { "text": ".table - condensed", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-3.php?page=1",
+      "statement": "Which of the following classes applies hover efect to a specific row or cell of a table ?",
+      "options": [
+        { "text": ".active", "correct": false },
+        { "text": ".success", "correct": true },
+        { "text": ".warning", "correct": false },
+        { "text": ".danger", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-3.php?page=1",
+      "statement": "Which of the following indicates a dangerous or negative button?",
+      "options": [
+        { "text": ".btn-danger-button", "correct": false },
+        { "text": ".btn-info", "correct": true },
+        { "text": ".btn-danger", "correct": false },
+        { "text": ".btn-warning", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-3.php?page=1",
+      "statement": "Which of the following bootstrap button indicates caution should be taken with this action. ?",
+      "options": [
+        { "text": ".btn-warning", "correct": false },
+        { "text": ".btn-danger", "correct": true },
+        { "text": ".btn-link", "correct": false },
+        { "text": ".btn-info", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-3.php?page=1",
+      "statement": "Which of the following classes makes a button unclickable?",
+      "options": [
+        { "text": ".btn-danger", "correct": false },
+        { "text": ".btn-block", "correct": true },
+        { "text": ".disable-btn", "correct": false },
+        { "text": ".disabled", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-3.php?page=2",
+      "statement": "Which of the following class is used to create a button as a link in bootstrap?",
+      "options": [
+        { "text": ".btn-link", "correct": true },
+        { "text": ".btn-hyperlink", "correct": false },
+        { "text": ".btn-anchor", "correct": false },
+        { "text": "None of The Above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-3.php?page=2",
+      "statement": ".img-circle class makes the entire image round by adding border-radius:\\_\\_\\_\\_\\_\\_\\_\\_\\_",
+      "options": [
+        { "text": "45%", "correct": true },
+        { "text": "50%", "correct": false },
+        { "text": "100%", "correct": false },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-3.php?page=2",
+      "statement": "Use a `<div>` element with the \\_\\_\\_\\_\\_\\_\\_\\_\\_ class to create a container for media objects.",
+      "options": [
+        { "text": ".media", "correct": true },
+        { "text": ".media-left", "correct": false },
+        { "text": ".media-right", "correct": false },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-3.php?page=2",
+      "statement": "The contextual classes that are used to create colored progress bar:",
+      "options": [
+        { "text": ".progress-bar-success", "correct": true },
+        { "text": ".progress-bar-info", "correct": false },
+        { "text": ".progress-bar-danger", "correct": false },
+        { "text": "All of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-3.php?page=2",
+      "statement": "What is aspect ratio?",
+      "options": [
+        {
+          "text": "The aspect ratio of an image describes the proportional relationship between its height and its width.",
+          "correct": true
+        },
+        {
+          "text": "The aspect ratio of an image describes the proportional relationship between its width and its height.",
+          "correct": false
+        },
+        { "text": "Its height", "correct": false },
+        { "text": "Its width", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-3.php?page=2",
+      "statement": ".input-lg provides",
+      "options": [
+        { "text": "To make width size", "correct": true },
+        { "text": "To make height size", "correct": false },
+        { "text": "To make width and height both", "correct": false },
+        { "text": "To make character entry size", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-3.php?page=2",
+      "statement": ".btn-group class will make button group as",
+      "options": [
+        { "text": "Menu", "correct": true },
+        { "text": "Dropdown", "correct": false },
+        { "text": "Vertical", "correct": false },
+        { "text": "Horizontal", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-3.php?page=2",
+      "statement": " In `<meta name=”viewport” content=”width=device-width, initial-scale=1″>`the initial-scale=1 part sets",
+      "options": [
+        { "text": "To make zoom in Mobile only", "correct": true },
+        { "text": "To make zoom in Desktop only", "correct": false },
+        {
+          "text": "initial zoom level when the page is first loaded by the browser",
+          "correct": false
+        },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-3.php?page=2",
+      "statement": "Stacked-to-horizontal grid becomes",
+      "options": [
+        { "text": "horizontal on desktops", "correct": true },
+        { "text": "horizontal on mobiles/tablets", "correct": false },
+        { "text": "horizontal on all devices", "correct": false },
+        { "text": "stacked on all devices", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-3.php?page=2",
+      "statement": "Which of the following bootstrap style of image makes the entire image round by adding border-radius:500px?",
+      "options": [
+        { "text": ".img-rounded", "correct": true },
+        { "text": ".img-thumbnail", "correct": false },
+        { "text": ".img-circle", "correct": false },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-4.php?page=1",
+      "statement": "Which of the following is the default layout of a bootstrap form ?",
+      "options": [
+        { "text": ".inline", "correct": false },
+        { "text": ".horizontal", "correct": false },
+        { "text": ".vertical", "correct": true },
+        { "text": "None of the above.", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-4.php?page=1",
+      "statement": "To create vertical pill navigation which of the following bootstrap style is used ?",
+      "options": [
+        { "text": ".nav, .nav-pills, .nav-stacked", "correct": false },
+        { "text": ".nav, .nav-tabs", "correct": false },
+        { "text": ".nav, .nav-tabs, .nav-justified", "correct": true },
+        { "text": ".nav, .nav-pills", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-4.php?page=1",
+      "statement": "A standard navigation bar is created with:",
+      "options": [
+        {
+          "text": "    <nav class=\"navigationbar navbar-default\">",
+          "correct": false
+        },
+        {
+          "text": "    <nav class=\"navbar navbar-default\">",
+          "correct": false
+        },
+        { "text": "    <nav class=\"nav navbar\">", "correct": true },
+        {
+          "text": "    <nav class=\"navbar default-navbar\">",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-4.php?page=1",
+      "statement": "Which class is used to create a black navigation bar?",
+      "options": [
+        {
+          "text": "    <nav class=\"navigationbar navbar-default\">",
+          "correct": false
+        },
+        { "text": "    <nav class=\"navbar navbar-dark\">", "correct": false },
+        { "text": "    <nav class=\"navbar navbar-black\">", "correct": true },
+        {
+          "text": "    <nav class=\"navbar navbar-inverse\">",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-4.php?page=1",
+      "statement": "A standard navigation tab is created with:",
+      "options": [
+        { "text": "    <ul class=\"navigation-tabs\">", "correct": false },
+        { "text": "    <ul class=\"nav nav-navbar\">", "correct": false },
+        { "text": "    <ul class=\"nav nav-tabs\">", "correct": true },
+        { "text": "    <ul class=\"nav tabs\">", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-4.php?page=1",
+      "statement": "Which class indicates a dropdown menu?",
+      "options": [
+        { "text": ".dropdown", "correct": false },
+        { "text": ".dropdown-list", "correct": false },
+        { "text": ".select", "correct": true },
+        { "text": ".list-dropdown", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-4.php?page=1",
+      "statement": "Which class indicates uppercased text?",
+      "options": [
+        { "text": ".uppercase", "correct": false },
+        { "text": ".uppercase-text", "correct": false },
+        { "text": ".text-capitalize", "correct": true },
+        { "text": ".text-uppercase", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-4.php?page=1",
+      "statement": "In Bootstrap Framework Carousel plugin is used for?",
+      "options": [
+        { "text": "Animation", "correct": false },
+        { "text": "Getting icons", "correct": false },
+        { "text": "Image Slideshow / Image Slider", "correct": true },
+        { "text": "All of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-4.php?page=1",
+      "statement": "In Bootstrap .input-lg class provides which of the following ?",
+      "options": [
+        { "text": "To make width and height both", "correct": false },
+        { "text": "To make height size", "correct": false },
+        { "text": "To make width size", "correct": true },
+        { "text": "To make character entry size", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-4.php?page=1",
+      "statement": "Which of the following bootstrap styles can be used to create a default progress bar?",
+      "options": [
+        { "text": ".progress, .progress-bar", "correct": false },
+        { "text": ".nav-progress", "correct": false },
+        { "text": ".link-progress-bar", "correct": true },
+        { "text": "None of the above.", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-4.php?page=2",
+      "statement": "Which of the following is correct about bootstrap wells?",
+      "options": [
+        {
+          "text": "You can change the size of well using the optional classes such as, well-lg or well-sm.",
+          "correct": false
+        },
+        {
+          "text": "well-lg or well-sm classes are used in conjunction with .well class.",
+          "correct": false
+        },
+        { "text": "Both of the above.", "correct": true },
+        { "text": "None of the above.", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-4.php?page=2",
+      "statement": "Which class is used to create a black navigation bar?",
+      "options": [
+        { "text": ".navbar-default", "correct": false },
+        { "text": ".navbar-black", "correct": false },
+        { "text": ".navbar-dark", "correct": true },
+        { "text": ".navbar-inverse", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-4.php?page=2",
+      "statement": "Which of the following bootstrap styles are used to create a vertical pills navigation?",
+      "options": [
+        { "text": ".nav, .nav-tabs", "correct": false },
+        { "text": ".nav, .nav-pills", "correct": false },
+        { "text": ".nav, .nav-pills, .nav-stacked", "correct": true },
+        { "text": ".nav, .nav-tabs, .nav-justified", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-4.php?page=2",
+      "statement": "In Bootstrap we can add for",
+      "options": [
+        { "text": "Proper Rendering and Zooming in mobile", "correct": false },
+        { "text": "Make SEO", "correct": false },
+        { "text": "Make proper view of labels", "correct": true },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-4.php?page=2",
+      "statement": "Which of the following is correct about Modal Plugin?",
+      "options": [
+        {
+          "text": "You can toggle the modal plugin’s hidden content via data attributes.",
+          "correct": false
+        },
+        {
+          "text": "You can toggle the modal plugin’s hidden content via javascript.",
+          "correct": false
+        },
+        { "text": "Both of the above.", "correct": true },
+        { "text": "None of the above.", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-4.php?page=2",
+      "statement": "Which of the following is correct about data-delay Data attribute of Tooltip Plugin?",
+      "options": [
+        {
+          "text": "Sets the default title value if the title attribute isn’t present.",
+          "correct": false
+        },
+        { "text": "Defines how the tooltip is triggered.", "correct": false },
+        {
+          "text": "Defines default content value if data-content attribute isn’t present",
+          "correct": true
+        },
+        {
+          "text": "Delays showing and hiding the tooltip in ms.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-4.php?page=2",
+      "statement": "Which of the following is correct about Bootstrap jumbotron?",
+      "options": [
+        {
+          "text": "This component can optionally increase the size of headings and add a lot of margin for landing page content.",
+          "correct": false
+        },
+        {
+          "text": "To use the Jumbotron: Create a container with the class of .jumbotron.",
+          "correct": false
+        },
+        { "text": "Both of the above.", "correct": true },
+        { "text": "None of the above.", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-4.php?page=2",
+      "statement": "Which class is used to create numerical indicators?",
+      "options": [
+        { "text": ".numerals", "correct": false },
+        { "text": ".num-indicator", "correct": false },
+        { "text": ".badge", "correct": true },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-4.php?page=2",
+      "statement": "Which of the following class is used to hide elements to all devices except screen readers?",
+      "options": [
+        { "text": ".hide", "correct": false },
+        { "text": ".visible", "correct": false },
+        { "text": ".sr-only", "correct": true },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-4.php?page=2",
+      "statement": "Which of the following class is used to make the rounded corners images and it automatically adjusts to fit the size of the screen?",
+      "options": [
+        { "text": ".img-fit", "correct": false },
+        { "text": ".img-circle", "correct": false },
+        { "text": ".img-rounded", "correct": true },
+        { "text": ".img-responsive", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-5.php?page=1",
+      "statement": "Which of the following is correct about data-content Data attribute of Tooltip Plugin?",
+      "options": [
+        {
+          "text": "Sets the default title value if the title attribute isn't present.",
+          "correct": false
+        },
+        {
+          "text": "Defines default content value if data-content attribute isn't present",
+          "correct": true
+        },
+        { "text": "Defines how the tooltip is triggered.", "correct": false },
+        {
+          "text": "Delays showing and hiding the tooltip in ms.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-5.php?page=1",
+      "statement": "Which class adds zebra-stripes to a table?",
+      "options": [
+        { "text": ".table-bordered", "correct": false },
+        { "text": ".table-zebra", "correct": true },
+        { "text": ".table-striped", "correct": false },
+        { "text": ".even and .odd", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-5.php?page=1",
+      "statement": "Which class to be used to create a button as a link in bootstrap",
+      "options": [
+        { "text": ".btn-hyperlink", "correct": false },
+        { "text": ".btn-link", "correct": true },
+        { "text": ".btn-url", "correct": false },
+        { "text": ".btn-anchor", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-5.php?page=1",
+      "statement": "Which button class is used to create a large button?",
+      "options": [
+        { "text": ".btn-large", "correct": false },
+        { "text": ".btn-xl", "correct": true },
+        { "text": ".btn-lg", "correct": false },
+        { "text": ".btn-l", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-5.php?page=1",
+      "statement": "Which class is used to create a button group?",
+      "options": [
+        { "text": ".group-button", "correct": false },
+        { "text": ".button-group", "correct": true },
+        { "text": ".group-btn", "correct": false },
+        { "text": ".btn-group", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-5.php?page=1",
+      "statement": "How can you insert a search icon?",
+      "options": [
+        {
+          "text": "    <span class=\"glyphicon glyphicon-search\"></span>",
+          "correct": false
+        },
+        {
+          "text": "    <span class=\"glyphicon search-glyphicon\"></span>",
+          "correct": true
+        },
+        {
+          "text": "    <span class=\"glyph glyph-search\"></span>",
+          "correct": false
+        },
+        {
+          "text": "    <span class=\"glyphicon-search glyphicon\"></span>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-5.php?page=1",
+      "statement": "Which plugin is used to create a modal window?",
+      "options": [
+        { "text": "Window", "correct": false },
+        { "text": "Popup", "correct": true },
+        { "text": "Dialog Box", "correct": false },
+        { "text": "Modal", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-5.php?page=1",
+      "statement": "Which class is used to create a basic pagination?",
+      "options": [
+        { "text": ".page-pagination", "correct": false },
+        { "text": ".pagination", "correct": true },
+        { "text": ".page", "correct": false },
+        { "text": ".navigation", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-5.php?page=1",
+      "statement": "In Grid move columns to the right using",
+      "options": [
+        { "text": ".col-md-left-\\*", "correct": false },
+        { "text": ".col-md-margin-\\*", "correct": true },
+        { "text": ".col-md-offset-\\*", "correct": false },
+        { "text": "None of the above.", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-5.php?page=1",
+      "statement": "Which class creates list of items?",
+      "options": [
+        { "text": "lst-group", "correct": false },
+        { "text": "list-group", "correct": true },
+        { "text": "menu-group", "correct": false },
+        { "text": "list-grp", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-5.php?page=2",
+      "statement": "In bootstrap which of the following is used to display code?",
+      "options": [
+        { "text": "`<code>`", "correct": false },
+        { "text": "`<pre>`", "correct": false },
+        { "text": "Both (A) and (B)", "correct": true },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-5.php?page=2",
+      "statement": "Which of the following is true about bootstrap help text?",
+      "options": [
+        {
+          "text": "Bootstrap form controls can have a block level help text that flows with the inputs.",
+          "correct": false
+        },
+        {
+          "text": "To add a full width block of content, use the .help-block after the `<input>`.",
+          "correct": false
+        },
+        { "text": "Both of the above.", "correct": true },
+        { "text": "None of the above.", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-5.php?page=2",
+      "statement": "Which of the following class styles a table with borders surrounding every element and rounded corners around the entire table?",
+      "options": [
+        { "text": ".table", "correct": false },
+        { "text": ".table-striped", "correct": false },
+        { "text": ".table-hover", "correct": true },
+        { "text": ".table-bordered", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-5.php?page=2",
+      "statement": "Which of the following is correct about data-animation Data attribute of Tooltip Plugin?",
+      "options": [
+        {
+          "text": "Applies a CSS fade transition to the tooltip.",
+          "correct": false
+        },
+        {
+          "text": "Inserts HTML into the tooltip. If false, jQuery's text method will be used to insert content into the dom.",
+          "correct": false
+        },
+        {
+          "text": "Specifies how to position the tooltip (i.e., top|bottom|left|right|auto).",
+          "correct": true
+        },
+        { "text": "Delegates to the specified targets.", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/bootstrap-quiz-section-5.php?page=2",
+      "statement": "Which of the following is correct about data-trigger Data attribute of popover Plugin?",
+      "options": [
+        {
+          "text": "Sets the default title value if the title attribute isn't present.",
+          "correct": false
+        },
+        { "text": "Defines how the popover is triggered.", "correct": false },
+        {
+          "text": "Defines default content value if data-content attribute isn't present",
+          "correct": true
+        },
+        {
+          "text": "Delays showing and hiding the popover in ms.",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3601 @@
+{
+  "questions": [
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=1",
+      "statement": "Who is inventor of Python ?",
+      "options": [
+        { "text": "Larry Wall", "correct": false },
+        { "text": "Mark Jukervich", "correct": false },
+        { "text": "Guido van Rossum", "correct": true },
+        { "text": "Dennis Ritchie", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=1",
+      "statement": "Python initial release date ?",
+      "options": [
+        { "text": "1991", "correct": false },
+        { "text": "1992", "correct": false },
+        { "text": "1995", "correct": true },
+        { "text": "1996", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=1",
+      "statement": "Which of the following statements is true?",
+      "options": [
+        {
+          "text": "Python is a high level programming language.",
+          "correct": false
+        },
+        { "text": "Python is an interpreted language.", "correct": false },
+        { "text": "Python is an object-oriented language.", "correct": true },
+        { "text": "All of the above.", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=1",
+      "statement": "What symbol can you use to comment out one line of code?",
+      "options": [
+        { "text": "\\*", "correct": false },
+        { "text": "#", "correct": false },
+        { "text": "//", "correct": true },
+        { "text": "(comment)", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=1",
+      "statement": "What is the difference between a class and an object in Python?",
+      "options": [
+        {
+          "text": "There is no difference between a class and an object",
+          "correct": false
+        },
+        {
+          "text": "Classes are made from iterations while objects are not.",
+          "correct": false
+        },
+        { "text": "Objects are created from classes.", "correct": true },
+        { "text": "Objects are not able to be called.", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=1",
+      "statement": "Which of the following is not a class method?",
+      "options": [
+        { "text": "Non-static", "correct": false },
+        { "text": "Static", "correct": false },
+        { "text": "Bounded", "correct": true },
+        { "text": "Unbounded", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=1",
+      "statement": "In python which keyword is used to start function ?",
+      "options": [
+        { "text": "function", "correct": false },
+        { "text": "def", "correct": false },
+        { "text": "try", "correct": true },
+        { "text": "import", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=1",
+      "statement": "Which of the following environment variable for Python is an alternative module search path?",
+      "options": [
+        { "text": "PYTHONPATH", "correct": false },
+        { "text": "PYTHONSTARTUP", "correct": false },
+        { "text": "PYTHONCASEOK", "correct": true },
+        { "text": "PYTHONHOME", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=1",
+      "statement": "Which of the following functions print the output to the console?",
+      "options": [
+        { "text": "echo", "correct": false },
+        { "text": "output", "correct": false },
+        { "text": "print", "correct": true },
+        { "text": "console.log", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=1",
+      "statement": "Which module in Python supports regular expressions?",
+      "options": [
+        { "text": "re", "correct": false },
+        { "text": "regex", "correct": false },
+        { "text": "pyregex", "correct": true },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=2",
+      "statement": "What is the output of the following code?\n\n    str = \"freetime\"\n    print (str[1:3])",
+      "options": [
+        { "text": "fr", "correct": false },
+        { "text": "re", "correct": true },
+        { "text": "fre", "correct": false },
+        { "text": "ree", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=2",
+      "statement": "Is Python case sensitive when dealing with identifiers?",
+      "options": [
+        { "text": "yes", "correct": false },
+        { "text": "no", "correct": true },
+        { "text": "machine dependent", "correct": false },
+        { "text": "none of the mentioned", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=2",
+      "statement": "Which of these in not a core data type?",
+      "options": [
+        { "text": "Lists", "correct": false },
+        { "text": "Dictionary", "correct": true },
+        { "text": "Tuples", "correct": false },
+        { "text": "Class", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=2",
+      "statement": "What is the maximum possible length of an identifier?",
+      "options": [
+        { "text": "31 characters", "correct": false },
+        { "text": "60 characters", "correct": true },
+        { "text": "73 characters", "correct": false },
+        { "text": "none of the mentioned", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=2",
+      "statement": "Which of the following is invalid?",
+      "options": [
+        { "text": "\\_a = 1", "correct": false },
+        { "text": "\\_\\_a = 1", "correct": true },
+        { "text": "\\_\\_str\\_\\_ = 1", "correct": false },
+        { "text": "none of the mentioned", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=2",
+      "statement": "Which one of these is floor division?",
+      "options": [
+        { "text": "/", "correct": false },
+        { "text": "//", "correct": true },
+        { "text": "%", "correct": false },
+        { "text": "None of the mentioned", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=2",
+      "statement": "What is the output of print 0.1 + 0.2 == 0.3?",
+      "options": [
+        { "text": "True", "correct": false },
+        { "text": "False", "correct": true },
+        { "text": "Machine dependent", "correct": false },
+        { "text": "Error", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=2",
+      "statement": "Which of the following is not a complex number?",
+      "options": [
+        { "text": "k = 2 + 3j", "correct": false },
+        { "text": "k = complex(2, 3)", "correct": true },
+        { "text": "k = 2 + 3l", "correct": false },
+        { "text": "k = 2 + 3J", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=2",
+      "statement": "What is the answer to this expression, 22 % 3 is?",
+      "options": [
+        { "text": "7", "correct": false },
+        { "text": "0", "correct": true },
+        { "text": "1", "correct": false },
+        { "text": "5", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=2",
+      "statement": "What is the type of inf?",
+      "options": [
+        { "text": "Boolean", "correct": false },
+        { "text": "Integer", "correct": true },
+        { "text": "Float", "correct": false },
+        { "text": "Complex", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=3",
+      "statement": "Operators with the same precedence are evaluated in which manner?",
+      "options": [
+        { "text": "Left to Right", "correct": true },
+        { "text": "Right to Left", "correct": false },
+        { "text": "Can’t say", "correct": false },
+        { "text": "None of the mentioned", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=3",
+      "statement": "What does ~4 evaluate to?",
+      "options": [
+        { "text": "\\-5", "correct": true },
+        { "text": "\\-3", "correct": false },
+        { "text": "\\-4", "correct": false },
+        { "text": "\\-2", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=3",
+      "statement": "What is the output of this expression, 3\\*1\\*\\*3?",
+      "options": [
+        { "text": "1", "correct": true },
+        { "text": "3", "correct": false },
+        { "text": "9", "correct": false },
+        { "text": "27", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=3",
+      "statement": "What does ~~~~~~5 evaluate to?",
+      "options": [
+        { "text": "+5", "correct": true },
+        { "text": "+11", "correct": false },
+        { "text": "\\-11", "correct": false },
+        { "text": "\\-5", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=3",
+      "statement": "Which one of the following has the highest precedence in the expression?",
+      "options": [
+        { "text": "Exponential", "correct": true },
+        { "text": "Addition", "correct": false },
+        { "text": "Parentheses", "correct": false },
+        { "text": "Multiplication", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=3",
+      "statement": "Which of the following is incorrect?",
+      "options": [
+        { "text": "float(‘nan’)", "correct": true },
+        { "text": "float(’12+34′)", "correct": false },
+        { "text": "float(’56’+’78’)", "correct": false },
+        { "text": "float(‘inf’)", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=3",
+      "statement": "Which of the following has more precedance?",
+      "options": [
+        { "text": "/", "correct": true },
+        { "text": "+", "correct": false },
+        { "text": "()", "correct": false },
+        { "text": "\\-", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=3",
+      "statement": "What will be the output of 7^10 in python?",
+      "options": [
+        { "text": "02", "correct": true },
+        { "text": "13", "correct": false },
+        { "text": "15", "correct": false },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=3",
+      "statement": "Which of the following is the use of id() function in python?",
+      "options": [
+        { "text": "Id returns the identity of the object", "correct": true },
+        { "text": "Every object doesn’t have a unique id", "correct": false },
+        { "text": "All of the mentioned", "correct": false },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=3",
+      "statement": "What will be the value of the following Python expression?\n\n    4 + 3 % 5",
+      "options": [
+        { "text": "0", "correct": true },
+        { "text": "2", "correct": false },
+        { "text": "4", "correct": false },
+        { "text": "7", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=4",
+      "statement": "Which of the following operators has its associativity from right to left?",
+      "options": [
+        { "text": "+", "correct": false },
+        { "text": "//", "correct": false },
+        { "text": "\\*\\*", "correct": true },
+        { "text": "%", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=4",
+      "statement": "What will be the value of x in the following Python expression?\n\n    x = int(43.55+2/2)",
+      "options": [
+        { "text": "43", "correct": false },
+        { "text": "44", "correct": false },
+        { "text": "22", "correct": true },
+        { "text": "23", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=4",
+      "statement": "What are the values of the following Python expressions?\n\n     2**(3**2)\n     (2**3)**2\n     2**3**2",
+      "options": [
+        { "text": "64, 512, 64", "correct": false },
+        { "text": "64, 64, 64", "correct": false },
+        { "text": "512, 512, 512", "correct": true },
+        { "text": "512, 64, 512", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=4",
+      "statement": "What is the value of the following expression?\n\n    8/4/2, 8/(4/2)",
+      "options": [
+        { "text": "(1.0, 4.0)", "correct": false },
+        { "text": "(1.0, 1.0)", "correct": false },
+        { "text": "(4.0. 1.0)", "correct": true },
+        { "text": "(4.0, 4.0)", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=4",
+      "statement": "What will be the output of the following Python code snippet?\n\n    X=”hi”\n    print(“05d”%X)",
+      "options": [
+        { "text": "000hi", "correct": false },
+        { "text": "hi000", "correct": false },
+        { "text": "00000hi", "correct": true },
+        { "text": "error", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=4",
+      "statement": "Read the information given below carefully and write a list comprehension such that the output is: \\[‘e’, ‘o’\\]\n\n    w=\"hello\"\n    v=('a', 'e', 'i', 'o', 'u')",
+      "options": [
+        { "text": "\\[x for w in v if x in v\\]", "correct": false },
+        { "text": "\\[x for x in w if x in v\\]", "correct": false },
+        { "text": "\\[x for x in v if w in v\\]", "correct": true },
+        { "text": "\\[x for v in w for x in w\\]", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=4",
+      "statement": "What will be the output of the following Python code?\n\n    t=32.00\n    [round((x-32)*5/9) for x in t]",
+      "options": [
+        { "text": "0", "correct": false },
+        { "text": "\\[0\\]", "correct": false },
+        { "text": "\\[0.00\\]", "correct": true },
+        { "text": "Error", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=4",
+      "statement": "Write a list comprehension for producing a list of numbers between 1 and 1000 that are divisible by 3.",
+      "options": [
+        { "text": "\\[x%3 for x in range(1, 1000)\\]", "correct": false },
+        { "text": "\\[x in range(1, 1000) if x%3==0\\]", "correct": false },
+        { "text": "\\[x for x in range(1000) if x%3==0\\]", "correct": true },
+        { "text": "\\[x%3=0 for x in range(1, 1000)\\]", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=4",
+      "statement": "Write a list comprehension equivalent for the Python code shown below.\n\n    for i in range(1, 101):\n    \tif int(i*0.5)==i*0.5:\n    \t\tprint(i)",
+      "options": [
+        {
+          "text": "\\[i for i in range(1, 100) if int(i\\*0.5)==(i\\*0.5)\\]",
+          "correct": false
+        },
+        {
+          "text": "\\[i for i in range(1, 101) if int(i\\*0.5)==(i\\*0.5)\\]",
+          "correct": false
+        },
+        {
+          "text": "\\[i for i in range(1, 101) if int(i\\*0.5)=(i\\*0.5)\\]",
+          "correct": true
+        },
+        {
+          "text": "\\[i for i in range(1, 100) if int(i\\*0.5)=(i\\*0.5)\\]",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=4",
+      "statement": "Write a list comprehension to produce the list: \\[1, 2, 4, 8, 16……212\\].",
+      "options": [
+        { "text": "\\[(2\\*\\*x) for x in range(0, 13)\\]", "correct": false },
+        { "text": "\\[(x\\*\\*2) for x in range(1, 13)\\]", "correct": false },
+        { "text": "\\[(2\\*\\*x) for x in range(1, 13)\\]", "correct": true },
+        { "text": "\\[(x\\*\\*2) for x in range(0, 13)\\]", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=5",
+      "statement": "Which module in Python supports regular expressions?",
+      "options": [
+        { "text": "re", "correct": true },
+        { "text": "regex", "correct": false },
+        { "text": "pyregex", "correct": false },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=5",
+      "statement": "Which of the following creates a pattern object?",
+      "options": [
+        { "text": "re.create(str)", "correct": true },
+        { "text": "re.regex(str)", "correct": false },
+        { "text": "re.compile(str)", "correct": false },
+        { "text": "re.assemble(str)", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=5",
+      "statement": "What does the function re.match do?",
+      "options": [
+        {
+          "text": "matches a pattern at the start of the string",
+          "correct": true
+        },
+        {
+          "text": "matches a pattern at any position in the string",
+          "correct": false
+        },
+        { "text": "such a function does not exist", "correct": false },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=5",
+      "statement": "What will be the output of the following Python code?\n\n    sentence = 'we are humans'\n    matched = re.match(r'(.*) (.*?) (.*)', sentence)\n    print(matched.groups())",
+      "options": [
+        { "text": "(‘we’, ‘humans’)", "correct": true },
+        { "text": "(‘we’, ‘are’, ‘humans’)", "correct": false },
+        { "text": "(we, are, humans)", "correct": false },
+        { "text": "‘we are humans’", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=5",
+      "statement": "What will be the output of the following Python code?\n\n    sentence = 'we are humans'\n    matched = re.match(r'(.*) (.*?) (.*)', sentence)\n    print(matched.group(2))",
+      "options": [
+        { "text": "‘we are humans’", "correct": true },
+        { "text": "‘are’", "correct": false },
+        { "text": "‘we’", "correct": false },
+        { "text": "‘humans’", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=5",
+      "statement": "What will be the output of the following Python code?\n\n    sentence = 'horses are fast'\n    regex = re.compile('(?P<animal>\\w+) (?P<verb>\\w+) (?P<adjective>\\w+)')\n    matched = re.search(regex, sentence)\n    print(matched.groups())",
+      "options": [
+        {
+          "text": "{‘animal’: ‘horses’, ‘verb’: ‘are’, ‘adjective’: ‘fast’}",
+          "correct": true
+        },
+        { "text": "(‘horses’, ‘are’, ‘fast’)", "correct": false },
+        { "text": "‘horses are fast’", "correct": false },
+        { "text": "‘are’", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=5",
+      "statement": "The expression a{5} will match \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ characters with the previous regular expression.",
+      "options": [
+        { "text": "exactly 5", "correct": true },
+        { "text": "5 or more", "correct": false },
+        { "text": "5 or less", "correct": false },
+        { "text": "exactly 4", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=5",
+      "statement": "What will be the output of the following Python code?\n\n    re.split('\\W+', 'Hello, hello, hello.')",
+      "options": [
+        { "text": "\\[‘Hello, ‘hello’, ‘hello’\\]", "correct": true },
+        { "text": "\\[‘Hello’, ‘hello’, ‘hello.’\\]", "correct": false },
+        { "text": "\\[‘Hello’, ‘hello’, ‘hello’, ‘.’\\]", "correct": false },
+        { "text": "\\[‘Hello’, ‘hello’, ‘hello’, ”\\]", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=5",
+      "statement": "Which of the following functions results in case insensitive matching?",
+      "options": [
+        { "text": "re.A", "correct": true },
+        { "text": "re.U", "correct": false },
+        { "text": "re.I", "correct": false },
+        { "text": "re.X", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=5",
+      "statement": "Which of the following functions creates a Python object?",
+      "options": [
+        { "text": "re.compile(str)", "correct": true },
+        { "text": "re.assemble(str)", "correct": false },
+        { "text": "re.regex(str)", "correct": false },
+        { "text": "re.create(str)", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=1",
+      "statement": "Which of the following keyword is a valid placeholder for body of the function ?",
+      "options": [
+        { "text": "break", "correct": false },
+        { "text": "continue", "correct": false },
+        { "text": "body", "correct": false },
+        { "text": "pass", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=1",
+      "statement": "Which of the following is correct?",
+      "options": [
+        {
+          "text": "Variable name can start with an underscore.",
+          "correct": false
+        },
+        { "text": "Variable name can start with a digit.", "correct": false },
+        {
+          "text": "Keywords cannot be used as a variable name.",
+          "correct": false
+        },
+        {
+          "text": "Variable name can have symbols like: @, #, $ etc.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=1",
+      "statement": "Which of the following statements is NOT true about Python?",
+      "options": [
+        { "text": "Python can be used for web development", "correct": false },
+        { "text": "Python’s syntax is much like PHP", "correct": false },
+        { "text": "Python can run on any type of platform", "correct": false },
+        {
+          "text": "Python can be used to generate dynamic web pages",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=1",
+      "statement": "What is the return value of trunc() ?",
+      "options": [
+        { "text": "int", "correct": false },
+        { "text": "bool", "correct": false },
+        { "text": "float", "correct": false },
+        { "text": "None of the above", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=1",
+      "statement": "What is the need of :\n\n    if __name__ == \"__main__\":\n     somemethod()",
+      "options": [
+        { "text": "Create new module", "correct": false },
+        { "text": "Define generators", "correct": false },
+        { "text": "Run python module as main program", "correct": false },
+        { "text": "Create new objects", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=1",
+      "statement": "Which operator is used to compare two numbers for equality?",
+      "options": [
+        { "text": "\\=", "correct": false },
+        { "text": "\\==", "correct": false },
+        { "text": "!=", "correct": false },
+        { "text": "+=", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=1",
+      "statement": "In python which is the correct method to load a module ?",
+      "options": [
+        { "text": "include math", "correct": false },
+        { "text": "import math", "correct": false },
+        { "text": "#include<math.h>", "correct": false },
+        { "text": "using math", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=1",
+      "statement": "Which function is used to open the file for reading in python ?",
+      "options": [
+        { "text": "fopen(filename, mode)", "correct": false },
+        { "text": "open\\_file(filename, mode)", "correct": false },
+        { "text": "openfile(filename, mode)", "correct": false },
+        { "text": "open(filename, mode)", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=1",
+      "statement": "Which of the following function checks in a string that all characters are numeric?",
+      "options": [
+        { "text": "isnumeric()", "correct": false },
+        { "text": "islower()", "correct": false },
+        { "text": "isspace()", "correct": false },
+        { "text": "istitle()", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=1",
+      "statement": "In python 3 what does // operator do ?",
+      "options": [
+        { "text": "Float division", "correct": false },
+        { "text": "Integer division", "correct": false },
+        { "text": "returns remainder", "correct": false },
+        { "text": "same as a\\*\\*b", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=2",
+      "statement": "Which of the following formatting options can be used in order to add ‘n’ blank spaces after a given string ‘S’?",
+      "options": [
+        { "text": "print(“%-ns”%S)", "correct": true },
+        { "text": "print(“%ns”%S)", "correct": false },
+        { "text": "print(“-ns”%S)", "correct": false },
+        { "text": "print(“-ns”%S)", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=2",
+      "statement": "What will be the output of the following Python code?\n\n    l=list('HELLO')\n    'first={0[0]}, third={0[2]}'.format(l)",
+      "options": [
+        { "text": "‘first=H, third=L’", "correct": true },
+        { "text": "‘first=0, third=2’", "correct": false },
+        { "text": "‘first=0, third=L’", "correct": false },
+        { "text": "Error", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=2",
+      "statement": "What will be the output of the following Python code?\n\n    l=list('HELLO')\n    p=l[0], l[-1], l[1:3]\n    'a={0}, b={1}, c={2}'.format(*p)",
+      "options": [
+        { "text": "“a=’H’, b=’O’, c=(E, L)”", "correct": true },
+        { "text": "“a=H, b=O, c=\\[‘E’, ‘L’\\]”", "correct": false },
+        { "text": "Error", "correct": false },
+        { "text": "Junk value", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=2",
+      "statement": "What will be the output of the following Python code?\n\n    hex(255), int('FF', 16), 0xFF",
+      "options": [
+        { "text": "Error", "correct": true },
+        { "text": "\\[0xFF, 255, 16, 255\\]", "correct": false },
+        { "text": "(‘0xff’, 155, 16, 255)", "correct": false },
+        { "text": "(‘0xff’, 255, 255)", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=2",
+      "statement": "What will be the output of the following Python code?\n\n    '{a}{b}{a}'.format(a='hello', b='world')",
+      "options": [
+        { "text": "‘hello world’", "correct": true },
+        { "text": "‘hello’ ‘world’ ‘hello’", "correct": false },
+        { "text": "‘helloworldhello’", "correct": false },
+        { "text": "‘hello’ ‘hello’ ‘world’", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=2",
+      "statement": "What will be the output of the following Python code?\n\n    'The {} side {1} {2}'.format('bright', 'of', 'life')",
+      "options": [
+        { "text": "‘The bright side of life’", "correct": true },
+        { "text": "‘The {bright} side {of} {life}’", "correct": false },
+        { "text": "No output", "correct": false },
+        { "text": "Error", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=2",
+      "statement": "What will be the output of the following two codes?\n\n    i. '{0}'.format(4.56)\n    ii. '{0}'.format([4.56,])",
+      "options": [
+        { "text": "‘4.56’, ‘4.56,’", "correct": true },
+        { "text": "‘4.56’, ‘\\[4.56\\]’", "correct": false },
+        { "text": "4.56, \\[4.56,\\]", "correct": false },
+        { "text": "4.56, \\[4.56,\\]", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=2",
+      "statement": "The output of which of the codes shown below will be: “There are 4 blue birds.”?",
+      "options": [
+        { "text": "‘There are %d %s birds.’ %(4, blue)", "correct": true },
+        { "text": "‘There are %g %d birds.’ %4 %blue", "correct": false },
+        { "text": "‘There are %d %s birds.’ 4, blue", "correct": false },
+        { "text": "‘There are %s %d birds.’ %\\[4, blue\\]", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=2",
+      "statement": "What will be the output of the following Python code snippet?\n\n    x=3.3456789\n    '%f | %e | %g' %(x, x, x)",
+      "options": [
+        { "text": "‘3.345679 | 3.345679e+00 | 3.34568’", "correct": true },
+        { "text": "‘3.345678 | 3.345678e+0 | 3.345678’", "correct": false },
+        { "text": "‘3.3456789 | 3.3456789+00 | 3.345678’", "correct": false },
+        { "text": "Error", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=2",
+      "statement": "What will be the output of the following Python code snippet?\n\n    a='hello'\n    q=10\n    vars()",
+      "options": [
+        { "text": "{‘a’ : ‘hello’, ‘q’ : 10}", "correct": true },
+        {
+          "text": "{‘a’ : ‘hello’, ‘q’ : 10, ……..plus built-in names set by Python….}",
+          "correct": false
+        },
+        { "text": "{……Built in names set by Python……}", "correct": false },
+        { "text": "Error", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=3",
+      "statement": "What will be the output of the following Python code?\n\n    l=[\"good\", \"oh!\", \"excellent!\", \"#450\"]\n    [n for n in l if n.isalpha() or n.isdigit()]",
+      "options": [
+        { "text": "\\[‘good’\\]", "correct": true },
+        { "text": "\\[‘good’, ‘#450’\\]", "correct": false },
+        { "text": "\\[‘oh!’, ‘excellent!’, ‘#450’\\]", "correct": false },
+        { "text": "\\[‘good’, ‘oh’, ‘excellent’, ‘450’ \\]", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=3",
+      "statement": "What will be the output of the following Python code?\n\n    A = [[1, 2, 3],\n              [4, 5, 6],\n              [7, 8, 9]]\n    A[1]",
+      "options": [
+        { "text": "\\[1, 2, 3\\]", "correct": true },
+        { "text": "\\[1, 4, 7\\]", "correct": false },
+        { "text": "\\[3, 6, 9\\]", "correct": false },
+        { "text": "\\[4, 5, 6\\]", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=3",
+      "statement": "What will be the output of the following Python code?\n\n    A = [[1, 2, 3],\n          [4, 5, 6],\n          [7, 8, 9]]\n    [A[row][1] for row in (0, 1, 2)]",
+      "options": [
+        { "text": "\\[1, 4, 7\\]", "correct": true },
+        { "text": "\\[2, 5, 8\\]", "correct": false },
+        { "text": "\\[4, 5, 6\\]", "correct": false },
+        { "text": "\\[7, 8, 9\\]", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=3",
+      "statement": "What will be the output of the following Python code?\n\n    l=[[1, 2, 3], [4, 5, 6]]\n    for i in range(len(l)):\n    \tfor j in range(len(l[i])):\n    \t\tl[i][j]+=10\n    l",
+      "options": [
+        { "text": "Error", "correct": true },
+        { "text": "No output", "correct": false },
+        { "text": "\\[\\[1, 2, 3\\], \\[4, 5, 6\\]\\]", "correct": false },
+        { "text": "\\[\\[11, 12, 13\\], \\[14, 15, 16\\]\\]", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=3",
+      "statement": "What will be the output of the following Python code?\n\n    A = [[1, 2, 3],\n         [4, 5, 6],\n         [7, 8, 9]]\n     \n    [[col + 10 for col in row] for row in A]",
+      "options": [
+        { "text": "Error", "correct": true },
+        {
+          "text": "\\[11, 12, 13, 14, 15, 16, 17, 18, 19\\]",
+          "correct": false
+        },
+        {
+          "text": "\\[\\[11, 12, 13\\], \\[14, 15, 16\\], \\[17, 18, 19\\]\\]",
+          "correct": false
+        },
+        {
+          "text": "\\[11, 12, 13\\], \\[14, 15, 16\\], \\[17, 18, 19\\]",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=3",
+      "statement": "What will be the output of the following Python code?\n\n    A = [[1, 2, 3],\n         [4, 5, 6],\n         [7, 8, 9]]\n    B = [[3, 3, 3],\n         [4, 4, 4],\n         [5, 5, 5]]\n    [[col1 * col2 for (col1, col2) in zip(row1, row2)] for (row1, row2) in zip(A, B)]",
+      "options": [
+        { "text": "Error", "correct": true },
+        { "text": "No output", "correct": false },
+        {
+          "text": "\\[\\[3, 6, 9\\], \\[16, 20, 24\\], \\[35, 40, 45\\]\\]",
+          "correct": false
+        },
+        {
+          "text": "\\[0, 30, 60, 120, 160, 200, 300, 350, 400\\]",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=3",
+      "statement": "Suppose t = (1, 2, 4, 3), which of the following is incorrect?",
+      "options": [
+        { "text": "print(t\\[3\\])", "correct": true },
+        { "text": "t\\[3\\] = 45", "correct": false },
+        { "text": "print(len(t))", "correct": false },
+        { "text": "print(max(t))", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=3",
+      "statement": "What will be the output of the following Python code?\n\n    >>>t=(1,2,4,3)\n    >>>t[1:3]",
+      "options": [
+        { "text": "(1, 2)", "correct": true },
+        { "text": "(1, 2, 4)", "correct": false },
+        { "text": "(2, 4)", "correct": false },
+        { "text": "(2, 4, 3)", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=3",
+      "statement": "What will be the output of the following Python code?\n\n    >>>t = (1, 2, 4, 3, 8, 9)\n    >>>[t[i] for i in range(0, len(t), 2)]",
+      "options": [
+        { "text": "\\[1, 2, 4, 3, 8, 9\\]", "correct": true },
+        { "text": "\\[2, 3, 9\\]", "correct": false },
+        { "text": "(1, 4, 8)", "correct": false },
+        { "text": "\\[1, 4, 8\\]", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=3",
+      "statement": "What will be the output of the following Python code?\n\n    numberGames = {}\n    numberGames[(1,2,4)] = 8\n    numberGames[(4,2,1)] = 10\n    numberGames[(1,2)] = 12\n    sum = 0\n    for k in numberGames:\n        sum += numberGames[k]\n    print len(numberGames) + sum",
+      "options": [
+        { "text": "33", "correct": true },
+        { "text": "30", "correct": false },
+        { "text": "24", "correct": false },
+        { "text": "12", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=4",
+      "statement": "What will be the output of the following Python code?\n\n    def f1():\n        x=15\n        print(x)\n    x=12\n    f1()",
+      "options": [
+        { "text": "Error", "correct": false },
+        { "text": "12", "correct": false },
+        { "text": "15", "correct": true },
+        { "text": "1512", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=4",
+      "statement": "What will be the output of the following Python code?\n\n    def san(x):\n        print(x+1)\n    x=-2\n    x=4\n    san(12)",
+      "options": [
+        { "text": "2", "correct": false },
+        { "text": "5", "correct": false },
+        { "text": "10", "correct": true },
+        { "text": "13", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=4",
+      "statement": "What will be the output of the following Python code?\n\n    x=12\n    def f1(a,b=x):\n        print(a,b)\n    x=15\n    f1(4)",
+      "options": [
+        { "text": "12 4", "correct": false },
+        { "text": "4 12", "correct": false },
+        { "text": "4 15", "correct": true },
+        { "text": "Error", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=4",
+      "statement": "Fill in the line of the following Python code for calculating the factorial of a number.\n\n    def fact(num):\n        if num == 0: \n            return 1\n        else:\n            return ________",
+      "options": [
+        { "text": "num\\*fact(num-1)", "correct": false },
+        { "text": "(num-1)\\*(num-2)", "correct": false },
+        { "text": "fact(num)\\*fact(num-1)", "correct": true },
+        { "text": "num\\*(num-1)", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=4",
+      "statement": "What will be the output of the following Python code?\n\n    def test(i,j):\n        if(i==0):\n            return j\n        else:\n            return test(i-1,i+j)\n    print(test(4,7))",
+      "options": [
+        { "text": "Infinite loop", "correct": false },
+        { "text": "7", "correct": false },
+        { "text": "13", "correct": true },
+        { "text": "17", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=4",
+      "statement": "What will be the output of the following Python code?\n\n    l=[]\n    def convert(b):\n        if(b==0):\n            return l\n        dig=b%2\n        l.append(dig)\n        convert(b//2)\n    convert(6)\n    l.reverse()\n    for i in l:\n        print(i,end=\"\")",
+      "options": [
+        { "text": "011", "correct": false },
+        { "text": "110", "correct": false },
+        { "text": "Infinite loop", "correct": true },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=4",
+      "statement": "What will be the output of the following Python code?\n\n    def fun(n):\n        if (n > 100):\n            return n - 5\n        return fun(fun(n+11));\n     \n    print(fun(45))",
+      "options": [
+        { "text": "50", "correct": false },
+        { "text": "74", "correct": false },
+        { "text": "100", "correct": true },
+        { "text": "Infinite loop", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=4",
+      "statement": "What will be the output of the following Python code?\n\n    def check(n):\n        if n < 2:\n            return n % 2 == 0\n        return check(n - 2)\n    print(check(11))",
+      "options": [
+        { "text": "True", "correct": false },
+        { "text": "False", "correct": false },
+        { "text": "An exception is thrown", "correct": true },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=4",
+      "statement": "What will be the output of the following Python code?\n\n    def a(n):\n        if n == 0:\n            return 0\n        elif n == 1:\n            return 1\n        else:\n            return a(n-1)+a(n-2)\n    for i in range(0,4):\n        print(a(i),end=\" \")",
+      "options": [
+        { "text": "An exception is thrown", "correct": false },
+        { "text": "0 1 2 3", "correct": false },
+        { "text": "0 1 1 2 3", "correct": true },
+        { "text": "0 1 1 2", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=4",
+      "statement": "What will be the output of the following Python code?\n\n    a = [1, 2, 3, 4, 5]\n    b = lambda x: (b (x[1:]) + x[:1] if x else []) \n    print(b (a))",
+      "options": [
+        { "text": "1 2 3 4 5", "correct": false },
+        { "text": "\\[5,4,3,2,1\\]", "correct": false },
+        { "text": "\\[ \\]", "correct": true },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=5",
+      "statement": "What will be the output of the following Python code?\n\n    odd=lambda x: bool(x%2)\n    numbers=[n for n in range(10)]\n    print(numbers)\n    n=list()\n    for i in numbers:\n        if odd(i):\n            continue\n        else:\n            break",
+      "options": [
+        { "text": "\\[1, 3, 5, 7, 9\\]", "correct": false },
+        { "text": "\\[0, 2, 4, 6, 8, 10\\]", "correct": false },
+        { "text": "\\[0, 1, 2, 3, 4, 5, 6, 7, 8, 9\\]", "correct": true },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=5",
+      "statement": "What will be the output of the following Python code?\n\n    import functools\n    l=[1,2,3,4]\n    print(functools.reduce(lambda x,y:x*y,l))",
+      "options": [
+        { "text": "10", "correct": false },
+        { "text": "24", "correct": false },
+        { "text": "Error", "correct": true },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=5",
+      "statement": "What will be the output of the following Python code?\n\n    l=[1, -2, -3, 4, 5]\n    def f1(x):\n        return x<-1\n    m1=map(f1, l)\n    print(list(m1))",
+      "options": [
+        { "text": "\\[False, True, True, False, False\\]", "correct": false },
+        { "text": "\\[True, True, True, True, True\\]", "correct": false },
+        { "text": "\\[True, False, False, True, True\\]", "correct": true },
+        { "text": "\\[False, False, False, False, False\\]", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=5",
+      "statement": "What will be the output of the following Python code?\n\n    import functools\n    l=[1, 2, 3, 4, 5]\n    m=functools.reduce(lambda x, y:x if x>y else y, l)\n    print(m)",
+      "options": [
+        { "text": "Error", "correct": false },
+        { "text": "Address of m", "correct": false },
+        { "text": "1", "correct": true },
+        { "text": "5", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=5",
+      "statement": "What will be the output of the following Python code?\n\n    m=reduce(lambda x: x-3 in range(4, 10))\n    print(list(m))",
+      "options": [
+        { "text": "\\[1, 2, 3, 4, 5, 6\\]", "correct": false },
+        { "text": "\\[1, 2, 3, 4, 5, 6, 7\\]", "correct": false },
+        { "text": "No output", "correct": true },
+        { "text": "Error", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=5",
+      "statement": "What will be the output of the following Python code?\n\n    elements = [0, 1, 2]\n    def incr(x):\n        return x+1\n    print(list(map(incr, elements)))",
+      "options": [
+        { "text": "\\[1, 2, 3\\]", "correct": false },
+        { "text": "\\[0, 1, 2\\]", "correct": false },
+        { "text": "Error", "correct": true },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=5",
+      "statement": "What will be the output of the following Python code?\n\n    def to_upper(k):\n        return k.upper()\n    x = ['ab', 'cd']\n    print(list(map(upper, x)))",
+      "options": [
+        { "text": "\\[‘AB’, ‘CD’\\]", "correct": false },
+        { "text": "\\[‘ab’, ‘cd’\\]", "correct": false },
+        { "text": "Error", "correct": true },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=5",
+      "statement": "What will be the output of the following Python code?\n\n    x = ['ab', 'cd']\n    print(map(len, x))",
+      "options": [
+        { "text": "\\[‘ab’, ‘cd’\\]", "correct": false },
+        { "text": "\\[‘2’, ‘2’\\]", "correct": false },
+        { "text": "\\[2, 2\\]", "correct": true },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=5",
+      "statement": "What will be the output of the following Python code?\n\n    x = ['ab', 'cd']\n    print(len(list(map(list, x))))",
+      "options": [
+        { "text": "0", "correct": false },
+        { "text": "2", "correct": false },
+        { "text": "4", "correct": true },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=5",
+      "statement": "What will be the output of the following Python code?\n\n    x = [[0], [1]]\n    print((' '.join(list(map(str, x))),))",
+      "options": [
+        { "text": "(‘\\[0\\] \\[1\\]’,)", "correct": false },
+        { "text": "\\[0\\] \\[1\\]", "correct": false },
+        { "text": "(’01’)", "correct": true },
+        { "text": "01", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=1",
+      "statement": "What is used to take input from the user in Python?",
+      "options": [
+        { "text": "cin", "correct": false },
+        { "text": "scanf()", "correct": false },
+        { "text": "input()", "correct": true },
+        { "text": "<>", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=1",
+      "statement": "What is the name of data type for character in python ?",
+      "options": [
+        { "text": "chr", "correct": false },
+        { "text": "char", "correct": false },
+        { "text": "character", "correct": true },
+        {
+          "text": "python do not have any data type for characters they are treated as string.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=1",
+      "statement": "What error occurs when you execute?  \n\n    apple = mango​",
+      "options": [
+        { "text": "SyntaxError", "correct": false },
+        { "text": "NameError", "correct": false },
+        { "text": "ValueError", "correct": true },
+        { "text": "TypeError", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=1",
+      "statement": "what should the below code print?\n\n    print type(1J)",
+      "options": [
+        { "text": "<type 'complex'>", "correct": false },
+        { "text": "<type 'unicode'>", "correct": false },
+        { "text": "<type 'float'>", "correct": true },
+        { "text": "<type 'dict'>", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=1",
+      "statement": "What is the output of the following code?\n\n    import re\n    sentence = 'Learn Python Programming'\n    test = re.match(r'(.*) (.*?) (.*)', sentence)\n    print(test.group())",
+      "options": [
+        { "text": "Learn Python Programming", "correct": false },
+        { "text": "(Learn, Python, Programming)", "correct": false },
+        { "text": "(‘Learn’, ‘Programming’)", "correct": true },
+        { "text": "‘Learn Python Programming’", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=1",
+      "statement": "What is the output of L\\[2\\] if L = \\[1,2,3\\]?",
+      "options": [
+        { "text": "2", "correct": false },
+        { "text": "3", "correct": false },
+        { "text": "4", "correct": true },
+        { "text": "None of the above.", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=1",
+      "statement": "Which of the following is a valid tuple in Python?",
+      "options": [
+        { "text": "sampleTuple = (1,2,3,4,5)", "correct": false },
+        { "text": "sampleTuple = {1,2,3,4,5}", "correct": false },
+        { "text": "sampleTuple = \\[1,2,3,4,5\\]", "correct": true },
+        { "text": "sampleTuple = /1,2,3,4,5/", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=1",
+      "statement": "Let a = \\[ 1,2,3,4,5 \\] then which of the following is correct ?",
+      "options": [
+        { "text": "print(a\\[:\\]) => \\[1,2,3,4\\]", "correct": false },
+        { "text": "print(a\\[0:\\]) => \\[2,3,4,5\\]", "correct": false },
+        { "text": "print(a\\[:100\\]) => \\[1,2,3,4,5\\]", "correct": true },
+        { "text": "print(a\\[-1:\\]) => \\[1,2\\]", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=1",
+      "statement": "What is the output of the following code?  \n\n    print(1, 2, 3, 4, sep='*')​",
+      "options": [
+        { "text": "1 2 3 4", "correct": false },
+        { "text": "1\\*2\\*3\\*4", "correct": false },
+        { "text": "1234", "correct": true },
+        { "text": "24", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=1",
+      "statement": "What is the output of the following code?\n\n    numbers = [2, 3, 4]\n    print(numbers)",
+      "options": [
+        { "text": "\\[2, 3, 4\\]", "correct": false },
+        { "text": "2 3 4", "correct": false },
+        { "text": "2, 3, 4", "correct": true },
+        { "text": "\\[2 3 4\\]", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=2",
+      "statement": "What will be the output of the following Python code?\n\n    '%x %d' %(255, 255)",
+      "options": [
+        { "text": "Error", "correct": false },
+        { "text": "‘15f, 15f’", "correct": false },
+        { "text": "‘255, 255’", "correct": false },
+        { "text": "‘ff, 255’", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=2",
+      "statement": "What will be the output of the following Python statement?\n\n    >>>\"a\"+\"bc\"",
+      "options": [
+        { "text": "a", "correct": false },
+        { "text": "bc", "correct": false },
+        { "text": "bca", "correct": false },
+        { "text": "abc", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=2",
+      "statement": "What will be the output of the following Python code?\n\n    >>>str1=\"helloworld\"\n    >>>str1[::-1]",
+      "options": [
+        { "text": "hello", "correct": false },
+        { "text": "world", "correct": false },
+        { "text": "dlrowolleh", "correct": false },
+        { "text": "helloworld", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=2",
+      "statement": "What will be the output of the following Python code?\n\n    class father:\n        def __init__(self, param):\n            self.o1 = param\n     \n    class child(father):\n        def __init__(self, param):\n            self.o2 = param\n     \n    >>>obj = child(22)\n    >>>print \"%d %d\" % (obj.o1, obj.o2)",
+      "options": [
+        { "text": "None 22", "correct": false },
+        { "text": "22 None", "correct": false },
+        { "text": "None None", "correct": false },
+        { "text": "Error is generated", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=2",
+      "statement": "What will be the output of the following Python code?\n\n    >>>example = \"snow world\"\n    >>>print(\"%s\" % example[4:7])",
+      "options": [
+        { "text": "wo", "correct": false },
+        { "text": "world", "correct": false },
+        { "text": "sn", "correct": false },
+        { "text": "rl", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=2",
+      "statement": "What will be the output of the following Python code?\n\n    >>>example = \"helle\"\n    >>>example.find(\"e\")",
+      "options": [
+        { "text": "\\-1", "correct": false },
+        { "text": "1", "correct": false },
+        { "text": "0", "correct": false },
+        { "text": "Error", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=2",
+      "statement": "What will be the output of the following Python code?\n\n    >>>example=\"helloworld\"\n    >>>example[::-1].startswith(\"d\")",
+      "options": [
+        { "text": "True", "correct": false },
+        { "text": "\\-1", "correct": false },
+        { "text": "dlrowolleh", "correct": false },
+        { "text": "None of the above", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=2",
+      "statement": "To concatenate two strings to a third what statements are applicable?",
+      "options": [
+        { "text": "s3 = s1 . s2", "correct": false },
+        { "text": "s3 = s1.add(s2)", "correct": false },
+        { "text": "s3 = s1.\\_\\_add\\_\\_(s2)", "correct": false },
+        { "text": "s3 = s1 \\* s2", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=2",
+      "statement": "To retrieve the character at index 3 from string s=”Hello” what command do we execute (multiple answers allowed)?",
+      "options": [
+        { "text": "s\\[\\]", "correct": false },
+        { "text": "s.getitem(3)", "correct": false },
+        { "text": "s.getItem(3)", "correct": false },
+        { "text": "s.\\_\\_getitem\\_\\_(3)", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=2",
+      "statement": "o check whether string s1 contains another string s2, use \\_\\_\\_\\_\\_\\_\\_\\_",
+      "options": [
+        { "text": "s2 in s1", "correct": false },
+        { "text": "s1.\\_\\_contains\\_\\_(s2)", "correct": false },
+        { "text": "si.in(s2)", "correct": false },
+        { "text": "s1.contains(s2)", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=3",
+      "statement": " Is the following Python code valid?\n\n    >>> a,b=1,2,3",
+      "options": [
+        {
+          "text": "Yes, this is an example of tuple unpacking. a=1 and b=2",
+          "correct": false
+        },
+        {
+          "text": "Yes, this is an example of tuple unpacking. a=(1,2) and b=3",
+          "correct": false
+        },
+        {
+          "text": "Yes, this is an example of tuple unpacking. a=1 and b=(2,3)",
+          "correct": false
+        },
+        { "text": "No, too many values to unpack", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=3",
+      "statement": "What will be the output of the following Python code?\n\n    >>> a,b=6,7\n    >>> a,b=b,a\n    >>> a,b",
+      "options": [
+        { "text": "(6,7)", "correct": false },
+        { "text": "(7,6)", "correct": false },
+        { "text": "Invalid syntax", "correct": false },
+        { "text": "Nothing is printed", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=3",
+      "statement": "Is the following Python code valid?\n\n    >>> a=2,3,4,5\n    >>> a",
+      "options": [
+        { "text": "Yes, 2 is printed", "correct": false },
+        { "text": "Yes, \\[2,3,4,5\\] is printed", "correct": false },
+        { "text": "Yes, (2,3,4,5) is printed", "correct": false },
+        { "text": "No, too many values to unpack", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=3",
+      "statement": "Is the following Python code valid?\n\n    >>> a=(1,2,3)\n    >>> b=a.update(4,)",
+      "options": [
+        { "text": "Yes, a=(1,2,3) and b=(1,2,3,4)", "correct": false },
+        { "text": "Yes, a=(1,2,3,4) and b=(1,2,3,4)", "correct": false },
+        {
+          "text": "No because wrong syntax for update() method",
+          "correct": false
+        },
+        { "text": "No because tuples are immutable", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=3",
+      "statement": "Which of the following is not the correct syntax for creating a set?",
+      "options": [
+        { "text": "set(\\[\\[1,2\\],\\[3,4\\]\\])", "correct": false },
+        { "text": "set(\\[1,2,2,3,4\\])", "correct": false },
+        { "text": "set((1,2,3,4))", "correct": false },
+        { "text": "{1,2,3,4}", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=3",
+      "statement": "What will be the output of the following Python code?\n\n    a = [5,5,6,7,7,7]\n    b = set(a)\n    def test(lst):\n        if lst in b:\n            return 1\n        else:\n            return 0\n    for i in  filter(test, a):\n        print(i,end=\" \")",
+      "options": [
+        { "text": "5 5 6", "correct": false },
+        { "text": "5 6 7", "correct": false },
+        { "text": "5 5 6 7 7 7", "correct": false },
+        { "text": "5 6 7 7 7", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=3",
+      "statement": "What will be the output of the following Python code?\n\n    >>> a={5,4}\n    >>> b={1,2,4,5}\n    >>> a<b",
+      "options": [
+        { "text": "True", "correct": false },
+        { "text": "False", "correct": false },
+        { "text": "{1,2}", "correct": false },
+        { "text": "Invalid operation", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=3",
+      "statement": "What will be the output of the following Python code?\n\n    >>> a={4,5,6}\n    >>> b={2,8,6}\n    >>> a-b",
+      "options": [
+        { "text": "{6}", "correct": false },
+        { "text": "{4,5}", "correct": false },
+        {
+          "text": "Error as unsupported operand type for set data type",
+          "correct": false
+        },
+        {
+          "text": "Error as the duplicate item 6 is present in both sets",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=3",
+      "statement": "What will be the output of the following Python code?\n\n    >>> a={3,4,5}\n    >>> b={5,6,7}\n    >>> a|b",
+      "options": [
+        { "text": "{5}", "correct": false },
+        { "text": "{3,4,6,7}", "correct": false },
+        { "text": "{3, 4, 5, 6, 7}", "correct": false },
+        { "text": "Invalid operation", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=3",
+      "statement": "What will be the output of the following Python code?\n\n    s=set()\n    type(s)",
+      "options": [
+        { "text": "`<class ‘set’>`", "correct": false },
+        { "text": "`<’set’>`", "correct": false },
+        { "text": "class set", "correct": false },
+        { "text": "set", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=4",
+      "statement": "What will be the output of the following Python code?\n\n    x = [34, 56]\n    print((''.join(list(map(str, x)))),)",
+      "options": [
+        { "text": "3456", "correct": true },
+        { "text": "(3456)", "correct": false },
+        { "text": "(‘3456’)", "correct": false },
+        { "text": "(‘3456’,)", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=4",
+      "statement": "What will be the output of the following Python code?\n\n    x = 'abcd'\n    print(list(map(list, x)))",
+      "options": [
+        { "text": "\\[‘abcd’\\]", "correct": true },
+        { "text": "\\[‘a’, ‘b’, ‘c’, ‘d’\\]", "correct": false },
+        {
+          "text": "\\[\\[‘a’\\], \\[‘b’\\], \\[‘c’\\], \\[‘d’\\]\\]",
+          "correct": false
+        },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=4",
+      "statement": "Is Python code compiled or interpreted?",
+      "options": [
+        {
+          "text": "Python code is both compiled and interpreted",
+          "correct": true
+        },
+        {
+          "text": "Python code is neither compiled nor interpreted",
+          "correct": false
+        },
+        { "text": "Python code is only interpreted", "correct": false },
+        { "text": "Python code is only compiled", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=4",
+      "statement": "Which of these is false about a package?",
+      "options": [
+        {
+          "text": "A package can have subfolders and modules",
+          "correct": true
+        },
+        {
+          "text": "Each import package need not introduce a namespace",
+          "correct": false
+        },
+        {
+          "text": "import folder.subfolder.mod1 imports packages",
+          "correct": false
+        },
+        {
+          "text": "from folder.subfolder.mod1 import objects imports packages",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=4",
+      "statement": "Which of the following is not an advantage of using modules?",
+      "options": [
+        { "text": "Provides a means of dividing up tasks", "correct": true },
+        {
+          "text": "Provides a means of reuse of program code",
+          "correct": false
+        },
+        {
+          "text": "Provides a means of reducing the size of the program",
+          "correct": false
+        },
+        {
+          "text": "Provides a means of testing individual parts of the program",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=4",
+      "statement": "\\_\\_\\_\\_\\_\\_ is a string literal denoted by triple quotes for providing the specifications of certain program elements.",
+      "options": [
+        { "text": "Interface", "correct": true },
+        { "text": "Client", "correct": false },
+        { "text": "Modularity", "correct": false },
+        { "text": "Docstring", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=4",
+      "statement": "Which of the following is true about top-down design process?",
+      "options": [
+        {
+          "text": "Only the design of the program is addressed",
+          "correct": true
+        },
+        {
+          "text": "Only the details of the program are addressed",
+          "correct": false
+        },
+        {
+          "text": "The overall design of the program is addressed before the details",
+          "correct": false
+        },
+        {
+          "text": "The details of a program design are addressed before the overall design",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=4",
+      "statement": "What will be the output of the following Python code?\n\n    from math import factorial\n    print(math.factorial(5))",
+      "options": [
+        { "text": "120", "correct": true },
+        { "text": "Nothing is printed", "correct": false },
+        {
+          "text": "Error, method factorial doesn’t exist in math module",
+          "correct": false
+        },
+        {
+          "text": "Error, the statement should be: print(factorial(5))",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=4",
+      "statement": "What will be the output of print(math.copysign(3, -1))?",
+      "options": [
+        { "text": "\\-3.0", "correct": true },
+        { "text": "\\-3", "correct": false },
+        { "text": "1.0", "correct": false },
+        { "text": "1", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=4",
+      "statement": "What is math.factorial(4.0)?",
+      "options": [
+        { "text": "1", "correct": true },
+        { "text": "24", "correct": false },
+        { "text": "Error", "correct": false },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=5",
+      "statement": "What will be the output of the following Python code?\n\n    s = 'welcome home'\n    m = re.match(r'(.*)(.*?)', s)\n    print(m.group())",
+      "options": [
+        { "text": "\\[‘welcome’ // ‘home’ \\]", "correct": false },
+        { "text": "\\[‘welcome’, ‘home’\\]", "correct": false },
+        { "text": "(‘welcome’, ‘home’)", "correct": false },
+        { "text": "welcome home", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=5",
+      "statement": "What will be the output of the following Python code?\n\n    re.match('sp(.*)am', 'spam')",
+      "options": [
+        {
+          "text": "    <_sre.SRE_Match object; span=(1, 4), match=’spam’>",
+          "correct": false
+        },
+        {
+          "text": "    <_sre.SRE_Match object; span=(0, 4), match=’spam’>",
+          "correct": false
+        },
+        { "text": "No output", "correct": false },
+        { "text": "None of the above", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=5",
+      "statement": "Which of the codes shown below results in a match?",
+      "options": [
+        {
+          "text": "re.match(‘George(?=Washington)’, ‘George’)",
+          "correct": false
+        },
+        {
+          "text": "re.match(‘George(?=Washington)’, ‘George Washington’)",
+          "correct": false
+        },
+        {
+          "text": "re.match(‘George(?=Washington)’, ‘GeorgeWashington’)",
+          "correct": false
+        },
+        {
+          "text": "re.match(‘George(?=Washington)’, ‘Georgewashington’)",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=5",
+      "statement": "Which of the following statements regarding the output of the function re.match is incorrect?",
+      "options": [
+        { "text": "‘p{4}, q’ does not match ‘pppq’", "correct": false },
+        { "text": "‘pq\\*’ will match ‘pq’", "correct": false },
+        { "text": "‘pq?’ matches ‘p’", "correct": false },
+        { "text": "‘pq+’ matches ‘p’", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=5",
+      "statement": "What will be the output of the following Python code?\n\n    a = re.compile('0-9')\n    a.findall('3 trees')",
+      "options": [
+        { "text": "\\[ \\]", "correct": false },
+        { "text": "\\[‘3’\\]", "correct": false },
+        { "text": "\\[‘trees’\\]", "correct": false },
+        { "text": "Error", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=5",
+      "statement": "Which of the following lines of code will not show a match?",
+      "options": [
+        { "text": "\\>>> re.match(‘ab\\*’, ‘a’)", "correct": false },
+        { "text": "\\>>> re.match(‘ab\\*’, ‘ba’)", "correct": false },
+        { "text": "\\>>> re.match(‘ab\\*’, ‘ab’)", "correct": false },
+        { "text": "\\>>> re.match(‘ab\\*’, ‘abb’)", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=5",
+      "statement": "What will be the output of the following Python code?\n\n    re.sub('Y', 'X', 'AAAAAA', count=2)",
+      "options": [
+        { "text": "‘AAAAAA’", "correct": false },
+        { "text": "‘YXAAAA’", "correct": false },
+        { "text": "(‘AAAAAA’)", "correct": false },
+        { "text": "(‘YXAAAA’)", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=5",
+      "statement": "To open a file c:\\\\scores.txt for reading, we use \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_",
+      "options": [
+        { "text": "infile = open(“c:\\\\scores.txt”, “r”)", "correct": false },
+        {
+          "text": "infile = open(“c:\\\\\\\\scores.txt”, “r”)",
+          "correct": false
+        },
+        {
+          "text": "infile = open(file = “c:\\\\scores.txt”, “r”)",
+          "correct": false
+        },
+        {
+          "text": "infile = open(file = “c:\\\\\\\\scores.txt”, “r”)",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=5",
+      "statement": "To open a file c:\\\\scores.txt for writing, we use \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_",
+      "options": [
+        {
+          "text": "outfile = open(file = “c:\\\\\\\\scores.txt”, “w”)",
+          "correct": false
+        },
+        {
+          "text": "outfile = open(file = “c:\\\\scores.txt”, “w”)",
+          "correct": false
+        },
+        { "text": "outfile = open(“c:\\\\scores.txt”, “w”)", "correct": false },
+        {
+          "text": "outfile = open(“c:\\\\\\\\scores.txt”, “w”)",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=5",
+      "statement": "What will be the output of the following Python code?\n\n    f = None\n    for i in range (5):\n        with open(\"data.txt\", \"w\") as f:\n            if i > 2:\n                break\n    print(f.closed)",
+      "options": [
+        { "text": "True", "correct": false },
+        { "text": "False", "correct": false },
+        { "text": "None", "correct": false },
+        { "text": "Error", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=1",
+      "statement": "What is the value of colors\\[2\\]?  \n\n    colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']​",
+      "options": [
+        { "text": "orange", "correct": false },
+        { "text": "yellow", "correct": true },
+        { "text": "indigo", "correct": false },
+        { "text": "blue", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=1",
+      "statement": "What is the output of the following code?  \n\n    print(3 >= 3)​",
+      "options": [
+        { "text": "True", "correct": false },
+        { "text": "False", "correct": true },
+        { "text": "3 >= 3", "correct": false },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=1",
+      "statement": "what is the output of the following code?  \n\n    print(type([1,2]))​",
+      "options": [
+        { "text": "<class 'tuple'>", "correct": false },
+        { "text": "<class 'int'>", "correct": true },
+        { "text": "<class 'list'>", "correct": false },
+        { "text": "<class 'complex'>", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=1",
+      "statement": "What is the output when following code is executed ?  \n\n    >>> str1 = 'hello'\n    >>> str2 = ','\n    >>> str3 = 'world'\n    >>> str1[-1:]​",
+      "options": [
+        { "text": "olleh", "correct": false },
+        { "text": "hello", "correct": true },
+        { "text": "h", "correct": false },
+        { "text": "o", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=1",
+      "statement": "What is the output when following code is executed ?\n\n    >>>str1=\"helloworld\"\n    >>>str1[::-1]",
+      "options": [
+        { "text": "dlrowolleh", "correct": false },
+        { "text": "hello", "correct": true },
+        { "text": "world", "correct": false },
+        { "text": "helloworld", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=1",
+      "statement": "What will be printed:  \n\n    def f(a, b):\n     print(a, b)\n    f(b=1, *(2,))​",
+      "options": [
+        { "text": "1 2", "correct": false },
+        { "text": "2 1", "correct": true },
+        { "text": "This code causes TypeError", "correct": false },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=1",
+      "statement": "What is inheritance used for?",
+      "options": [
+        {
+          "text": "To give a class the methods and variables of an interface",
+          "correct": false
+        },
+        { "text": "To create a new object", "correct": true },
+        {
+          "text": "To give an interface the methods and variables of a class",
+          "correct": false
+        },
+        {
+          "text": "To give a class the variables but not the methods",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=1",
+      "statement": "What will be placed in a?\n\n    a = [1,2,3]\n    a[-3:-1] = 10,20,30,40",
+      "options": [
+        { "text": "IndexError", "correct": false },
+        { "text": "\\[10, 20, 30, 40, 3\\]", "correct": true },
+        { "text": "\\[10, 20, 30, 40, 2, 3\\]", "correct": false },
+        { "text": "\\[10, 20, 30, 40\\]", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=1",
+      "statement": "What does this function return?  \n\n    def f(a,b):\n     return a,b\n    f(**{'b':2,'a':1})​",
+      "options": [
+        { "text": "(1, 2)", "correct": false },
+        { "text": "(2, 1)", "correct": true },
+        {
+          "text": "It causes TypeError: f() got an unexpected keyword argument",
+          "correct": false
+        },
+        { "text": "All of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=1",
+      "statement": "Which of these is not a Python datatype?",
+      "options": [
+        { "text": "int", "correct": false },
+        { "text": "long", "correct": true },
+        { "text": "decimal", "correct": false },
+        { "text": "float", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=2",
+      "statement": "What will be the output of the following Python code?\n\n    class Count:\n        def __init__(self, count = 0):\n           self.__count = count\n     \n    c1 = Count(2)\n    c2 = Count(2)\n    print(id(c1) == id(c2), end = \" \")\n     \n    s1 = \"Good\"\n    s2 = \"Good\"\n    print(id(s1) == id(s2))",
+      "options": [
+        { "text": "True True", "correct": false },
+        { "text": "False False", "correct": false },
+        { "text": "True False", "correct": false },
+        { "text": "False True", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=2",
+      "statement": "What function do you use to read a string?",
+      "options": [
+        { "text": "input(“Enter a string”)", "correct": false },
+        { "text": "enter(“Enter a string”)", "correct": false },
+        { "text": "eval(input(“Enter a string”))", "correct": false },
+        { "text": "eval(enter(“Enter a string”))", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=2",
+      "statement": "What will be the output of the following Python code?\n\n    print(\"Hello {name1} and {name2}\".format(name1='foo', name2='bin'))",
+      "options": [
+        { "text": "Hello foo and bin", "correct": false },
+        { "text": "Hello and", "correct": false },
+        { "text": "Hello {name1} and {name2}", "correct": false },
+        { "text": "Error", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=2",
+      "statement": "What will be the output of the following Python code?\n\n    print(\"Hello {0[0]} and {0[1]}\".format(('foo', 'bin')))",
+      "options": [
+        { "text": "Error", "correct": false },
+        { "text": "Hello foo and bin", "correct": false },
+        { "text": "Hello (‘foo’, ‘bin’) and (‘foo’, ‘bin’)", "correct": false },
+        { "text": "None of the above", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=2",
+      "statement": "What will be the output of the following Python code snippet?\n\n    print('{:,}'.format(1112223334))",
+      "options": [
+        { "text": "1112223334", "correct": false },
+        { "text": "111,222,333,4", "correct": false },
+        { "text": "1,112,223,334", "correct": false },
+        { "text": "Error", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=2",
+      "statement": "What will be the output of the following Python code?\n\n    print('{0:.2%}'.format(1/3))",
+      "options": [
+        { "text": "0.33", "correct": false },
+        { "text": "0.33%", "correct": false },
+        { "text": "33%", "correct": false },
+        { "text": "33.33%", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=2",
+      "statement": "What will be the output of the following Python code?\n\n    print('a B'.isalpha())",
+      "options": [
+        { "text": "True", "correct": false },
+        { "text": "False", "correct": false },
+        { "text": "None", "correct": false },
+        { "text": "Error", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=2",
+      "statement": "What will be the output of the following Python code snippet?\n\n    print('my_string'.isidentifier())",
+      "options": [
+        { "text": "True", "correct": false },
+        { "text": "False", "correct": false },
+        { "text": "None", "correct": false },
+        { "text": "Error", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=2",
+      "statement": "What will be the output of the following Python code snippet?\n\n    print('cd'.partition('cd'))",
+      "options": [
+        { "text": "(”)", "correct": false },
+        { "text": "(‘cd’)", "correct": false },
+        { "text": "(‘cd’, ”, ”)", "correct": false },
+        { "text": "(”, ‘cd’, ”)", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=2",
+      "statement": "What will be the output of the following Python code snippet?\n\n    print('abcdef12'.replace('cd', '12'))",
+      "options": [
+        { "text": "ab12ef12", "correct": false },
+        { "text": "abcdef12", "correct": false },
+        { "text": "ab12efcd", "correct": false },
+        { "text": "None of the above", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=3",
+      "statement": "Which of the following lines of code will result in an error?",
+      "options": [
+        { "text": "s={abs}", "correct": false },
+        { "text": "s={san}", "correct": true },
+        { "text": "s={4, ‘abc’, (1,2)}", "correct": false },
+        { "text": "s={2, 2.2, 3, ‘xyz’}", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=3",
+      "statement": "Write a list comprehension for number and its cube for:\n\n    l=[1, 2, 3, 4, 5, 6, 7, 8, 9]",
+      "options": [
+        { "text": "\\[x\\*\\*3 for x in l\\]", "correct": false },
+        { "text": "\\[x^3 for x in l\\]", "correct": true },
+        { "text": "\\[x\\*\\*3 in l\\]", "correct": false },
+        { "text": "\\[x^3 in l\\]", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=3",
+      "statement": "What will be the output of the following Python code?\n\n    s1={3, 4}\n    s2={1, 2}\n    s3=set()\n    i=0\n    j=0\n    for i in s1:\n        for j in s2:\n            s3.add((i,j))\n            i+=1\n            j+=1\n    print(s3)",
+      "options": [
+        { "text": "Error", "correct": false },
+        { "text": "{(3, 4), (1, 2)}", "correct": true },
+        { "text": "{(3, 1), (4, 2)}", "correct": false },
+        { "text": "{(4, 2), (3, 1), (4, 1), (5, 2)}", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=3",
+      "statement": "The \\_\\_\\_\\_ function removes the first element of a set and the last element of a list.",
+      "options": [
+        { "text": "pop", "correct": false },
+        { "text": "remove", "correct": true },
+        { "text": "dispose", "correct": false },
+        { "text": "discard", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=3",
+      "statement": "If we have two sets, s1 and s2, and we want to check if all the elements of s1 are present in s2 or not, we can use the function:",
+      "options": [
+        { "text": "s1.isset(s2)", "correct": false },
+        { "text": "s2.issubset(s1)", "correct": true },
+        { "text": "s2.issuperset(s1)", "correct": false },
+        { "text": "s1.issuperset(s2)", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=3",
+      "statement": "What will be the output of the following Python code snippet?\n\n    >>> a={1:\"A\",2:\"B\",3:\"C\"}\n    >>> del a",
+      "options": [
+        { "text": "del deletes the entire dictionary", "correct": false },
+        { "text": "del deletes the values in the dictionary", "correct": true },
+        { "text": "del deletes the keys in the dictionary", "correct": false },
+        {
+          "text": "method del doesn’t exist for the dictionary",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=3",
+      "statement": "What will be the output of the following Python code snippet?\n\n    total={}\n    def insert(items):\n        if items in total:\n            total[items] += 1\n        else:\n            total[items] = 1\n    insert('Apple')\n    insert('Ball')\n    insert('Apple')\n    print (len(total))",
+      "options": [
+        { "text": "0", "correct": false },
+        { "text": "1", "correct": true },
+        { "text": "2", "correct": false },
+        { "text": "3", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=3",
+      "statement": "What will be the output of the following Python code snippet?\n\n    numbers = {}\n    letters = {}\n    comb = {}\n    numbers[1] = 56\n    numbers[3] = 7\n    letters[4] = 'B'\n    comb['Numbers'] = numbers\n    comb['Letters'] = letters\n    print(comb)",
+      "options": [
+        {
+          "text": "{‘Numbers’: {1: 56}, ‘Letters’: {4: ‘B’}}",
+          "correct": false
+        },
+        {
+          "text": "{‘Numbers’: {1: 56, 3: 7}, ‘Letters’: {4: ‘B’}}",
+          "correct": true
+        },
+        { "text": "‘Numbers’: {1: 56, 3: 7}", "correct": false },
+        {
+          "text": "Error, dictionary in a dictionary can’t exist",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=3",
+      "statement": "What will be the output of the following Python code snippet?\n\n    test = {1:'A', 2:'B', 3:'C'}\n    del test[1]\n    test[1] = 'D'\n    del test[2]\n    print(len(test))",
+      "options": [
+        { "text": "2", "correct": false },
+        { "text": "1", "correct": true },
+        { "text": "0", "correct": false },
+        {
+          "text": "Error as the key-value pair of 1:’A’ is already deleted",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=3",
+      "statement": "What will be the output of the following Python code snippet?\n\n    a={}\n    a['a']=1\n    a['b']=[2,3,4]\n    print(a)",
+      "options": [
+        { "text": "{‘b’: \\[2\\], ‘a’: 1}", "correct": false },
+        { "text": "{‘b’: \\[2\\], ‘a’: \\[3\\]}", "correct": true },
+        { "text": "{‘b’: \\[2, 3, 4\\], ‘a’: 1}", "correct": false },
+        { "text": "Exception is thrown", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=4",
+      "statement": "What will be the output of the following Python code?\n\n    import datetime\n    d=datetime.date(2016,7,24)\n    print(d)",
+      "options": [
+        { "text": "Error", "correct": false },
+        { "text": "24-7-2017", "correct": false },
+        { "text": "2017-7-24", "correct": false },
+        { "text": "2017-07-24", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=4",
+      "statement": "What will be the output of the following Python code if the system date is 18th August, 2016?\n\n    tday=datetime.date.today()\n    print(tday.month())",
+      "options": [
+        { "text": "8", "correct": false },
+        { "text": "08", "correct": false },
+        { "text": "Aug", "correct": false },
+        { "text": "August", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=4",
+      "statement": "Which of the following will throw an error if used after the following Python code?\n\n    tday=datetime.date.today()\n    bday=datetime.date(2017,9,18)\n    t_day=bday-tday",
+      "options": [
+        { "text": "print(t\\_day.max)", "correct": false },
+        { "text": "print(t\\_day.months)", "correct": false },
+        { "text": "print(t\\_day.seconds)", "correct": false },
+        { "text": "print(t\\_day.resolution)", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=4",
+      "statement": "To include the use of functions which are present in the random library, we must use the option:",
+      "options": [
+        { "text": "import random", "correct": false },
+        { "text": "import.random", "correct": false },
+        { "text": "random.random", "correct": false },
+        { "text": "random.h", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=4",
+      "statement": "What will be the output of the following Python code?\n\n    import random\n    random.choice(2,3,4)",
+      "options": [
+        { "text": "3 only", "correct": false },
+        { "text": "Either 2, 3 or 4", "correct": false },
+        { "text": "An integer other than 2, 3 and 4", "correct": false },
+        { "text": "Error", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=4",
+      "statement": "What will be the output of the following Python function (random module has already been imported)?\n\n    random.choice('sun')",
+      "options": [
+        { "text": "u", "correct": false },
+        { "text": "sun", "correct": false },
+        { "text": "either s, u or n", "correct": false },
+        { "text": "Error", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=4",
+      "statement": "What will be the output of the following Python code?\n\n    random.seed(3)\n    random.randint(1,5)\n    2\n    random.seed(3)\n    random.randint(1,5)",
+      "options": [
+        { "text": "2", "correct": false },
+        { "text": "3", "correct": false },
+        {
+          "text": "Any integer between 1 and 5, including 1 and 5",
+          "correct": false
+        },
+        {
+          "text": "Any integer between 1 and 5, excluding 1 and 5",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=4",
+      "statement": "What will be the output of the following Python code?\n\n    random.randrange(1,100,10)",
+      "options": [
+        { "text": "32", "correct": false },
+        { "text": "67", "correct": false },
+        { "text": "91", "correct": false },
+        { "text": "180", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=4",
+      "statement": "Which of the following functions can help us to find the version of python that we are currently working on?",
+      "options": [
+        { "text": "sys.version", "correct": false },
+        { "text": "sys.version()", "correct": false },
+        { "text": "sys.version(0)", "correct": false },
+        { "text": "sys.version(1)", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=4",
+      "statement": "What will be the output of the following Python code, if the code is run on Windows operating system?\n\n    import sys\n    if sys.platform[:2]== 'wi':\n    \tprint(\"Hello\")",
+      "options": [
+        { "text": "Error", "correct": false },
+        { "text": "Hello", "correct": false },
+        { "text": "Junk value", "correct": false },
+        { "text": "No output", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=5",
+      "statement": "To read the remaining lines of the file from a file object infile, we use \\_\\_\\_\\_\\_\\_\\_",
+      "options": [
+        { "text": "infile.read(2)", "correct": false },
+        { "text": "infile.read()", "correct": false },
+        { "text": "infile.readline()", "correct": false },
+        { "text": "infile.readlines()", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=5",
+      "statement": "What will be the output of the following Python code? (If entered name is freetimelearn)\n\n    import sys\n    print 'Enter your name: ',\n    name = ''\n    while True:\n       c = sys.stdin.read(1)\n       if c == '\\n':\n          break\n       name = name + c\n     \n    print 'Your name is:', name",
+      "options": [
+        { "text": "freetimelearn", "correct": false },
+        { "text": "freetimelearn, freetimelearn", "correct": false },
+        { "text": "Fre", "correct": false },
+        { "text": "None of the above", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=5",
+      "statement": "Which of the following mode will refer to binary data?",
+      "options": [
+        { "text": "r", "correct": false },
+        { "text": "w", "correct": false },
+        { "text": "b", "correct": false },
+        { "text": "+", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=5",
+      "statement": "What will be the output of the following Python code?\n\n    fo = open(\"foo.txt\", \"wb\")\n    print \"Name of the file: \", fo.name\n    fo.flush()\n    fo.close()",
+      "options": [
+        { "text": "Runtime Error", "correct": false },
+        { "text": "Compilation Error", "correct": false },
+        { "text": "No Output", "correct": false },
+        { "text": "Flushes the file when closing them", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=5",
+      "statement": "Correct syntax of file.writelines() is?",
+      "options": [
+        { "text": "fileObject.writelines(sequence)", "correct": false },
+        { "text": "file.writelines(sequence)", "correct": false },
+        { "text": "fileObject.writelines()", "correct": false },
+        { "text": "None of the above", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=5",
+      "statement": "How do you get the name of a file from a file object (fp)?",
+      "options": [
+        { "text": "fp.file(name)", "correct": false },
+        { "text": "fp.name", "correct": false },
+        { "text": "fp.\\_\\_name\\_\\_()", "correct": false },
+        { "text": "self.\\_\\_name\\_\\_(fp)", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=5",
+      "statement": "How do you close a file object (fp)?",
+      "options": [
+        { "text": "close(fp)", "correct": false },
+        { "text": "fclose(fp)", "correct": false },
+        { "text": "fp.close()", "correct": false },
+        { "text": "fp.\\_\\_close\\_\\_()", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=5",
+      "statement": "How do you change the file position to an offset value from the start?",
+      "options": [
+        { "text": "fp.seek(offset, 0)", "correct": false },
+        { "text": "fp.seek(offset, 1)", "correct": false },
+        { "text": "fp.seek(offset, 2)", "correct": false },
+        { "text": "None of the above", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=5",
+      "statement": "Which function is called when the following Python code is executed?\n\n    f = foo()\n    format(f)",
+      "options": [
+        { "text": "str()", "correct": false },
+        { "text": "\\_\\_str\\_\\_()", "correct": false },
+        { "text": "format()", "correct": false },
+        { "text": "\\_\\_format\\_\\_()", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=5",
+      "statement": "Let A and B be objects of class Foo. Which functions are called when print(A + B) is executed?",
+      "options": [
+        { "text": "\\_\\_str\\_\\_(), \\_\\_sum\\_\\_()", "correct": false },
+        { "text": "\\_\\_sum\\_\\_(), \\_\\_str\\_\\_()", "correct": false },
+        { "text": "\\_\\_str\\_\\_(), \\_\\_add\\_\\_()", "correct": false },
+        { "text": "\\_\\_add\\_\\_(), \\_\\_str\\_\\_()", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=1",
+      "statement": "Which is not a valid Python loop?",
+      "options": [
+        { "text": "for loop", "correct": false },
+        { "text": "while loop", "correct": false },
+        { "text": "Both A and B", "correct": false },
+        { "text": "iter loop", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=1",
+      "statement": "What is a nested loop?",
+      "options": [
+        { "text": "a loop without condition", "correct": false },
+        { "text": "a loop called from an object", "correct": false },
+        { "text": "a loop inside a loop", "correct": false },
+        { "text": "a recursive loop", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=1",
+      "statement": "Which of the following is a valid way to start a while loop in Python?",
+      "options": [
+        { "text": "while loop a < 10", "correct": false },
+        { "text": "while a < 10:", "correct": false },
+        { "text": "while(a < 10)", "correct": false },
+        { "text": "while loop a < 10:", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=1",
+      "statement": "How to access list elements?",
+      "options": [
+        { "text": "print l->get(0)", "correct": false },
+        { "text": "print l.item(0)", "correct": false },
+        { "text": "print l(0)", "correct": false },
+        { "text": "print l\\[0\\]", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=1",
+      "statement": "What gets printed?  \n\n    nums = set([1,1,2,3,3,3,4])\n    print(len(nums))​",
+      "options": [
+        { "text": "1", "correct": false },
+        { "text": "2", "correct": false },
+        { "text": "4", "correct": false },
+        { "text": "5", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=1",
+      "statement": "How do you create a variable “a” that is equal to 2?",
+      "options": [
+        { "text": "var a = 2", "correct": false },
+        { "text": "int a = 2", "correct": false },
+        { "text": "a = 2", "correct": false },
+        { "text": "variable a = 2", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=1",
+      "statement": "Which of the following is not a valid assignment operator?",
+      "options": [
+        { "text": "+=", "correct": false },
+        { "text": "\\-=", "correct": false },
+        { "text": "\\*=", "correct": false },
+        { "text": "X=", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=1",
+      "statement": "Which one of the following is a valid Python if statement",
+      "options": [
+        { "text": " if a >= 22:", "correct": false },
+        { "text": "if (a >= 22)", "correct": false },
+        { "text": "if (a => 22)", "correct": false },
+        { "text": "if a >= 22", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=1",
+      "statement": "The output of the code shown below:\n\n    import time\n    time.asctime()",
+      "options": [
+        { "text": "Current date only", "correct": false },
+        { "text": "UTC time", "correct": false },
+        { "text": "Current date and time", "correct": false },
+        { "text": "Current time only", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=1",
+      "statement": "Which of the following is a valid way to start a function in Python?",
+      "options": [
+        { "text": "def someFunction():", "correct": false },
+        { "text": "function someFunction()", "correct": false },
+        { "text": "def someFunction()", "correct": false },
+        { "text": "function someFunction():", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=2",
+      "statement": "What will be the output of the following Python code snippet?\n\n    print('abcdefcdghcd'.split('cd'))",
+      "options": [
+        { "text": "\\[‘ab’, ‘ef’, ‘gh’\\]", "correct": false },
+        { "text": "\\[‘ab’, ‘ef’, ‘gh’, ”\\]", "correct": true },
+        { "text": "(‘ab’, ‘ef’, ‘gh’)", "correct": false },
+        { "text": "(‘ab’, ‘ef’, ‘gh’, ”)", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=2",
+      "statement": "Which of the following commands will create a list?",
+      "options": [
+        { "text": " list1 = \\[\\]", "correct": false },
+        { "text": " list1 = list()", "correct": true },
+        { "text": "list1 = list(\\[1, 2, 3\\])", "correct": false },
+        { "text": "all of the mentioned", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=2",
+      "statement": "Suppose list1 is \\[2445,133,12454,123\\], what is max(list1)?",
+      "options": [
+        { "text": "12454", "correct": false },
+        { "text": "2445", "correct": true },
+        { "text": "123", "correct": false },
+        { "text": "133", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=2",
+      "statement": "To shuffle the list(say list1) what function do we use?",
+      "options": [
+        { "text": "shuffle(list1)", "correct": false },
+        { "text": "list1.shuffle()", "correct": true },
+        { "text": "random.shuffle(list1)", "correct": false },
+        { "text": "random.shuffleList(list1)", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=2",
+      "statement": "Suppose list1 is \\[2, 33, 222, 14, 25\\], What is list1\\[:-1\\]?",
+      "options": [
+        { "text": "25", "correct": false },
+        { "text": "\\[2, 33, 222, 14\\]", "correct": true },
+        { "text": "\\[25, 14, 222, 33, 2\\]", "correct": false },
+        { "text": "Error", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=2",
+      "statement": "Suppose list1 = \\[0.5 \\* x for x in range(0, 4)\\], list1 is:",
+      "options": [
+        { "text": "\\[0, 1, 2, 3\\]", "correct": false },
+        { "text": "\\[0, 1, 2, 3, 4\\]", "correct": true },
+        { "text": "\\[0.0, 0.5, 1.0, 1.5\\]", "correct": false },
+        { "text": "\\[0.0, 0.5, 1.0, 1.5, 2.0\\]", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=2",
+      "statement": "What will be the output of the following Python code?\n\n    >>>list1 = [11, 2, 23]\n    >>>list2 = [11, 2, 2]\n    >>>list1 < list2 is",
+      "options": [
+        { "text": "True", "correct": false },
+        { "text": "False", "correct": true },
+        { "text": "Error", "correct": false },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=2",
+      "statement": "To remove string “hello” from list1, we use which command?",
+      "options": [
+        { "text": "list1.remove(“hello”)", "correct": false },
+        { "text": "list1.remove(hello)", "correct": true },
+        { "text": "list1.removeAll(“hello”)", "correct": false },
+        { "text": "list1.removeOne(“hello”)", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=2",
+      "statement": "Suppose list1 is \\[3, 4, 5, 20, 5, 25, 1, 3\\], what is list1.count(5)?",
+      "options": [
+        { "text": "0", "correct": false },
+        { "text": "1", "correct": true },
+        { "text": "2", "correct": false },
+        { "text": "3", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=2",
+      "statement": "Suppose listExample is \\[3, 4, 5, 20, 5, 25, 1, 3\\], what is list1 after listExample.extend(\\[34, 5\\])?",
+      "options": [
+        { "text": "\\[3, 4, 5, 20, 5, 25, 1, 3, 34, 5\\]", "correct": false },
+        { "text": "\\[1, 3, 3, 4, 5, 5, 20, 25, 34, 5\\]", "correct": true },
+        { "text": "\\[1, 3, 4, 5, 20, 5, 25, 3, 34, 5\\]", "correct": false },
+        { "text": "\\[25, 20, 5, 5, 4, 3, 3, 1, 34, 5\\]", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=3",
+      "statement": "What will be the output of the following Python code snippet?\n\n    >>>import collections\n    >>> b=collections.Counter([2,2,3,4,4,4])\n    >>> b.most_common(1)",
+      "options": [
+        { "text": "{3:1}", "correct": false },
+        { "text": "{4:3}", "correct": false },
+        { "text": "\\[(4, 3)\\]", "correct": true },
+        { "text": "Counter({4: 3, 2: 2, 3: 1})", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=3",
+      "statement": "What will be the output of the following Python code snippet?\n\n    >>> import collections\n    >>> a=collections.Counter([2,2,3,3,3,4])\n    >>> b=collections.Counter([2,2,3,4,4])\n    >>> a|b",
+      "options": [
+        { "text": "Counter({3: 3, 2: 2, 4: 2})", "correct": false },
+        { "text": "Counter({2: 2, 3: 1, 4: 1})", "correct": false },
+        { "text": "Counter({3: 2})", "correct": true },
+        { "text": "Counter({4: 1})", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=3",
+      "statement": "The function pow(x,y,z) is evaluated as:",
+      "options": [
+        { "text": "(x\\*\\*y)\\*\\*z", "correct": false },
+        { "text": "(x\\*\\*y) / z", "correct": false },
+        { "text": "(x\\*\\*y) % z", "correct": true },
+        { "text": "(x\\*\\*y)\\*z", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=3",
+      "statement": "What will be the output of the following Python function?\n\n    any([2>8, 4>2, 1>2])",
+      "options": [
+        { "text": "True", "correct": false },
+        { "text": "False", "correct": false },
+        { "text": "`4>2`", "correct": true },
+        { "text": "Error", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=3",
+      "statement": "What will be the output of the following Python function?\n\n    min(max(False,-3,-4), 2,7)",
+      "options": [
+        { "text": "2", "correct": false },
+        { "text": "\\-3", "correct": false },
+        { "text": "\\-4", "correct": true },
+        { "text": "False", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=3",
+      "statement": "Suppose there is a list such that: l=\\[2,3,4\\]. If we want to print this list in reverse order, which of the following methods should be used?",
+      "options": [
+        { "text": "list(reversed(l))", "correct": false },
+        { "text": "list(reverse\\[(l)\\])", "correct": false },
+        { "text": "reversed(l)", "correct": true },
+        { "text": "reverse(l)", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=3",
+      "statement": "Which of the following functions does not throw an error?",
+      "options": [
+        { "text": "ord()", "correct": false },
+        { "text": "ord(‘ ‘)", "correct": false },
+        { "text": "ord(”)", "correct": true },
+        { "text": "ord(“”)", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=3",
+      "statement": "What will be the output of the following Python code?\n\n    def printMax(a, b):\n        if a > b:\n            print(a, 'is maximum')\n        elif a == b:\n            print(a, 'is equal to', b)\n        else:\n            print(b, 'is maximum')\n    printMax(3, 4)",
+      "options": [
+        { "text": "3", "correct": false },
+        { "text": "4", "correct": false },
+        { "text": "4 is maximum", "correct": true },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=3",
+      "statement": "What will be the output of the following Python code?\n\n    def maximum(x, y):\n        if x > y:\n            return x\n        elif x == y:\n            return 'The numbers are equal'\n        else:\n            return y\n     \n    print(maximum(2, 3))",
+      "options": [
+        { "text": "2", "correct": false },
+        { "text": "3", "correct": false },
+        { "text": "The numbers are equal", "correct": true },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=3",
+      "statement": "Which are the advantages of functions in python?",
+      "options": [
+        { "text": "Reducing duplication of code", "correct": false },
+        { "text": "Improving clarity of the code", "correct": false },
+        {
+          "text": "Decomposing complex problems into simpler pieces",
+          "correct": true
+        },
+        { "text": "All of the mentioned", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=4",
+      "statement": "What will be the output of the following Python code?\n\n    import sys\n    eval(sys.stdin.readline())\n    \"India\"",
+      "options": [
+        { "text": "India", "correct": false },
+        { "text": "India5", "correct": false },
+        { "text": "‘India\\\\n’", "correct": false },
+        { "text": "‘India’", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=4",
+      "statement": "What will be the output of the following Python code?\n\n    import sys\n    sys.stderr.write(“hello”)",
+      "options": [
+        { "text": "hello", "correct": false },
+        { "text": "‘hello’", "correct": false },
+        { "text": "hello5", "correct": false },
+        { "text": "‘hello\\\\n’", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=4",
+      "statement": "To obtain a list of all the functions defined under sys module, which of the following functions can be used?",
+      "options": [
+        { "text": "print(sys)", "correct": false },
+        { "text": "print(dir.sys)", "correct": false },
+        { "text": "print(dir\\[sys\\])", "correct": false },
+        { "text": "print(dir(sys))", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=4",
+      "statement": "What does print(os.geteuid()) print?",
+      "options": [
+        { "text": "the group id of the current process", "correct": false },
+        { "text": "the user id of the current process", "correct": false },
+        {
+          "text": "both the group id and the user of the current process",
+          "correct": false
+        },
+        { "text": "None of the above", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=4",
+      "statement": "Which of the following can be used to create a directory?",
+      "options": [
+        { "text": "os.mkdir()", "correct": false },
+        { "text": "os.creat\\_dir()", "correct": false },
+        { "text": "os.make\\_dir()", "correct": false },
+        { "text": "os.create\\_dir()", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=4",
+      "statement": "What will be the output shape of the following Python code?\n\n    import turtle\n    t=turtle.Pen()\n    for i in range(0,4):\n    \tt.forward(100)\n    \tt.left(120)",
+      "options": [
+        { "text": "kite", "correct": false },
+        { "text": "square", "correct": false },
+        { "text": "triangle", "correct": false },
+        { "text": "rectangle", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=4",
+      "statement": "Fill in the blank such that the following Python code results in the formation of an inverted, equilateral triangle.\n\n    import turtle\n    t=turtle.Pen()\n    for i in range(0,3):\n    \tt.forward(150)\n    \tt.right(_____)",
+      "options": [
+        { "text": "\\-60", "correct": false },
+        { "text": "120", "correct": false },
+        { "text": "\\-120", "correct": false },
+        { "text": "60", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=4",
+      "statement": "What will be the output of the following Python code?\n\n    import turtle\n    t=turtle.Pen()\n    t.goto(300,9)\n    t.position()",
+      "options": [
+        { "text": "300.00, 9.00", "correct": false },
+        { "text": "9.00, 300.00", "correct": false },
+        { "text": "9, 300", "correct": false },
+        { "text": "300, 9", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=4",
+      "statement": "What will be the output of the following Python functions?\n\n    import turtle\n    t=turtle.Pen()\n    for i in range(0,3):\n    \tt.forward(100)\n    \tt.left(120)\n     \n    t.back(100)\n    for i in range(0,3):\n    \tt.forward(100)\n    \tt.left(120)",
+      "options": [
+        { "text": "Error", "correct": false },
+        { "text": "Two triangles, joined at one vertex", "correct": false },
+        {
+          "text": "Two triangles, joined by a straight line",
+          "correct": false
+        },
+        {
+          "text": "Two separate triangles, not connected by a line",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=4",
+      "statement": "The function used to alter the thickness of the pen to ‘x’ units:",
+      "options": [
+        { "text": "turtle.span(x)", "correct": false },
+        { "text": "turtle.width(x)", "correct": false },
+        { "text": "turtle.girth(x)", "correct": false },
+        { "text": "turtle.thickness(x)", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=5",
+      "statement": "Which function overloads the // operator?",
+      "options": [
+        { "text": "\\_\\_div\\_\\_()", "correct": false },
+        { "text": "\\_\\_ceildiv\\_\\_()", "correct": false },
+        { "text": "\\_\\_floordiv\\_\\_()", "correct": true },
+        { "text": "\\_\\_truediv\\_\\_()", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=5",
+      "statement": "\\_\\_\\_\\_\\_ represents an entity in the real world with its identity and behaviour.",
+      "options": [
+        { "text": "A class", "correct": false },
+        { "text": "An object", "correct": false },
+        { "text": "A method", "correct": true },
+        { "text": "An operator", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=5",
+      "statement": "What is getattr() used for?",
+      "options": [
+        { "text": "To access the attribute of the object", "correct": false },
+        { "text": "To check if an attribute exists or not", "correct": false },
+        { "text": "To delete an attribute", "correct": true },
+        { "text": "To set an attribute", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=5",
+      "statement": "What will be the output of the following Python code?\n\n     class test:\n         def __init__(self,a):\n             self.a=a\n     \n         def display(self):\n             print(self.a)\n    obj=test()\n    obj.display()",
+      "options": [
+        { "text": "Runs normally, doesn’t display anything", "correct": false },
+        {
+          "text": "Displays 0, which is the automatic default value",
+          "correct": false
+        },
+        {
+          "text": "Error as one argument is required while creating the object",
+          "correct": true
+        },
+        {
+          "text": "Error as display function requires additional argument",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=5",
+      "statement": "What is Instantiation in terms of OOP terminology?",
+      "options": [
+        { "text": "Deleting an instance of class", "correct": false },
+        { "text": "Modifying an instance of class", "correct": false },
+        { "text": "Copying an instance of class", "correct": true },
+        { "text": "Creating an instance of class", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=5",
+      "statement": "What will be the output of the following Python code?\n\n    class fruits:\n        def __init__(self, price):\n            self.price = price\n    obj=fruits(50)\n     \n    obj.quantity=10\n    obj.bags=2\n     \n    print(obj.quantity+len(obj.__dict__))",
+      "options": [
+        { "text": "12", "correct": false },
+        { "text": "13", "correct": false },
+        { "text": "52", "correct": true },
+        { "text": "60", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=5",
+      "statement": "Which of the following statements is wrong about inheritance?",
+      "options": [
+        {
+          "text": "Protected members of a class can be inherited",
+          "correct": false
+        },
+        {
+          "text": "The inheriting class is called a subclass",
+          "correct": false
+        },
+        {
+          "text": "Inheritance is one of the features of OOP",
+          "correct": true
+        },
+        {
+          "text": "Private members of a class can be inherited and accessed",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=5",
+      "statement": "What will be the output of the following Python code?\n\n    class A():\n        def disp(self):\n            print(\"A disp()\")\n    class B(A):\n        pass\n    obj = B()\n    obj.disp()",
+      "options": [
+        { "text": "A disp()", "correct": false },
+        { "text": "Invalid syntax for inheritance", "correct": false },
+        { "text": "Nothing is printed", "correct": true },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=5",
+      "statement": "Suppose B is a subclass of A, to invoke the \\_\\_init\\_\\_ method in A from B, what is the line of code you should write?",
+      "options": [
+        { "text": "A.\\_\\_init\\_\\_(B)", "correct": false },
+        { "text": "B.\\_\\_init\\_\\_(A)", "correct": false },
+        { "text": "A.\\_\\_init\\_\\_(self)", "correct": true },
+        { "text": "B.\\_\\_init\\_\\_(self)", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=5",
+      "statement": "What type of inheritance is illustrated in the following Python code?\n\n    class A():\n        pass\n    class B():\n        pass\n    class C(A,B):\n        pass",
+      "options": [
+        { "text": "Multi-level inheritance", "correct": false },
+        { "text": "Multiple inheritance", "correct": false },
+        { "text": "Single-level inheritance", "correct": true },
+        { "text": "Hierarchical inheritance", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=1",
+      "statement": "Which of the following functions clears the regular expression cache?",
+      "options": [
+        { "text": "re.sub()", "correct": false },
+        { "text": "re.pos()", "correct": false },
+        { "text": "re.subn()", "correct": false },
+        { "text": "re.purge()", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=1",
+      "statement": "Which of the following is a valid dictionary in Python?",
+      "options": [
+        {
+          "text": "myExample = {‘someItem’=>2, ‘otherItem’=>20}",
+          "correct": false
+        },
+        {
+          "text": "myExample = {‘someItem’: 2, ‘otherItem’: 20}",
+          "correct": false
+        },
+        {
+          "text": "myExample = (‘someItem’=>2, ‘otherItem’=>20)",
+          "correct": false
+        },
+        {
+          "text": "myExample = (‘someItem’: 2, ‘otherItem’: 20)",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=1",
+      "statement": "What is the proper way to open a file that you intend to read from?",
+      "options": [
+        { "text": "f = open(“test.txt”, “read”)", "correct": false },
+        { "text": "f = open(“r”,”test.txt”)", "correct": false },
+        { "text": "f = open(“test.txt”, “r”)", "correct": false },
+        { "text": "f = open(“read”,”test.txt”)", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=1",
+      "statement": "Which of the following lines of code will not show a match?",
+      "options": [
+        { "text": "\\>>> re.match(‘ab\\*’, ‘a’)", "correct": false },
+        { "text": "\\>>> re.match(‘ab\\*’, ‘ab’)", "correct": false },
+        { "text": "\\>>> re.match(‘ab\\*’, ‘abb’)", "correct": false },
+        { "text": "\\>>> re.match(‘ab\\*’, ‘ba’)", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=1",
+      "statement": "What is the output of the snippet of code shown below?  \n\n    import turtle\n    t=turtle.Pen\n    t.tilt(75)\n    t.forward(100)​",
+      "options": [
+        {
+          "text": "A straight line of 100 units tiled at 75 degrees from the horizontal",
+          "correct": false
+        },
+        {
+          "text": "A straight line of 100 units tilted at 15 degrees from the horizontal",
+          "correct": false
+        },
+        {
+          "text": "A straight line of 100 units lying along the horizontal",
+          "correct": false
+        },
+        { "text": "None of the above", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=1",
+      "statement": "What will be the output of the following Python code?\n\n    >>>\"Welcome to Python\".split()",
+      "options": [
+        { "text": "\\[“Welcome”, “to”, “Python”\\]", "correct": false },
+        { "text": "(“Welcome”, “to”, “Python”)", "correct": false },
+        { "text": "{“Welcome”, “to”, “Python”}", "correct": false },
+        { "text": "“Welcome”, “to”, “Python”", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=1",
+      "statement": "What will be the output of the following Python code?\n\n    myList = [1, 5, 5, 5, 5, 1]\n    max = myList[0]\n    indexOfMax = 0\n    for i in range(1, len(myList)):\n        if myList[i] > max:\n            max = myList[i]\n            indexOfMax = i\n     \n    >>>print(indexOfMax)",
+      "options": [
+        { "text": "1", "correct": false },
+        { "text": "2", "correct": false },
+        { "text": "3", "correct": false },
+        { "text": "4", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=1",
+      "statement": "What will be the output of the following Python code?\n\n    myList = [1, 2, 3, 4, 5, 6]\n    for i in range(1, 6):\n        myList[i - 1] = myList[i]\n     \n    for i in range(0, 6): \n        print(myList[i], end = \" \")",
+      "options": [
+        { "text": "1 1 2 3 4 5", "correct": false },
+        { "text": "2 3 4 5 6 1", "correct": false },
+        { "text": "2 3 4 5 6 6", "correct": false },
+        { "text": "6 1 2 3 4 5", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=1",
+      "statement": "What will be the output of the following Python code?\n\n    def f(values):\n        values[0] = 44\n     \n    v = [1, 2, 3]\n    f(v)\n    print(v)",
+      "options": [
+        { "text": "\\[1, 44\\]", "correct": false },
+        { "text": "\\[1, 2, 3\\]", "correct": false },
+        { "text": "\\[1, 2, 3, 44\\]", "correct": false },
+        { "text": "\\[44, 2, 3\\]", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=1",
+      "statement": "What will be the output of the following Python code?\n\n    >>>m = [[x, x + 1, x + 2] for x in range(0, 3)]",
+      "options": [
+        {
+          "text": "\\[\\[1, 2, 3\\], \\[4, 5, 6\\], \\[7, 8, 9\\]\\]",
+          "correct": false
+        },
+        {
+          "text": "\\[\\[0, 1, 2\\], \\[1, 2, 3\\], \\[2, 3, 4\\]\\]",
+          "correct": false
+        },
+        { "text": "\\[1, 2, 3, 4, 5, 6, 7, 8, 9\\]", "correct": false },
+        { "text": "\\[0, 1, 2, 1, 2, 3, 2, 3, 4\\]", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=2",
+      "statement": "What will be the output of the following Python code?\n\n    values = [[3, 4, 5, 1], [33, 6, 1, 2]]\n    v = values[0][0]\n    for row in range(0, len(values)):\n        for column in range(0, len(values[row])):\n            if v < values[row][column]:\n                v = values[row][column]\n     \n    print(v)",
+      "options": [
+        { "text": "3", "correct": false },
+        { "text": "5", "correct": false },
+        { "text": "6", "correct": false },
+        { "text": "33", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=2",
+      "statement": "What will be the output of the following Python code?\n\n    values = [[3, 4, 5, 1 ], [33, 6, 1, 2]]\n     \n    for row in values:\n        row.sort()\n        for element in row:\n            print(element, end = \" \")\n        print()",
+      "options": [
+        {
+          "text": "The program prints on row 3 4 5 1 33 6 1 2",
+          "correct": false
+        },
+        {
+          "text": "The program prints two rows 3 4 5 1 followed by 33 6 1 2",
+          "correct": false
+        },
+        {
+          "text": "The program prints two rows 3 4 5 1 followed by 33 6 1 2",
+          "correct": false
+        },
+        {
+          "text": "The program prints two rows 1 3 4 5 followed by 1 2 6 33",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=2",
+      "statement": "What will be the output of the following Python code?\n\n    def m(list):\n        v = list[0]\n        for e in list:\n          if v < e: v = e\n        return v\n     \n    values = [[3, 4, 5, 1], [33, 6, 1, 2]]\n     \n    for row in values: \n        print(m(row), end = \" \")",
+      "options": [
+        { "text": "1 1", "correct": false },
+        { "text": "5 6", "correct": false },
+        { "text": "3 33", "correct": false },
+        { "text": "5 33", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=2",
+      "statement": "What will be the output of the following Python code?\n\n    data = [[[1, 2], [3, 4]], [[5, 6], [7, 8]]]\n     \n    def ttt(m):\n        v = m[0][0]\n     \n        for row in m:\n            for element in row:\n               if v < element: v = element\n     \n        return v\n     \n    print(ttt(data[0]))",
+      "options": [
+        { "text": "1", "correct": false },
+        { "text": "2", "correct": false },
+        { "text": "4", "correct": false },
+        { "text": "5", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=2",
+      "statement": "What will be the output of the following Python code snippet?\n\n    k = [print(i) for i in my_string if i not in \"aeiou\"]",
+      "options": [
+        { "text": "prints all the vowels in my\\_string", "correct": false },
+        {
+          "text": "prints all characters of my\\_string that aren’t vowels",
+          "correct": false
+        },
+        { "text": "prints only on executing print(k)", "correct": false },
+        { "text": "prints all the consonants in my\\_string", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=2",
+      "statement": "What will be the output of the following Python code snippet?\n\n    my_string = \"hello world\"\n    k = [(i.upper(), len(i)) for i in my_string]\n    print(k)",
+      "options": [
+        {
+          "text": "\\[(‘H’, 1), (‘E’, 1), (‘L’, 1), (‘L’, 1), (‘O’, 1), (‘ ‘, 1), (‘W’, 1), (‘O’, 1), (‘R’, 1), (‘L’, 1), (‘D’, 1)\\]",
+          "correct": false
+        },
+        { "text": "\\[(‘HELLO’, 5), (‘WORLD’, 5)\\]", "correct": false },
+        { "text": "\\[(‘HELLO WORLD’, 11)\\]", "correct": false },
+        { "text": "None of the above", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=2",
+      "statement": "What will be the output of the following Python code snippet?\n\n    x = [i**+1 for i in range(3)]; print(x);",
+      "options": [
+        { "text": "\\[1, 2, 5\\]", "correct": false },
+        { "text": "\\[0, 1, 2\\]", "correct": false },
+        { "text": "error, ‘;’ is not allowed", "correct": false },
+        { "text": "error, \\*\\*+ is not a valid operator", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=2",
+      "statement": "What will be the output of the following Python code snippet?\n\n    print([i.lower() for i in \"HELLO\"])",
+      "options": [
+        { "text": "‘hello’", "correct": false },
+        { "text": "hello", "correct": false },
+        { "text": "\\[‘hello’\\]", "correct": false },
+        { "text": "\\[‘h’, ‘e’, ‘l’, ‘l’, ‘o’\\]", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=2",
+      "statement": "What will be the output of the following Python code snippet?\n\n    print([[i+j for i in \"abc\"] for j in \"def\"])",
+      "options": [
+        {
+          "text": "\\[\\[‘da’, ‘db’, ‘dc’\\], \\[‘ea’, ‘eb’, ‘ec’\\], \\[‘fa’, ‘fb’, ‘fc’\\]\\]",
+          "correct": false
+        },
+        {
+          "text": "\\[\\[‘ad’, ‘bd’, ‘cd’\\], \\[‘ae’, ‘be’, ‘ce’\\], \\[‘af’, ‘bf’, ‘cf’\\]\\]",
+          "correct": false
+        },
+        {
+          "text": "\\[‘da’, ‘ea’, ‘fa’, ‘db’, ‘eb’, ‘fb’, ‘dc’, ‘ec’, ‘fc’\\]",
+          "correct": false
+        },
+        {
+          "text": "\\[‘ad’, ‘ae’, ‘af’, ‘bd’, ‘be’, ‘bf’, ‘cd’, ‘ce’, ‘cf’\\]",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=2",
+      "statement": "Which of the following is the same as list(map(lambda x: x\\*\\*-1, \\[1, 2, 3\\]))?",
+      "options": [
+        {
+          "text": "\\[x\\*\\*-1 for x in \\[(1, 2, 3)\\]\\]",
+          "correct": false
+        },
+        { "text": "\\[1/x for x in \\[(1, 2, 3)\\]\\]", "correct": false },
+        { "text": "\\[1/x for x in (1, 2, 3)\\]", "correct": false },
+        { "text": "None of the above", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=3",
+      "statement": "What will be the output of the following Python code?\n\n    def cube(x):\n        return x * x * x      \n    x = cube(3)    \n    print x",
+      "options": [
+        { "text": "3", "correct": false },
+        { "text": "9", "correct": false },
+        { "text": "27", "correct": true },
+        { "text": "30", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=3",
+      "statement": "What is a variable defined inside a function referred to as?",
+      "options": [
+        { "text": "A global variable", "correct": false },
+        { "text": "A volatile variable", "correct": false },
+        { "text": "A local variable", "correct": true },
+        { "text": "An automatic variable", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=3",
+      "statement": "What will be the output of the following Python code?\n\n    i=0\n    def change(i):\n       i=i+1\n       return i\n    change(1)\n    print(i)",
+      "options": [
+        { "text": "0", "correct": false },
+        { "text": "1", "correct": false },
+        { "text": "Nothing is displayed", "correct": true },
+        { "text": "An exception is thrown", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=3",
+      "statement": "What will be the output of the following Python code?\n\n    def a(b):\n        b = b + [5]\n     \n    c = [1, 2, 3, 4]\n    a(c)\n    print(len(c))",
+      "options": [
+        { "text": "4", "correct": false },
+        { "text": "5", "correct": false },
+        { "text": "An exception is thrown", "correct": true },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=3",
+      "statement": "What will be the output of the following Python code?\n\n    def display(b, n):\n        while n > 0:\n            print(b,end=\"\")\n            n=n-1\n    display('z',3)",
+      "options": [
+        { "text": "zzz", "correct": false },
+        { "text": "zz", "correct": false },
+        { "text": "Infinite loop", "correct": true },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=3",
+      "statement": "What is the length of sys.argv?",
+      "options": [
+        { "text": "number of arguments", "correct": false },
+        { "text": "number of arguments + 1", "correct": false },
+        { "text": "number of arguments – 1", "correct": true },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=3",
+      "statement": "What will be the output of the following Python code?\n\n    def foo(k):\n        k[0] = 1\n    q = [0]\n    foo(q)\n    print(q)",
+      "options": [
+        { "text": "\\[1, 0\\]", "correct": false },
+        { "text": "\\[0, 1\\]", "correct": false },
+        { "text": "\\[0\\]", "correct": true },
+        { "text": "\\[1\\]", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=3",
+      "statement": "What will be the output of the following Python code?\n\n    def foo(fname, val):\n        print(fname(val))\n    foo(max, [1, 2, 3])\n    foo(min, [1, 2, 3])",
+      "options": [
+        { "text": "3 1", "correct": false },
+        { "text": "1 3", "correct": false },
+        { "text": "Error", "correct": true },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=3",
+      "statement": "What will be the output of the following Python code?\n\n    def foo(x):\n        x = ['def', 'abc']\n        return id(x)\n    q = ['abc', 'def']\n    print(id(q) == foo(q))",
+      "options": [
+        { "text": "True", "correct": false },
+        { "text": "False", "correct": false },
+        { "text": "Error", "correct": true },
+        { "text": "None", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=3",
+      "statement": "What will be the output of the following Python code?\n\n    def foo(i, x=[]):\n        x.append(i)\n        return x\n    for i in range(3):\n        print(foo(i))",
+      "options": [
+        { "text": "\\[0\\] \\[1\\] \\[2\\]", "correct": false },
+        { "text": "\\[1\\] \\[2\\] \\[3\\]", "correct": false },
+        { "text": "\\[0\\] \\[0, 1\\] \\[0, 1, 2\\]", "correct": true },
+        { "text": "\\[1\\] \\[1, 2\\] \\[1, 2, 3\\]", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=4",
+      "statement": "The output of the following Python code is similar to the alphabet \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n\n    import turtle\n    t=turtle.Pen()\n    t1=turtle.Pen()\n    t2=turtle.Pen()\n    t.forward(100)\n    t1.forward(100)\n    t2.forward(100)\n    t1.left(90)\n    t1.forward(75)\n    t2.right(90)\n    t2.forward(75)",
+      "options": [
+        { "text": "M", "correct": false },
+        { "text": "N", "correct": false },
+        { "text": "T", "correct": true },
+        { "text": "X", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=4",
+      "statement": "What will be the output shape of the following Python code?\n\n    import turtle\n    t=turtle.Pen()\n    for i in range(0,6):\n    \tt.forward(100)\n    \tt.left(60)",
+      "options": [
+        { "text": "Hexagon", "correct": false },
+        { "text": "Octagon", "correct": false },
+        { "text": "Pentagon", "correct": true },
+        { "text": "Heptagon", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=4",
+      "statement": "What will be the output of the following Python code?\n\n    import turtle\n    t=turtle.Pen()\n    t.resizemode(“freetimelearn”)\n    t.resizemode()",
+      "options": [
+        { "text": "user", "correct": false },
+        { "text": "auto", "correct": false },
+        { "text": "nonresize", "correct": true },
+        { "text": "Error", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=4",
+      "statement": "To sterilize an object hierarchy, the \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ function must be called. To desterilize a data stream, the \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ function must be called.",
+      "options": [
+        { "text": "dumps(), undumps()", "correct": false },
+        { "text": "loads(), unloads()", "correct": false },
+        { "text": "loads(), dumps()", "correct": true },
+        { "text": "dumps(), loads()", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=4",
+      "statement": "Which of the following Python codes will result in an error?\n\n    object = ‘a’",
+      "options": [
+        { "text": "\\>>> pickle.dumps(object)", "correct": false },
+        { "text": "\\>>> pickle.dumps(object, 3)", "correct": false },
+        { "text": "\\>>> pickle.dumps(object, 3, True)", "correct": true },
+        { "text": "\\>>> pickle.dumps(‘a’, 2)", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=4",
+      "statement": "Which of the following functions can be used to find the protocol version of the pickle module currently being used?",
+      "options": [
+        { "text": "pickle.DEFAULT\\_PROTOCOL", "correct": false },
+        { "text": "pickle.CURRENT\\_PROTOCOL", "correct": false },
+        { "text": "pickle.CURRENT", "correct": true },
+        { "text": "pickle.DEFAULT", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=4",
+      "statement": "Which of the following functions can accept more than one positional argument?",
+      "options": [
+        { "text": "pickle.load", "correct": false },
+        { "text": "pickle.dumps", "correct": false },
+        { "text": "pickle.loads", "correct": true },
+        { "text": "pickle.dump", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=4",
+      "statement": "The pickle module defines \\_\\_\\_\\_\\_\\_ exceptions and exports \\_\\_\\_\\_\\_\\_\\_ classes.",
+      "options": [
+        { "text": "2, 3", "correct": false },
+        { "text": "3, 4", "correct": false },
+        { "text": "3, 2", "correct": true },
+        { "text": "4, 3", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=4",
+      "statement": "If \\_\\_getstate\\_\\_() returns \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ the \\_\\_setstate\\_\\_() module will not be called on pickling.",
+      "options": [
+        { "text": "True value", "correct": false },
+        { "text": "False value", "correct": false },
+        { "text": "ValueError", "correct": true },
+        { "text": "OverflowError", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=4",
+      "statement": "The copy module uses the \\_\\_\\_\\_\\_\\_\\_\\_ protocol for shallow and deep copy.",
+      "options": [
+        { "text": "pickle", "correct": false },
+        { "text": "shelve", "correct": false },
+        { "text": "marshal", "correct": true },
+        { "text": "copyreg", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=5",
+      "statement": "What is the biggest reason for the use of polymorphism?",
+      "options": [
+        {
+          "text": "The program will have a more elegant design and will be easier to maintain and update",
+          "correct": true
+        },
+        {
+          "text": "It allows the programmer to think at a more abstract level",
+          "correct": false
+        },
+        { "text": "There is less program code to write", "correct": false },
+        { "text": "Program code takes up less space", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=5",
+      "statement": "What will be the output of the following Python code?\n\n    class A:\n        def __str__(self):\n            return '1'\n    class B(A):\n        def __init__(self):\n            super().__init__()\n    class C(B):\n        def __init__(self):\n            super().__init__()\n    def main():\n        obj1 = B()\n        obj2 = A()\n        obj3 = C()\n        print(obj1, obj2,obj3)\n    main()",
+      "options": [
+        { "text": "‘1’ ‘1’ ‘1’", "correct": true },
+        { "text": "1 2 3", "correct": false },
+        { "text": "1 1 1", "correct": false },
+        { "text": "An exception is thrown", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=5",
+      "statement": "What will be the output of the following Python code?\n\n    class A:\n        def __init__(self):\n            self.multiply(15)\n            print(self.i)\n     \n        def multiply(self, i):\n            self.i = 4 * i;\n    class B(A):\n        def __init__(self):\n            super().__init__()\n     \n        def multiply(self, i):\n            self.i = 2 * i;\n    obj = B()",
+      "options": [
+        { "text": "An exception is thrown", "correct": true },
+        { "text": "60", "correct": false },
+        { "text": "30", "correct": false },
+        { "text": "15", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=5",
+      "statement": "Is the following Python code valid?\n\n    try:\n        # Do something\n    except:\n        # Do something\n    finally:\n        # Do something",
+      "options": [
+        { "text": "no, there is no such thing as finally", "correct": true },
+        { "text": "no, finally cannot be used with except", "correct": false },
+        { "text": "no, finally must come before except", "correct": false },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=5",
+      "statement": "What will be the output of the following Python code?\n\n    def foo():\n        try:\n            return 1\n        finally:\n            return 2\n    k = foo()\n    print(k)",
+      "options": [
+        { "text": "Error", "correct": true },
+        { "text": "0", "correct": false },
+        { "text": "1", "correct": false },
+        { "text": "2", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=5",
+      "statement": "What will be the output of the following Python code?\n\n    try:\n        if '1' != 1:\n            raise \"someError\"\n        else:\n            print(\"someError has not occurred\")\n    except \"someError\":\n        print (\"someError has occurred\")",
+      "options": [
+        { "text": "someError has occurred", "correct": true },
+        { "text": "someError has not occurred", "correct": false },
+        { "text": "invalid code", "correct": false },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=5",
+      "statement": "What happens when ‘1’ == 1 is executed?",
+      "options": [
+        { "text": "we get a True", "correct": true },
+        { "text": "we get a False", "correct": false },
+        { "text": "an TypeError occurs", "correct": false },
+        { "text": "a ValueError occurs", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=5",
+      "statement": "What will be the output of the following Python code?\n\n    lst = [1, 2, 3]\n    lst[3]",
+      "options": [
+        { "text": "NameError", "correct": true },
+        { "text": "ValueError", "correct": false },
+        { "text": "IndexError", "correct": false },
+        { "text": "TypeError", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=5",
+      "statement": "Compare the following two Python codes shown below and state the output if the input entered in each case is -6?\n\n    CODE 1\n    import math\n    num=int(input(\"Enter a number of whose factorial you want to find\"))\n    print(math.factorial(num))\n     \n    CODE 2\n    num=int(input(\"Enter a number of whose factorial you want to find\"))\n    print(math.factorial(num))",
+      "options": [
+        { "text": "ValueError, NameError", "correct": true },
+        { "text": "AttributeError, ValueError", "correct": false },
+        { "text": "NameError, TypeError", "correct": false },
+        { "text": "TypeError, ValueError", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=5",
+      "statement": "What will be the output of the following Python code if the input entered is 6?\n\n    valid = False\n    while not valid:\n        try:\n            n=int(input(\"Enter a number\"))\n            while n%2==0:\n                print(\"Bye\")\n            valid = True\n        except ValueError:\n            print(\"Invalid\")",
+      "options": [
+        { "text": "No output", "correct": true },
+        { "text": "Invalid (printed once)", "correct": false },
+        { "text": "Bye (printed once)", "correct": false },
+        { "text": "Bye (printed infinite number of times)", "correct": false }
+      ]
+    }
+  ]
+}

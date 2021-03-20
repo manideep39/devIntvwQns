@@ -1,0 +1,422 @@
+{
+  "questions": [
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/ajax-quiz.php?page=1",
+      "statement": "Ajax initial release date ?",
+      "options": [
+        { "text": "2001", "correct": false },
+        { "text": "2003", "correct": false },
+        { "text": "2005", "correct": true },
+        { "text": "2007", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/ajax-quiz.php?page=1",
+      "statement": "What is full form of Ajax?",
+      "options": [
+        { "text": "Asynchronous JavaScript And XML", "correct": false },
+        { "text": "Asynchronous jQuery And XML", "correct": false },
+        { "text": "Asynchronous JavaScript And XHTML", "correct": true },
+        { "text": "Asynchronous jQuery And XHTML", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/ajax-quiz.php?page=1",
+      "statement": "In AJAX you can ?",
+      "options": [
+        {
+          "text": "Update a web page without reloading the page",
+          "correct": false
+        },
+        {
+          "text": "Receive data from a server - after the page has loaded",
+          "correct": false
+        },
+        {
+          "text": "Send data to a server - in the background",
+          "correct": true
+        },
+        { "text": "All of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/ajax-quiz.php?page=1",
+      "statement": "Implementing AJAX in our websites we can make our web pages \\_\\_\\_\\_\\_\\_\\_\\_ ?",
+      "options": [
+        { "text": "More Dynamic", "correct": false },
+        { "text": "More interavtive and faster", "correct": false },
+        { "text": "More Responsive", "correct": true },
+        { "text": "Easy to connect web page with server", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/ajax-quiz.php?page=1",
+      "statement": "What is the name of object used for AJAX request?",
+      "options": [
+        { "text": "HttpRequest", "correct": false },
+        { "text": "xmlRequest", "correct": false },
+        { "text": "XMLHTTPRequest", "correct": true },
+        { "text": "Request", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/ajax-quiz.php?page=1",
+      "statement": "Ajax is a…",
+      "options": [
+        { "text": "Programing Language", "correct": false },
+        { "text": "OOPs concepts", "correct": false },
+        { "text": "Technology", "correct": true },
+        { "text": "Options B and C", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/ajax-quiz.php?page=1",
+      "statement": "Ajax based on ?",
+      "options": [
+        { "text": "JavaScript and XML", "correct": false },
+        { "text": "VB Script and XML", "correct": false },
+        { "text": "JavaScript and jQuery", "correct": true },
+        { "text": "Javascript and HTTP requests", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/ajax-quiz.php?page=1",
+      "statement": "AJAX allows web page to dynamically",
+      "options": [
+        { "text": "Change content", "correct": false },
+        { "text": "Reload at times", "correct": false },
+        { "text": "Control other pages", "correct": true },
+        { "text": "Connect to other addresses", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/ajax-quiz.php?page=1",
+      "statement": "What server support AJAX?",
+      "options": [
+        { "text": "SMTP", "correct": false },
+        { "text": "HTTP", "correct": false },
+        { "text": "WWW", "correct": true },
+        { "text": "All of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/ajax-quiz.php?page=1",
+      "statement": "Which one of these technologies is NOT used in AJAX?",
+      "options": [
+        { "text": "CSS", "correct": false },
+        { "text": "DOM", "correct": false },
+        { "text": "DHTML", "correct": true },
+        { "text": "Flash", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/ajax-quiz.php?page=2",
+      "statement": "Which Web browser is the least optimized for Microsoft's version of AJAX?",
+      "options": [
+        { "text": "Firefox", "correct": false },
+        { "text": "Opera", "correct": false },
+        { "text": "Safari", "correct": true },
+        { "text": "Internet Explorer", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/ajax-quiz.php?page=2",
+      "statement": "What makes Ajax unique?",
+      "options": [
+        {
+          "text": "It works as a stand-alone Web-development tool.",
+          "correct": false
+        },
+        {
+          "text": "It works the same with all Web browsers.",
+          "correct": false
+        },
+        { "text": "It makes data requests asynchronously.", "correct": true },
+        { "text": "It uses C++ as its programming language.", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/ajax-quiz.php?page=2",
+      "statement": "\\_\\_\\_\\_\\_ Of the following technologies, which one provides the ability to dynamically interact with Web page layout?",
+      "options": [
+        { "text": "XML", "correct": false },
+        { "text": "HTML", "correct": false },
+        { "text": "JavaScript", "correct": true },
+        { "text": "Document Object Model", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/ajax-quiz.php?page=2",
+      "statement": "The XMLHttpRequest object can be disabled via browser settings",
+      "options": [
+        { "text": "True", "correct": false },
+        { "text": "False", "correct": false },
+        { "text": "Error", "correct": true },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/ajax-quiz.php?page=2",
+      "statement": "AJAX made popular by\\_\\_\\_\\_\\_\\_",
+      "options": [
+        { "text": "Microsoft", "correct": false },
+        { "text": "Google", "correct": false },
+        { "text": "IBM", "correct": true },
+        { "text": "Sun Microsystem", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/ajax-quiz-section-2.php?page=1",
+      "statement": "With Ajax, which of these is no longer required for data manipulation?",
+      "options": [
+        { "text": "XML", "correct": false },
+        { "text": "XSLT", "correct": true },
+        { "text": "JSON", "correct": false },
+        { "text": "HTML", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/ajax-quiz-section-2.php?page=1",
+      "statement": "Select invalid type of trigger",
+      "options": [
+        { "text": "PostBackTrigger", "correct": false },
+        { "text": "SyncPostBackTrigger", "correct": true },
+        { "text": "AsyncPostBackTrigger", "correct": false },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/ajax-quiz-section-2.php?page=1",
+      "statement": "Google made a deployment of AJAX cross browser technology with Gmail in",
+      "options": [
+        { "text": "2003", "correct": false },
+        { "text": "2009", "correct": true },
+        { "text": "2004", "correct": false },
+        { "text": "2007", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/ajax-quiz-section-2.php?page=1",
+      "statement": "Google made a deployment of cross browser technology with GoogleMaps in",
+      "options": [
+        { "text": "2005", "correct": false },
+        { "text": "2006", "correct": true },
+        { "text": "2007", "correct": false },
+        { "text": "2008", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/ajax-quiz-section-2.php?page=1",
+      "statement": "Select an invalid control",
+      "options": [
+        { "text": "Timer", "correct": false },
+        { "text": "Control", "correct": true },
+        { "text": "UpdatePanel", "correct": false },
+        { "text": "ScriptManagerProxy", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/ajax-quiz-section-2.php?page=1",
+      "statement": "From the following which is/are not AJAX framework ?",
+      "options": [
+        { "text": "Google Web Toolkit", "correct": false },
+        { "text": "Dojo Toolkit", "correct": true },
+        { "text": "MooTools", "correct": false },
+        { "text": "Foundation", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/ajax-quiz-section-2.php?page=1",
+      "statement": "Using the AJAX, web applications can receive and send date asynchronously from a\\_\\_\\_\\_",
+      "options": [
+        { "text": "Database", "correct": false },
+        { "text": "Server", "correct": true },
+        { "text": "Control", "correct": false },
+        { "text": "Store", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/ajax-quiz-section-2.php?page=1",
+      "statement": "What is the name of the DLL that contains Ajax control tool kit?",
+      "options": [
+        { "text": "Ajaxtoolkit.dll", "correct": false },
+        { "text": "Ajaxcontrol.dll", "correct": true },
+        { "text": "Ajaxcontroltoolkit.dll", "correct": false },
+        { "text": "control.dll", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/ajax-quiz-section-2.php?page=1",
+      "statement": "Which property is used to control the duration of Ajax request.",
+      "options": [
+        { "text": "AsyncPostBackTimeout", "correct": false },
+        { "text": "AsyncTimeout", "correct": true },
+        { "text": "Timeout", "correct": false },
+        { "text": "PostBackTimeout", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/ajax-quiz-section-2.php?page=1",
+      "statement": "Which one of these legendary greek mythical figures or places is the code name for Microsoft's version of Ajax?",
+      "options": [
+        { "text": "Delphi", "correct": false },
+        { "text": "Oracle", "correct": true },
+        { "text": "Atlas", "correct": false },
+        { "text": "Hercules", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/ajax-quiz-section-3.php?page=1",
+      "statement": "Which property is used to check whether AJAX request has been completed.",
+      "options": [
+        { "text": "onreadyState", "correct": false },
+        { "text": "open", "correct": false },
+        { "text": "ready", "correct": false },
+        { "text": "readyState", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/ajax-quiz-section-3.php?page=1",
+      "statement": "How can you test the Ajax code?",
+      "options": [
+        { "text": "JSU", "correct": false },
+        { "text": "JSUnit", "correct": false },
+        { "text": "AjaxJSU", "correct": false },
+        { "text": "JSUnitAjax", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/ajax-quiz-section-3.php?page=1",
+      "statement": "From the follwoing what is/are the technologies used by AJAX ?",
+      "options": [
+        { "text": "HTML/XHTML and CSS", "correct": false },
+        { "text": "DOM and XML", "correct": false },
+        { "text": "XMLHttpRequest and JavaScript", "correct": false },
+        { "text": "All of the above", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/ajax-quiz-section-3.php?page=1",
+      "statement": "How can we cancel the XMLHttpRequest in AJAX?",
+      "options": [
+        { "text": "cancel()", "correct": false },
+        { "text": "Abort()", "correct": false },
+        { "text": "remove()", "correct": false },
+        { "text": "none", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/ajax-quiz-section-3.php?page=1",
+      "statement": "Which manager are use for pre-requisite Update Panel in Ajax.",
+      "options": [
+        { "text": "Ajax Manager", "correct": false },
+        { "text": "Javascript Manager", "correct": false },
+        { "text": "Options A & B", "correct": false },
+        { "text": "Script Manager", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/ajax-quiz-section-3.php?page=1",
+      "statement": "Which is not a post back in Ajax?",
+      "options": [
+        { "text": "Dynamic Postback", "correct": false },
+        { "text": "Asynchronous Postback", "correct": false },
+        { "text": "Synchronous Postback", "correct": false },
+        { "text": "None of the above", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/ajax-quiz-section-3.php?page=1",
+      "statement": "Which data types JSON does NOTsupports?",
+      "options": [
+        { "text": "ENUM", "correct": false },
+        { "text": "String", "correct": false },
+        { "text": "Object", "correct": false },
+        { "text": "Boolean", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/ajax-quiz-section-3.php?page=1",
+      "statement": "The jQuery AJAX methods .get(), .post(), and .ajax() all require which parameter to be supplied?",
+      "options": [
+        { "text": "method", "correct": false },
+        { "text": "url", "correct": false },
+        { "text": "data", "correct": false },
+        { "text": "headers", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/ajax-quiz-section-3.php?page=1",
+      "statement": "Which of the following is not a restriction of JSON as a data interchange format relative to a plain object definition in JavaScript?",
+      "options": [
+        { "text": "Property names must be quoted.", "correct": false },
+        {
+          "text": "Single quotes may not be used as string delimiters.",
+          "correct": false
+        },
+        {
+          "text": "Properties may not include functions or expressions.",
+          "correct": false
+        },
+        {
+          "text": "Properties may only be objects, not arrays.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/ajax-quiz-section-3.php?page=1",
+      "statement": "Which statement about XML is false?",
+      "options": [
+        {
+          "text": "Every XML document must have a DOCTYPE tag.",
+          "correct": false
+        },
+        {
+          "text": "Every XML document must have a root element.",
+          "correct": false
+        },
+        { "text": "Every XML tag must have a closing tag.", "correct": false },
+        {
+          "text": "Every XML document must start with an XML prolog.",
+          "correct": true
+        }
+      ]
+    }
+  ]
+}

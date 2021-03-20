@@ -1,0 +1,718 @@
+{
+  "questions": [
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/angularjs-quiz.php?page=1",
+      "statement": "Who is Inventor of AngularJS?",
+      "options": [
+        { "text": "Brad Green", "correct": false },
+        { "text": "Igor Minor", "correct": false },
+        { "text": "Misko Hevery", "correct": true },
+        { "text": "Misko Minor", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/angularjs-quiz.php?page=1",
+      "statement": "AngularJS initial release date ?",
+      "options": [
+        { "text": "October 20, 2007", "correct": false },
+        { "text": "October 20, 2008", "correct": false },
+        { "text": "October 20, 2009", "correct": true },
+        { "text": "October 20, 2010", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/angularjs-quiz.php?page=1",
+      "statement": "AngularJS is based on which of the following pattern.?",
+      "options": [
+        { "text": "VMC", "correct": false },
+        { "text": "MVC", "correct": false },
+        { "text": "MVA", "correct": true },
+        { "text": "GUI", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/angularjs-quiz.php?page=1",
+      "statement": "What is AngularJS ?",
+      "options": [
+        { "text": "Front end framework", "correct": false },
+        { "text": "Back end framework", "correct": false },
+        { "text": "Both of above", "correct": true },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/angularjs-quiz.php?page=1",
+      "statement": "What is AngularJS?",
+      "options": [
+        {
+          "text": "A simplified JavaScript framework, used for modifiability.",
+          "correct": false
+        },
+        {
+          "text": "A simplified JavaScript framework, used binding for HTML User Interface Elements with JavaScript binding.",
+          "correct": false
+        },
+        {
+          "text": "A modifiable JavaScript framework, used for information security.",
+          "correct": true
+        },
+        {
+          "text": "An MVC JavaScript framework, used for information security",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/angularjs-quiz.php?page=1",
+      "statement": "Which Directive is used to define and link an AngularJS application to HTML.?",
+      "options": [
+        { "text": "ng-app", "correct": false },
+        { "text": "g-app", "correct": false },
+        { "text": "ng-controller", "correct": true },
+        { "text": "ng-init", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/angularjs-quiz.php?page=1",
+      "statement": "\\_\\_\\_\\_\\_\\_\\_ AngularJS directive is used to add or remove HTML elements from the DOM based on data in the model.?",
+      "options": [
+        { "text": "ng-model", "correct": false },
+        { "text": "ng-disabled", "correct": false },
+        { "text": "ng-switch", "correct": true },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/angularjs-quiz.php?page=1",
+      "statement": "AngularJS application is composition of which of the following\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ ?",
+      "options": [
+        { "text": "HTML and CSS", "correct": false },
+        { "text": "HTML and JavaScript", "correct": false },
+        { "text": "HTML and EcmaScript", "correct": true },
+        { "text": "HTML and AngularScript", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/angularjs-quiz.php?page=1",
+      "statement": "What is the correct syntax for a variable “a” in AngularJS?",
+      "options": [
+        { "text": "{{{expression}}}", "correct": false },
+        { "text": "(expression)", "correct": false },
+        { "text": "{{expression}}", "correct": true },
+        { "text": "\\[expression\\]", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/angularjs-quiz.php?page=1",
+      "statement": "Which of the following module is required for routing?",
+      "options": [
+        { "text": "angular.js", "correct": false },
+        { "text": "angular-route.js", "correct": false },
+        { "text": "angularRouting.js", "correct": true },
+        { "text": "route.js", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/angularjs-quiz-section-2.php?page=1",
+      "statement": "Which of the following provider can be used to configure routes?",
+      "options": [
+        { "text": "$routeProvider", "correct": true },
+        { "text": "$url", "correct": false },
+        { "text": "$rulesProvider", "correct": false },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/angularjs-quiz-section-2.php?page=1",
+      "statement": "Which of the following is validation css class in AngularJS",
+      "options": [
+        { "text": "ng-valid", "correct": true },
+        { "text": "ng-invalid", "correct": false },
+        { "text": "ng-pristine", "correct": false },
+        { "text": "All of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/angularjs-quiz-section-2.php?page=1",
+      "statement": "In AngularJS how to manually start up an AngularJS application ?",
+      "options": [
+        {
+          "text": "Using AngularJS function- angular.element",
+          "correct": true
+        },
+        {
+          "text": "Using AngularJS function- angular.bootstrap",
+          "correct": false
+        },
+        { "text": "Using AngularJS function- angular.copy", "correct": false },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/angularjs-quiz-section-2.php?page=1",
+      "statement": "In AngularJs which feature is available for Navigation",
+      "options": [
+        { "text": "Factory", "correct": true },
+        { "text": "Config", "correct": false },
+        { "text": "Service", "correct": false },
+        { "text": "Route", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/angularjs-quiz-section-2.php?page=1",
+      "statement": "Which of the following is not a valid AngularJS Directives?",
+      "options": [
+        { "text": "ng-model", "correct": true },
+        { "text": "ng-destroy", "correct": false },
+        { "text": "ng-repeat", "correct": false },
+        { "text": "ng-init", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/angularjs-quiz-section-2.php?page=1",
+      "statement": "In context of AngularJS, what does SPA stand for?",
+      "options": [
+        { "text": "Software Product Assessment", "correct": true },
+        { "text": "Software Publisher Association", "correct": false },
+        { "text": "Single Point of Access", "correct": false },
+        { "text": "Single Page Application", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/angularjs-quiz-section-2.php?page=1",
+      "statement": "Which of the following service modes can be easiest to test while using AngularJS?",
+      "options": [
+        { "text": "Object Orientation", "correct": true },
+        { "text": "Service Oriented Architecture", "correct": false },
+        { "text": "Model View Controller", "correct": false },
+        { "text": "Event-driven", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/angularjs-quiz-section-2.php?page=1",
+      "statement": "AngulsrJS directives can be applied to which of the following types ?",
+      "options": [
+        { "text": "Element", "correct": true },
+        { "text": "Attribute", "correct": false },
+        { "text": "Comment", "correct": false },
+        { "text": "All of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/angularjs-quiz-section-2.php?page=1",
+      "statement": "In AngularJS which of the following controller take single parameter.?",
+      "options": [
+        { "text": "$scope", "correct": true },
+        { "text": "$scope.controller", "correct": false },
+        { "text": "$control", "correct": false },
+        { "text": "$param", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/angularjs-quiz-section-2.php?page=1",
+      "statement": "What is the parent of $scope in AngualarJS?",
+      "options": [
+        { "text": "$super", "correct": true },
+        { "text": "$rootScope", "correct": false },
+        { "text": "$root", "correct": false },
+        { "text": "@super", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/angularjs-quiz-section-3.php?page=1",
+      "statement": "Which of the following service is used to retrieve or submit data to the remote server?",
+      "options": [
+        { "text": "$http", "correct": true },
+        { "text": "$XMLHttpRequest", "correct": false },
+        { "text": "$window", "correct": false },
+        { "text": "$get", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/angularjs-quiz-section-3.php?page=1",
+      "statement": "Which of the following service is used to handle uncaught exceptions in AngularJS?",
+      "options": [
+        { "text": "$errorHandler", "correct": true },
+        { "text": "$exception", "correct": false },
+        { "text": "$log", "correct": false },
+        { "text": "$exceptionHandler", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/angularjs-quiz-section-3.php?page=1",
+      "statement": "What is the use of $scope variable in AngularJS ?",
+      "options": [
+        { "text": "Get/set values in a function call", "correct": true },
+        {
+          "text": "Get/set values for model, view and controller",
+          "correct": false
+        },
+        {
+          "text": "To get values of variables within the implementation scope",
+          "correct": false
+        },
+        { "text": "Store data", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/angularjs-quiz-section-3.php?page=1",
+      "statement": "AngularJS extends HTML \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ ?",
+      "options": [
+        { "text": "Attributes", "correct": true },
+        { "text": "Properties", "correct": false },
+        { "text": "All of the above", "correct": false },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/angularjs-quiz-section-3.php?page=1",
+      "statement": "AngularJS can show and hide HTML depending on the state of data in the model by using which of the following AngularJs directives ?",
+      "options": [
+        { "text": "ng-shown, ng-hidden", "correct": true },
+        { "text": "g-shows, ng-hides", "correct": false },
+        { "text": "nt-show, nt-hide", "correct": false },
+        { "text": "ng-show, ng-hide", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/angularjs-quiz-section-3.php?page=1",
+      "statement": "What is the purpose of $destroy method in AngularJS?",
+      "options": [
+        { "text": "Remove Dangling Pointers", "correct": true },
+        { "text": "Remove Pointers", "correct": false },
+        { "text": "Cleanup Resources", "correct": false },
+        { "text": "All of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/angularjs-quiz-section-3.php?page=1",
+      "statement": "How to include HTML content into another HTML ?",
+      "options": [
+        { "text": "Server Side push", "correct": true },
+        { "text": "By Using include", "correct": false },
+        { "text": "By Using Polling", "correct": false },
+        { "text": "By Using Commet", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/angularjs-quiz-section-3.php?page=1",
+      "statement": "In AngularJS, what is $scope variable used for?",
+      "options": [
+        {
+          "text": "To get values of variables within the implementation scope",
+          "correct": true
+        },
+        {
+          "text": "Get/set values for model, view and controller",
+          "correct": false
+        },
+        { "text": "Store data", "correct": false },
+        { "text": "Get/set values in a function call", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/angularjs-quiz-section-3.php?page=1",
+      "statement": "Elements of AngularJS MVC views are rendered in which order?",
+      "options": [
+        { "text": "Random", "correct": true },
+        { "text": "Sequential", "correct": false },
+        { "text": "Priotization", "correct": false },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/angularjs-quiz-section-3.php?page=1",
+      "statement": "In AngularJS data binding is \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_.",
+      "options": [
+        { "text": "simplex data binding", "correct": true },
+        { "text": "sychronous data binding", "correct": false },
+        { "text": "one way data binding", "correct": false },
+        { "text": "two way data binding", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/angularjs-quiz-section-4.php?page=1",
+      "statement": "Constant",
+      "options": [
+        { "text": "Constant", "correct": false },
+        { "text": "Application Module", "correct": true },
+        { "text": "Value", "correct": false },
+        { "text": "Factory", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/angularjs-quiz-section-4.php?page=1",
+      "statement": "AngularJS directives are used in \\_\\_\\_\\_\\_\\_\\_\\_.",
+      "options": [
+        { "text": "Model", "correct": false },
+        { "text": "View", "correct": true },
+        { "text": "Controller", "correct": false },
+        { "text": "Module", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/angularjs-quiz-section-4.php?page=1",
+      "statement": "Which of the following directive bootstraps AngularJS framework?",
+      "options": [
+        { "text": "ng-init", "correct": false },
+        { "text": "ng-app", "correct": true },
+        { "text": "ng-controller", "correct": false },
+        { "text": "ng-bootstrap", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/angularjs-quiz-section-4.php?page=1",
+      "statement": "How does an object or function can get hold of its dependencies in angular js?",
+      "options": [
+        {
+          "text": "Typically using the new operator, dependency can be created",
+          "correct": false
+        },
+        {
+          "text": "By referring to a global variable, dependency can be looked up",
+          "correct": true
+        },
+        {
+          "text": "Dependency can be passed into where it is required",
+          "correct": false
+        },
+        { "text": "All of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/angularjs-quiz-section-4.php?page=1",
+      "statement": "What is link function is used for in angular js?",
+      "options": [
+        {
+          "text": "It is used for registering DOM listeners as well as instance DOM manipulation",
+          "correct": false
+        },
+        {
+          "text": "It is used to retrieve object instances as defined by provider",
+          "correct": true
+        },
+        {
+          "text": "It is used for template DOM Manipulation and collect all of the directives",
+          "correct": false
+        },
+        {
+          "text": "The method traverses the DOM and matches the directives.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/angularjs-quiz-section-4.php?page=1",
+      "statement": "Explain what Angular JS routes does?",
+      "options": [
+        {
+          "text": "Automatic synchronization of data between the model and view components",
+          "correct": false
+        },
+        {
+          "text": "Enables you to create different URLs for different content in your application",
+          "correct": true
+        },
+        {
+          "text": "Link the template with scope by calling the linking function returned from the previous step",
+          "correct": false
+        },
+        {
+          "text": "To propagate any model changes through the system into the view from outside of the Angular realm",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/angularjs-quiz-section-4.php?page=1",
+      "statement": "What does the $dirty flag indicates in angular js?",
+      "options": [
+        {
+          "text": "it indicates the value cannot be changed",
+          "correct": false
+        },
+        { "text": "It indicates the form has invalid data", "correct": true },
+        {
+          "text": "It indicates that value has been changed",
+          "correct": false
+        },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/angularjs-quiz-section-4.php?page=1",
+      "statement": "How to include HTML content into another HTML?",
+      "options": [
+        { "text": "Use of include", "correct": false },
+        { "text": "Server Side push", "correct": true },
+        { "text": "Use of Polling", "correct": false },
+        { "text": "Use of Commet ID", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/angularjs-quiz-section-4.php?page=1",
+      "statement": "What is the factory method is used for?",
+      "options": [
+        { "text": "It is used for creating the directive", "correct": false },
+        { "text": "It is used for template DOM manipulation", "correct": true },
+        { "text": "It is used for styling of form", "correct": false },
+        {
+          "text": "To check how code gets hold of its dependencies",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/angularjs-quiz-section-4.php?page=1",
+      "statement": "ng-init directive in angular js is used for?",
+      "options": [
+        {
+          "text": "Wraps a raw DOM element or HTML string as a jQuery element",
+          "correct": false
+        },
+        {
+          "text": "Allows you to evaluate an expression in the current scope",
+          "correct": true
+        },
+        {
+          "text": "Determines if two objects or two values are equivalent.",
+          "correct": false
+        },
+        {
+          "text": "Serializes input into a JSON-formatted string",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/angularjs-quiz-section-5.php?page=1",
+      "statement": "Which of the following statements are true?",
+      "options": [
+        { "text": "AngularJS has directives.", "correct": true },
+        { "text": "AngularJS supports single service only", "correct": false },
+        {
+          "text": "AngularJS does not support Dependency Injection",
+          "correct": false
+        },
+        { "text": "AngularJS does not support templates.", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/angularjs-quiz-section-5.php?page=1",
+      "statement": "Explain what is angular.bootstrap is used for?",
+      "options": [
+        {
+          "text": "Determines if a reference is a DOM element",
+          "correct": true
+        },
+        { "text": "It deserializes a JSON string", "correct": false },
+        {
+          "text": "It used for manually starting up angular application",
+          "correct": false
+        },
+        { "text": "All of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/angularjs-quiz-section-5.php?page=1",
+      "statement": "Which of the following statements are invalid AngularJS filters?",
+      "options": [
+        { "text": "currency filter", "correct": true },
+        { "text": "orderby filter", "correct": false },
+        { "text": "lowercase filter", "correct": false },
+        { "text": "aggregate filter", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/angularjs-quiz-section-5.php?page=1",
+      "statement": "Which of the following is/are not AngularJS events?",
+      "options": [
+        { "text": "ng-cut", "correct": true },
+        { "text": "ng-keypress", "correct": false },
+        { "text": "ng-rgtclick", "correct": false },
+        { "text": "ng-dblclick", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/angularjs-quiz-section-5.php?page=1",
+      "statement": "Which of the following is valid for AngualarJS module",
+      "options": [
+        {
+          "text": "var app = angular.module(\\[\"myApp\",\"param\");",
+          "correct": true
+        },
+        { "text": "var app = angular.module(\"myApp\");", "correct": false },
+        {
+          "text": "var app = angular.module(\"myApp\", \\[\\]);",
+          "correct": false
+        },
+        { "text": "var app = angular.module();", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/angularjs-quiz-section-5.php?page=1",
+      "statement": "Using filters AngularJS cannot use \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_.",
+      "options": [
+        { "text": "json", "correct": true },
+        { "text": "Special characters", "correct": false },
+        { "text": "orderby", "correct": false },
+        { "text": "limitTo", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/angularjs-quiz-section-5.php?page=1",
+      "statement": "How to use dependency injection in AngularJS ?",
+      "options": [
+        {
+          "text": "Create JSONs and inject through a function call",
+          "correct": true
+        },
+        {
+          "text": "Create two classes, one extends the other. Pass the child as a parameter to the parent class",
+          "correct": false
+        },
+        {
+          "text": "Create JSONs and inject through a function call",
+          "correct": false
+        },
+        {
+          "text": "Pass scope and http variables as a parameter in the Controller function",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/angularjs-quiz-section-5.php?page=1",
+      "statement": "AngularJS directives can be written in HTML element as:",
+      "options": [
+        { "text": "Tag", "correct": true },
+        { "text": "Attribute", "correct": false },
+        { "text": "Class name", "correct": false },
+        { "text": "All of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/angularjs-quiz-section-5.php?page=1",
+      "statement": "What is $scope?",
+      "options": [
+        {
+          "text": "It transfers data between a controller and view",
+          "correct": true
+        },
+        {
+          "text": "It transfers data between model and controller",
+          "correct": false
+        },
+        { "text": "It is a global scope in AngularJS.", "correct": false },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/angularjs-quiz-section-5.php?page=1",
+      "statement": "Which of the following directive allows us to use form?",
+      "options": [
+        { "text": "ng-include", "correct": true },
+        { "text": "ng-form", "correct": false },
+        { "text": "ng-bind", "correct": false },
+        { "text": "ng-form", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/angularjs-quiz-section-6.php?page=1",
+      "statement": "What is service in AngularJS?",
+      "options": [
+        { "text": "Service is reusable UI component.", "correct": false },
+        {
+          "text": "Service is a reusable JavaScript function.",
+          "correct": true
+        },
+        { "text": "Service is data provider", "correct": false },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/angularjs-quiz-section-6.php?page=1",
+      "statement": "AngularJS module can be created using \\_\\_\\_\\_\\_\\_\\_\\_.",
+      "options": [
+        { "text": "angular.module();", "correct": false },
+        { "text": "var myModule = new module();", "correct": true },
+        { "text": "module.create();", "correct": false },
+        { "text": "angular.create();", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/angularjs-quiz-section-6.php?page=1",
+      "statement": "In Angular 2 which of the following service allows you to dynamically load a component in a certain position on the page. ?",
+      "options": [
+        { "text": "DynamicControlLoader", "correct": false },
+        { "text": "DynamicControllerLoader", "correct": true },
+        { "text": "DynaCompLoader", "correct": false },
+        { "text": "DynamicComponentLoader", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/angularjs-quiz-section-6.php?page=1",
+      "statement": "Angular 2 is component based ,and in Angular 2 $scope and controllers are replaced by \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ and \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ ?",
+      "options": [
+        { "text": "components, directives", "correct": false },
+        { "text": "components, controllers", "correct": true },
+        { "text": "$scopes, components", "correct": false },
+        { "text": "controllers, directives", "correct": false }
+      ]
+    }
+  ]
+}
