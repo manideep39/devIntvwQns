@@ -1,0 +1,1491 @@
+{
+  "questions": [
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz.php?page=1",
+      "statement": "What does CSS stand for?",
+      "options": [
+        { "text": "Creating Style Sheets", "correct": false },
+        { "text": "Computer Style Sheets", "correct": false },
+        { "text": "Cascading Style Sheets", "correct": true },
+        { "text": "Colorful Style Sheets", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz.php?page=1",
+      "statement": "Which year W3C was developed in CSS1?",
+      "options": [
+        { "text": "1990", "correct": false },
+        { "text": "1992", "correct": false },
+        { "text": "1994", "correct": true },
+        { "text": "1996", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz.php?page=1",
+      "statement": "How many types of levels in style sheets ?",
+      "options": [
+        { "text": "One level", "correct": false },
+        { "text": "two levels", "correct": false },
+        { "text": "three levels", "correct": true },
+        { "text": "four levels", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz.php?page=1",
+      "statement": "From which version of CSS under development since the late 1990s, added a lot of extra features ?",
+      "options": [
+        { "text": "CSS1", "correct": false },
+        { "text": "CSS2", "correct": false },
+        { "text": "CSS3", "correct": true },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz.php?page=1",
+      "statement": "What is the correct HTML for referring to an external style sheet?",
+      "options": [
+        { "text": "    <stylesheet>style.css</stylesheet>", "correct": false },
+        {
+          "text": "    <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">",
+          "correct": false
+        },
+        { "text": "    <style src=\"style.css\">", "correct": true },
+        { "text": "    <a href=\"style.css\"></a>", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz.php?page=1",
+      "statement": "An external style sheet is ideal when the style is applied to",
+      "options": [
+        { "text": "single page", "correct": false },
+        { "text": "few pages", "correct": false },
+        { "text": "many pages", "correct": true },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz.php?page=1",
+      "statement": "Where in an HTML document is the correct place to refer to an external style sheet?",
+      "options": [
+        { "text": "    <head> section", "correct": false },
+        { "text": "    <body> section", "correct": false },
+        { "text": "    <section> section", "correct": true },
+        { "text": "    <footer> section", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz.php?page=1",
+      "statement": "How do you insert a comment in a CSS file?",
+      "options": [
+        { "text": "    // this is a css comment", "correct": false },
+        { "text": "    <!-- this is a css comment -->", "correct": false },
+        { "text": "    // this is a css comment //", "correct": true },
+        { "text": "    /* this is a css comment */", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz.php?page=1",
+      "statement": "Which HTML tag is used to define an internal style sheet?",
+      "options": [
+        { "text": "    <script>", "correct": false },
+        { "text": "    <css>", "correct": false },
+        { "text": "    <style>", "correct": true },
+        { "text": "    <link>", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz.php?page=1",
+      "statement": "Which is the correct CSS syntax?",
+      "options": [
+        { "text": " body:color=blue;", "correct": false },
+        { "text": "body {color: blue;}", "correct": false },
+        { "text": "{body:color=blue;}", "correct": true },
+        { "text": "{body;color:blue;}", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz.php?page=2",
+      "statement": "If we want define style for an unique element, then which css selector will we use ?",
+      "options": [
+        { "text": "Id", "correct": true },
+        { "text": "Text", "correct": false },
+        { "text": "Class", "correct": false },
+        { "text": "Name", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz.php?page=2",
+      "statement": "If we want to show an Arrow as cursor, then which value we will use ?",
+      "options": [
+        { "text": "pointer", "correct": true },
+        { "text": "arrow", "correct": false },
+        { "text": "default", "correct": false },
+        { "text": "arr", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz.php?page=2",
+      "statement": "Which attribute can be added to many HTML / XHTML elements to identify them as a member of a specific group ?",
+      "options": [
+        { "text": "id", "correct": true },
+        { "text": "class", "correct": false },
+        { "text": "div", "correct": false },
+        { "text": "span", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz.php?page=2",
+      "statement": "Which CSS property is used to control the text size of an element ?",
+      "options": [
+        { "text": "font-style", "correct": true },
+        { "text": "text-size", "correct": false },
+        { "text": "font-size", "correct": false },
+        { "text": "text-style", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz.php?page=2",
+      "statement": "By default Hyperlinks are displayed with an underline. How do you remove the underline from all hyperlinks by using CSS code ?",
+      "options": [
+        { "text": "    a {text: no-underline;}", "correct": true },
+        { "text": "    a {text-decoration:none;}", "correct": false },
+        { "text": "    a {text-style: no-underline;}", "correct": false },
+        { "text": "    a {text-decoration: no-underline;}", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz.php?page=2",
+      "statement": "\\_\\_\\_\\_\\_\\_\\_\\_\\_ describes CSS properties to manipulate the position of “ruby”, which are small annotations on top of or next to words, especially common in Chinese and Japanese.",
+      "options": [
+        { "text": "align", "correct": true },
+        { "text": "ruby", "correct": false },
+        { "text": "lang", "correct": false },
+        { "text": "text-align", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz.php?page=2",
+      "statement": "Which of the following tag is used to linked information should be placed inside?",
+      "options": [
+        { "text": "`<head>`", "correct": true },
+        { "text": "`<html>`", "correct": false },
+        { "text": "`<div>`", "correct": false },
+        { "text": "`<body>`", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz.php?page=2",
+      "statement": "Which of the following is not an Absolute Unit?",
+      "options": [
+        { "text": "px", "correct": true },
+        { "text": "em", "correct": false },
+        { "text": "pt", "correct": false },
+        { "text": "mm", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz.php?page=2",
+      "statement": "Which of the following function adjust the brightness of an element’s color, for use by the filter property?",
+      "options": [
+        { "text": "contrast()", "correct": true },
+        { "text": "dark()", "correct": false },
+        { "text": "light()", "correct": false },
+        { "text": "brightness()", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz.php?page=2",
+      "statement": "\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ has a grammar but unlike traditional (X)HTML it is not defined with a document type definition.",
+      "options": [
+        { "text": "CSS 1", "correct": true },
+        { "text": "CSS 2", "correct": false },
+        { "text": "CSS 2.1", "correct": false },
+        { "text": "CSS 3", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz.php?page=3",
+      "statement": "Using margin is also known as\\_\\_\\_\\_\\_\\_\\_\\_",
+      "options": [
+        { "text": "Fahrner image replacement", "correct": false },
+        { "text": "The Lindsay method", "correct": false },
+        { "text": "Radu Darvas Technique", "correct": true },
+        { "text": "The Langridge method", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz.php?page=3",
+      "statement": "Using padding is also known as \\_\\_\\_\\_\\_\\_",
+      "options": [
+        { "text": "Leon Dwyer method", "correct": false },
+        { "text": "Radu darvas method", "correct": false },
+        { "text": "Lindsay method", "correct": true },
+        { "text": "Langridge method", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz.php?page=3",
+      "statement": "Clip property is not supported in \\_\\_\\_\\_\\_\\_",
+      "options": [
+        { "text": "Internet Explorer", "correct": false },
+        { "text": "Chrome", "correct": false },
+        { "text": "Safari", "correct": true },
+        { "text": "Opera", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz.php?page=3",
+      "statement": "Which variable defines the data type of the content?",
+      "options": [
+        { "text": "content\\_type", "correct": false },
+        { "text": "content\\_length", "correct": false },
+        { "text": "http\\_cookie", "correct": true },
+        { "text": "http\\_user\\_agent", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz.php?page=3",
+      "statement": "Which of the following selects all elements with a target attribute?",
+      "options": [
+        { "text": "attribute", "correct": false },
+        { "text": "attribute=value", "correct": false },
+        { "text": "attribute~=value", "correct": true },
+        { "text": "attribute^=value", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz.php?page=3",
+      "statement": "Which of the following selects every <a> element whose href attribute value contains the given substring?",
+      "options": [
+        { "text": "attribute$=value", "correct": false },
+        { "text": "attribute\\*=value", "correct": false },
+        { "text": "attribute^=value", "correct": true },
+        { "text": "attribute|=value", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz.php?page=3",
+      "statement": "Which of the following selects every `<p>` element that has no children?",
+      "options": [
+        { "text": ":empty", "correct": false },
+        { "text": ":enabled", "correct": false },
+        { "text": ":checked", "correct": true },
+        { "text": ":disabled", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz.php?page=3",
+      "statement": "Which of the following will select every <p> element that is the only child of its parent?",
+      "options": [
+        { "text": ":only-child", "correct": false },
+        { "text": ":only-of-type", "correct": false },
+        { "text": ":optional", "correct": true },
+        { "text": ":out-of-range", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz.php?page=3",
+      "statement": "@font-feature-values are only supported in \\_\\_\\_\\_\\_",
+      "options": [
+        { "text": "IE", "correct": false },
+        { "text": "firefox", "correct": false },
+        { "text": "chrome", "correct": true },
+        { "text": "Opera", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz.php?page=3",
+      "statement": "Which selects all visited links?",
+      "options": [
+        { "text": ":valid", "correct": false },
+        { "text": ":visited", "correct": false },
+        { "text": ":target", "correct": true },
+        { "text": ":selection", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-2.php?page=1",
+      "statement": "Which property is used to change the background color?",
+      "options": [
+        { "text": "bgcolor", "correct": false },
+        { "text": "background-color", "correct": true },
+        { "text": "color", "correct": false },
+        { "text": "bg-color", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-2.php?page=1",
+      "statement": "What property is used to change the text color of an element?",
+      "options": [
+        { "text": "color:", "correct": false },
+        { "text": "fontcolor:", "correct": true },
+        { "text": "text-color:", "correct": false },
+        { "text": "font-color:", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-2.php?page=1",
+      "statement": "    How do you add a background color for all <h1> elements?",
+      "options": [
+        { "text": "    all.h1 {background-color:#0099DA;}", "correct": false },
+        { "text": "    h1.all {background-color:#0099DA;}", "correct": true },
+        { "text": "    h1 {background-color:#0099DA;}", "correct": false },
+        { "text": "    h1 {bg-color:#0099DA;}", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-2.php?page=1",
+      "statement": "Which CSS property controls the text size?",
+      "options": [
+        { "text": "font-size", "correct": false },
+        { "text": "text-style", "correct": true },
+        { "text": "text-size", "correct": false },
+        { "text": "font-style", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-2.php?page=1",
+      "statement": "    What is the correct CSS syntax for making all the <p> elements bold?",
+      "options": [
+        { "text": "    p {font-weight:bold;}", "correct": false },
+        { "text": "    <p style=\"text-size:bold;\">", "correct": true },
+        { "text": "    <p style=\"font-size:bold;\">", "correct": false },
+        { "text": "    p {text-size:bold;}", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-2.php?page=1",
+      "statement": "How do you display hyperlinks without an underline?",
+      "options": [
+        { "text": "    a {underline:none;}", "correct": false },
+        { "text": "    a {text-decoration:no-underline;}", "correct": true },
+        { "text": "    a {decoration:no-underline;}", "correct": false },
+        { "text": "    a {text-decoration:none;}", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-2.php?page=1",
+      "statement": "Some HTML elements have multiple states, like the link, how do you give it a particular style when the user hovers over the element?",
+      "options": [
+        { "text": ":onHover", "correct": false },
+        { "text": ":mouseOver", "correct": true },
+        { "text": ":hover", "correct": false },
+        { "text": ":over", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-2.php?page=1",
+      "statement": "Which property is used to change the font of an element?",
+      "options": [
+        { "text": "font-style", "correct": false },
+        { "text": "font-family", "correct": true },
+        { "text": "font-weight", "correct": false },
+        { "text": "font-height", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-2.php?page=1",
+      "statement": "Which of the following property changes the width of bottom border?",
+      "options": [
+        { "text": ":border-bottom-width", "correct": false },
+        { "text": ":border-top-width", "correct": true },
+        { "text": ":border-left-width", "correct": false },
+        { "text": ":border-right-width", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-2.php?page=1",
+      "statement": "How do you make a list that lists its items with squares?",
+      "options": [
+        { "text": "list: square;", "correct": false },
+        { "text": "list-style-type: square;", "correct": true },
+        { "text": "list-type: square;", "correct": false },
+        { "text": "type:square;", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-2.php?page=2",
+      "statement": "If we don't want to allow a floating div to the left side of an element, which css property will we use ?",
+      "options": [
+        { "text": "margin", "correct": false },
+        { "text": "clear", "correct": true },
+        { "text": "float", "correct": false },
+        { "text": "padding", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-2.php?page=2",
+      "statement": "If we want to use a nice looking green dotted border around an image, which css property will we use?",
+      "options": [
+        { "text": "border-color", "correct": false },
+        { "text": "border-decoration", "correct": true },
+        { "text": "border-style", "correct": false },
+        { "text": "border-line", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-2.php?page=2",
+      "statement": "When we write `<img src=\"img.png\">`, what \"img.png\" inside double quote implies?",
+      "options": [
+        { "text": "element", "correct": false },
+        { "text": "attribute", "correct": true },
+        { "text": "value", "correct": false },
+        { "text": "operator", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-2.php?page=2",
+      "statement": "Which of the following tag can be used to embed a Document-wide styles in a document’s head element?",
+      "options": [
+        { "text": "`<html>`", "correct": false },
+        { "text": "`<head>`", "correct": true },
+        { "text": "`<style>`", "correct": false },
+        { "text": "`<script>`", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-2.php?page=2",
+      "statement": "Which of the following unit represent the viewport’s width?",
+      "options": [
+        { "text": "vh", "correct": false },
+        { "text": "vmin", "correct": true },
+        { "text": "vw", "correct": false },
+        { "text": "ch", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-2.php?page=2",
+      "statement": "Which of the following function adjusts the difference between light and dark values, for use by the filter property?",
+      "options": [
+        { "text": "contrast()", "correct": false },
+        { "text": "dark()", "correct": true },
+        { "text": "light()", "correct": false },
+        { "text": "brightness()", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-2.php?page=2",
+      "statement": "What will be the output of following code snippet?\n\n    h1 {color: red text-decoration: underline; font-style: italic;}",
+      "options": [
+        {
+          "text": "color: red, text-decoration: underline and font-style: italic all works",
+          "correct": false
+        },
+        {
+          "text": "text-decoration: underline and font-style: italic works",
+          "correct": true
+        },
+        {
+          "text": "color: red, text-decoration: underline works",
+          "correct": false
+        },
+        { "text": "only font-style: italic works", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-2.php?page=2",
+      "statement": "Which of the following property sets a variation of the specified or default font family?",
+      "options": [
+        { "text": "height", "correct": false },
+        { "text": "font-weight", "correct": true },
+        { "text": "font-variant", "correct": false },
+        { "text": "default", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-2.php?page=2",
+      "statement": "Which of the following Color Format can also be defined using the keyword rgb, followed by three numbers between 0 and 255, contained in parentheses and separated by commas, with no spaces between them?",
+      "options": [
+        { "text": "RGB Color", "correct": false },
+        { "text": "RGBa Color", "correct": true },
+        { "text": "HSL Color", "correct": false },
+        { "text": "HSLa Color", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-2.php?page=2",
+      "statement": "Which of the following function with filter property to create your own sophisticated effects on DOM elements?",
+      "options": [
+        { "text": "create()", "correct": false },
+        { "text": "DOM()", "correct": true },
+        { "text": "custom()", "correct": false },
+        { "text": "none of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-2.php?page=3",
+      "statement": "outline-offset is not supported by \\_\\_\\_\\_\\_",
+      "options": [
+        { "text": "Firefox", "correct": false },
+        { "text": "IE", "correct": true },
+        { "text": "Chrome", "correct": false },
+        { "text": "Opera", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-2.php?page=3",
+      "statement": "If a particular rule should never be overridden by another rule, the \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ indication should be used.",
+      "options": [
+        { "text": "@important", "correct": false },
+        { "text": "!important!", "correct": true },
+        { "text": "!important", "correct": false },
+        { "text": "important!", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-2.php?page=3",
+      "statement": "Which of the following option a declaration consist of?",
+      "options": [
+        { "text": "Tag", "correct": false },
+        { "text": "Property", "correct": true },
+        { "text": "Selector", "correct": false },
+        { "text": "Class", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-2.php?page=3",
+      "statement": "As a general rule, properties in CSS inherit from \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ elements",
+      "options": [
+        { "text": "child to parent", "correct": false },
+        { "text": "parent to child", "correct": true },
+        { "text": "grandparents to parents", "correct": false },
+        { "text": "none of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-2.php?page=3",
+      "statement": "CSS3 \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ let you display smooth transitions between two or more specified colors",
+      "options": [
+        { "text": "Float", "correct": false },
+        { "text": "Align", "correct": true },
+        { "text": "Gradients", "correct": false },
+        { "text": "Color", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-2.php?page=3",
+      "statement": "The \\_\\_\\_\\_\\_\\_\\_ property specifies whether or not an element should be resizable by the user.",
+      "options": [
+        { "text": "Resize", "correct": false },
+        { "text": "Outline Offset", "correct": true },
+        { "text": "Unit", "correct": false },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-2.php?page=3",
+      "statement": "Which of the following property defines the gap between columns in a multicolumn text flow?",
+      "options": [
+        { "text": "column-float", "correct": false },
+        { "text": "column-flow", "correct": true },
+        { "text": "column-gap", "correct": false },
+        { "text": "column-width", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-2.php?page=3",
+      "statement": "Which of the following property defines the style, width, and color of the rule divider between columns in a multicolumn text flow?",
+      "options": [
+        { "text": "column", "correct": false },
+        { "text": "column-check", "correct": true },
+        { "text": "column-change", "correct": false },
+        { "text": "column-rule", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-2.php?page=3",
+      "statement": "Which of the following css property is used to indicate if an animation plays in reverse or repeats itself every other iteration?",
+      "options": [
+        { "text": "animation-iteration", "correct": false },
+        { "text": "animation-check", "correct": true },
+        { "text": "animation-direction", "correct": false },
+        { "text": "animation-state", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-2.php?page=3",
+      "statement": "Which of the following css property is used to define a delay before an animation starts?",
+      "options": [
+        { "text": "transform-delay", "correct": false },
+        { "text": "delay-function", "correct": true },
+        { "text": "delay-animation", "correct": false },
+        { "text": "animation-delay", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-3.php?page=1",
+      "statement": "Which of the following value of cursor shows it as an arrow ?",
+      "options": [
+        { "text": "crosshair", "correct": false },
+        { "text": "pointer", "correct": false },
+        { "text": "move", "correct": false },
+        { "text": "default", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-3.php?page=1",
+      "statement": "How do you select an element with id \"demo\"?",
+      "options": [
+        { "text": "#demo", "correct": false },
+        { "text": ".demo", "correct": false },
+        { "text": "\\*demo", "correct": false },
+        { "text": "demo", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-3.php?page=1",
+      "statement": "The id selector is used to specify a style for",
+      "options": [
+        { "text": "single, common element", "correct": false },
+        { "text": "single, unique element", "correct": false },
+        { "text": "multiple,common element", "correct": false },
+        { "text": "multiple,unique element", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-3.php?page=1",
+      "statement": "How do you select elements with class name \"demo\"?",
+      "options": [
+        { "text": "#demo", "correct": false },
+        { "text": "demo", "correct": false },
+        { "text": "\\*demo", "correct": false },
+        { "text": ".demo", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-3.php?page=1",
+      "statement": "What is the default value of the position property?",
+      "options": [
+        { "text": "static", "correct": false },
+        { "text": "fixed", "correct": false },
+        { "text": "relative", "correct": false },
+        { "text": "absolute", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-3.php?page=1",
+      "statement": "How would you style table rows to have alternating background colors?",
+      "options": [
+        { "text": "    tr:even{background-color:#CCC;}", "correct": false },
+        { "text": "    td:even{background-color:#CCC;}", "correct": false },
+        {
+          "text": "    td:nth-child(even){background-color:#CCC;}",
+          "correct": false
+        },
+        {
+          "text": "    tr:nth-child(even){background-color:#CCC;}",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-3.php?page=1",
+      "statement": "How would you only create a border below an HTML element?",
+      "options": [
+        { "text": "bottom-border:solid;", "correct": false },
+        { "text": "border-bottom-style:solid;", "correct": false },
+        { "text": "border-bottom-weight:solid;", "correct": false },
+        { "text": "bottom:solid;", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-3.php?page=1",
+      "statement": "In the following code snippet, what value is given for the left margin: ?  margin: 5px 10px 3px 8px;",
+      "options": [
+        { "text": "3px;", "correct": false },
+        { "text": "10px;", "correct": false },
+        { "text": "5px;", "correct": false },
+        { "text": "8px;", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-3.php?page=1",
+      "statement": "Which of the margin is commonly used to center a website?",
+      "options": [
+        { "text": "margin:0px 0px 0px;", "correct": false },
+        { "text": "margin:auto 0px;", "correct": false },
+        { "text": "margin:0px auto;", "correct": false },
+        { "text": "margin-align:center;", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-3.php?page=1",
+      "statement": "Which of the following would be used to create an ID called header which has a width of 750px, a height of 30px and the color of the text is black?",
+      "options": [
+        {
+          "text": "    #header{height:30px; width:750px; color:#000;}",
+          "correct": false
+        },
+        {
+          "text": "    .header{height:30px; width:750px; font-color:#000;}",
+          "correct": false
+        },
+        {
+          "text": "    #header{height:30px; width:750px; text-color:#000;}",
+          "correct": false
+        },
+        {
+          "text": "    .header{height:30px; width:750px; color:#000;}",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-3.php?page=2",
+      "statement": "Can we align a Block element by setting the left and right margins ?",
+      "options": [
+        { "text": "Yes, we can", "correct": false },
+        { "text": "Not Possible", "correct": true },
+        { "text": "None of the Above", "correct": false },
+        { "text": "\\--", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-3.php?page=2",
+      "statement": "Which of the following properties will we use to display border around a cell without any content ?",
+      "options": [
+        { "text": "noncontent-cell", "correct": false },
+        { "text": "blank-cell", "correct": true },
+        { "text": "void-cell", "correct": false },
+        { "text": "empty-cell", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-3.php?page=2",
+      "statement": "How can we write comment along with CSS code ?",
+      "options": [
+        { "text": "/\\* a comment \\*/", "correct": false },
+        { "text": "// a comment //", "correct": true },
+        { "text": "/ a comment /", "correct": false },
+        { "text": "`<' a comment'>`", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-3.php?page=2",
+      "statement": "Which of the following function converts an element’s color to a shade of gray, for use by the filter property?",
+      "options": [
+        { "text": "shade()", "correct": false },
+        { "text": "grayscale()", "correct": true },
+        { "text": "black()", "correct": false },
+        { "text": "brightness()", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-3.php?page=2",
+      "statement": "What will be the output of below mentioned code snippet?\n\n    h1 {color: \"green\";}",
+      "options": [
+        { "text": "heading becomes green", "correct": false },
+        { "text": "heading becomes dark-green", "correct": true },
+        { "text": "error occors", "correct": false },
+        { "text": "none of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-3.php?page=2",
+      "statement": "Which of the following property defines labels for a list of items?",
+      "options": [
+        { "text": "list-style-type", "correct": false },
+        { "text": "list-style-image", "correct": true },
+        { "text": "list-style", "correct": false },
+        { "text": "list", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-3.php?page=2",
+      "statement": "Which of the following is not a attribute of the audio element?",
+      "options": [
+        { "text": "controls", "correct": false },
+        { "text": "src", "correct": true },
+        { "text": "check", "correct": false },
+        { "text": "loop", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-3.php?page=2",
+      "statement": "Which of the following function flips an element’s colors, for use by the filter property?",
+      "options": [
+        { "text": "image()", "correct": false },
+        { "text": "flip()", "correct": true },
+        { "text": "invert()", "correct": false },
+        { "text": "contrast()", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-3.php?page=2",
+      "statement": "What does screen media type is used for?",
+      "options": [
+        { "text": "For use with all devices", "correct": false },
+        { "text": "For use with handheld devices", "correct": true },
+        { "text": "For use with computer screens", "correct": false },
+        { "text": "For use with television-type devices", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-3.php?page=2",
+      "statement": "Which of the following property assigns a graphic image to a list item?",
+      "options": [
+        { "text": "list-style-type", "correct": false },
+        { "text": "list-style-image", "correct": true },
+        { "text": "list-style", "correct": false },
+        { "text": "list", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-3.php?page=3",
+      "statement": "Which of the following css property is used to define which properties a transition will be applied to?",
+      "options": [
+        { "text": "animation-property", "correct": false },
+        { "text": "transition-property", "correct": true },
+        { "text": "css3-property", "correct": false },
+        { "text": "none of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-3.php?page=3",
+      "statement": "Which of the following css property is used to define the time it takes one iteration of an animation to play?",
+      "options": [
+        { "text": "animation-duration", "correct": false },
+        { "text": "animation-time", "correct": true },
+        { "text": "animation-value", "correct": false },
+        { "text": "none of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-3.php?page=3",
+      "statement": "Which of the following css property is used to define the animations that should be run?",
+      "options": [
+        { "text": "animation-run", "correct": false },
+        { "text": "animation-name", "correct": true },
+        { "text": "transtion-name", "correct": false },
+        { "text": "none of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-3.php?page=3",
+      "statement": "Which of the following css property repeats an image both horizontally and vertically?",
+      "options": [
+        { "text": "background", "correct": false },
+        { "text": "background-image", "correct": true },
+        { "text": "background-repeat", "correct": false },
+        { "text": "background-position", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-3.php?page=3",
+      "statement": "Which of the following CSS3 property specifies how nested elements are rendered in 3D space?",
+      "options": [
+        { "text": "transform", "correct": false },
+        { "text": "transform-style", "correct": true },
+        { "text": "transform-render", "correct": false },
+        { "text": "none of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-3.php?page=3",
+      "statement": "Which of the following CSS3 property specifies the intrinsic resolution of all raster images used in/on the element?",
+      "options": [
+        { "text": "image-resolution", "correct": false },
+        { "text": "image-orientation", "correct": true },
+        { "text": "image-rendering", "correct": false },
+        { "text": "all of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-3.php?page=3",
+      "statement": "Which of the following CSS3 property specifies how the contents of a replaced element should be fitted to the box established by its used height and width?",
+      "options": [
+        { "text": "object-fit", "correct": false },
+        { "text": "object-position", "correct": true },
+        { "text": "image-orientation", "correct": false },
+        { "text": "none of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-3.php?page=3",
+      "statement": "Which of the following CSS3 property specifies the alignment of the replaced element inside its box?",
+      "options": [
+        { "text": "object", "correct": false },
+        { "text": "object-allign", "correct": true },
+        { "text": "object-position", "correct": false },
+        { "text": "object-render", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-3.php?page=3",
+      "statement": "Which of the following css property defines whether or not an element should be visible when not facing the screen?",
+      "options": [
+        { "text": "visibility", "correct": false },
+        { "text": "backface-control", "correct": true },
+        { "text": "backface-visibility", "correct": false },
+        { "text": "none of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-3.php?page=3",
+      "statement": "Which of the following selector is used to selects the element that is the nth child of its parent?",
+      "options": [
+        { "text": "`:nth-child(n)`", "correct": false },
+        { "text": "`::first-line`", "correct": true },
+        { "text": "`:last-of-type`", "correct": false },
+        { "text": "`:first-of-type`", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-4.php?page=1",
+      "statement": "What is the correct Syntax for importing a stylesheet in CSS?",
+      "options": [
+        {
+          "text": "    @import-stylesheet url(css/style.css);",
+          "correct": false
+        },
+        { "text": "    @import url(css/style.css);", "correct": true },
+        { "text": "    @import-css url(css/style.css);", "correct": false },
+        { "text": "    @import-style url(css/style.css);", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-4.php?page=1",
+      "statement": "What is the correct CSS syntax for making all the <span> tag font size 16px?",
+      "options": [
+        { "text": "    span{size:16px;}", "correct": false },
+        { "text": "    span{font-weight:16px;}", "correct": true },
+        { "text": "    span{text-size:16px;}", "correct": false },
+        { "text": "    span{font-size:16px;}", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-4.php?page=1",
+      "statement": "Which of the following is the correct CSS syntax for using the font property ?",
+      "options": [
+        {
+          "text": "    <p style=\"font: italic bold 15px;\"> \n      Free Time Learning \n    </p>",
+          "correct": false
+        },
+        {
+          "text": "    <p style=\"font: italic, bold, 15px;\"> \n      Free Time Learning  \n    </p>",
+          "correct": true
+        },
+        {
+          "text": "    <p style=\"font-style: italic font-weight: bold font-size: 15px;\"> \n      Free Time Learning  \n    </p>",
+          "correct": false
+        },
+        {
+          "text": "    <p style=\"font-style:bold font-weight: italic font-size: 15px;\"> \n      Free Time Learning  \n    </p>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-4.php?page=1",
+      "statement": "What property can you use to set the spacing in between lines of text?",
+      "options": [
+        { "text": "line-spacing", "correct": false },
+        { "text": "line-height", "correct": true },
+        { "text": "spacing", "correct": false },
+        { "text": "letter-spacing", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-4.php?page=1",
+      "statement": "What property can you use to set the spacing in between the letters ?",
+      "options": [
+        { "text": "font-space", "correct": false },
+        { "text": "text-space", "correct": true },
+        { "text": "word-spacing", "correct": false },
+        { "text": "letter-spacing", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-4.php?page=1",
+      "statement": "What property can you use to set the spacing in between the two words?",
+      "options": [
+        { "text": "font-spacing", "correct": false },
+        { "text": "word-spacing", "correct": true },
+        { "text": "letter-spacing", "correct": false },
+        { "text": "All of the above.", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-4.php?page=1",
+      "statement": "What property would you use to set an image instead of a standard bullet in a list?",
+      "options": [
+        { "text": "list-image:", "correct": false },
+        { "text": "list-style-image:", "correct": true },
+        { "text": "list-image-src:", "correct": false },
+        { "text": "image-list:", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-4.php?page=1",
+      "statement": "If you wanted to position an element to the right in its container, what is a valid CSS property to use?",
+      "options": [
+        { "text": "display:right;", "correct": false },
+        { "text": "float-right:0px;", "correct": true },
+        { "text": "display-right:0px;", "correct": false },
+        { "text": "float:right;", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-4.php?page=1",
+      "statement": "What property would you use to change the size of an HTML element’s border?",
+      "options": [
+        { "text": "border-size:5px;", "correct": false },
+        { "text": "border:width:5px;", "correct": true },
+        { "text": "border-width:5px;", "correct": false },
+        { "text": "border:size:5px;", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-4.php?page=1",
+      "statement": "What property would you use to change the list style to show roman numerals instead of normal numbers?",
+      "options": [
+        { "text": "list-style-type:upper-roman;", "correct": false },
+        { "text": "list-type:roman;", "correct": true },
+        { "text": "list-bullet-type:roman-numerals;", "correct": false },
+        { "text": "list-style:roman;", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-4.php?page=2",
+      "statement": "If we want to wrap a block of text around an image, which css property will we use ?",
+      "options": [
+        { "text": "float", "correct": true },
+        { "text": "wrap", "correct": false },
+        { "text": "align", "correct": false },
+        { "text": "push", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-4.php?page=2",
+      "statement": "What should be the table width, so that the width of a table adjust to the current width of the browser window?",
+      "options": [
+        { "text": "full-screen", "correct": true },
+        { "text": "100%", "correct": false },
+        { "text": "640 pixels", "correct": false },
+        { "text": "1024 pixels", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-4.php?page=2",
+      "statement": "Which of the following function applies a saturation effect to an element’s color, making it appear more or less vivid, for use by the filter property?",
+      "options": [
+        { "text": "color()", "correct": true },
+        { "text": "saturation()", "correct": false },
+        { "text": "saturate()", "correct": false },
+        { "text": "none of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-4.php?page=2",
+      "statement": "Which of the following property sets the amount of spacing between letters?",
+      "options": [
+        { "text": "space", "correct": true },
+        { "text": "line-height", "correct": false },
+        { "text": "letter-spacing", "correct": false },
+        { "text": "letter-space", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-4.php?page=2",
+      "statement": "Which of the following Protocol enables a hyperlink to access a file on the local file system?",
+      "options": [
+        { "text": "file", "correct": true },
+        { "text": "https", "correct": false },
+        { "text": "ftp", "correct": false },
+        { "text": "telnet", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-4.php?page=2",
+      "statement": "Which of the following function defines a linear gradient as a CSS image?",
+      "options": [
+        { "text": "grayscale()", "correct": true },
+        { "text": "gradient()", "correct": false },
+        { "text": "image()", "correct": false },
+        { "text": "linear-gradient()", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-4.php?page=2",
+      "statement": "Which of the following color has this value #ff0000?",
+      "options": [
+        { "text": "blue", "correct": true },
+        { "text": "red", "correct": false },
+        { "text": "green", "correct": false },
+        { "text": "yellow", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-4.php?page=2",
+      "statement": "Which of the following function two dimensional transformation in matrix format?",
+      "options": [
+        { "text": "matrix()", "correct": true },
+        { "text": "matrix2d()", "correct": false },
+        { "text": "matrix3d()", "correct": false },
+        { "text": "perspective", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-4.php?page=2",
+      "statement": "Which of the following function apply a sepia tinge to an element’s color, typical of old photographs, for use by the filter property?",
+      "options": [
+        { "text": "grayscale()", "correct": true },
+        { "text": "sepia()", "correct": false },
+        { "text": "contrast()", "correct": false },
+        { "text": "brightness()", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-4.php?page=2",
+      "statement": "Which of the following specifies a transition effect with same speed from start to end?",
+      "options": [
+        { "text": "linear", "correct": true },
+        { "text": "ease-out", "correct": false },
+        { "text": "ease-in-out", "correct": false },
+        { "text": "ease", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-5.php?page=1",
+      "statement": "The CSS links properties are",
+      "options": [
+        {
+          "text": "    :link, :visited, :hover, :active, :inactive",
+          "correct": false
+        },
+        { "text": "    :link, :visited, :hover, :active", "correct": true },
+        { "text": "    :link, :visit, :hover, :active", "correct": false },
+        { "text": "    :link, :visited, :over, :active", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-5.php?page=1",
+      "statement": "The \\_\\_\\_\\_\\_ specifies whether a border should be solid, dashed line, doted line, double line, groove etc.",
+      "options": [
+        { "text": "border-style", "correct": false },
+        { "text": "border-weight", "correct": true },
+        { "text": "border-decoration", "correct": false },
+        { "text": "border-layout", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-5.php?page=1",
+      "statement": "Which of the following defines a measurement in inches ?",
+      "options": [
+        { "text": "mm", "correct": false },
+        { "text": "inm", "correct": true },
+        { "text": "mn", "correct": false },
+        { "text": "in", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-5.php?page=1",
+      "statement": "Internet Explorer uses the \\_\\_\\_\\_\\_ property to create transparent images.",
+      "options": [
+        { "text": "filter= alpha(opacity:x)", "correct": false },
+        { "text": "\\-moz-opacity:x", "correct": true },
+        { "text": "filter: alpha(opacity=x)", "correct": false },
+        { "text": "none of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-5.php?page=1",
+      "statement": "Which of the following is correct about RGB Values format of CSS colors ?",
+      "options": [
+        {
+          "text": "This property takes three values, one each for red, green, and blue.",
+          "correct": false
+        },
+        {
+          "text": "This color value is specified using the rgb( ) property.",
+          "correct": true
+        },
+        {
+          "text": "The value can be an integer between 0 and 255 or a percentage.",
+          "correct": false
+        },
+        { "text": "All of the above.", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-5.php?page=1",
+      "statement": "Suppose we want to arragnge five nos. of DIVs so that DIV4 is placed above DIV1. Now, which css property will we use to control the order of stack?",
+      "options": [
+        { "text": "d-index", "correct": false },
+        { "text": "s-index", "correct": true },
+        { "text": "x-index", "correct": false },
+        { "text": "z-index", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-5.php?page=1",
+      "statement": "Which element is used in the `<HEAD>` section on an HTML / XHTMLpage, if we want to use an external style sheet file to decorate the page ?",
+      "options": [
+        { "text": "`<link>`", "correct": false },
+        { "text": "`<src>`", "correct": true },
+        { "text": "`<style>`", "correct": false },
+        { "text": "`<css>`", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-5.php?page=1",
+      "statement": "Which css property you will use if you want to add some margin between a DIV's border and its inner text ?",
+      "options": [
+        { "text": "spacing", "correct": false },
+        { "text": "margin", "correct": true },
+        { "text": "padding", "correct": false },
+        { "text": "inner-margin", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-5.php?page=1",
+      "statement": "The default value of \"position\" attribute is \\_\\_\\_\\_\\_\\_\\_\\_\\_.",
+      "options": [
+        { "text": "fixed", "correct": false },
+        { "text": "absolute", "correct": true },
+        { "text": "inherit", "correct": false },
+        { "text": "relative", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-5.php?page=1",
+      "statement": "How will you make all paragraph elements 'RED' in color ?",
+      "options": [
+        { "text": "    p {color: red;}", "correct": false },
+        { "text": "    p.all {color: red;}", "correct": true },
+        { "text": "    p.all {color: #990000;}", "correct": false },
+        { "text": "    all.p {color: #998877;}", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-5.php?page=2",
+      "statement": "Which of the following element is used by the filter property to blur the images?",
+      "options": [
+        { "text": "opaque()", "correct": false },
+        { "text": "scatter()", "correct": false },
+        { "text": "blur()", "correct": true },
+        { "text": "all of the mentioned", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-5.php?page=2",
+      "statement": "Which of the following will represent browsers in their normal states?",
+      "options": [
+        { "text": "CSS ON/Images ON", "correct": false },
+        { "text": "CSS ON/Images OFF", "correct": false },
+        { "text": "CSS OFF/Images ON", "correct": true },
+        { "text": "CSS OFF/Images OFF", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-5.php?page=2",
+      "statement": "Which of the following specifies how many seconds a transition effect takes to complete?",
+      "options": [
+        { "text": "transition-delay", "correct": false },
+        { "text": "transition-duration", "correct": false },
+        { "text": "transition-property", "correct": true },
+        { "text": "transition", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-5.php?page=2",
+      "statement": "What specifies the speed curve of transition effect?",
+      "options": [
+        { "text": "transition-delay", "correct": false },
+        { "text": "transition-property", "correct": false },
+        { "text": "transition-duration", "correct": true },
+        { "text": "transition-timing-function", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-5.php?page=2",
+      "statement": "Which of the following defines a MIME string format of the content being returned?",
+      "options": [
+        { "text": "content-type:string", "correct": false },
+        { "text": "expires:date string", "correct": false },
+        { "text": "location:URL string", "correct": true },
+        { "text": "last-modified:string", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-5.php?page=2",
+      "statement": "Using negative text-indent is also known as \\_\\_\\_\\_\\_\\_",
+      "options": [
+        { "text": "The Scott Kellum method", "correct": false },
+        { "text": "Radu Darvas Technique", "correct": false },
+        { "text": "The Langridge method", "correct": true },
+        { "text": "The Phark method", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-5.php?page=2",
+      "statement": "Which of the following specifies the length of the data being returned?",
+      "options": [
+        { "text": "set-cookie: string", "correct": false },
+        { "text": "location: URL string", "correct": false },
+        { "text": "content-length: string", "correct": true },
+        { "text": "last-modified: string", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-5.php?page=2",
+      "statement": "Which of the following is only for table elements?",
+      "options": [
+        { "text": "initial", "correct": false },
+        { "text": "hidden", "correct": false },
+        { "text": "collapse", "correct": true },
+        { "text": "inherit", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-5.php?page=2",
+      "statement": "What defines the date when information becomes invalid?",
+      "options": [
+        { "text": "last-modified: string", "correct": false },
+        { "text": "expires: date string", "correct": false },
+        { "text": "last-modified: string", "correct": true },
+        { "text": "content-type: string", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/css-quiz-section-5.php?page=2",
+      "statement": "Using Small font-size is also known as \\_\\_\\_\\_",
+      "options": [
+        { "text": "Lindsay method", "correct": false },
+        { "text": "Levin technique", "correct": false },
+        { "text": "Radu Darvas Shim", "correct": true },
+        { "text": "Leon Dwyer method", "correct": false }
+      ]
+    }
+  ]
+}

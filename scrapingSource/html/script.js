@@ -1,63 +1,32 @@
-const content = [...document.querySelector(".post-content").children];
-[...document.querySelectorAll("img")].forEach((node) => node.remove());
-console.log(document.querySelectorAll(".code").length);
-let prevNode = null;
-let scrapeBegin = false;
-let startQuestion = false;
-let explanation = [];
-const questionNodes = ["H3", "H4"];
-let question = {};
-const questions = [];
-for (let i = 0; i < content.length; i++) {
-  const currentNode = content[i];
-  // this begins scraping;
-  if (currentNode.nodeName === "H3" && prevNode.nodeName === "H2") {
-    scrapeBegin = true;
+const contentCont = [
+  ...document.querySelector("form").children[0].children[0].children,
+];
+console.log(contentCont);
+const questionsInPage = [];
+for (let i = 1; i < contentCont.length - 5; i += 3) {
+  const question = { type: "MCQ" };
+  question.statement = contentCont[i].querySelector(".quiz-que-margin");
+  const optionsCont = contentCont[i + 1].querySelectorAll(".quiz-ans-margin");
+  const correctOption = contentCont[2].querySelector(".ans-text-color");
+  const allOptions = [];
+  for (let i = 0; i < optionsCont.length; i++) {
+    let singleOption = {};
+    singleOption.text = optionsCont[i];
+    singleOption.correct = isCorrect(i, correctOption);
+    allOptions.push(singleOption);
   }
-
-  // this will end question scraping & push to questions
-  if (startQuestion) {
-    if (
-      content.length - 1 === i ||
-      (questionNodes.includes(currentNode.nodeName) &&
-        currentNode.textContent[0] === "Q")
-    ) {
-      startQuestion = false;
-      const explanationCont = document.createElement("div");
-      explanationCont.append(...explanation);
-      question.explanation = explanationCont;
-      questions.push(question);
-      question = {};
-      explanation = [];
-    } else {
-      if (currentNode.className === "brush: js") {
-        const pre = document.createElement("pre");
-        const code = document.createElement("code");
-        code.innerHTML = currentNode.innerHTML;
-        pre.append(code);
-        explanation.push(pre);
-      } else {
-        explanation.push(currentNode);
-      }
-    }
-  }
-
-  // this will create question and start question scraping;
-  if (
-    scrapeBegin &&
-    questionNodes.includes(currentNode.nodeName) &&
-    currentNode.textContent[0] === "Q"
-  ) {
-    startQuestion = true;
-    question.statement = currentNode.textContent.split(":").slice(1).join(":");
-  }
-
-  prevNode = currentNode;
+  question.options = allOptions;
+  questionsInPage.push(question);
 }
 
-document.body.innerHTML = "";
-questions.forEach(({ statement, explanation }) => {
-  document.body.append(statement, explanation);
-});
-
-console.log("qns", questions);
+console.log(questionsInPage);
+function isCorrect(index, correctOption) {
+  correctOption = correctOption.textContent[8];
+  const alphaIndex = {
+    A: 0,
+    B: 1,
+    C: 2,
+    D: 3,
+  };
+  return index === alphaIndex[correctOption];
+}
