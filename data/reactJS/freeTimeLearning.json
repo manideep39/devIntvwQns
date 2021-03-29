@@ -1,0 +1,997 @@
+{
+  "questions": [
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=1",
+      "statement": "Everything in React is a \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_",
+      "options": [
+        { "text": "Module", "correct": false },
+        { "text": "Component", "correct": true },
+        { "text": "Package", "correct": false },
+        { "text": "Class", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=1",
+      "statement": "In which directory React Components are saved?",
+      "options": [
+        { "text": "Inside js/components/", "correct": false },
+        { "text": "Inside vendor/components/", "correct": true },
+        { "text": "Inside vendor/components/", "correct": false },
+        { "text": "Inside vendor/", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=1",
+      "statement": "What is Babel?",
+      "options": [
+        { "text": "A transpiler.", "correct": false },
+        { "text": "An interpreter", "correct": true },
+        { "text": "A Compiler", "correct": false },
+        { "text": "Both Compiler and Transpilar", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=1",
+      "statement": "How many elements does a react component return?",
+      "options": [
+        { "text": "1 Element", "correct": false },
+        { "text": "2 Elements", "correct": true },
+        { "text": "Multiple Elements", "correct": false },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=1",
+      "statement": "What does the \"webpack\" command do?",
+      "options": [
+        { "text": "A module bundler", "correct": false },
+        { "text": "Runs react local development server.", "correct": true },
+        {
+          "text": "Transpiles all the Javascript down into one file",
+          "correct": false
+        },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=1",
+      "statement": "What is ReactJS?",
+      "options": [
+        { "text": "Server-side Framework", "correct": false },
+        { "text": "User-interface framework", "correct": true },
+        {
+          "text": "A Library for building interaction interfaces",
+          "correct": false
+        },
+        { "text": "None of the Above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=1",
+      "statement": "What are the limitations of ReactJS?",
+      "options": [
+        {
+          "text": "React is only for view layer of the app so we still need the help of other technologies to get a complete tooling set for development",
+          "correct": false
+        },
+        {
+          "text": "React is using inline templating and JSX. This can seem awkward to some developers",
+          "correct": true
+        },
+        { "text": "The library of react is too large", "correct": false },
+        { "text": "All of these", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=1",
+      "statement": "How can you access the state of a component from inside of a member function?",
+      "options": [
+        { "text": "this.getState()", "correct": false },
+        { "text": "this.prototype.stateValue", "correct": true },
+        { "text": "this.state", "correct": false },
+        { "text": "this.values", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=1",
+      "statement": "Props are \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ into other components",
+      "options": [
+        { "text": "Injected", "correct": false },
+        { "text": "Methods", "correct": true },
+        { "text": "Both A and B", "correct": false },
+        { "text": "All of these", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=1",
+      "statement": "Which of the following API is a MUST for every ReactJS component?",
+      "options": [
+        { "text": "getInitialState", "correct": false },
+        { "text": "render", "correct": true },
+        { "text": "renderComponent", "correct": false },
+        { "text": "None of the Above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=2",
+      "statement": "What port is the default where the webpack-dev-server will run?",
+      "options": [
+        { "text": "3000", "correct": false },
+        { "text": "3306", "correct": false },
+        { "text": "8080", "correct": true },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=2",
+      "statement": "In React what is used to pass data to a component from outside?",
+      "options": [
+        { "text": "setState", "correct": false },
+        { "text": "props", "correct": false },
+        { "text": "PropTypes", "correct": true },
+        { "text": "render with arguments", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=2",
+      "statement": "What is a react.js in MVC?",
+      "options": [
+        { "text": "Model", "correct": false },
+        { "text": "Controller", "correct": false },
+        { "text": "Router", "correct": true },
+        { "text": "Middleware", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=2",
+      "statement": "ReactJS uses \\_\\_\\_\\_\\_ to increase performance",
+      "options": [
+        { "text": "Virtual DOM", "correct": false },
+        { "text": "Original DOM", "correct": false },
+        { "text": "Both 1 & 2", "correct": true },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=2",
+      "statement": "Keys are given to a list of elements in react. These keys should be -",
+      "options": [
+        { "text": "Unique in the DOM", "correct": false },
+        { "text": "Do not requires to be unique", "correct": false },
+        { "text": "Unique among the siblings only", "correct": true },
+        { "text": "All of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=2",
+      "statement": "Which of the following is the correct data flow sequence of flux concept?",
+      "options": [
+        { "text": "Dispatcher->Action->Store->View", "correct": false },
+        { "text": "Action->Dispatcher->Store->View", "correct": false },
+        { "text": "Action->Dispatcher->View->Store", "correct": true },
+        { "text": "Action->Store->Dispatcher->View", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=2",
+      "statement": "What is the name of React.js Developer ?",
+      "options": [
+        { "text": "Tim Lee", "correct": false },
+        { "text": "Jordan Lee", "correct": false },
+        { "text": "Jordan mike", "correct": true },
+        { "text": "Jordan Walke", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=2",
+      "statement": "Who Develop React.js?",
+      "options": [
+        { "text": "Google", "correct": false },
+        { "text": "Apple", "correct": false },
+        { "text": "Facebook", "correct": true },
+        { "text": "Twitter", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=2",
+      "statement": ".............. helps react for keeping their data unidirectional",
+      "options": [
+        { "text": "JSX", "correct": false },
+        { "text": "Flux", "correct": false },
+        { "text": "Dom", "correct": true },
+        { "text": "Props", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=2",
+      "statement": "At the highest level, React components have lifecycle events that fall into",
+      "options": [
+        { "text": "Initialization", "correct": false },
+        { "text": "State/Property Updates", "correct": false },
+        { "text": "Destruction", "correct": true },
+        { "text": "All of these", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=3",
+      "statement": "If you want to import just the Component from the React library, what syntax do you use?",
+      "options": [
+        { "text": "import React.Component from 'react'", "correct": false },
+        { "text": "import \\[ Component \\] from 'react'", "correct": false },
+        { "text": "import Component from 'react'", "correct": false },
+        { "text": "import { Component } from 'react'", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=3",
+      "statement": "If a function component should always render the same way given the same props, what is a simple performance optimization available for it?",
+      "options": [
+        {
+          "text": "Wrap it in the React.memo higher-order component.",
+          "correct": false
+        },
+        { "text": "Implement the useReducer Hook.", "correct": false },
+        {
+          "text": "Implement the shouldComponentUpdate lifecycle method.",
+          "correct": false
+        },
+        { "text": "Implement the useMemo Hook.", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=3",
+      "statement": "How do you fix the syntax error that results from running this code?\n\n    const person =(firstName, lastName) =>\n           {\n                first: firstName,\n                last: lastName\n            }\n    console.log(person(\"jhon\", \"Wolson\"))",
+      "options": [
+        { "text": "Wrap the object in parentheses.", "correct": false },
+        { "text": "Call the function from another file.", "correct": false },
+        { "text": "Replace the with an array", "correct": false },
+        {
+          "text": "Add a return statement before the first curly brace.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=3",
+      "statement": "If you see the following import in a file, what is being used for state management in the component?  \n  \n\n`import React, {useState} from 'react';`",
+      "options": [
+        { "text": "stateful components", "correct": false },
+        { "text": "class components", "correct": false },
+        { "text": "math", "correct": false },
+        { "text": "React Hooks", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=3",
+      "statement": "Using object literal enhancement, you can put values back into an object. When you log person to the console, what is the output?\n\n    const name = 'Venkat';\n    const age = 30;\n    const person = { name, age };\n    console.log(person);",
+      "options": [
+        { "text": "`{{name: \"Venkat\", age: 30}}`", "correct": false },
+        { "text": "`{name: \"Venkat\", age: 30}`", "correct": false },
+        { "text": "`{person: \"Venkat\", person: 30}}`", "correct": false },
+        { "text": "`{person: {name: \"Venkat\", age: 30}}`", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=3",
+      "statement": "How do you access a function fetch() from a h1 element in JSX?",
+      "options": [
+        { "text": "`<h1>{fetch()}</h1>`", "correct": false },
+        { "text": "`<h1>${fetch()}</h1>`", "correct": false },
+        { "text": "`<h1>{fetch}</h1>`", "correct": false },
+        { "text": "`<h1>${fetch}</h1>`", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=3",
+      "statement": "What happens when the following render() method executes?\n\n    render(){\n       let langs = [\"Ruby\",\"ES6\",\"Scala\"]\n         return (<div>\n           {langs.map(it => <p>{it}</p>)}\n         </div>)\n     }",
+      "options": [
+        {
+          "text": "Error. Cannot use direct JavaScript code in JSX",
+          "correct": false
+        },
+        {
+          "text": "Error. Should be replaced with a for..loop for correct output",
+          "correct": false
+        },
+        {
+          "text": "Displays the list of languages in the array",
+          "correct": false
+        },
+        { "text": "Displays nothing", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=3",
+      "statement": "How do you write an inline style specifying the font-size:12px and color:red; in JSX",
+      "options": [
+        { "text": "`style={{font-size:12,color:'red'}}`", "correct": false },
+        { "text": "`style={{fontSize:'12px',color:'red'}}`", "correct": false },
+        { "text": "`style={fontSize:'12px',color:'red'}`", "correct": false },
+        { "text": "`style={{font-size:12px,color:'red'}}`", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=3",
+      "statement": "Which method in a React Component should you override to stop the component from updating?",
+      "options": [
+        { "text": "willComponentUpdate", "correct": false },
+        { "text": "shouldComponentUpdate", "correct": false },
+        { "text": "componentDidUpdate", "correct": false },
+        { "text": "componentDidMount", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=3",
+      "statement": "What happens when you call setState() inside render() method?",
+      "options": [
+        { "text": "Repetitive output appears on the screen", "correct": false },
+        { "text": "Nothing happens. Life goes on!", "correct": false },
+        { "text": "Duplicate key error", "correct": false },
+        { "text": "Stack overflow error", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=4",
+      "statement": "React is a \\_\\_\\_\\_\\_\\_",
+      "options": [
+        { "text": "Javascript library", "correct": true },
+        { "text": "Javascript framework", "correct": false },
+        { "text": "Both of above", "correct": false },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=4",
+      "statement": "ReactJS covers \\_\\_\\_\\_\\_",
+      "options": [
+        { "text": "User Interface layer in an application", "correct": true },
+        { "text": "Data layer in an application", "correct": false },
+        { "text": "Both A and B", "correct": false },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=4",
+      "statement": "Number of elements, a valid react component can return",
+      "options": [
+        { "text": "1", "correct": true },
+        { "text": "2", "correct": false },
+        { "text": "3", "correct": false },
+        { "text": "4", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=4",
+      "statement": "props in react can\\_\\_\\_\\_\\_\\_\\_\\_",
+      "options": [
+        { "text": "Be changed inside the component", "correct": true },
+        { "text": "Not be changed in the component", "correct": false },
+        { "text": "Be changed in side other component", "correct": false },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=4",
+      "statement": "What is the testing library most often associated with React?",
+      "options": [
+        { "text": "Mocha", "correct": true },
+        { "text": "Sinon", "correct": false },
+        { "text": "Chai", "correct": false },
+        { "text": "Jest", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=4",
+      "statement": "What is state in react?",
+      "options": [
+        { "text": "Internal storage of the component", "correct": true },
+        { "text": "A prement storage", "correct": false },
+        { "text": "Both A and B", "correct": false },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=4",
+      "statement": "What will happen if you render an input element with disabled = {false}",
+      "options": [
+        { "text": "It will be rendered as disabled", "correct": true },
+        { "text": "It will be rendered as enabled", "correct": false },
+        { "text": "It will not be rendered at all", "correct": false },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=4",
+      "statement": "To get the first item from the array (\"cooking\") using array destructuring, how do you adjust this line?  \n  \n\n`const topics = ['cooking', 'art', 'history'];`",
+      "options": [
+        {
+          "text": "`const first = [\"cooking\", \"art\", \"history\"]`",
+          "correct": true
+        },
+        {
+          "text": "`const [] = [\"cooking\", \"art\", \"history\"]`",
+          "correct": false
+        },
+        {
+          "text": "`const [, first][\"cooking\", \"art\", \"history\"]`",
+          "correct": false
+        },
+        {
+          "text": "`const [first] = [\"cooking\", \"art\", \"history\"]`",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=4",
+      "statement": "How do you handle passing through the component tree without having to pass props down manually at every level?",
+      "options": [
+        { "text": "React Send", "correct": true },
+        { "text": "React Pinpoint", "correct": false },
+        { "text": "React Router", "correct": false },
+        { "text": "React Context", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=4",
+      "statement": "What should the console read when the following code is run?  \n  \n\n    const [, , animal] = ['Horse', 'Mouse', 'Cat'];\n    console.log(animal);​",
+      "options": [
+        { "text": "Horse", "correct": true },
+        { "text": "Cat", "correct": false },
+        { "text": "Mouse", "correct": false },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=5",
+      "statement": "What is the name of the tool used to take JSX and turn it into createElement calls?",
+      "options": [
+        { "text": "JSX Editor", "correct": false },
+        { "text": "ReactDOM", "correct": false },
+        { "text": "Browser Buddy", "correct": false },
+        { "text": "Babel", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=5",
+      "statement": "React Lifecycle method static getDerivedSateFromProps(props , state) is called when \\_\\_\\_\\_",
+      "options": [
+        { "text": "Component is created for the first time", "correct": false },
+        { "text": "Component is created for the first time", "correct": false },
+        { "text": "Both of above", "correct": false },
+        { "text": "None of the above", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=5",
+      "statement": "Keys are given to a list of elements in react. These keys should be",
+      "options": [
+        { "text": "Unique in the DOM", "correct": false },
+        { "text": "Unique among the siblings only", "correct": false },
+        { "text": "Do not requires to be unique", "correct": false },
+        { "text": "None of the above", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=5",
+      "statement": "For uncontrolled components in react",
+      "options": [
+        { "text": "Source of truth is DOM", "correct": false },
+        { "text": "Source of truth is component state", "correct": false },
+        { "text": "Source of truth can be anything", "correct": false },
+        { "text": "None of the above", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=5",
+      "statement": "Why might you use useReducer over useState in a React component?",
+      "options": [
+        { "text": "when you want to replace Redux", "correct": false },
+        { "text": "when you want to replace Redux", "correct": false },
+        {
+          "text": "when you want to break your production app",
+          "correct": false
+        },
+        { "text": "when you want to improve performance", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=5",
+      "statement": "Which props from the props object is available to the component with the following syntax?\n\n  \n`<Message {...props} />`",
+      "options": [
+        { "text": "any that have changed", "correct": false },
+        { "text": "any that have not changed", "correct": false },
+        { "text": "child props", "correct": false },
+        { "text": "all of them", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=5",
+      "statement": "Consider the following code from React Router. What do you call :id in the path prop?  \n  \n`<Route path=\"/:id\" />`",
+      "options": [
+        { "text": "This is a route modal", "correct": false },
+        { "text": "This is a route parameter", "correct": false },
+        { "text": "This is a route splitter", "correct": false },
+        { "text": "This is a route link", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=5",
+      "statement": "What does this React element look like given the following function?\n\n  \n\n    React.createElement('h1', null, \"What's happening?\");​",
+      "options": [
+        {
+          "text": "    <h1 props={null}>What's happening?</h1>",
+          "correct": false
+        },
+        { "text": "    <h1>What's happening?</h1>", "correct": false },
+        {
+          "text": "    <h1 id=\"component\">What's happening?</h1>",
+          "correct": false
+        },
+        {
+          "text": "    <h1 id=\"element\">What's happening?</h1>",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=5",
+      "statement": "What property do you need to add to the Suspense component in order to display a spinner or loading state?\n\n    function MyComponent() {\n      return (\n        <Suspense>\n          <div>\n            <Message />\n          </div>\n        </Suspense>\n      );\n    }",
+      "options": [
+        { "text": "lazy", "correct": false },
+        { "text": "loading", "correct": false },
+        { "text": "fallback", "correct": false },
+        { "text": "spinner", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=5",
+      "statement": "Which of the following is a correct definition of state in react?\n\na) A persistent storage\n\nb) An internal data store (object) of component",
+      "options": [
+        { "text": "a", "correct": false },
+        { "text": "b", "correct": false },
+        { "text": "Both A and B", "correct": false },
+        { "text": "None of the above", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=6",
+      "statement": "What are two ways data gets handled in react?",
+      "options": [
+        { "text": "state & props", "correct": true },
+        { "text": "services & components", "correct": false },
+        { "text": "state & services", "correct": false },
+        { "text": "state & component", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=6",
+      "statement": "What do you call the message wrapped in curly braces below?\n\n    let message = 'Hi there';\n    const element = <p>{message}</p>;",
+      "options": [
+        { "text": "a JS function", "correct": true },
+        { "text": "a JS element", "correct": false },
+        { "text": "a JSX wrapper", "correct": false },
+        { "text": "a JS expression", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=6",
+      "statement": "What can you use to handle code splitting?",
+      "options": [
+        { "text": "React.split", "correct": true },
+        { "text": "React.lazy", "correct": false },
+        { "text": "React.memo", "correct": false },
+        { "text": "React.fallback", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=6",
+      "statement": "When do you use useLayoutEffect?",
+      "options": [
+        { "text": "to optimize for all devices", "correct": true },
+        { "text": "to complete the update", "correct": false },
+        { "text": "to change the layout of the screen", "correct": false },
+        {
+          "text": "when you need the browser to paint before the effect runs",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=6",
+      "statement": "You have written the following code but nothing is rendering. How do you fix this problem?\n\n    const Heading = () => {\n      <h1>Hello!</h1>;\n    };",
+      "options": [
+        { "text": "Add a render function", "correct": true },
+        { "text": "Surround the h1 in a div.", "correct": false },
+        { "text": "Move the h1 to another component.", "correct": false },
+        {
+          "text": "Change the curly braces to parentheses or add a return statement before the h1 tag.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=6",
+      "statement": "Which of these terms commonly describe React applications?",
+      "options": [
+        { "text": "declarative", "correct": true },
+        { "text": "imperative", "correct": false },
+        { "text": "integrated", "correct": false },
+        { "text": "closed", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=6",
+      "statement": "What is the children prop?",
+      "options": [
+        {
+          "text": "a property that lets you pass components as data to other components",
+          "correct": true
+        },
+        {
+          "text": "a property that lets you pass data to child elements",
+          "correct": false
+        },
+        {
+          "text": "a property that lets you set an array as a property",
+          "correct": false
+        },
+        {
+          "text": "a property that adds child components to state",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=6",
+      "statement": "Why is it important to avoid copying the values of props into a component's state where possible?",
+      "options": [
+        { "text": "because you should never mutate state", "correct": true },
+        {
+          "text": "because you want to allow data to flow back up to the parent",
+          "correct": false
+        },
+        {
+          "text": "because getDerivedStateFromProps() is an unsafe method to use",
+          "correct": false
+        },
+        {
+          "text": "because you want to allow a component to update in response to changes in the props",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=6",
+      "statement": "When might you use React.PureComponent?",
+      "options": [
+        {
+          "text": "when you do not want your component to have state",
+          "correct": true
+        },
+        {
+          "text": "when you have sibling components that need to be compared",
+          "correct": false
+        },
+        {
+          "text": "when you want a default implementation of shouldComponentUpdate()",
+          "correct": false
+        },
+        {
+          "text": "when you do not want your component to have props",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=6",
+      "statement": "How do you destructure the properties that are sent to the Dish component?\n\n    function Dish(props) {\n      return (\n        <h1>\n          {props.name} {props.cookingTime}\n        </h1>\n      );\n    }",
+      "options": [
+        {
+          "text": "`function Dish([name, cookingTime]) { return <h1>{name} {cookingTime}</h1>; }`",
+          "correct": true
+        },
+        {
+          "text": "`function Dish({name, cookingTime}) { return <h1>{name} {cookingTime}</h1>; }`",
+          "correct": false
+        },
+        {
+          "text": "`function Dish(props) { return <h1>{name} {cookingTime}</h1>; }`",
+          "correct": false
+        },
+        {
+          "text": "`function Dish(...props) { return <h1>{name} {cookingTime}</h1>; }`",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=7",
+      "statement": "What is the difference between the click behaviors of these two buttons (assuming that this.handleClick is bound correctly)?\n\n    A. <button onClick=\"{this.handleClick}>Click Me</button>\"\n    B. <button onClick=\"{event => this.handleClick(event)}}>Click Me</button>\"",
+      "options": [
+        {
+          "text": "Button A will not have access to the event object on click of the button.",
+          "correct": false
+        },
+        {
+          "text": "Button B will not fire the handler this.handleClick successfully.",
+          "correct": true
+        },
+        {
+          "text": "Button A will not fire the handler this.handleClick successfully.",
+          "correct": false
+        },
+        { "text": "There is no difference", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=7",
+      "statement": "What do you call a React component that catches JavaScript errors anywhere in the child component tree?",
+      "options": [
+        { "text": "error bosses", "correct": false },
+        { "text": "error catchers", "correct": true },
+        { "text": "error helpers", "correct": false },
+        { "text": "error boundaries", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=7",
+      "statement": "In which lifecycle method do you make requests for data in a class component?",
+      "options": [
+        { "text": "constructor", "correct": false },
+        { "text": "componentDidMount", "correct": true },
+        { "text": "componentWillReceiveProps", "correct": false },
+        { "text": "componentWillMount", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=7",
+      "statement": "All React components must act like \\_\\_ with respect to their props.",
+      "options": [
+        { "text": "monads", "correct": false },
+        { "text": "pure functions", "correct": true },
+        { "text": "recursive functions", "correct": false },
+        { "text": "higher-order functions", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=7",
+      "statement": "Why might you use a ref?",
+      "options": [
+        { "text": "to directly access the DOM node", "correct": false },
+        { "text": "to refer to another JS file", "correct": true },
+        { "text": "to bind the function", "correct": false },
+        { "text": "to call a function", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=7",
+      "statement": "What is **\\[e.target.id\\]** called in the following code snippet?\n\n    handleChange(e) {\n    \tthis.setState({[e.target.id]: e.target.value })\n    }",
+      "options": [
+        { "text": "a computer property name", "correct": false },
+        { "text": "a JSX code string", "correct": true },
+        { "text": "a dynamic key", "correct": false },
+        { "text": "a set value", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=7",
+      "statement": "What is the name of this component?\n\n    class Clock extends React.Component {\n       render() {\n        return <h1>Look at the time: {time}</h1>;\n       }\n      }",
+      "options": [
+        { "text": "Clock", "correct": false },
+        { "text": "Component", "correct": true },
+        { "text": "React.Component", "correct": false },
+        { "text": "It does not have a name prop.", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=7",
+      "statement": "What package contains the render() function that renders a React element tree to the DOM?",
+      "options": [
+        { "text": "React", "correct": false },
+        { "text": "DOM", "correct": true },
+        { "text": "ReactDOM", "correct": false },
+        { "text": "Render", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=7",
+      "statement": "What is sent to an Array.map() function?",
+      "options": [
+        {
+          "text": "a callback function that is called once for each element in the array",
+          "correct": false
+        },
+        {
+          "text": "the name of another array to iterate over",
+          "correct": true
+        },
+        {
+          "text": "the number of times you want to call the function",
+          "correct": false
+        },
+        {
+          "text": "a string describing what the function should do",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=7",
+      "statement": "Why is it a good idea to pass a function to setState instead of an object?",
+      "options": [
+        { "text": "It is more functional than an object", "correct": false },
+        { "text": "It automatically updates a component", "correct": true },
+        {
+          "text": "It makes sure that the object is not mutated",
+          "correct": false
+        },
+        {
+          "text": "setState is asynchronous and might result in out of sync values.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=8",
+      "statement": "How do you set a default value for an uncontrolled form field?",
+      "options": [
+        { "text": "Use the value property", "correct": false },
+        { "text": "Use the defaultValue property", "correct": true },
+        { "text": "Use the default property", "correct": false },
+        { "text": "It assigns one automatically", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=8",
+      "statement": "How do you invoke setDone only when component mounts, using hooks?\n\n    function MyComponent(props) {\n      const [done, setDone] = useState(false);\n    \n      return <h1>Done: {done}</h1>;\n    }",
+      "options": [
+        {
+          "text": "    useEffect(() => { setDone(true); });​",
+          "correct": false
+        },
+        {
+          "text": "    useEffect(() => { setDone(true); }, []);",
+          "correct": true
+        },
+        {
+          "text": "    useEffect(() => { setDone(true); }, [setDone]);",
+          "correct": false
+        },
+        {
+          "text": "    useEffect(() => { setDone(true); }, [done, setDone]);",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=8",
+      "statement": "What value of button will allow you to pass the name of the person to be hugged?\n\n    class Huggable extends React.Component{\n    \thug(id){\n    \t\tconsole.log(\"hugging \" + id);\n    \t}\n    \n    \trender() {\n    \t\tlet name = \"kitteh\";\n    \t\tlet button = // Missing Code\n    \t\treturn button;\n    \t}\n    }",
+      "options": [
+        {
+          "text": "    <button onClick={(name) => this.hug(name)>Hug Button</button>",
+          "correct": false
+        },
+        {
+          "text": "    <button onClick={this.hug(e, name)}>Hug Button</button>",
+          "correct": true
+        },
+        {
+          "text": "    <button onClick={(e) => hug(e,name)}>Hug Button</button>",
+          "correct": false
+        },
+        {
+          "text": "    <button onClick={(e) => this.hug(name, e)}>Hug Button</button>",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=8",
+      "statement": "Which Hook could be used to update the document's title?",
+      "options": [
+        {
+          "text": "    useEffect(function updateTitle() { document.title = name + ' ' + lastname; });",
+          "correct": false
+        },
+        {
+          "text": "    useEffect(() => { title = name + ' ' + lastname; });",
+          "correct": true
+        },
+        {
+          "text": "    useEffect(function updateTitle() { name + ' ' + lastname; });",
+          "correct": false
+        },
+        {
+          "text": "    useEffect(function updateTitle() { title = name + ' ' + lastname; });",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=8",
+      "statement": "What do you need to change about this code to get it to run?\n\n    class clock extends React.Component {\n      render() {\n        return <h1>Look at the time: {this.props.time}</h1>;\n      }\n    }",
+      "options": [
+        { "text": "Remove this", "correct": false },
+        { "text": "Capitalize clock", "correct": true },
+        { "text": "Remove the render method", "correct": false },
+        { "text": "Add quotes around the return value", "correct": false }
+      ]
+    }
+  ]
+}

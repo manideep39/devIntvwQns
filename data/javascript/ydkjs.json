@@ -1,0 +1,3333 @@
+{
+  "questions": [
+    {
+      "statement": "What gives a program state?",
+      "explanation": "A program is described as stateful if it is designed to remember preceding events or user interactions. The remembered information is called the state. Without state, a program could perform some tasks, but they would be extremely limited in functionality.",
+      "type": "MCQ",
+      "options": [
+        { "text": "The ability for a program to execute", "correct": false },
+        {
+          "text": "The ability for a program to be compiled",
+          "correct": false
+        },
+        {
+          "text": "The ability to store values and pull values out of variables",
+          "correct": true
+        },
+        {
+          "text": "The process of creating an Abstract Syntax Tree",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "In a traditional compiled-language process, what is the correct order of the three main steps a program will undergo before executing?",
+      "explanation": "Tokenizing/Lexing is the process of breaking up a string of characters into meaningful chunks called tokens. Parsing is the act of taking a stream of tokens and turning it into a tree of nested elements which represent the structure of the program. Code-Generation is the process of taking the tree and turning it into executable code.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "Tokenizing/Lexing, Parsing, Code-Generation",
+          "correct": true
+        },
+        {
+          "text": "Tokenizing/Lexing, Code-Generation, Parsing",
+          "correct": false
+        },
+        {
+          "text": "Parsing, Code-Generation, Tokenzing/Lexing",
+          "correct": false
+        },
+        {
+          "text": "Code-Generation, Tokenzing/Lexing, Parsing",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "In a traditional compiled-language process, during which phase is a string of characters broken into meaningful chunks?",
+      "explanation": "E. A string of characters is broken into meaningful chuncks during the tokenization/lexing phase. A token is a string with an assigned meaning. It is structured as a pair consisting of a token name and optional token value. Some common token names include: Identifiers, Keywords, Separators, operators, and literals.",
+      "type": "MCQ",
+      "options": [
+        { "text": "Code-generation phase", "correct": false },
+        { "text": "Parsing phase", "correct": false },
+        { "text": "Execution phase", "correct": false },
+        { "text": "Tokenizing/Lexing phase", "correct": true }
+      ]
+    },
+    {
+      "statement": "Which of the following is the responsibility of Scope?",
+      "explanation": "The Scope is responsible for maintaing a look-up list of all declared identifiers and enforcing a strict set of rules as to how these are accessible to currently executing code.",
+      "type": "MCQ",
+      "options": [
+        { "text": "Parsing and code-generation", "correct": false },
+        {
+          "text": "Collecting and maintaining a look-up list of all declared variables",
+          "correct": true
+        },
+        {
+          "text": "Start-to-Finish compilation and execution of the javaScript prgoram",
+          "correct": false
+        },
+        {
+          "text": "Taking a stream of tokens and turning it into a tree of nested elements",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "Two distinct actions are taken for a variable assignment such as \\`var a = 2; \\`",
+      "explanation": "Two distinct actions are taken for a variable assignment: First, Compiler declares a variable (if not previously declared in the current scope), and second, when executing, Engine looks up the variable in Scope and assigns to it, if found.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "Compiler declares a variable (if not previously declared) while simultaneously Engine looks up the variable in Scope and assigns to it, if found.",
+          "correct": false
+        },
+        {
+          "text": "Compiler declares a variable regardless of whether or not it was previously declared, while simultaneously Engine looks up the variable in Scope and assigns to it.",
+          "correct": false
+        },
+        {
+          "text": "First, Compiler declares a variable (if not previously declared in the current scope), and second, when executing, Engine looks up the variable in Scope and assigns to it, if found.",
+          "correct": true
+        },
+        {
+          "text": "First, Engine declares a variable (if not previously declared in the current scope), and second, when executing, Compiler looks up the variable in Scope and assigns to it, if found.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "Which of the statements below are true?",
+      "explanation": "The reference to \\`a\\` in \\`console.log( a );\\` is an RHS reference, because nothing is being assigned to \\`a\\` here. By contrast, in \\`a = 2;\\` the reference to \\`a\\` is an LHS reference, because we don&#39;t actually care what the current value is. We simply want to find the variable as \\`a\\` target for the \\`= 2\\` assignment operation.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "LHS and RHS meaning \"left/right-hand side of an assignment\" always literally mean \"left/right side of the \\`=\\` assignment operator\"",
+          "correct": false
+        },
+        {
+          "text": "The reference to \\`a\\` in the statements \\`console.log( a );\\` and in \\`a = 2; \\` is a LHS statement.",
+          "correct": false
+        },
+        {
+          "text": "In \\`console.log( a );\\` the reference to \\`a\\` is an LHS reference, while in \\`a = 2; \\` the reference to \\`a\\` is an RHS statement.",
+          "correct": false
+        },
+        {
+          "text": "In \\`console.log( a );\\` the reference to \\`a\\` is an RHS reference, while in \\`a = 2; \\` the reference to \\`a\\` is an LHS statement.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "statement": "Which of these next statements is true for traversing nested Scope?",
+      "explanation": "Engine starts at the currently executing Scope, looks for the variable there, then if not found, keeps going up one level, and so on. If the outermost global scope is reached, the search stops, whether it finds the variable or not.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "Engine starts looking for a variable at the outermost global scope.",
+          "correct": false
+        },
+        {
+          "text": "Engine starts looking for a variable at the innermost global scope.",
+          "correct": false
+        },
+        {
+          "text": "If the variable was not found at the currently executing Scope, Engine keeps going down one level, and so on.",
+          "correct": false
+        },
+        {
+          "text": "Engine starts looking for the variable at the currently executing Scope.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "statement": "Why does it matter whether we call it LHS or RHS?",
+      "explanation": "The names matter because these two types of look-ups behave differently in the circumstance where the variable has not yet been declared (is not found in any consulted Scope). If an RHS look-up fails to ever find a variable, this results in a \\`ReferenceError\\` being thrown by the Engine. By contrast, if the Engine is performing an LHS look-up and arrives at the top floor (global Scope) without finding it, and if the program is not running in \"Strict Mode\", then the global Scope will create a new variable of that name in the global scope.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "Because these two types of look-ups behave differently when the variable has been declared and assigned the value \\`undefined\\`.",
+          "correct": false
+        },
+        {
+          "text": "Because these two types of look-ups behave differently when the variable has been declared on global Scope vs. the currently executing Scope.",
+          "correct": false
+        },
+        {
+          "text": "Because these two types of look-ups behave differently when the variable has not yet been declared (is not found in any consulted Scope).",
+          "correct": true
+        },
+        {
+          "text": "If an LHS look-up fails to ever find a variable, anywhere in the nested Scopes, this results in a \\`ReferenceError\\` being thrown by the Engine.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "What is Parsing?",
+      "explanation": "Parsing is typically thought of as taking a string of text and making sense of it. However, the string of text is actually converted into tokens first. Parsing is actually taking the tokens and making them useful by converting them into an abstract syntax tree",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "Taking a string and converting it into tokens",
+          "correct": false
+        },
+        {
+          "text": "Taking a stream of tokens and converting them into an abstract syntax tree",
+          "correct": true
+        },
+        {
+          "text": "Taking an abstract syntax tree and converting it into zeroes and ones",
+          "correct": false
+        },
+        {
+          "text": "Taking a string and converting it into assembly",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "What is the responsibility of a JavaScript engine?",
+      "explanation": "The engine is the entirety of what reads and executes your code. Each browser has their own engine as does Node (built on Chrome's V8 JavaScript engine).",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "Handling all the dirty work of parsing and code-generation",
+          "correct": false
+        },
+        {
+          "text": "Writing JavaScript code that is missing from the file",
+          "correct": false
+        },
+        {
+          "text": "Start-to-finish compilation and execution of our JavaScript program",
+          "correct": true
+        },
+        {
+          "text": "Find all unused code and remove it before code generation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "What is the difference between an LHS lookup and an RHS lookup?",
+      "explanation": "LHS stands for \"left hand side\", and RHS stands for \"right hand side\". For a = b, the RHS looks for the value of b, and the LHS looks for the location of a in memory, so that it can update its value.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "LHS lookups search for variables whereas RHS search for values",
+          "correct": false
+        },
+        {
+          "text": "LHS looks for assignment operator whereas RHS looks for the value to be assigned",
+          "correct": false
+        },
+        {
+          "text": "LHS looks for the existence of a variable whereas RHS looks for the history of that variable",
+          "correct": false
+        },
+        {
+          "text": "LHS looks for the variable container whereas RHS looks for the value of the variable",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "statement": "How many LHS look-ups are in the code below: \\`\\`\\`js function foo(a){ var b = a; return a + b } var c = foo( 2 ); \\`\\`\\`",
+      "explanation": "\\`c = ..\\`, \\`a = 2\\` (implicit param assignment) and \\`b = ..\\`",
+      "type": "MCQ",
+      "options": [
+        { "text": "1", "correct": false },
+        { "text": "2", "correct": false },
+        { "text": "3", "correct": true },
+        { "text": "4", "correct": false }
+      ]
+    },
+    {
+      "statement": "How many RHS look-ups are in the code below: \\`\\`\\`js function foo(a){ var b = a; return a + b } var c = foo( 2 ); \\`\\`\\`",
+      "explanation": "\\`foo(2..\\`, \\`= a;\\`, \\`a + ..\\` and \\`.. + b\\`",
+      "type": "MCQ",
+      "options": [
+        { "text": "1", "correct": false },
+        { "text": "2", "correct": false },
+        { "text": "3", "correct": false },
+        { "text": "4", "correct": true }
+      ]
+    },
+    {
+      "statement": "If an RHS look-up fails to find a variable, what kind of error is thrown?",
+      "explanation": "A ReferenceError is thrown when trying to dereference a variable that has not been declared. The only way for an RHS look-up to fail is if the variable has not been declared.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`SyntaxError\\`", "correct": false },
+        { "text": "\\`ReferenceError\\`", "correct": true },
+        { "text": "\\`TypeError\\`", "correct": false },
+        { "text": "\\`EvalError\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "When is scoping determined in JavaScript?",
+      "explanation": "In JavaScript, scoping is lexical. It is based on where variables and blocks of scope are authored, by you, at write time, and thus is (mostly) set in stone by the time the lexer processes your code.",
+      "type": "MCQ",
+      "options": [
+        { "text": "At author-time", "correct": true },
+        { "text": "At run-time", "correct": false }
+      ]
+    },
+    {
+      "statement": "What is logged to the console when the following code is executed: \\`\\`\\`js function foo(a) { var b = a \\* 2; function bar(c) { console.log( a, b, c ); } bar(b \\* 3); } foo( 2 ); \\`\\`\\`",
+      "explanation": "\\`c\\` is scoped to \\`bar\\`, \\`a\\` and \\`b\\` are scoped to \\`foo\\`. \\`bar\\` looks for \\`a\\` and \\`b\\` in its local scope, but can't find it, so checks its outer scope, \\`foo\\`, where it finds variables \\`a\\` and \\`b\\`. \\`bar\\` looks for \\`c\\` in its local scope, and finds it.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`2 4 12\\`", "correct": true },
+        { "text": "\\`undefined undefined undefined\\`", "correct": false },
+        { "text": "\\`2 4 undefined\\`", "correct": false },
+        { "text": "\\`ReferenceError\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What is logged to the console when the following code is executed: \\`\\`\\`js function foo() { const a = 2 function bar() { console.log(a); } bar(); } const a = 1 foo(); \\`\\`\\`",
+      "explanation": "\\`a\\` is scoped to \\`foo\\`. \\`bar\\` looks for \\`a\\` in its local scope, but can't find it, so checks its outer scope, \\`foo\\`, where it finds \\`a\\` with a value of 2.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`undefined\\`", "correct": false },
+        { "text": "\\`null\\`", "correct": false },
+        { "text": "\\`1\\`", "correct": false },
+        { "text": "\\`2\\`", "correct": true }
+      ]
+    },
+    {
+      "statement": "What is logged to the console when the following code is executed: \\`\\`\\`js function bar(b) { console.log(a); } function foo() { const a = 5 bar(10); } foo(); \\`\\`\\`",
+      "explanation": "\\`bar\\` does not have \\`a\\` in its scope, so the engine looks in its outer scope, the global scope. It does not see an \\`a\\`, so it throws a \\`ReferenceError\\`.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`undefined\\`", "correct": false },
+        { "text": "\\`ReferenceError\\`", "correct": true },
+        { "text": "\\`5\\`", "correct": false },
+        { "text": "\\`10\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What is logged to the console when the following code is executed: \\`\\`\\`js let a; function bar(b) { console.log(a); } function foo() { const a = 7 bar(9); } foo(); \\`\\`\\`",
+      "explanation": "\\`bar\\` does not have \\`a\\` in its scope, so the engine looks in its outer scope, the global scope. It sees \\`a\\`, but notices that there is no value assigned to it, thus it is \\`undefined\\`.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`undefined\\`", "correct": true },
+        { "text": "\\`ReferenceError\\`", "correct": false },
+        { "text": "\\`7\\`", "correct": false },
+        { "text": "\\`9\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What is logged to the console when the following code is executed and the user clicks the button: \\`\\`\\`js const button = document.querySelector('button'); function bar() { const b = 1 console.log(b) button.addEventListener('click', bar) } \\`\\`\\`",
+      "explanation": "\\`bar\\` never gets called, so \\`console.log(b)\\` is never executed.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`undefined\\`", "correct": false },
+        { "text": "\\`null\\`", "correct": false },
+        { "text": "\\`1\\`", "correct": false },
+        { "text": "nothing is logged to the console", "correct": true }
+      ]
+    },
+    {
+      "statement": "What is logged to the console when the following code is executed: \\`\\`\\`js function bar(b) { function baz(a) { console.log(a) } const a = 7 } function foo(a) { a = 5; baz(a) } foo(4); \\`\\`\\`",
+      "explanation": "We first call \\`foo\\` with a value of 4. Inside \\`foo\\`, \\`a\\`'s value is changed from 4 to 5. We then try to call \\`baz\\`. \\`baz\\` is not in \\`foo\\`'s scope, so the engine looks at the outer scope, the global scope. It does not find \\`baz\\`, so it throws a \\`ReferenceError\\`.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`undefined\\`", "correct": false },
+        { "text": "\\`ReferenceError\\`", "correct": true },
+        { "text": "\\`5\\`", "correct": false },
+        { "text": "\\`7\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "Which two mechanisms in JavaScript can \"cheat\" lexical scope?",
+      "explanation": "\\`with\\` and \\`eval\\` are the only mechanisms that allow code to be executed dynamically which means they can \"cheat\" lexical scope.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`eval\\` and \\`with\\`", "correct": true },
+        { "text": "\\`eval\\` and \\`innerHTML\\`", "correct": false },
+        { "text": "\\`this\\` and \\`with\\`", "correct": false },
+        { "text": "\\`this\\` and \\`eval\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "There are two mechanisms in JavaScript that can \"cheat\" lexical scope. Why should they not be used?",
+      "explanation": "If the Engine finds an \\`eval(..)\\` or \\`with\\` in the code, it essentially has to assume that all its awareness of identifier location may be invalid, because it cannot know at lexing time exactly what code you may pass to \\`eval(..)\\` to modify the lexical scope, or the contents of the object you may pass to \\`with\\` to create a new lexical scope to be consulted.",
+      "type": "MCQ",
+      "options": [
+        { "text": "There is no reason to not use them", "correct": false },
+        {
+          "text": "They prevent the engine from using some or all of its optimizations",
+          "correct": true
+        },
+        { "text": "They are not readable", "correct": false },
+        { "text": "They are not implemented in all browsers", "correct": false }
+      ]
+    },
+    {
+      "statement": "What is going on under the hood when importing modules to prevent collisions?",
+      "explanation": "IIFEs are used to \"insert\" code without collisions. The IIFE gives each module its own scope which allows it to use whatever non-global variables it wants without side effects.",
+      "type": "MCQ",
+      "options": [
+        { "text": "They are each wrapped in an IIFE", "correct": true },
+        { "text": "The code is injected and inserted as is", "correct": false },
+        { "text": "They use global namespaces", "correct": false },
+        { "text": "ES6 classes", "correct": false }
+      ]
+    },
+    {
+      "statement": "What is the main reason you should name your functions?",
+      "explanation": "If you are debugging an error, you might check the stack trace. If you encounter an anonymous function in the stack trace, you can't easily know which function it is referring to.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "You have to name all functions, so this is a moot point",
+          "correct": false
+        },
+        { "text": "Easier debugging", "correct": true },
+        {
+          "text": "You don't actually want to name your functions if possible because then you can't use IIFEs",
+          "correct": false
+        },
+        { "text": "Browser optimization", "correct": false }
+      ]
+    },
+    {
+      "statement": "JavaScript did not have a concept of block scoping before ES6",
+      "explanation": "Technically, it had block scoping in \\`catch\\` blocks as early as ES3. Standard block scoping was introduced in ES6 via \\`let\\` and \\`const\\`.",
+      "type": "TF",
+      "correct": false
+    },
+    {
+      "statement": "What will be logged to the console upon execution of the code below: \\`\\`\\`js {let i = 0} console.log(i) \\`\\`\\`",
+      "explanation": "Because \\`let\\` is block scoped, \\`i\\` is only within scope inside the curly braces in the first line, not in the global scope.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`0\\`", "correct": false },
+        { "text": "\\`undefined\\`", "correct": false },
+        { "text": "\\`null\\`", "correct": false },
+        { "text": "\\`ReferenceError\\`", "correct": true }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console upon execution of the code below: \\`\\`\\`js {var i = 0} console.log(i) \\`\\`\\`",
+      "explanation": "Because \\`var\\` is not block scoped, \\`i\\` is stored in the global scope.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`0\\`", "correct": true },
+        { "text": "\\`undefined\\`", "correct": false },
+        { "text": "\\`null\\`", "correct": false },
+        { "text": "\\`ReferenceError\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console upon execution of the code below: \\`\\`\\`js a = 3 var a; console.log(a) \\`\\`\\`",
+      "explanation": "\\`var a\\` is \"hoisted\" before the other lines of code are executed, thus by the time the engine executes the assignment and console logging, \\`var a\\` will have been declared and available.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`undefined\\`", "correct": false },
+        { "text": "\\`null\\`", "correct": false },
+        { "text": "\\`3\\`", "correct": true },
+        { "text": "\\`a\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console upon execution of the code below: \\`\\`\\`js console.log(a) var a = 3; \\`\\`\\`",
+      "explanation": "\\`var a\\` is \"hoisted\" before the other lines of code are executed. By the time the engine executes the \\`console.log\\`, \\`var a\\` will have been declared, but the definition will not have occurred.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`undefined\\`", "correct": true },
+        { "text": "\\`null\\`", "correct": false },
+        { "text": "\\`3\\`", "correct": false },
+        { "text": "\\`a\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console upon execution of the code below: \\`\\`\\`js foo(); var foo = function() { console.log('hello') }; \\`\\`\\`",
+      "explanation": "\\`var foo\\` is \"hoisted\" but the function is not. By the time the engine executes the first line, \\`var foo\\` will have been declared, so it is not a \\`ReferenceError\\`. We try to call it as a function, but its value is undefined which leaves us with a \\`TypeError\\`.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`'hello'\\`", "correct": false },
+        { "text": "\\`ReferenceError\\`", "correct": false },
+        { "text": "\\`TypeError\\`", "correct": true },
+        { "text": "\\`undefined\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console upon execution of the code below: \\`\\`\\`js foo(); var foo; function foo() { console.log( 1 ); } foo = function() { console.log( 2 ); }; \\`\\`\\`",
+      "explanation": "Because functions are \"hoisted\" before variables, \\`function foo\\` gets hoisted before \\`var foo\\`, and ultimately \\`var foo\\` is ignored.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`1\\`", "correct": true },
+        { "text": "\\`2\\`", "correct": false },
+        { "text": "\\`1\\` and then \\`2\\`", "correct": false },
+        { "text": "\\`2\\` and then \\`1\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "Declarations themselves are hoisted, but assignments, even assignments of function expressions, are not hoisted.",
+      "explanation": "The compiler does a first pass through your code to determine lexical scope. This is what is known as \"hoisting\".",
+      "type": "TF",
+      "correct": true
+    },
+    {
+      "statement": "What is closure?",
+      "explanation": "Another way to explain closure is to say that functions always have access to their lexical scope, no matter how or when they are called.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "The ability of a function to access its lexical scope when that function is executing outside its lexical scope.",
+          "correct": true
+        },
+        { "text": "When a function is used as a callback", "correct": false },
+        {
+          "text": "When a function is nested within another function",
+          "correct": false
+        },
+        {
+          "text": "When a function returns another function, it is said to have a closure over the second function",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "What is logged to the console after executing the code below: \\`\\`\\`js var a = 1 function foo() { var a = 2; function bar() { console.log( a ); } return bar; } var baz = foo(); baz(); \\`\\`\\`",
+      "explanation": "\\`foo\\` returns the function \\`bar\\` which is assigned to \\`baz\\`. \\`bar\\` still has access to a in \\`foo\\` even after \\`foo\\` has been called because of closure.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`undefined\\`", "correct": false },
+        { "text": "\\`null\\`", "correct": false },
+        { "text": "\\`1\\`", "correct": false },
+        { "text": "\\`2\\`", "correct": true }
+      ]
+    },
+    {
+      "statement": "When is closure observed?",
+      "explanation": "Because closure is just a function accessing lexical scope when it's executed outside of its lexical scope, that can only happen if the function is passed around as a variable",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "When functions are passed around as variables and then executed",
+          "correct": true
+        },
+        { "text": "When \\`this\\` is used in a function", "correct": false },
+        { "text": "When shadowing occurs", "correct": false },
+        { "text": "When arrow functions are executed", "correct": false }
+      ]
+    },
+    {
+      "statement": "Is closure observed when the code below is executed: \\`\\`\\` function wait(message) { setTimeout( function timer(){ console.log( message ); }, 1000 ); } wait( \"Hello!\" ); \\`\\`\\`",
+      "explanation": "\\`wait\\` gets executed immediately, but \\`timer\\` executes every 1000ms, and it still can access \\`message\\`.",
+      "type": "MCQ",
+      "options": [
+        { "text": "Yes", "correct": true },
+        { "text": "No", "correct": false }
+      ]
+    },
+    {
+      "statement": "What happens when this code is executed: \\`\\`\\` for (var i=1; i<=5; i++) { setTimeout( function timer(){ console.log( i ); }, i\\*1000 ); } \\`\\`\\`",
+      "explanation": "\\`setTimeout\\` is executed immediately which means the \\`i\\` in \\`i\\*1000\\` is what you would expect. However, \\`timer\\` does not get executed immediately. By the time \\`timer\\` is executed, the loop is finished, and \\`i\\` has a value of 6.",
+      "type": "MCQ",
+      "options": [
+        { "text": "6 is printed 5 times all at 6 seconds", "correct": false },
+        {
+          "text": "6 is printed 5 times at one second intervals",
+          "correct": true
+        },
+        {
+          "text": "1, 2, 3, 4, 5 are printed all at 6 seconds",
+          "correct": false
+        },
+        {
+          "text": "1, 2, 3, 4, 5 are printed each at one second intervals",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "Transpiling is transforming your ES6+ code into equivalent code that works in ES5 environments.",
+      "explanation": "The idea behind a technique called transpiling (transformation + compiling) is to use a special tool to transform your ES6 code into equivalent (or close!) matches that work in ES5 environments.",
+      "type": "TF",
+      "correct": true
+    },
+    {
+      "statement": "What are polyfills?",
+      "explanation": "Transpiling with polyfills allows you to develop using the latest JavaScript APIs without worrying about breaking your app in certain browsers.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "A pattern for defining equivalent behavior from a newer environment into an older environment, when possible.",
+          "correct": true
+        },
+        {
+          "text": "3rd party libraries you use in your code base",
+          "correct": false
+        },
+        { "text": "Objects that contain multiple functions", "correct": false },
+        {
+          "text": "A new feature of ES6 that provides syntactic sugar on top of functions",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "In general, new APIs cannot be polyfilled, but syntax often can be.",
+      "explanation": "Not all new ES6 features need a transpiler. Polyfills (aka shims) are a pattern for defining equivalent behavior from a newer environment into an older environment, when possible. Syntax cannot be polyfilled, but APIs often can be.",
+      "type": "TF",
+      "correct": false
+    },
+    {
+      "statement": "It is invalid in JS to create a standalone block statement like the following: \\`\\`\\`js { let a = 3; console.log( a ); } \\`\\`\\`",
+      "explanation": "It's not very common or idiomatic thus far in JS to use a standalone \\`{ .. }\\` block, but it's always been valid",
+      "type": "TF",
+      "correct": false
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed? \\`\\`\\`js { console.log( a ); console.log( b ); var a; let b; } \\`\\`\\`",
+      "explanation": "Accessing a let-declared variable earlier than its \\`let\\` .. declaration/initialization causes an error, whereas with \\`var\\` declarations the ordering doesn’t matter",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "\\`ReferenceError\\` / \\`ReferenceError\\`",
+          "correct": false
+        },
+        { "text": "\\`undefined\\` / \\`undefined\\`", "correct": false },
+        { "text": "\\`ReferenceError\\` / \\`undefined\\`", "correct": false },
+        { "text": "\\`undefined\\` / \\`ReferenceError\\`", "correct": true }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following is executed? \\`\\`\\`js let nums = \\[\\] for (let i = 1; i < 6; i++) { nums.push(function() {console.log(i)}); } nums.forEach(fn => fn()); \\`\\`\\`",
+      "explanation": "The \\`let i\\` in the for header declares an \\`i\\` not just for the for loop itself, but it redeclares a new \\`i\\` for each iteration of the loop. That means that closures created inside the loop iteration close over those per-iteration variables the way you'd expect. If you tried that same snippet but with \\`var i\\` in the for loop header, you'd get \\`6,6,6,6,6\\` instead.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`1,2,3,4,5\\`", "correct": true },
+        { "text": "\\`5,5,5,5,5\\`", "correct": false },
+        { "text": "\\`6,6,6,6,6\\`", "correct": false },
+        { "text": "\\`1,1,1,1,1\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following is executed? \\`\\`\\`js let a = \\[2,3,4\\]; let b = \\[ 1, ...a, 5 \\]; console.log(b); \\`\\`\\`",
+      "explanation": "When \\`...\\` is used in front of an array, it acts to “spread” it out into its individual values.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`\\[1, null, 5\\]\\`", "correct": false },
+        { "text": "\\`\\[1, undefined, 5\\]\\`", "correct": false },
+        { "text": "\\`\\[1, 2, 3, 4, 5\\]\\`", "correct": true },
+        { "text": "\\`\\[1, \\[2, 3, 4\\], 5\\]\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will the value of parameter \\`\\`\\`z\\`\\`\\` be inside the following function? \\`\\`\\`js function foo(x, y, ...z) { console.log( z ); } foo( 1, 2, 3, 4, 5 ); \\`\\`\\`",
+      "explanation": "The other common usage of \\`...\\` can be seen as almost the opposite; instead of spreading a value out, the \\`...\\` gathers a set of values together into an array",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`\\[3, 4, 5\\]\\`", "correct": true },
+        { "text": "\\`3\\`", "correct": false },
+        { "text": "\\`undefined\\`", "correct": false },
+        { "text": "\\`\\[1, 2, 3, 4, 5\\]\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "In the following code, \\`function foo (x=20) {...}\\`, what does \"x=20\" accomplish?",
+      "explanation": "In ES6+, you can provide a default value for a function parameter. The default value is used if the argument is \\*undefined\\* (including if no argument is passed). It is not used for other falsy values (i.e. 0, NaN, an empty string, etc.).",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "It assigns \\*x\\* a default value of 20 if the argument passed to the function is \\*undefined\\*.",
+          "correct": true
+        },
+        {
+          "text": "Any value passed to the function gets changed to 20.",
+          "correct": false
+        },
+        {
+          "text": "The function will only accept arguments which are equal to 20.",
+          "correct": false
+        },
+        {
+          "text": "It assigns \\*x\\* a default value of 20 if the argument passed to the function is \"falsy\".",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following function is executed? \\`\\`\\`js function foo(x = 11, y = 31) { console.log( x + y ); } foo(null, 6); foo(undefined, 6); \\`\\`\\`",
+      "explanation": "\\`null\\` coerces to \\`0\\`, so the default value is never used. \\`undefined\\` is the same as a missing argument, so the default value is used in this case.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`17\\` / \\`17\\`", "correct": false },
+        { "text": "\\`6\\` / \\`17\\`", "correct": true },
+        { "text": "\\`NaN\\` / \\`NaN\\`", "correct": false },
+        { "text": "\\`6\\` / \\`6\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "Function default values can only be simple values like \\`31\\`; they cannot be an expression or a function call.",
+      "explanation": "Function default values can be more than just simple values like \\`31\\`; they can be any valid expression, even a function call.",
+      "type": "TF",
+      "correct": false
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js { const a = 2; a = 3; console.log(a) } \\`\\`\\`",
+      "explanation": "You are not allowed to change the value the variable holds once it's been set, at declaration time. A \\`const\\` declaration must have an explicit initialization.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`3\\`", "correct": false },
+        { "text": "\\`TypeError\\`", "correct": true },
+        { "text": "\\`2\\`", "correct": false },
+        { "text": "\\`SyntaxError\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "With ES6, this is valid JavaScript: \\`\\`\\`js { let a = 2, b, c; // .. } \\`\\`\\`",
+      "explanation": "Block scoping is now possible with the \\`let\\` and \\`const\\` keywords.",
+      "type": "TF",
+      "correct": true
+    },
+    {
+      "statement": "What variables are scoped within the \\`for\\` loop: \\`\\`\\`js let a = 2; if (a > 1) { let b = a \\* 3; for (let i = a; i <= b; i++) { let j = i + 10; } let c = a + b; } \\`\\`\\`",
+      "explanation": "\\`j\\` is clearly scoped to the \\`for\\` loop, but \\`i\\` is not so obvious. A new \\`i\\` is scoped to the block for each iteration.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`j\\`", "correct": false },
+        { "text": "\\`i\\`, \\`j\\`", "correct": true },
+        { "text": "\\`i\\`, \\`j\\`, \\`a\\`, \\`b\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js { const a = \\[1,2,3\\]; a.push( 4 ); console.log( a ); } \\`\\`\\`",
+      "explanation": "Constants are not a restriction on the value itself, but on the variable's assignment of that value. In other words, the value is not frozen or immutable because of \\`const\\`, just the assignment of it. If the value is complex, such as an object or array, the contents of the value can still be modified:",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`\\[1, 2, 3, 4\\]\\`", "correct": true },
+        { "text": "\\`\\[1, 2, 3\\]\\`", "correct": false },
+        { "text": "\\`TypeError\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What does the following line of code do? \\`\\`\\`js let { baz: bam } = bar(); \\`\\`\\`",
+      "explanation": "The syntactic pattern here is source: target. \\`baz: bam\\` means the \\`baz\\` property is the source value and \\`bam\\` is the target variable to assign to.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "It destructures the object property \\`baz\\` and assigns it to the variable \\`bam\\`",
+          "correct": true
+        },
+        {
+          "text": "It destructures the object property \\`bam\\` and assigns it to the variable \\`baz\\`",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed? \\`\\`\\`js let x = 10, y = 20; \\[ y, x \\] = \\[ x, y \\]; console.log( x, y ); \\`\\`\\`",
+      "explanation": "With destructuring, you can even solve the traditional \"swap two variables\" task without a temporary variable",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`20 10\\`", "correct": true },
+        { "text": "\\`10 20\\`", "correct": false },
+        { "text": "\\`undefined undefined\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "The following is valid object destructuring syntax: \\`\\`\\`js let x, y, z; { x, y, z } = bar(); \\`\\`\\`",
+      "explanation": "For the object destructuring form specifically, when leaving off a var/let/const declarator, we have to surround the whole assignment expression in ( ), because otherwise the { .. } on the lefthand side as the first element in the statement is taken to be a block statement instead of an object. So the valid way to destructure in this case is like this: \\`( { x, y, z } = bar() );\\`",
+      "type": "TF",
+      "correct": false
+    },
+    {
+      "statement": "What will be logged to the console when this code runs? \\`\\`\\`js let o = \\[1,2,3\\], a, b, c, p; p = \\[a,b,c\\] = o; console.log(p === o); \\`\\`\\`",
+      "explanation": "The assignment expression with object or array destructuring has as its completion value the full righthand object/array value. In the previous snippet, \\`p\\` was assigned the \\`o\\` array reference.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`true\\`", "correct": true },
+        { "text": "\\`false\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "With both object and array destructuring assignment, you must assign all the values that are present.",
+      "explanation": "With both array destructuring assignment and object destructuring assignment, you do not have to assign all the values that are present.",
+      "type": "TF",
+      "correct": false
+    },
+    {
+      "statement": "What will be logged to the console when the following is executed? \\`\\`\\`js let arr = \\[1, 2, 3, 4\\]; let obj = {a: \"x\", b: \"y\", c: \"z\"}; let \\[,,,x,y\\] = arr; let {a, d} = obj; console.log(x, y); console.log(a, d); \\`\\`\\`",
+      "explanation": "if you try to assign more values than are present in the value you're destructuring/decomposing, you get graceful fallback to \\`undefined\\`",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "\\`undefined undefined\\` / \\`x undefined\\`",
+          "correct": false
+        },
+        { "text": "\\`4 undefined\\` / \\`x undefined\\`", "correct": true },
+        { "text": "\\`3 4\\` / \\`x y\\`", "correct": false },
+        { "text": "\\`4 null\\` / \\`x z\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following is executed? \\`\\`\\`js let o = {x: {y: {z: 6}}}; let {x: {y: { z: n, p: c = 3 } } } = o; console.log(n, c); \\`\\`\\`",
+      "explanation": "If the values you're destructuring have nested objects or arrays, you can destructure those nested values as well",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`undefined\\` / \\`undefined\\`", "correct": false },
+        { "text": "\\`6\\` / \\`3\\`", "correct": true },
+        { "text": "\\`6\\` / \\`undefined\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when this function is called as follows: \\`\\`\\`js function fn({ x = 10 } = {}, { y } = { y: 10 }) { console.log( x, y ); } fn(); fn({}, {}); \\`\\`\\`",
+      "explanation": "It's pretty clear that named parameter \\`x\\` is defaulting to \\`10\\` if not passed as a property of that same name in the first argument's object. But what about \\`y\\` being \\`undefined\\`? The \\`{ y: 10 }\\` value is an object as a function parameter default value, not a destructuring default value. As such, it only applies if the second argument is not passed at all, or is passed as \\`undefined\\`.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`10 10\\` / \\`10 undefined\\`", "correct": true },
+        { "text": "\\`{} {y: 10}\\` / \\`10 undefined\\`", "correct": false },
+        { "text": "\\`10 undefined\\` / \\`10 undefined\\`", "correct": false },
+        { "text": "\\`10 10\\` / \\`10 10\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "You should use concise methods only if you’re never going to need them to do recursion or event binding/unbinding.",
+      "explanation": "Concise methods imply anonymous function expressions. An anonymous function doesn't have a lexical name you can use inside the function itself.",
+      "type": "TF",
+      "correct": true
+    },
+    {
+      "statement": "What will be logged to the console when this code is executed? \\`\\`\\`js var o1 = { foo() { console.log( \"o1:foo\" ); } }; var o2 = { foo() { super.foo(); console.log( \"o2:foo\" ); } }; Object.setPrototypeOf( o2, o1 ); o2.foo(); \\`\\`\\`",
+      "explanation": "The \\`super\\` reference in the \\`o2.foo()\\` method is locked statically to \\`o2\\`, and specifically to the \\`\\[\\[Prototype\\]\\]\\` of \\`o2\\`. \\`super\\` here would basically be \\`Object.getPrototypeOf(o2)\\` -- resolves to \\`o1\\` of course -- which is how it finds and calls \\`o1.foo()\\`",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`o1:foo\\` / \\`o2:foo\\`", "correct": true },
+        { "text": "\\`o2:foo\\` / \\`o1:foo\\`", "correct": false },
+        { "text": "\\`o2:foo\\`", "correct": false },
+        { "text": "\\`o1:foo\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "Arrow functions are always anonymous function expressions; there is no arrow function declaration.",
+      "explanation": "It also should be clear that they are anonymous function expressions — they have no named reference for the purposes of recursion or event binding/unbinding",
+      "type": "TF",
+      "correct": true
+    },
+    {
+      "statement": "Which of the following statements is true:",
+      "explanation": "Inside arrow functions, the \\`this\\` binding is not dynamic, but is instead lexical.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "\\`this\\` binding inside arrow functions is dynamic",
+          "correct": false
+        },
+        {
+          "text": "\\`this\\` binding inside arrow functions is lexical",
+          "correct": true
+        },
+        {
+          "text": "You cannot use \\`this\\` inside arrow functions",
+          "correct": false
+        },
+        {
+          "text": "\\`this\\` always points to the global object inside arrow functions",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following is executed? \\`\\`\\`js for (let a of \\[1, 2, 3\\]) { console.log(a); } \\`\\`\\`",
+      "explanation": "for..in loops over the keys/indexes in an array, while for..of loops over the values of the array.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`1\\`, \\`2\\`, \\`3\\`", "correct": true },
+        { "text": "\\`0\\`, \\`1\\`, \\`2\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "Which of the following statements is not true:",
+      "explanation": "You cannot and should not use \\`new\\` with \\`Symbol(..)\\`. It's not a constructor, nor are you producing an object. The correct way to create a new symbol is like this: \\`let sym = Symbol( \"some optional description\" );\\`",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "You should always use \\`new Symbol(...)\\` to create a new symbol.",
+          "correct": true
+        },
+        {
+          "text": "Unlike the other primitive types, symbols don’t have a literal form.",
+          "correct": false
+        },
+        {
+          "text": "The \\`typeof\\` operator outputs \\`\"symbol\"\\` when used in front of a symbol value and that is the primary way to identify one.",
+          "correct": false
+        },
+        {
+          "text": "The parameter passed to \\`Symbol(..)\\` is optional. If passed, it should be a string that gives a friendly description for the symbol’s purpose.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "The main point of a symbol is to create a string-like value that can’t collide with any other value.",
+      "explanation": "You can think of this symbol value as an automatically generated, unique (within your application) string value.",
+      "type": "TF",
+      "correct": true
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js var arr = \\[1,2,3\\]; var it = arr\\[Symbol.iterator\\](); console.log(it.next().value); \\`\\`\\`",
+      "explanation": "Each time the method located at \\`Symbol.iterator\\` (see Chapters 2 and 7) is invoked on this \\`arr\\` value, it will produce a new fresh iterator. Most structures will do the same, including all the built-in data structures in JS.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`1\\`", "correct": true },
+        { "text": "\\`undefined\\`", "correct": false },
+        { "text": "\\`TypeError\\`", "correct": false },
+        { "text": "\\`ReferenceError\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js let str = \"hi\"; let it = str\\[Symbol.iterator\\](); it.next(); it.next(); console.log(it.next()); \\`\\`\\`",
+      "explanation": "The \\`it\\` iterator doesn't report \\`done: true\\` when you receive the \\`'i'\\` value. You have to call \\`next()\\` again, in essence going beyond the end of the string's values, to get the complete signal \\`done: true\\`",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`{value: 'i', done: true}\\`", "correct": false },
+        { "text": "\\`{value: undefined, done: true}\\`", "correct": true },
+        { "text": "\\`{value: 'i', done: false}\\`", "correct": false },
+        { "text": "\\`{value: undefined, done: false}\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js var a = \\[1,2,3,4,5\\]; function foo(x,y,z,w,p) { console.log( x + y + z + w + p ); } foo( ...a ); \\`\\`\\`",
+      "explanation": "The \\`...\\` spread operator fully exhausts an iterator.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`15\\`", "correct": true },
+        { "text": "\\`NaN\\`", "correct": false },
+        { "text": "\\`TypeError\\`", "correct": false },
+        { "text": "\\`SyntaxError\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "Which of the following is the correct way to declare a generator function?",
+      "explanation": "The position of the \\* is not functionally relevant. The only difference here is stylistic preference.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "\\`function \\*foo() { .. }\\` or \\`function\\* foo() { .. }\\`",
+          "correct": false
+        },
+        {
+          "text": "\\`function \\* foo() { .. }\\` or \\`function\\* foo() { .. }\\`",
+          "correct": false
+        },
+        { "text": "All of the above", "correct": true },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will the last line of code do when it is executed? \\`\\`\\`js function \\*rand() { while (true) { yield Math.random(); } } const it = rand(); it.next(); \\`\\`\\`",
+      "explanation": "You can put \\`yield\\` inside a loop, and it can represent a repeated pause point. \\`yield\\` is not just a pause point. It’s an expression that sends out a value when pausing the generator. The code here generates and yields a new random number whenever \\`it.next()\\` is called.",
+      "type": "MCQ",
+      "options": [
+        { "text": "It will generate a new random number", "correct": true },
+        { "text": "It will start an infinite loop", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed? \\`\\`\\`js function \\*foo() { yield \\*\\[1, 2, 3\\]; yield \"we're done\"; } const it = foo(); it.next(); console.log(it.next().value); \\`\\`\\`",
+      "explanation": "In the same way that the \\`\\*\\` makes a \\`function\\` declaration into \\`function \\*\\` generator declaration, a \\`\\*\\` makes \\`yield\\` into \\`yield \\*\\`, which is a very different mechanism, called yield delegation. \\`yield \\* ..\\` requires an iterable; it then invokes that iterable's iterator, and delegates its own host generator's control to that iterator until it's exhausted.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`\\[1, 2, 3\\]\\`", "correct": false },
+        { "text": "\\`2\\`", "correct": true },
+        { "text": "\\`\"we're done\"\\`", "correct": false },
+        { "text": "\\`1\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "Which of the following is not true of ES6 modules?",
+      "explanation": "Modules are no different from other ES6 features in that they should be used, but polyfills might be needed for older browsers.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "You cannot have multiple modules in a file",
+          "correct": false
+        },
+        {
+          "text": "Once you define statically what all the top-level exports are on your module's public API, those cannot be amended later.",
+          "correct": false
+        },
+        {
+          "text": "There is only one instance of the module, which maintains its state. Every time you import that module into another module, you get a reference to the one centralized instance.",
+          "correct": false
+        },
+        {
+          "text": "ES6 modules are still experimental and should not be used",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "statement": "What is the difference between importing default exports and named exports?",
+      "explanation": "As the name suggests, the default export is the default export for that module, whereas named exports need to be imported by name.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "Named exports are imported as \\`import { foo } from \"foo\";\\`, and default exports are imported as \\`import foo from \"foo\";\\`",
+          "correct": true
+        },
+        {
+          "text": "Named exports are imported as \\`import foo from \"foo\";\\`, and default exports are imported as \\`import { foo } from \"foo\";\\`",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "You cannot put either an \\`import\\` or \\`export\\` inside an \\`if\\` conditional.",
+      "explanation": "They must appear outside of all blocks and functions.",
+      "type": "TF",
+      "correct": true
+    },
+    {
+      "statement": "Which of the following is an invalid export?",
+      "explanation": "You currently cannot do \\`export default var foo = ..\\` (or \\`let\\` or \\`const\\`), in a frustrating case of inconsistency. At the time of this writing, there's already discussion of adding that capability in soon, post-ES6, for consistency sake.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`export default const PI = 3.14;\\`", "correct": true },
+        { "text": "\\`export const PI = 3.14;\\`", "correct": false },
+        { "text": "\\`export function foo() { .. }\\`", "correct": false },
+        {
+          "text": "\\`export default function foo() { .. }\\`",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "What of the following options is an incorrect way of importing the following exports: \\`\\`\\`js export default function foo() { .. } export function bar() { .. } export function baz() { .. } \\`\\`\\`",
+      "explanation": "the default keyword in a module's export specifies a named export where the name is actually default",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "\\`import {foo, bar, baz} from \"foo\";\\`",
+          "correct": true
+        },
+        {
+          "text": "\\`import foo, { bar, baz } from \"foo\";\\`",
+          "correct": false
+        },
+        {
+          "text": "\\`import { default as foo, bar as x, baz as y} from \"foo\";\\`",
+          "correct": false
+        },
+        {
+          "text": "\\`import FOOFN, { bar, baz} from \"foo\";\\`",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "All imported bindings are immutable and/or read-only and any subsequent assignment attempts will throw a \\`TypeError\\`",
+      "explanation": "You cannot reassign an imported function or variable in your code.",
+      "type": "TF",
+      "correct": true
+    },
+    {
+      "statement": "\\`class Foo {...}\\` creates a constructor function named \\`Foo\\`",
+      "explanation": "\\`class Foo\\` implies creating a (special) function of the name Foo, much like you did pre-ES6.",
+      "type": "TF",
+      "correct": true
+    },
+    {
+      "statement": "Which of the following statements about classes is not true:",
+      "explanation": "While \\`function Foo() {...}\\` is “hoisted”, \\`class Foo\\` is not.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`class Foo\\` is hoisted", "correct": true },
+        {
+          "text": "The \\`Foo(...)\\` constructor call \\*must\\* be made with the \\`new\\` keyword",
+          "correct": false
+        },
+        {
+          "text": "A \\`class\\` can be thought of as a macro, used to automatically populate a \\`prototype\\` object",
+          "correct": false
+        },
+        {
+          "text": "Unlike object literals, there are no commas separating members in a \\`class\\` body",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js class Foo { constructor(x) { this.x = x; } print() { console.log(\"Foo:\", this.x); } } class Bar extends Foo { constructor(x, y) { super(x); this.y = y; } print() { super.print(); console.log(\"Bar:\", this.y); } } const b = new Bar(3, 6); b.print(); \\`\\`\\`",
+      "explanation": "In the constructor, \\`super\\` automatically refers to the \"parent constructor,\" which in the previous example is \\`Foo(..)\\`. In a method, it refers to the \"parent object,\" such that you can then make a property/method access off it, such as \\`super.print()\\`.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`Foo: 3\\` / \\`Bar: 6\\`", "correct": true },
+        { "text": "\\`Foo: 3\\`", "correct": false },
+        { "text": "\\`Bar: 6\\`", "correct": false },
+        { "text": "\\`Foo: undefined\\` / \\`Bar: 6\\`", "correct": true }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js class Foo { ... } class Bar extends Foo { ... } console.log(Foo.isPrototypeOf(Bar)); \\`\\`\\`",
+      "explanation": "\\`Bar extends Foo\\` of course means to link the \\[\\[Prototype\\]\\] of \\`Bar.prototype\\` to \\`Foo.prototype\\`",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`true\\`", "correct": true },
+        { "text": "\\`false\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "Constructors are required for both classes and subclasses",
+      "explanation": "Constructors are not required for classes or subclasses; a default constructor is substituted in both cases if omitted. Furthermore, the default subclass constructor automatically calls the parent constructor, and passes along any arguments.",
+      "type": "TF",
+      "correct": false
+    },
+    {
+      "statement": "In a constructor of a subclass, you cannot access \\`this\\` until \\`super(..)\\` has been called.",
+      "explanation": "The reason is nuanced and complicated, but it boils down to the fact that the parent constructor is actually the one creating/initializing your instance's \\`this\\`, which you cannot access before it is actually created.",
+      "type": "TF",
+      "correct": true
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js class Foo { static cool() { console.log( \"cool\" ); } wow() { console.log( \"wow\" ); } } class Bar extends Foo { static awesome() { super.cool(); console.log( \"awesome\" ); } neat() { super.wow(); console.log( \"neat\" ); } } var b = new Bar(); b.awesome(); \\`\\`\\`",
+      "explanation": "Be careful not to get confused that static members are on the class's prototype chain.They're actually on the dual/parallel chain between the function constructors.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`TypeError\\`", "correct": true },
+        { "text": "\\`\"cool\"\\` / \\`\"awesome\"\\`", "correct": false },
+        { "text": "\\`undefined\\`", "correct": false },
+        { "text": "\\`undefined\\` / \\`\"awesome\"\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What are the two possible outcomes of a \\`Promise\\`?",
+      "explanation": "If there are no errors, then the Promise will get resolved, but if an error occurs typically the Promise will get rejected.",
+      "type": "MCQ",
+      "options": [
+        { "text": "Fulfilled and rejected", "correct": true },
+        { "text": "Completed and in progress", "correct": false },
+        { "text": "Returned and incomplete", "correct": false }
+      ]
+    },
+    {
+      "statement": "A promise can only be resolved (fulfilled or rejected) once",
+      "explanation": "Promises can only be resolved (fulfillment or rejection) once. Any further attempts to fulfill or reject are simply ignored. Thus, once a Promise is resolved, it's an immutable value that cannot be changed.",
+      "type": "TF",
+      "correct": true
+    },
+    {
+      "statement": "This is a valid way to construct a promise: \\`\\`\\`js var p = new Promise(() => { return setTimeout(() => 5, 1000) } ); \\`\\`\\`",
+      "explanation": "There are a couple things wrong with this code. For one, \\`setTimeout\\` does not return the return value of the callback. \\`fn\\` in \\`new Promise(fn)\\` needs to have an argument, such as \\`resolve\\`, which you call on your desired return value.",
+      "type": "TF",
+      "correct": false
+    },
+    {
+      "statement": "This is a valid way to construct and consume a promise: \\`\\`\\`js var p = new Promise((resolve) => { setTimeout(() => resolve(5), 1000); } ); p.done(val => { console.log(val); }); \\`\\`\\`",
+      "explanation": "\\`done\\` is not a valid method for a Promise. The code above would be valid if it were replaced with \\`.then()\\`",
+      "type": "TF",
+      "correct": false
+    },
+    {
+      "statement": "What do \\`.then(..)\\` and \\`.catch(..)\\` methods return when invoked on a promise?",
+      "explanation": "Both \\`then(..)\\` and \\`catch(..)\\` automatically construct and return another promise instance, which is wired to receive the resolution from whatever the return value is from the original promise's fulfillment or rejection handler (whichever is actually called)",
+      "type": "MCQ",
+      "options": [
+        { "text": "another promise", "correct": true },
+        { "text": "an object", "correct": false },
+        { "text": "\\`undefined\\`", "correct": false },
+        { "text": "a function", "correct": false }
+      ]
+    },
+    {
+      "statement": "What are thenables?",
+      "explanation": "Any object (or function) with a \\`then(..)\\` function on it is assumed to be a thenable. Any place where the Promise mechanisms can accept and adopt the state of a genuine promise, they can also handle a thenable.",
+      "type": "MCQ",
+      "options": [
+        { "text": "Just another word for Promises", "correct": false },
+        {
+          "text": "The next version of promises introduced in ES7",
+          "correct": false
+        },
+        {
+          "text": "Promise-like objects that generally can interoperate with Promise mechanisms",
+          "correct": true
+        },
+        { "text": "Promises that are used with generators", "correct": false }
+      ]
+    },
+    {
+      "statement": "\\`p1\\` and \\`p2\\` have essentially the same behavior: \\`\\`\\`js var p1 = Promise.resolve( 42 ); var p2 = new Promise( function pr(resolve){ resolve( 42 ); } ); \\`\\`\\`",
+      "explanation": "\\`Promise.resolve\\` creates a resolved promise. To access the value \\`42\\`, you need to call \\`.then()\\`",
+      "type": "TF",
+      "correct": true
+    },
+    {
+      "statement": "What will be logged to the console when the following is executed? \\`\\`\\`js const a = 42, b = Promise.resolve(43), c = 44; Promise.all(\\[a, b, c\\]).then(val => console.log(val)); \\`\\`\\`",
+      "explanation": "\\`Promise.all(\\[ .. \\])\\` accepts an array of one or more values (e.g., immediate values, promises, thenables). It returns a promise back that will be fulfilled if all the values fulfill, or reject immediately once the first of any of them rejects",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`42\\`", "correct": false },
+        { "text": "\\`43\\`", "correct": false },
+        { "text": "\\`\\[42, 43, 44\\]\\`", "correct": true }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following is executed? \\`\\`\\`js const a = 42, b = Promise.resolve(43), c = 44; Promise.race(\\[a, b, c\\]).then(val => console.log(val)); \\`\\`\\`",
+      "explanation": "While \\`Promise.all(\\[ .. \\])\\` waits for all fulfillments (or the first rejection), \\`Promise.race(\\[ .. \\])\\` waits only for either the first fulfillment or rejection.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`42\\`", "correct": true },
+        { "text": "\\`43\\`", "correct": false },
+        { "text": "\\`\\[42, 43, 44\\]\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following is executed? \\`\\`\\`js const a = Promise.resolve(43), b = 42, c = Promise.reject(\"Oops\"); Promise.race(\\[a, b, c\\]) .then(val => console.log(val)) .catch(e => console.log(e)); \\`\\`\\`",
+      "explanation": "While \\`Promise.all(\\[ .. \\])\\` waits for all fulfillments (or the first rejection), \\`Promise.race(\\[ .. \\])\\` waits only for either the first fulfillment or rejection (whichever happens first). In the code snippet above, if we changed the order of the array to \\`Promise.race(\\[c, b, a\\])\\` then we'd get \\`'Oops'\\` printed instead.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`42\\`", "correct": false },
+        { "text": "\\`43\\`", "correct": true },
+        { "text": "\\`\"Oops\"\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What do typed arrays allow you to do in JavaScript?",
+      "explanation": "It'd be tempting to look at a feature named \"typed array\" and assume it means an array of a specific type of values, like an array of only strings. However, typed arrays are really more about providing structured access to binary data using array-like semantics (indexed access, etc.). The \"type\" in the name refers to a \"view\" layered on type of the bucket of bits, which is essentially a mapping of whether the bits should be viewed as an array of 8-bit signed integers, 16-bit signed integers, and so on.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "Create arrays of a specific type of values, like an array of only strings",
+          "correct": false
+        },
+        {
+          "text": "Provide structured access to binary data using array-like semantics",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "statement": "What is the difference between maps and objects?",
+      "explanation": "Maps were added in ES6 and are just like objects except the keys can be anything, even arrays or objects!",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "Object keys have to be strings, and map keys can be any value",
+          "correct": true
+        },
+        { "text": "Maps are immutable, and objects are not", "correct": false },
+        {
+          "text": "Objects are the JavaScript version of maps",
+          "correct": false
+        },
+        { "text": "There is no difference", "correct": false }
+      ]
+    },
+    {
+      "statement": "The following code is valid ES6: \\`\\`\\`js var m = new Map(); var x = { id: 1 }, y = { id: 2 }; m\\[x\\] = y; \\`\\`\\`",
+      "explanation": "Maps do not support the \\`\\[\\]\\` syntax. \\`set\\` operations must be done like \\`m.set(x, y)\\`.",
+      "type": "TF",
+      "correct": false
+    },
+    {
+      "statement": "Which of the following statements about WeakMaps is not true:",
+      "explanation": "WeakMaps take (only) objects as keys. Those objects are held weakly, which means if the object itself is GC'd, the entry in the WeakMap is also removed.",
+      "type": "MCQ",
+      "options": [
+        { "text": "WeakMaps take only objects as keys", "correct": false },
+        {
+          "text": "WeakMaps do not expose any iterators over their keys, values, or entries",
+          "correct": false
+        },
+        {
+          "text": "If an object used as a key in a WeakMap is garbage collected, the entry is not removed",
+          "correct": true
+        },
+        {
+          "text": "WeakMaps do not have a \\`size\\` property or \\`clear()\\` method",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js let duplicates = \\[1, 2, 2, 3, 4, 4, 4, 5\\]; let newSet = new Set(duplicates); console.log(newSet.size); \\`\\`\\`",
+      "explanation": "Sets can be constructed with iterators such as arrays, and they only store unique values. They are kind of like objects with keys but no values.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`8\\`", "correct": false },
+        { "text": "\\`5\\`", "correct": true },
+        { "text": "\\`TypeError\\`", "correct": false },
+        { "text": "\\`SyntaxError\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What is one way to copy a set: \\`\\`\\`js let values = \\[1, 1, 2, 3\\]; let setValues = new Set(values) \\`\\`\\`",
+      "explanation": "The constructor is the only way to make a new set, and it will copy values from the set into a new set.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`let copy = setValues.copy()\\`", "correct": false },
+        {
+          "text": "\\`let copy = Set.assign(new Set(), setValues)\\`",
+          "correct": false
+        },
+        {
+          "text": "\\`let copy = new Set(\\[setValues\\])\\`",
+          "correct": false
+        },
+        { "text": "\\`let copy = new Set(setValues)\\`", "correct": true }
+      ]
+    },
+    {
+      "statement": "Which of the following statements about Sets is not true:",
+      "explanation": "A set doesn't need (and doesn't have) a \\`get(..)\\` because you don't retrieve a value from a set, but rather test if it is present or not, using \\`has(..)\\`",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "A set is a collection of unique values (duplicates are ignored)",
+          "correct": false
+        },
+        {
+          "text": "The \\`add()\\` method is used to add new items to a set",
+          "correct": false
+        },
+        {
+          "text": "The \\`get()\\` method is used to retrieve an item from a set",
+          "correct": true
+        },
+        {
+          "text": "The \\`has()\\` method is used to test if a value is present or not",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "This is a valid way to create an array from a set: \\`\\`\\`js let s = new Set(\\[1, 2, 2, 3, 3, 3\\]); let a = \\[...s\\]; \\`\\`\\`",
+      "explanation": "You can use the spread operator with sets",
+      "type": "TF",
+      "correct": true
+    },
+    {
+      "statement": "Which of the following are valid ways to make an iterator of map keys: \\`\\`\\`js var newMap = new Map() var x = {\"foo\": 1} var xVal = \"foo1\"; var y = {\"foo\": 2} var yVal = \"foo2\"; newMap.set(x, xVal) newMap.set(y, yVal) \\`\\`\\`",
+      "explanation": "\\`newMap.keys()\\` will create an iterator of the keys. \\`newMap.forEach()\\` iterates over the values, and \\`entries()\\` creates a two dimensional array of keys and values.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`newMap.keys()\\`", "correct": true },
+        { "text": "\\`newMap.keys\\`", "correct": false },
+        { "text": "\\`newMap.entries()\\`", "correct": false },
+        { "text": "\\`newMap.forEach(key => {...})\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "Which of the following statements about WeakSets is true:",
+      "explanation": "Whereas a WeakMap holds its keys weakly (but its values strongly), a WeakSet holds its values weakly (there aren't really keys).",
+      "type": "MCQ",
+      "options": [
+        { "text": "A WeakSet holds its values weakly", "correct": true },
+        { "text": "A WeakSet holds its keys weakly", "correct": false },
+        {
+          "text": "WeakSet values can be primitives like strings or numbers",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed? \\`\\`\\`js let arr = Array(5); console.log(arr.length); \\`\\`\\`",
+      "explanation": "There's a well known gotcha with the \\`Array(..)\\` constructor, which is that if there's only one argument passed, and that argument is a number, instead of making an array of one element with that number value in it, it constructs an empty array with a length property equal to the number.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`5\\`", "correct": true },
+        { "text": "\\`1\\`", "correct": false },
+        { "text": "\\`4\\`", "correct": false },
+        { "text": "\\`0\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed? \\`\\`\\`js Array(1, 2, 3).length === Array.of(5, 6, 7).length \\`\\`\\`",
+      "explanation": "\\`Array.of(..)\\` replaces \\`Array(..)\\` as the preferred function-form constructor for arrays",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`true\\`", "correct": true },
+        { "text": "\\`false\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed? \\`\\`\\`js let arrLike = { length: 4, 0: \"foo\", 2: \"bar\" }; console.log(Array.from(arrLike)); \\`\\`\\`",
+      "explanation": "\\`Array.from(..)\\` looks to see if the first argument is an iterable, and if so, it uses the iterator to produce values to \"copy\" into the returned array. If you pass an array-like object as the first argument, it simply loops over the value, accessing numerically named properties from \\`0\\` up to whatever the value of \\`length\\` is. \\`Array.from(..)\\` never produces empty slots.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "\\`\\[\"foo\", undefined, \"bar\", undefined\\]\\`",
+          "correct": true
+        },
+        {
+          "text": "\\`\\[undefined, undefined, undefined, undefined\\]\\`",
+          "correct": false
+        },
+        { "text": "\\`\\[\"foo\", \"bar\"\\]\\`", "correct": false },
+        { "text": "\\`\\[\"foo\",,\"bar\",,\\]\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "\\`Array.from(..)\\` takes an optional second argument, which is a \\_\\_\\_\\_ callback.",
+      "explanation": "The second argument, if provided, is a mapping callback (almost the same as the regular \\`Array#map(..)\\` expects) which is called to map/transform each value from the source to the returned target.",
+      "type": "MCQ",
+      "options": [
+        { "text": "mapping", "correct": true },
+        { "text": "filtering", "correct": false },
+        { "text": "sorting", "correct": false },
+        { "text": "reducing", "correct": false }
+      ]
+    },
+    {
+      "statement": "What does the following line of code do? \\`\\`\\`js let a = Array.from( { length: 2 } ); \\`\\`\\`",
+      "explanation": "You can use \\`Array.from()\\` to create an array of \\`undefined\\` values",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "It creates an array with two \\`undefined\\` values",
+          "correct": true
+        },
+        { "text": "It creates an array with two empty slots", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed? \\`\\`\\`js let x = NaN, y = 0, z = -0; console.log(Object.is(x, x)); console.log(Object.is(y, z)); \\`\\`\\`",
+      "explanation": "\\`Object.is(..)\\` is basically the same as \\`===\\`, with two exceptions: \\`Object.is(NaN, NaN)\\` is \\`true\\` and \\`Object.is(0, -0)\\` is \\`false\\`",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`true\\` / \\`false\\`", "correct": true },
+        { "text": "\\`false\\` / \\`true\\`", "correct": false },
+        { "text": "\\`false\\` / \\`false\\`", "correct": false },
+        { "text": "\\`true\\` / \\`true\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed? \\`\\`\\`js console.log(Number.isInteger(4.0)); \\`\\`\\`",
+      "explanation": "In JavaScript, there’s no difference between \\`4\\`, \\`4.\\`, \\`4.0\\`, or \\`4.0000\\`. All of these would be considered an “integer”",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`true\\`", "correct": true },
+        { "text": "\\`false\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What is \\`Number.MAX\\_SAFE\\_INTEGER\\`?",
+      "explanation": "Max safe integer is the highest integer that can safely be represented in a JavaScript number value which is \\`2^53 - 1\\`.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`2^53 - 1\\`", "correct": true },
+        { "text": "\\`2^32 - 1\\`", "correct": false },
+        { "text": "\\`2^32\\`", "correct": false },
+        { "text": "\\`Infinity\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "Why would you use \\`Number.isNaN()\\` instead of \\`isNaN()\\`?",
+      "explanation": "\\`isNaN()\\` checks for things that are not a number. So that includes \\`NaN\\` and any other value that isn't a number.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "If you are literally checking for the value \\`NaN\\`",
+          "correct": true
+        },
+        {
+          "text": "If you want to determine if a value is not of type number, so that does not include \\`NaN\\`",
+          "correct": false
+        },
+        {
+          "text": "If you want to determine if a value is not of type number, including \\`NaN\\`",
+          "correct": false
+        },
+        {
+          "text": "If you want to use the faster, ES6 version",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js var obj1 = { a: 4 }; var obj2 = { b: obj1 } Object.assign(obj1, obj2) console.log(obj1) \\`\\`\\`",
+      "explanation": "\\`Object.assign(obj1, obj2)\\` takes \\`obj2\\` and merges it into \\`obj1\\`. In the example above, after the merge, the attribute \\`\"b\"\\` actually references \\`obj1\\` itself recursively.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`{ a: 4 }\\`", "correct": false },
+        { "text": "\\`{ a: 4, b: obj1 }\\`", "correct": true },
+        {
+          "text": "\\`{ a: 4, b: \"\\[Object object\\]\" }\\`",
+          "correct": false
+        },
+        { "text": "\\`TypeError\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js console.log(Array(4).fill(3)) \\`\\`\\`",
+      "explanation": "\\`Array(4)\\` creates an array with 4 spots, and \\`fill(3)\\` fills them with the value 3",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`\\[4, 4, 4\\]\\`", "correct": false },
+        { "text": "\\`\\[3, 3, 3, 3\\]\\`", "correct": true },
+        { "text": "\\`TypeError\\`", "correct": false },
+        { "text": "\\`\\[7\\]\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js var foo = \\[1, \"2\", 2, 4, \"2\"\\]; var newFoo = foo.find((val) => { return val == 2 }) console.log(newFoo + 1) \\`\\`\\`",
+      "explanation": "\\`foo.find()\\` returns the first value for which the comparison is truthy, so \\`\"2\"\\` at index 1. \\`1\\` is then coerced into \\`\"1\"\\` and added to \\`\"2\"\\` which is \\`\"21\"\\`.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`\"2,2,21\"\\`", "correct": false },
+        { "text": "\\`\"21\"\\`", "correct": true },
+        { "text": "\\`3\\`", "correct": false },
+        { "text": "\\`NaN\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js var abc = function def() { let a = 5; } console.log(abc.name) \\`\\`\\`",
+      "explanation": "The \\`name\\` property of a function will refer to the lexical binding name if it exists. In this case, it is \\`\"def\"\\`. If the function was anonymous, the name property would be \\`\"abc\"\\`.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`\"abc\"\\`", "correct": false },
+        { "text": "\\`\"def\"\\`", "correct": true },
+        { "text": "\\`\\[\"def\", \"name\"\\]\\`", "correct": false },
+        { "text": "\\`undefined\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js var o = {}; o\\[2\\] = true; o\\[1\\] = true; o.b = \"awesome\"; o.a = \"cool\"; console.log(Object.getOwnPropertyNames( o )); \\`\\`\\`",
+      "explanation": "The ordering is: 1. First, enumerate any owned properties that are integer indexes, in ascending numeric order. 2. Next, enumerate the rest of the owned string property names in creation order. 3. Finally, enumerate owned symbol properties in creation order.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`\\[1,2,\"b\",\"a\"\\]\\`", "correct": true },
+        { "text": "\\`\\[1,2,\"a\",\"b\"\\]\\`", "correct": false },
+        { "text": "Order cannot be guaranteed", "correct": false },
+        { "text": "\\`\\[2,1,\"b\",\"a\"\\]\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js var arr = \\[4, 5, 6, 7\\]; arr\\[Symbol.iterator\\] = function\\* () { var idx = 0; do { yield 3; } while ((idx += 1) < this.length); }; console.log(\\[...arr\\]) \\`\\`\\`",
+      "explanation": "The generator defines how to iterate through values in \\`arr\\`. We defined it to return the value \\`3\\` for each element in the array.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`\\[4, 5, 6, 7\\]\\`", "correct": false },
+        { "text": "\\`\\[3, 3, 3, 3\\]\\`", "correct": true },
+        { "text": "\\`\\[4, 5, 6\\]\\`", "correct": false },
+        { "text": "\\`\\[3, 3, 3\\]\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js var obj1 = { a: 3 } var obj2 = { b: 3 } obj1.toString = () => \"foo\" obj2\\[Symbol.toStringTag\\] = \"foo\"; console.log(obj1.toString() === obj2.toString()) \\`\\`\\`",
+      "explanation": "\\`obj1.toString()\\` is \\`\"foo\"\\` and \\`obj2.toString()\\` is \\`\"\\[object foo\\]\"\\`",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`true\\`", "correct": false },
+        { "text": "\\`false\\`", "correct": true },
+        { "text": "\\`SyntaxError\\`", "correct": false },
+        { "text": "\\`TypeError\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js var arr = \\[1, 2, 3, 4, 5\\]; arr\\[Symbol.toPrimitive\\] = function () { return 5 }; console.log(arr + 10); \\`\\`\\`",
+      "explanation": "\\`toPrimitive\\` is used when an object must be coerced to a primitive value. We are overriding its typical functionality for \\`arr\\` and forcing it to be \\`5\\`.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`\"1,2,3,4,510\"\\`", "correct": false },
+        { "text": "\\`15\\`", "correct": true },
+        { "text": "\\`TypeError\\`", "correct": false },
+        { "text": "\\`ReferenceError\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed? \\`\\`\\`js let obj = {a: 1, b: 2}; let handlers = { get(target,key,context) { if (Reflect.has( target, key )) { return Reflect.get(target, key, context); } else { throw \"No such property/method!\"; } } } let proxy = new Proxy(obj, handlers); console.log(proxy.c); \\`\\`\\`",
+      "explanation": "A proxy is a special kind of object you create that \"wraps\" -- or sits in front of -- another normal object. You can register special handlers (aka traps) on the proxy object which are called when various operations are performed against the proxy. These handlers have the opportunity to perform extra logic in addition to forwarding the operations on to the original target/wrapped object.",
+      "type": "MCQ",
+      "options": [
+        { "text": "No such property/method!", "correct": true },
+        { "text": "\\`undefined\\`", "correct": false },
+        { "text": "\\`null\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "The following code is a valid way for testing whether arrow functions work in the runtime environment: \\`\\`\\`js try { a = () => {}; ARROW\\_FUNCS\\_ENABLED = true; } catch (err) { ARROW\\_FUNCS\\_ENABLED = false; } \\`\\`\\`",
+      "explanation": "Unfortunately, this doesn't work, because our JS programs are compiled. Thus, the engine will choke on the arrow function syntax if it doesn't already support it. The alternative would be to use \\`new Function( \"(() => { })\" );\\` inside the \\`try\\` block.",
+      "type": "TF",
+      "correct": false
+    },
+    {
+      "statement": "Tail Call Optimization helps us save memory when we do object oriented programming",
+      "explanation": "Certain patterns of function calls in recursive programming, called tail calls, can be optimized in a way to avoid the extra allocation of stack frames. Instead of creating a new stack frame for the next function call, the engine just reuses the existing stack frame. That works because a function doesn't need to preserve any of the current state.",
+      "type": "TF",
+      "correct": false
+    },
+    {
+      "statement": "Tail Call Optimization will be applied to the following code: \\`\\`\\`js \"use strict\"; function foo(x) { return x \\* 2; } function bar(x) { x = x + 1; if (x > 10) { return foo( x ); } else { return bar( x + 1 ); } } bar( 5 ); \\`\\`\\`",
+      "explanation": "\\`foo(..)\\` and \\`bar(..)\\` both are in tail position, as they're the last thing to happen in their code path (other than the return). In both cases, the function calls are in proper tail position. Proper Tail Calls (PTC) of these forms can be optimized.",
+      "type": "TF",
+      "correct": true
+    },
+    {
+      "statement": "Tail Call Optimization (TCO) can only be applied in strict mode",
+      "explanation": "This optimization can only be applied in strict mode. Yet another reason to always be writing all your code as strict!",
+      "type": "TF",
+      "correct": true
+    },
+    {
+      "statement": "What do \\`async\\` functions return?",
+      "explanation": "\\`async\\` functions return a promise which can then be consumed via \\`await\\` or with \\`.then()\\`.",
+      "type": "MCQ",
+      "options": [
+        { "text": "a promise", "correct": true },
+        { "text": "a callback", "correct": false },
+        { "text": "a resolved promise", "correct": false },
+        { "text": "an object", "correct": false }
+      ]
+    },
+    {
+      "statement": "The \\`await\\` keyword can only be used inside an \\`async\\` function",
+      "explanation": "The \\`await\\` expression causes \\`async\\` function execution to pause until a \\`Promise\\` is resolved, that is fulfilled or rejected, and to resume execution of the \\`async\\` function after fulfillment. When resumed, the value of the \\`await\\` expression is that of the fulfilled \\`Promise\\`.",
+      "type": "TF",
+      "correct": true
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js var obj = { a: 1, b: 2 }; Object.observe( obj, function (changes) { console.log(changes) } ); obj.a = 3 \\`\\`\\`",
+      "explanation": "Trick question! \\`Object.observe()\\` has been deprecated. ES6 Proxies are recommended as an alternative.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`TypeError\\`", "correct": true },
+        { "text": "\\`{change: {a: 3}}\\`", "correct": false },
+        { "text": "\\`\"change\"\\`", "correct": false },
+        { "text": "\\`\\[{change: {a: 3}}\\]\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed? \\`\\`\\`js let a = 2; console.log(a \\*\\* 4 === Math.pow(a, 4)); \\`\\`\\`",
+      "explanation": "The \\`\\*\\*\\` operator has been proposed for JavaScript to perform exponentiation in the same way that \\`Math.pow(..)\\` does",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`true\\`", "correct": true },
+        { "text": "\\`false\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js var o1 = { a: 1, b: 2 }, o2 = { c: 3 }, o3 = { ...o1, ...o2, d: 4 }; console.log(o3.a, o3.b, o3.c, o3.d); \\`\\`\\`",
+      "explanation": "The spread operator here works similar to that with arrays.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`1 2 3 4\\`", "correct": true },
+        { "text": "\\`TypeError\\`", "correct": false },
+        { "text": "\\`4\\`", "correct": false },
+        { "text": "\\`3 4\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js let o1 = {a: 1, b: 2, c: 3}; let {b, ...o2} = o1; console.log(o2); \\`\\`\\`",
+      "explanation": "The \\`...\\` operator might also be used to gather an object's destructured properties back into an object",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`{a: 1, c: 3}\\`", "correct": true },
+        { "text": "\\`{b: 2, c: 3}\\`", "correct": false },
+        { "text": "\\`{a: 1, b: 2, c: 3}\\`", "correct": false },
+        { "text": "\\`{a: 1, b: 2}\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js var arr = \\[1, 2, 3, 'hello'\\]; console.log(arr.includes('hello')); \\`\\`\\`",
+      "explanation": "\\`Array.prototype.includes(x)\\` simply checks to see if an element value is equal to \\`x\\`",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`true\\`", "correct": true },
+        { "text": "\\`false\\`", "correct": false },
+        { "text": "\\`TypeError\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "\\`console.log()\\` is always executed synchronously",
+      "explanation": "While it is up to the hosting environment how they want to implement \\`console\\`, it is often asynchronous because blocking I/O takes a lot of time.",
+      "type": "TF",
+      "correct": false
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js var data = ajax( \"https://google.com\" ); console.log( data ); \\`\\`\\`",
+      "explanation": "Because \\`ajax\\` is asynchronous, \\`data\\` will not yet be defined when it is logged to the console.",
+      "type": "MCQ",
+      "options": [
+        { "text": "The html for google.com", "correct": false },
+        { "text": "\\`undefined\\`", "correct": true }
+      ]
+    },
+    {
+      "statement": "Until ES6, JavaScript itself has actually never had any direct notion of asynchrony built into it.",
+      "explanation": "What you typically think of asynchrony is often the Web APIs, not the JavaScript engine.",
+      "type": "TF",
+      "correct": true
+    },
+    {
+      "statement": "What data structure best explains the event loop?",
+      "explanation": "The event loop is FIFO, or first-in-first-out, which is similar to that of a queue.",
+      "type": "MCQ",
+      "options": [
+        { "text": "stack", "correct": false },
+        { "text": "queue", "correct": true },
+        { "text": "binary tree", "correct": false },
+        { "text": "graph", "correct": false }
+      ]
+    },
+    {
+      "statement": "What statement about \\`setTimeout(callbackFn, 1000)\\` below is the most accurate.",
+      "explanation": "Once the timer is up, the callback will get added to the event loop. If the event loop has 20 items, then the callback will execute once those 20 items are executed.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "\\`callbackFn\\` will be executed once 1000ms has elapsed.",
+          "correct": false
+        },
+        {
+          "text": "\\`callbackFn\\` will be executed in at least 1000ms.",
+          "correct": true
+        },
+        {
+          "text": "\\`callbackFn\\` will be executed in at most 1000ms.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "What is \"callback hell\" all about?",
+      "explanation": "But the brittle nature of manually hardcoded callbacks (even with hardcoded error handling) is often far less graceful. Once you end up specifying (aka pre-planning) all the various eventualities/paths, the code becomes so convoluted that it's hard to ever maintain or update it. \\*\\*That\\*\\* is what \"callback hell\" is all about! The nesting/indentation are basically a side show, a red herring.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "When you have several nested callbacks, and your code gets extremely indented",
+          "correct": false
+        },
+        {
+          "text": "Manually hardcoding callbacks makes your code so convoluted that it's hard to ever maintain or update it.",
+          "correct": true
+        },
+        {
+          "text": "Writing many lines of code within one file",
+          "correct": false
+        },
+        {
+          "text": "Making so many ajax calls that your page takes forever to load",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "What is troubling about the code below: \\`\\`\\`js analytics.trackPurchase( purchaseData, function(){ chargeCreditCard(); displayThankyouPage(); } ); \\`\\`\\`",
+      "explanation": "This library could run this critical callback 1 time or 0 times or many times.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "You are trusting this analytics library to ensure that critical functions get executed",
+          "correct": true
+        },
+        {
+          "text": "You are using analytics to track a purchase",
+          "correct": false
+        },
+        { "text": "The callback is an anonymous function", "correct": false },
+        { "text": "The functions are named poorly", "correct": false }
+      ]
+    },
+    {
+      "statement": "What scenario below is not a potential problem that needs to be handled when using callbacks:",
+      "explanation": "Once the callback is run, any issue in your code is not the fault of the callback.",
+      "type": "MCQ",
+      "options": [
+        { "text": "Call the callback too late (or never)", "correct": false },
+        {
+          "text": "Call the callback too few or too many times",
+          "correct": false
+        },
+        {
+          "text": "Fail to pass along any necessary environment/parameters to your callback",
+          "correct": false
+        },
+        {
+          "text": "Once the callback is run, fail to execute the rest of your code",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "statement": "What is the difference between \\`fn()\\` and \\`setTimeout(fn, 0)\\`?",
+      "explanation": "\\`setTimeout\\` is handled by the web API, and once the timer is up, it pushes the callback onto the event loop.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "The first option will be executed right away, and the second will first be added to the event loop.",
+          "correct": true
+        },
+        { "text": "Practically, there is no difference", "correct": false },
+        {
+          "text": "When \\`fn\\` is called on the second option, it will be called with an \\`event\\` argument",
+          "correct": false
+        },
+        { "text": "The second option is more performant", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js var a = 1 setTimeout(() => console.log(a), 0) for (let i = 0; i < 1000; i++) { } a++ \\`\\`\\`",
+      "explanation": "The callback gets pushed onto the event loop immediately, but it doesn't run until the call stack is empty which occurs after the for loop and after \\`a++\\` is executed.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`1\\`", "correct": false },
+        { "text": "\\`2\\`", "correct": true },
+        { "text": "\\`undefined\\`", "correct": false },
+        { "text": "\\`ReferenceError\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "How do Promises uninvert the \\*inversion of control\\*?",
+      "explanation": "Promises allow you to remain in control when you make a request to a third party library.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "With Promises, we can expect it to return us a capability to know when its task finishes. Then, our code can decide what to do next.",
+          "correct": true
+        },
+        {
+          "text": "They require you to send two callback functions: one for success and one for error case.",
+          "correct": false
+        },
+        {
+          "text": "They break asynchrony and coerce the functions into synchronous functions",
+          "correct": false
+        },
+        {
+          "text": "You promise to fulfill the request by calling the callback function",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js let prom1 = new Promise((resolve, reject) => { setTimeout(() => resolve(1), 1000) }) let prom2 = new Promise((resolve, reject) => { setTimeout(() => resolve(2), 500) }) Promise.all(\\[prom1, prom2\\]).then(function onComplete(results) { const sum = results.reduce((acc, val) => { return acc + val }, 0); console.log(sum) }) \\`\\`\\`",
+      "explanation": "\\`Promise.all()\\` creates a single promise that resolves when all of the input promises resolve. In the example above, \\`onComplete\\` won't run until \\`prom1\\` and \\`prom2\\` have resolved.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`undefined\\`", "correct": false },
+        { "text": "\\`1\\`", "correct": false },
+        { "text": "\\`2\\`", "correct": false },
+        { "text": "\\`3\\`", "correct": true }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js let promArr = \\[\\]; for (let i = 0; i < 10; i++) { promArr.push( new Promise((resolve, reject) => { setTimeout(() => resolve(1), 1000); }) ); } promArr.push( new Promise((resolve, reject) => { setTimeout(() => reject('uh oh'), 1500); }) ); Promise.all(promArr) .then(function onComplete(results) { const sum = results.reduce((acc, val) => { return acc + val; }, 0); console.log(sum); }) .catch(err => console.log(err)); \\`\\`\\`",
+      "explanation": "If one promise rejects in \\`Promise.all\\`, then they all fail. Even though 10 of the promises passed to \\`Promise.all\\` resolved, we don't have access to the resolved data if one fails.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`10\\`", "correct": false },
+        { "text": "\\`\"uh oh\"\\`", "correct": true },
+        { "text": "\\`10 \"uh oh\"\\`", "correct": false },
+        { "text": "\\`undefined\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js let prom1 = new Promise((resolve, reject) => { setTimeout(() => resolve(1), 1000) }) let prom2 = new Promise((resolve, reject) => { setTimeout(() => resolve(2), 500) }) Promise.race(\\[prom1, prom2\\]).then(function onComplete(results) { console.log(results) }) \\`\\`\\`",
+      "explanation": "With \\`Promise.race()\\`, as soon as the first promise resolves, the resolved value is sent to \\`onComplete\\`. Because \\`prom2\\`s timer was for less time than \\`prom1\\`, \\`prom2\\` won the race.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`1\\`", "correct": false },
+        { "text": "\\`2\\`", "correct": true },
+        { "text": "\\`\\[1, 2\\]\\`", "correct": false },
+        { "text": "\\`\\[2, 1\\]\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js const prom1 = Promise.resolve(1); const prom2 = Promise.reject('uh oh 2'); const prom3 = Promise.reject('uh oh 3'); Promise.all(\\[prom1, prom2, prom3\\]) .then(results => console.log(results)) .catch(err => console.log(err)); \\`\\`\\`",
+      "explanation": "The error that gets sent to \\`Promise.all.catch()\\` is the rejected value of the first promise to reject. In this case that would be \\`prom2\\`.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`\"uh oh 2\"\\`", "correct": true },
+        { "text": "\\`\"uh oh 3\"\\`", "correct": false },
+        { "text": "\\`\"uh oh 2\"\\` \\`\"uh oh 3\"\\`", "correct": false },
+        { "text": "\\`\\[\"uh oh 2\", \"uh oh 3\"\\]\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js var x = 1; function\\* foo() { x++; yield; x++; } var bar = foo() bar.next() console.log(x) bar.next() console.log(x) \\`\\`\\`",
+      "explanation": "The first time \\`bar.next\\` is called \\`foo\\` is run until \\`yield\\`. The second time, \\`bar.next\\` is called, \\`foo\\` is run until completion.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`2\\` \\`3\\`", "correct": true },
+        { "text": "\\`1\\` \\`2\\`", "correct": false },
+        { "text": "\\`1\\` \\`1\\`", "correct": false },
+        { "text": "\\`3\\` \\`3\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js function\\* foo(x) { var y = x \\* (yield \"Hello\"); return y; } var it = foo(6); var res = it.next(); res = it.next(7); console.log(res.value); \\`\\`\\`",
+      "explanation": "The first \\`it.next()\\` starts \\`foo\\`, and the second one replaces \\`\"Hello\"\\` with \\`7\\`, thus \\`y\\` is \\`42\\`.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`NaN\\`", "correct": false },
+        { "text": "\\`42\\`", "correct": true },
+        { "text": "\\`42 \"Hello\"\\`", "correct": false },
+        { "text": "\\`TypeError\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js function\\* foo() { var x = yield; var y = yield x; return x + y; } var it1 = foo(); var it2 = foo(); var val1 = 3; var val2 = 5; it1.next(); it2.next(); val1 = it1.next(val1).value; val2 = it2.next(val2).value; let returnVal1 = it1.next(val2).value; console.log(returnVal1); \\`\\`\\`",
+      "explanation": "The answer ends up being \\`x\\` of \\`it1\\` plus \\`x\\` of \\`it2\\` which is just \\`val1\\` + \\`val2\\`.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`3\\`", "correct": false },
+        { "text": "\\`5\\`", "correct": false },
+        { "text": "\\`8\\`", "correct": true },
+        { "text": "\\`undefined\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js function\\* foo() { let x = 1; while (true) { yield x; x += 1; } } let sumNextVar = 0; for (let nextVar of foo()) { if (nextVar > 3) { break; } sumNextVar += nextVar; } console.log(sumNextVar); \\`\\`\\`",
+      "explanation": "\\`for..of\\` will keep calling \\`next()\\` until the function returns. Because we have an infinte loop in \\`foo\\`, we need to manually stop our \\`for..of\\` loop, otherwise it will not stop.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`6\\`", "correct": true },
+        { "text": "\\`1\\`", "correct": false },
+        { "text": "\\`TypeError\\`", "correct": false },
+        { "text": "\\`undefined\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js function foo(x, y) { return new Promise((resolve, reject) => { setTimeout(() => resolve(y + 1), x); }); } function\\* main() { var num = yield foo(500, 1); console.log(num); } var it = main(); var p = it.next().value; p.then(num => { it.next(num); }); \\`\\`\\`",
+      "explanation": "\\`it.next().value\\` starts \\`main\\` and gets the value from \\`foo(500, 1)\\` which is a promise. We then resolve the promise, and then continue running \\`main\\`.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`1\\`", "correct": false },
+        { "text": "\\`2\\`", "correct": true },
+        { "text": "\\`ReferenceError\\`", "correct": false },
+        { "text": "\\`undefined\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "Why do we care about asynchrony? Why not make everything synchronous?",
+      "explanation": "Our code would be very slow if all of our requests were blocking.",
+      "type": "MCQ",
+      "options": [
+        { "text": "That would make our code less readable", "correct": false },
+        { "text": "For performance reasons", "correct": true },
+        {
+          "text": "It would not be possible to make everything synchronous",
+          "correct": false
+        },
+        {
+          "text": "JavaScript is moving towards removing asynchrony",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "What is a web worker?",
+      "explanation": "An environment like your browser can easily provide multiple instances of the JavaScript engine, each on its own thread, and let you run a different program in each thread. Each of those separate threaded pieces of your program is called a \"(Web) Worker.\" This type of parallelism is called \"task parallelism,\" as the emphasis is on splitting up chunks of your program to run in parallel.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "It is a function that is required in order to make PWAs",
+          "correct": false
+        },
+        {
+          "text": "A separate instance of the JavaScript engine allowing task parallelism",
+          "correct": true
+        },
+        {
+          "text": "A continuous and open connection with a server",
+          "correct": false
+        },
+        {
+          "text": "An ES7 feature that allows functions to not have run-to-completion behavior",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "How do workers share scope or resources with each other or the main program?",
+      "explanation": "Workers do not share any scope or resources with each other or the main program -- that would bring all the nightmares of threaded programming to the forefront -- but instead have a basic event messaging mechanism connecting them called the \\`postMessage\\` API.",
+      "type": "MCQ",
+      "options": [
+        { "text": "Via the \\`postMessage\\` API", "correct": true },
+        { "text": "Via the global scope", "correct": false },
+        { "text": "Via closures", "correct": false },
+        { "text": "Via lexical scoping", "correct": false }
+      ]
+    },
+    {
+      "statement": "What is \\*\\*not\\*\\* a common use for a web worker?",
+      "explanation": "Web workers do not have access to the DOM",
+      "type": "MCQ",
+      "options": [
+        { "text": "Processing intensive math calculations", "correct": false },
+        { "text": "Sorting large data sets", "correct": false },
+        { "text": "High-traffic network communications", "correct": false },
+        { "text": "DOM diffing algorithm", "correct": true }
+      ]
+    },
+    {
+      "statement": "Shared Workers allow multiple instances of an app to share the same web worker",
+      "explanation": "If your site or app allows for loading multiple tabs of the same page (a common feature), you may very well want to reduce the resource usage of their system by preventing duplicate dedicated Workers and using a Shared Worker.",
+      "type": "TF",
+      "correct": true
+    },
+    {
+      "statement": "All performance optimizations matter and should be seriously evaluated",
+      "explanation": "There is no point in chasing after small performance optimizations if you don't know have any reason to believe that it is causing your app to be slow.",
+      "type": "TF",
+      "correct": false
+    },
+    {
+      "statement": "The code below is a valid way to test performance: \\`\\`\\`js var start = (new Date()).getTime(); // do some operation var end = (new Date()).getTime(); console.log( \"Duration:\", (end - start) ); \\`\\`\\`",
+      "explanation": "There are many things wrong with this, but one of the main reasons is that this is only one run, one data point and is not statistically significant.",
+      "type": "TF",
+      "correct": false
+    },
+    {
+      "statement": "Which of the following will not potentially affect your performance test?",
+      "explanation": "Almost everything you can imagine can potentially affect your performance tests. Especially if your question isn't just \"is x faster than y\" but if the question includes \"is it a big enough difference for me to care\". Maybe x is consistently faster than y, but maybe it is so close that no one can tell the difference.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "The amount of battery left on a smartphone that is running the test in Chrome",
+          "correct": false
+        },
+        { "text": "Using polyfills", "correct": false },
+        { "text": "Running the test one time vs many times", "correct": false },
+        { "text": "The time of day that your tests are run", "correct": true }
+      ]
+    },
+    {
+      "statement": "What is the difference between jsPerf and Benchmark.js?",
+      "explanation": "jsPerf uses the Benchmark.js library to run statistically accurate and reliable tests, and makes the test on an openly available URL that you can pass around to others. Each time a test is run, the results are collected and persisted with the test, and the cumulative test results are graphed on the page for anyone to see.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "Benchmark.js is lower level and gives a statistical analysis of the test. jsPerf uses Benchmark.js to test in a browser.",
+          "correct": true
+        },
+        {
+          "text": "They are two libraries that do more or less the same thing",
+          "correct": false
+        },
+        {
+          "text": "jsPerf is compatible with ES6+ and Benchmark.js is not",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "The browser will always execute your code as you wrote it",
+      "explanation": "Browser JavaScript engines have come up with \"engine optimizations\" which speed up the execution of your code. They might execute your code differently from the way you wrote it if their way is faster \\*\\*and\\*\\* results in the same output as your way. This is one of the reasons why it is not directly obvious how to analytically compare two pieces of code. Especially when you consider that browsers are constantly updating and improving their engines.",
+      "type": "TF",
+      "correct": false
+    },
+    {
+      "statement": "What is WebAssembly?",
+      "explanation": "WebAssembly proposes a format for a binary representation of a highly compressed AST (syntax tree) of code, which can then give instructions directly to the JS engine and its underpinnings, without having to be parsed by JS, or even behave by the rules of JS.",
+      "type": "MCQ",
+      "options": [
+        { "text": "A new programming language", "correct": false },
+        { "text": "The future replacement of JavaScript", "correct": false },
+        { "text": "A new binary represenation of code", "correct": true },
+        { "text": "A new JavaScript framework", "correct": false }
+      ]
+    },
+    {
+      "statement": "When \\`this\\` is used in a function, it refers to that function itself.",
+      "explanation": "\\`this\\` can refer to many different elements depending on how the function is called.",
+      "type": "TF",
+      "correct": false
+    },
+    {
+      "statement": "When \\`this\\` is used in a function, it refers to that function's scope.",
+      "explanation": "\\`this\\` can refer to many different elements depending on how the function is called.",
+      "type": "TF",
+      "correct": false
+    },
+    {
+      "statement": "Why is \\`this\\` helpful?",
+      "explanation": "The more complex your usage pattern is, the more clearly you'll see that passing context around as an explicit parameter is often messier than passing around a \\`this\\` context.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "\\`this\\` mechanism provides an elegant way of implicitly \"passing along\" an object reference, leading to clean API design and easy re-use.",
+          "correct": true
+        },
+        {
+          "text": "It is generally regarded as bad practice and should not be used",
+          "correct": false
+        },
+        {
+          "text": "It allows you to do things in JavaScript that you can't do without it",
+          "correct": false
+        },
+        {
+          "text": "It helps filter out less experienced JavaScript developers",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "What is logged to the console in the code below: \\`\\`\\`js function foo() { var a = 2; this.bar(); } function bar() { var a = 1 console.log( this.a ); } foo(); \\`\\`\\`",
+      "explanation": "In both uses of the keyword \\`this\\`, it refers to the global object. Because there is no \\`a\\` in the global object, it is undefined.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`undefined\\`", "correct": true },
+        { "text": "\\`null\\`", "correct": false },
+        { "text": "\\`1\\`", "correct": false },
+        { "text": "\\`2\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "\\`this\\` is actually a binding that is made when a function is invoked",
+      "explanation": "Because \\`this\\` changes depending on HOW the function was called, its value is unknown at the time the function is defined. It is not like lexical scope which is determined at function definition.",
+      "type": "TF",
+      "correct": true
+    },
+    {
+      "statement": "\\_\\_\\_\\_ a function is called matters the most when determining the value of \\`this\\`.",
+      "explanation": "While knowing where the function is called is helpful, the most important part is the HOW. Was it called with \\`call\\` or \\`apply\\`? Or with the \\`new\\` keyword? Was it called via an object? Or was it called regularly?",
+      "type": "MCQ",
+      "options": [
+        { "text": "HOW", "correct": true },
+        { "text": "WHY", "correct": false },
+        { "text": "WHEN", "correct": false },
+        { "text": "WHAT", "correct": false }
+      ]
+    },
+    {
+      "statement": "What is a \\*\\*call-site\\*\\*?",
+      "explanation": "The call-site is simply where a function is called.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "The location in code where a function is executed",
+          "correct": true
+        },
+        {
+          "text": "The location in code where a function is declared",
+          "correct": false
+        },
+        {
+          "text": "The location of the server that serves your content",
+          "correct": false
+        },
+        { "text": "The location of your code in memory", "correct": false }
+      ]
+    },
+    {
+      "statement": "What is logged to the console when the following code is executed: \\`\\`\\`js 'use strict' function foo() { var a = 'pony' console.log( this.a ); } var a = 'rocket ship'; foo(); \\`\\`\\`",
+      "explanation": "When not in strict mode, default binding rules are valid which means \\`this\\` would be the global object, and the answer would be 'rocket ship'. However, since we are in strict mode, default binding rules do not apply, so \\`this\\` is undefined. Accessing a property of \\`undefined\\` results TypeError.",
+      "type": "MCQ",
+      "options": [
+        { "text": "undefined", "correct": false },
+        { "text": "TypeError", "correct": true },
+        { "text": "pony", "correct": false },
+        { "text": "rocket ship", "correct": false }
+      ]
+    },
+    {
+      "statement": "What is logged to the console when the following code is executed: \\`\\`\\`js 'use strict' function printName() { console.log( this.name ); } var person = { name: 'Ralphie', printName: printName }; person.printName(); let name = 'Joanna' \\`\\`\\`",
+      "explanation": "\\`person\\` has a key \\`printName\\` with a value of \\`printName\\` which refers to the function \\`printName\\`. When \\`person.printName()\\` is executed, the function reference that is stored in \\`person.printName\\` (\\`printName\\`) is executed within the \\`person\\` context, thus the implicit binding rules say that \\`this\\` is \\`person\\`.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`undefined\\`", "correct": false },
+        { "text": "\\`null\\`", "correct": false },
+        { "text": "\\`\"Joanna\"\\`", "correct": false },
+        { "text": "\\`\"Ralphie\"\\`", "correct": true }
+      ]
+    },
+    {
+      "statement": "What is logged to the console when the following code is executed: \\`\\`\\`js var firstName = 'Joanna'; function printFirstName() { console.log(this.firstName); } var person = { firstName: 'Ralphie', printfirstName: printFirstName(), }; \\`\\`\\`",
+      "explanation": "This one is a bit tricky. When \\`printFirstName()\\` is executed, the call-site actually does not have a context object because the call-site does not use the \\`person\\` context to reference the function. The default binding rule is therefore used to explain why the \\`this\\` falls back to the global object where there is a \\`var\\` with \\`firstName\\` of \\`\"Joanna\"\\`.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`undefined\\`", "correct": false },
+        { "text": "\\`null\\`", "correct": false },
+        { "text": "\\`\"Joanna\"\\`", "correct": true },
+        { "text": "\\`\"Ralphie\"\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What is \\`typeof \\[\\]\\`?",
+      "explanation": "Arrays are also a form of objects, with extra behavior. The organization of contents in arrays is slightly more structured than for general objects.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`\"array\"\\`", "correct": false },
+        { "text": "\\`\"object\"\\`", "correct": true },
+        { "text": "\\`SyntaxError\\`", "correct": false },
+        { "text": "\\`NaN\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What is \\`typeof function () {}\\`?",
+      "explanation": "Functions are technically callable objects, thus they are a type of an object. \\`typeof function () {}\\` will return \"function\".",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`\"function\"\\`", "correct": true },
+        { "text": "\\`\"object\"\\`", "correct": false },
+        { "text": "\\`\"array\"\\`", "correct": false },
+        { "text": "\\`\"undefined\"\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What is \\`String\\` in JavaScript?",
+      "explanation": "strings in JavaScript are immutable and have no properties/methods. When you run \\`str.length\\` or \\`str.charAt(3)\\`, \\`str\\` is coerced into the object \\`String\\` which has properties \\`length\\` and method \\`charAt\\`.",
+      "type": "MCQ",
+      "options": [
+        { "text": "A class for constructing strings", "correct": false },
+        {
+          "text": "One of the 5 simple primitive types in JavaScript",
+          "correct": false
+        },
+        {
+          "text": "A callable object that has many properties/methods",
+          "correct": true
+        },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "statement": "Where is the value \\`2\\` stored in \\`var obj = {a: 2}\\`?",
+      "explanation": "Values in key-value pairs are not actually stored in the object. The object stores the key and a reference to the value. Exactly how/where it is stored is dependent on the engine implementation.",
+      "type": "MCQ",
+      "options": [
+        { "text": "in \\`obj\\`", "correct": false },
+        { "text": "in \\`obj.a\\`", "correct": false },
+        {
+          "text": "somewhere else that depends on the implementation",
+          "correct": true
+        },
+        { "text": "in \\`window\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "In objects, property names are always strings",
+      "explanation": "If you use any other value besides a string (primitive) as the property, it will first be converted to a string. This even includes numbers, which are commonly used as array indexes, so be careful not to confuse the use of numbers between objects and arrays.",
+      "type": "TF",
+      "correct": true
+    },
+    {
+      "statement": "JavaScript classes work like Ruby's and Python's dynamic classes and unlike Java's and C++'s static classes.",
+      "explanation": "JavaScript ES6 classes are objects, which allows us to add and remove fields and methods at runtime.",
+      "type": "TF",
+      "correct": true
+    },
+    {
+      "statement": "Which of the following is true about classes in JavaScript?",
+      "explanation": "By default, inheritance in JavaScript works by linking two classes (objects) together, not by copying one over to another. Class copy behavior can be emulated using the mixin pattern (both explicit and implicit), but this usually leads to ugly and brittle syntax like explicit pseudo-polymorphism (\\`OtherObj.methodName.call(this, ...)\\`), which often results in harder to understand and maintain code.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "By default, when a child class inherits from a parent class, the child has a copy of the parent's behaviors.",
+          "correct": false
+        },
+        {
+          "text": "By default, changing the parent's behaviors does not change the child's behaviors.",
+          "correct": false
+        },
+        {
+          "text": "It's not possible to inherit behaviors in JavaScript because classes are an abstraction over objects.",
+          "correct": false
+        },
+        {
+          "text": "In a child class, we can store copies of the parent's behaviors if we explicitly program them in.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "statement": "JavaScript does not provide a native mechanism for \"multiple inheritance\".",
+      "explanation": "Multiple-inheritance means that each parent class contributes definitions to the child class. JavaScript does not provide a native mechanism for \"multiple inheritance\". Many see this is a good thing, because the complexity savings more than make up for the \"reduced\" functionality. But this doesn't stop developers from trying to fake it in various ways.",
+      "type": "TF",
+      "correct": true
+    },
+    {
+      "statement": "What is the main difference between an explicit mixin and an implicit mixin?",
+      "explanation": "Implicit mixin is when there isn't an explicit mixin function that copies all of the properties from the parent to the child. Rather, it is when the parent method is called with the \\`this\\` bound to the child's \\`this\\`",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "Explicit mixins are native to JavaScript while implicit mixins are not.",
+          "correct": false
+        },
+        {
+          "text": "Explicit mixin is when the properties of the parent are copied over to the child.",
+          "correct": true
+        },
+        { "text": "Explicit mixins are recommended.", "correct": false },
+        {
+          "text": "Explicit mixins are not native to Javascript while implicit mixins are.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "What is a similarity between explicit and implicit mixins?",
+      "explanation": "Implicit mixins always require absolutely referring to the parent, and explicit mixins require absolutely referring to the parent when shadowing is desired.",
+      "type": "MCQ",
+      "options": [
+        { "text": "They are both native to JavaScript", "correct": false },
+        { "text": "They are both recommended", "correct": false },
+        {
+          "text": "With either, you cannot always avoid absolutely (as opposed to relatively) referring to the parent",
+          "correct": true
+        },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js 'use strict' var anotherObject = { a: 2 }; var myObject = Object.create( anotherObject ); var a = 3; console.log(myObject.a); \\`\\`\\`",
+      "explanation": "\\`var myObject = Object.create( anotherObject );\\` links \\`myObject\\` with \\`anotherObject\\` via the prototype chain. If a key does not exist in \\`myObject\\`, it follows its prototype chain and looks for the key in \\`anotherObject\\`.",
+      "type": "MCQ",
+      "options": [
+        { "text": "undefined", "correct": false },
+        { "text": "null", "correct": false },
+        { "text": "2", "correct": true },
+        { "text": "3", "correct": false }
+      ]
+    },
+    {
+      "statement": "A \\`for..in\\` loop only iterates over the specified object",
+      "explanation": "It also iterates over all enumerable properties in its prototype chain.",
+      "type": "TF",
+      "correct": false
+    },
+    {
+      "statement": "What is logged to the console when the following code is executed: \\`\\`\\`js var anotherObject = { a: 2 }; var myObject = Object.create( anotherObject ); myObject.a++; console.log(anotherObject.a, myObject.a) \\`\\`\\`",
+      "explanation": "Though it may appear that \\`myObject.a++\\` should (via delegation) look-up and just increment the \\`anotherObject.a\\` property itself in place, instead the \\`++\\` operation corresponds to \\`myObject.a = myObject.a + 1\\`. The result is \\`\\[\\[Get\\]\\]\\` looking up a property via \\`\\[\\[Prototype\\]\\]\\` to get the current value \\`2\\` from \\`anotherObject.a\\`, incrementing the value by one, then \\`\\[\\[Put\\]\\]\\` assigning the \\`3\\` value to a new shadowed property \\`a\\` on \\`myObject\\`.",
+      "type": "MCQ",
+      "options": [
+        { "text": "3 2", "correct": false },
+        { "text": "3 3", "correct": false },
+        { "text": "2 3", "correct": true },
+        { "text": "2 2", "correct": false }
+      ]
+    },
+    {
+      "statement": "It is better to think about object oriented programming in JavaScript as Object Links than Classes",
+      "explanation": "JavaScript simply does not have classes. ES6 classes are syntactic sugar on top of what are simply just objects.",
+      "type": "TF",
+      "correct": true
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js var Dog = { speak: function () { console.log(\"Bark\"); }, sleep: function () { console.log('sleeping...') } }; var Cat = Object.create(Dog); Cat.speak = function () { console.log(\"Meow\") }; Cat.speak() Cat.sleep() \\`\\`\\`",
+      "explanation": "\\`Cat\\` has a property \\`speak\\`, but it does not have a property \\`sleep\\`. Because \\`Cat\\` was linked to \\`Dog\\` via \\`Object.create()\\`, and \\`Dog\\` has a property \\`sleep\\`, \\`Dog\\`s \\`sleep\\` property was called.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`undefined\\` \\`ReferenceError\\`", "correct": false },
+        { "text": "\\`\"Meow\"\\` \\`\"sleeping...\"\\`", "correct": true },
+        { "text": "\\`\"Bark\"\\` \\`\"sleeping...\"\\`", "correct": false },
+        { "text": "\\`\"Meow\"\\` \\`ReferenceError\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What is the main fundamental concept of Delegation-Oriented Design in comparison to the traditional Object-Oriented Design?",
+      "explanation": "Fundamentally, the prototype chain does not have a concept of \"copying\" or \"parent creating child\". All it does is chain objects together.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "There is no idea of parent and child, just object linkages",
+          "correct": true
+        },
+        {
+          "text": "Delegation-Oriented Design involves explicit and implicit mixins",
+          "correct": false
+        },
+        {
+          "text": "It bridges the gap with the help of ES6 classes",
+          "correct": false
+        },
+        { "text": "Functions are delegated as objects", "correct": false }
+      ]
+    },
+    {
+      "statement": "In OLOO design, shadowing is a helpful tool used to make API design more robust",
+      "explanation": "Having name collisions creates awkward/brittle syntax to disambiguate references (see Chapter 4), and we want to avoid that if we can.",
+      "type": "TF",
+      "correct": false
+    },
+    {
+      "statement": "In general, with \\`\\[\\[Prototype\\]\\]\\` delegation involved, you want state to be on the delegators, not on the delegate",
+      "explanation": "In OOD, it is easy to relatively access the state of the parent. In OLOO, this is not the case. There is no easy way to specifically access state relatively, so it makes sense to hold state on the delegators.",
+      "type": "TF",
+      "correct": true
+    },
+    {
+      "statement": "If you make B linked to A, and then try to link A to B, you will get an error.",
+      "explanation": "You cannot create a cycle where two or more objects are mutually delegated (bi-directionally) to each other.",
+      "type": "TF",
+      "correct": true
+    },
+    {
+      "statement": "Which statement below best describes why OLOO is a better mental model than OOD in JavaScript",
+      "explanation": "With OLOO there are just objects linked to each other, without needing all the cruft and confusion of things that look (but don't behave!) like classes, with constructors and prototypes and \\`new\\` calls. Ask yourself: if I can get the same functionality with OLOO style code as I do with \"class\" style code, but OLOO is simpler and has less things to think about, isn't OLOO better?",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "There are no real classes in JavaScript, so true OOD is not possible. The language naturally lends itself to OLOO given its focus on objects.",
+          "correct": true
+        },
+        {
+          "text": "OLOO is a cleaner design than OOD in general",
+          "correct": false
+        },
+        { "text": "ES6 is not supported by all browsers", "correct": false },
+        {
+          "text": "It's not a better mental model because OOD and OLOO are the same thing",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "Which is a valid JavaScript type for numerical data?",
+      "explanation": "Unlike many coding languages, JavaScript has only one primitve numerical type: \\`number\\`. This is used for both integers and floating point values.",
+      "type": "MCQ",
+      "options": [
+        { "text": "int", "correct": false },
+        { "text": "short", "correct": false },
+        { "text": "number", "correct": true },
+        { "text": "float", "correct": false },
+        { "text": "long", "correct": false }
+      ]
+    },
+    {
+      "statement": "What is the output of \\`console.log(typeof \\[\\])\\`?",
+      "explanation": "In JavaScript, arrays are a type of \\`object\\`. There is no \"array\" type.",
+      "type": "MCQ",
+      "options": [
+        { "text": "undefined", "correct": false },
+        { "text": "object", "correct": true },
+        { "text": "list", "correct": false },
+        { "text": "array", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js var a = null; console.log(!a && typeof a === \"object\"); \\`\\`\\`",
+      "explanation": "It would have been nice if \\`typeof null\\` returned \"null\", but this original bug in JS has persisted for nearly two decades, and will likely never be fixed because there's too much existing web content that relies on its buggy behavior that \"fixing\" the bug would create more \"bugs\" and break a lot of web software.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`true\\`", "correct": true },
+        { "text": "\\`false\\`", "correct": false },
+        { "text": "\\`undefined\\`", "correct": false },
+        { "text": "\\`TypeError\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What will be logged to the console when the following code is executed: \\`\\`\\`js function a(b, c) { var d = 5 return d + 1 }; console.log(a.length); \\`\\`\\`",
+      "explanation": "The function object has a length property set to the number of formal parameters it is declared with.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`undefined\\`", "correct": false },
+        { "text": "\\`TypeError\\`", "correct": false },
+        { "text": "\\`1\\`", "correct": false },
+        { "text": "\\`2\\`", "correct": true }
+      ]
+    },
+    {
+      "statement": "What is a good way to safely check if a variable has been declared?",
+      "explanation": "All of the other options will throw an error if \\`a\\` has not been declared.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`if (a)...\\`", "correct": false },
+        { "text": "\\`if(typeof a !== \"undefined\")...\\`", "correct": true },
+        { "text": "\\`if(a !== undefined)...\\`", "correct": false },
+        { "text": "\\`if(a.isDefined())...\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "Once an array is assigned data of a particular type, it can only hold data of that type.",
+      "explanation": "In JS, arrays are simple containers that can hold any combination of types, including all primitive types, objects, other arrays, and even functions.",
+      "type": "TF",
+      "correct": false
+    },
+    {
+      "statement": "What is the output of \\`console.log(typeof NaN)\\`?",
+      "explanation": "An oddity of JavaScript, the property \\`NaN\\` (\"not a number\") is actually of type \"number\".",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`\"number\"\\`", "correct": true },
+        { "text": "\\`NaN\\`", "correct": false },
+        { "text": "\\`undefined\\`", "correct": false },
+        { "text": "\\`null\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What is \\`0.1 + 0.2 === 0.3\\`?",
+      "explanation": "The most (in)famous side effect of using binary floating-point numbers (which, remember, is true of all languages that use IEEE 754 -- not just JavaScript as many assume/pretend) is that representations of decimals are not exact.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`true\\`", "correct": false },
+        { "text": "\\`false\\`", "correct": true }
+      ]
+    },
+    {
+      "statement": "JavaScript \\`string\\`s are immutable",
+      "explanation": "You might have thought of string methods as mutating the original string. However, all of the string methods that alter its contents must create and return new strings.",
+      "type": "TF",
+      "correct": true
+    },
+    {
+      "statement": "What is \\`1 / 0\\` in JavaScript?",
+      "explanation": "In JS, this operation is well-defined and results in the value Infinity (aka Number.POSITIVE\\_INFINITY).",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`Infinity\\`", "correct": true },
+        { "text": "\\`TypeError\\`", "correct": false },
+        { "text": "\\`undefined\\`", "correct": false },
+        { "text": "\\`1\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What is logged to the console after the following code is executed: \\`\\`\\`js var a = new String( \"abc\" ); console.log(typeof a) \\`\\`\\`",
+      "explanation": "The result of the constructor form of value creation \\`(new String(\"abc\"))\\` is an object wrapper around the primitive (\\`\"abc\"\\`) value. Importantly, \\`typeof\\` shows that these objects are not their own special types, but more appropriately they are subtypes of the \\`object\\` type.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`\"object\"\\`", "correct": true },
+        { "text": "\\`\"string\"\\`", "correct": false },
+        { "text": "\\`\"function\"\\`", "correct": false },
+        { "text": "\\`\"class\"\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "Which native was added in ES6?",
+      "explanation": "\\`Symbol()\\` was added in ES6",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`Symbol()\\`", "correct": true },
+        { "text": "\\`RegExp()\\`", "correct": false },
+        { "text": "\\`Date()\\`", "correct": false },
+        { "text": "\\`Error()\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What purpose do boxing wrappers serve?",
+      "explanation": "Ever wondered why you can call \\`str.length\\` or \\`str.toUpperCase()\\`? Or maybe you just accepted it as fact and didn't think much about it. Primitive types such as \\`string\\` or \\`number\\` get automatically wrapped by boxing wrappers as needed which have methods such as \\`length\\` and \\`toUpperCase\\`.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "They allow you to call methods on primitives that aren't objects",
+          "correct": true
+        },
+        {
+          "text": "They give JavaScript objects all of their functionality",
+          "correct": false
+        },
+        {
+          "text": "They are a mechanism for JavaScript engines to improve performance",
+          "correct": false
+        },
+        { "text": "They allow for the use of ES6 classes", "correct": false }
+      ]
+    },
+    {
+      "statement": "What is \"boxing\" and \"unboxing\"?",
+      "explanation": "Boxing is wrapping a primitive value, and unboxing is extracting the primitive value from a wrapper. Boxing/Unboxing can be done explicitly or implicitly.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "Boxing is converting from primitive to object wrapper, and unboxing is converting from object wrapper to primitive.",
+          "correct": true
+        },
+        {
+          "text": "Boxing is converting from object wrapper to primitive, and unboxing is converting from primitive to object wrapper.",
+          "correct": false
+        },
+        {
+          "text": "Boxing is temporarily coercing one primitive type to another, unboxing is coercing it back to its original type",
+          "correct": false
+        },
+        {
+          "text": "Boxing is merging of your JavaScript files into one, and unboxing is using source maps to undo the merging",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "\\`var a = new String( \"abc\" );\\` is more performant than \\`var a = \"abc\";\\`",
+      "explanation": "You might think that it would be more performant to use the object wrapper form, so that the engine doesn't have to wrap the primitive. However, engines have been optimizing based on the assumption that almost everyone constructs using primitives, thus they are actually more performant.",
+      "type": "TF",
+      "correct": false
+    },
+    {
+      "statement": "Everyone has more or less agreed that implicit coercion is a good feature in JavaScript",
+      "explanation": "There are rules for linters to disallow implicit coercion because it can happen unexpectedly if the developer isn't careful. Implicit coercion is a valuable tool once you fully understand how it works.",
+      "type": "TF",
+      "correct": false
+    },
+    {
+      "statement": "What is logged to the console when the following code is executed: \\`\\`\\`js var a = '4'; var b = '2'; console.log(a + b); \\`\\`\\`",
+      "explanation": "\\`+\\` means concatenation when any of the operands are strings",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`\"42\"\\`", "correct": true },
+        { "text": "\\`6\\`", "correct": false },
+        { "text": "\\`\"6\"\\`", "correct": false },
+        { "text": "\\`42\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What is logged to the console when the following code is executed: \\`\\`\\`js var a = {}; if (a) { console.log(a); } \\`\\`\\`",
+      "explanation": "There is no such thing as a falsy object in JavaScript",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "Nothing is actually logged to the console",
+          "correct": false
+        },
+        { "text": "\\`{}\\`", "correct": true }
+      ]
+    },
+    {
+      "statement": "What is logged to the console when the following code is executed: \\`\\`\\`js console.log(40 + 0 + '5') \\`\\`\\`",
+      "explanation": "\\`+\\` means concatenation when any of the operands are strings",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`45\\`", "correct": false },
+        { "text": "\\`\"405\"\\`", "correct": true },
+        { "text": "\\`\"45\"\\`", "correct": false },
+        { "text": "\\`405\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What is logged to the console when the following code is executed: \\`\\`\\`js var a = \\[5,2,6,0,9\\] a.forEach(num => { if (num) { // ...do stuff } else { console.log(num) } }) \\`\\`\\`",
+      "explanation": "\\`0\\` is actually falsy which can be unexpected. If you have a list of values and you want to make sure none of them are \\`undefined\\` or \\`null\\` you can't just check if they are truthy.",
+      "type": "MCQ",
+      "options": [
+        { "text": "Nothing is logged to the console", "correct": false },
+        { "text": "\\`0\\`", "correct": true },
+        { "text": "\\`5\\` \\`2\\` \\`6\\` \\`0\\` \\`9\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What best describes the code, \\`var a = 3 \\* 6;\\`",
+      "explanation": "Statements are to English sentences as expressions are to English phrases",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "It is a statement containing multiple expressions",
+          "correct": true
+        },
+        {
+          "text": "It is an expression containing multiple statements",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "What is logged to the console when the following code is executed: \\`\\`\\`js var a = 42; var b = a++; console.log(a + b); \\`\\`\\`",
+      "explanation": "\\`a++\\` increments \\`a\\` by 1, but the return value of \\`a++\\` is the previous value of \\`a\\`. So when we get to line 3, \\`a\\` has a value of \\`43\\` and \\`b\\` has a value of \\`42\\`.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`85\\`", "correct": true },
+        { "text": "\\`84\\`", "correct": false },
+        { "text": "\\`undefined\\`", "correct": false },
+        { "text": "\\`43\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What is logged to the console when the following code is executed: \\`\\`\\`js var obj = { a: { b: \"c\" } } console.log(obj.a && obj.a.b) \\`\\`\\`",
+      "explanation": "The \\`&&\\` operator doesn't actually return \\`true\\` if both operands are truthy. It returns the last value. Ever get an error when you try to access \\`a.length\\` when \\`a\\` is undefined? You could instead try \\`a && a.length\\`.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`\"c\"\\`", "correct": true },
+        { "text": "\\`true\\`", "correct": false },
+        { "text": "\\`false\\`", "correct": false },
+        { "text": "\\`TypeError\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What is Automatic Semicolon Insertion (ASI) in JavaScript?",
+      "explanation": "There are many opinions on whether semicolons should be used in JavaScript. Per the spec, ASI is an error fixing mechanism which suggests that developers should use semicolons.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "ASI is an \"error correction\" routine that inserts semicolons to fix parser errors",
+          "correct": true
+        },
+        {
+          "text": "Mechanism that automatically inserts semicolons in the middle of a line if it notices two statements on one line.",
+          "correct": false
+        },
+        {
+          "text": "A deprecated system that used to replace commas with semicolons as needed",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "What is logged to the console when the following code is executed: \\`\\`\\`js var a = b = 1; var c = 2; var d = \"\"; if (a === b || a === b && b === c) { d += 'Expression 1 is true. '; } if ((a === b || a === b) && b === c) { d += 'Expression 2 is true.'; } console.log(d); \\`\\`\\`",
+      "explanation": "You might expect JavaScript expressions to work left to right with the exception that everything in parentheses gets executed first. That is not the case. You might know that, in math, the \"\\*\" operator executes before \"+\". So, 1 + 1 \\* 5 = 6, not 7. Similarly, in JavaScript, the \\`&&\\` operator executes before \\`||\\`.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`\"Expression 1 is true. \"\\`", "correct": true },
+        { "text": "\\`\"Expression 2 is true.\"\\`", "correct": false },
+        {
+          "text": "\\`\"Expression 1 is true. Expression 2 is true.\"\\`",
+          "correct": false
+        },
+        { "text": "\\`\"\"\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "How many expressions are there in the following statement: \\`a = b \\* 2;\\` ?",
+      "explanation": "This statement has four expressions in it: 2 is a literal value expression; b is a variable expression, which means to retrieve its current value; b \\\\\\* 2 is an arithmetic expression, which means to do the multiplication; a = b \\\\\\* 2 is an assignment expression, which means to assign the result of the b \\\\\\* 2 expression to the variable a.",
+      "type": "MCQ",
+      "options": [
+        { "text": "One", "correct": false },
+        { "text": "Two", "correct": false },
+        { "text": "Three", "correct": false },
+        { "text": "Four", "correct": true }
+      ]
+    },
+    {
+      "statement": "What is a computer program (source code / code)?",
+      "explanation": "A program, often referred to as source code or just code, is a set of special instructions to tell the computer what tasks to perform. Usually code is saved in a text file, although with JavaScript you can also type code directly into a developer console in a browser.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "A set of special instructions to tell the computer what tasks to perform.",
+          "correct": true
+        },
+        {
+          "text": "A planned series of future events or performances.",
+          "correct": false
+        },
+        {
+          "text": "A sheet or booklet giving details of items or performers at an event or performance.",
+          "correct": false
+        },
+        {
+          "text": "A plan of action to accomplish a specified end.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "What is a computer language (syntax)?",
+      "explanation": "The rules for valid format and combinations of instructions is called a computer language, sometimes referred to as its syntax, much the same as English tells you how to spell words and how to create valid sentences using words and punctuation.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "The arrangement of words and phrases to create well-formed sentences.",
+          "correct": false
+        },
+        {
+          "text": "The rules for valid format and combinations of instructions.",
+          "correct": true
+        },
+        {
+          "text": "The use of words in a structured and conventional way.",
+          "correct": false
+        },
+        { "text": "A system of communication.", "correct": false }
+      ]
+    },
+    {
+      "statement": "What is an expression?",
+      "explanation": "Statements are made up of one or more expressions. An expression is any reference to a variable or value, or a set of variable(s) and value(s) combined with operators.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "The action of making known one's thoughts or feelings.",
+          "correct": false
+        },
+        {
+          "text": "Values that are included directly in the source code.",
+          "correct": false
+        },
+        {
+          "text": "Any reference to a variable or value OR a set of variable(s) and value(s) combined with operators.",
+          "correct": true
+        },
+        {
+          "text": "A statement that performs actions with values and variables.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "Interpreting the code is when... ?",
+      "explanation": "Statements like a = b \\\\\\* 2 are helpful for developers when reading and writing, but are not actually in a form the computer can directly understand. So a special utility on the computer (either an interpreter or a compiler) is used to translate the code you write into commands a computer can understand. For some computer languages, this translation of commands is typically done from top to bottom, line by line, every time the program is run, which is usually called interpreting the code.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "Changes to values are tracked as your program runs.",
+          "correct": false
+        },
+        {
+          "text": "Actions are performed with values and variables such as assignment and mathematic multiplication.",
+          "correct": false
+        },
+        {
+          "text": "The translation of commands is done ahead of time so when the program is executed, what's running is the already translated computer instructions.",
+          "correct": false
+        },
+        {
+          "text": "Translation of commands is typically done from top to bottom, line by line, every time the program is run.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "statement": "Compiling is when... ?",
+      "explanation": "It's typically asserted that JavaScript is interpreted, because your JavaScript source code is processed each time it's run. But that's not entirely accurate. The JavaScript engine actually compiles the program on the fly and then immediately runs the compiled code.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "The translation of commands is done ahead of time so when the program is executed, what's running is the already translated computer instructions.",
+          "correct": true
+        },
+        {
+          "text": "Changes to values are tracked as your program runs.",
+          "correct": false
+        },
+        {
+          "text": "Actions are performed with values and variables such as assignment and mathematic multiplication.",
+          "correct": false
+        },
+        {
+          "text": "Translation of commands is typically done from top to bottom, line by line, every time the program is run.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "Which of these next expressions has exactly one literal value, one variable, and one operator?",
+      "explanation": "Characters like \\`=\\` and \\`\\*\\` are called operators. They perform actions with the values and variables such as assignment and mathematic multiplication. Variables are like simple boxes you can store any of your stuff in, and should be declared before they are used. In programs, variables hold values to be used by the program. By contrast to variables, literal values are the value itself. For example, \\`4\\` or \\`\"cat\"\\` is a literal value. In other words, it stands alone without being stored in a variable.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`var even = 4;\\`", "correct": true },
+        {
+          "text": "\\`var farm = \"cat\" + \"dog\" + \"cow\";\\`",
+          "correct": false
+        },
+        { "text": "\\`var newCounter = oldCounter + 1;\\`", "correct": false },
+        { "text": "\\`var bool = 5 > minimum;\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "Which of these next statements is NOT true about \\`alert()\\` and \\`console.log()\\`? Remember, you can open the console in your browser and experiment.",
+      "explanation": "This statement is not true, because the console can display many \\`log()\\` messages simultaneously (unlike the \\`alert()\\` method, which only displays one at a time). This is what makes \\`console.log()\\` a great tool for debugging your code, and for finding out what&#39;s going on under the hood.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "Using \\`alert()\\` will block your user from interacting with your web page until the alert is closed.",
+          "correct": false
+        },
+        {
+          "text": "The user cannot view more than one \\`alert()\\` message at a time.",
+          "correct": false
+        },
+        {
+          "text": "The user cannot view more than one \\`console.log()\\` message at a time.",
+          "correct": true
+        },
+        {
+          "text": "\\`console.log()\\` statements often have an interactive pointer to the line of code that issued the logged statement.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "Which is the correct way to get input from the user?",
+      "explanation": "The \\`prompt()\\` method displays a dialog box that prompts the visitor for input. A prompt box is often used if you want the user to input a value before entering a page. The \\`prompt()\\` method returns the input value if the user clicks \"OK\". If the user clicks \"cancel\" the method returns \\`null\\`.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "\\`var name = console.log(\"What is your name? \");\\`",
+          "correct": false
+        },
+        {
+          "text": "\\`var name = alert(\"What is your name? \");\\`",
+          "correct": false
+        },
+        {
+          "text": "\\`var name = console.get(\"What is your name? \");\\`",
+          "correct": false
+        },
+        {
+          "text": "\\`var name = prompt(\"What is your name? \");\\`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "statement": "Fill in the blanks: In the expression \\`var num = 20; \\`, the operator \\`=\\` is used to \\_\\_\\_\\_\\_\\_ the literal value \\`20\\` to the \\_\\_\\_\\_\\_\\_\\_ \\`num\\`. The keyword \\`var\\` is used to \\_\\_\\_\\_\\_\\_\\_ the variable.",
+      "explanation": "In the expression \\`var num = 20; \\`, the operator \\`=\\` is used to assign the literal value \\`20\\` to the variable \\`num\\`. The keyword \\`var\\` is used to declare the variable.",
+      "type": "MCQ",
+      "options": [
+        { "text": "assign, variable, declare", "correct": true },
+        { "text": "assign, variable, increase", "correct": false },
+        { "text": "declare, variable, introduce", "correct": false },
+        { "text": "introduce, variable, declare", "correct": false }
+      ]
+    },
+    {
+      "statement": "Which of these next expressions is NOT a compound assignment?",
+      "explanation": "Compound Assignment examples: \\`-=\\`, \\`\\*=\\`, and \\`+=\\` are compound operators that combine a math operation with assignment, as in \\`a += 2\\` (same as \\`a = a + 2\\`). The double equal sign \\`==\\` is used to check equality.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`var even \\*= 2; \\`", "correct": false },
+        { "text": "\\`var counter += 1; \\`", "correct": false },
+        { "text": "\\`var diff -= 2; \\`", "correct": false },
+        { "text": "\\`b == a; \\`", "correct": true }
+      ]
+    },
+    {
+      "statement": "Which of these next equations will output the boolean value \\`false\\`? Remember, you can open the console in your browser and experiment.",
+      "explanation": "When we use the\\`==\\` loose equals operator to make the comparison like \\`\"99.00\" == 99.00\\`, JavaScript will convert the left-hand side \\`\"99.00\"\\` to its number equivalent \\`99.00\\`. The comparison then becomes \\`99.00 == 99.00\\`, which is of course \\`true\\`. This is even true when the negative sign is outside of the double quotes, like so: \\`-\"99\" == -99.00\\`; . However, comparing negative and positive values returns false even when using the loose equals \\`==\\`.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`99 === Number(\"99\"); \\`", "correct": false },
+        { "text": "\\`-\"99\" == 99; \\`", "correct": true },
+        { "text": "\\`-\"99\" == -99.00; \\`", "correct": false },
+        { "text": "\\`99 == \"99.00\"; \\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "Which of these next statements is false?",
+      "explanation": "JavaScript requires wrapping the conditional in parentheses, otherwise it returns a syntax error. You can test this by running the code \\`if true { console.log(\"this is true!\"); }\\` in your browser console. Remember to also try running the same code with parentheses around the conditional.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "The if statement requires an expression that can be treated as either \\`true\\` or \\`false\\`.",
+          "correct": false
+        },
+        {
+          "text": "You can provide an alternative if the condition is not \\`true\\`, called an else clause.",
+          "correct": false
+        },
+        {
+          "text": "JavaScript defines a list of specific values that are considered \"falsy\" (e.g: \\`0\\`, \\`\"\"\\`). Any other value not on the \"falsy\" list is automatically \"truthy\" (e.g: \\`99.99\\`, \\`\"free\"\\`)",
+          "correct": false
+        },
+        {
+          "text": "The code: \\`if true { console.log(\"this is true!\"); }\\` is written in valid syntax and will print out the string.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "statement": "Which of these next statements is NOT an example of how functions improve our code?",
+      "explanation": "A function does not have to include a loop in order to save us time and make our code more readable. Some functions only have one line of code, for example console.log() (as shown in the chapter's examples)",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "Functions allow us to split our code into reusable pieces which saves time and energy.",
+          "correct": false
+        },
+        { "text": "Functions make our code more readable.", "correct": false },
+        {
+          "text": "Each function gets its own scope, which includes a collection of variables as well as the rules for how those variables are accessed. This allows us to be in better control of our variables and prevent bugs.",
+          "correct": false
+        },
+        {
+          "text": "All functions use loops (for, while, or do...while), which shorten our code significantly.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "statement": "Fill in the blank: You need \\_\\_\\_\\_\\_\\_\\_ to perform actions on values.",
+      "explanation": "The =, +, /, and \\* characters are examples of operators. They perform actions with the values and variables such as assignment, summation, division and mathematic multiplication.",
+      "type": "MCQ",
+      "options": [
+        { "text": "operators", "correct": true },
+        { "text": "values", "correct": false },
+        { "text": "types", "correct": false },
+        { "text": "variables", "correct": false }
+      ]
+    },
+    {
+      "statement": "Fill in the blank: You need \\_\\_\\_\\_\\_\\_\\_ to store data (aka state) during the execution of your program.",
+      "explanation": "Variables are like simple boxes you can store any of your stuff in. In programs, variables hold values (like the number 42) to be used by the program. Think of them as symbolic placeholders for the values themselves.",
+      "type": "MCQ",
+      "options": [
+        { "text": "loops", "correct": false },
+        { "text": "functions", "correct": false },
+        { "text": "variables", "correct": true },
+        { "text": "if statements", "correct": false }
+      ]
+    },
+    {
+      "statement": "You need \\_\\_\\_\\_\\_\\_\\_ like \\_\\_\\_\\_\\_\\_\\_ to make decisions.",
+      "explanation": "Conditionals are just simple \"yes or no\" questions used to make decisions. Does my account have enough balance to purchase this?. The most common conditional is an if statement.",
+      "type": "MCQ",
+      "options": [
+        { "text": "loops, do...while", "correct": false },
+        { "text": "functions, scope", "correct": false },
+        { "text": "conditionals, if statements", "correct": true },
+        { "text": "strings, \"Hello, Worlds\"", "correct": false }
+      ]
+    },
+    {
+      "statement": "You need \\_\\_\\_\\_\\_\\_\\_ to repeat tasks until a condition stops being true.",
+      "explanation": "Repeating a set of actions until a certain condition fails -- in other words, repeating only while the condition holds -- is the job of programming loops. Loops can take different forms, but they all satisfy this basic behavior.",
+      "type": "MCQ",
+      "options": [
+        { "text": "variables", "correct": false },
+        { "text": "loops", "correct": true },
+        { "text": "conditionals", "correct": false },
+        { "text": "operators", "correct": false }
+      ]
+    },
+    {
+      "statement": "You need \\_\\_\\_\\_\\_\\_\\_ to organize your code into logical and reusable chunks.",
+      "explanation": "A function is generally a named section of code that can be \"called\" by name, and the code inside it will be run each time. Functions are often used for code that you plan to call multiple times, but they can also be useful just to organize related bits of code into named collections, even if you only plan to call them once.",
+      "type": "MCQ",
+      "options": [
+        { "text": "conditionals", "correct": false },
+        { "text": "loops", "correct": false },
+        { "text": "functions", "correct": true },
+        { "text": "operators", "correct": false }
+      ]
+    },
+    {
+      "statement": "Which of the following are ALL built-in types of values?",
+      "explanation": "JavaScript has typed values, not typed variables. The following built-in types are available: string, number, boolean, null and undefined, object, symbol (new to ES6)",
+      "type": "MCQ",
+      "options": [
+        { "text": "string, operator, boolean", "correct": false },
+        { "text": "object, number, null", "correct": true },
+        { "text": "boolean, scope, number", "correct": false },
+        { "text": "undefined, string literal, object", "correct": false }
+      ]
+    },
+    {
+      "statement": "What is the operator that can be used to find out the type of a value?",
+      "explanation": "JavaScript provides a typeof operator that can examine a value and tell you what type it is. The return value from the typeof operator is always one of six (seven as of ES6! - the \"symbol\" type) string values. That is, typeof \"abc\" returns \"string\", not string.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`var\\`", "correct": false },
+        { "text": "\\`obj\\`", "correct": false },
+        { "text": "\\`typeof\\`", "correct": true },
+        { "text": "\\`return\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What is the return value of: \\`typeof null\\`?",
+      "explanation": "typeof null is an interesting case, because it errantly returns \"object\", when you&#39;d expect it to return \"null\" (just like \\`typeof undefined\\` returns \\`undefined\\`). You can run this command in your console and see for yourself.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`boolean\\`", "correct": false },
+        { "text": "\\`object\\`", "correct": true },
+        { "text": "\\`undefined\\`", "correct": false },
+        { "text": "\\`number\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What is the return value of: \\`typeof \\[1,2,3\\] === typeof {val: 'a', val: 'b', val: 'c'};\\` ?",
+      "explanation": "Arrays are special objects, so the typeof of both expressions are objects and the return value is \\`true\\`. Run both expressions in your console to see that the return value of \\`typeof \\[1,2,3\\]\\` and \\`typeof {1, 2, 3}\\` is object.",
+      "type": "MCQ",
+      "options": [
+        { "text": "true", "correct": true },
+        { "text": "false", "correct": false },
+        { "text": "undefined", "correct": false },
+        { "text": "Syntax error", "correct": false }
+      ]
+    },
+    {
+      "statement": "In which ways can properties be accessed in an object?",
+      "explanation": "Properties can either be accessed with dot notation (i.e., obj.a) or bracket notation (i.e., obj\\[\"a\"\\]). Dot notation is shorter and generally easier to read, and is thus preferred when possible.",
+      "type": "MCQ",
+      "options": [
+        { "text": "with dot notation OR bracket notation", "correct": true },
+        {
+          "text": "by the values corresponding to the properties",
+          "correct": false
+        },
+        { "text": "with the object's prototype", "correct": false },
+        { "text": "the same as in an array", "correct": false }
+      ]
+    },
+    {
+      "statement": "What is the main difference between an array and an object?",
+      "explanation": "An array is an object that holds values (of any type) not particularly in named properties/keys, but rather in numerically indexed positions. Languages that start counting at zero, like JS does, use 0 as the index of the first element in the array.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "the maximum length of values they can hold",
+          "correct": false
+        },
+        {
+          "text": "positions in arrays begin from 0 and in objects from 1",
+          "correct": false
+        },
+        {
+          "text": "arrays hold values with indexed positions instead of key/value pairs",
+          "correct": true
+        },
+        {
+          "text": "anything can be stored in objects but only strings and numbers in an array",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "Which of the following is an array property?",
+      "explanation": "Because arrays are special objects (as typeof implies), they can also have properties, including the automatically updated length property.",
+      "type": "MCQ",
+      "options": [
+        { "text": "values", "correct": false },
+        { "text": "count", "correct": false },
+        { "text": "limit", "correct": false },
+        { "text": "length", "correct": true }
+      ]
+    },
+    {
+      "statement": "What is the most appropriate use of an object?",
+      "explanation": "You theoretically could use an array as a normal object with your own named properties, or you could use an object but only give it numeric properties (0, 1, etc.) similar to an array. However, this would generally be considered improper usage of the respective types. The best and most natural approach is to use arrays for numerically positioned values and use objects for named properties.",
+      "type": "MCQ",
+      "options": [
+        { "text": "to have numeric properties (keys)", "correct": false },
+        { "text": "to only store strings", "correct": false },
+        {
+          "text": "to hold pairs of named properties and values",
+          "correct": true
+        },
+        { "text": "to find out the count of properties", "correct": false }
+      ]
+    },
+    {
+      "statement": "What are the types of coercion (conversion from one type to another)?",
+      "explanation": "Coercion comes in two forms in JavaScript: explicit and implicit. Explicit coercion is simply that you can see obviously from the code that a conversion from one type to another will occur, whereas implicit coercion is when the type conversion can happen as more of a non-obvious side effect of some other operation.",
+      "type": "MCQ",
+      "options": [
+        { "text": "natural and unnatural", "correct": false },
+        { "text": "implicit and explicit", "correct": true },
+        { "text": "normal and abnormal", "correct": false },
+        { "text": "equal and unequal", "correct": false }
+      ]
+    },
+    {
+      "statement": "Which of these next statments is an implicit coercion (conversion from one type to another)?",
+      "explanation": "Implicit coercion is when the type conversion can happen as more of a non-obvious side effect of some other operation, such as multiplication by 1 in the second answer.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`var b = Number( \"5\" );\\`", "correct": false },
+        { "text": "\\`var b = \"5\" \\* 1;\\`", "correct": true },
+        { "text": "\\`var b = \"Hello, world\" \\* 1;\\`", "correct": false },
+        { "text": "\\`var b = String( 5 );\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "If \\`var a = 42\\` and \\`var b = \"42\"\\`, what will the statements \\`a === b\\` AND \\`a == b\\` return?",
+      "explanation": "\\`==\\` checks for value equality with coercion allowed, and \\`===\\` checks for value equality without allowing coercion; \\`===\\` is often called \"strict equality\" for this reason. In the \\`a == b\\` comparison, JS notices that the types do not match, so it goes through an ordered series of steps to coerce one or both values to a different type until the types match, where then a simple value equality can be checked. The \\`a === b\\` produces false, because the coercion is not allowed, so the simple value comparison obviously fails.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`true\\` / \\`true\\`", "correct": false },
+        { "text": "\\`false\\` / \\`true\\`", "correct": true },
+        { "text": "\\`true\\` / \\`false\\`", "correct": false },
+        { "text": "\\`false\\` / \\`false\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "What happens when you assign a variable that has not yet been declared?",
+      "explanation": "If you try to set a variable that hasn't been declared, you'll either end up creating a variable in the top-level global scope (bad!) or getting an error, depending on \"strict mode\" (see \"Strict Mode\").",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "it is automatically declared and hoisted to the top of its scope",
+          "correct": false
+        },
+        {
+          "text": "it becomes available only in inner/lower scopes",
+          "correct": false
+        },
+        {
+          "text": "it is automatically created in the top-level global scope",
+          "correct": true
+        },
+        { "text": "it makes the code easier to maintain", "correct": false }
+      ]
+    },
+    {
+      "statement": "In which of these cases would we probably be safe using == rather than === for comparison?",
+      "explanation": "You should avoid using \\`==\\` and use \\`===\\` in these incidents: (1) If either value (aka side) in a comparison could be the \\`true\\` or \\`false\\` value. (2) If either value in a comparison could be of these specific values: \\`0\\`, \\`\"\"\\`, or \\`\\[\\]\\` -- empty array. In all other cases, you&#39;re safe to use \\`==\\`. Not only is it safe, but in many cases it simplifies your code in a way that improves readability.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "If either value (aka side) in a comparison could be the \\`true\\` or \\`false\\` value.",
+          "correct": false
+        },
+        {
+          "text": "If either value in a comparison could be \\`0\\`.",
+          "correct": false
+        },
+        {
+          "text": "If either value in a comparison could be \\`undefined\\`.",
+          "correct": true
+        },
+        {
+          "text": "If either value in a comparison could be an empty string \\`\"\"\\` or an empty array \\`\\[\\]\\`.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "If \\`a === 5\\`, which of the following is a correct use of the ternary operator and returns \\`true\\`?",
+      "explanation": "Another form of conditional in JavaScript is the \"conditional operator,\" often called the \"ternary operator. It&#39;s like a more concise form of a single \\`if\\`..\\`else\\` statement. If the test expression evaluates as \\`true\\`, the first clause \\`true\\` results, otherwise the second clause \\`false\\` results.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`a < 20 ? true : false\\`", "correct": true },
+        { "text": "\\`a < 20 : false ? true\\`", "correct": false },
+        { "text": "\\`a < 20 : true : false\\`", "correct": false },
+        { "text": "\\`a < 20 ? false : true\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "Which of these next variable names is NOT a valid identifier?",
+      "explanation": "An identifier must start with a-z, A-Z, $, or \\_. It can then contain any of those characters plus the numerals 0-9.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`var counter;\\`", "correct": false },
+        { "text": "\\`var \\_sumOf5;\\`", "correct": false },
+        { "text": "\\`var 5thItem;\\`", "correct": true },
+        { "text": "\\`var $amount;\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "Which of these next statements is true about scopes?",
+      "explanation": "When you declare a variable, it is available anywhere in that scope, as well as any lower/inner scopes. This means that if you declare a function within a function, the outer function is able to access the vairables declared inside it's child function. However, the child/inner function cannot access it's parent/outer function's scope.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "When you declare a variable, it is only available anywhere in that scope.",
+          "correct": false
+        },
+        {
+          "text": "When you declare a variable, it is available anywhere in that scope, as well as any sibling scopes.",
+          "correct": false
+        },
+        {
+          "text": "When you declare a variable, it is available anywhere in that scope, as well as any upper/outer scopes.",
+          "correct": false
+        },
+        {
+          "text": "When you declare a variable, it is available anywhere in that scope, as well as any lower/inner scopes.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "statement": "What will happen if you try to access a variable's value in a scope where it's not available?",
+      "explanation": "If you try to access a variable's value in a scope where it's not available, you'll get a ReferenceError thrown. The ReferenceError object represents an error when a non-existent variable is referenced. If you try to set a variable that hasn't been declared, you'll either end up creating a variable in the top-level global scope (bad!) or getting an error (depending on \"strict mode\"). You can try this out in your console, and see for yourself.",
+      "type": "MCQ",
+      "options": [
+        { "text": "\\`SyntaxError\\`", "correct": false },
+        { "text": "\\`ReferenceError\\`", "correct": true },
+        { "text": "\\`InternalError\\`", "correct": false },
+        { "text": "\\`TypeError\\`", "correct": false }
+      ]
+    },
+    {
+      "statement": "Which of these statements is NOT true about strict mode?",
+      "explanation": "To invoke strict mode for an entire script, put the exact statement \\`use strict\\`;",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "ES5 added a \"strict mode\" to the language, which is seen as keeping the code to a safer and more appropriate set of guidelines.",
+          "correct": false
+        },
+        {
+          "text": "One key difference (improvement!) with strict mode is disallowing the implicit auto-global variable declaration from omitting the \\`var\\`.",
+          "correct": false
+        },
+        {
+          "text": "To invoke strict mode for an entire script, put the exact statement \\`use strict mode\\`; (or \\`use strict mode;\\`) before any other statements.",
+          "correct": true
+        },
+        {
+          "text": "You can opt in to strict mode for an individual function, or an entire file, depending on where you put the strict mode pragma.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "Which of the lines below will print \\`\"Hello!\"\\` to the console when executed?",
+      "explanation": "Immediately Invoked Function Expressions (IIFE) is a way to execute a function expression. It requires an outer set of parentheses \\`( .. )\\` that surrounds the function expression. It also requires a final set of parentheses at the end of the expression, which is what actually executes the function expression referenced immediately before it.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "\\`(function (){ console( \"Hello!\" ); })();\\`",
+          "correct": false
+        },
+        {
+          "text": "\\`function (){ console.log( \"Hello!\" ); }();\\`",
+          "correct": false
+        },
+        {
+          "text": "\\`function (){ console.log( \"Hello!\" ); }\\`",
+          "correct": false
+        },
+        {
+          "text": "\\`(function (){ console.log( \"Hello!\" ); })();\\`",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "statement": "What is Polyfilling?",
+      "explanation": "The word \"polyfill\" is an invented term used to refer to taking the definition of a newer feature and producing a piece of code that's equivalent to the behavior, but is able to run in older JS environments. For example, ES6 defines a utility called Number.isNaN(..) to provide an accurate non-buggy check for NaN values, deprecating the original isNaN(..) utility. But it's easy to polyfill that utility so that you can start using it in your code regardless of whether the end user is in an ES6 browser or not.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "Taking the definition of a newer feature and producing code that offers equivalent behavior, but is able to run in newer JS environments.",
+          "correct": false
+        },
+        {
+          "text": "Taking the definition of a newer feature and producing code that offers equivalent behavior, but is able to run in older JS environments.",
+          "correct": true
+        },
+        {
+          "text": "A way to \"remember\" and continue to access the scope of a function (its variables) even once the function has finished running.",
+          "correct": false
+        },
+        {
+          "text": "A way to \"remember\" and continue to access the scope of a function (its variables) even before the function started running.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "statement": "What is Transpiling?",
+      "explanation": "Transpiling is using a tool that converts your newer code into older code equivalents. The term combines the terms for transforming + compiling. Essentially, your source code is authored in the new syntax form, but what you deploy to the browser is the transpiled code in old syntax form. You typically insert the transpiler into your build process, similar to your code linter or your minifier.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "A way to define private implementation details (variables, functions), as well as a public API that is accessible from the outside.",
+          "correct": false
+        },
+        {
+          "text": "A way to define public implementation details (variables, functions), as well as a private API that is not accessible to the outside.",
+          "correct": false
+        },
+        {
+          "text": "Using a tool that converts your older code into newer code equivalents.",
+          "correct": false
+        },
+        {
+          "text": "Using a tool that converts your newer code into older code equivalents.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "statement": "Which of the following expressions is controlled by JavaScript specification?",
+      "explanation": "The document variable exists as a global variable when your code is running in a browser. It's not provided by the JS engine, nor is it particularly controlled by the JavaScript specification. Similarly alert(..) and console.log(..) is provided to your JS program by the browser, not by the JS engine itself. The call you make sends the message to the browser internals and it handles drawing, displaying the message box or logging the message to console.",
+      "type": "MCQ",
+      "options": [
+        {
+          "text": "\\`var el = document.getElementById( \"foo\" );\\`",
+          "correct": false
+        },
+        { "text": "\\`console.log(\"Hello World!\");\\`", "correct": false },
+        { "text": "\\`alert(document.URL);\\`", "correct": false },
+        {
+          "text": "\\`var a = Object.assign({}, { foo : \"bar\"})\\`",
+          "correct": true
+        }
+      ]
+    }
+  ]
+}

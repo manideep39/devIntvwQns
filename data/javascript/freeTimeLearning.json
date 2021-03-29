@@ -1,0 +1,2111 @@
+{
+  "questions": [
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz.php?page=1",
+      "statement": "Who is inventor of JavaScript ?",
+      "options": [
+        { "text": "John Resig", "correct": false },
+        { "text": "Brendan Eich", "correct": true },
+        { "text": "Rasmus Lerdorf", "correct": false },
+        { "text": "Guido van Rossum", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz.php?page=1",
+      "statement": "JavaScript initial release date ?",
+      "options": [
+        { "text": "December 4, 1995", "correct": false },
+        { "text": "December 9, 1995", "correct": true },
+        { "text": "December 15, 1995", "correct": false },
+        { "text": "December 21, 1995", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz.php?page=1",
+      "statement": "To insert a JavaScript into an HTML page, which tag is used?",
+      "options": [
+        { "text": "<script=’javascript’>", "correct": false },
+        { "text": "<javascript>", "correct": true },
+        { "text": "<script>", "correct": false },
+        { "text": "<js>", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz.php?page=1",
+      "statement": "Where is the correct place to insert a JavaScript?",
+      "options": [
+        { "text": "The <head> section", "correct": false },
+        { "text": "The <body> section", "correct": true },
+        { "text": "The <footer> section", "correct": false },
+        { "text": "All of The above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz.php?page=1",
+      "statement": "What is the correct syntax for referring to an external script called \"xxx.js\"?",
+      "options": [
+        { "text": "<script src=\"xxx.js\"></script>", "correct": false },
+        { "text": "<script href=\"xxx.js\"></script>", "correct": true },
+        { "text": "<a src=\"xxx.js\"></a>", "correct": false },
+        { "text": "<a href=\"xxx.js\"></a>", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz.php?page=1",
+      "statement": "How can you add a comment in a JavaScript?",
+      "options": [
+        { "text": "<!--This is a comment-->", "correct": false },
+        { "text": "'This is a comment", "correct": true },
+        { "text": "//This is a comment", "correct": false },
+        { "text": "/This is a comment", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz.php?page=1",
+      "statement": "How to insert a comment that has more than one line?",
+      "options": [
+        {
+          "text": "/\\* This comment has\n\n   more than one line \\*/",
+          "correct": false
+        },
+        {
+          "text": "//This comment has\n\n   more than one line//",
+          "correct": true
+        },
+        {
+          "text": "<!-- This comment has\n\n   more than one line -->",
+          "correct": false
+        },
+        {
+          "text": "// This comment has\n\n   more than one line",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz.php?page=1",
+      "statement": "How do you write \"Hello World\" in ana alert box?",
+      "options": [
+        { "text": "    alert(\"Hello World\");", "correct": false },
+        { "text": "    msg(\"Hello World\");", "correct": true },
+        { "text": "    msgBox(\"Hello World\");", "correct": false },
+        { "text": "    alertBox(\"Hello World\");", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz.php?page=1",
+      "statement": "What language defines the behavior of a web page?",
+      "options": [
+        { "text": "HTML", "correct": false },
+        { "text": "CSS", "correct": true },
+        { "text": "XML", "correct": false },
+        { "text": "JavaScript", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz.php?page=1",
+      "statement": "What is the alternate name for Java script?",
+      "options": [
+        { "text": "LimeScript", "correct": false },
+        { "text": "Both a and d", "correct": true },
+        { "text": "ECMScript", "correct": false },
+        { "text": "ECMAScript", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz.php?page=2",
+      "statement": "Which of the following is not a reserved word in JavaScript?",
+      "options": [
+        { "text": "interface", "correct": false },
+        { "text": "throws", "correct": false },
+        { "text": "program", "correct": true },
+        { "text": "short", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz.php?page=2",
+      "statement": "What is the result of the below JavaScript code when the functions get called in the order as mentioned?  \n  \n\n    function first() {\n        window.a = 3;\n    }\n    \n    function second() {\n        alert(a);\n    }​",
+      "options": [
+        { "text": "0", "correct": false },
+        { "text": "3", "correct": false },
+        { "text": "undefined", "correct": true },
+        { "text": "null", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz.php?page=2",
+      "statement": "Why so JavaScript and Java have similar name?",
+      "options": [
+        {
+          "text": "JavaScript is a stripped-down version of Java",
+          "correct": false
+        },
+        {
+          "text": "JavaScript's syntax is loosely based on Java's",
+          "correct": false
+        },
+        {
+          "text": "They both originated on the island of Java",
+          "correct": true
+        },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz.php?page=2",
+      "statement": "How do you create an object in JavaScript?",
+      "options": [
+        { "text": "var obj = {};", "correct": false },
+        { "text": "function Foo() {} var obj = new Foo();", "correct": false },
+        { "text": "var obj = new Object();", "correct": true },
+        { "text": "All of these work", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz.php?page=2",
+      "statement": "When a user views a page containing a JavaScript program, which machine actually executes the script?",
+      "options": [
+        {
+          "text": "The User's machine running a Web browser",
+          "correct": false
+        },
+        {
+          "text": "A central machine deep within Netscape's corporate offices",
+          "correct": false
+        },
+        { "text": "The Web server", "correct": true },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz.php?page=2",
+      "statement": "What is the result of the following statement: typeof “x”;",
+      "options": [
+        { "text": "“character”", "correct": false },
+        { "text": "“\\[object String\\]”", "correct": false },
+        { "text": "“string”", "correct": true },
+        { "text": "“undefined”", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz.php?page=2",
+      "statement": "\\_\\_\\_\\_ JavaScript is also called client-side JavaScript.",
+      "options": [
+        { "text": "Navigator", "correct": false },
+        { "text": "LiveWire", "correct": false },
+        { "text": "Microsoft", "correct": true },
+        { "text": "Native", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz.php?page=2",
+      "statement": "Primitive types are passed by :",
+      "options": [
+        { "text": "Reference", "correct": false },
+        { "text": "Value", "correct": false },
+        { "text": "Pointer", "correct": true },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz.php?page=2",
+      "statement": "Which is not a primitive data type in JavaScript?",
+      "options": [
+        { "text": "boolean", "correct": false },
+        { "text": "number", "correct": false },
+        { "text": "string", "correct": true },
+        { "text": "character", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz.php?page=2",
+      "statement": "\\_\\_\\_\\_\\_\\_\\_ JavaScript is also called server-side JavaScript.",
+      "options": [
+        { "text": "Navigator", "correct": false },
+        { "text": "LiveWire", "correct": false },
+        { "text": "Microsoft", "correct": true },
+        { "text": "Native", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz.php?page=3",
+      "statement": "Which of these is a correct method to create a new array?",
+      "options": [
+        { "text": "var myArray = ();", "correct": false },
+        { "text": "var myArray = \\[\\];", "correct": true },
+        { "text": "var myArray = new Array\\[\\];", "correct": false },
+        { "text": "var myArray = {};", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz.php?page=3",
+      "statement": "Which of the following way can be used to indicate the LANGUAGE attribute?",
+      "options": [
+        { "text": "`<LANGUAGE=\"JavaScriptVersion\">`", "correct": false },
+        {
+          "text": "`<SCRIPT LANGUAGE=\"JavaScriptVersion\">`",
+          "correct": true
+        },
+        {
+          "text": "    <SCRIPT LANGUAGE=\"JavaScriptVersion\">    JavaScript statements…</SCRIPT>",
+          "correct": false
+        },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz.php?page=3",
+      "statement": "The “if” statement is used to:",
+      "options": [
+        {
+          "text": "Deal with logic that should execute only when a condition is false",
+          "correct": false
+        },
+        { "text": "Convert an integer value to a boolean", "correct": true },
+        {
+          "text": "Create a loop that runs as long as a condition is true",
+          "correct": false
+        },
+        {
+          "text": "Deal with logic that should execute only when a condition is true",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz.php?page=3",
+      "statement": "How to return the first value of this array? var myArr = \\[1, 2, 3, 4, 5\\]; var myVal = …",
+      "options": [
+        { "text": "myArr\\[0\\];", "correct": false },
+        { "text": "myArr.pop();", "correct": true },
+        { "text": "myArr\\[1\\];", "correct": false },
+        { "text": "myArr.shift();", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz.php?page=3",
+      "statement": "Which of the following event fires when the form element loses the focus: <button>, <input>, <label>, <select>, <textarea>?",
+      "options": [
+        { "text": "onfocus", "correct": false },
+        { "text": "onblur", "correct": true },
+        { "text": "onclick", "correct": false },
+        { "text": "ondblclick", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz.php?page=3",
+      "statement": "How do you define a function called “fName”?",
+      "options": [
+        { "text": "function fName: { }", "correct": false },
+        { "text": "func fName = function () {}", "correct": true },
+        { "text": "function fName() { }", "correct": false },
+        { "text": "new fName = { }", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz.php?page=3",
+      "statement": "To set up the window to capture all Click events, we use which of the following statement?",
+      "options": [
+        { "text": "window.captureEvents(Event.CLICK);", "correct": false },
+        { "text": "window.handleEvents (Event.CLICK);", "correct": true },
+        { "text": "window.routeEvents(Event.CLICK );", "correct": false },
+        { "text": "window.raiseEvents(Event.CLICK );", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz.php?page=3",
+      "statement": "Which statement loops through an array?",
+      "options": [
+        { "text": "A. for (i < myArray.length; i++)", "correct": false },
+        { "text": "for (i = 0; i <= myArray.length;)", "correct": true },
+        { "text": "for (var i=0; i < myArray.length; i++)", "correct": false },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz.php?page=3",
+      "statement": "What is the value of the array myArr after execution of the following code: var myArr = \\[1,2,3,4,5\\]; myArr.shift();",
+      "options": [
+        { "text": "\\[1,2,3,4\\]", "correct": false },
+        { "text": "\\[2,3,4,5\\]", "correct": true },
+        { "text": "\\[1,2,3,4,5\\]", "correct": false },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz.php?page=3",
+      "statement": "What would be the result or type of error if p is not defined in the following JavaScript code snippet?\n\n    console.log(p)",
+      "options": [
+        { "text": "Zero", "correct": false },
+        { "text": "Null", "correct": true },
+        { "text": "Reference Error", "correct": false },
+        { "text": "Value not found Error", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz.php?page=4",
+      "statement": "The libraries that build a new higher-level API for client-side programming is \\_\\_\\_\\_\\_",
+      "options": [
+        { "text": "Library", "correct": false },
+        { "text": "Framework", "correct": true },
+        { "text": "APIs", "correct": false },
+        { "text": "Script", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz.php?page=4",
+      "statement": "Which of the following frameworks focuses on DOM and Ajax utilities?",
+      "options": [
+        { "text": "jQuery", "correct": false },
+        { "text": "Prototype", "correct": true },
+        { "text": "Dojo", "correct": false },
+        { "text": "Both jQuery and Prototype", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz.php?page=4",
+      "statement": "Which function among the following lets to register a function to be invoked once?",
+      "options": [
+        { "text": "setTimeout()", "correct": false },
+        { "text": "setTotaltime()", "correct": true },
+        { "text": "setInterval()", "correct": false },
+        { "text": "settime()", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz.php?page=4",
+      "statement": "Which method receives the return value of _**setInterval()**_ to cancel future invocations?",
+      "options": [
+        { "text": "clearInvocation()", "correct": false },
+        { "text": "clearInterval()", "correct": true },
+        { "text": "cancelInvocation()", "correct": false },
+        { "text": "clear()", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz.php?page=4",
+      "statement": "How are windows, tabs, iframes, and frames treated according to client-side javascript?",
+      "options": [
+        { "text": "They are all browsing contexts", "correct": false },
+        { "text": "They are all browsing information", "correct": true },
+        { "text": "They are all Window contexts", "correct": false },
+        { "text": "They are all Window objects", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz.php?page=4",
+      "statement": "A new web browser window can be opened using which method of the Window object?",
+      "options": [
+        { "text": "createtab()", "correct": false },
+        { "text": "open()", "correct": true },
+        { "text": "create()", "correct": false },
+        { "text": "Window.open()", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz.php?page=4",
+      "statement": "DOM Level 3 Events standardizes which of the following events?",
+      "options": [
+        { "text": "focusarea and focusover", "correct": false },
+        { "text": "focusall and focusnone", "correct": true },
+        { "text": "focusdown and focusup", "correct": false },
+        { "text": "focusin and focusout", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz.php?page=4",
+      "statement": "Which property holds a DataTransfer object that contains information about the data being transferred and the formats in which it is available?",
+      "options": [
+        { "text": "dataTransfer", "correct": false },
+        { "text": "transferData", "correct": true },
+        { "text": "dataExchange", "correct": false },
+        { "text": "exchangeData", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz.php?page=4",
+      "statement": "Which of the following uses scripted HTTP?",
+      "options": [
+        { "text": "XML", "correct": false },
+        { "text": "HTML", "correct": true },
+        { "text": "CSS", "correct": false },
+        { "text": "Ajax", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz.php?page=4",
+      "statement": "Which of the below is a liberal reverse of Ajax?",
+      "options": [
+        { "text": "HTTP", "correct": false },
+        { "text": "HTML", "correct": true },
+        { "text": "XML", "correct": false },
+        { "text": "Comet", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-2.php?page=1",
+      "statement": "\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ JavaScript is also called client-side JavaScript.",
+      "options": [
+        { "text": "Microsoft", "correct": false },
+        { "text": "Navigator", "correct": true },
+        { "text": "LiveWire", "correct": false },
+        { "text": "Native", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-2.php?page=1",
+      "statement": "Which of the following is not a reserved word?",
+      "options": [
+        { "text": "throw", "correct": false },
+        { "text": "void", "correct": true },
+        { "text": "return", "correct": false },
+        { "text": "program", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-2.php?page=1",
+      "statement": "Which of the following is a server-side Java Script object?",
+      "options": [
+        { "text": "Function", "correct": false },
+        { "text": "File", "correct": true },
+        { "text": "FileUpload", "correct": false },
+        { "text": "Date", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-2.php?page=1",
+      "statement": "Which of the following is a client-side Java Script object?",
+      "options": [
+        { "text": "File", "correct": false },
+        { "text": "Function", "correct": true },
+        { "text": "FileUpload", "correct": false },
+        { "text": "Time", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-2.php?page=1",
+      "statement": "What’s the correct syntax for creating a Date object for January 7, 1991?",
+      "options": [
+        { "text": "new Date(1, 7, 1991);", "correct": false },
+        { "text": "new Date(0, 7, 1991);", "correct": true },
+        { "text": "new Date(1991, 0, 7);", "correct": false },
+        { "text": "new Date(1991, 1, 7);", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-2.php?page=1",
+      "statement": "What is the correct JavaScript syntax to change the content of the HTML element below?\n\n<p id=\"demo\">Free Time Learn Demo.</p>",
+      "options": [
+        { "text": "    #demo.innerHTML = \"Hello World!\";", "correct": false },
+        {
+          "text": "    document.getElementByName(\"p\").innerHTML = \"Hello World!\";",
+          "correct": true
+        },
+        {
+          "text": "    document.getElement(\"p\").innerHTML = \"Hello World!\";",
+          "correct": false
+        },
+        {
+          "text": "    document.getElementById(\"demo\").innerHTML = \"Hello World!\";",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-2.php?page=1",
+      "statement": "Which of the following is correct to write “Hello World” on the web page?",
+      "options": [
+        { "text": "    System.out.println(“Hello World”)", "correct": false },
+        { "text": "    print(“Hello World”)", "correct": true },
+        { "text": "    document.write(“Hello World”)", "correct": false },
+        { "text": "    response.write(“Hello World”)", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-2.php?page=1",
+      "statement": "Which operator is used to assign a value to a variable?",
+      "options": [
+        { "text": "\\=", "correct": false },
+        { "text": "x", "correct": true },
+        { "text": "\\*", "correct": false },
+        { "text": "\\-", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-2.php?page=1",
+      "statement": "How do you create a function in JavaScript?",
+      "options": [
+        { "text": "function:myFunction()", "correct": false },
+        { "text": "function = myFunction()", "correct": true },
+        { "text": "function myFunction()", "correct": false },
+        { "text": "function-myFunction()", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-2.php?page=1",
+      "statement": "How do you declare a JavaScript variable?",
+      "options": [
+        { "text": "variable carName;", "correct": false },
+        { "text": "var carName;", "correct": true },
+        { "text": "v carName;", "correct": false },
+        { "text": "All of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-2.php?page=2",
+      "statement": "What are variables used for in JavaScript Programs?",
+      "options": [
+        { "text": "Storing numbers, dates, or other values", "correct": true },
+        { "text": "Causing high-school algebra flashbacks", "correct": false },
+        { "text": "Varying randomly", "correct": false },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-2.php?page=2",
+      "statement": "To what type are values converted internally when evaluating a conditional statement?",
+      "options": [
+        { "text": "positive", "correct": true },
+        { "text": "negative", "correct": false },
+        { "text": "integer", "correct": false },
+        { "text": "boolean", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-2.php?page=2",
+      "statement": "Which of these is not a logical operator?",
+      "options": [
+        { "text": "!", "correct": true },
+        { "text": "&", "correct": false },
+        { "text": "&&", "correct": false },
+        { "text": "||", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-2.php?page=2",
+      "statement": "\\_\\_\\_\\_\\_ JavaScript statements embedded in an HTML page can respond to user events such as mouse-clicks, form input, and page navigation.",
+      "options": [
+        { "text": "Client-side", "correct": true },
+        { "text": "Server-side", "correct": false },
+        { "text": "Local", "correct": false },
+        { "text": "Native", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-2.php?page=2",
+      "statement": "Which of the following can't be done with client-side JavaScript?",
+      "options": [
+        { "text": "Validating a form", "correct": true },
+        { "text": "Sending a form's contents by email", "correct": false },
+        {
+          "text": "Storing the form's contents to a database file on the server",
+          "correct": false
+        },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-2.php?page=2",
+      "statement": "What is the value of x? var a = false; var x = a ? “A” : “B”;",
+      "options": [
+        { "text": "“A”", "correct": true },
+        { "text": "“B”", "correct": false },
+        { "text": "true", "correct": false },
+        { "text": "false", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-2.php?page=2",
+      "statement": "What is the correct syntax for referring to an external script called \" abc.js\"?",
+      "options": [
+        { "text": "`<script href=\" abc.js\">`", "correct": true },
+        { "text": "`<script name=\" abc.js\">`", "correct": false },
+        { "text": "`<script src=\" abc.js\">`", "correct": false },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-2.php?page=2",
+      "statement": "Which of the following variable types does not exist in JavaScript?",
+      "options": [
+        { "text": "boolean", "correct": true },
+        { "text": "number", "correct": false },
+        { "text": "object", "correct": false },
+        { "text": "double", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-2.php?page=2",
+      "statement": "Which types of image maps can be used with JavaScript?",
+      "options": [
+        { "text": "Server-side image maps", "correct": true },
+        { "text": "Client-side image maps", "correct": false },
+        { "text": "Both (A) and (B)", "correct": false },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-2.php?page=2",
+      "statement": "How do you write a conditional statement that will \\*only\\* execute the contained code if variable x has a value 5 of type \\*number\\*?",
+      "options": [
+        { "text": "if (x == 5) { … }", "correct": true },
+        { "text": "if x = 5 …", "correct": false },
+        { "text": "if (x === 5) { … }", "correct": false },
+        { "text": "if x = 5 then …", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-2.php?page=3",
+      "statement": "What is the difference between == and === ?",
+      "options": [
+        {
+          "text": "The == is used in comparison, and === is used in value assignment.",
+          "correct": false
+        },
+        {
+          "text": "The == operator converts both operands to the same type, whereas === returns false for different types.",
+          "correct": true
+        },
+        {
+          "text": "The === is deprecated, and now they are exactly the same.",
+          "correct": false
+        },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-2.php?page=3",
+      "statement": "Which is the correct syntax to write array literals in JavaScript?",
+      "options": [
+        { "text": "var x = \\[“blank”,”blank”,”blank”\\];", "correct": false },
+        {
+          "text": "var x = array(“blank”, “blank”, “blank”);",
+          "correct": true
+        },
+        { "text": "var x = {“blank”,”blank”,”blank”};", "correct": false },
+        {
+          "text": "var x = new Array(1:”blank”,2:”blank”,3:”blank”)",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-2.php?page=3",
+      "statement": "In JavaScript, to call a function directly, you use:",
+      "options": [
+        {
+          "text": "function\\_expression { arguments\\_if\\_any }",
+          "correct": false
+        },
+        {
+          "text": "function\\_expression -> ( arguments\\_if\\_any )",
+          "correct": true
+        },
+        {
+          "text": "function\\_expression ( arguments\\_if\\_any )",
+          "correct": false
+        },
+        {
+          "text": "arguments\\_if\\_any ( function\\_expression )",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-2.php?page=3",
+      "statement": "How do you assign object properties?",
+      "options": [
+        { "text": "obj(age) = 25 OR obj.age = 25", "correct": false },
+        { "text": "obj\\[“age”\\] = 25 OR obj.age = 25", "correct": true },
+        { "text": "obj.age = 25 OR obj(@”age”) = 25", "correct": false },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-2.php?page=3",
+      "statement": "How do you assign an anonymous function to a variable?",
+      "options": [
+        { "text": "var anon = new Function () { };", "correct": false },
+        { "text": "var anon = function() { };", "correct": true },
+        { "text": "var anon = func() { };", "correct": false },
+        { "text": "var anon = func({});", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-2.php?page=3",
+      "statement": "var data = \\[“A”, “B”, “C”, “D”\\]; data.unshift(“X”); data.push(“Y”); What does data look like?",
+      "options": [
+        { "text": "\\[“A”, “B”, “C”, “X”, “D”, “Y”\\]", "correct": false },
+        { "text": "\\[“X”, “Y”, “A”, “B”, “C”, “D”\\]", "correct": true },
+        { "text": "\\[“X”, “A”, “B”, “C”, “D”, “Y”\\]", "correct": false },
+        { "text": "\\[“A”, “B”, “C”, “D”, “X”, “Y”\\]", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-2.php?page=3",
+      "statement": "Which has the correct syntax of a ternary operation?",
+      "options": [
+        {
+          "text": "var x = ( y === true ) { “true” : “false” };",
+          "correct": false
+        },
+        { "text": "var x = y === true ? “true” : “false”;", "correct": true },
+        { "text": "var x = y === true : “true” ? “false”;", "correct": false },
+        {
+          "text": "var x = ( y === true ) : “true” ? “false”;",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-2.php?page=3",
+      "statement": "What is the name of the String prototype that appends the given string to the base string and returns the new string?",
+      "options": [
+        { "text": "“x”.combine(“foo”)", "correct": false },
+        { "text": "“x”.match(“foo”)", "correct": true },
+        { "text": "“x”.add(“foo”)", "correct": false },
+        { "text": "“x”.concat(“foo”)", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-2.php?page=3",
+      "statement": "What are curly braces (“{” and “}”) used for?",
+      "options": [
+        { "text": "Parsing JSON", "correct": false },
+        { "text": "Defining a class", "correct": true },
+        { "text": "Block declarations and object literals", "correct": false },
+        { "text": "Setting attributes", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-2.php?page=3",
+      "statement": "Which of the following is not a method in the “JSON” object according to the ECMAScript specification?",
+      "options": [
+        { "text": "JSON.stringify", "correct": false },
+        { "text": "JSON.fromString", "correct": true },
+        { "text": "JSON.parse", "correct": false },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-2.php?page=4",
+      "statement": "Which is the appropriate code to begin a HTTP GET request?",
+      "options": [
+        { "text": "request.open(“GET”,”data”);", "correct": false },
+        { "text": "request.open(GET,”data.csv”);", "correct": false },
+        { "text": "request.open(“GET”,”data.csv”);", "correct": true },
+        { "text": "request.open(“GET”);", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-2.php?page=4",
+      "statement": "What is the programming philosophy that argues that content and behaviour should as much as possible be kept separate?",
+      "options": [
+        { "text": "Unobtrusive JavaScript", "correct": false },
+        { "text": "Obtrusive JavaScript", "correct": false },
+        { "text": "Inherited JavaScript", "correct": true },
+        { "text": "Modular JavaScript", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-2.php?page=4",
+      "statement": "Which of the following is not an advanced services?",
+      "options": [
+        { "text": "Data storage", "correct": false },
+        { "text": "Networking", "correct": false },
+        { "text": "XMLHttpRequest object", "correct": true },
+        { "text": "Graphics APIs", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-2.php?page=4",
+      "statement": "What is the initial step to set up a CSS Lazy Loading?",
+      "options": [
+        { "text": "Loading the page", "correct": false },
+        { "text": "Loading the script", "correct": false },
+        { "text": "Fetching data", "correct": true },
+        { "text": "Adding the event listener", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-2.php?page=4",
+      "statement": "What is being done in the following JavaScript code?\n\n    <script>\n    if (window.attachEvent)\n    window.attachEvent('onload', fetch);\n    else\n    window.addEventListener('load', fetch, false);\n    </script>",
+      "options": [
+        {
+          "text": "Event and EventListener is created according to the if-else",
+          "correct": false
+        },
+        { "text": "The values are updated", "correct": false },
+        { "text": "The value is called", "correct": true },
+        { "text": "The values are stored", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-2.php?page=4",
+      "statement": "What is the parameter of the method getElementsbyTagName() if we need to get an image?",
+      "options": [
+        { "text": "image", "correct": false },
+        { "text": "img", "correct": false },
+        { "text": "src", "correct": true },
+        { "text": "imageurl", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-2.php?page=4",
+      "statement": "Where is the external JavaScript placed in the case of lazy loading?",
+      "options": [
+        { "text": "After window.onload event", "correct": false },
+        { "text": "Before window.onload event", "correct": false },
+        { "text": "In the header tag", "correct": true },
+        { "text": "In the HTML tag", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-2.php?page=4",
+      "statement": "What is the purpose of the domLoading attribute?",
+      "options": [
+        { "text": "Document exists", "correct": false },
+        { "text": "Document can load", "correct": false },
+        { "text": "Document has loaded", "correct": true },
+        { "text": "Document begins to load", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-2.php?page=4",
+      "statement": "You can refresh the webpage in JavaScript by using \\_\\_\\_\\_\\_\\_\\_",
+      "options": [
+        { "text": "window.reload", "correct": false },
+        { "text": "window.refresh", "correct": false },
+        { "text": "location.reload", "correct": true },
+        { "text": "page.refresh", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-2.php?page=4",
+      "statement": "Which is the function that is called to validate a data?",
+      "options": [
+        { "text": "validate()", "correct": false },
+        { "text": "valid()", "correct": false },
+        { "text": "validation()", "correct": true },
+        {
+          "text": "no predefined function for data validation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-3.php?page=1",
+      "statement": "How to write an IF statement in JavaScript?",
+      "options": [
+        { "text": "if i = 5", "correct": false },
+        { "text": "if (i == 5)", "correct": true },
+        { "text": "if i = 5 then", "correct": false },
+        { "text": "if i == 5 then", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-3.php?page=1",
+      "statement": "How to write an IF statement for executing some code if \"i\" is NOT equal to 5?",
+      "options": [
+        { "text": "if (i <> 5)", "correct": false },
+        { "text": "if i <> 5", "correct": true },
+        { "text": "if i =! 5 then", "correct": false },
+        { "text": "if (i != 5)", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-3.php?page=1",
+      "statement": "How does a WHILE loop start?",
+      "options": [
+        { "text": "while (i <= 10)", "correct": false },
+        { "text": "while i = 1 to 10", "correct": true },
+        { "text": "while (i <= 10; i++)", "correct": false },
+        { "text": "None of the above.", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-3.php?page=1",
+      "statement": "How does a FOR loop start?",
+      "options": [
+        { "text": "for i = 1 to 5", "correct": false },
+        { "text": "for (i <= 5; i++)", "correct": true },
+        { "text": "for (i = 0; i <= 5)", "correct": false },
+        { "text": "for (i = 0; i <= 5; i++)", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-3.php?page=1",
+      "statement": "Which of these is a correct method to create a new array?",
+      "options": [
+        { "text": "var myArray = ();", "correct": false },
+        { "text": "var myArray = \\[\\];", "correct": true },
+        { "text": "var myArray = {};", "correct": false },
+        { "text": "var myArray = array();", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-3.php?page=1",
+      "statement": "How to append a value to an array of Java Script?",
+      "options": [
+        { "text": "arr\\[arr.length\\] = value", "correct": false },
+        { "text": "arr\\[arr.length+1\\] = new Arrays()", "correct": true },
+        { "text": "arr\\[arr.length-1\\] = value", "correct": false },
+        { "text": "arr\\[arr.length\\*1\\] = value", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-3.php?page=1",
+      "statement": "How to return the first value of this array?  \nvar myArr = \\[1, 2, 3, 4, 5\\];",
+      "options": [
+        { "text": "myArr\\[0\\];", "correct": false },
+        { "text": "myArr(1);", "correct": true },
+        { "text": "myArr\\[1\\];", "correct": false },
+        { "text": "myArr(0);", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-3.php?page=1",
+      "statement": "Which is the correct way to write a JavaScript array?",
+      "options": [
+        {
+          "text": "    var txt = new Array(1:\"abc\",2:\"efg\",3:\"xyz\")",
+          "correct": false
+        },
+        {
+          "text": "    var txt = new Array:1=(\" abc \")2=(\"efg\")3=(\"xyz\")",
+          "correct": true
+        },
+        {
+          "text": "    var txt = new Array(\"abc\",\"efg\",\"xyz\")",
+          "correct": false
+        },
+        {
+          "text": "    var txt = new Array=\" abc \",\"efg\",\"xyz\"",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-3.php?page=1",
+      "statement": "Which event occurs when the user clicks on an HTML element?",
+      "options": [
+        { "text": "onmouseclick", "correct": false },
+        { "text": "onmouseover", "correct": true },
+        { "text": "onclick", "correct": false },
+        { "text": "onchange", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-3.php?page=1",
+      "statement": "Which of the following is the tainted property of a window object in Java Script?",
+      "options": [
+        { "text": "Pathname", "correct": false },
+        { "text": "Protocol", "correct": true },
+        { "text": "Defaultstatus", "correct": false },
+        { "text": "Host", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-3.php?page=2",
+      "statement": "Which of the following navigator object properties is the same in both   Netscape and IE?",
+      "options": [
+        { "text": "navigator.appCodeName", "correct": true },
+        { "text": "navigator.appName", "correct": false },
+        { "text": "navigator.appVersion", "correct": false },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-3.php?page=2",
+      "statement": "Which event fires whenever a control loses focus?",
+      "options": [
+        { "text": "onclick", "correct": true },
+        { "text": "onmove", "correct": false },
+        { "text": "onblur", "correct": false },
+        { "text": "onchange", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-3.php?page=2",
+      "statement": "What does the `<noscript>` tag do?",
+      "options": [
+        {
+          "text": "Enclose text to be displayed by non-JavaScript browsers.",
+          "correct": true
+        },
+        {
+          "text": "Prevents scripts on the page from executing.",
+          "correct": false
+        },
+        { "text": "Describes certain low-budget movies.", "correct": false },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-3.php?page=2",
+      "statement": "JavaScript entities start with \\_\\_\\_\\_\\_\\_\\_ and end with \\_\\_\\_\\_\\_\\_\\_\\_\\_.",
+      "options": [
+        { "text": "Semicolon, colon", "correct": true },
+        { "text": "Ampersand, semicolon", "correct": false },
+        { "text": "Semicolon, Ampersand", "correct": false },
+        { "text": "Ampersand, colon", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-3.php?page=2",
+      "statement": "Which of the following best describes JavaScript?",
+      "options": [
+        { "text": "a low-level programming language.", "correct": true },
+        {
+          "text": "a scripting language precompiled in the browser.",
+          "correct": false
+        },
+        { "text": "a compiled scripting language.", "correct": false },
+        { "text": "an object-oriented scripting language.", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-3.php?page=2",
+      "statement": "Which of the following invokes a user-defined object constructor function?",
+      "options": [
+        { "text": "var x = new myConstructor();", "correct": true },
+        { "text": "var x = create myConstructor();", "correct": false },
+        {
+          "text": "myConstructor x = create myConstructor();",
+          "correct": false
+        },
+        { "text": "myConstructor x = new myConstructor();", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-3.php?page=2",
+      "statement": "Choose the server-side JavaScript object?",
+      "options": [
+        { "text": "FileUpLoad", "correct": true },
+        { "text": "Function", "correct": false },
+        { "text": "File", "correct": false },
+        { "text": "Date", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-3.php?page=2",
+      "statement": "Choose the client-side JavaScript object?",
+      "options": [
+        { "text": "FileUpLoad", "correct": true },
+        { "text": "Database", "correct": false },
+        { "text": "Cursor", "correct": false },
+        { "text": "Client", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-3.php?page=2",
+      "statement": "How is an object property referenced?",
+      "options": [
+        { "text": "myObj(foo)", "correct": true },
+        { "text": "myObj->foo", "correct": false },
+        { "text": "myObj<foo>", "correct": false },
+        { "text": "myObj.foo", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-3.php?page=2",
+      "statement": "Which of these operators compares two variables by value AND type?",
+      "options": [
+        { "text": "\\=", "correct": true },
+        { "text": "\\==", "correct": false },
+        { "text": "\\===", "correct": false },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-3.php?page=3",
+      "statement": "Which of the following is not considered a JavaScript operator?",
+      "options": [
+        { "text": "new", "correct": false },
+        { "text": "this", "correct": true },
+        { "text": "delete", "correct": false },
+        { "text": "typeof", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-3.php?page=3",
+      "statement": "Which of the following asserts that the variables \\`A\\`, \\`B\\`, and \\`C\\` have unequal values?",
+      "options": [
+        { "text": "A !== B || B !== C", "correct": false },
+        { "text": "A !== B & B !== C", "correct": true },
+        { "text": "A !== B && B !== C && A !== C", "correct": false },
+        { "text": "A !== B", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-3.php?page=3",
+      "statement": "The syntax of Eval is \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_",
+      "options": [
+        { "text": "\\[objectName.\\]eval(numeriC.", "correct": false },
+        { "text": "\\[objectName.\\]eval(string)", "correct": true },
+        { "text": "\\[EvalName.\\]eval(string)", "correct": false },
+        { "text": "\\[EvalName.\\]eval(numeriC.", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-3.php?page=3",
+      "statement": "Which of the following is the structure of an if statement?",
+      "options": [
+        {
+          "text": "if (conditional expression is true) thenexecute this codeend if",
+          "correct": false
+        },
+        {
+          "text": "if (conditional expression is true)execute this codeend if",
+          "correct": true
+        },
+        {
+          "text": "if (conditional expression is true)   {then execute this code>->}",
+          "correct": false
+        },
+        {
+          "text": "if (conditional expression is true) then {execute this code}",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-3.php?page=3",
+      "statement": "Which of these will throw a SyntaxError?",
+      "options": [
+        { "text": "if (x = 1) { }", "correct": false },
+        { "text": "if (x == 1) { }", "correct": true },
+        { "text": "if (x === 1) { }", "correct": false },
+        { "text": "if (x ==== 1) { }", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-3.php?page=3",
+      "statement": "To open a dialog box each time an error occurs, which of the following is added to prefs.js?",
+      "options": [
+        {
+          "text": "user\\_pref(\"javascript.classic.error\\_alerts\", true);",
+          "correct": false
+        },
+        {
+          "text": "user\\_pref(\"javascript.classic.error\\_alerts \", false);",
+          "correct": true
+        },
+        {
+          "text": "user\\_pref(\"javascript.console.open\\_on\\_error \", true);",
+          "correct": false
+        },
+        {
+          "text": "user\\_pref(\"javascript.console.open\\_on\\_error \", false);",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-3.php?page=3",
+      "statement": "Which of the following is the correct statement of WHILE loop start?",
+      "options": [
+        { "text": "while (i <= 10)", "correct": false },
+        { "text": "while (i <= 10; i++)", "correct": true },
+        { "text": "while i = 1 to 10", "correct": false },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-3.php?page=3",
+      "statement": "What will be the output of the following JavaScript code?\n\n    <p id=\"demo\"></p>\n    <script>\n      var x = 123e5;\n      document.getElementById(\"demo\").innerHTML = x ;\n    </script>",
+      "options": [
+        { "text": "0.0123", "correct": false },
+        { "text": "12300", "correct": true },
+        { "text": "Error", "correct": false },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-3.php?page=3",
+      "statement": "What will be the output of the following JavaScript code?\n\n    <p id=\"demo\"></p>\n    <script>\n    \tfunction myFunction() {\n       \tvar res = \"\";\n       \tres = res + Number.isInteger('123');\n       \tdocument.getElementById(\"demo\").innerHTML = res;\n    \t}\n    </script>",
+      "options": [
+        { "text": "True", "correct": false },
+        { "text": "False", "correct": true },
+        { "text": "Error", "correct": false },
+        { "text": "Undefined", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-3.php?page=3",
+      "statement": "What will be the output of the following JavaScript code?\n\n    <p id=\"demo\"></p>\n    <script>\n    function myFunction() {\n         var res = \"\";\n         res = res + Number.isInteger(0.5) + \": 0.5<br>\";\n         document.getElementById(\"demo\").innerHTML = res;\n     }\n    </script>",
+      "options": [
+        { "text": "True", "correct": false },
+        { "text": "False", "correct": true },
+        { "text": "Error", "correct": false },
+        { "text": "Undefined", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-4.php?page=1",
+      "statement": "Which attribute needs to be changed to make elements invisible?",
+      "options": [
+        { "text": "visibilty", "correct": true },
+        { "text": "visible", "correct": false },
+        { "text": "invisibility", "correct": false },
+        { "text": "invisible", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-4.php?page=1",
+      "statement": "Which is not a primitive data type in JavaScript?",
+      "options": [
+        { "text": "boolean", "correct": true },
+        { "text": "number", "correct": false },
+        { "text": "string", "correct": false },
+        { "text": "character", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-4.php?page=1",
+      "statement": "Which event fires whenever a control loses focus?",
+      "options": [
+        { "text": "onclick", "correct": true },
+        { "text": "onmove", "correct": false },
+        { "text": "onblur", "correct": false },
+        { "text": "onchange", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-4.php?page=1",
+      "statement": "Which of the ways below is incorrect of instantiating a date?",
+      "options": [
+        { "text": "new Date(dateString)", "correct": true },
+        { "text": "new Date()", "correct": false },
+        { "text": "new Date(seconds)", "correct": false },
+        {
+          "text": "new Date(year, month, day, hours, minutes, seconds, milliseconds)",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-4.php?page=1",
+      "statement": "What is the correct JavaScript syntax for opening a new window called \"ftl\" ?",
+      "options": [
+        {
+          "text": "    ftl = window.open(\"http://www.freetimelearning.com\");",
+          "correct": true
+        },
+        {
+          "text": "    ftl = window.new(\"http://www.freetimelearning.com\");",
+          "correct": false
+        },
+        {
+          "text": "    ftl = window.targer(\"http://www.freetimelearning.com\");",
+          "correct": false
+        },
+        {
+          "text": "    ftl = new.window(\"http://www.freetimelearning.com\");",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-4.php?page=1",
+      "statement": "Which of the following is used to capture all click events in a window?",
+      "options": [
+        { "text": "    window.captureEvents(Event.CLICK);", "correct": true },
+        { "text": "    window.routeEvents(Event.CLICK );", "correct": false },
+        { "text": "    window.handleEvents (Event.CLICK)", "correct": false },
+        { "text": "    window.raiseEvents(Event.CLICK );", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-4.php?page=1",
+      "statement": "How do you round the number 7.25, to the nearest integer?",
+      "options": [
+        { "text": "rnd(7.25)", "correct": true },
+        { "text": "Math.rnd(7.25)", "correct": false },
+        { "text": "Math.round(7.25)", "correct": false },
+        { "text": "round(7.25)", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-4.php?page=1",
+      "statement": "How would one declare a string variable?",
+      "options": [
+        { "text": "Any of these", "correct": true },
+        { "text": "var fName = “FreeTimeLearn”;", "correct": false },
+        { "text": "var names = “7”;", "correct": false },
+        { "text": "var fName = new String;", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-4.php?page=1",
+      "statement": "Why so Java and JavaScript have similar name?",
+      "options": [
+        {
+          "text": "Java Script is a stripped-down version of Java",
+          "correct": true
+        },
+        {
+          "text": "The syntax of JavaScript is loosely based on Java syntax",
+          "correct": false
+        },
+        {
+          "text": "They both support Object Oriented Programming",
+          "correct": false
+        },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-4.php?page=1",
+      "statement": "How do you find the number with the highest value of x and y?",
+      "options": [
+        { "text": "top(x, y)", "correct": true },
+        { "text": "Math.ceil(x, y)", "correct": false },
+        { "text": "Math.max(x, y)", "correct": false },
+        { "text": "ceil(x, y)", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-4.php?page=2",
+      "statement": "What is output ?\n\n    <script language=\"javascript\">\n    \tfunction x()\n    \t{\n    \tdocument.write(2+5+\"8\");\n    \t}\n    </script>",
+      "options": [
+        { "text": "7", "correct": false },
+        { "text": "78", "correct": true },
+        { "text": "258", "correct": false },
+        { "text": "Error", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-4.php?page=2",
+      "statement": "What will be the output of the following JavaScript code if oddsums(5); is executed after the following code snippet?\n\n    function oddsums(n) {\n         let total = 0, result=[]; \n         for(let x = 1; x <= n; x++) \n         { \n            let odd = 2*x-1; \n            total += odd;\n            result.push(total);\n         }\n         return result;\n     }",
+      "options": [
+        { "text": "Returns \\[1,4,9,16,25\\]", "correct": false },
+        { "text": "Returns \\[1,2,3,4,5\\]", "correct": true },
+        { "text": "Returns \\[3,6,9,12,15\\]", "correct": false },
+        { "text": "Returns \\[1,3,5,7,9\\]", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-4.php?page=2",
+      "statement": "What will be the output of the following JavaScript code?\n\n    let x=x+1;\n    console.log(x);",
+      "options": [
+        { "text": "0", "correct": false },
+        { "text": "Null", "correct": true },
+        { "text": "Error", "correct": false },
+        { "text": "NaN", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-4.php?page=2",
+      "statement": "Which method of the _**iterable**_ object returns an iterator object for the collection?",
+      "options": [
+        { "text": "iterator()", "correct": false },
+        { "text": "\\_iterator\\_()", "correct": true },
+        { "text": "\\_iteration\\_()", "correct": false },
+        { "text": "\\_return\\_iterator\\_()", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-4.php?page=2",
+      "statement": "What will be the output of the following JavaScript code?\n\n    <p id=\"demo\"></p>\n    <script>\n    \tfunction myFunction() {\n       \tvar res = \"\";\n       \tres=res + Number.isSafeInteger(Math.pow(2, 53)-1)+\": 2<sup>53</sup>-1<br>\";\n       \tdocument.getElementById(\"demo\").innerHTML = res;\n    \t}\n    </script>",
+      "options": [
+        { "text": "True", "correct": false },
+        { "text": "False", "correct": true },
+        { "text": "Error", "correct": false },
+        { "text": "Undefined", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-4.php?page=2",
+      "statement": "What will be the output of the following JavaScript code?\n\n    <p id=\"demo\"></p>\n    <script>\n         function myFunction() {\n      \t document.getElementById(\"demo\").innerHTML = Number.MAX_VALUE;\n        }\n    </script>",
+      "options": [
+        { "text": "1.7976931348623157e+305", "correct": false },
+        { "text": "1.7976931348623157e+307", "correct": true },
+        { "text": "1.7976931348623157e+308", "correct": false },
+        { "text": "Error", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-4.php?page=2",
+      "statement": "What will be the output of the following JavaScript code?\n\n    function printArray(a) {\n         var len = a.length, i = 0;\n         if (len == 0)\n            console.log(\"Empty Array\");\n         else \n         {\n             do \n             {\n                 console.log(a[i]);\n             } while (++i < len);\n         }\n    }",
+      "options": [
+        {
+          "text": "Prints the numbers in the array in order",
+          "correct": false
+        },
+        {
+          "text": "Prints the numbers in the array in the reverse order",
+          "correct": true
+        },
+        { "text": "Prints 0 to the length of the array", "correct": false },
+        { "text": "Prints “Empty Array”", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-4.php?page=2",
+      "statement": "What will be the role of the continue keyword in the following JavaScript code snippet?\n\n    while (a != 0){\n       if (a == 1) \n           continue;\n       else \n           a++;\n    }",
+      "options": [
+        { "text": "The continue keyword restarts the loop", "correct": false },
+        {
+          "text": "The continue keyword skips the next iteration",
+          "correct": true
+        },
+        {
+          "text": "The continue keyword skips the rest of the statements in that iteration",
+          "correct": false
+        },
+        {
+          "text": "The continue keyword breaks out of the loop",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-4.php?page=2",
+      "statement": "What will be the output of the following JavaScript code?\n\n    function range(int length){\n    \tint a=5;\n    \tfor(int i=0;i<length;i++)\n    \t{\n    \t\tconsole.log(a);\n    \t} \n    }\n    range(3);",
+      "options": [
+        { "text": "3", "correct": false },
+        { "text": "5", "correct": true },
+        { "text": "555", "correct": false },
+        { "text": "error", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-4.php?page=2",
+      "statement": "What will be the output of the following JavaScript code?\n\n    var a = 10;\n       do {\n      \ta += 1;\n      \tconsole.log(a);\n       } while (a < 5);",
+      "options": [
+        { "text": "11", "correct": false },
+        { "text": "1112", "correct": true },
+        { "text": "12345", "correct": false },
+        { "text": "11121314", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-4.php?page=3",
+      "statement": "What will be the output of the following JavaScript code?\n\n    function printArray(a) \n    {\n         var len = a.length, i = 0;\n         if (len == 0)\n            console.log(\"Empty Array\");\n         else \n         {\n             do \n             {\n                 console.log(a[i]);\n             } while (++i < len);\n         }\n    }",
+      "options": [
+        { "text": "Prints the numbers in the array in order", "correct": true },
+        {
+          "text": "Prints the numbers in the array in the reverse order",
+          "correct": false
+        },
+        { "text": "Prints 0 to the length of the array", "correct": false },
+        { "text": "Prints “Empty Array”", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-4.php?page=3",
+      "statement": "What will be the output of the following JavaScript statement?\n\n    var grand_Total=eval(\"10*10+5\");",
+      "options": [
+        { "text": "10\\*10+5", "correct": true },
+        { "text": "105 as a string", "correct": false },
+        { "text": "105 as an integer value", "correct": false },
+        { "text": "Exception is thrown", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-4.php?page=3",
+      "statement": "Will the following JavaScript code work?\n\n    var tensquared = (function(x) {return x*x;}(10));",
+      "options": [
+        { "text": "Yes, perfectly", "correct": true },
+        { "text": "Memory leak", "correct": false },
+        { "text": "Error", "correct": false },
+        { "text": "Exception will be thrown", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-4.php?page=3",
+      "statement": "What will the following JavaScript code snippet work? If not, what will be the error?\n\n    function tail(o) { \n        for (; o.next; o = o.next) ;\n        return o;\n    }",
+      "options": [
+        {
+          "text": "No, this will throw an exception as only numerics can be used in a for loop",
+          "correct": true
+        },
+        {
+          "text": "No, this will result in a runtime error with the message “Cannot use Linked List”",
+          "correct": false
+        },
+        { "text": "Yes, this will work", "correct": false },
+        { "text": "No, this will not iterate", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-4.php?page=3",
+      "statement": "What will happen if the body of a for/in loop deletes a property that has not yet been enumerated?",
+      "options": [
+        { "text": "The property will be stored in a cache", "correct": true },
+        { "text": "That property will not be enumerated", "correct": false },
+        { "text": "The loop will not run", "correct": false },
+        { "text": "The property will be enumerated", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-4.php?page=3",
+      "statement": "What will be the equivalent statement of the following JavaScript statement?  \n\n    var o = new Object();​",
+      "options": [
+        { "text": "var o= new Object;", "correct": true },
+        { "text": "var o = Object();", "correct": false },
+        { "text": "Object o=new Object();", "correct": false },
+        { "text": "var o;", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-4.php?page=3",
+      "statement": "What will be the last statement return in the following JavaScript code?\n\n    function constfuncs() {\n        var funcs = [];\n        for(var i = 0; i < 10; i++)\n            funcs[i] = function() { return i; };\n        return funcs;\n    }\n    var funcs = constfuncs();\n    funcs[5]()",
+      "options": [
+        { "text": "0", "correct": true },
+        { "text": "9", "correct": false },
+        { "text": "10", "correct": false },
+        { "text": "11", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-4.php?page=3",
+      "statement": "What will be the output of the following JavaScript code?\n\n    var arr = [7, 5, 9, 1];  \n    var min = Math.min.apply(null, arr);  \n    document.writeln(min);",
+      "options": [
+        { "text": "1", "correct": true },
+        { "text": "5", "correct": false },
+        { "text": "7", "correct": false },
+        { "text": "9", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-4.php?page=3",
+      "statement": "What will be the output of the following JavaScript code?\n\n    var a= 0;\n    var b = 0;\n    while (a < 3)\n    {\n      \ta++;\n      \tb += a;\n    \tconsole.log(b);\n    }",
+      "options": [
+        { "text": "01", "correct": true },
+        { "text": "013", "correct": false },
+        { "text": "123", "correct": false },
+        { "text": "135", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-4.php?page=3",
+      "statement": "What will be the output of the following JavaScript code?\n\n    var a=3.7;\n    var b=2;\n    a=ciel(a)\n    document.writeIn(a*b);",
+      "options": [
+        { "text": "6", "correct": true },
+        { "text": "7.5", "correct": false },
+        { "text": "8", "correct": false },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-5.php?page=1",
+      "statement": "What is negative infinity in Java script?",
+      "options": [
+        { "text": "Any of below", "correct": false },
+        {
+          "text": "number in JavaScript, derived by dividing number by a negative number.",
+          "correct": false
+        },
+        {
+          "text": "number in JavaScript, derived by dividing number by zero.",
+          "correct": false
+        },
+        {
+          "text": "number in JavaScript, derived by dividing negative number by zero",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-5.php?page=1",
+      "statement": "Where do you use the “break” statement?",
+      "options": [
+        { "text": "To add a value to an array.", "correct": false },
+        { "text": "To terminate an Object statement.", "correct": false },
+        {
+          "text": "To terminate a switch statement, loop, or labeled block.",
+          "correct": false
+        },
+        {
+          "text": "To divide (or “break”) a mathematical value in half.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-5.php?page=1",
+      "statement": "What is the value of x?\n\nvar x = ‘1’+2+3;",
+      "options": [
+        { "text": "6", "correct": false },
+        { "text": "15", "correct": false },
+        { "text": "“123”", "correct": false },
+        { "text": "5", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-5.php?page=1",
+      "statement": "Which of these will throw a SyntaxError?",
+      "options": [
+        { "text": "if (x == 1) { }", "correct": false },
+        { "text": "if (x = 1) { }", "correct": false },
+        { "text": "if (x ==== 1) { }", "correct": false },
+        { "text": "if (x === 1) { }", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-5.php?page=1",
+      "statement": "Whats the output of the below\n\n    for(var i = 0; i < 10;i++){ \n       setTimeout(function(){console.log(i) }, 10)\n    }​",
+      "options": [
+        { "text": "0 1 2 3 4 5 6 7 8 9", "correct": false },
+        { "text": "10 10 10 10 10 10 10 10 10 10", "correct": false },
+        { "text": "10 10 10 10 10 10 10 10 10", "correct": false },
+        { "text": "None of these", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-5.php?page=1",
+      "statement": "How do you check what the type of a value in variable x is?\n\nvar x = { ftl: \"bar\" }",
+      "options": [
+        { "text": "x.\\_type;", "correct": false },
+        { "text": "gettype(x);", "correct": false },
+        { "text": "Object.type(x);", "correct": false },
+        { "text": "type(x);", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-5.php?page=1",
+      "statement": "What will be the output of the following JavaScript code?\n\n    <p id=\"demo\"></p>\n    <script>\n      function myFunction() {\n         document.getElementById(\"demo\").innerHTML = Number.NEGATIVE_INFINITY;\n      }\n    </script>",
+      "options": [
+        { "text": "\\-1000", "correct": false },
+        { "text": "\\-infinity", "correct": false },
+        { "text": "infinity", "correct": false },
+        { "text": "undefined", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-5.php?page=1",
+      "statement": "What will be the output of the following JavaScript code?\n\n    <p id=\"demo\"></p>\n    <script>\n      function myFunction() {\n         var num = 5.56789;\n         var n = num.toExponential();\n         document.getElementById(\"demo\").innerHTML = n;\n     }\n    </script>",
+      "options": [
+        { "text": "5.56789e+0", "correct": false },
+        { "text": "5.568e+0", "correct": false },
+        { "text": "5.57e+0", "correct": false },
+        { "text": "Error", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-5.php?page=1",
+      "statement": "What will be the output of the following JavaScript code if oddsums(5); is executed after the following code snippet?\n\n    function oddsums(n) {\n         let total = 0, result=[]; \n         for(let x = 1; x <= n; x++) \n         { \n            let odd = 2*x-1; \n            total += odd;\n            result.push(total);\n         }\n         return result;\n    }",
+      "options": [
+        { "text": "Returns \\[1,2,3,4,5\\]", "correct": false },
+        { "text": "Returns \\[1,4,9,16,25\\]", "correct": false },
+        { "text": "Returns \\[3,6,9,12,15\\]", "correct": false },
+        { "text": "Returns \\[1,3,5,7,9\\]", "correct": true }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-5.php?page=1",
+      "statement": "Which is the correct code that returns a complex number that is the complex conjugate of this one?",
+      "options": [
+        {
+          "text": "Complex.prototype.conj = function() { return new Complex(this.r, -this.i); };",
+          "correct": false
+        },
+        {
+          "text": "Complex.prototype.conj = function() { return Complex(this.r, -this.i); };",
+          "correct": false
+        },
+        {
+          "text": "Complex.prototype.conj = function() { return (this.r, -this.i); };",
+          "correct": false
+        },
+        {
+          "text": "Complex.prototype.conj = function() { new Complex(this.r, -this.i); };",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-5.php?page=2",
+      "statement": "What convenience does the following JavaScript code snippet provide?\n\n    let succ = function(x) x+1, yes = function() true, no = function() false;",
+      "options": [
+        { "text": "Functional behaviour", "correct": true },
+        { "text": "Modular behaviour", "correct": false },
+        { "text": "Shorthand expression", "correct": false },
+        { "text": "No convenience", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-5.php?page=2",
+      "statement": "Consider the following JavaScript statement containing regular expressions and check if the pattern matches?\n\n    var text = \"testing: 1, 2, 3\"; \n    var pattern = /\\d+/g;",
+      "options": [
+        { "text": "text==pattern", "correct": true },
+        { "text": "text.equals(pattern)", "correct": false },
+        { "text": "text.test(pattern)", "correct": false },
+        { "text": "pattern.test(text)", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-5.php?page=2",
+      "statement": "What does /\\[^(\\]\\* regular expression indicate?",
+      "options": [
+        {
+          "text": "Match one or more characters that are not open parenthesis",
+          "correct": true
+        },
+        {
+          "text": "Match zero or more characters that are open parenthesis",
+          "correct": false
+        },
+        {
+          "text": "Match zero or more characters that are not open parenthesis",
+          "correct": false
+        },
+        {
+          "text": "Match one or more characters that are open parenthesis",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-5.php?page=2",
+      "statement": "What will be the purpose of exec() in the following JavaScript code?\n\n    var pattern = /Java/g;\n        var text = \"JavaScript is more fun than Java!\";\n        var result;\n        while ((result = pattern.exec(text)) != null) {\n            alert(\"Matched '\" + result[0] + \"'\" +\" at position \" + result.index +\"; \n                  next search begins at \" + pattern.lastIndex);\n        }",
+      "options": [
+        {
+          "text": "Returns different arrays in the different turns of iterations",
+          "correct": true
+        },
+        {
+          "text": "Returns the same kind of array whether or not the regular expression has the global g flag",
+          "correct": false
+        },
+        { "text": "Return a sub part of the array", "correct": false },
+        { "text": "Returns a null value", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-5.php?page=2",
+      "statement": "What will be the output of the following JavaScript code?\n\n     System.out.println(Pattern.matches(\"\\\\d\", \"1\"));",
+      "options": [
+        { "text": "True", "correct": true },
+        { "text": "False", "correct": false },
+        { "text": "Error", "correct": false },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-5.php?page=2",
+      "statement": "What is the code to be used to trim whitespaces?",
+      "options": [
+        { "text": "let trimmed = l.trim();", "correct": true },
+        { "text": "let trimmed = (trim(l));", "correct": false },
+        {
+          "text": "let trimmed = (l.trim() for (l in lines));",
+          "correct": false
+        },
+        { "text": "let trimmed = for(l in lines));", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-5.php?page=2",
+      "statement": "What will be the output of the following JavaScript code?\n\n<p id=\"demo\"></p>\n\n<script>\n\n   var x = 10;\n\n   var y = \"20\";\n\n   var z = x + y;\n\n   document.getElementById(\"demo\").innerHTML = z;\n\n</script>",
+      "options": [
+        { "text": "30", "correct": true },
+        { "text": "10 20", "correct": false },
+        { "text": "1020", "correct": false },
+        { "text": "Error", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-5.php?page=2",
+      "statement": "What will be the output of the following JavaScript code?\n\n    <p id=\"demo\"></p>\n    <script>\n      var x = 9.656;\n      document.getElementById(\"demo\").innerHTML =\n      x.toFixed(0)\n    </script>",
+      "options": [
+        { "text": "9.6", "correct": true },
+        { "text": "9.65", "correct": false },
+        { "text": "9.656", "correct": false },
+        { "text": "10", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-5.php?page=2",
+      "statement": "What will be the output of the following JavaScript code?\n\n    <p id=\"demo\"></p>\n    <script>\n    function myFunction() {\n         document.getElementById(\"demo\").innerHTML = Math.trunc(8.76);\n    }\n    </script>",
+      "options": [
+        { "text": "8.00", "correct": true },
+        { "text": "8.70", "correct": false },
+        { "text": "8.76", "correct": false },
+        { "text": "Error", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-5.php?page=2",
+      "statement": "What will be the output of the following JavaScript code?\n\n    <p id=\"demo\"></p>\n    <script>\n    function myFunction() {\n         document.getElementById(\"demo\").innerHTML = Math.LN10;\n    }\n    </script>",
+      "options": [
+        { "text": "2.00", "correct": true },
+        { "text": "2.10", "correct": false },
+        { "text": "2.20", "correct": false },
+        { "text": "2.30", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-5.php?page=3",
+      "statement": "What will be the output of the following JavaScript code?\n\n    <p id=\"demo\"></p>\n    <script>\n      function myFunction() {\n         document.getElementById(\"demo\").innerHTML = Math.acosh(2);\n      }\n    </script>",
+      "options": [
+        { "text": "1.11", "correct": false },
+        { "text": "1.20", "correct": false },
+        { "text": "1.31", "correct": true },
+        { "text": "1.41", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-5.php?page=3",
+      "statement": "What will be the output of the following JavaScript code?\n\n    function emp(name,salary){  \n         this.name=name;  \n         this.salary=salary;  \n     \n         this.changeSalary=changeSalary;  \n         function changeSalary(otherSalary)\n         {  \n             this.salary=otherSalary;  \n         }  \n    }  \n    e=new emp(\"FTL\",30000);  \n    e.changeSalary(45000);  \n    document.write(\"e.name+\" \"+e.salary);",
+      "options": [
+        { "text": "FTL 30000", "correct": false },
+        { "text": "FTL 45000", "correct": false },
+        { "text": "FTL", "correct": true },
+        { "text": "45000", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-5.php?page=3",
+      "statement": "What will be the output of the following JavaScript code?\n\n    const obj = { 10: 'arry', 21: 'barry', 23: 'carry' };  \n    console.log(Object.entries(obj)[2]);",
+      "options": [
+        { "text": "\\[“arry”, “10”\\]", "correct": false },
+        { "text": "\\[“10”,”arry”\\]", "correct": false },
+        { "text": "\\[“21”,barry”\\]", "correct": true },
+        { "text": "\\[“23”,”carry”\\]", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-5.php?page=3",
+      "statement": "What will be the output of the following JavaScript code?\n\n    document.writeln(\"<br/>navigator.appCodeName: \"+navigator.appCodeName);",
+      "options": [
+        { "text": "Browser name", "correct": false },
+        { "text": "Version", "correct": false },
+        { "text": "Error", "correct": true },
+        { "text": "Undefined", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-5.php?page=3",
+      "statement": "What will be the output of the following JavaScript code?\n\n    document.writeln(\"<br/>navigator.language: \"+navigator.language);",
+      "options": [
+        { "text": "Browser language", "correct": false },
+        { "text": "Broswer name", "correct": false },
+        { "text": "Browser version", "correct": true },
+        { "text": "Error", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-5.php?page=3",
+      "statement": "When the “end” event fires on EOF when no more data will arrive, which function is called?",
+      "options": [
+        { "text": "s.on(“data”,f);", "correct": false },
+        { "text": "s.on(“end”,f);", "correct": false },
+        { "text": "s.on(“error”,f);", "correct": true },
+        { "text": "s.on(“default”,f);", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-5.php?page=3",
+      "statement": "Which function is a synonym for on()?",
+      "options": [
+        { "text": "add()", "correct": false },
+        { "text": "once()", "correct": false },
+        { "text": "listeners()", "correct": true },
+        { "text": "addListener()", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-5.php?page=3",
+      "statement": "What will be the output of the following JavaScript code?\n\n    <p id=\"demo\">Free Time Learning</p>\n    <script>\n    function myFunction() {\n       var text = document.getElementById(\"demo\").innerHTML;\n       document.getElementById(\"demo\").innerHTML = text.toUpperCase();\n    }\n    </script>",
+      "options": [
+        { "text": "Free Time Learning", "correct": false },
+        { "text": "FREE TIME LEARNING", "correct": false },
+        { "text": "free time learning", "correct": true },
+        { "text": "Error", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-5.php?page=3",
+      "statement": "What will be the output of the following JavaScript code?\n\n    <p id=\"demo\"></p>\n    <script>\n      Var arr = [\"one\", \"two\", \"three\",];\n      arr.shift();\n      document.getElementById(\"demo\").innerHTML = arr;\n    </script>",
+      "options": [
+        { "text": "two three", "correct": false },
+        { "text": "one two", "correct": false },
+        { "text": "one three", "correct": true },
+        { "text": "None of the above", "correct": false }
+      ]
+    },
+    {
+      "type": "MCQ",
+      "source": "https://www.freetimelearning.com/online-quiz/javascript-quiz-section-5.php?page=3",
+      "statement": "What will be the output of the following JavaScript code?\n\n    function getcube(){  \n        var number=document.getElementById(\"number\").value;  \n        alert(number*number*number);  \n    }\n    <form>  \n         Enter No:<input type=\"text\" id=\"number\" value=\"3\" name=\"number\"/><br/>  \n         <input type=\"button\"  value=\"ok\" onclick=\"getcube()\"/>  \n    </form>",
+      "options": [
+        { "text": "9", "correct": false },
+        { "text": "27", "correct": false },
+        { "text": "45", "correct": true },
+        { "text": "None of the above", "correct": false }
+      ]
+    }
+  ]
+}
