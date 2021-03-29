@@ -37,6 +37,7 @@
   - [sudheerj/reactjs-interview-questions](https://github.com/sudheerj/reactjs-interview-questions#what-are-the-possible-return-types-of-render-method)
   - [sudheerj/javascript-interview-questions](https://github.com/sudheerj/javascript-interview-questions#what-are-the-possible-ways-to-create-objects-in-javascript)
   - [Gauthamjm007/NodeJS-MongoDB-Expess-Interview-Questions](https://github.com/Gauthamjm007/NodeJS-MongoDB-Expess-Interview-Questions/blob/master/README.md#table-of-contents---express-js)
+  - [abduljabbarpeer/quizine-data](https://github.com/abduljabbarpeer/quizine-data) ( The total is exclusive of this repo ) 
 
 - **Medium blogs:**
 
