@@ -4,10 +4,19 @@ let ydkjs = require("./ydkjs.json").questions;
 const sanfoundry = require("./sanfoundry.json").questions;
 
 function addSource(source, data) {
-  return data.map((question) => ({
-    ...question,
-    source,
-  }));
+  return data.map((question) => {
+    if (question.type === "MCQ") {
+      return {
+        ...question,
+        source,
+        options: question.options.filter(({ text }) => text != ""),
+      };
+    }
+    return {
+      ...question,
+      source,
+    };
+  });
 }
 
 ydkjs = addSource("https://github.com/austintackaberry/ydkjs-exercises", ydkjs);
@@ -20,4 +29,8 @@ lyndiahallie = addSource(
   lyndiahallie
 );
 
-module.exports = lyndiahallie.concat(ydkjs, freeTimeLearning, sanfoundry);
+const masterData = (module.exports = lyndiahallie.concat(
+  ydkjs,
+  freeTimeLearning,
+  sanfoundry
+));
