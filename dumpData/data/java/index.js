@@ -6,4 +6,4 @@ freeTimeLearning = freeTimeLearning.map((question) => ({
   source: "https://www.freetimelearning.com",
 }));
 
-module.exports = { freeTimeLearning, sanfoundry };
+module.exports = freeTimeLearning.concat(sanfoundry);

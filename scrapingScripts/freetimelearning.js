@@ -90,51 +90,66 @@ sourceUrls.forEach(([url, sections, saveFileTo], ind) => {
 });
 
 async function scrapeFreeTimeLearning(url, sections) {
-  const questionsInCategory = [];
-  for (let i = 0; i < sections; i++) {
-    let sectionUrl = i ? createSectionUrl(url, i + 1) : url;
-    const questionsInSection = await scrapeSection(sectionUrl);
-    questionsInCategory.push(...questionsInSection);
+  try {
+    const questionsInCategory = [];
+    for (let i = 0; i < sections; i++) {
+      let sectionUrl = i ? createSectionUrl(url, i + 1) : url;
+      const questionsInSection = await scrapeSection(sectionUrl);
+      questionsInCategory.push(...questionsInSection);
+    }
+    return questionsInCategory;
+  } catch (err) {
+    console.log("scrape free time learning ", err);
   }
-  return questionsInCategory;
 }
 
 async function scrapeSection(url) {
-  const pages = await getPages(url);
-  const questionsInSection = [];
-  for (let i = 1; i <= pages.length; i++) {
-    const questionsInPage = await scrapePage(`${url}?page=${i}`);
-    questionsInSection.push(...questionsInPage);
+  try {
+    const pages = await getPages(url);
+    console.log(pages);
+    const questionsInSection = [];
+    for (let i = 1; i <= pages.length; i++) {
+      const questionsInPage = await scrapePage(`${url}?page=${i}`);
+      questionsInSection.push(...questionsInPage);
+    }
+    return questionsInSection;
+  } catch (err) {
+    console.log(`scrape section: ${url}`, err);
   }
-  return questionsInSection;
 }
 
 async function scrapePage(url) {
-  const scraper = new Scraper(undefined, url);
-  const htmlStr = await scraper.fetchHtml();
-  const document = scraper.createDOM(htmlStr);
-  const contentCont = [
-    ...document.querySelector("form").children[0].children[0].children,
-  ];
-  const questionsInPage = [];
-  for (let i = 1; i < contentCont.length - 5; i += 3) {
-    const question = { type: "MCQ", source: url };
-    question.statement = Scraper.html2Markdown(
-      contentCont[i].querySelector(".quiz-que-margin")
-    );
-    const optionsCont = contentCont[i + 1].querySelectorAll(".quiz-ans-margin");
-    const correctOption = contentCont[2].querySelector(".ans-text-color");
-    const allOptions = [];
-    for (let i = 0; i < optionsCont.length; i++) {
-      let singleOption = {};
-      singleOption.text = Scraper.html2Markdown(optionsCont[i]);
-      singleOption.correct = isCorrect(i, correctOption);
-      allOptions.push(singleOption);
+  try {
+    const scraper = new Scraper(undefined, url);
+    const htmlStr = await scraper.fetchHtml();
+    const document = scraper.createDOM(htmlStr);
+    const contentCont = [
+      ...document.querySelector("form").children[0].children[0].children,
+    ];
+    const questionsInPage = [];
+    for (let i = 1; i < contentCont.length - 5; i += 3) {
+      const question = { type: "MCQ", source: url };
+      question.statement = Scraper.html2Markdown(
+        contentCont[i].querySelector(".quiz-que-margin")
+      );
+      const optionsCont = contentCont[i + 1].querySelectorAll(
+        ".quiz-ans-margin"
+      );
+      const correctOption = contentCont[i + 1].querySelector(".ans-text-color");
+      const allOptions = [];
+      for (let i = 0; i < optionsCont.length; i++) {
+        let singleOption = {};
+        singleOption.text = Scraper.html2Markdown(optionsCont[i]);
+        singleOption.correct = isCorrect(i, correctOption);
+        allOptions.push(singleOption);
+      }
+      question.options = allOptions;
+      questionsInPage.push(question);
     }
-    question.options = allOptions;
-    questionsInPage.push(question);
+    return questionsInPage;
+  } catch (err) {
+    console.log("scrapePage ", err);
   }
-  return questionsInPage;
 }
 
 function createSectionUrl(input, i) {
@@ -156,8 +171,12 @@ function isCorrect(index, correctOption) {
 }
 
 async function getPages(url) {
-  const scraper = new Scraper(undefined, url);
-  const htmlStr = await scraper.fetchHtml();
-  const document = scraper.createDOM(htmlStr);
-  return [...document.querySelector(".pagination").children];
+  try {
+    const scraper = new Scraper(undefined, url);
+    const htmlStr = await scraper.fetchHtml();
+    const document = scraper.createDOM(htmlStr);
+    return [...document.querySelector(".pagination").children];
+  } catch (err) {
+    console.log("getPages: ", err);
+  }
 }

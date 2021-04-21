@@ -16,10 +16,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz.php?page=1",
       "statement": "Java initial release date ?",
       "options": [
-        { "text": "1961", "correct": true },
+        { "text": "1961", "correct": false },
         { "text": "1979", "correct": false },
         { "text": "1982", "correct": false },
-        { "text": "1991", "correct": false }
+        { "text": "1991", "correct": true }
       ]
     },
     {
@@ -27,8 +27,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz.php?page=1",
       "statement": "Which tool is required on each machine to run a Java program?",
       "options": [
-        { "text": "JDK", "correct": true },
-        { "text": "JRE", "correct": false },
+        { "text": "JDK", "correct": false },
+        { "text": "JRE", "correct": true },
         { "text": "SDK", "correct": false },
         { "text": "CVS", "correct": false }
       ]
@@ -38,9 +38,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz.php?page=1",
       "statement": "Choose the appropriate data type for this value: \"volatile\"",
       "options": [
-        { "text": "Int", "correct": true },
+        { "text": "Int", "correct": false },
         { "text": "Boolean", "correct": false },
-        { "text": "String", "correct": false },
+        { "text": "String", "correct": true },
         { "text": "Double", "correct": false }
       ]
     },
@@ -49,10 +49,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz.php?page=1",
       "statement": "Which one needs a web page to run",
       "options": [
-        { "text": "A Java Class", "correct": true },
+        { "text": "A Java Class", "correct": false },
         { "text": "A Java Application", "correct": false },
         { "text": "A Java Stand-Alone Application", "correct": false },
-        { "text": "A Java Applet", "correct": false }
+        { "text": "A Java Applet", "correct": true }
       ]
     },
     {
@@ -62,11 +62,11 @@
       "options": [
         {
           "text": "A segment of code to be run infinite times",
-          "correct": true
+          "correct": false
         },
         {
           "text": "A segment of code to be run a specified amount of times",
-          "correct": false
+          "correct": true
         },
         { "text": "A segment of code to be run once", "correct": false },
         { "text": "A new type of Applet.", "correct": false }
@@ -77,10 +77,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz.php?page=1",
       "statement": "Which of the following are Java keywords?",
       "options": [
-        { "text": "throw", "correct": true },
+        { "text": "throw", "correct": false },
         { "text": "void", "correct": false },
         { "text": "private", "correct": false },
-        { "text": "All of the above.", "correct": false }
+        { "text": "All of the above.", "correct": true }
       ]
     },
     {
@@ -88,8 +88,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz.php?page=1",
       "statement": "Which of the following is not a Java keyword?",
       "options": [
-        { "text": "Main", "correct": true },
-        { "text": "Integer", "correct": false },
+        { "text": "Main", "correct": false },
+        { "text": "Integer", "correct": true },
         { "text": "Try", "correct": false },
         { "text": "String", "correct": false }
       ]
@@ -99,10 +99,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz.php?page=1",
       "statement": "Which of the following are primitive types ?",
       "options": [
-        { "text": "String", "correct": true },
+        { "text": "String", "correct": false },
         { "text": "Float", "correct": false },
         { "text": "integer", "correct": false },
-        { "text": "byte", "correct": false }
+        { "text": "byte", "correct": true }
       ]
     },
     {
@@ -136,9 +136,9 @@
       "statement": "Which is a reserved word in the Java programming language?",
       "options": [
         { "text": "method", "correct": false },
-        { "text": "native", "correct": false },
+        { "text": "native", "correct": true },
         { "text": "subclasses", "correct": false },
-        { "text": "reference", "correct": true }
+        { "text": "reference", "correct": false }
       ]
     },
     {
@@ -146,10 +146,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz.php?page=2",
       "statement": "Which is a valid keyword in java?",
       "options": [
-        { "text": "interface", "correct": false },
+        { "text": "interface", "correct": true },
         { "text": "string", "correct": false },
         { "text": "Float", "correct": false },
-        { "text": "unsigned", "correct": true }
+        { "text": "unsigned", "correct": false }
       ]
     },
     {
@@ -157,10 +157,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz.php?page=2",
       "statement": "Which is the valid declarations within an interface definition?",
       "options": [
-        { "text": "public double methoda();", "correct": false },
+        { "text": "public double methoda();", "correct": true },
         { "text": "public final double methoda();", "correct": false },
         { "text": "static void methoda(double d1);", "correct": false },
-        { "text": "protected void methoda(double d1);", "correct": true }
+        { "text": "protected void methoda(double d1);", "correct": false }
       ]
     },
     {
@@ -169,9 +169,9 @@
       "statement": "What is the range of short data type in Java?",
       "options": [
         { "text": "\\-128 to 127", "correct": false },
-        { "text": "\\-32768 to 32767", "correct": false },
+        { "text": "\\-32768 to 32767", "correct": true },
         { "text": "\\-2147483648 to 2147483647", "correct": false },
-        { "text": "None of the above", "correct": true }
+        { "text": "None of the above", "correct": false }
       ]
     },
     {
@@ -191,9 +191,9 @@
       "statement": "Which of these literals can be contained in float data type variable?",
       "options": [
         { "text": "\\-1.7e+308", "correct": false },
-        { "text": "3.4e+038", "correct": false },
+        { "text": "3.4e+038", "correct": true },
         { "text": "+1.7e+308", "correct": false },
-        { "text": "\\-3.4e+050", "correct": true }
+        { "text": "\\-3.4e+050", "correct": false }
       ]
     },
     {
@@ -203,8 +203,8 @@
       "options": [
         { "text": "int", "correct": false },
         { "text": "float", "correct": false },
-        { "text": "double", "correct": false },
-        { "text": "long", "correct": true }
+        { "text": "double", "correct": true },
+        { "text": "long", "correct": false }
       ]
     },
     {
@@ -214,8 +214,8 @@
       "options": [
         { "text": "24", "correct": false },
         { "text": "25", "correct": false },
-        { "text": "32", "correct": false },
-        { "text": "33", "correct": true }
+        { "text": "32", "correct": true },
+        { "text": "33", "correct": false }
       ]
     },
     {
@@ -254,9 +254,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz.php?page=3",
       "statement": "What would be behaviour if the constructor has a return type?",
       "options": [
-        { "text": "Compilation error", "correct": false },
+        { "text": "Compilation error", "correct": true },
         { "text": "Runtime error", "correct": false },
-        { "text": "Compilation and runs successfully", "correct": true },
+        { "text": "Compilation and runs successfully", "correct": false },
         { "text": "Only String return type is allowed", "correct": false }
       ]
     },
@@ -266,8 +266,8 @@
       "statement": "What is the process of defining two or more methods within same class that have same name but different parameters declaration?",
       "options": [
         { "text": "method overriding", "correct": false },
-        { "text": "method overloading", "correct": false },
-        { "text": "method hiding", "correct": true },
+        { "text": "method overloading", "correct": true },
+        { "text": "method hiding", "correct": false },
         { "text": "None of the above", "correct": false }
       ]
     },
@@ -278,8 +278,8 @@
       "options": [
         { "text": "Polymorphism", "correct": false },
         { "text": "Abstraction", "correct": false },
-        { "text": "Encapsulation", "correct": true },
-        { "text": "Recursion", "correct": false }
+        { "text": "Encapsulation", "correct": false },
+        { "text": "Recursion", "correct": true }
       ]
     },
     {
@@ -287,9 +287,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz.php?page=3",
       "statement": "What will be the output of the following Java code?\n\n        class test \n        {\n            int a;\n            int b;\n            void meth(int i , int j) \n            {\n                i *= 2;\n                j /= 2;\n            }          \n        }    \n        class Output \n        {\n            public static void main(String args[])\n            {\n                test obj = new test();\n    \t    int a = 10;\n                int b = 20;             \n                obj.meth(a , b);\n                System.out.println(a + \" \" + b);        \n            } \n        }",
       "options": [
-        { "text": "10 20", "correct": false },
+        { "text": "10 20", "correct": true },
         { "text": "20 10", "correct": false },
-        { "text": "20 40", "correct": true },
+        { "text": "20 40", "correct": false },
         { "text": "40 20", "correct": false }
       ]
     },
@@ -311,8 +311,8 @@
       "options": [
         { "text": "Polymorphism", "correct": false },
         { "text": "Abstraction", "correct": false },
-        { "text": "Recursion", "correct": true },
-        { "text": "Encapsulation", "correct": false }
+        { "text": "Recursion", "correct": false },
+        { "text": "Encapsulation", "correct": true }
       ]
     },
     {
@@ -320,9 +320,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz.php?page=3",
       "statement": "What will be the output of the following Java code?\n\n        class static_out \n        {\n            static int x;\n     \tstatic int y;\n            void add(int a, int b)\n            {\n                x = a + b;\n                y = x + b;\n            }\n        }    \n        public class static_use \n        {\n            public static void main(String args[])\n            {\n                static_out obj1 = new static_out();\n                static_out obj2 = new static_out();   \n                int a = 2;\n                obj1.add(a, a + 1);\n                obj2.add(5, a);\n                System.out.println(obj1.x + \" \" + obj2.y);     \n            }\n       }",
       "options": [
-        { "text": "7 9", "correct": false },
+        { "text": "7 9", "correct": true },
         { "text": "9 7", "correct": false },
-        { "text": "6 6.4", "correct": true },
+        { "text": "6 6.4", "correct": false },
         { "text": "7 7.4", "correct": false }
       ]
     },
@@ -333,8 +333,8 @@
       "options": [
         { "text": "isequal()", "correct": false },
         { "text": "sequals()", "correct": false },
-        { "text": "equal()", "correct": true },
-        { "text": "equals()", "correct": false }
+        { "text": "equal()", "correct": false },
+        { "text": "equals()", "correct": true }
       ]
     },
     {
@@ -342,9 +342,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz.php?page=3",
       "statement": "What will be the output of the following Java program?\n\n        class string_class \n        {\n            public static void main(String args[])\n            {\n                String obj = \"I LIKE JAVA\";   \n                System.out.println(obj.charAt(3));\n            } \n        }",
       "options": [
-        { "text": "I", "correct": false },
+        { "text": "I", "correct": true },
         { "text": "L", "correct": false },
-        { "text": "K", "correct": true },
+        { "text": "K", "correct": false },
         { "text": "E", "correct": false }
       ]
     },
@@ -365,9 +365,9 @@
       "statement": "What will be the output of the following Java program?\n\n        class Output\n        {\n            public static void main(String args[])\n            {\n    \t    char a = (char) 98;\n                a = Character.toUpperCase(a);\n                System.out.print(a);\n            }\n        }",
       "options": [
         { "text": "b", "correct": false },
-        { "text": "B", "correct": false },
+        { "text": "B", "correct": true },
         { "text": "c", "correct": false },
-        { "text": "C", "correct": true }
+        { "text": "C", "correct": false }
       ]
     },
     {
@@ -376,9 +376,9 @@
       "statement": "Which of these methods of Boolean wrapper returns boolean equivalent of an object.",
       "options": [
         { "text": "getBool()", "correct": false },
-        { "text": "booleanValue()", "correct": false },
+        { "text": "booleanValue()", "correct": true },
         { "text": "getboolValue()", "correct": false },
-        { "text": "getbooleanValue()", "correct": true }
+        { "text": "getbooleanValue()", "correct": false }
       ]
     },
     {
@@ -386,10 +386,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz.php?page=4",
       "statement": "Which of these methods return string equivalent of Boolean object?",
       "options": [
-        { "text": "toString()", "correct": false },
+        { "text": "toString()", "correct": true },
         { "text": "getString()", "correct": false },
         { "text": "converString()", "correct": false },
-        { "text": "getStringObject()", "correct": true }
+        { "text": "getStringObject()", "correct": false }
       ]
     },
     {
@@ -398,9 +398,9 @@
       "statement": "What will be the output of the following Java program?\n\n        class Output\n        {\n            public static void main(String args[])\n            {\n                String str = \"true false true\";\n                boolean x = Boolean.valueOf(str);\n                System.out.print(x);\n            }\n        }",
       "options": [
         { "text": "True", "correct": false },
-        { "text": "False", "correct": false },
+        { "text": "False", "correct": true },
         { "text": "Runtime Error", "correct": false },
-        { "text": "Compilation Error", "correct": true }
+        { "text": "Compilation Error", "correct": false }
       ]
     },
     {
@@ -419,10 +419,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz.php?page=4",
       "statement": "Which of these method returns a smallest whole number greater than or equal to variable X?",
       "options": [
-        { "text": "double ciel(double X)", "correct": false },
+        { "text": "double ciel(double X)", "correct": true },
         { "text": "double floor(double X)", "correct": false },
         { "text": "double max(double X)", "correct": false },
-        { "text": "double min(double X)", "correct": true }
+        { "text": "double min(double X)", "correct": false }
       ]
     },
     {
@@ -431,9 +431,9 @@
       "statement": "What will be the output of the following Java program?\n\n        class Output \n        {\n            public static void main(String args[]) \n            {\n                double x = 3.14;  \n                int y = (int) Math.toDegrees(x);\n                System.out.print(y);\n            }\n        }",
       "options": [
         { "text": "0", "correct": false },
-        { "text": "179", "correct": false },
+        { "text": "179", "correct": true },
         { "text": "180", "correct": false },
-        { "text": "360", "correct": true }
+        { "text": "360", "correct": false }
       ]
     },
     {
@@ -443,8 +443,8 @@
       "options": [
         { "text": "0", "correct": false },
         { "text": "1", "correct": false },
-        { "text": "2", "correct": false },
-        { "text": "3", "correct": true }
+        { "text": "2", "correct": true },
+        { "text": "3", "correct": false }
       ]
     },
     {
@@ -474,8 +474,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz.php?page=5",
       "statement": "Which method is used to generate boolean random values in java?",
       "options": [
-        { "text": "nextBoolean()", "correct": false },
-        { "text": "randomBoolean()", "correct": true },
+        { "text": "nextBoolean()", "correct": true },
+        { "text": "randomBoolean()", "correct": false },
         { "text": "previousBoolean()", "correct": false },
         { "text": "generateBoolean()", "correct": false }
       ]
@@ -491,7 +491,7 @@
         },
         {
           "text": "Random number between 1 to 15, excluding 15",
-          "correct": true
+          "correct": false
         },
         {
           "text": "Random number between 1 to 15, excluding 1 and 15",
@@ -499,7 +499,7 @@
         },
         {
           "text": "Random number between 1 to 15, including 1 and 15",
-          "correct": false
+          "correct": true
         }
       ]
     },
@@ -509,8 +509,8 @@
       "statement": "What is the signature of Math.random() method?",
       "options": [
         { "text": "public void int random()", "correct": false },
-        { "text": " public static int random()", "correct": true },
-        { "text": "public static double random()", "correct": false },
+        { "text": " public static int random()", "correct": false },
+        { "text": "public static double random()", "correct": true },
         { "text": "public void double random()", "correct": false }
       ]
     },
@@ -531,9 +531,9 @@
       "statement": "Which of these method of Locale class can be used to obtain country of operation?",
       "options": [
         { "text": "getCountry()", "correct": false },
-        { "text": "whichCountry()", "correct": true },
+        { "text": "whichCountry()", "correct": false },
         { "text": "DisplayCountry()", "correct": false },
-        { "text": "getDisplayCountry()", "correct": false }
+        { "text": "getDisplayCountry()", "correct": true }
       ]
     },
     {
@@ -553,8 +553,8 @@
       "statement": "What will be the output of the following Java program?\n\n        import java.util.*;\n        class LOCALE_CLASS\n        {\n            public static void main(String args[])\n            {\n                Locale obj = new Locale(\"HINDI\") ;\n                System.out.print(obj.getDisplayLanguage());\n            }\n        }",
       "options": [
         { "text": "India", "correct": false },
-        { "text": "INDIA", "correct": true },
-        { "text": "HINDI", "correct": false },
+        { "text": "INDIA", "correct": false },
+        { "text": "HINDI", "correct": true },
         { "text": "Nothing is displayed", "correct": false }
       ]
     },
@@ -575,8 +575,8 @@
       "statement": "Which of the following is the correct way of importing an entire package ‘pkg’?",
       "options": [
         { "text": "import pkg.", "correct": false },
-        { "text": "Import pkg.", "correct": true },
-        { "text": "import pkg.\\*", "correct": false },
+        { "text": "Import pkg.", "correct": false },
+        { "text": "import pkg.\\*", "correct": true },
         { "text": "Import pkg.\\*", "correct": false }
       ]
     },
@@ -596,10 +596,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-2.php?page=1",
       "statement": "What does GUI stand for?",
       "options": [
-        { "text": "Graphical User Interface", "correct": false },
+        { "text": "Graphical User Interface", "correct": true },
         { "text": "Grand User Interface", "correct": false },
         { "text": "Graphical Useful Interface", "correct": false },
-        { "text": "Gaming User Interface", "correct": true }
+        { "text": "Gaming User Interface", "correct": false }
       ]
     },
     {
@@ -608,9 +608,9 @@
       "statement": "What does AWT stands for ?",
       "options": [
         { "text": "Adjust Window Toolkit", "correct": false },
-        { "text": "Abstract window Toolkit", "correct": false },
+        { "text": "Abstract window Toolkit", "correct": true },
         { "text": "Advanced Window Toolkit", "correct": false },
-        { "text": "None of the choices", "correct": true }
+        { "text": "None of the choices", "correct": false }
       ]
     },
     {
@@ -620,8 +620,8 @@
       "options": [
         { "text": "java.awt.AWTEvent", "correct": false },
         { "text": "java.util.EventListener", "correct": false },
-        { "text": "java.util.EventObject", "correct": false },
-        { "text": "None of the above", "correct": true }
+        { "text": "java.util.EventObject", "correct": true },
+        { "text": "None of the above", "correct": false }
       ]
     },
     {
@@ -632,12 +632,12 @@
         { "text": "public static int main(char args\\[\\])", "correct": false },
         {
           "text": "public static void main(String args\\[\\])",
-          "correct": false
+          "correct": true
         },
         { "text": "public static void main(String args)", "correct": false },
         {
           "text": "public static void MAIN(String args\\[\\])",
-          "correct": true
+          "correct": false
         }
       ]
     },
@@ -647,9 +647,9 @@
       "statement": "Method,Field can be accessed from the same class to which they belong.",
       "options": [
         { "text": "Public", "correct": false },
-        { "text": "Private", "correct": false },
+        { "text": "Private", "correct": true },
         { "text": "Protected", "correct": false },
-        { "text": "Default", "correct": true }
+        { "text": "Default", "correct": false }
       ]
     },
     {
@@ -673,8 +673,8 @@
           "correct": false
         },
         { "text": "void is not supported in Java .", "correct": false },
-        { "text": "void returns no data type.", "correct": false },
-        { "text": "None of the above", "correct": true }
+        { "text": "void returns no data type.", "correct": true },
+        { "text": "None of the above", "correct": false }
       ]
     },
     {
@@ -684,8 +684,8 @@
       "options": [
         { "text": "Java Compiler", "correct": false },
         { "text": "Java Interpreter", "correct": false },
-        { "text": "Both of the above", "correct": false },
-        { "text": "None of the above", "correct": true }
+        { "text": "Both of the above", "correct": true },
+        { "text": "None of the above", "correct": false }
       ]
     },
     {
@@ -721,8 +721,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-2.php?page=2",
       "statement": "What will be the output of the following Java code snippet?\n\n     enum Levels \n    {\n        private TOP,\n     \n        public MEDIUM,\n     \n        protected BOTTOM;\n    }",
       "options": [
-        { "text": "Runtime Error", "correct": true },
-        { "text": "Compilation Error", "correct": false },
+        { "text": "Runtime Error", "correct": false },
+        { "text": "Compilation Error", "correct": true },
         { "text": "It runs successfully", "correct": false },
         { "text": "EnumNotDefined Exception", "correct": false }
       ]
@@ -732,9 +732,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-2.php?page=2",
       "statement": "Which method returns the elements of Enum class?",
       "options": [
-        { "text": "getEnums()", "correct": true },
+        { "text": "getEnums()", "correct": false },
         { "text": "getEnum()", "correct": false },
-        { "text": "getEnumConstants()", "correct": false },
+        { "text": "getEnumConstants()", "correct": true },
         { "text": "getEnumList()", "correct": false }
       ]
     },
@@ -743,10 +743,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-2.php?page=2",
       "statement": "Which of the following is the advantage of BigDecimal over double?",
       "options": [
-        { "text": "Syntax", "correct": true },
+        { "text": "Syntax", "correct": false },
         { "text": "Memory usage", "correct": false },
         { "text": "Garbage creation", "correct": false },
-        { "text": "Precision", "correct": false }
+        { "text": "Precision", "correct": true }
       ]
     },
     {
@@ -754,9 +754,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-2.php?page=2",
       "statement": "What is the limitation of toString() method of BigDecimal?",
       "options": [
-        { "text": "There is no limitation", "correct": true },
+        { "text": "There is no limitation", "correct": false },
         { "text": "toString returns null", "correct": false },
-        { "text": "toString uses scientific notation", "correct": false },
+        { "text": "toString uses scientific notation", "correct": true },
         {
           "text": "toString returns the number in expanded form",
           "correct": false
@@ -768,8 +768,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-2.php?page=2",
       "statement": "What is BigDecimal.ONE?",
       "options": [
-        { "text": "custom defined statement", "correct": true },
-        { "text": "static variable with value 1 on scale 0", "correct": false },
+        { "text": "custom defined statement", "correct": false },
+        { "text": "static variable with value 1 on scale 0", "correct": true },
         {
           "text": "static variable with value 1 on scale 10",
           "correct": false
@@ -782,10 +782,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-2.php?page=2",
       "statement": "Which of these can be returned by the operator &?",
       "options": [
-        { "text": "Integer", "correct": true },
+        { "text": "Integer", "correct": false },
         { "text": "Boolean", "correct": false },
         { "text": "Character", "correct": false },
-        { "text": "Integer or Boolean", "correct": false }
+        { "text": "Integer or Boolean", "correct": true }
       ]
     },
     {
@@ -793,8 +793,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-2.php?page=2",
       "statement": "Which of these can not be used for a variable name in Java?",
       "options": [
-        { "text": "identifier", "correct": true },
-        { "text": "keyword", "correct": false },
+        { "text": "identifier", "correct": false },
+        { "text": "keyword", "correct": true },
         { "text": "identifier & keyword", "correct": false },
         { "text": "None of the above", "correct": false }
       ]
@@ -804,8 +804,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-2.php?page=2",
       "statement": "What will be the output of the following Java program?\n\n        class array_output \n        {\n            public static void main(String args[]) \n            {\n           \t    int array_variable [] = new int[10];\n    \t    for (int i = 0; i < 10; ++i) {\n                    array_variable[i] = i/2;\n                    array_variable[i]++;\n                    System.out.print(array_variable[i] + \" \");\n                    i++;\n                }\n     \n            } \n        }",
       "options": [
-        { "text": "0 2 4 6 8", "correct": true },
-        { "text": "1 2 3 4 5", "correct": false },
+        { "text": "0 2 4 6 8", "correct": false },
+        { "text": "1 2 3 4 5", "correct": true },
         { "text": "0 1 2 3 4 5 6 7 8 9", "correct": false },
         { "text": "1 2 3 4 5 6 7 8 9 10", "correct": false }
       ]
@@ -837,9 +837,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-2.php?page=3",
       "statement": "Which of this method is given parameter via command line arguments?",
       "options": [
-        { "text": "main()", "correct": false },
+        { "text": "main()", "correct": true },
         { "text": "recursive() method", "correct": false },
-        { "text": "System defined methods", "correct": true },
+        { "text": "System defined methods", "correct": false },
         { "text": "Any method", "correct": false }
       ]
     },
@@ -860,8 +860,8 @@
       "statement": "What will be the output of the following Java program, Command line execution is done as – “java Output This is a command Line”?\n\n        class Output \n        {\n            public static void main(String args[]) \n            {\n                System.out.print(\"args[0]\");\n            }\n        }",
       "options": [
         { "text": "java", "correct": false },
-        { "text": "This", "correct": false },
-        { "text": "Output", "correct": true },
+        { "text": "This", "correct": true },
+        { "text": "Output", "correct": false },
         { "text": "is", "correct": false }
       ]
     },
@@ -872,8 +872,8 @@
       "options": [
         { "text": "is", "correct": false },
         { "text": "This", "correct": false },
-        { "text": "java", "correct": true },
-        { "text": "command", "correct": false }
+        { "text": "java", "correct": false },
+        { "text": "command", "correct": true }
       ]
     },
     {
@@ -893,8 +893,8 @@
       "statement": "What will be the output of the following Java program, Command line execution is done as – “java Output command Line 10 A b 4 N”?\n\n        class Output \n        {\n            public static void main(String args[]) \n            {\n                System.out.print(\"(int)args[2] * 2\");\n            }\n        }",
       "options": [
         { "text": "10", "correct": false },
-        { "text": "20", "correct": false },
-        { "text": "java", "correct": true },
+        { "text": "20", "correct": true },
+        { "text": "java", "correct": false },
         { "text": "None of the above", "correct": false }
       ]
     },
@@ -903,9 +903,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-2.php?page=3",
       "statement": "What will be the output of the following Java program, Command line execution is done as – “java Output command Line 10 A b 4 N”?  \n  \n\n        class Output \n        {\n            public static void main(String args[]) \n            {\n                System.out.print(\"args[6]\");\n            }\n        }​",
       "options": [
-        { "text": "N", "correct": false },
+        { "text": "N", "correct": true },
         { "text": "java", "correct": false },
-        { "text": "10", "correct": true },
+        { "text": "10", "correct": false },
         { "text": "None of the above", "correct": false }
       ]
     },
@@ -917,11 +917,11 @@
         { "text": "Recursion is a class", "correct": false },
         {
           "text": "Recursion is a process of defining a method that calls other methods repeatedly",
-          "correct": false
+          "correct": true
         },
         {
           "text": "Recursion is a process of defining a method that calls itself repeatedly",
-          "correct": true
+          "correct": false
         },
         {
           "text": "Recursion is a process of defining a method that calls other methods which in turn call again this method",
@@ -934,14 +934,14 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-2.php?page=3",
       "statement": "Which of these will happen if recursive method does not have a base case?",
       "options": [
-        { "text": "An infinite loop occurs", "correct": false },
+        { "text": "An infinite loop occurs", "correct": true },
         {
           "text": "System stops the program after some time",
           "correct": false
         },
         {
           "text": "After 1000000 calls it will be automatically stopped",
-          "correct": true
+          "correct": false
         },
         { "text": "None of the above", "correct": false }
       ]
@@ -963,9 +963,9 @@
       "statement": "Which of these methods return a class object given its name?",
       "options": [
         { "text": "getClass()", "correct": false },
-        { "text": "findClass()", "correct": true },
+        { "text": "findClass()", "correct": false },
         { "text": "getSystemClass()", "correct": false },
-        { "text": "findSystemClass()", "correct": false }
+        { "text": "findSystemClass()", "correct": true }
       ]
     },
     {
@@ -974,8 +974,8 @@
       "statement": "What will be the output of the following Java program?\n\n        class X\n        {\n            int a;\n            double b;\n        }\n        class Y extends X \n        {\n    \tint c;\n        }\n        class Output \n        {\n            public static void main(String args[]) \n            {\n                X a = new X();\n                Y b = new Y();\n                Class obj;\n                obj = b.getClass();\n                System.out.print(obj.getSuperclass());\n            }\n        }",
       "options": [
         { "text": "X", "correct": false },
-        { "text": "Y", "correct": true },
-        { "text": "class X", "correct": false },
+        { "text": "Y", "correct": false },
+        { "text": "class X", "correct": true },
         { "text": "class Y", "correct": false }
       ]
     },
@@ -984,8 +984,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-2.php?page=4",
       "statement": "Which of the interface contains all the methods used for handling thread related operations in Java?",
       "options": [
-        { "text": "Runnable interface", "correct": false },
-        { "text": "System interface", "correct": true },
+        { "text": "Runnable interface", "correct": true },
+        { "text": "System interface", "correct": false },
         { "text": "Math interface", "correct": false },
         { "text": "ThreadHandling interface", "correct": false }
       ]
@@ -995,8 +995,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-2.php?page=4",
       "statement": "Which of these methods of a Thread class is used to suspend a thread for a period of time?",
       "options": [
-        { "text": "sleep()", "correct": false },
-        { "text": "stop()", "correct": true },
+        { "text": "sleep()", "correct": true },
+        { "text": "stop()", "correct": false },
         { "text": "terminate()", "correct": false },
         { "text": "suspend()", "correct": false }
       ]
@@ -1017,8 +1017,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-2.php?page=4",
       "statement": "Which of these process occur automatically by the java runtime system?",
       "options": [
-        { "text": "Serialization", "correct": false },
-        { "text": "Garbage collection", "correct": true },
+        { "text": "Serialization", "correct": true },
+        { "text": "Garbage collection", "correct": false },
         { "text": "File Filtering", "correct": false },
         { "text": "All of the above", "correct": false }
       ]
@@ -1029,9 +1029,9 @@
       "statement": "Which of these is method of ObjectOutput interface used to write the object to input or output stream as required?",
       "options": [
         { "text": "write()", "correct": false },
-        { "text": "Write()", "correct": true },
+        { "text": "Write()", "correct": false },
         { "text": "StreamWrite()", "correct": false },
-        { "text": "writeObject()", "correct": false }
+        { "text": "writeObject()", "correct": true }
       ]
     },
     {
@@ -1072,10 +1072,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-2.php?page=5",
       "statement": "What will be the output of the following Java program?\n\n        package pkg;\n        class output \n        {\n            public static void main(String args[])\n            {\n                StringBuffer s1 = new StringBuffer(\"Hello World\");\n                s1.insert(6 , \"Good \");\n                System.out.println(s1);\n            }\n       }\n\nNote : Output.class file is not in directory pkg.",
       "options": [
-        { "text": "HelloGoodWorld", "correct": true },
+        { "text": "HelloGoodWorld", "correct": false },
         { "text": "HellGoodoWorld", "correct": false },
         { "text": "Compilation error", "correct": false },
-        { "text": "Runtime error", "correct": false }
+        { "text": "Runtime error", "correct": true }
       ]
     },
     {
@@ -1083,8 +1083,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-2.php?page=5",
       "statement": "Which of these package is used for graphical user interface?",
       "options": [
-        { "text": "java.applet", "correct": true },
-        { "text": "java.awt", "correct": false },
+        { "text": "java.applet", "correct": false },
+        { "text": "java.awt", "correct": true },
         { "text": "java.awt.image", "correct": false },
         { "text": "java.io", "correct": false }
       ]
@@ -1105,9 +1105,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-2.php?page=5",
       "statement": "What is the length of the application box made in the following Java program?\n\n        import java.awt.*;\n        import java.applet.*;\n        public class myapplet extends Applet\n        {\n            Graphic g;\n            g.drawString(\"A Simple Applet\",20,20);    \n        }",
       "options": [
-        { "text": "20", "correct": true },
+        { "text": "20", "correct": false },
         { "text": "Default value", "correct": false },
-        { "text": "Compilation Error", "correct": false },
+        { "text": "Compilation Error", "correct": true },
         { "text": "Runtime Error", "correct": false }
       ]
     },
@@ -1116,8 +1116,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-2.php?page=5",
       "statement": "Which of the following is the correct way of implementing an interface A by class B?",
       "options": [
-        { "text": "class B extends A{}", "correct": true },
-        { "text": "class B implements A{}", "correct": false },
+        { "text": "class B extends A{}", "correct": false },
+        { "text": "class B implements A{}", "correct": true },
         { "text": "class B imports A{}", "correct": false },
         { "text": "None of the above", "correct": false }
       ]
@@ -1127,8 +1127,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-2.php?page=5",
       "statement": "What does an interface contain?",
       "options": [
-        { "text": "Method definition", "correct": true },
-        { "text": "Method declaration", "correct": false },
+        { "text": "Method definition", "correct": false },
+        { "text": "Method declaration", "correct": true },
         { "text": "Method name", "correct": false },
         { "text": "Method declaration and definition", "correct": false }
       ]
@@ -1140,11 +1140,11 @@
       "options": [
         {
           "text": "The concrete class implementing that method need not provide implementation of that method",
-          "correct": true
+          "correct": false
         },
         { "text": "Runtime exception is thrown", "correct": false },
         { "text": "Method not found exception is thrown", "correct": false },
-        { "text": "Compilation failure", "correct": false }
+        { "text": "Compilation failure", "correct": true }
       ]
     },
     {
@@ -1169,8 +1169,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-2.php?page=5",
       "statement": "What should the return type of method where there is no return value?",
       "options": [
-        { "text": "Null", "correct": true },
-        { "text": "Empty collection", "correct": false },
+        { "text": "Null", "correct": false },
+        { "text": "Empty collection", "correct": true },
         { "text": "Empty String", "correct": false },
         { "text": "Singleton collection", "correct": false }
       ]
@@ -1191,8 +1191,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-3.php?page=1",
       "statement": "What is printed by code below?\n\n    String[] array = {\"1\",\"2\",\"4\",\"5\"};\n    int i = array.length;\n    for(String x : array)i++;\n    System.out.println(i);",
       "options": [
-        { "text": "12", "correct": true },
-        { "text": "8", "correct": false },
+        { "text": "12", "correct": false },
+        { "text": "8", "correct": true },
         { "text": "5", "correct": false },
         { "text": "4", "correct": false }
       ]
@@ -1202,10 +1202,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-3.php?page=1",
       "statement": "The last value in an array called ar can be found at index:",
       "options": [
-        { "text": "0", "correct": true },
+        { "text": "0", "correct": false },
         { "text": "1", "correct": false },
         { "text": "Ar.length", "correct": false },
-        { "text": "Ar.length - 1", "correct": false }
+        { "text": "Ar.length - 1", "correct": true }
       ]
     },
     {
@@ -1213,8 +1213,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-3.php?page=1",
       "statement": "A class is...",
       "options": [
-        { "text": "An object", "correct": true },
-        { "text": "An abstract definition of an object", "correct": false },
+        { "text": "An object", "correct": false },
+        { "text": "An abstract definition of an object", "correct": true },
         { "text": "An executable piece of code", "correct": false },
         { "text": "A varibale", "correct": false }
       ]
@@ -1224,8 +1224,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-3.php?page=1",
       "statement": "In java, float takes \\_\\_\\_\\_\\_\\_\\_\\_\\_ bytes in memory.",
       "options": [
-        { "text": "2", "correct": true },
-        { "text": "4", "correct": false },
+        { "text": "2", "correct": false },
+        { "text": "4", "correct": true },
         { "text": "6", "correct": false },
         { "text": "8", "correct": false }
       ]
@@ -1235,10 +1235,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-3.php?page=1",
       "statement": "What is the size of long variable?",
       "options": [
-        { "text": "8 bit", "correct": true },
+        { "text": "8 bit", "correct": false },
         { "text": "16 bit", "correct": false },
         { "text": "32 bit", "correct": false },
-        { "text": "64 bit", "correct": false }
+        { "text": "64 bit", "correct": true }
       ]
     },
     {
@@ -1259,14 +1259,14 @@
       "options": [
         {
           "text": "It enables you to store values in instance variables of an object",
-          "correct": true
+          "correct": false
         },
         {
           "text": "It enables you to access instance variables of any objects within a class",
           "correct": false
         },
         { "text": "It is used to call object methods", "correct": false },
-        { "text": "All of the above", "correct": false }
+        { "text": "All of the above", "correct": true }
       ]
     },
     {
@@ -1274,14 +1274,14 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-3.php?page=1",
       "statement": "The most common use of an array is to:",
       "options": [
-        { "text": "Perform for loop on array", "correct": true },
+        { "text": "Perform for loop on array", "correct": false },
         {
           "text": "Perform different operations on each element in array",
           "correct": false
         },
         {
           "text": "Perform the same operation on all elements in array",
-          "correct": false
+          "correct": true
         },
         { "text": "Perform while loop on array", "correct": false }
       ]
@@ -1291,8 +1291,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-3.php?page=1",
       "statement": "How to sort an array?",
       "options": [
-        { "text": "Array.sort()", "correct": true },
-        { "text": "Arrays.sort()", "correct": false },
+        { "text": "Array.sort()", "correct": false },
+        { "text": "Arrays.sort()", "correct": true },
         { "text": "Collection.sort()", "correct": false },
         { "text": "System.sort()", "correct": false }
       ]
@@ -1323,8 +1323,8 @@
       "statement": "What is the prototype of the default constructor of this Java class?  \n\n    public class prototype { }​",
       "options": [
         { "text": "prototype( )", "correct": false },
-        { "text": "prototype(void)", "correct": true },
-        { "text": "public prototype( )", "correct": false },
+        { "text": "prototype(void)", "correct": false },
+        { "text": "public prototype( )", "correct": true },
         { "text": "public prototype(void)", "correct": false }
       ]
     },
@@ -1335,9 +1335,9 @@
       "options": [
         {
           "text": "Floating-point value assigned to an integer type",
-          "correct": false
+          "correct": true
         },
-        { "text": "Integer value assigned to floating type", "correct": true },
+        { "text": "Integer value assigned to floating type", "correct": false },
         {
           "text": "Floating-point value assigned to an Floating type",
           "correct": false
@@ -1362,9 +1362,9 @@
       "statement": "What will be the output of the following Java program, if we run as “java main\\_arguments 1 2 3”?\n\n        class main_arguments \n        {\n            public static void main(String [] args) \n            {\n                String [][] argument = new String[2][2];\n                int x;\n                argument[0] = args;\n                x = argument[0].length;\n                for (int y = 0; y < x; y++) \n                    System.out.print(\" \" + argument[0][y]);              \n            }\n        }",
       "options": [
         { "text": "1 0", "correct": false },
-        { "text": "1 1", "correct": true },
+        { "text": "1 1", "correct": false },
         { "text": "1 0 3", "correct": false },
-        { "text": "1 2 3", "correct": false }
+        { "text": "1 2 3", "correct": true }
       ]
     },
     {
@@ -1373,9 +1373,9 @@
       "statement": "What will be the output of the following Java program?\n\n        class c \n        {    \n            public void main( String[] args ) \n            {  \n                System.out.println( \"Hello\" + args[0] ); \n            } \n        }",
       "options": [
         { "text": "Hello", "correct": false },
-        { "text": "Hello c", "correct": true },
+        { "text": "Hello c", "correct": false },
         { "text": "Hello world", "correct": false },
-        { "text": "Runtime Error", "correct": false }
+        { "text": "Runtime Error", "correct": true }
       ]
     },
     {
@@ -1384,8 +1384,8 @@
       "statement": "What is the type of variable ‘b’ and ‘d’ in the following Java snippet?\n\n    int a[], b;\n    int []c, d;",
       "options": [
         { "text": "‘b’ and ‘d’ are int", "correct": false },
-        { "text": "‘b’ and ‘d’ are arrays of type int", "correct": true },
-        { "text": "‘b’ is int variable; ‘d’ is int array", "correct": false },
+        { "text": "‘b’ and ‘d’ are arrays of type int", "correct": false },
+        { "text": "‘b’ is int variable; ‘d’ is int array", "correct": true },
         { "text": "‘d’ is int variable; ‘b’ is int array", "correct": false }
       ]
     },
@@ -1395,9 +1395,9 @@
       "statement": "What will be the output of the following Java code?\n\n    int arr[] = new int [5];\n    System.out.print(arr);",
       "options": [
         { "text": "0", "correct": false },
-        { "text": "00000", "correct": true },
+        { "text": "00000", "correct": false },
         { "text": "value stored in arr\\[0\\].", "correct": false },
-        { "text": "Garbage value", "correct": false }
+        { "text": "Garbage value", "correct": true }
       ]
     },
     {
@@ -1405,8 +1405,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-3.php?page=2",
       "statement": "What will be the output of the following Java code snippet?\n\n    Object[] names = new String[3];\n    names[0] = new Integer(0);",
       "options": [
-        { "text": "ArrayStoreException", "correct": false },
-        { "text": "Code runs successfully", "correct": true },
+        { "text": "ArrayStoreException", "correct": true },
+        { "text": "Code runs successfully", "correct": false },
         { "text": "ArrayIndexOutOfBoundsException", "correct": false },
         { "text": "Compilation Error", "correct": false }
       ]
@@ -1416,8 +1416,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-3.php?page=2",
       "statement": "How to copy contents of array?",
       "options": [
-        { "text": "System.arrayCopy()", "correct": false },
-        { "text": "Array.copy()", "correct": true },
+        { "text": "System.arrayCopy()", "correct": true },
+        { "text": "Array.copy()", "correct": false },
         { "text": "Arrays.copy()", "correct": false },
         { "text": "Collection.copy()", "correct": false }
       ]
@@ -1438,8 +1438,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-3.php?page=3",
       "statement": "What will be the output of the following Java program?\n\n        class recursion \n        {\n            int func (int n) \n            {\n                int result;\n                if (n == 1)\n                    return 1;\n                result = func (n - 1);\n                return result;\n            }\n        } \n        class Output \n        {\n            public static void main(String args[]) \n            {\n                recursion obj = new recursion() ;\n                System.out.print(obj.func(5));\n            }\n        }",
       "options": [
-        { "text": "0", "correct": true },
-        { "text": "1", "correct": false },
+        { "text": "0", "correct": false },
+        { "text": "1", "correct": true },
         { "text": "12", "correct": false },
         { "text": "None of the above", "correct": false }
       ]
@@ -1449,9 +1449,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-3.php?page=3",
       "statement": "What is the process of defining a method in a subclass having same name & type signature as a method in its superclass?",
       "options": [
-        { "text": "Method hiding", "correct": true },
+        { "text": "Method hiding", "correct": false },
         { "text": "Method overloading", "correct": false },
-        { "text": "Method overriding", "correct": false },
+        { "text": "Method overriding", "correct": true },
         { "text": "None of the above", "correct": false }
       ]
     },
@@ -1460,10 +1460,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-3.php?page=3",
       "statement": "At line number 2 in the following code, choose 3 valid data-type attributes/qualifiers among “final, static, native, public, private, abstract, protected”\n\n    public interface Status\n       {\n            /* insert qualifier here */ int MY_VALUE = 10;\n       }",
       "options": [
-        { "text": "final, native, private", "correct": true },
+        { "text": "final, native, private", "correct": false },
         { "text": "final, static, protected", "correct": false },
         { "text": "final, private, abstract", "correct": false },
-        { "text": "final, static, public", "correct": false }
+        { "text": "final, static, public", "correct": true }
       ]
     },
     {
@@ -1471,12 +1471,12 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-3.php?page=3",
       "statement": "What will be the output of the following Java program?\n\n      class Abc\n      {\n          public static void main(String[]args)\n          {\n              String[] elements = { \"for\", \"tea\", \"too\" };\n              String first = (elements.length > 0) ? elements[0]: null;\n          }\n      }",
       "options": [
-        { "text": "Compilation error", "correct": true },
+        { "text": "Compilation error", "correct": false },
         { "text": "The variable first is set to null", "correct": false },
         { "text": "An exception is thrown at run time", "correct": false },
         {
           "text": "The variable first is set to elements\\[0\\]",
-          "correct": false
+          "correct": true
         }
       ]
     },
@@ -1485,8 +1485,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-3.php?page=3",
       "statement": "Which of these keywords are used to define an abstract class?",
       "options": [
-        { "text": "abst", "correct": true },
-        { "text": "abstract", "correct": false },
+        { "text": "abst", "correct": false },
+        { "text": "abstract", "correct": true },
         { "text": "Abstract", "correct": false },
         { "text": "abstract class", "correct": false }
       ]
@@ -1507,8 +1507,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-3.php?page=3",
       "statement": "A class member declared protected becomes a member of subclass of which type?",
       "options": [
-        { "text": "public member", "correct": true },
-        { "text": "private member", "correct": false },
+        { "text": "public member", "correct": false },
+        { "text": "private member", "correct": true },
         { "text": "static member", "correct": false },
         { "text": "protected member", "correct": false }
       ]
@@ -1518,8 +1518,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-3.php?page=3",
       "statement": "Which of these is correct way of inheriting class A by class B?",
       "options": [
-        { "text": "class B + class A {}", "correct": true },
-        { "text": "class B extends A {}", "correct": false },
+        { "text": "class B + class A {}", "correct": false },
+        { "text": "class B extends A {}", "correct": true },
         { "text": "class B inherits class A {}", "correct": false },
         { "text": "class B extends class A {}", "correct": false }
       ]
@@ -1529,9 +1529,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-3.php?page=3",
       "statement": "What will be the output of the following Java program?\n\n        class A \n        {\n            int i;\n            void display() \n            {\n                System.out.println(i);\n            }\n        }    \n        class B extends A \n        {\n            int j;\n            void display() \n            {\n                System.out.println(j);\n            }\n        }    \n        class inheritance_demo \n        {\n            public static void main(String args[])\n            {\n                B obj = new B();\n                obj.i=1;\n                obj.j=2;   \n                obj.display();     \n            }\n       }",
       "options": [
-        { "text": "0", "correct": true },
+        { "text": "0", "correct": false },
         { "text": "1", "correct": false },
-        { "text": "2", "correct": false },
+        { "text": "2", "correct": true },
         { "text": "Compilation Error", "correct": false }
       ]
     },
@@ -1552,8 +1552,8 @@
       "statement": "Which of these class is used to encapsulate IP address and DNS?",
       "options": [
         { "text": "URL", "correct": false },
-        { "text": "InetAddress", "correct": false },
-        { "text": "DatagramPacket", "correct": true },
+        { "text": "InetAddress", "correct": true },
+        { "text": "DatagramPacket", "correct": false },
         { "text": "ContentHandler", "correct": false }
       ]
     },
@@ -1562,9 +1562,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-3.php?page=4",
       "statement": "Which of these interface abstractes the output of messages from httpd?",
       "options": [
-        { "text": "LogMessage", "correct": false },
+        { "text": "LogMessage", "correct": true },
         { "text": "LogResponse", "correct": false },
-        { "text": "Httpdserver", "correct": true },
+        { "text": "Httpdserver", "correct": false },
         { "text": "httpdResponse", "correct": false }
       ]
     },
@@ -1575,8 +1575,8 @@
       "options": [
         { "text": "parseString()", "correct": false },
         { "text": "getString()", "correct": false },
-        { "text": "toString()", "correct": true },
-        { "text": "parse()", "correct": false }
+        { "text": "toString()", "correct": false },
+        { "text": "parse()", "correct": true }
       ]
     },
     {
@@ -1586,8 +1586,8 @@
       "options": [
         { "text": "freetimelearning", "correct": false },
         { "text": "freetimelearning.com", "correct": false },
-        { "text": "www.freetimelearning.com", "correct": true },
-        { "text": "https://www.freetimelearning.com/java", "correct": false }
+        { "text": "www.freetimelearning.com", "correct": false },
+        { "text": "https://www.freetimelearning.com/java", "correct": true }
       ]
     },
     {
@@ -1596,8 +1596,8 @@
       "statement": "Which of these methods is used to know the full URL of an URL object?",
       "options": [
         { "text": "ExternalForm()", "correct": false },
-        { "text": "toExternalForm()", "correct": false },
-        { "text": "getHost()", "correct": true },
+        { "text": "toExternalForm()", "correct": true },
+        { "text": "getHost()", "correct": false },
         { "text": "fullHost()", "correct": false }
       ]
     },
@@ -1606,9 +1606,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-3.php?page=4",
       "statement": "What will be the output of the following Java code?\n\n        import java.net.*;\n        class networking \n        {\n            public static void main(String[] args) throws MalformedURLException \n            {\n                URL obj = new URL(\"https://www.freetimelearning.com/java\");\n                System.out.print(obj.getProtocol());\n            }\n        }",
       "options": [
-        { "text": "http", "correct": false },
+        { "text": "http", "correct": true },
         { "text": "https", "correct": false },
-        { "text": "www", "correct": true },
+        { "text": "www", "correct": false },
         { "text": "com", "correct": false }
       ]
     },
@@ -1618,8 +1618,8 @@
       "statement": "Which of these methods is used to know when was the URL last modified?",
       "options": [
         { "text": "LastModified()", "correct": false },
-        { "text": "getLastModified()", "correct": false },
-        { "text": "GetLastModified()", "correct": true },
+        { "text": "getLastModified()", "correct": true },
+        { "text": "GetLastModified()", "correct": false },
         { "text": "getlastModified()()", "correct": false }
       ]
     },
@@ -1639,9 +1639,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-3.php?page=4",
       "statement": "Which API gets the SocketAddress (usually IP address + port number) of the remote host that this packet is being sent to or is coming from.",
       "options": [
-        { "text": "getSocketAddress()", "correct": false },
+        { "text": "getSocketAddress()", "correct": true },
         { "text": "getAddress()", "correct": false },
-        { "text": "address()", "correct": true },
+        { "text": "address()", "correct": false },
         { "text": "None of the above", "correct": false }
       ]
     },
@@ -1661,8 +1661,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-3.php?page=5",
       "statement": "Which is better in terms of performance for iterating an array?",
       "options": [
-        { "text": "for(int i=99; i>=0; i–)", "correct": false },
-        { "text": "for(int i=0; i<100; i++)", "correct": true },
+        { "text": "for(int i=99; i>=0; i–)", "correct": true },
+        { "text": "for(int i=0; i<100; i++)", "correct": false },
         { "text": "for(int i=99; i>0; i++)", "correct": false },
         { "text": "for(int i=100; i<0; i++)", "correct": false }
       ]
@@ -1672,8 +1672,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-3.php?page=5",
       "statement": "JUnits are used for which type of testing?",
       "options": [
-        { "text": "Unit Testing", "correct": false },
-        { "text": "Integration Testing", "correct": true },
+        { "text": "Unit Testing", "correct": true },
+        { "text": "Integration Testing", "correct": false },
         { "text": "System Testing", "correct": false },
         { "text": "Blackbox Testing", "correct": false }
       ]
@@ -1684,8 +1684,8 @@
       "statement": "Which of the below is an incorrect annotation with respect to JUnits?",
       "options": [
         { "text": "@Test", "correct": false },
-        { "text": "@AfterEach", "correct": true },
-        { "text": "@Junit", "correct": false },
+        { "text": "@AfterEach", "correct": false },
+        { "text": "@Junit", "correct": true },
         { "text": "@BeforeClass", "correct": false }
       ]
     },
@@ -1695,9 +1695,9 @@
       "statement": "What does assertSame() method use for assertion?",
       "options": [
         { "text": "equals() method", "correct": false },
-        { "text": "isEqual() method", "correct": true },
+        { "text": "isEqual() method", "correct": false },
         { "text": "compare() method", "correct": false },
-        { "text": "\\==", "correct": false }
+        { "text": "\\==", "correct": true }
       ]
     },
     {
@@ -1706,8 +1706,8 @@
       "statement": "How can we simulate if then behavior in Junits?",
       "options": [
         { "text": "if{..} else{..}", "correct": false },
-        { "text": "if(..){..} else{..}", "correct": true },
-        { "text": "Mockito.when(…).thenReturn(…);", "correct": false },
+        { "text": "if(..){..} else{..}", "correct": false },
+        { "text": "Mockito.when(…).thenReturn(…);", "correct": true },
         { "text": "Mockito.if(..).then(..);", "correct": false }
       ]
     },
@@ -1717,9 +1717,9 @@
       "statement": "Which of the following is not a core interface of Hibernate?",
       "options": [
         { "text": "Criteria", "correct": false },
-        { "text": "Session", "correct": true },
+        { "text": "Session", "correct": false },
         { "text": "Configuration", "correct": false },
-        { "text": "SessionManagement", "correct": false }
+        { "text": "SessionManagement", "correct": true }
       ]
     },
     {
@@ -1727,8 +1727,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-3.php?page=5",
       "statement": "Which of the following methods hits database always?",
       "options": [
-        { "text": "get()", "correct": false },
-        { "text": "load()", "correct": true },
+        { "text": "get()", "correct": true },
+        { "text": "load()", "correct": false },
         { "text": "loadDatabase()", "correct": false },
         { "text": "getDatabase()", "correct": false }
       ]
@@ -1739,8 +1739,8 @@
       "statement": "Which of the following is not an advantage of using Hibernate Query Language?",
       "options": [
         { "text": "Database independent", "correct": false },
-        { "text": "Easy to write query", "correct": true },
-        { "text": "Difficult to implement", "correct": false },
+        { "text": "Easy to write query", "correct": false },
+        { "text": "Difficult to implement", "correct": true },
         { "text": "No need to learn SQL", "correct": false }
       ]
     },
@@ -1788,10 +1788,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-4.php?page=1",
       "statement": "Java allows which type of inheritance",
       "options": [
-        { "text": "single-inheritance", "correct": true },
+        { "text": "single-inheritance", "correct": false },
         { "text": "multiple-inheritance through interfaces", "correct": false },
         { "text": "multi-level inheritance", "correct": false },
-        { "text": "All of the above", "correct": false }
+        { "text": "All of the above", "correct": true }
       ]
     },
     {
@@ -1799,10 +1799,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-4.php?page=1",
       "statement": "What is an instanceof?",
       "options": [
-        { "text": "A keyword only", "correct": true },
+        { "text": "A keyword only", "correct": false },
         { "text": "An operator only", "correct": false },
         { "text": "A methods in object", "correct": false },
-        { "text": "An operator and keyword", "correct": false }
+        { "text": "An operator and keyword", "correct": true }
       ]
     },
     {
@@ -1810,9 +1810,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-4.php?page=1",
       "statement": "Which one could be used as the main container in a Java application?",
       "options": [
-        { "text": "JPanel", "correct": true },
+        { "text": "JPanel", "correct": false },
         { "text": "JButton", "correct": false },
-        { "text": "JFrame", "correct": false },
+        { "text": "JFrame", "correct": true },
         { "text": "JApplet", "correct": false }
       ]
     },
@@ -1821,8 +1821,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-4.php?page=1",
       "statement": "What about constructor?",
       "options": [
-        { "text": "It can contain return type", "correct": true },
-        { "text": "It can take any number of parameters", "correct": false },
+        { "text": "It can contain return type", "correct": false },
+        { "text": "It can take any number of parameters", "correct": true },
         { "text": "It can have any non access modifiers", "correct": false },
         { "text": "Constructor cannot throw exception", "correct": false }
       ]
@@ -1832,10 +1832,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-4.php?page=1",
       "statement": "From the following what are the OOPs principles in JAVA?",
       "options": [
-        { "text": "Polymorphism", "correct": true },
+        { "text": "Polymorphism", "correct": false },
         { "text": "Inheritance", "correct": false },
         { "text": "Encapsulation", "correct": false },
-        { "text": "All of the above", "correct": false }
+        { "text": "All of the above", "correct": true }
       ]
     },
     {
@@ -1845,11 +1845,11 @@
       "options": [
         {
           "text": "Polymorphism is a technique to define different objects of same type.",
-          "correct": true
+          "correct": false
         },
         {
           "text": "Polymorphism is the ability of an object to take on many forms.",
-          "correct": false
+          "correct": true
         },
         {
           "text": "Polymorphism is a technique to define different methods of same type.",
@@ -1863,10 +1863,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-4.php?page=1",
       "statement": "Which variables can an inner class access from the class which encapsulates it ?",
       "options": [
-        { "text": "All final variables", "correct": true },
+        { "text": "All final variables", "correct": false },
         { "text": "All instance variables", "correct": false },
         { "text": "All static variables", "correct": false },
-        { "text": "All of the above", "correct": false }
+        { "text": "All of the above", "correct": true }
       ]
     },
     {
@@ -1876,7 +1876,7 @@
       "options": [
         {
           "text": "Instance variables are static variables within a class but outside any method.",
-          "correct": true
+          "correct": false
         },
         {
           "text": "Instance variables are variables defined inside methods, constructors or blocks.",
@@ -1884,7 +1884,7 @@
         },
         {
           "text": "Instance variables are variables within a class but outside any method.",
-          "correct": false
+          "correct": true
         },
         { "text": "None of the above.", "correct": false }
       ]
@@ -1906,10 +1906,10 @@
       "statement": "Modulus operator, %, can be applied to which of these?",
       "options": [
         { "text": "Integers", "correct": false },
-        { "text": "Floating – point numbers", "correct": true },
+        { "text": "Floating – point numbers", "correct": false },
         {
           "text": "Both Integers and floating – point numbers",
-          "correct": false
+          "correct": true
         },
         { "text": "None of the above", "correct": false }
       ]
@@ -1919,8 +1919,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-4.php?page=2",
       "statement": "With x = 0, which of the following are legal lines of Java code for changing the value of x to 1?\n\n       1. x++;\n       2. x = x + 1;\n       3. x += 1;\n       4. x =+ 1;",
       "options": [
-        { "text": "1, 2, 3 & 4", "correct": false },
-        { "text": "1, 2 & 3", "correct": true },
+        { "text": "1, 2, 3 & 4", "correct": true },
+        { "text": "1, 2 & 3", "correct": false },
         { "text": "1 & 4", "correct": false },
         { "text": "3 & 2", "correct": false }
       ]
@@ -1931,8 +1931,8 @@
       "statement": "What will be the output of the following Java program?\n\n        class increment \n        {\n            public static void main(String args[])\n            {\n                double var1 = 1 + 5; \n                double var2 = var1 / 4;\n                int var3 = 1 + 5;\n                int var4 = var3 / 4;\n                System.out.print(var2 + \" \" + var4);\n     \n            } \n        }",
       "options": [
         { "text": "0 1", "correct": false },
-        { "text": "1 1", "correct": true },
-        { "text": "1.5 1", "correct": false },
+        { "text": "1 1", "correct": false },
+        { "text": "1.5 1", "correct": true },
         { "text": "1.5 1.0", "correct": false }
       ]
     },
@@ -1953,9 +1953,9 @@
       "statement": "Which of these is not a bitwise operator?",
       "options": [
         { "text": "`&`", "correct": false },
-        { "text": "`&=`", "correct": true },
+        { "text": "`&=`", "correct": false },
         { "text": "`|=`", "correct": false },
-        { "text": "`<=`", "correct": false }
+        { "text": "`<=`", "correct": true }
       ]
     },
     {
@@ -1965,11 +1965,11 @@
       "options": [
         {
           "text": "The right shift operator automatically fills the higher order bits with 0",
-          "correct": false
+          "correct": true
         },
         {
           "text": "The left shift operator can be used as an alternative to multiplying by 2",
-          "correct": true
+          "correct": false
         },
         {
           "text": "The right shift operator, >>, shifts all of the bits in a value to the right specified number of times",
@@ -1998,8 +1998,8 @@
       "statement": "What will be the output of the following Java program?\n\n        class Output \n        {\n            public static void main(String args[]) \n            {    \n                 int a = 1;\n                 int b = 2;\n                 int c = 3;\n                 a |= 4;\n                 b >>= 1;\n                 c <<= 1;\n                 a ^= c;\n                 System.out.println(a + \" \" + b + \" \" + c);\n            } \n        }",
       "options": [
         { "text": "2 2 3", "correct": false },
-        { "text": "2 3 4", "correct": true },
-        { "text": "3 1 6", "correct": false },
+        { "text": "2 3 4", "correct": false },
+        { "text": "3 1 6", "correct": true },
         { "text": "3 3 6", "correct": false }
       ]
     },
@@ -2031,8 +2031,8 @@
       "statement": "Which of these methods is used to obtain value of invoking object as a long?",
       "options": [
         { "text": "long value()", "correct": false },
-        { "text": "long longValue()", "correct": false },
-        { "text": "Long longvalue()", "correct": true },
+        { "text": "long longValue()", "correct": true },
+        { "text": "Long longvalue()", "correct": false },
         { "text": "Long Longvalue()", "correct": false }
       ]
     },
@@ -2042,8 +2042,8 @@
       "statement": "What will be the output of the following Java program?\n\n        class Output \n        {\n            public static void main(String args[]) \n            {\n                char a[] = {'a', '5', 'A', ' '};   \n                System.out.print(Character.isDigit(a[0]) + \" \");\n                System.out.print(Character.isWhitespace(a[3]) + \" \");\n                System.out.print(Character.isUpperCase(a[2]));\n            }\n        }",
       "options": [
         { "text": "true false true", "correct": false },
-        { "text": "false true true", "correct": false },
-        { "text": "true true false", "correct": true },
+        { "text": "false true true", "correct": true },
+        { "text": "true true false", "correct": false },
         { "text": "false false false", "correct": false }
       ]
     },
@@ -2063,9 +2063,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-4.php?page=3",
       "statement": "What will be the output of the following Java program?\n\n        class Output \n        {\n            public static void main(String args[]) \n            {\n                Long i = new Long(256);  \n                System.out.print(i.hashCode());\n            }\n        }",
       "options": [
-        { "text": "256", "correct": false },
+        { "text": "256", "correct": true },
         { "text": "256.0", "correct": false },
-        { "text": "256.00", "correct": true },
+        { "text": "256.00", "correct": false },
         { "text": "257.00", "correct": false }
       ]
     },
@@ -2075,8 +2075,8 @@
       "statement": "Which of the following method of Process class can terminate a process?",
       "options": [
         { "text": "void kill()", "correct": false },
-        { "text": "void destroy()", "correct": false },
-        { "text": "void exit()", "correct": true },
+        { "text": "void destroy()", "correct": true },
+        { "text": "void exit()", "correct": false },
         { "text": "void terminate()", "correct": false }
       ]
     },
@@ -2098,8 +2098,8 @@
       "options": [
         { "text": "0", "correct": false },
         { "text": "1", "correct": false },
-        { "text": "1000", "correct": true },
-        { "text": "System Dependent", "correct": false }
+        { "text": "1000", "correct": false },
+        { "text": "System Dependent", "correct": true }
       ]
     },
     {
@@ -2107,9 +2107,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-4.php?page=3",
       "statement": "What will be the output of the following Java code?\n\n        class Output \n        {\n            public static void main(String args[]) \n            {\n                byte a[] = { 65, 66, 67, 68, 69, 70 };\n                byte b[] = { 71, 72, 73, 74, 75, 76 };  \n                System.arraycopy(a , 0, b, 0, a.length);\n                System.out.print(new String(a) + \" \" + new String(b));\n            }\n        }",
       "options": [
-        { "text": "ABCDEF ABCDEF", "correct": false },
+        { "text": "ABCDEF ABCDEF", "correct": true },
         { "text": "ABCDEF GHIJKL", "correct": false },
-        { "text": "GHIJKL ABCDEF", "correct": true },
+        { "text": "GHIJKL ABCDEF", "correct": false },
         { "text": "GHIJKL GHIJKL", "correct": false }
       ]
     },
@@ -2118,9 +2118,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-4.php?page=3",
       "statement": "What will be the output of the following Java code?\n\n        class Output \n        {\n            public static void main(String args[]) \n            {\n                byte a[] = { 65, 66, 67, 68, 69, 70 };\n                byte b[] = { 71, 72, 73, 74, 75, 76 };  \n                System.arraycopy(a, 1, b, 3, 0);\n                System.out.print(new String(a) + \" \" + new String(b));\n            }\n        }",
       "options": [
-        { "text": "ABCDEF GHIJKL", "correct": false },
+        { "text": "ABCDEF GHIJKL", "correct": true },
         { "text": "ABCDEF GCDEFL", "correct": false },
-        { "text": "GHIJKL ABCDEF", "correct": true },
+        { "text": "GHIJKL ABCDEF", "correct": false },
         { "text": "GCDEFL GHIJKL", "correct": false }
       ]
     },
@@ -2141,8 +2141,8 @@
       "statement": "What will be the output of the following Java program?\n\n        class exception_handling \n        {\n            public static void main(String args[]) \n            {\n                try \n                {\n                    System.out.print(\"Hello\" + \" \" + 1 / 0);\n                }\n                catch(ArithmeticException e) \n                {\n            \tSystem.out.print(\"World\");        \t\n                }\n            }\n        }",
       "options": [
         { "text": "Hello", "correct": false },
-        { "text": "World", "correct": false },
-        { "text": "HelloWorld", "correct": true },
+        { "text": "World", "correct": true },
+        { "text": "HelloWorld", "correct": false },
         { "text": "None of the above", "correct": false }
       ]
     },
@@ -2153,8 +2153,8 @@
       "options": [
         { "text": "0", "correct": false },
         { "text": "05", "correct": false },
-        { "text": "Runtime Error", "correct": true },
-        { "text": "Compilation Error", "correct": false }
+        { "text": "Runtime Error", "correct": false },
+        { "text": "Compilation Error", "correct": true }
       ]
     },
     {
@@ -2173,9 +2173,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-4.php?page=4",
       "statement": "Which of these exceptions handles the divide by zero error?",
       "options": [
-        { "text": "ArithmeticException", "correct": false },
+        { "text": "ArithmeticException", "correct": true },
         { "text": "MathException", "correct": false },
-        { "text": "IllegarException", "correct": true },
+        { "text": "IllegarException", "correct": false },
         { "text": "IllegalAccessException", "correct": false }
       ]
     },
@@ -2186,8 +2186,8 @@
       "options": [
         { "text": "A", "correct": false },
         { "text": "B", "correct": false },
-        { "text": "Compilation Error", "correct": true },
-        { "text": "Runtime Error", "correct": false }
+        { "text": "Compilation Error", "correct": false },
+        { "text": "Runtime Error", "correct": true }
       ]
     },
     {
@@ -2195,9 +2195,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-4.php?page=4",
       "statement": "Which of these classes is used to define exceptions?",
       "options": [
-        { "text": "Exception", "correct": false },
+        { "text": "Exception", "correct": true },
         { "text": "Throwable", "correct": false },
-        { "text": "Abstract", "correct": true },
+        { "text": "Abstract", "correct": false },
         { "text": "System", "correct": false }
       ]
     },
@@ -2207,8 +2207,8 @@
       "statement": "Which of these methods return description of an exception?",
       "options": [
         { "text": "getException()", "correct": false },
-        { "text": "getMessage()", "correct": false },
-        { "text": "obtainDescription()", "correct": true },
+        { "text": "getMessage()", "correct": true },
+        { "text": "obtainDescription()", "correct": false },
         { "text": "obtainException()", "correct": false }
       ]
     },
@@ -2230,7 +2230,7 @@
       "options": [
         {
           "text": "It’s a process of handling situations when two or more threads need access to a shared resource",
-          "correct": false
+          "correct": true
         },
         {
           "text": "It’s a process by which many thread are able to access same shared resource simultaneously",
@@ -2238,7 +2238,7 @@
         },
         {
           "text": "It’s a process by which a method is able to access many different threads simultaneously",
-          "correct": true
+          "correct": false
         },
         {
           "text": "It’s a method that allow too many threads to access any information require",
@@ -2265,10 +2265,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-4.php?page=5",
       "statement": "How to copy the file from one location to other?",
       "options": [
-        { "text": "Files.copy(source, target)", "correct": false },
+        { "text": "Files.copy(source, target)", "correct": true },
         { "text": "source.copy(target)", "correct": false },
         { "text": "Path.copy(source, target)", "correct": false },
-        { "text": "Files.createCopy(target)", "correct": true }
+        { "text": "Files.createCopy(target)", "correct": false }
       ]
     },
     {
@@ -2278,8 +2278,8 @@
       "options": [
         { "text": "createLink()", "correct": false },
         { "text": "createTempLink()", "correct": false },
-        { "text": "createSymbolicLink()", "correct": false },
-        { "text": "createSymLink()", "correct": true }
+        { "text": "createSymbolicLink()", "correct": true },
+        { "text": "createSymLink()", "correct": false }
       ]
     },
     {
@@ -2316,7 +2316,7 @@
         },
         {
           "text": "public <T1, T2, …, Tn> name<T1, T2, …, Tn> { /\\* … \\*/ }",
-          "correct": false
+          "correct": true
         },
         {
           "text": "<T1, T2, …, Tn> name(T1, T2, …, Tn) { /\\* … \\*/ }",
@@ -2324,7 +2324,7 @@
         },
         {
           "text": "<T1, T2, …, Tn> name{T1, T2, …, Tn} { /\\* … \\*/ }",
-          "correct": true
+          "correct": false
         }
       ]
     },
@@ -2333,10 +2333,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-4.php?page=5",
       "statement": "Which of the following allows us to call generic methods as a normal method?",
       "options": [
-        { "text": "Type Interface", "correct": false },
+        { "text": "Type Interface", "correct": true },
         { "text": "Interface", "correct": false },
         { "text": "Inner class", "correct": false },
-        { "text": "All of the mentioned", "correct": true }
+        { "text": "All of the mentioned", "correct": false }
       ]
     },
     {
@@ -2347,7 +2347,7 @@
         { "text": "It is used to make code more readable", "correct": false },
         {
           "text": "It is used in cases when type being operated upon is not known",
-          "correct": false
+          "correct": true
         },
         {
           "text": "It is used to access members of super class",
@@ -2355,7 +2355,7 @@
         },
         {
           "text": "It is used for type argument of generic method",
-          "correct": true
+          "correct": false
         }
       ]
     },
@@ -2364,10 +2364,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-4.php?page=5",
       "statement": "Which of these is an correct way making a list that is upper bounded by class Number?",
       "options": [
-        { "text": "List`<? extends Number>`", "correct": false },
+        { "text": "List`<? extends Number>`", "correct": true },
         { "text": "List`<extends ? Number>`", "correct": false },
         { "text": "List(? extends Number)", "correct": false },
-        { "text": "List(? UpperBounds Number)", "correct": true }
+        { "text": "List(? UpperBounds Number)", "correct": false }
       ]
     },
     {
@@ -2377,8 +2377,8 @@
       "options": [
         { "text": "5.0", "correct": false },
         { "text": "6.0", "correct": false },
-        { "text": "7.0", "correct": false },
-        { "text": "8.0", "correct": true }
+        { "text": "7.0", "correct": true },
+        { "text": "8.0", "correct": false }
       ]
     },
     {
@@ -2386,7 +2386,7 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-4.php?page=5",
       "statement": "Which of the following is not true about Java beans?",
       "options": [
-        { "text": "Extends java.io.Serializable class", "correct": false },
+        { "text": "Extends java.io.Serializable class", "correct": true },
         { "text": "Provides no argument constructor", "correct": false },
         {
           "text": "Implements java.io.Serializable interface",
@@ -2394,7 +2394,7 @@
         },
         {
           "text": "Provides setter and getter methods for its properties",
-          "correct": true
+          "correct": false
         }
       ]
     },
@@ -2414,9 +2414,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-5.php?page=1",
       "statement": "What class must an inner class extend ?",
       "options": [
-        { "text": "Any class or interface", "correct": false },
+        { "text": "Any class or interface", "correct": true },
         { "text": "The Object class", "correct": false },
-        { "text": "It must extend an interface", "correct": true },
+        { "text": "It must extend an interface", "correct": false },
         { "text": "The top level class", "correct": false }
       ]
     },
@@ -2439,11 +2439,11 @@
         { "text": "Public or private superclass member", "correct": false },
         {
           "text": "Public superclass member (and protected subclass members if it's in the same package)",
-          "correct": false
+          "correct": true
         },
         {
           "text": "Protected, public or private superclass member",
-          "correct": true
+          "correct": false
         },
         { "text": "Private superclass member", "correct": false }
       ]
@@ -2453,14 +2453,14 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-5.php?page=1",
       "statement": "What's the difference between an Applet and an application ?",
       "options": [
-        { "text": "Applets are run over the web.", "correct": false },
+        { "text": "Applets are run over the web.", "correct": true },
         {
           "text": "Applets can paint words, applications cannot.",
           "correct": false
         },
         {
           "text": "An application is only available on Windows",
-          "correct": true
+          "correct": false
         },
         { "text": "None of the above.", "correct": false }
       ]
@@ -2476,9 +2476,9 @@
         },
         {
           "text": "Create an instance of a class (an object)",
-          "correct": false
+          "correct": true
         },
-        { "text": "Create names for methods", "correct": true },
+        { "text": "Create names for methods", "correct": false },
         { "text": "None of the above", "correct": false }
       ]
     },
@@ -2506,8 +2506,8 @@
       "options": [
         { "text": "Java.Lang.Exception", "correct": false },
         { "text": "Java.throwable", "correct": false },
-        { "text": "Java.Lang.throwables", "correct": true },
-        { "text": "Java.Lang.throwable", "correct": false }
+        { "text": "Java.Lang.throwables", "correct": false },
+        { "text": "Java.Lang.throwable", "correct": true }
       ]
     },
     {
@@ -2516,8 +2516,8 @@
       "statement": "Environment variable that stores the location of bin folder",
       "options": [
         { "text": "BIN", "correct": false },
-        { "text": "PATH", "correct": false },
-        { "text": "PATHS", "correct": true },
+        { "text": "PATH", "correct": true },
+        { "text": "PATHS", "correct": false },
         { "text": "CLASSPATHS", "correct": false }
       ]
     },
@@ -2526,9 +2526,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-5.php?page=1",
       "statement": "What will be printed?\n\n    double value = 2 / 3;\n    System.out.println(value);",
       "options": [
-        { "text": "0.0", "correct": false },
+        { "text": "0.0", "correct": true },
         { "text": "0.6666666666666666", "correct": false },
-        { "text": "1", "correct": true },
+        { "text": "1", "correct": false },
         { "text": "1.0", "correct": false }
       ]
     },
@@ -2549,9 +2549,9 @@
       "statement": "What will be the output of the following Java code?\n\n        class bool_operator \n        {\n            public static void main(String args[]) \n            {    \n                 boolean a = true;\n                 boolean b = !true;\n                 boolean c = a | b;\n     \t     boolean d = a & b;\n                 boolean e = d ? b : c;\n                 System.out.println(d + \" \" + e);\n            } \n        }",
       "options": [
         { "text": "false false", "correct": false },
-        { "text": "false true", "correct": false },
+        { "text": "false true", "correct": true },
         { "text": "true false", "correct": false },
-        { "text": "true ture", "correct": true }
+        { "text": "true ture", "correct": false }
       ]
     },
     {
@@ -2560,11 +2560,11 @@
       "statement": "What will be the output of the following Java code?\n\n        class Output \n        {\n            public static void main(String args[]) \n            {    \n                 int x , y = 1;\n                 x = 10;\n                 if (x != 10 && x / 0 == 0)\n                     System.out.println(y);\n                 else\n                     System.out.println(++y);\n            } \n        }",
       "options": [
         { "text": "1", "correct": false },
-        { "text": "2", "correct": false },
+        { "text": "2", "correct": true },
         { "text": "Unpredictable behavior of program", "correct": false },
         {
           "text": "Runtime error owing to division by zero in if condition",
-          "correct": true
+          "correct": false
         }
       ]
     },
@@ -2574,9 +2574,9 @@
       "statement": "What should be expression1 evaluate to in using ternary operator as in this line?\n\n     expression1 ?  expression2  :  expression3",
       "options": [
         { "text": "Integer", "correct": false },
-        { "text": "Boolean", "correct": false },
+        { "text": "Boolean", "correct": true },
         { "text": "Floating – point numbers", "correct": false },
-        { "text": "None of the above", "correct": true }
+        { "text": "None of the above", "correct": false }
       ]
     },
     {
@@ -2586,8 +2586,8 @@
       "options": [
         { "text": "0", "correct": false },
         { "text": "1", "correct": false },
-        { "text": "8", "correct": false },
-        { "text": "9", "correct": true }
+        { "text": "8", "correct": true },
+        { "text": "9", "correct": false }
       ]
     },
     {
@@ -2607,9 +2607,9 @@
       "statement": "Which of these selection statements test only for equality?",
       "options": [
         { "text": "if", "correct": false },
-        { "text": "switch", "correct": false },
+        { "text": "switch", "correct": true },
         { "text": "if & switch", "correct": false },
-        { "text": "None of the above", "correct": true }
+        { "text": "None of the above", "correct": false }
       ]
     },
     {
@@ -2619,8 +2619,8 @@
       "options": [
         { "text": "break", "correct": false },
         { "text": "return", "correct": false },
-        { "text": "continue", "correct": false },
-        { "text": "exit", "correct": true }
+        { "text": "continue", "correct": true },
+        { "text": "exit", "correct": false }
       ]
     },
     {
@@ -2629,9 +2629,9 @@
       "statement": "What will be the output of the following Java program?\n\n        class comma_operator \n        {\n            public static void main(String args[]) \n            {    \n                 int sum = 0;\n                 for (int i = 0, j = 0; i < 5 & j < 5; ++i, j = i + 1)\n                     sum += i;\n     \t     System.out.println(sum);\n            } \n        }",
       "options": [
         { "text": "5", "correct": false },
-        { "text": "6", "correct": false },
+        { "text": "6", "correct": true },
         { "text": "14", "correct": false },
-        { "text": "compilation error", "correct": true }
+        { "text": "compilation error", "correct": false }
       ]
     },
     {
@@ -2662,9 +2662,9 @@
       "statement": "What is the value of double consonant ‘E’ defined in Math class?",
       "options": [
         { "text": "approximately 0", "correct": false },
-        { "text": "approximately 2.72", "correct": false },
+        { "text": "approximately 2.72", "correct": true },
         { "text": "approximately 3", "correct": false },
-        { "text": "approximately 3.14", "correct": true }
+        { "text": "approximately 3.14", "correct": false }
       ]
     },
     {
@@ -2674,8 +2674,8 @@
       "options": [
         { "text": "2", "correct": false },
         { "text": "2.5", "correct": false },
-        { "text": "3", "correct": false },
-        { "text": "4", "correct": true }
+        { "text": "3", "correct": true },
+        { "text": "4", "correct": false }
       ]
     },
     {
@@ -2684,9 +2684,9 @@
       "statement": "What will be the output of the following Java program?\n\n        class Output \n        {\n             public static void main(String args[]) \n             {\n                 int x = 3.14;  \n                 int y = (int) Math.abs(x);\n                 System.out.print(y);\n             }\n        }",
       "options": [
         { "text": "0", "correct": false },
-        { "text": "3", "correct": false },
+        { "text": "3", "correct": true },
         { "text": "3.0", "correct": false },
-        { "text": "3.1", "correct": true }
+        { "text": "3.1", "correct": false }
       ]
     },
     {
@@ -2707,8 +2707,8 @@
       "options": [
         { "text": "2.0", "correct": false },
         { "text": "4.0", "correct": false },
-        { "text": "8.0", "correct": false },
-        { "text": "9.0", "correct": true }
+        { "text": "8.0", "correct": true },
+        { "text": "9.0", "correct": false }
       ]
     },
     {
@@ -2716,10 +2716,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-5.php?page=3",
       "statement": "Which of these methods initiates garbage collection?",
       "options": [
-        { "text": "gc()", "correct": false },
+        { "text": "gc()", "correct": true },
         { "text": "garbage()", "correct": false },
         { "text": "garbagecollection()", "correct": false },
-        { "text": "Systemgarbagecollection()", "correct": true }
+        { "text": "Systemgarbagecollection()", "correct": false }
       ]
     },
     {
@@ -2727,10 +2727,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-5.php?page=3",
       "statement": "Which of these methods loads the specified dynamic library?",
       "options": [
-        { "text": "load()", "correct": false },
+        { "text": "load()", "correct": true },
         { "text": "loadlib()", "correct": false },
         { "text": "library()", "correct": false },
-        { "text": "loadlibrary()", "correct": true }
+        { "text": "loadlibrary()", "correct": false }
       ]
     },
     {
@@ -2750,9 +2750,9 @@
       "statement": "Which of the following methods return the value as a double?",
       "options": [
         { "text": "getDouble()", "correct": false },
-        { "text": "doubleValue()", "correct": false },
+        { "text": "doubleValue()", "correct": true },
         { "text": "converDouble()", "correct": false },
-        { "text": "getDoubleValue()", "correct": true }
+        { "text": "getDoubleValue()", "correct": false }
       ]
     },
     {
@@ -2772,9 +2772,9 @@
       "statement": "Which of these method is used to implement Runnable interface?",
       "options": [
         { "text": "stop()", "correct": false },
-        { "text": "run()", "correct": false },
+        { "text": "run()", "correct": true },
         { "text": "runThread()", "correct": false },
-        { "text": "stopThread()", "correct": true }
+        { "text": "stopThread()", "correct": false }
       ]
     },
     {
@@ -2806,9 +2806,9 @@
       "statement": "What will be the output of the following Java code?\n\n        class newthread implements Runnable\n        {\n    \tThread t;\n    \tnewthread()\n            {\n    \t    t = new Thread(this,\"My Thread\");\n    \t    t.start();\n    \t}\n    \tpublic void run()\n            {\n    \t    System.out.println(t);\n    \t}\n        }\n        class multithreaded_programing\n        {\n            public static void main(String args[])\n            {\n                new newthread();        \n            }\n        }",
       "options": [
         { "text": "My Thread", "correct": false },
-        { "text": "Thread\\[My Thread,5,main\\]", "correct": false },
+        { "text": "Thread\\[My Thread,5,main\\]", "correct": true },
         { "text": "Runtime Error", "correct": false },
-        { "text": "Compilation Error", "correct": true }
+        { "text": "Compilation Error", "correct": false }
       ]
     },
     {
@@ -2829,8 +2829,8 @@
       "options": [
         { "text": "get()", "correct": false },
         { "text": "ThreadPriority()", "correct": false },
-        { "text": "getPriority()", "correct": false },
-        { "text": "getThreadPriority()", "correct": true }
+        { "text": "getPriority()", "correct": true },
+        { "text": "getThreadPriority()", "correct": false }
       ]
     },
     {
@@ -2838,10 +2838,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-5.php?page=4",
       "statement": "Which function of pre defined class Thread is used to check weather current thread being checked is still running?",
       "options": [
-        { "text": "isAlive()", "correct": false },
+        { "text": "isAlive()", "correct": true },
         { "text": "Alive()", "correct": false },
         { "text": "Join()", "correct": false },
-        { "text": "isRunning()", "correct": true }
+        { "text": "isRunning()", "correct": false }
       ]
     },
     {
@@ -2866,7 +2866,7 @@
         },
         {
           "text": "It’s a process in which two or more parts of same process run simultaneously",
-          "correct": false
+          "correct": true
         },
         {
           "text": "It’s a process in which many different process are able to access same information",
@@ -2874,7 +2874,7 @@
         },
         {
           "text": "It’s a process in which a single process can access information from many sources",
-          "correct": true
+          "correct": false
         }
       ]
     },
@@ -2906,8 +2906,8 @@
       "statement": "Which attribute is used to specify destroy method?",
       "options": [
         { "text": "destroy", "correct": false },
-        { "text": "destroy-method", "correct": false },
-        { "text": "destruction", "correct": true },
+        { "text": "destroy-method", "correct": true },
+        { "text": "destruction", "correct": false },
         { "text": "destruction-method", "correct": false }
       ]
     },
@@ -2916,9 +2916,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-5.php?page=5",
       "statement": "Which of the following is advantage of using PreparedStatement in Java?",
       "options": [
-        { "text": "Prevents SQL injection", "correct": false },
+        { "text": "Prevents SQL injection", "correct": true },
         { "text": "Slow performance", "correct": false },
-        { "text": "Encourages SQL injection", "correct": true },
+        { "text": "Encourages SQL injection", "correct": false },
         { "text": "More memory usage", "correct": false }
       ]
     },
@@ -2929,8 +2929,8 @@
       "options": [
         { "text": "java.io.Time", "correct": false },
         { "text": "java.io.TimeStamp", "correct": false },
-        { "text": "java.sql.Time", "correct": true },
-        { "text": "java.sql.TimeStamp", "correct": false }
+        { "text": "java.sql.Time", "correct": false },
+        { "text": "java.sql.TimeStamp", "correct": true }
       ]
     },
     {
@@ -2938,9 +2938,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-5.php?page=5",
       "statement": "Which of the following is used to limit the number of rows returned?",
       "options": [
-        { "text": "setMaxRows(int i)", "correct": false },
+        { "text": "setMaxRows(int i)", "correct": true },
         { "text": "setMinRows(int i)", "correct": false },
-        { "text": "getMaxrows(int i)", "correct": true },
+        { "text": "getMaxrows(int i)", "correct": false },
         { "text": "getMinRows(int i)", "correct": false }
       ]
     },
@@ -2950,8 +2950,8 @@
       "statement": "Which of the following is not a JDBC connection isolation levels?",
       "options": [
         { "text": "TRANSACTION\\_REPEATABLE\\_READ", "correct": false },
-        { "text": "TRANSACTION\\_NONREPEATABLE\\_READ", "correct": false },
-        { "text": "TRANSACTION\\_READ\\_COMMITTED", "correct": true },
+        { "text": "TRANSACTION\\_NONREPEATABLE\\_READ", "correct": true },
+        { "text": "TRANSACTION\\_READ\\_COMMITTED", "correct": false },
         { "text": "TRANSACTION\\_NONE", "correct": false }
       ]
     },
@@ -2960,9 +2960,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-5.php?page=5",
       "statement": "How can we move from one desired step to another step?",
       "options": [
-        { "text": "breakpoints", "correct": false },
+        { "text": "breakpoints", "correct": true },
         { "text": "logger.log", "correct": false },
-        { "text": "System.out.println", "correct": true },
+        { "text": "System.out.println", "correct": false },
         { "text": "logger.error", "correct": false }
       ]
     },
@@ -2982,9 +2982,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-5.php?page=5",
       "statement": "How does eclipse provide the capability for debugging browser actions?",
       "options": [
-        { "text": "internal web browser", "correct": false },
+        { "text": "internal web browser", "correct": true },
         { "text": "chrome web browser", "correct": false },
-        { "text": "firefox web browser", "correct": true },
+        { "text": "firefox web browser", "correct": false },
         { "text": "internet explorer browser", "correct": false }
       ]
     },
@@ -2995,8 +2995,8 @@
       "options": [
         { "text": "client", "correct": false },
         { "text": "applet", "correct": false },
-        { "text": "tomcat", "correct": true },
-        { "text": "server", "correct": false }
+        { "text": "tomcat", "correct": false },
+        { "text": "server", "correct": true }
       ]
     },
     {
@@ -3026,11 +3026,11 @@
       "options": [
         {
           "text": "A Java program that does not run through a web browser",
-          "correct": true
+          "correct": false
         },
         {
           "text": "A Java program that is run through a web browser",
-          "correct": false
+          "correct": true
         },
         { "text": "An object-oriented programming language", "correct": false },
         { "text": "An interactive website", "correct": false }
@@ -3043,11 +3043,11 @@
       "options": [
         {
           "text": "The overloaded method must be declared in the parent class",
-          "correct": true
+          "correct": false
         },
         {
           "text": "Multiple methods in same class, same name and return type, different parameters",
-          "correct": false
+          "correct": true
         },
         {
           "text": "Method name, return type and paramters must be all same",
@@ -3064,11 +3064,11 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-6.php?page=1",
       "statement": "What is the main function of any variable ?",
       "options": [
-        { "text": "To add numbers together", "correct": true },
+        { "text": "To add numbers together", "correct": false },
         { "text": "To write Java codes", "correct": false },
         {
           "text": "To keep track of data in the memory of the computer",
-          "correct": false
+          "correct": true
         },
         { "text": "To print words on the screen", "correct": false }
       ]
@@ -3078,8 +3078,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-6.php?page=1",
       "statement": "What is the replacement of joda time library in java 8?",
       "options": [
-        { "text": "java.date (JSR-310)", "correct": true },
-        { "text": "java.time (JSR-310)", "correct": false },
+        { "text": "java.date (JSR-310)", "correct": false },
+        { "text": "java.time (JSR-310)", "correct": true },
         { "text": "java.joda", "correct": false },
         { "text": "java.jodaTime", "correct": false }
       ]
@@ -3089,10 +3089,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-6.php?page=1",
       "statement": "What will be printed?\n\n    int i = 255;\n    byte b = (byte) i;\n    System.out.println(b);",
       "options": [
-        { "text": "255", "correct": true },
+        { "text": "255", "correct": false },
         { "text": "\\-255", "correct": false },
         { "text": "NaN", "correct": false },
-        { "text": "\\-1", "correct": false }
+        { "text": "\\-1", "correct": true }
       ]
     },
     {
@@ -3111,9 +3111,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-6.php?page=1",
       "statement": "What is the output of this program?\n\n    class average {\n            public static void main(String args[])\n            {\n                double num[] = {5.5, 10.1, 11, 12.8, 56.9, 2.5};\n                double result;\n                result = 0;\n                for (int i = 0; i < 6; ++i) \n                    result = result + num[i];\n    \t    System.out.print(result/6);\n     \n            } \n        }​",
       "options": [
-        { "text": "16.34", "correct": true },
+        { "text": "16.34", "correct": false },
         { "text": "16.566666644", "correct": false },
-        { "text": "16.46666666666667", "correct": false },
+        { "text": "16.46666666666667", "correct": true },
         { "text": "16.46666666666666", "correct": false }
       ]
     },
@@ -3122,10 +3122,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-6.php?page=1",
       "statement": "What will be the output of the program?\n\n    class Bitwise \n    {\n        public static void main(String [] args) \n        {\n            int x = 11 & 9;\n            int y = x ^ 3;\n            System.out.println( y | 12 );\n        }\n    }​",
       "options": [
-        { "text": "0", "correct": true },
+        { "text": "0", "correct": false },
         { "text": "7", "correct": false },
         { "text": "8", "correct": false },
-        { "text": "14", "correct": false }
+        { "text": "14", "correct": true }
       ]
     },
     {
@@ -3133,9 +3133,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-6.php?page=1",
       "statement": "Which class can access all public and protected methods and fields of its super class?",
       "options": [
-        { "text": "Inner class", "correct": true },
+        { "text": "Inner class", "correct": false },
         { "text": "outer class", "correct": false },
-        { "text": "sub-class", "correct": false },
+        { "text": "sub-class", "correct": true },
         { "text": "None of the above", "correct": false }
       ]
     },
@@ -3168,9 +3168,9 @@
       "statement": "What is the valid data type for variable “a” to print “Hello World”?\n\n    switch(a)\n    {\n       System.out.println(\"Hello World\");\n    }",
       "options": [
         { "text": "int and float", "correct": false },
-        { "text": "byte and short", "correct": true },
+        { "text": "byte and short", "correct": false },
         { "text": "char and long", "correct": false },
-        { "text": "byte and char", "correct": false }
+        { "text": "byte and char", "correct": true }
       ]
     },
     {
@@ -3179,8 +3179,8 @@
       "statement": "From where break statement causes an exit?",
       "options": [
         { "text": "Terminates a program", "correct": false },
-        { "text": "Only from innermost loop", "correct": true },
-        { "text": "From innermost loops or switches", "correct": false },
+        { "text": "Only from innermost loop", "correct": false },
+        { "text": "From innermost loops or switches", "correct": true },
         { "text": "Only from innermost switch", "correct": false }
       ]
     },
@@ -3190,9 +3190,9 @@
       "statement": "Which of the following is not OOPS concept in Java?",
       "options": [
         { "text": "Inheritance", "correct": false },
-        { "text": "Encapsulation", "correct": true },
+        { "text": "Encapsulation", "correct": false },
         { "text": "Polymorphism", "correct": false },
-        { "text": "Compilation", "correct": false }
+        { "text": "Compilation", "correct": true }
       ]
     },
     {
@@ -3200,8 +3200,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-6.php?page=2",
       "statement": "Which of the following is a type of polymorphism in Java?",
       "options": [
-        { "text": "Compile time polymorphism", "correct": false },
-        { "text": "Multiple polymorphism", "correct": true },
+        { "text": "Compile time polymorphism", "correct": true },
+        { "text": "Multiple polymorphism", "correct": false },
         { "text": "Multilevel polymorphism", "correct": false },
         { "text": "Execution time polymorphism", "correct": false }
       ]
@@ -3212,8 +3212,8 @@
       "statement": "Which concept of Java is a way of converting real world objects in terms of class?",
       "options": [
         { "text": "Polymorphism", "correct": false },
-        { "text": "Encapsulation", "correct": true },
-        { "text": "Abstraction", "correct": false },
+        { "text": "Encapsulation", "correct": false },
+        { "text": "Abstraction", "correct": true },
         { "text": "Inheritance", "correct": false }
       ]
     },
@@ -3222,8 +3222,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-6.php?page=2",
       "statement": "What is it called where object has its own lifecycle and child object cannot belong to another parent object?",
       "options": [
-        { "text": "Aggregation", "correct": false },
-        { "text": "Composition", "correct": true },
+        { "text": "Aggregation", "correct": true },
+        { "text": "Composition", "correct": false },
         { "text": "Encapsulation", "correct": false },
         { "text": "Association", "correct": false }
       ]
@@ -3245,9 +3245,9 @@
       "statement": "Which component is responsible to run java program?",
       "options": [
         { "text": "JVM", "correct": false },
-        { "text": "JDK", "correct": true },
+        { "text": "JDK", "correct": false },
         { "text": "JIT", "correct": false },
-        { "text": "JRE", "correct": false }
+        { "text": "JRE", "correct": true }
       ]
     },
     {
@@ -3255,8 +3255,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-6.php?page=2",
       "statement": "What is the extension of compiled java classes?",
       "options": [
-        { "text": ".class", "correct": false },
-        { "text": ".java", "correct": true },
+        { "text": ".class", "correct": true },
+        { "text": ".java", "correct": false },
         { "text": ".txt", "correct": false },
         { "text": ".js", "correct": false }
       ]
@@ -3278,8 +3278,8 @@
       "statement": "What will be the output of the following Java code?\n\n        class Output\n        {\n            public static void main(String args[])\n            {\n    \t    Double i = new Double(257.578123456789);  \n                float x = i.floatValue();\n                System.out.print(x);\n            }\n        }",
       "options": [
         { "text": "0", "correct": false },
-        { "text": "257.0", "correct": true },
-        { "text": "257.57812", "correct": false },
+        { "text": "257.0", "correct": false },
+        { "text": "257.57812", "correct": true },
         { "text": "257.578123456789", "correct": false }
       ]
     },
@@ -3300,8 +3300,8 @@
       "statement": "Which of these method(s) is/are used for writing bytes to an outputstream?",
       "options": [
         { "text": "put()", "correct": false },
-        { "text": "printf()", "correct": true },
-        { "text": "print() and write()", "correct": false },
+        { "text": "printf()", "correct": false },
+        { "text": "print() and write()", "correct": true },
         { "text": "write() and read()", "correct": false }
       ]
     },
@@ -3311,8 +3311,8 @@
       "statement": "What will be the output of the following Java program? (Note: inputoutput.java is stored in the disk.)\n\n        import java.io.*;\n        class filesinputoutput \n        {\n            public static void main(String args[]) \n            {\n                InputStream obj = new FileInputStream(\"inputoutput.java\");\n                System.out.print(obj.available());\n            }\n        }",
       "options": [
         { "text": "true", "correct": false },
-        { "text": "false", "correct": true },
-        { "text": "prints number of bytes in file", "correct": false },
+        { "text": "false", "correct": false },
+        { "text": "prints number of bytes in file", "correct": true },
         { "text": "prints number of characters in the file", "correct": false }
       ]
     },
@@ -3321,8 +3321,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-6.php?page=3",
       "statement": "Which of these stream contains the classes which can work on character stream?",
       "options": [
-        { "text": "Character Stream", "correct": false },
-        { "text": "InputStream", "correct": true },
+        { "text": "Character Stream", "correct": true },
+        { "text": "InputStream", "correct": false },
         { "text": "OutputStream", "correct": false },
         { "text": "All of the above", "correct": false }
       ]
@@ -3333,9 +3333,9 @@
       "statement": "Which of these class can be used to implement the input stream that uses a character array as the source?",
       "options": [
         { "text": "BufferedReader", "correct": false },
-        { "text": "FileReader", "correct": true },
+        { "text": "FileReader", "correct": false },
         { "text": "FileArrayReader", "correct": false },
-        { "text": "CharArrayReader", "correct": false }
+        { "text": "CharArrayReader", "correct": true }
       ]
     },
     {
@@ -3355,9 +3355,9 @@
       "statement": "Where is String Pool stored?",
       "options": [
         { "text": "Java Stack", "correct": false },
-        { "text": "Metaspace", "correct": true },
+        { "text": "Metaspace", "correct": false },
         { "text": "Permanent Generation", "correct": false },
-        { "text": "Java Heap", "correct": false }
+        { "text": "Java Heap", "correct": true }
       ]
     },
     {
@@ -3366,8 +3366,8 @@
       "statement": "Which of these exceptions handles the situations when an illegal argument is used to invoke a method?",
       "options": [
         { "text": "IllegalException", "correct": false },
-        { "text": "Argument Exception", "correct": true },
-        { "text": "IllegalArgumentException", "correct": false },
+        { "text": "Argument Exception", "correct": false },
+        { "text": "IllegalArgumentException", "correct": true },
         { "text": "IllegalMethodArgumentExcepetion", "correct": false }
       ]
     },
@@ -3387,9 +3387,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-6.php?page=4",
       "statement": "Which of these method wakes up all the threads?",
       "options": [
-        { "text": "start()", "correct": true },
+        { "text": "start()", "correct": false },
         { "text": "notify()", "correct": false },
-        { "text": "notifyAll()", "correct": false },
+        { "text": "notifyAll()", "correct": true },
         { "text": "wakeAll()", "correct": false }
       ]
     },
@@ -3398,9 +3398,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-6.php?page=4",
       "statement": "What does AWT stands for?",
       "options": [
-        { "text": "All Window Tools", "correct": true },
+        { "text": "All Window Tools", "correct": false },
         { "text": "All Writing Tools", "correct": false },
-        { "text": "Abstract Window Toolkit", "correct": false },
+        { "text": "Abstract Window Toolkit", "correct": true },
         { "text": "Abstract Writing Toolkit", "correct": false }
       ]
     },
@@ -3409,8 +3409,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-6.php?page=4",
       "statement": "Which of these classes are used by Byte streams for input and output operation?",
       "options": [
-        { "text": "Reader", "correct": true },
-        { "text": "InputStream", "correct": false },
+        { "text": "Reader", "correct": false },
+        { "text": "InputStream", "correct": true },
         { "text": "InputOutputStream", "correct": false },
         { "text": "All of the above", "correct": false }
       ]
@@ -3420,10 +3420,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-6.php?page=4",
       "statement": "Which of these class is used to read from byte array?",
       "options": [
-        { "text": "InputStream", "correct": true },
+        { "text": "InputStream", "correct": false },
         { "text": "BufferedInputStream", "correct": false },
         { "text": "ArrayInputStream", "correct": false },
-        { "text": "ByteArrayInputStream", "correct": false }
+        { "text": "ByteArrayInputStream", "correct": true }
       ]
     },
     {
@@ -3442,8 +3442,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-6.php?page=4",
       "statement": "What will be the output of the following Java program?\n\n        class output\n        {\n            public static void main(String args[])\n            { \n                 StringBuffer c = new StringBuffer(\"Hello\");\n                 System.out.println(c.length());\n            }\n        }",
       "options": [
-        { "text": "4", "correct": true },
-        { "text": "5", "correct": false },
+        { "text": "4", "correct": false },
+        { "text": "5", "correct": true },
         { "text": "6", "correct": false },
         { "text": "7", "correct": false }
       ]
@@ -3453,9 +3453,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-6.php?page=4",
       "statement": "Which of these methods can be used to output a string in an applet?",
       "options": [
-        { "text": "print()", "correct": true },
+        { "text": "print()", "correct": false },
         { "text": "display()", "correct": false },
-        { "text": "drawString()", "correct": false },
+        { "text": "drawString()", "correct": true },
         { "text": "transient()", "correct": false }
       ]
     },
@@ -3503,9 +3503,9 @@
         },
         {
           "text": "Multipurpose Internet Messaging Extension",
-          "correct": false
+          "correct": true
         },
-        { "text": "Multipurpose Internet Media Extension", "correct": true },
+        { "text": "Multipurpose Internet Media Extension", "correct": false },
         { "text": "Multipurpose Internet Mass Extension", "correct": false }
       ]
     },
@@ -3516,8 +3516,8 @@
       "options": [
         { "text": "HTTP", "correct": false },
         { "text": "HTTPS", "correct": false },
-        { "text": "FTP", "correct": true },
-        { "text": "HTTP Tunneling", "correct": false }
+        { "text": "FTP", "correct": false },
+        { "text": "HTTP Tunneling", "correct": true }
       ]
     },
     {
@@ -3556,9 +3556,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-6.php?page=5",
       "statement": "What happens if IP Address of host cannot be determined?",
       "options": [
-        { "text": "UnknownHostException is thrown", "correct": false },
+        { "text": "UnknownHostException is thrown", "correct": true },
         { "text": "The system exit with no message", "correct": false },
-        { "text": "Temporary IP Address is assigned", "correct": true },
+        { "text": "Temporary IP Address is assigned", "correct": false },
         { "text": "IOException is thrown", "correct": false }
       ]
     },
@@ -3568,8 +3568,8 @@
       "statement": "What is the java method for ping?",
       "options": [
         { "text": "ping()", "correct": false },
-        { "text": "isReachable()", "correct": false },
-        { "text": "portBusy()", "correct": true },
+        { "text": "isReachable()", "correct": true },
+        { "text": "portBusy()", "correct": false },
         { "text": "hostReachable()", "correct": false }
       ]
     },
@@ -3580,8 +3580,8 @@
       "options": [
         { "text": "Initialization", "correct": false },
         { "text": "Constructor function", "correct": false },
-        { "text": "Setup() method", "correct": true },
-        { "text": "Initialization and Constructor function", "correct": false }
+        { "text": "Setup() method", "correct": false },
+        { "text": "Initialization and Constructor function", "correct": true }
       ]
     },
     {
@@ -3589,9 +3589,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-6.php?page=5",
       "statement": "Which of the following code is used to get an attribute in a HTTP Session object in servlets?",
       "options": [
-        { "text": "session.getAttribute(String name)", "correct": false },
+        { "text": "session.getAttribute(String name)", "correct": true },
         { "text": "session.alterAttribute(String name)", "correct": false },
-        { "text": "session.updateAttribute(String name)", "correct": true },
+        { "text": "session.updateAttribute(String name)", "correct": false },
         { "text": "session.setAttribute(String name)", "correct": false }
       ]
     },
@@ -3606,11 +3606,11 @@
         },
         {
           "text": "The destroy() method is called only once at the end of the life cycle of a filter",
-          "correct": false
+          "correct": true
         },
         {
           "text": "The destroyer() method is called after the filter has executed",
-          "correct": true
+          "correct": false
         },
         {
           "text": "The destroy() method is called only once at the begining of the life cycle of a filter",
@@ -3632,12 +3632,12 @@
     {
       "type": "MCQ",
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-7.php?page=1",
-      "statement": "What will be the output of following piece of code? ? \n\n    public class operatorExample { \n        public static void main(String args[]) { \n        int x=4; System.out.println(x++);\n        }\n     }\n    ​",
+      "statement": "What will be the output of following piece of code? ? \n\n    public class operatorExample { \n        public static void main(String args[]) { \n        int x=4; System.out.println(x++);\n        }\n     }\n    ​",
       "options": [
-        { "text": "output=0", "correct": true },
+        { "text": "output=0", "correct": false },
         { "text": "output=6", "correct": false },
-        { "text": " output=5", "correct": false },
-        { "text": "output=4", "correct": false }
+        { "text": " output=5", "correct": false },
+        { "text": "output=4", "correct": true }
       ]
     },
     {
@@ -3656,9 +3656,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-7.php?page=1",
       "statement": "Which Keyword is used If a class has multiple constructors defined,it's possible to call a constructor from another constructor’s body?",
       "options": [
-        { "text": "super()", "correct": true },
+        { "text": "super()", "correct": false },
         { "text": "constant()", "correct": false },
-        { "text": "this()", "correct": false },
+        { "text": "this()", "correct": true },
         { "text": "None of the above", "correct": false }
       ]
     },
@@ -3678,9 +3678,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-7.php?page=1",
       "statement": "What will be printed?  \n\n    int a = 1;\n    a += ++a * a;\n    System.out.println(a);​",
       "options": [
-        { "text": "2", "correct": true },
+        { "text": "2", "correct": false },
         { "text": "4", "correct": false },
-        { "text": "5", "correct": false },
+        { "text": "5", "correct": true },
         { "text": "6", "correct": false }
       ]
     },
@@ -3689,8 +3689,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-7.php?page=1",
       "statement": "Which of the following is true?\n\n    public final class Main {\n    \n      static final String s = \"hello\";\n    \n      public void main(String[] args) {\n        System.out.println(s);\n      }\n    \n    }",
       "options": [
-        { "text": "The code will print \"hello\"", "correct": true },
-        { "text": "The code will fail at run time", "correct": false },
+        { "text": "The code will print \"hello\"", "correct": false },
+        { "text": "The code will fail at run time", "correct": true },
         { "text": "The code won't compile", "correct": false },
         { "text": "None of the above", "correct": false }
       ]
@@ -3702,7 +3702,7 @@
       "options": [
         {
           "text": "In both methods can only be declared but can not have a definition",
-          "correct": true
+          "correct": false
         },
         {
           "text": "Abstract Classes can only have declared methods, Interfaces can have definitions",
@@ -3714,7 +3714,7 @@
         },
         {
           "text": "Abstract classes can define methods but Interfaces can only delcare methods",
-          "correct": false
+          "correct": true
         }
       ]
     },
@@ -3723,9 +3723,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-7.php?page=1",
       "statement": "What is the output of the following code?\n\n    String x = \"John Doe\";\n    System.out.println(\"'\"+x.substring(5)+\"'\");",
       "options": [
-        { "text": " 'John'", "correct": true },
+        { "text": " 'John'", "correct": false },
         { "text": "' Doe'", "correct": false },
-        { "text": "'Doe'", "correct": false },
+        { "text": "'Doe'", "correct": true },
         { "text": "None of the above", "correct": false }
       ]
     },
@@ -3734,10 +3734,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-7.php?page=1",
       "statement": "What gets printed?\n\n    String a = \"Hello\";\n    String b = \" Hello \";\n    System.out.println(a.equals(b));",
       "options": [
-        { "text": "1", "correct": true },
+        { "text": "1", "correct": false },
         { "text": "0", "correct": false },
         { "text": "true", "correct": false },
-        { "text": "false", "correct": false }
+        { "text": "false", "correct": true }
       ]
     },
     {
@@ -3762,14 +3762,14 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-7.php?page=2",
       "statement": "What is use of interpreter?",
       "options": [
-        { "text": "It is a synonym for JIT", "correct": true },
+        { "text": "It is a synonym for JIT", "correct": false },
         {
           "text": "They are intermediated between JIT and JVM",
           "correct": false
         },
         {
           "text": "They read high level code and execute them",
-          "correct": false
+          "correct": true
         },
         {
           "text": "They convert bytecode to machine language code",
@@ -3807,10 +3807,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-7.php?page=2",
       "statement": "What will be the output of the following Java program?\n\n        class main_class \n        {\n            public static void main(String args[])\n            {\n                int x = 9;\n                if (x == 9) \n                { \n                    int x = 8;\n                    System.out.println(x);\n                }\n            } \n        }",
       "options": [
-        { "text": "8", "correct": true },
+        { "text": "8", "correct": false },
         { "text": "9", "correct": false },
         { "text": "Runtime error", "correct": false },
-        { "text": "Compilation error", "correct": false }
+        { "text": "Compilation error", "correct": true }
       ]
     },
     {
@@ -3818,10 +3818,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-7.php?page=2",
       "statement": "Which keyword is used by the method to refer to the object that invoked it?",
       "options": [
-        { "text": "import", "correct": true },
+        { "text": "import", "correct": false },
         { "text": "abstract", "correct": false },
         { "text": "catch", "correct": false },
-        { "text": "this", "correct": false }
+        { "text": "this", "correct": true }
       ]
     },
     {
@@ -3840,8 +3840,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-7.php?page=2",
       "statement": "What will be the output of the following Java code?\n\n        class box \n        {\n            int width;\n            int height;\n            int length;\n            int volume;\n            box() \n            {\n                width = 5;\n                height = 5;\n                length = 6;\n            }\n            void volume() \n            {\n                 volume = width*height*length;\n            } \n        }    \n        class constructor_output \n        {\n            public static void main(String args[])\n            {\n                box obj = new box();\n                obj.volume();\n                System.out.println(obj.volume);\n            }\n       }",
       "options": [
-        { "text": "100", "correct": true },
-        { "text": "150", "correct": false },
+        { "text": "100", "correct": false },
+        { "text": "150", "correct": true },
         { "text": "200", "correct": false },
         { "text": "250", "correct": false }
       ]
@@ -3851,9 +3851,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-7.php?page=2",
       "statement": "What would be the behaviour if this() and super() used in a method?",
       "options": [
-        { "text": "Runtime error", "correct": true },
+        { "text": "Runtime error", "correct": false },
         { "text": "Runs successfully", "correct": false },
-        { "text": "compile time error", "correct": false },
+        { "text": "compile time error", "correct": true },
         { "text": "Throws exception", "correct": false }
       ]
     },
@@ -3862,7 +3862,7 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-7.php?page=2",
       "statement": "What is true about Class.getInstance()?",
       "options": [
-        { "text": "Class.getInstance calls the constructor", "correct": true },
+        { "text": "Class.getInstance calls the constructor", "correct": false },
         {
           "text": "Class.getInstance is same as new operator",
           "correct": false
@@ -3873,7 +3873,7 @@
         },
         {
           "text": "Class.getInstance creates object if class does not have any constructor",
-          "correct": false
+          "correct": true
         }
       ]
     },
@@ -3893,8 +3893,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-7.php?page=3",
       "statement": "Which of these methods return a smallest whole number greater than or equal to variable X?",
       "options": [
-        { "text": "double ceil(double X)", "correct": false },
-        { "text": "double floor(double X)", "correct": true },
+        { "text": "double ceil(double X)", "correct": true },
+        { "text": "double floor(double X)", "correct": false },
         { "text": "double max(double X)", "correct": false },
         { "text": "double min(double X)", "correct": false }
       ]
@@ -3916,9 +3916,9 @@
       "statement": "What will be the output of the following Java code?\n\n        class Output \n        {\n             public static void main(String args[]) \n             {\n                 double x = 3.14;  \n                 int y = (int) Math.ceil(x);\n                 System.out.print(y);\n             }\n        }",
       "options": [
         { "text": "0", "correct": false },
-        { "text": "3", "correct": true },
+        { "text": "3", "correct": false },
         { "text": "3.0", "correct": false },
-        { "text": "4", "correct": false }
+        { "text": "4", "correct": true }
       ]
     },
     {
@@ -3926,8 +3926,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-7.php?page=3",
       "statement": "Which of the following methods Byte wrapper return the value as a double?",
       "options": [
-        { "text": "doubleValue()", "correct": false },
-        { "text": "getDouble()", "correct": true },
+        { "text": "doubleValue()", "correct": true },
+        { "text": "getDouble()", "correct": false },
         { "text": "getDoubleValue()", "correct": false },
         { "text": "converDouble()", "correct": false }
       ]
@@ -3948,8 +3948,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-7.php?page=3",
       "statement": "What will be the output of the following Java program?\n\n        class Output\n        {\n            public static void main(String args[])\n            {\n                Double i = new Double(257.5);  \n                Double x = i.MIN_VALUE;\n                System.out.print(x);\n            }\n        }",
       "options": [
-        { "text": "4.9E-324", "correct": false },
-        { "text": "1.7976931348623157E308", "correct": true },
+        { "text": "4.9E-324", "correct": true },
+        { "text": "1.7976931348623157E308", "correct": false },
         { "text": "0", "correct": false },
         { "text": "None of the above", "correct": false }
       ]
@@ -3960,8 +3960,8 @@
       "statement": "Which of these methods of Character wrapper can be used to obtain the char value contained in Character object.",
       "options": [
         { "text": "get()", "correct": false },
-        { "text": "getVhar()", "correct": true },
-        { "text": "charValue()", "correct": false },
+        { "text": "getVhar()", "correct": false },
+        { "text": "charValue()", "correct": true },
         { "text": "getCharacter()", "correct": false }
       ]
     },
@@ -3971,9 +3971,9 @@
       "statement": "Which of the following constant are defined in Character wrapper?",
       "options": [
         { "text": "TYPE", "correct": false },
-        { "text": "MAX\\_RADIX", "correct": true },
+        { "text": "MAX\\_RADIX", "correct": false },
         { "text": "MAX\\_VALUE", "correct": false },
-        { "text": "All of the above", "correct": false }
+        { "text": "All of the above", "correct": true }
       ]
     },
     {
@@ -3981,8 +3981,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-7.php?page=3",
       "statement": "What will be the output of the following Java program?\n\n        class Output \n        {\n            public static void main(String args[]) \n            {\n                int a = Character.MAX_VALUE;\n                System.out.print((char)a);\n            }\n        }",
       "options": [
-        { "text": "`?`", "correct": false },
-        { "text": "`$`", "correct": true },
+        { "text": "`?`", "correct": true },
+        { "text": "`$`", "correct": false },
         { "text": "`<`", "correct": false },
         { "text": "`>`", "correct": false }
       ]
@@ -4004,8 +4004,8 @@
       "statement": "Which capturing group can represent the entire expression?",
       "options": [
         { "text": "group \\*", "correct": false },
-        { "text": "group 0", "correct": false },
-        { "text": "group \\* or group 0", "correct": true },
+        { "text": "group 0", "correct": true },
+        { "text": "group \\* or group 0", "correct": false },
         { "text": "None of the above", "correct": false }
       ]
     },
@@ -4033,8 +4033,8 @@
       "options": [
         { "text": "java.applet", "correct": false },
         { "text": "java.event", "correct": false },
-        { "text": "java.awt", "correct": true },
-        { "text": "java.awt.event", "correct": false }
+        { "text": "java.awt", "correct": false },
+        { "text": "java.awt.event", "correct": true }
       ]
     },
     {
@@ -4053,9 +4053,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-7.php?page=4",
       "statement": "Which of these methods can be used to determine the type of event?",
       "options": [
-        { "text": "getID()", "correct": false },
+        { "text": "getID()", "correct": true },
         { "text": "getEvent()", "correct": false },
-        { "text": "getSource()", "correct": true },
+        { "text": "getSource()", "correct": false },
         { "text": "getEventObject()", "correct": false }
       ]
     },
@@ -4065,8 +4065,8 @@
       "statement": "Which of these events will be generated if we close an applet’s window?",
       "options": [
         { "text": "ActionEvent", "correct": false },
-        { "text": "WindowEvent", "correct": false },
-        { "text": "ComponentEvent", "correct": true },
+        { "text": "WindowEvent", "correct": true },
+        { "text": "ComponentEvent", "correct": false },
         { "text": "AdjustmentEvent", "correct": false }
       ]
     },
@@ -4075,9 +4075,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-7.php?page=4",
       "statement": "Which of these methods can be used to obtain the coordinates of a mouse?",
       "options": [
-        { "text": "getPoint()", "correct": false },
+        { "text": "getPoint()", "correct": true },
         { "text": "getCoordinates()", "correct": false },
-        { "text": "getMouseXY()", "correct": true },
+        { "text": "getMouseXY()", "correct": false },
         { "text": "getMouseCordinates()", "correct": false }
       ]
     },
@@ -4097,9 +4097,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-7.php?page=4",
       "statement": "Which of these methods is used to get x coordinate of the mouse?",
       "options": [
-        { "text": "getX()", "correct": false },
+        { "text": "getX()", "correct": true },
         { "text": "getXCoordinate()", "correct": false },
-        { "text": "getCoordinateX()", "correct": true },
+        { "text": "getCoordinateX()", "correct": false },
         { "text": "getPointX()", "correct": false }
       ]
     },
@@ -4119,7 +4119,7 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-7.php?page=5",
       "statement": "Which of the following is not true about session?",
       "options": [
-        { "text": "All users connect to the same session", "correct": true },
+        { "text": "All users connect to the same session", "correct": false },
         { "text": "All users have same session variable", "correct": false },
         {
           "text": "New session cannot be created for a new user",
@@ -4127,7 +4127,7 @@
         },
         {
           "text": "Default timeout value for session variable is 20 minutes",
-          "correct": false
+          "correct": true
         }
       ]
     },
@@ -4136,9 +4136,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-7.php?page=5",
       "statement": "Which method creates unique fields in the HTML which are not shown to the user?",
       "options": [
-        { "text": "URL writing", "correct": true },
+        { "text": "URL writing", "correct": false },
         { "text": "User authentication", "correct": false },
-        { "text": "HTML Hidden field", "correct": false },
+        { "text": "HTML Hidden field", "correct": true },
         { "text": "HTML invisible field", "correct": false }
       ]
     },
@@ -4158,9 +4158,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-7.php?page=5",
       "statement": "What temporarily redirects response to the browser?",
       "options": [
-        { "text": "`<%@directive%>`", "correct": true },
+        { "text": "`<%@directive%>`", "correct": false },
         { "text": "`<jsp:forward>`", "correct": false },
-        { "text": "response.sendRedirect(URL)", "correct": false },
+        { "text": "response.sendRedirect(URL)", "correct": true },
         { "text": "response.setRedirect(URL)", "correct": false }
       ]
     },
@@ -4171,14 +4171,14 @@
       "options": [
         {
           "text": "Construct an object for a class at runtime",
-          "correct": true
+          "correct": false
         },
         { "text": "Examine an object’s class at runtime", "correct": false },
         {
           "text": "Examine a class’s field and method at runtime",
           "correct": false
         },
-        { "text": "Examine a class’s field at compile time", "correct": false }
+        { "text": "Examine a class’s field at compile time", "correct": true }
       ]
     },
     {
@@ -4197,8 +4197,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-7.php?page=5",
       "statement": "Which file is used to define dependency in maven?",
       "options": [
-        { "text": "build.xml", "correct": true },
-        { "text": "pom.xml", "correct": false },
+        { "text": "build.xml", "correct": false },
+        { "text": "pom.xml", "correct": true },
         { "text": "version.xml", "correct": false },
         { "text": "dependency.xml", "correct": false }
       ]
@@ -4208,8 +4208,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-7.php?page=5",
       "statement": "Which environment variable is used to specify the path to maven?",
       "options": [
-        { "text": "PATH", "correct": true },
-        { "text": "MAVEN\\_HOME", "correct": false },
+        { "text": "PATH", "correct": false },
+        { "text": "MAVEN\\_HOME", "correct": true },
         { "text": "JAVA\\_HOME", "correct": false },
         { "text": "CLASSPATH", "correct": false }
       ]
@@ -4219,10 +4219,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/java-quiz-section-7.php?page=5",
       "statement": "Which command can be used to check maven version?",
       "options": [
-        { "text": "mvn -ver", "correct": true },
+        { "text": "mvn -ver", "correct": false },
         { "text": "maven -ver", "correct": false },
         { "text": "maven -version", "correct": false },
-        { "text": "mvn -version", "correct": false }
+        { "text": "mvn -version", "correct": true }
       ]
     }
   ]

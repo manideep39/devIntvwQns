@@ -16,8 +16,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=1",
       "statement": "In which directory React Components are saved?",
       "options": [
-        { "text": "Inside js/components/", "correct": false },
-        { "text": "Inside vendor/components/", "correct": true },
+        { "text": "Inside js/components/", "correct": true },
+        { "text": "Inside vendor/components/", "correct": false },
         { "text": "Inside vendor/components/", "correct": false },
         { "text": "Inside vendor/", "correct": false }
       ]
@@ -28,9 +28,9 @@
       "statement": "What is Babel?",
       "options": [
         { "text": "A transpiler.", "correct": false },
-        { "text": "An interpreter", "correct": true },
+        { "text": "An interpreter", "correct": false },
         { "text": "A Compiler", "correct": false },
-        { "text": "Both Compiler and Transpilar", "correct": false }
+        { "text": "Both Compiler and Transpilar", "correct": true }
       ]
     },
     {
@@ -39,8 +39,8 @@
       "statement": "How many elements does a react component return?",
       "options": [
         { "text": "1 Element", "correct": false },
-        { "text": "2 Elements", "correct": true },
-        { "text": "Multiple Elements", "correct": false },
+        { "text": "2 Elements", "correct": false },
+        { "text": "Multiple Elements", "correct": true },
         { "text": "None of the above", "correct": false }
       ]
     },
@@ -49,8 +49,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=1",
       "statement": "What does the \"webpack\" command do?",
       "options": [
-        { "text": "A module bundler", "correct": false },
-        { "text": "Runs react local development server.", "correct": true },
+        { "text": "A module bundler", "correct": true },
+        { "text": "Runs react local development server.", "correct": false },
         {
           "text": "Transpiles all the Javascript down into one file",
           "correct": false
@@ -64,10 +64,10 @@
       "statement": "What is ReactJS?",
       "options": [
         { "text": "Server-side Framework", "correct": false },
-        { "text": "User-interface framework", "correct": true },
+        { "text": "User-interface framework", "correct": false },
         {
           "text": "A Library for building interaction interfaces",
-          "correct": false
+          "correct": true
         },
         { "text": "None of the Above", "correct": false }
       ]
@@ -83,10 +83,10 @@
         },
         {
           "text": "React is using inline templating and JSX. This can seem awkward to some developers",
-          "correct": true
+          "correct": false
         },
         { "text": "The library of react is too large", "correct": false },
-        { "text": "All of these", "correct": false }
+        { "text": "All of these", "correct": true }
       ]
     },
     {
@@ -95,9 +95,9 @@
       "statement": "How can you access the state of a component from inside of a member function?",
       "options": [
         { "text": "this.getState()", "correct": false },
-        { "text": "this.prototype.stateValue", "correct": true },
+        { "text": "this.prototype.stateValue", "correct": false },
         { "text": "this.state", "correct": false },
-        { "text": "this.values", "correct": false }
+        { "text": "this.values", "correct": true }
       ]
     },
     {
@@ -117,8 +117,8 @@
       "statement": "Which of the following API is a MUST for every ReactJS component?",
       "options": [
         { "text": "getInitialState", "correct": false },
-        { "text": "render", "correct": true },
-        { "text": "renderComponent", "correct": false },
+        { "text": "render", "correct": false },
+        { "text": "renderComponent", "correct": true },
         { "text": "None of the Above", "correct": false }
       ]
     },
@@ -139,8 +139,8 @@
       "statement": "In React what is used to pass data to a component from outside?",
       "options": [
         { "text": "setState", "correct": false },
-        { "text": "props", "correct": false },
-        { "text": "PropTypes", "correct": true },
+        { "text": "props", "correct": true },
+        { "text": "PropTypes", "correct": false },
         { "text": "render with arguments", "correct": false }
       ]
     },
@@ -150,8 +150,8 @@
       "statement": "What is a react.js in MVC?",
       "options": [
         { "text": "Model", "correct": false },
-        { "text": "Controller", "correct": false },
-        { "text": "Router", "correct": true },
+        { "text": "Controller", "correct": true },
+        { "text": "Router", "correct": false },
         { "text": "Middleware", "correct": false }
       ]
     },
@@ -160,9 +160,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=2",
       "statement": "ReactJS uses \\_\\_\\_\\_\\_ to increase performance",
       "options": [
-        { "text": "Virtual DOM", "correct": false },
+        { "text": "Virtual DOM", "correct": true },
         { "text": "Original DOM", "correct": false },
-        { "text": "Both 1 & 2", "correct": true },
+        { "text": "Both 1 & 2", "correct": false },
         { "text": "None of the above", "correct": false }
       ]
     },
@@ -183,8 +183,8 @@
       "statement": "Which of the following is the correct data flow sequence of flux concept?",
       "options": [
         { "text": "Dispatcher->Action->Store->View", "correct": false },
-        { "text": "Action->Dispatcher->Store->View", "correct": false },
-        { "text": "Action->Dispatcher->View->Store", "correct": true },
+        { "text": "Action->Dispatcher->Store->View", "correct": true },
+        { "text": "Action->Dispatcher->View->Store", "correct": false },
         { "text": "Action->Store->Dispatcher->View", "correct": false }
       ]
     },
@@ -195,8 +195,8 @@
       "options": [
         { "text": "Tim Lee", "correct": false },
         { "text": "Jordan Lee", "correct": false },
-        { "text": "Jordan mike", "correct": true },
-        { "text": "Jordan Walke", "correct": false }
+        { "text": "Jordan mike", "correct": false },
+        { "text": "Jordan Walke", "correct": true }
       ]
     },
     {
@@ -216,8 +216,8 @@
       "statement": ".............. helps react for keeping their data unidirectional",
       "options": [
         { "text": "JSX", "correct": false },
-        { "text": "Flux", "correct": false },
-        { "text": "Dom", "correct": true },
+        { "text": "Flux", "correct": true },
+        { "text": "Dom", "correct": false },
         { "text": "Props", "correct": false }
       ]
     },
@@ -228,8 +228,8 @@
       "options": [
         { "text": "Initialization", "correct": false },
         { "text": "State/Property Updates", "correct": false },
-        { "text": "Destruction", "correct": true },
-        { "text": "All of these", "correct": false }
+        { "text": "Destruction", "correct": false },
+        { "text": "All of these", "correct": true }
       ]
     },
     {
@@ -250,14 +250,14 @@
       "options": [
         {
           "text": "Wrap it in the React.memo higher-order component.",
-          "correct": false
+          "correct": true
         },
         { "text": "Implement the useReducer Hook.", "correct": false },
         {
           "text": "Implement the shouldComponentUpdate lifecycle method.",
           "correct": false
         },
-        { "text": "Implement the useMemo Hook.", "correct": true }
+        { "text": "Implement the useMemo Hook.", "correct": false }
       ]
     },
     {
@@ -265,12 +265,12 @@
       "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=3",
       "statement": "How do you fix the syntax error that results from running this code?\n\n    const person =(firstName, lastName) =>\n           {\n                first: firstName,\n                last: lastName\n            }\n    console.log(person(\"jhon\", \"Wolson\"))",
       "options": [
-        { "text": "Wrap the object in parentheses.", "correct": false },
+        { "text": "Wrap the object in parentheses.", "correct": true },
         { "text": "Call the function from another file.", "correct": false },
         { "text": "Replace the with an array", "correct": false },
         {
           "text": "Add a return statement before the first curly brace.",
-          "correct": true
+          "correct": false
         }
       ]
     },
@@ -291,9 +291,9 @@
       "statement": "Using object literal enhancement, you can put values back into an object. When you log person to the console, what is the output?\n\n    const name = 'Venkat';\n    const age = 30;\n    const person = { name, age };\n    console.log(person);",
       "options": [
         { "text": "`{{name: \"Venkat\", age: 30}}`", "correct": false },
-        { "text": "`{name: \"Venkat\", age: 30}`", "correct": false },
+        { "text": "`{name: \"Venkat\", age: 30}`", "correct": true },
         { "text": "`{person: \"Venkat\", person: 30}}`", "correct": false },
-        { "text": "`{person: {name: \"Venkat\", age: 30}}`", "correct": true }
+        { "text": "`{person: {name: \"Venkat\", age: 30}}`", "correct": false }
       ]
     },
     {
@@ -301,10 +301,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=3",
       "statement": "How do you access a function fetch() from a h1 element in JSX?",
       "options": [
-        { "text": "`<h1>{fetch()}</h1>`", "correct": false },
+        { "text": "`<h1>{fetch()}</h1>`", "correct": true },
         { "text": "`<h1>${fetch()}</h1>`", "correct": false },
         { "text": "`<h1>{fetch}</h1>`", "correct": false },
-        { "text": "`<h1>${fetch}</h1>`", "correct": true }
+        { "text": "`<h1>${fetch}</h1>`", "correct": false }
       ]
     },
     {
@@ -322,9 +322,9 @@
         },
         {
           "text": "Displays the list of languages in the array",
-          "correct": false
+          "correct": true
         },
-        { "text": "Displays nothing", "correct": true }
+        { "text": "Displays nothing", "correct": false }
       ]
     },
     {
@@ -333,9 +333,9 @@
       "statement": "How do you write an inline style specifying the font-size:12px and color:red; in JSX",
       "options": [
         { "text": "`style={{font-size:12,color:'red'}}`", "correct": false },
-        { "text": "`style={{fontSize:'12px',color:'red'}}`", "correct": false },
+        { "text": "`style={{fontSize:'12px',color:'red'}}`", "correct": true },
         { "text": "`style={fontSize:'12px',color:'red'}`", "correct": false },
-        { "text": "`style={{font-size:12px,color:'red'}}`", "correct": true }
+        { "text": "`style={{font-size:12px,color:'red'}}`", "correct": false }
       ]
     },
     {
@@ -344,9 +344,9 @@
       "statement": "Which method in a React Component should you override to stop the component from updating?",
       "options": [
         { "text": "willComponentUpdate", "correct": false },
-        { "text": "shouldComponentUpdate", "correct": false },
+        { "text": "shouldComponentUpdate", "correct": true },
         { "text": "componentDidUpdate", "correct": false },
-        { "text": "componentDidMount", "correct": true }
+        { "text": "componentDidMount", "correct": false }
       ]
     },
     {
@@ -398,8 +398,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=4",
       "statement": "props in react can\\_\\_\\_\\_\\_\\_\\_\\_",
       "options": [
-        { "text": "Be changed inside the component", "correct": true },
-        { "text": "Not be changed in the component", "correct": false },
+        { "text": "Be changed inside the component", "correct": false },
+        { "text": "Not be changed in the component", "correct": true },
         { "text": "Be changed in side other component", "correct": false },
         { "text": "None of the above", "correct": false }
       ]
@@ -409,10 +409,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=4",
       "statement": "What is the testing library most often associated with React?",
       "options": [
-        { "text": "Mocha", "correct": true },
+        { "text": "Mocha", "correct": false },
         { "text": "Sinon", "correct": false },
         { "text": "Chai", "correct": false },
-        { "text": "Jest", "correct": false }
+        { "text": "Jest", "correct": true }
       ]
     },
     {
@@ -431,8 +431,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=4",
       "statement": "What will happen if you render an input element with disabled = {false}",
       "options": [
-        { "text": "It will be rendered as disabled", "correct": true },
-        { "text": "It will be rendered as enabled", "correct": false },
+        { "text": "It will be rendered as disabled", "correct": false },
+        { "text": "It will be rendered as enabled", "correct": true },
         { "text": "It will not be rendered at all", "correct": false },
         { "text": "None of the above", "correct": false }
       ]
@@ -444,7 +444,7 @@
       "options": [
         {
           "text": "`const first = [\"cooking\", \"art\", \"history\"]`",
-          "correct": true
+          "correct": false
         },
         {
           "text": "`const [] = [\"cooking\", \"art\", \"history\"]`",
@@ -456,7 +456,7 @@
         },
         {
           "text": "`const [first] = [\"cooking\", \"art\", \"history\"]`",
-          "correct": false
+          "correct": true
         }
       ]
     },
@@ -465,10 +465,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=4",
       "statement": "How do you handle passing through the component tree without having to pass props down manually at every level?",
       "options": [
-        { "text": "React Send", "correct": true },
+        { "text": "React Send", "correct": false },
         { "text": "React Pinpoint", "correct": false },
         { "text": "React Router", "correct": false },
-        { "text": "React Context", "correct": false }
+        { "text": "React Context", "correct": true }
       ]
     },
     {
@@ -476,8 +476,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=4",
       "statement": "What should the console read when the following code is run?  \n  \n\n    const [, , animal] = ['Horse', 'Mouse', 'Cat'];\n    console.log(animal);​",
       "options": [
-        { "text": "Horse", "correct": true },
-        { "text": "Cat", "correct": false },
+        { "text": "Horse", "correct": false },
+        { "text": "Cat", "correct": true },
         { "text": "Mouse", "correct": false },
         { "text": "None of the above", "correct": false }
       ]
@@ -500,8 +500,8 @@
       "options": [
         { "text": "Component is created for the first time", "correct": false },
         { "text": "Component is created for the first time", "correct": false },
-        { "text": "Both of above", "correct": false },
-        { "text": "None of the above", "correct": true }
+        { "text": "Both of above", "correct": true },
+        { "text": "None of the above", "correct": false }
       ]
     },
     {
@@ -510,9 +510,9 @@
       "statement": "Keys are given to a list of elements in react. These keys should be",
       "options": [
         { "text": "Unique in the DOM", "correct": false },
-        { "text": "Unique among the siblings only", "correct": false },
+        { "text": "Unique among the siblings only", "correct": true },
         { "text": "Do not requires to be unique", "correct": false },
-        { "text": "None of the above", "correct": true }
+        { "text": "None of the above", "correct": false }
       ]
     },
     {
@@ -520,10 +520,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=5",
       "statement": "For uncontrolled components in react",
       "options": [
-        { "text": "Source of truth is DOM", "correct": false },
+        { "text": "Source of truth is DOM", "correct": true },
         { "text": "Source of truth is component state", "correct": false },
         { "text": "Source of truth can be anything", "correct": false },
-        { "text": "None of the above", "correct": true }
+        { "text": "None of the above", "correct": false }
       ]
     },
     {
@@ -532,12 +532,12 @@
       "statement": "Why might you use useReducer over useState in a React component?",
       "options": [
         { "text": "when you want to replace Redux", "correct": false },
-        { "text": "when you want to replace Redux", "correct": false },
+        { "text": "when you want to replace Redux", "correct": true },
         {
           "text": "when you want to break your production app",
           "correct": false
         },
-        { "text": "when you want to improve performance", "correct": true }
+        { "text": "when you want to improve performance", "correct": false }
       ]
     },
     {
@@ -557,9 +557,9 @@
       "statement": "Consider the following code from React Router. What do you call :id in the path prop?  \n  \n`<Route path=\"/:id\" />`",
       "options": [
         { "text": "This is a route modal", "correct": false },
-        { "text": "This is a route parameter", "correct": false },
+        { "text": "This is a route parameter", "correct": true },
         { "text": "This is a route splitter", "correct": false },
-        { "text": "This is a route link", "correct": true }
+        { "text": "This is a route link", "correct": false }
       ]
     },
     {
@@ -569,7 +569,7 @@
       "options": [
         {
           "text": "    <h1 props={null}>What's happening?</h1>",
-          "correct": false
+          "correct": true
         },
         { "text": "    <h1>What's happening?</h1>", "correct": false },
         {
@@ -578,7 +578,7 @@
         },
         {
           "text": "    <h1 id=\"element\">What's happening?</h1>",
-          "correct": true
+          "correct": false
         }
       ]
     },
@@ -589,8 +589,8 @@
       "options": [
         { "text": "lazy", "correct": false },
         { "text": "loading", "correct": false },
-        { "text": "fallback", "correct": false },
-        { "text": "spinner", "correct": true }
+        { "text": "fallback", "correct": true },
+        { "text": "spinner", "correct": false }
       ]
     },
     {
@@ -599,9 +599,9 @@
       "statement": "Which of the following is a correct definition of state in react?\n\na) A persistent storage\n\nb) An internal data store (object) of component",
       "options": [
         { "text": "a", "correct": false },
-        { "text": "b", "correct": false },
+        { "text": "b", "correct": true },
         { "text": "Both A and B", "correct": false },
-        { "text": "None of the above", "correct": true }
+        { "text": "None of the above", "correct": false }
       ]
     },
     {
@@ -620,10 +620,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=6",
       "statement": "What do you call the message wrapped in curly braces below?\n\n    let message = 'Hi there';\n    const element = <p>{message}</p>;",
       "options": [
-        { "text": "a JS function", "correct": true },
+        { "text": "a JS function", "correct": false },
         { "text": "a JS element", "correct": false },
         { "text": "a JSX wrapper", "correct": false },
-        { "text": "a JS expression", "correct": false }
+        { "text": "a JS expression", "correct": true }
       ]
     },
     {
@@ -631,8 +631,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=6",
       "statement": "What can you use to handle code splitting?",
       "options": [
-        { "text": "React.split", "correct": true },
-        { "text": "React.lazy", "correct": false },
+        { "text": "React.split", "correct": false },
+        { "text": "React.lazy", "correct": true },
         { "text": "React.memo", "correct": false },
         { "text": "React.fallback", "correct": false }
       ]
@@ -642,12 +642,12 @@
       "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=6",
       "statement": "When do you use useLayoutEffect?",
       "options": [
-        { "text": "to optimize for all devices", "correct": true },
+        { "text": "to optimize for all devices", "correct": false },
         { "text": "to complete the update", "correct": false },
         { "text": "to change the layout of the screen", "correct": false },
         {
           "text": "when you need the browser to paint before the effect runs",
-          "correct": false
+          "correct": true
         }
       ]
     },
@@ -656,12 +656,12 @@
       "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=6",
       "statement": "You have written the following code but nothing is rendering. How do you fix this problem?\n\n    const Heading = () => {\n      <h1>Hello!</h1>;\n    };",
       "options": [
-        { "text": "Add a render function", "correct": true },
+        { "text": "Add a render function", "correct": false },
         { "text": "Surround the h1 in a div.", "correct": false },
         { "text": "Move the h1 to another component.", "correct": false },
         {
           "text": "Change the curly braces to parentheses or add a return statement before the h1 tag.",
-          "correct": false
+          "correct": true
         }
       ]
     },
@@ -704,7 +704,7 @@
       "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=6",
       "statement": "Why is it important to avoid copying the values of props into a component's state where possible?",
       "options": [
-        { "text": "because you should never mutate state", "correct": true },
+        { "text": "because you should never mutate state", "correct": false },
         {
           "text": "because you want to allow data to flow back up to the parent",
           "correct": false
@@ -715,7 +715,7 @@
         },
         {
           "text": "because you want to allow a component to update in response to changes in the props",
-          "correct": false
+          "correct": true
         }
       ]
     },
@@ -726,7 +726,7 @@
       "options": [
         {
           "text": "when you do not want your component to have state",
-          "correct": true
+          "correct": false
         },
         {
           "text": "when you have sibling components that need to be compared",
@@ -734,7 +734,7 @@
         },
         {
           "text": "when you want a default implementation of shouldComponentUpdate()",
-          "correct": false
+          "correct": true
         },
         {
           "text": "when you do not want your component to have props",
@@ -749,11 +749,11 @@
       "options": [
         {
           "text": "`function Dish([name, cookingTime]) { return <h1>{name} {cookingTime}</h1>; }`",
-          "correct": true
+          "correct": false
         },
         {
           "text": "`function Dish({name, cookingTime}) { return <h1>{name} {cookingTime}</h1>; }`",
-          "correct": false
+          "correct": true
         },
         {
           "text": "`function Dish(props) { return <h1>{name} {cookingTime}</h1>; }`",
@@ -791,9 +791,9 @@
       "statement": "What do you call a React component that catches JavaScript errors anywhere in the child component tree?",
       "options": [
         { "text": "error bosses", "correct": false },
-        { "text": "error catchers", "correct": true },
+        { "text": "error catchers", "correct": false },
         { "text": "error helpers", "correct": false },
-        { "text": "error boundaries", "correct": false }
+        { "text": "error boundaries", "correct": true }
       ]
     },
     {
@@ -823,8 +823,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=7",
       "statement": "Why might you use a ref?",
       "options": [
-        { "text": "to directly access the DOM node", "correct": false },
-        { "text": "to refer to another JS file", "correct": true },
+        { "text": "to directly access the DOM node", "correct": true },
+        { "text": "to refer to another JS file", "correct": false },
         { "text": "to bind the function", "correct": false },
         { "text": "to call a function", "correct": false }
       ]
@@ -835,8 +835,8 @@
       "statement": "What is **\\[e.target.id\\]** called in the following code snippet?\n\n    handleChange(e) {\n    \tthis.setState({[e.target.id]: e.target.value })\n    }",
       "options": [
         { "text": "a computer property name", "correct": false },
-        { "text": "a JSX code string", "correct": true },
-        { "text": "a dynamic key", "correct": false },
+        { "text": "a JSX code string", "correct": false },
+        { "text": "a dynamic key", "correct": true },
         { "text": "a set value", "correct": false }
       ]
     },
@@ -845,8 +845,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/react-js-quiz.php?page=7",
       "statement": "What is the name of this component?\n\n    class Clock extends React.Component {\n       render() {\n        return <h1>Look at the time: {time}</h1>;\n       }\n      }",
       "options": [
-        { "text": "Clock", "correct": false },
-        { "text": "Component", "correct": true },
+        { "text": "Clock", "correct": true },
+        { "text": "Component", "correct": false },
         { "text": "React.Component", "correct": false },
         { "text": "It does not have a name prop.", "correct": false }
       ]
@@ -857,8 +857,8 @@
       "statement": "What package contains the render() function that renders a React element tree to the DOM?",
       "options": [
         { "text": "React", "correct": false },
-        { "text": "DOM", "correct": true },
-        { "text": "ReactDOM", "correct": false },
+        { "text": "DOM", "correct": false },
+        { "text": "ReactDOM", "correct": true },
         { "text": "Render", "correct": false }
       ]
     },
@@ -869,11 +869,11 @@
       "options": [
         {
           "text": "a callback function that is called once for each element in the array",
-          "correct": false
+          "correct": true
         },
         {
           "text": "the name of another array to iterate over",
-          "correct": true
+          "correct": false
         },
         {
           "text": "the number of times you want to call the function",
@@ -891,14 +891,14 @@
       "statement": "Why is it a good idea to pass a function to setState instead of an object?",
       "options": [
         { "text": "It is more functional than an object", "correct": false },
-        { "text": "It automatically updates a component", "correct": true },
+        { "text": "It automatically updates a component", "correct": false },
         {
           "text": "It makes sure that the object is not mutated",
           "correct": false
         },
         {
           "text": "setState is asynchronous and might result in out of sync values.",
-          "correct": false
+          "correct": true
         }
       ]
     },
@@ -924,11 +924,11 @@
         },
         {
           "text": "    useEffect(() => { setDone(true); }, []);",
-          "correct": true
+          "correct": false
         },
         {
           "text": "    useEffect(() => { setDone(true); }, [setDone]);",
-          "correct": false
+          "correct": true
         },
         {
           "text": "    useEffect(() => { setDone(true); }, [done, setDone]);",
@@ -943,11 +943,11 @@
       "options": [
         {
           "text": "    <button onClick={(name) => this.hug(name)>Hug Button</button>",
-          "correct": false
+          "correct": true
         },
         {
           "text": "    <button onClick={this.hug(e, name)}>Hug Button</button>",
-          "correct": true
+          "correct": false
         },
         {
           "text": "    <button onClick={(e) => hug(e,name)}>Hug Button</button>",
@@ -966,11 +966,11 @@
       "options": [
         {
           "text": "    useEffect(function updateTitle() { document.title = name + ' ' + lastname; });",
-          "correct": false
+          "correct": true
         },
         {
           "text": "    useEffect(() => { title = name + ' ' + lastname; });",
-          "correct": true
+          "correct": false
         },
         {
           "text": "    useEffect(function updateTitle() { name + ' ' + lastname; });",

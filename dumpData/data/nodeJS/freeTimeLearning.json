@@ -16,9 +16,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/node-js-quiz.php?page=1",
       "statement": "Which of the followings are valid languages for Node.js?",
       "options": [
-        { "text": "C#", "correct": true },
+        { "text": "C#", "correct": false },
         { "text": "C++", "correct": false },
-        { "text": "Javascript", "correct": false },
+        { "text": "Javascript", "correct": true },
         { "text": "Java", "correct": false }
       ]
     },
@@ -27,8 +27,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/node-js-quiz.php?page=1",
       "statement": "Which extension is used to save NodeJs files?",
       "options": [
-        { "text": ".node", "correct": true },
-        { "text": ".js", "correct": false },
+        { "text": ".node", "correct": false },
+        { "text": ".js", "correct": true },
         { "text": ".txt", "correct": false },
         { "text": ".java", "correct": false }
       ]
@@ -49,9 +49,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/node-js-quiz.php?page=1",
       "statement": "Which function is used to include modules in Node Js.",
       "options": [
-        { "text": "include();", "correct": true },
+        { "text": "include();", "correct": false },
         { "text": "attach();", "correct": false },
-        { "text": "require();", "correct": false },
+        { "text": "require();", "correct": true },
         { "text": "All of the above", "correct": false }
       ]
     },
@@ -60,10 +60,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/node-js-quiz.php?page=1",
       "statement": "Which of following is not builtin node module.",
       "options": [
-        { "text": "zlib", "correct": true },
+        { "text": "zlib", "correct": false },
         { "text": "https", "correct": false },
         { "text": "dgram", "correct": false },
-        { "text": "fsread", "correct": false }
+        { "text": "fsread", "correct": true }
       ]
     },
     {
@@ -82,8 +82,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/node-js-quiz.php?page=1",
       "statement": "What does the fs module stand for?",
       "options": [
-        { "text": "File Service", "correct": true },
-        { "text": "File System", "correct": false },
+        { "text": "File Service", "correct": false },
+        { "text": "File System", "correct": true },
         { "text": "File Store", "correct": false },
         { "text": "None of the above", "correct": false }
       ]
@@ -106,13 +106,13 @@
       "options": [
         {
           "text": "Webservices based on REST Architecture are known as RESTful web services",
-          "correct": true
+          "correct": false
         },
         {
           "text": "Webservices uses HTTP methods to implement the concept of REST architecture",
           "correct": false
         },
-        { "text": "Both of the above", "correct": false },
+        { "text": "Both of the above", "correct": true },
         { "text": "None of the above", "correct": false }
       ]
     },
@@ -143,14 +143,14 @@
       "options": [
         {
           "text": "Builds fast and scalable network Applications",
-          "correct": true
+          "correct": false
         },
         {
           "text": "Highly scalable servers for Web Applications",
           "correct": false
         },
         { "text": "Real time Data intensive", "correct": false },
-        { "text": "All of the above", "correct": false }
+        { "text": "All of the above", "correct": true }
       ]
     },
     {
@@ -171,11 +171,11 @@
       "options": [
         {
           "text": "It provides an easy way to build scalable network programs",
-          "correct": true
+          "correct": false
         },
         { "text": "Great concurrency", "correct": false },
         { "text": "Generally fast", "correct": false },
-        { "text": "All of these", "correct": false }
+        { "text": "All of these", "correct": true }
       ]
     },
     {
@@ -185,7 +185,7 @@
       "options": [
         {
           "text": "Node.JS internally converts JavaScript code to Java based code and then execute the same",
-          "correct": true
+          "correct": false
         },
         {
           "text": "Node.JS internally converts JavaScript code to C based code and then execute the same",
@@ -193,7 +193,7 @@
         },
         {
           "text": "Being built on Google Chrome's V8 JavaScript Engine",
-          "correct": false
+          "correct": true
         },
         { "text": "None of the above", "correct": false }
       ]
@@ -203,10 +203,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/node-js-quiz.php?page=2",
       "statement": "What is REPL in Node.js?",
       "options": [
-        { "text": "Eval", "correct": true },
+        { "text": "Eval", "correct": false },
         { "text": "Print", "correct": false },
         { "text": "Loop", "correct": false },
-        { "text": "All of these", "correct": false }
+        { "text": "All of these", "correct": true }
       ]
     },
     {
@@ -214,8 +214,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/node-js-quiz.php?page=2",
       "statement": "Which module is used to serve static resources in Node.js?",
       "options": [
-        { "text": "http", "correct": true },
-        { "text": "node-static", "correct": false },
+        { "text": "http", "correct": false },
+        { "text": "node-static", "correct": true },
         { "text": "node-resource", "correct": false },
         { "text": "static", "correct": false }
       ]
@@ -225,9 +225,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/node-js-quiz.php?page=2",
       "statement": "Is console a global object?",
       "options": [
-        { "text": "false", "correct": true },
+        { "text": "false", "correct": false },
         { "text": "true", "correct": false },
-        { "text": "null", "correct": false },
+        { "text": "null", "correct": true },
         { "text": "none", "correct": false }
       ]
     },
@@ -236,10 +236,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/node-js-quiz.php?page=2",
       "statement": "Which of following are a valid form of route path?",
       "options": [
-        { "text": "regular expressions", "correct": true },
+        { "text": "regular expressions", "correct": false },
         { "text": "string patterns", "correct": false },
         { "text": "strings", "correct": false },
-        { "text": "All of above", "correct": false }
+        { "text": "All of above", "correct": true }
       ]
     },
     {
@@ -247,9 +247,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/node-js-quiz.php?page=2",
       "statement": "Command to show installed version of Node?",
       "options": [
-        { "text": "$ npm --version", "correct": true },
+        { "text": "$ npm --version", "correct": false },
         { "text": "$ npm getVersion", "correct": false },
-        { "text": "$ node --version", "correct": false },
+        { "text": "$ node --version", "correct": true },
         { "text": "$ node getVersion", "correct": false }
       ]
     },
@@ -295,9 +295,9 @@
         { "text": "Data Streaming Applications", "correct": false },
         {
           "text": "Data Intensive Realtime Applications DIRT",
-          "correct": true
+          "correct": false
         },
-        { "text": "All of the above", "correct": false }
+        { "text": "All of the above", "correct": true }
       ]
     },
     {
@@ -305,9 +305,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/node-js-quiz.php?page=3",
       "statement": "What should you do in your code to improve your application’s performance?",
       "options": [
-        { "text": "Use gzip compression", "correct": false },
+        { "text": "Use gzip compression", "correct": true },
         { "text": "Do logging correctly", "correct": false },
-        { "text": "Handle exceptions properly", "correct": true },
+        { "text": "Handle exceptions properly", "correct": false },
         { "text": "Don’t use synchronous functions", "correct": false }
       ]
     },
@@ -316,9 +316,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/node-js-quiz.php?page=3",
       "statement": "To install Node.js express module",
       "options": [
-        { "text": "$ npm install express", "correct": false },
+        { "text": "$ npm install express", "correct": true },
         { "text": "$ node install express", "correct": false },
-        { "text": "$ install express", "correct": true },
+        { "text": "$ install express", "correct": false },
         { "text": "None of the above", "correct": false }
       ]
     },
@@ -328,8 +328,8 @@
       "statement": "Which of the following tool automates various tasks of Node.js application?",
       "options": [
         { "text": "Express.js", "correct": false },
-        { "text": "GruntJS", "correct": false },
-        { "text": "NPM", "correct": true },
+        { "text": "GruntJS", "correct": true },
+        { "text": "NPM", "correct": false },
         { "text": "None of the above", "correct": false }
       ]
     },
@@ -357,8 +357,8 @@
       "options": [
         { "text": "Ctrl + B", "correct": false },
         { "text": "Ctrl + K", "correct": false },
-        { "text": "Ctrl + T", "correct": true },
-        { "text": "Ctrl + C", "correct": false }
+        { "text": "Ctrl + T", "correct": false },
+        { "text": "Ctrl + C", "correct": true }
       ]
     },
     {
@@ -391,8 +391,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/node-js-quiz.php?page=4",
       "statement": "In Node.js APIs of Node.JS are which of the following?",
       "options": [
-        { "text": "Asynchronous", "correct": false },
-        { "text": "Synchronous", "correct": true },
+        { "text": "Asynchronous", "correct": true },
+        { "text": "Synchronous", "correct": false },
         { "text": "Both of the above", "correct": false },
         { "text": "None of the above", "correct": false }
       ]
@@ -403,8 +403,8 @@
       "statement": "Which of the following class is used to create and consume custom events in Node.js?",
       "options": [
         { "text": "Events", "correct": false },
-        { "text": "NodeEvent", "correct": true },
-        { "text": "EventEmitter", "correct": false },
+        { "text": "NodeEvent", "correct": false },
+        { "text": "EventEmitter", "correct": true },
         { "text": "None of the above", "correct": false }
       ]
     },
@@ -413,8 +413,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/node-js-quiz.php?page=4",
       "statement": "How can we create instance of http module?",
       "options": [
-        { "text": "var http = require(\"http\")", "correct": false },
-        { "text": "var http = new require(\"http\")", "correct": true },
+        { "text": "var http = require(\"http\")", "correct": true },
+        { "text": "var http = new require(\"http\")", "correct": false },
         { "text": "var http = new http()", "correct": false },
         { "text": "None of the above", "correct": false }
       ]
@@ -425,9 +425,9 @@
       "statement": "Node.js supports which of the following platform?",
       "options": [
         { "text": "Windows", "correct": false },
-        { "text": "Macintosh", "correct": true },
+        { "text": "Macintosh", "correct": false },
         { "text": "Unix/Linux", "correct": false },
-        { "text": "All of the above", "correct": false }
+        { "text": "All of the above", "correct": true }
       ]
     },
     {
@@ -436,8 +436,8 @@
       "statement": "In Nodejs what is use of underscore variable in REPL session?",
       "options": [
         { "text": "to store the result", "correct": false },
-        { "text": "to get the last command used", "correct": true },
-        { "text": "to get the last result", "correct": false },
+        { "text": "to get the last command used", "correct": false },
+        { "text": "to get the last result", "correct": true },
         { "text": "None of the above", "correct": false }
       ]
     },
@@ -447,9 +447,9 @@
       "statement": "Which statement is valid in using a Node module fs in a Node based application?",
       "options": [
         { "text": "import fs", "correct": false },
-        { "text": "package fs", "correct": true },
+        { "text": "package fs", "correct": false },
         { "text": "var fs = require(\"fs\")", "correct": false },
-        { "text": "var fs = import(\"fs\")", "correct": false }
+        { "text": "var fs = import(\"fs\")", "correct": true }
       ]
     },
     {
@@ -457,8 +457,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/node-js-quiz.php?page=4",
       "statement": "REPL stands for.",
       "options": [
-        { "text": "Read Eval Print Loop", "correct": false },
-        { "text": "Read Eval Point Loop", "correct": true },
+        { "text": "Read Eval Print Loop", "correct": true },
+        { "text": "Read Eval Point Loop", "correct": false },
         { "text": "Read Earn Point Learn", "correct": false },
         { "text": "Research Eval Program Learn", "correct": false }
       ]
@@ -469,8 +469,8 @@
       "statement": "Command to start Node REPL",
       "options": [
         { "text": "$ node start", "correct": false },
-        { "text": "$ node repl", "correct": true },
-        { "text": "$ node", "correct": false },
+        { "text": "$ node repl", "correct": false },
+        { "text": "$ node", "correct": true },
         { "text": "$ node console", "correct": false }
       ]
     },
@@ -501,8 +501,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/node-js-quiz.php?page=5",
       "statement": "Which of the following module is required for path specific operations ?",
       "options": [
-        { "text": "Os module", "correct": true },
-        { "text": "Path module", "correct": false },
+        { "text": "Os module", "correct": false },
+        { "text": "Path module", "correct": true },
         { "text": "Fs module", "correct": false },
         { "text": "All of the above.", "correct": false }
       ]
@@ -512,10 +512,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/node-js-quiz.php?page=5",
       "statement": "Which of the following are Node.js streams types?",
       "options": [
-        { "text": "Writable", "correct": true },
+        { "text": "Writable", "correct": false },
         { "text": "Duplex", "correct": false },
         { "text": "Readable", "correct": false },
-        { "text": "All of the above", "correct": false }
+        { "text": "All of the above", "correct": true }
       ]
     },
     {
@@ -534,9 +534,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/node-js-quiz.php?page=5",
       "statement": "Node uses \\_\\_\\_\\_\\_\\_\\_\\_\\_ engine in core.",
       "options": [
-        { "text": "Node En", "correct": true },
+        { "text": "Node En", "correct": false },
         { "text": "SpiderMonkey", "correct": false },
-        { "text": "Chorme V8", "correct": false },
+        { "text": "Chorme V8", "correct": true },
         { "text": "Microsoft Chakra", "correct": false }
       ]
     },
@@ -556,9 +556,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/node-js-quiz.php?page=5",
       "statement": "How to test if two nodes are equal?",
       "options": [
-        { "text": "\\==", "correct": true },
+        { "text": "\\==", "correct": false },
         { "text": "equal()", "correct": false },
-        { "text": "isEqualNode()", "correct": false },
+        { "text": "isEqualNode()", "correct": true },
         { "text": "None of the above", "correct": false }
       ]
     },
@@ -580,7 +580,7 @@
       "options": [
         {
           "text": "os.normalize('/test/test1//2slashes/1slash/tab/..')",
-          "correct": true
+          "correct": false
         },
         {
           "text": "fs.normalize('/test/test1//2slashes/1slash/tab/..')",
@@ -588,7 +588,7 @@
         },
         {
           "text": "path.normalize('/test/test1//2slashes/1slash/tab/..')",
-          "correct": false
+          "correct": true
         },
         { "text": "None of the above", "correct": false }
       ]
@@ -600,13 +600,13 @@
       "options": [
         {
           "text": "Readable stream is used for read operation",
-          "correct": true
+          "correct": false
         },
         {
           "text": "Output of readable stream can be input to a writable stream",
           "correct": false
         },
-        { "text": "Both of the above", "correct": false },
+        { "text": "Both of the above", "correct": true },
         { "text": "None of the above", "correct": false }
       ]
     },
@@ -627,9 +627,9 @@
       "statement": "What is the purpose of the Node object property ownerDocument?",
       "options": [
         { "text": "Returns the parent node", "correct": false },
-        { "text": "Returns the immediate node", "correct": true },
+        { "text": "Returns the immediate node", "correct": false },
         { "text": "Returns the last element", "correct": false },
-        { "text": "Returns the root element", "correct": false }
+        { "text": "Returns the root element", "correct": true }
       ]
     },
     {
@@ -648,8 +648,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/node-js-quiz.php?page=6",
       "statement": "Which of the following Node object property returns the node immediately before a node?",
       "options": [
-        { "text": "previousSibling", "correct": false },
-        { "text": "textContent", "correct": true },
+        { "text": "previousSibling", "correct": true },
+        { "text": "textContent", "correct": false },
         { "text": "localName", "correct": false },
         { "text": "index", "correct": false }
       ]

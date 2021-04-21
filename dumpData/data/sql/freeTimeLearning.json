@@ -18,7 +18,7 @@
       "options": [
         {
           "text": "SELECT FirstName='FreeTime', LastName='Learning' FROM Persons",
-          "correct": true
+          "correct": false
         },
         {
           "text": "SELECT \\* FROM Persons WHERE FirstName<>'FreeTime' AND LastName<>'Learning'",
@@ -26,7 +26,7 @@
         },
         {
           "text": "SELECT \\* FROM Persons WHERE FirstName='FreeTime' AND LastName='Learning'",
-          "correct": false
+          "correct": true
         },
         { "text": "None of the above", "correct": false }
       ]
@@ -56,10 +56,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/sql-quiz.php?page=1",
       "statement": "Which SQL statement is used to extract data from a database?",
       "options": [
-        { "text": "OPEN", "correct": true },
+        { "text": "OPEN", "correct": false },
         { "text": "GET", "correct": false },
         { "text": "EXTRACT", "correct": false },
-        { "text": "SELECT", "correct": false }
+        { "text": "SELECT", "correct": true }
       ]
     },
     {
@@ -78,8 +78,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/sql-quiz.php?page=1",
       "statement": "Which SQL statement is used to delete data from a database?",
       "options": [
-        { "text": "COLLAPSE", "correct": true },
-        { "text": "DELETE", "correct": false },
+        { "text": "COLLAPSE", "correct": false },
+        { "text": "DELETE", "correct": true },
         { "text": "REMOVE", "correct": false },
         { "text": "All of above", "correct": false }
       ]
@@ -89,8 +89,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/sql-quiz.php?page=1",
       "statement": "Which SQL statement is used to return only different values?",
       "options": [
-        { "text": "SELECT DIFFERENT", "correct": true },
-        { "text": "SELECT DISTINCT", "correct": false },
+        { "text": "SELECT DIFFERENT", "correct": false },
+        { "text": "SELECT DISTINCT", "correct": true },
         { "text": "SELECT UNIQUE", "correct": false },
         { "text": "None of the above", "correct": false }
       ]
@@ -100,10 +100,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/sql-quiz.php?page=1",
       "statement": "Which SQL keyword is used to sort the result-set?",
       "options": [
-        { "text": "SORT", "correct": true },
+        { "text": "SORT", "correct": false },
         { "text": "SORT BY", "correct": false },
         { "text": "ORDER", "correct": false },
-        { "text": "ORDER BY", "correct": false }
+        { "text": "ORDER BY", "correct": true }
       ]
     },
     {
@@ -134,9 +134,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/sql-quiz.php?page=1",
       "statement": "Which SQL statement is used to insert new data in a database?",
       "options": [
-        { "text": "ADD NEW", "correct": true },
+        { "text": "ADD NEW", "correct": false },
         { "text": "ADD RECORD", "correct": false },
-        { "text": "INSERT INTO", "correct": false },
+        { "text": "INSERT INTO", "correct": true },
         { "text": "INSERT NEW", "correct": false }
       ]
     },
@@ -158,11 +158,11 @@
       "options": [
         {
           "text": "Natural join is based on all columns in two tables having same name",
-          "correct": true
+          "correct": false
         },
         {
           "text": "It selects rows from the two tables having different values in the matched columns.",
-          "correct": false
+          "correct": true
         },
         {
           "text": "If columns having same names have different data types, it returns error.",
@@ -176,9 +176,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/sql-quiz.php?page=2",
       "statement": "With SQL, how do you select a column named \"FirstName\" from a table named \"Persons\"?",
       "options": [
-        { "text": "EXTRACT FirstName FROM Persons", "correct": true },
+        { "text": "EXTRACT FirstName FROM Persons", "correct": false },
         { "text": "SELECT Persons.FirstName", "correct": false },
-        { "text": "SELECT FirstName FROM Persons", "correct": false },
+        { "text": "SELECT FirstName FROM Persons", "correct": true },
         { "text": "None of the above", "correct": false }
       ]
     },
@@ -187,10 +187,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/sql-quiz.php?page=2",
       "statement": "With SQL, how do you select all the columns from a table named \"Persons\"?",
       "options": [
-        { "text": "SELECT Persons", "correct": true },
+        { "text": "SELECT Persons", "correct": false },
         { "text": "SELECT \\*.Persons", "correct": false },
         { "text": "SELECT \\[all\\] FROM Persons", "correct": false },
-        { "text": "SELECT \\* FROM Persons", "correct": false }
+        { "text": "SELECT \\* FROM Persons", "correct": true }
       ]
     },
     {
@@ -200,11 +200,11 @@
       "options": [
         {
           "text": "INSERT VALUES ('Ram', 'Raj') INTO Persons",
-          "correct": true
+          "correct": false
         },
         {
           "text": "INSERT INTO Persons VALUES ('Ram', 'Raj')",
-          "correct": false
+          "correct": true
         },
         { "text": "INSERT ('Ram', 'Raj') INTO Persons", "correct": false },
         { "text": "None of the above", "correct": false }
@@ -217,11 +217,11 @@
       "options": [
         {
           "text": "INSERT INTO Persons ('Ramana') INTO LastName",
-          "correct": true
+          "correct": false
         },
         {
           "text": "INSERT INTO Persons (LastName) VALUES ('Ramana')",
-          "correct": false
+          "correct": true
         },
         {
           "text": "INSERT ('Ramana') INTO Persons (LastName)",
@@ -237,13 +237,13 @@
       "options": [
         {
           "text": "Group functions operate on sets of rows to produce multiple results per group.",
-          "correct": true
+          "correct": false
         },
         {
           "text": "DISTINCT keyword makes a group function consider duplicate values.",
           "correct": false
         },
-        { "text": "Group functions ignore null values.", "correct": false },
+        { "text": "Group functions ignore null values.", "correct": true },
         { "text": "None of the above.", "correct": false }
       ]
     },
@@ -254,7 +254,7 @@
       "options": [
         {
           "text": "select dept\\_id, avg(salary) from employees group by dept\\_id;",
-          "correct": true
+          "correct": false
         },
         {
           "text": "select avg(salary) from employees group by dept\\_id;",
@@ -266,7 +266,7 @@
         },
         {
           "text": "select dept\\_id, count(name) from employees;",
-          "correct": false
+          "correct": true
         }
       ]
     },
@@ -277,7 +277,7 @@
       "options": [
         {
           "text": "You can use a subquery in a DELETE statement.",
-          "correct": true
+          "correct": false
         },
         {
           "text": "Specific rows are deleted based on the WHERE clause condition.",
@@ -285,7 +285,7 @@
         },
         {
           "text": "A statement like, DELETE , would cause deletion of the table from the database.",
-          "correct": false
+          "correct": true
         },
         { "text": "All of the above.", "correct": false }
       ]
@@ -297,11 +297,11 @@
       "options": [
         {
           "text": "MODIFY Persons SET LastName='Suresh' WHERE LastName='Ramana'",
-          "correct": true
+          "correct": false
         },
         {
           "text": "UPDATE Persons SET LastName='Suresh' WHERE LastName='Ramana'",
-          "correct": false
+          "correct": true
         },
         {
           "text": "UPDATE Persons SET LastName='Ramana' INTO LastName='Suresh'",
@@ -366,8 +366,8 @@
       "options": [
         { "text": "GET", "correct": false },
         { "text": "UPDATE", "correct": false },
-        { "text": "SELECT", "correct": false },
-        { "text": "RETRIEVE", "correct": true }
+        { "text": "SELECT", "correct": true },
+        { "text": "RETRIEVE", "correct": false }
       ]
     },
     {
@@ -376,9 +376,9 @@
       "statement": "What type of query removes information from a database?",
       "options": [
         { "text": "REMOVE", "correct": false },
-        { "text": "DELETE", "correct": false },
+        { "text": "DELETE", "correct": true },
         { "text": "SUBTRACT", "correct": false },
-        { "text": "ELIMINATE", "correct": true }
+        { "text": "ELIMINATE", "correct": false }
       ]
     },
     {
@@ -388,8 +388,8 @@
       "options": [
         { "text": "SELECT", "correct": false },
         { "text": "FROM", "correct": false },
-        { "text": "address", "correct": false },
-        { "text": "users", "correct": true }
+        { "text": "address", "correct": true },
+        { "text": "users", "correct": false }
       ]
     },
     {
@@ -408,10 +408,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/sql-quiz.php?page=3",
       "statement": "If you want to apply a second condition to your statement where both statements must be true, what keyword would you use between the conditions?",
       "options": [
-        { "text": "AND", "correct": false },
+        { "text": "AND", "correct": true },
         { "text": "BOTH", "correct": false },
         { "text": "TRUE", "correct": false },
-        { "text": "WHERE", "correct": true }
+        { "text": "WHERE", "correct": false }
       ]
     },
     {
@@ -431,9 +431,9 @@
       "statement": "What function would you use to round all numbers down?",
       "options": [
         { "text": "MIN", "correct": false },
-        { "text": "FLOOR", "correct": false },
+        { "text": "FLOOR", "correct": true },
         { "text": "ROUND MIN", "correct": false },
-        { "text": "ROUND DOWN", "correct": true }
+        { "text": "ROUND DOWN", "correct": false }
       ]
     },
     {
@@ -443,8 +443,8 @@
       "options": [
         { "text": "ROUND UP", "correct": false },
         { "text": "MAX", "correct": false },
-        { "text": "CEILING", "correct": false },
-        { "text": "ROUND MAX", "correct": true }
+        { "text": "CEILING", "correct": true },
+        { "text": "ROUND MAX", "correct": false }
       ]
     },
     {
@@ -485,11 +485,11 @@
       "options": [
         {
           "text": "    DELETE FirstName='Reddy' FROM Persons",
-          "correct": true
+          "correct": false
         },
         {
           "text": "    DELETE FROM Persons WHERE FirstName = 'Reddy'",
-          "correct": false
+          "correct": true
         },
         {
           "text": "    DELETE ROW FirstName='Reddy' FROM Persons",
@@ -503,10 +503,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/sql-quiz.php?page=4",
       "statement": "With SQL, how can you return the number of records in the \"Persons\" table?",
       "options": [
-        { "text": "SELECT NO(\\*) FROM Persons", "correct": true },
+        { "text": "SELECT NO(\\*) FROM Persons", "correct": false },
         { "text": "SELECT LEN(\\*) FROM Persons", "correct": false },
         { "text": "SELECT COLUMNS(\\*) FROM Persons", "correct": false },
-        { "text": "SELECT COUNT(\\*) FROM Persons", "correct": false }
+        { "text": "SELECT COUNT(\\*) FROM Persons", "correct": true }
       ]
     },
     {
@@ -514,8 +514,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/sql-quiz.php?page=4",
       "statement": "What function would you use to return the highest value of a column?",
       "options": [
-        { "text": "TOP", "correct": true },
-        { "text": "MAX", "correct": false },
+        { "text": "TOP", "correct": false },
+        { "text": "MAX", "correct": true },
         { "text": "HIGH", "correct": false },
         { "text": "PEAK", "correct": false }
       ]
@@ -525,10 +525,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/sql-quiz.php?page=4",
       "statement": "What function can you use to add all of a column’s values together?",
       "options": [
-        { "text": "ADD", "correct": true },
+        { "text": "ADD", "correct": false },
         { "text": "EQUALS", "correct": false },
         { "text": "SUMMED", "correct": false },
-        { "text": "SUM", "correct": false }
+        { "text": "SUM", "correct": true }
       ]
     },
     {
@@ -547,10 +547,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/sql-quiz.php?page=4",
       "statement": "What is the most common type of join?",
       "options": [
-        { "text": "JOINED", "correct": true },
+        { "text": "JOINED", "correct": false },
         { "text": "JOINED TABLE", "correct": false },
         { "text": "INSIDE JOIN", "correct": false },
-        { "text": "INNER JOIN", "correct": false }
+        { "text": "INNER JOIN", "correct": true }
       ]
     },
     {
@@ -558,8 +558,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/sql-quiz.php?page=4",
       "statement": "What keyword can you use to search for a string in a column?",
       "options": [
-        { "text": "FIND STRING", "correct": true },
-        { "text": "LIKE", "correct": false },
+        { "text": "FIND STRING", "correct": false },
+        { "text": "LIKE", "correct": true },
         { "text": "HAS STRING", "correct": false },
         { "text": "CONTAINS STRING", "correct": false }
       ]
@@ -569,9 +569,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/sql-quiz.php?page=4",
       "statement": "If you are only retrieving one column’s values, what keyword can you add before the column name to only return unique values?",
       "options": [
-        { "text": "ONE", "correct": true },
+        { "text": "ONE", "correct": false },
         { "text": "SINGLE", "correct": false },
-        { "text": "DISTINCT", "correct": false },
+        { "text": "DISTINCT", "correct": true },
         { "text": "UNIQUE", "correct": false }
       ]
     },
@@ -593,11 +593,11 @@
       "options": [
         {
           "text": "Constraints are defined using the CREATE CONSTRAINT statement.",
-          "correct": false
+          "correct": true
         },
         {
           "text": "They are created at the same time when the table is created.",
-          "correct": true
+          "correct": false
         },
         {
           "text": "They could be created after the table is created.",
@@ -631,10 +631,10 @@
         },
         {
           "text": "It can be it can be created and assigned to a user.",
-          "correct": true
+          "correct": false
         },
         { "text": "It can be revoked from a user.", "correct": false },
-        { "text": "All of the above.", "correct": false }
+        { "text": "All of the above.", "correct": true }
       ]
     },
     {
@@ -643,8 +643,8 @@
       "statement": "Which type of database management system represents relations using tables?",
       "options": [
         { "text": "Network DBMS", "correct": false },
-        { "text": "Hierachical DBMS", "correct": true },
-        { "text": "Relational DBMS", "correct": false },
+        { "text": "Hierachical DBMS", "correct": false },
+        { "text": "Relational DBMS", "correct": true },
         { "text": "Object Oriented DBMS", "correct": false }
       ]
     },
@@ -659,7 +659,7 @@
         },
         {
           "text": "it is a key that uniquely identifies a record in a database",
-          "correct": true
+          "correct": false
         },
         {
           "text": "its is an optional key and allows null values",
@@ -667,7 +667,7 @@
         },
         {
           "text": "it is a primary key that consists of more than one field that uniquely identifies a record",
-          "correct": false
+          "correct": true
         }
       ]
     },
@@ -682,7 +682,7 @@
         },
         {
           "text": "ER models increase the database developer's productivity",
-          "correct": true
+          "correct": false
         },
         {
           "text": "ER models can be converted into a database",
@@ -690,7 +690,7 @@
         },
         {
           "text": "ER models waste the database developer's time",
-          "correct": false
+          "correct": true
         }
       ]
     },
@@ -699,8 +699,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/sql-quiz.php?page=5",
       "statement": "What command is used to permanently remove a record from a database table?",
       "options": [
-        { "text": "DROP", "correct": false },
-        { "text": "REMOVE", "correct": true },
+        { "text": "DROP", "correct": true },
+        { "text": "REMOVE", "correct": false },
         { "text": "DELETE", "correct": false },
         { "text": "CUT", "correct": false }
       ]
@@ -721,8 +721,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/sql-quiz.php?page=5",
       "statement": "Wildcards are",
       "options": [
-        { "text": "used to perform pattern matches", "correct": false },
-        { "text": "not supported by MySQL", "correct": true },
+        { "text": "used to perform pattern matches", "correct": true },
+        { "text": "not supported by MySQL", "correct": false },
         {
           "text": "use characters such as $ to perform pattern matches",
           "correct": false
@@ -754,7 +754,7 @@
       "options": [
         {
           "text": "    SELECT `customer name` FROM customers WHERE cat_id = 12 ORDER BY cat_id;",
-          "correct": false
+          "correct": true
         },
         {
           "text": "    SELECT `customer name` FROM customers ORDER BY zone WHERE cat_id = 12;",
@@ -764,7 +764,7 @@
           "text": "    SELECT FROM `customers` 'customer name';",
           "correct": false
         },
-        { "text": "    SELECT customer name FROM customers;", "correct": true }
+        { "text": "    SELECT customer name FROM customers;", "correct": false }
       ]
     },
     {
@@ -776,9 +776,9 @@
           "text": "limits the column data that are returned.",
           "correct": false
         },
-        { "text": "limits the row data are returned.", "correct": false },
+        { "text": "limits the row data are returned.", "correct": true },
         { "text": "Both A and B are correct.", "correct": false },
-        { "text": "None of the above", "correct": true }
+        { "text": "None of the above", "correct": false }
       ]
     },
     {
@@ -809,7 +809,7 @@
         },
         {
           "text": "An exact match is not possible in a SELECT statement.",
-          "correct": false
+          "correct": true
         },
         {
           "text": "An exact match is necessary in a CREATE statement.",
@@ -817,7 +817,7 @@
         },
         {
           "text": "An exact match is not possible in a CREATE statement.",
-          "correct": true
+          "correct": false
         }
       ]
     },
@@ -828,8 +828,8 @@
       "options": [
         { "text": "Equi-join", "correct": false },
         { "text": "Natural join", "correct": false },
-        { "text": "Outer join", "correct": false },
-        { "text": "All of the above", "correct": true }
+        { "text": "Outer join", "correct": true },
+        { "text": "All of the above", "correct": false }
       ]
     },
     {
@@ -852,9 +852,9 @@
         { "text": "They do not need to have a unique name.", "correct": false },
         {
           "text": "They include procedural and SQL statements.",
-          "correct": false
+          "correct": true
         },
-        { "text": "They are the same thing as a function.", "correct": true }
+        { "text": "They are the same thing as a function.", "correct": false }
       ]
     },
     {
@@ -864,14 +864,14 @@
       "options": [
         {
           "text": "A way to establish an IF-THEN-ELSE in SQL.",
-          "correct": false
+          "correct": true
         },
         {
           "text": "A way to establish a data definition in SQL.",
           "correct": false
         },
         { "text": "A way to establish a loop in SQL.", "correct": false },
-        { "text": "All of the above.", "correct": true }
+        { "text": "All of the above.", "correct": false }
       ]
     },
     {
@@ -879,10 +879,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/sql-quiz.php?page=6",
       "statement": "Which of the following statements is true concerning routines and triggers?",
       "options": [
-        { "text": "Both consist of procedural code.", "correct": false },
+        { "text": "Both consist of procedural code.", "correct": true },
         { "text": "Both have to be called to operate.", "correct": false },
         { "text": "Both are stored in the database.", "correct": false },
-        { "text": "Both run automatically.", "correct": true }
+        { "text": "Both run automatically.", "correct": false }
       ]
     },
     {
@@ -913,8 +913,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/sql-quiz.php?page=7",
       "statement": "The SQL keyword(s) \\_\\_\\_\\_\\_\\_\\_\\_ is used with wildcards.",
       "options": [
-        { "text": "IN only", "correct": true },
-        { "text": "LIKE only", "correct": false },
+        { "text": "IN only", "correct": false },
+        { "text": "LIKE only", "correct": true },
         { "text": "NOT IN only", "correct": false },
         { "text": "IN and NOT IN", "correct": false }
       ]
@@ -924,10 +924,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/sql-quiz.php?page=7",
       "statement": "Which of the following is one of the basic approaches for joining tables?",
       "options": [
-        { "text": "Subqueries", "correct": true },
+        { "text": "Subqueries", "correct": false },
         { "text": "Union Join", "correct": false },
         { "text": "Natural join", "correct": false },
-        { "text": "All of the above", "correct": false }
+        { "text": "All of the above", "correct": true }
       ]
     },
     {
@@ -952,8 +952,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/sql-quiz.php?page=7",
       "statement": "The command to eliminate a table from a database is:",
       "options": [
-        { "text": "REMOVE TABLE CUSTOMER;", "correct": true },
-        { "text": "DROP TABLE CUSTOMER;", "correct": false },
+        { "text": "REMOVE TABLE CUSTOMER;", "correct": false },
+        { "text": "DROP TABLE CUSTOMER;", "correct": true },
         { "text": "DELETE TABLE CUSTOMER;", "correct": false },
         { "text": "UPDATE TABLE CUSTOMER;", "correct": false }
       ]
@@ -976,11 +976,11 @@
       "options": [
         {
           "text": "Uses the result of an inner query to determine the processing of an outer query.",
-          "correct": true
+          "correct": false
         },
         {
           "text": "Uses the result of an outer query to determine the processing of an inner query.",
-          "correct": false
+          "correct": true
         },
         {
           "text": "Uses the result of an inner query to determine the processing of an inner query.",
@@ -997,8 +997,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/sql-quiz.php?page=7",
       "statement": "ON UPDATE CASCADE ensures which of the following?",
       "options": [
-        { "text": "Normalization", "correct": true },
-        { "text": "Data Integrity", "correct": false },
+        { "text": "Normalization", "correct": false },
+        { "text": "Data Integrity", "correct": true },
         { "text": "Materialized Views", "correct": false },
         { "text": "All of the above.", "correct": false }
       ]
@@ -1008,8 +1008,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/sql-quiz.php?page=7",
       "statement": "A subquery in an SQL SELECT statement is enclosed in:",
       "options": [
-        { "text": "braces -- {...}.", "correct": true },
-        { "text": "parenthesis -- (...) .", "correct": false },
+        { "text": "braces -- {...}.", "correct": false },
+        { "text": "parenthesis -- (...) .", "correct": true },
         { "text": "brackets -- \\[...\\].", "correct": false },
         { "text": "CAPITAL LETTERS.", "correct": false }
       ]
@@ -1039,7 +1039,7 @@
     {
       "type": "MCQ",
       "source": "https://www.freetimelearning.com/online-quiz/sql-quiz.php?page=8",
-      "statement": "The following SQL is which type of join:   \n\n    SELECT CUSTOMER_T. CUSTOMER_ID, ORDER_T. CUSTOMER_ID, NAME, ORDER_ID FROM\n    CUSTOMER_T,ORDER_T WHERE CUSTOMER_T. CUSTOMER_ID = ORDER_T. CUSTOMER_ID​",
+      "statement": "The following SQL is which type of join:   \n\n    SELECT CUSTOMER_T. CUSTOMER_ID, ORDER_T. CUSTOMER_ID, NAME, ORDER_ID FROM\n    CUSTOMER_T,ORDER_T WHERE CUSTOMER_T. CUSTOMER_ID = ORDER_T. CUSTOMER_ID​",
       "options": [
         { "text": "Equi-join", "correct": true },
         { "text": "Natural join", "correct": false },
@@ -1052,10 +1052,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/sql-quiz.php?page=8",
       "statement": "How many tables may be included with a join?",
       "options": [
-        { "text": "One", "correct": true },
+        { "text": "One", "correct": false },
         { "text": "Two", "correct": false },
         { "text": "Three", "correct": false },
-        { "text": "All of the above", "correct": false }
+        { "text": "All of the above", "correct": true }
       ]
     },
     {
@@ -1074,14 +1074,14 @@
       "source": "https://www.freetimelearning.com/online-quiz/sql-quiz.php?page=8",
       "statement": "Embedded SQL is which of the following?",
       "options": [
-        { "text": "Hard-coded SQL statements in a trigger.", "correct": true },
+        { "text": "Hard-coded SQL statements in a trigger.", "correct": false },
         {
           "text": "Hard-coded SQL statements in a procedure.",
           "correct": false
         },
         {
           "text": "Hard-coded SQL statements in a program language such as Java.",
-          "correct": false
+          "correct": true
         },
         {
           "text": "The process of making an application capable of generating specific SQL code on the fly.",
@@ -1096,11 +1096,11 @@
       "options": [
         {
           "text": "Combines the output from no more than two queries and does not include the same number of columns.",
-          "correct": true
+          "correct": false
         },
         {
           "text": "Combines the output from multiple queries and must include the same number of columns.",
-          "correct": false
+          "correct": true
         },
         {
           "text": "Combines the output from no more than two queries and must include the same number of columns.",
@@ -1157,10 +1157,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/sql-quiz.php?page=8",
       "statement": "Which of the following do you need to consider when you make a table in SQL?",
       "options": [
-        { "text": "Data types", "correct": true },
+        { "text": "Data types", "correct": false },
         { "text": "Default values", "correct": false },
         { "text": "Primary keys", "correct": false },
-        { "text": "All of the above.", "correct": false }
+        { "text": "All of the above.", "correct": true }
       ]
     },
     {
@@ -1168,9 +1168,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/sql-quiz.php?page=8",
       "statement": "Which one of the following sorts rows in SQL?",
       "options": [
-        { "text": "SORT BY", "correct": true },
+        { "text": "SORT BY", "correct": false },
         { "text": "ALIGN BY", "correct": false },
-        { "text": "ORDER BY", "correct": false },
+        { "text": "ORDER BY", "correct": true },
         { "text": "GROUP BY", "correct": false }
       ]
     },
@@ -1191,10 +1191,10 @@
       "statement": "A subquery in an SQL SELECT statement:",
       "options": [
         { "text": "can only be used with two tables.", "correct": false },
-        { "text": "can always be duplicated by a join.", "correct": true },
+        { "text": "can always be duplicated by a join.", "correct": false },
         {
           "text": "has a distinct form that cannot be duplicated by a join.",
-          "correct": false
+          "correct": true
         },
         {
           "text": "has a distinct form that cannot be duplicated by a join.",
@@ -1219,9 +1219,9 @@
       "statement": "The Microsoft Access wildcards are \\_\\_\\_\\_ and \\_\\_\\_\\_ .",
       "options": [
         { "text": "asterisk (\\*); percent sign (%)", "correct": false },
-        { "text": "percent sign (%); underscore (\\_)", "correct": true },
+        { "text": "percent sign (%); underscore (\\_)", "correct": false },
         { "text": "underscore(\\_); question mark (?)", "correct": false },
-        { "text": "question mark (?); asterisk (\\*)", "correct": false }
+        { "text": "question mark (?); asterisk (\\*)", "correct": true }
       ]
     },
     {
@@ -1231,11 +1231,11 @@
       "options": [
         {
           "text": "use FROM to name the source table(s) and list the columns to be shown after SELECT.",
-          "correct": false
+          "correct": true
         },
         {
           "text": "use USING to name the source table(s) and list the columns to be shown after SELECT.",
-          "correct": true
+          "correct": false
         },
         {
           "text": "use SELECT to name the source table(s) and list the columns to be shown after USING.",
@@ -1263,8 +1263,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/sql-quiz.php?page=9",
       "statement": "The benefits of a standard relational language include which of the following?",
       "options": [
-        { "text": "Reduced training costs", "correct": false },
-        { "text": "Applications are not needed", "correct": true },
+        { "text": "Reduced training costs", "correct": true },
+        { "text": "Applications are not needed", "correct": false },
         { "text": "Increased dependence on a single vendor", "correct": false },
         { "text": "All of the above", "correct": false }
       ]
@@ -1280,11 +1280,11 @@
         },
         {
           "text": "    SELECT NAME IN CUSTOMER WHERE STATE = 'VA';",
-          "correct": true
+          "correct": false
         },
         {
           "text": "    SELECT NAME FROM CUSTOMER WHERE STATE IN ('VA');",
-          "correct": false
+          "correct": true
         },
         {
           "text": "    SELECT NAME IN CUSTOMER WHERE STATE = 'V';",
@@ -1297,8 +1297,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/sql-quiz.php?page=9",
       "statement": "DBMS provides insulation between program and data. This is referred to as \\_\\_\\_\\_\\_\\_\\_",
       "options": [
-        { "text": "program-data independence", "correct": false },
-        { "text": "program-data dependence", "correct": true },
+        { "text": "program-data independence", "correct": true },
+        { "text": "program-data dependence", "correct": false },
         { "text": "database-data dependence", "correct": false },
         { "text": "program-database independence", "correct": false }
       ]
@@ -1339,10 +1339,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/sql-quiz.php?page=10",
       "statement": "Data model comprises all of the following, except \\_\\_\\_\\_\\_\\_\\_\\_\\_",
       "options": [
-        { "text": "a structural part", "correct": true },
+        { "text": "a structural part", "correct": false },
         { "text": "a manipulative part", "correct": false },
         { "text": "a set of integrity rules", "correct": false },
-        { "text": "a managerial part", "correct": false }
+        { "text": "a managerial part", "correct": true }
       ]
     },
     {
@@ -1350,9 +1350,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/sql-quiz.php?page=10",
       "statement": "Which is not one of the evaluation criteria during testing phase?",
       "options": [
-        { "text": "Learnability", "correct": true },
+        { "text": "Learnability", "correct": false },
         { "text": "Performance", "correct": false },
-        { "text": "Creativity", "correct": false },
+        { "text": "Creativity", "correct": true },
         { "text": "Robustness", "correct": false }
       ]
     },
@@ -1372,10 +1372,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/sql-quiz.php?page=10",
       "statement": "You must always use \\_\\_\\_\\_\\_ when filtering string values.",
       "options": [
-        { "text": "exclamation point", "correct": true },
+        { "text": "exclamation point", "correct": false },
         { "text": "percent signs", "correct": false },
         { "text": "astericks", "correct": false },
-        { "text": "quotes", "correct": false }
+        { "text": "quotes", "correct": true }
       ]
     },
     {
@@ -1394,8 +1394,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/sql-quiz.php?page=10",
       "statement": "To join a table, connect the \\_\\_\\_\\_\\_\\_ of one table to the \\_\\_\\_\\_\\_\\_ of the other.",
       "options": [
-        { "text": "filtered by, foreign key", "correct": true },
-        { "text": "primary key, foreign key", "correct": false },
+        { "text": "filtered by, foreign key", "correct": false },
+        { "text": "primary key, foreign key", "correct": true },
         { "text": "group by clause, primary key", "correct": false },
         { "text": "aggregate function, where clause", "correct": false }
       ]
@@ -1405,19 +1405,19 @@
       "source": "https://www.freetimelearning.com/online-quiz/sql-quiz.php?page=10",
       "statement": "Use what to remove spaces from the beginning and end of the string value?",
       "options": [
-        { "text": "SPACE", "correct": true },
+        { "text": "SPACE", "correct": false },
         { "text": "NOSPACE", "correct": false },
         { "text": "CROP", "correct": false },
-        { "text": "TRIM", "correct": false }
+        { "text": "TRIM", "correct": true }
       ]
     },
     {
       "type": "MCQ",
       "source": "https://www.freetimelearning.com/online-quiz/sql-quiz.php?page=10",
-      "statement": "SELECT MAX(price)FROM    PRODUCT will return how many rows?",
+      "statement": "SELECT MAX(price)FROM    PRODUCT will return how many rows?",
       "options": [
-        { "text": "0", "correct": true },
-        { "text": "1", "correct": false },
+        { "text": "0", "correct": false },
+        { "text": "1", "correct": true },
         { "text": "2", "correct": false },
         { "text": "As many rows that are in the table", "correct": false }
       ]

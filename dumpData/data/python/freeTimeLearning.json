@@ -16,9 +16,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=1",
       "statement": "Python initial release date ?",
       "options": [
-        { "text": "1991", "correct": false },
+        { "text": "1991", "correct": true },
         { "text": "1992", "correct": false },
-        { "text": "1995", "correct": true },
+        { "text": "1995", "correct": false },
         { "text": "1996", "correct": false }
       ]
     },
@@ -32,8 +32,8 @@
           "correct": false
         },
         { "text": "Python is an interpreted language.", "correct": false },
-        { "text": "Python is an object-oriented language.", "correct": true },
-        { "text": "All of the above.", "correct": false }
+        { "text": "Python is an object-oriented language.", "correct": false },
+        { "text": "All of the above.", "correct": true }
       ]
     },
     {
@@ -42,8 +42,8 @@
       "statement": "What symbol can you use to comment out one line of code?",
       "options": [
         { "text": "\\*", "correct": false },
-        { "text": "#", "correct": false },
-        { "text": "//", "correct": true },
+        { "text": "#", "correct": true },
+        { "text": "//", "correct": false },
         { "text": "(comment)", "correct": false }
       ]
     },
@@ -69,9 +69,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=1",
       "statement": "Which of the following is not a class method?",
       "options": [
-        { "text": "Non-static", "correct": false },
+        { "text": "Non-static", "correct": true },
         { "text": "Static", "correct": false },
-        { "text": "Bounded", "correct": true },
+        { "text": "Bounded", "correct": false },
         { "text": "Unbounded", "correct": false }
       ]
     },
@@ -81,8 +81,8 @@
       "statement": "In python which keyword is used to start function ?",
       "options": [
         { "text": "function", "correct": false },
-        { "text": "def", "correct": false },
-        { "text": "try", "correct": true },
+        { "text": "def", "correct": true },
+        { "text": "try", "correct": false },
         { "text": "import", "correct": false }
       ]
     },
@@ -93,8 +93,8 @@
       "options": [
         { "text": "PYTHONPATH", "correct": false },
         { "text": "PYTHONSTARTUP", "correct": false },
-        { "text": "PYTHONCASEOK", "correct": true },
-        { "text": "PYTHONHOME", "correct": false }
+        { "text": "PYTHONCASEOK", "correct": false },
+        { "text": "PYTHONHOME", "correct": true }
       ]
     },
     {
@@ -113,9 +113,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=1",
       "statement": "Which module in Python supports regular expressions?",
       "options": [
-        { "text": "re", "correct": false },
+        { "text": "re", "correct": true },
         { "text": "regex", "correct": false },
-        { "text": "pyregex", "correct": true },
+        { "text": "pyregex", "correct": false },
         { "text": "None of the above", "correct": false }
       ]
     },
@@ -135,8 +135,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=2",
       "statement": "Is Python case sensitive when dealing with identifiers?",
       "options": [
-        { "text": "yes", "correct": false },
-        { "text": "no", "correct": true },
+        { "text": "yes", "correct": true },
+        { "text": "no", "correct": false },
         { "text": "machine dependent", "correct": false },
         { "text": "none of the mentioned", "correct": false }
       ]
@@ -147,9 +147,9 @@
       "statement": "Which of these in not a core data type?",
       "options": [
         { "text": "Lists", "correct": false },
-        { "text": "Dictionary", "correct": true },
+        { "text": "Dictionary", "correct": false },
         { "text": "Tuples", "correct": false },
-        { "text": "Class", "correct": false }
+        { "text": "Class", "correct": true }
       ]
     },
     {
@@ -158,9 +158,9 @@
       "statement": "What is the maximum possible length of an identifier?",
       "options": [
         { "text": "31 characters", "correct": false },
-        { "text": "60 characters", "correct": true },
+        { "text": "60 characters", "correct": false },
         { "text": "73 characters", "correct": false },
-        { "text": "none of the mentioned", "correct": false }
+        { "text": "none of the mentioned", "correct": true }
       ]
     },
     {
@@ -169,9 +169,9 @@
       "statement": "Which of the following is invalid?",
       "options": [
         { "text": "\\_a = 1", "correct": false },
-        { "text": "\\_\\_a = 1", "correct": true },
+        { "text": "\\_\\_a = 1", "correct": false },
         { "text": "\\_\\_str\\_\\_ = 1", "correct": false },
-        { "text": "none of the mentioned", "correct": false }
+        { "text": "none of the mentioned", "correct": true }
       ]
     },
     {
@@ -202,8 +202,8 @@
       "statement": "Which of the following is not a complex number?",
       "options": [
         { "text": "k = 2 + 3j", "correct": false },
-        { "text": "k = complex(2, 3)", "correct": true },
-        { "text": "k = 2 + 3l", "correct": false },
+        { "text": "k = complex(2, 3)", "correct": false },
+        { "text": "k = 2 + 3l", "correct": true },
         { "text": "k = 2 + 3J", "correct": false }
       ]
     },
@@ -213,8 +213,8 @@
       "statement": "What is the answer to this expression, 22 % 3 is?",
       "options": [
         { "text": "7", "correct": false },
-        { "text": "0", "correct": true },
-        { "text": "1", "correct": false },
+        { "text": "0", "correct": false },
+        { "text": "1", "correct": true },
         { "text": "5", "correct": false }
       ]
     },
@@ -224,8 +224,8 @@
       "statement": "What is the type of inf?",
       "options": [
         { "text": "Boolean", "correct": false },
-        { "text": "Integer", "correct": true },
-        { "text": "Float", "correct": false },
+        { "text": "Integer", "correct": false },
+        { "text": "Float", "correct": true },
         { "text": "Complex", "correct": false }
       ]
     },
@@ -256,8 +256,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=3",
       "statement": "What is the output of this expression, 3\\*1\\*\\*3?",
       "options": [
-        { "text": "1", "correct": true },
-        { "text": "3", "correct": false },
+        { "text": "1", "correct": false },
+        { "text": "3", "correct": true },
         { "text": "9", "correct": false },
         { "text": "27", "correct": false }
       ]
@@ -278,9 +278,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=3",
       "statement": "Which one of the following has the highest precedence in the expression?",
       "options": [
-        { "text": "Exponential", "correct": true },
+        { "text": "Exponential", "correct": false },
         { "text": "Addition", "correct": false },
-        { "text": "Parentheses", "correct": false },
+        { "text": "Parentheses", "correct": true },
         { "text": "Multiplication", "correct": false }
       ]
     },
@@ -289,8 +289,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=3",
       "statement": "Which of the following is incorrect?",
       "options": [
-        { "text": "float(‘nan’)", "correct": true },
-        { "text": "float(’12+34′)", "correct": false },
+        { "text": "float(‘nan’)", "correct": false },
+        { "text": "float(’12+34′)", "correct": true },
         { "text": "float(’56’+’78’)", "correct": false },
         { "text": "float(‘inf’)", "correct": false }
       ]
@@ -300,9 +300,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=3",
       "statement": "Which of the following has more precedance?",
       "options": [
-        { "text": "/", "correct": true },
+        { "text": "/", "correct": false },
         { "text": "+", "correct": false },
-        { "text": "()", "correct": false },
+        { "text": "()", "correct": true },
         { "text": "\\-", "correct": false }
       ]
     },
@@ -311,8 +311,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=3",
       "statement": "What will be the output of 7^10 in python?",
       "options": [
-        { "text": "02", "correct": true },
-        { "text": "13", "correct": false },
+        { "text": "02", "correct": false },
+        { "text": "13", "correct": true },
         { "text": "15", "correct": false },
         { "text": "None of the above", "correct": false }
       ]
@@ -333,10 +333,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=3",
       "statement": "What will be the value of the following Python expression?\n\n    4 + 3 % 5",
       "options": [
-        { "text": "0", "correct": true },
+        { "text": "0", "correct": false },
         { "text": "2", "correct": false },
         { "text": "4", "correct": false },
-        { "text": "7", "correct": false }
+        { "text": "7", "correct": true }
       ]
     },
     {
@@ -356,8 +356,8 @@
       "statement": "What will be the value of x in the following Python expression?\n\n    x = int(43.55+2/2)",
       "options": [
         { "text": "43", "correct": false },
-        { "text": "44", "correct": false },
-        { "text": "22", "correct": true },
+        { "text": "44", "correct": true },
+        { "text": "22", "correct": false },
         { "text": "23", "correct": false }
       ]
     },
@@ -368,8 +368,8 @@
       "options": [
         { "text": "64, 512, 64", "correct": false },
         { "text": "64, 64, 64", "correct": false },
-        { "text": "512, 512, 512", "correct": true },
-        { "text": "512, 64, 512", "correct": false }
+        { "text": "512, 512, 512", "correct": false },
+        { "text": "512, 64, 512", "correct": true }
       ]
     },
     {
@@ -377,9 +377,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=4",
       "statement": "What is the value of the following expression?\n\n    8/4/2, 8/(4/2)",
       "options": [
-        { "text": "(1.0, 4.0)", "correct": false },
+        { "text": "(1.0, 4.0)", "correct": true },
         { "text": "(1.0, 1.0)", "correct": false },
-        { "text": "(4.0. 1.0)", "correct": true },
+        { "text": "(4.0. 1.0)", "correct": false },
         { "text": "(4.0, 4.0)", "correct": false }
       ]
     },
@@ -390,8 +390,8 @@
       "options": [
         { "text": "000hi", "correct": false },
         { "text": "hi000", "correct": false },
-        { "text": "00000hi", "correct": true },
-        { "text": "error", "correct": false }
+        { "text": "00000hi", "correct": false },
+        { "text": "error", "correct": true }
       ]
     },
     {
@@ -400,8 +400,8 @@
       "statement": "Read the information given below carefully and write a list comprehension such that the output is: \\[‘e’, ‘o’\\]\n\n    w=\"hello\"\n    v=('a', 'e', 'i', 'o', 'u')",
       "options": [
         { "text": "\\[x for w in v if x in v\\]", "correct": false },
-        { "text": "\\[x for x in w if x in v\\]", "correct": false },
-        { "text": "\\[x for x in v if w in v\\]", "correct": true },
+        { "text": "\\[x for x in w if x in v\\]", "correct": true },
+        { "text": "\\[x for x in v if w in v\\]", "correct": false },
         { "text": "\\[x for v in w for x in w\\]", "correct": false }
       ]
     },
@@ -412,8 +412,8 @@
       "options": [
         { "text": "0", "correct": false },
         { "text": "\\[0\\]", "correct": false },
-        { "text": "\\[0.00\\]", "correct": true },
-        { "text": "Error", "correct": false }
+        { "text": "\\[0.00\\]", "correct": false },
+        { "text": "Error", "correct": true }
       ]
     },
     {
@@ -438,11 +438,11 @@
         },
         {
           "text": "\\[i for i in range(1, 101) if int(i\\*0.5)==(i\\*0.5)\\]",
-          "correct": false
+          "correct": true
         },
         {
           "text": "\\[i for i in range(1, 101) if int(i\\*0.5)=(i\\*0.5)\\]",
-          "correct": true
+          "correct": false
         },
         {
           "text": "\\[i for i in range(1, 100) if int(i\\*0.5)=(i\\*0.5)\\]",
@@ -455,9 +455,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=4",
       "statement": "Write a list comprehension to produce the list: \\[1, 2, 4, 8, 16……212\\].",
       "options": [
-        { "text": "\\[(2\\*\\*x) for x in range(0, 13)\\]", "correct": false },
+        { "text": "\\[(2\\*\\*x) for x in range(0, 13)\\]", "correct": true },
         { "text": "\\[(x\\*\\*2) for x in range(1, 13)\\]", "correct": false },
-        { "text": "\\[(2\\*\\*x) for x in range(1, 13)\\]", "correct": true },
+        { "text": "\\[(2\\*\\*x) for x in range(1, 13)\\]", "correct": false },
         { "text": "\\[(x\\*\\*2) for x in range(0, 13)\\]", "correct": false }
       ]
     },
@@ -477,9 +477,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=5",
       "statement": "Which of the following creates a pattern object?",
       "options": [
-        { "text": "re.create(str)", "correct": true },
+        { "text": "re.create(str)", "correct": false },
         { "text": "re.regex(str)", "correct": false },
-        { "text": "re.compile(str)", "correct": false },
+        { "text": "re.compile(str)", "correct": true },
         { "text": "re.assemble(str)", "correct": false }
       ]
     },
@@ -505,8 +505,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=5",
       "statement": "What will be the output of the following Python code?\n\n    sentence = 'we are humans'\n    matched = re.match(r'(.*) (.*?) (.*)', sentence)\n    print(matched.groups())",
       "options": [
-        { "text": "(‘we’, ‘humans’)", "correct": true },
-        { "text": "(‘we’, ‘are’, ‘humans’)", "correct": false },
+        { "text": "(‘we’, ‘humans’)", "correct": false },
+        { "text": "(‘we’, ‘are’, ‘humans’)", "correct": true },
         { "text": "(we, are, humans)", "correct": false },
         { "text": "‘we are humans’", "correct": false }
       ]
@@ -516,10 +516,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=5",
       "statement": "What will be the output of the following Python code?\n\n    sentence = 'we are humans'\n    matched = re.match(r'(.*) (.*?) (.*)', sentence)\n    print(matched.group(2))",
       "options": [
-        { "text": "‘we are humans’", "correct": true },
+        { "text": "‘we are humans’", "correct": false },
         { "text": "‘are’", "correct": false },
         { "text": "‘we’", "correct": false },
-        { "text": "‘humans’", "correct": false }
+        { "text": "‘humans’", "correct": true }
       ]
     },
     {
@@ -529,9 +529,9 @@
       "options": [
         {
           "text": "{‘animal’: ‘horses’, ‘verb’: ‘are’, ‘adjective’: ‘fast’}",
-          "correct": true
+          "correct": false
         },
-        { "text": "(‘horses’, ‘are’, ‘fast’)", "correct": false },
+        { "text": "(‘horses’, ‘are’, ‘fast’)", "correct": true },
         { "text": "‘horses are fast’", "correct": false },
         { "text": "‘are’", "correct": false }
       ]
@@ -541,8 +541,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=5",
       "statement": "The expression a{5} will match \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ characters with the previous regular expression.",
       "options": [
-        { "text": "exactly 5", "correct": true },
-        { "text": "5 or more", "correct": false },
+        { "text": "exactly 5", "correct": false },
+        { "text": "5 or more", "correct": true },
         { "text": "5 or less", "correct": false },
         { "text": "exactly 4", "correct": false }
       ]
@@ -552,10 +552,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=5",
       "statement": "What will be the output of the following Python code?\n\n    re.split('\\W+', 'Hello, hello, hello.')",
       "options": [
-        { "text": "\\[‘Hello, ‘hello’, ‘hello’\\]", "correct": true },
+        { "text": "\\[‘Hello, ‘hello’, ‘hello’\\]", "correct": false },
         { "text": "\\[‘Hello’, ‘hello’, ‘hello.’\\]", "correct": false },
         { "text": "\\[‘Hello’, ‘hello’, ‘hello’, ‘.’\\]", "correct": false },
-        { "text": "\\[‘Hello’, ‘hello’, ‘hello’, ”\\]", "correct": false }
+        { "text": "\\[‘Hello’, ‘hello’, ‘hello’, ”\\]", "correct": true }
       ]
     },
     {
@@ -563,9 +563,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz.php?page=5",
       "statement": "Which of the following functions results in case insensitive matching?",
       "options": [
-        { "text": "re.A", "correct": true },
+        { "text": "re.A", "correct": false },
         { "text": "re.U", "correct": false },
-        { "text": "re.I", "correct": false },
+        { "text": "re.I", "correct": true },
         { "text": "re.X", "correct": false }
       ]
     },
@@ -598,7 +598,7 @@
       "options": [
         {
           "text": "Variable name can start with an underscore.",
-          "correct": false
+          "correct": true
         },
         { "text": "Variable name can start with a digit.", "correct": false },
         {
@@ -607,7 +607,7 @@
         },
         {
           "text": "Variable name can have symbols like: @, #, $ etc.",
-          "correct": true
+          "correct": false
         }
       ]
     },
@@ -617,11 +617,11 @@
       "statement": "Which of the following statements is NOT true about Python?",
       "options": [
         { "text": "Python can be used for web development", "correct": false },
-        { "text": "Python’s syntax is much like PHP", "correct": false },
+        { "text": "Python’s syntax is much like PHP", "correct": true },
         { "text": "Python can run on any type of platform", "correct": false },
         {
           "text": "Python can be used to generate dynamic web pages",
-          "correct": true
+          "correct": false
         }
       ]
     },
@@ -630,10 +630,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=1",
       "statement": "What is the return value of trunc() ?",
       "options": [
-        { "text": "int", "correct": false },
+        { "text": "int", "correct": true },
         { "text": "bool", "correct": false },
         { "text": "float", "correct": false },
-        { "text": "None of the above", "correct": true }
+        { "text": "None of the above", "correct": false }
       ]
     },
     {
@@ -643,8 +643,8 @@
       "options": [
         { "text": "Create new module", "correct": false },
         { "text": "Define generators", "correct": false },
-        { "text": "Run python module as main program", "correct": false },
-        { "text": "Create new objects", "correct": true }
+        { "text": "Run python module as main program", "correct": true },
+        { "text": "Create new objects", "correct": false }
       ]
     },
     {
@@ -653,9 +653,9 @@
       "statement": "Which operator is used to compare two numbers for equality?",
       "options": [
         { "text": "\\=", "correct": false },
-        { "text": "\\==", "correct": false },
+        { "text": "\\==", "correct": true },
         { "text": "!=", "correct": false },
-        { "text": "+=", "correct": true }
+        { "text": "+=", "correct": false }
       ]
     },
     {
@@ -664,9 +664,9 @@
       "statement": "In python which is the correct method to load a module ?",
       "options": [
         { "text": "include math", "correct": false },
-        { "text": "import math", "correct": false },
+        { "text": "import math", "correct": true },
         { "text": "#include<math.h>", "correct": false },
-        { "text": "using math", "correct": true }
+        { "text": "using math", "correct": false }
       ]
     },
     {
@@ -685,10 +685,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=1",
       "statement": "Which of the following function checks in a string that all characters are numeric?",
       "options": [
-        { "text": "isnumeric()", "correct": false },
+        { "text": "isnumeric()", "correct": true },
         { "text": "islower()", "correct": false },
         { "text": "isspace()", "correct": false },
-        { "text": "istitle()", "correct": true }
+        { "text": "istitle()", "correct": false }
       ]
     },
     {
@@ -697,9 +697,9 @@
       "statement": "In python 3 what does // operator do ?",
       "options": [
         { "text": "Float division", "correct": false },
-        { "text": "Integer division", "correct": false },
+        { "text": "Integer division", "correct": true },
         { "text": "returns remainder", "correct": false },
-        { "text": "same as a\\*\\*b", "correct": true }
+        { "text": "same as a\\*\\*b", "correct": false }
       ]
     },
     {
@@ -729,8 +729,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=2",
       "statement": "What will be the output of the following Python code?\n\n    l=list('HELLO')\n    p=l[0], l[-1], l[1:3]\n    'a={0}, b={1}, c={2}'.format(*p)",
       "options": [
-        { "text": "“a=’H’, b=’O’, c=(E, L)”", "correct": true },
-        { "text": "“a=H, b=O, c=\\[‘E’, ‘L’\\]”", "correct": false },
+        { "text": "“a=’H’, b=’O’, c=(E, L)”", "correct": false },
+        { "text": "“a=H, b=O, c=\\[‘E’, ‘L’\\]”", "correct": true },
         { "text": "Error", "correct": false },
         { "text": "Junk value", "correct": false }
       ]
@@ -740,10 +740,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=2",
       "statement": "What will be the output of the following Python code?\n\n    hex(255), int('FF', 16), 0xFF",
       "options": [
-        { "text": "Error", "correct": true },
+        { "text": "Error", "correct": false },
         { "text": "\\[0xFF, 255, 16, 255\\]", "correct": false },
         { "text": "(‘0xff’, 155, 16, 255)", "correct": false },
-        { "text": "(‘0xff’, 255, 255)", "correct": false }
+        { "text": "(‘0xff’, 255, 255)", "correct": true }
       ]
     },
     {
@@ -751,9 +751,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=2",
       "statement": "What will be the output of the following Python code?\n\n    '{a}{b}{a}'.format(a='hello', b='world')",
       "options": [
-        { "text": "‘hello world’", "correct": true },
+        { "text": "‘hello world’", "correct": false },
         { "text": "‘hello’ ‘world’ ‘hello’", "correct": false },
-        { "text": "‘helloworldhello’", "correct": false },
+        { "text": "‘helloworldhello’", "correct": true },
         { "text": "‘hello’ ‘hello’ ‘world’", "correct": false }
       ]
     },
@@ -762,10 +762,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=2",
       "statement": "What will be the output of the following Python code?\n\n    'The {} side {1} {2}'.format('bright', 'of', 'life')",
       "options": [
-        { "text": "‘The bright side of life’", "correct": true },
+        { "text": "‘The bright side of life’", "correct": false },
         { "text": "‘The {bright} side {of} {life}’", "correct": false },
         { "text": "No output", "correct": false },
-        { "text": "Error", "correct": false }
+        { "text": "Error", "correct": true }
       ]
     },
     {
@@ -773,8 +773,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=2",
       "statement": "What will be the output of the following two codes?\n\n    i. '{0}'.format(4.56)\n    ii. '{0}'.format([4.56,])",
       "options": [
-        { "text": "‘4.56’, ‘4.56,’", "correct": true },
-        { "text": "‘4.56’, ‘\\[4.56\\]’", "correct": false },
+        { "text": "‘4.56’, ‘4.56,’", "correct": false },
+        { "text": "‘4.56’, ‘\\[4.56\\]’", "correct": true },
         { "text": "4.56, \\[4.56,\\]", "correct": false },
         { "text": "4.56, \\[4.56,\\]", "correct": false }
       ]
@@ -806,10 +806,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=2",
       "statement": "What will be the output of the following Python code snippet?\n\n    a='hello'\n    q=10\n    vars()",
       "options": [
-        { "text": "{‘a’ : ‘hello’, ‘q’ : 10}", "correct": true },
+        { "text": "{‘a’ : ‘hello’, ‘q’ : 10}", "correct": false },
         {
           "text": "{‘a’ : ‘hello’, ‘q’ : 10, ……..plus built-in names set by Python….}",
-          "correct": false
+          "correct": true
         },
         { "text": "{……Built in names set by Python……}", "correct": false },
         { "text": "Error", "correct": false }
@@ -831,10 +831,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=3",
       "statement": "What will be the output of the following Python code?\n\n    A = [[1, 2, 3],\n              [4, 5, 6],\n              [7, 8, 9]]\n    A[1]",
       "options": [
-        { "text": "\\[1, 2, 3\\]", "correct": true },
+        { "text": "\\[1, 2, 3\\]", "correct": false },
         { "text": "\\[1, 4, 7\\]", "correct": false },
         { "text": "\\[3, 6, 9\\]", "correct": false },
-        { "text": "\\[4, 5, 6\\]", "correct": false }
+        { "text": "\\[4, 5, 6\\]", "correct": true }
       ]
     },
     {
@@ -842,8 +842,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=3",
       "statement": "What will be the output of the following Python code?\n\n    A = [[1, 2, 3],\n          [4, 5, 6],\n          [7, 8, 9]]\n    [A[row][1] for row in (0, 1, 2)]",
       "options": [
-        { "text": "\\[1, 4, 7\\]", "correct": true },
-        { "text": "\\[2, 5, 8\\]", "correct": false },
+        { "text": "\\[1, 4, 7\\]", "correct": false },
+        { "text": "\\[2, 5, 8\\]", "correct": true },
         { "text": "\\[4, 5, 6\\]", "correct": false },
         { "text": "\\[7, 8, 9\\]", "correct": false }
       ]
@@ -853,10 +853,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=3",
       "statement": "What will be the output of the following Python code?\n\n    l=[[1, 2, 3], [4, 5, 6]]\n    for i in range(len(l)):\n    \tfor j in range(len(l[i])):\n    \t\tl[i][j]+=10\n    l",
       "options": [
-        { "text": "Error", "correct": true },
+        { "text": "Error", "correct": false },
         { "text": "No output", "correct": false },
         { "text": "\\[\\[1, 2, 3\\], \\[4, 5, 6\\]\\]", "correct": false },
-        { "text": "\\[\\[11, 12, 13\\], \\[14, 15, 16\\]\\]", "correct": false }
+        { "text": "\\[\\[11, 12, 13\\], \\[14, 15, 16\\]\\]", "correct": true }
       ]
     },
     {
@@ -864,14 +864,14 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=3",
       "statement": "What will be the output of the following Python code?\n\n    A = [[1, 2, 3],\n         [4, 5, 6],\n         [7, 8, 9]]\n     \n    [[col + 10 for col in row] for row in A]",
       "options": [
-        { "text": "Error", "correct": true },
+        { "text": "Error", "correct": false },
         {
           "text": "\\[11, 12, 13, 14, 15, 16, 17, 18, 19\\]",
           "correct": false
         },
         {
           "text": "\\[\\[11, 12, 13\\], \\[14, 15, 16\\], \\[17, 18, 19\\]\\]",
-          "correct": false
+          "correct": true
         },
         {
           "text": "\\[11, 12, 13\\], \\[14, 15, 16\\], \\[17, 18, 19\\]",
@@ -884,11 +884,11 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=3",
       "statement": "What will be the output of the following Python code?\n\n    A = [[1, 2, 3],\n         [4, 5, 6],\n         [7, 8, 9]]\n    B = [[3, 3, 3],\n         [4, 4, 4],\n         [5, 5, 5]]\n    [[col1 * col2 for (col1, col2) in zip(row1, row2)] for (row1, row2) in zip(A, B)]",
       "options": [
-        { "text": "Error", "correct": true },
+        { "text": "Error", "correct": false },
         { "text": "No output", "correct": false },
         {
           "text": "\\[\\[3, 6, 9\\], \\[16, 20, 24\\], \\[35, 40, 45\\]\\]",
-          "correct": false
+          "correct": true
         },
         {
           "text": "\\[0, 30, 60, 120, 160, 200, 300, 350, 400\\]",
@@ -901,8 +901,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=3",
       "statement": "Suppose t = (1, 2, 4, 3), which of the following is incorrect?",
       "options": [
-        { "text": "print(t\\[3\\])", "correct": true },
-        { "text": "t\\[3\\] = 45", "correct": false },
+        { "text": "print(t\\[3\\])", "correct": false },
+        { "text": "t\\[3\\] = 45", "correct": true },
         { "text": "print(len(t))", "correct": false },
         { "text": "print(max(t))", "correct": false }
       ]
@@ -912,9 +912,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=3",
       "statement": "What will be the output of the following Python code?\n\n    >>>t=(1,2,4,3)\n    >>>t[1:3]",
       "options": [
-        { "text": "(1, 2)", "correct": true },
+        { "text": "(1, 2)", "correct": false },
         { "text": "(1, 2, 4)", "correct": false },
-        { "text": "(2, 4)", "correct": false },
+        { "text": "(2, 4)", "correct": true },
         { "text": "(2, 4, 3)", "correct": false }
       ]
     },
@@ -923,10 +923,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=3",
       "statement": "What will be the output of the following Python code?\n\n    >>>t = (1, 2, 4, 3, 8, 9)\n    >>>[t[i] for i in range(0, len(t), 2)]",
       "options": [
-        { "text": "\\[1, 2, 4, 3, 8, 9\\]", "correct": true },
+        { "text": "\\[1, 2, 4, 3, 8, 9\\]", "correct": false },
         { "text": "\\[2, 3, 9\\]", "correct": false },
         { "text": "(1, 4, 8)", "correct": false },
-        { "text": "\\[1, 4, 8\\]", "correct": false }
+        { "text": "\\[1, 4, 8\\]", "correct": true }
       ]
     },
     {
@@ -958,8 +958,8 @@
       "options": [
         { "text": "2", "correct": false },
         { "text": "5", "correct": false },
-        { "text": "10", "correct": true },
-        { "text": "13", "correct": false }
+        { "text": "10", "correct": false },
+        { "text": "13", "correct": true }
       ]
     },
     {
@@ -968,8 +968,8 @@
       "statement": "What will be the output of the following Python code?\n\n    x=12\n    def f1(a,b=x):\n        print(a,b)\n    x=15\n    f1(4)",
       "options": [
         { "text": "12 4", "correct": false },
-        { "text": "4 12", "correct": false },
-        { "text": "4 15", "correct": true },
+        { "text": "4 12", "correct": true },
+        { "text": "4 15", "correct": false },
         { "text": "Error", "correct": false }
       ]
     },
@@ -978,9 +978,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=4",
       "statement": "Fill in the line of the following Python code for calculating the factorial of a number.\n\n    def fact(num):\n        if num == 0: \n            return 1\n        else:\n            return ________",
       "options": [
-        { "text": "num\\*fact(num-1)", "correct": false },
+        { "text": "num\\*fact(num-1)", "correct": true },
         { "text": "(num-1)\\*(num-2)", "correct": false },
-        { "text": "fact(num)\\*fact(num-1)", "correct": true },
+        { "text": "fact(num)\\*fact(num-1)", "correct": false },
         { "text": "num\\*(num-1)", "correct": false }
       ]
     },
@@ -991,8 +991,8 @@
       "options": [
         { "text": "Infinite loop", "correct": false },
         { "text": "7", "correct": false },
-        { "text": "13", "correct": true },
-        { "text": "17", "correct": false }
+        { "text": "13", "correct": false },
+        { "text": "17", "correct": true }
       ]
     },
     {
@@ -1001,8 +1001,8 @@
       "statement": "What will be the output of the following Python code?\n\n    l=[]\n    def convert(b):\n        if(b==0):\n            return l\n        dig=b%2\n        l.append(dig)\n        convert(b//2)\n    convert(6)\n    l.reverse()\n    for i in l:\n        print(i,end=\"\")",
       "options": [
         { "text": "011", "correct": false },
-        { "text": "110", "correct": false },
-        { "text": "Infinite loop", "correct": true },
+        { "text": "110", "correct": true },
+        { "text": "Infinite loop", "correct": false },
         { "text": "None of the above", "correct": false }
       ]
     },
@@ -1023,8 +1023,8 @@
       "statement": "What will be the output of the following Python code?\n\n    def check(n):\n        if n < 2:\n            return n % 2 == 0\n        return check(n - 2)\n    print(check(11))",
       "options": [
         { "text": "True", "correct": false },
-        { "text": "False", "correct": false },
-        { "text": "An exception is thrown", "correct": true },
+        { "text": "False", "correct": true },
+        { "text": "An exception is thrown", "correct": false },
         { "text": "None of the above", "correct": false }
       ]
     },
@@ -1035,8 +1035,8 @@
       "options": [
         { "text": "An exception is thrown", "correct": false },
         { "text": "0 1 2 3", "correct": false },
-        { "text": "0 1 1 2 3", "correct": true },
-        { "text": "0 1 1 2", "correct": false }
+        { "text": "0 1 1 2 3", "correct": false },
+        { "text": "0 1 1 2", "correct": true }
       ]
     },
     {
@@ -1067,8 +1067,8 @@
       "statement": "What will be the output of the following Python code?\n\n    import functools\n    l=[1,2,3,4]\n    print(functools.reduce(lambda x,y:x*y,l))",
       "options": [
         { "text": "10", "correct": false },
-        { "text": "24", "correct": false },
-        { "text": "Error", "correct": true },
+        { "text": "24", "correct": true },
+        { "text": "Error", "correct": false },
         { "text": "None of the above", "correct": false }
       ]
     },
@@ -1077,9 +1077,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=5",
       "statement": "What will be the output of the following Python code?\n\n    l=[1, -2, -3, 4, 5]\n    def f1(x):\n        return x<-1\n    m1=map(f1, l)\n    print(list(m1))",
       "options": [
-        { "text": "\\[False, True, True, False, False\\]", "correct": false },
+        { "text": "\\[False, True, True, False, False\\]", "correct": true },
         { "text": "\\[True, True, True, True, True\\]", "correct": false },
-        { "text": "\\[True, False, False, True, True\\]", "correct": true },
+        { "text": "\\[True, False, False, True, True\\]", "correct": false },
         { "text": "\\[False, False, False, False, False\\]", "correct": false }
       ]
     },
@@ -1090,8 +1090,8 @@
       "options": [
         { "text": "Error", "correct": false },
         { "text": "Address of m", "correct": false },
-        { "text": "1", "correct": true },
-        { "text": "5", "correct": false }
+        { "text": "1", "correct": false },
+        { "text": "5", "correct": true }
       ]
     },
     {
@@ -1110,9 +1110,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=5",
       "statement": "What will be the output of the following Python code?\n\n    elements = [0, 1, 2]\n    def incr(x):\n        return x+1\n    print(list(map(incr, elements)))",
       "options": [
-        { "text": "\\[1, 2, 3\\]", "correct": false },
+        { "text": "\\[1, 2, 3\\]", "correct": true },
         { "text": "\\[0, 1, 2\\]", "correct": false },
-        { "text": "Error", "correct": true },
+        { "text": "Error", "correct": false },
         { "text": "None of the above", "correct": false }
       ]
     },
@@ -1134,8 +1134,8 @@
       "options": [
         { "text": "\\[‘ab’, ‘cd’\\]", "correct": false },
         { "text": "\\[‘2’, ‘2’\\]", "correct": false },
-        { "text": "\\[2, 2\\]", "correct": true },
-        { "text": "None of the above", "correct": false }
+        { "text": "\\[2, 2\\]", "correct": false },
+        { "text": "None of the above", "correct": true }
       ]
     },
     {
@@ -1144,8 +1144,8 @@
       "statement": "What will be the output of the following Python code?\n\n    x = ['ab', 'cd']\n    print(len(list(map(list, x))))",
       "options": [
         { "text": "0", "correct": false },
-        { "text": "2", "correct": false },
-        { "text": "4", "correct": true },
+        { "text": "2", "correct": true },
+        { "text": "4", "correct": false },
         { "text": "None of the above", "correct": false }
       ]
     },
@@ -1154,9 +1154,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-2.php?page=5",
       "statement": "What will be the output of the following Python code?\n\n    x = [[0], [1]]\n    print((' '.join(list(map(str, x))),))",
       "options": [
-        { "text": "(‘\\[0\\] \\[1\\]’,)", "correct": false },
+        { "text": "(‘\\[0\\] \\[1\\]’,)", "correct": true },
         { "text": "\\[0\\] \\[1\\]", "correct": false },
-        { "text": "(’01’)", "correct": true },
+        { "text": "(’01’)", "correct": false },
         { "text": "01", "correct": false }
       ]
     },
@@ -1178,10 +1178,10 @@
       "options": [
         { "text": "chr", "correct": false },
         { "text": "char", "correct": false },
-        { "text": "character", "correct": true },
+        { "text": "character", "correct": false },
         {
           "text": "python do not have any data type for characters they are treated as string.",
-          "correct": false
+          "correct": true
         }
       ]
     },
@@ -1191,8 +1191,8 @@
       "statement": "What error occurs when you execute?  \n\n    apple = mango​",
       "options": [
         { "text": "SyntaxError", "correct": false },
-        { "text": "NameError", "correct": false },
-        { "text": "ValueError", "correct": true },
+        { "text": "NameError", "correct": true },
+        { "text": "ValueError", "correct": false },
         { "text": "TypeError", "correct": false }
       ]
     },
@@ -1201,9 +1201,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=1",
       "statement": "what should the below code print?\n\n    print type(1J)",
       "options": [
-        { "text": "<type 'complex'>", "correct": false },
+        { "text": "<type 'complex'>", "correct": true },
         { "text": "<type 'unicode'>", "correct": false },
-        { "text": "<type 'float'>", "correct": true },
+        { "text": "<type 'float'>", "correct": false },
         { "text": "<type 'dict'>", "correct": false }
       ]
     },
@@ -1212,9 +1212,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=1",
       "statement": "What is the output of the following code?\n\n    import re\n    sentence = 'Learn Python Programming'\n    test = re.match(r'(.*) (.*?) (.*)', sentence)\n    print(test.group())",
       "options": [
-        { "text": "Learn Python Programming", "correct": false },
+        { "text": "Learn Python Programming", "correct": true },
         { "text": "(Learn, Python, Programming)", "correct": false },
-        { "text": "(‘Learn’, ‘Programming’)", "correct": true },
+        { "text": "(‘Learn’, ‘Programming’)", "correct": false },
         { "text": "‘Learn Python Programming’", "correct": false }
       ]
     },
@@ -1224,8 +1224,8 @@
       "statement": "What is the output of L\\[2\\] if L = \\[1,2,3\\]?",
       "options": [
         { "text": "2", "correct": false },
-        { "text": "3", "correct": false },
-        { "text": "4", "correct": true },
+        { "text": "3", "correct": true },
+        { "text": "4", "correct": false },
         { "text": "None of the above.", "correct": false }
       ]
     },
@@ -1234,9 +1234,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=1",
       "statement": "Which of the following is a valid tuple in Python?",
       "options": [
-        { "text": "sampleTuple = (1,2,3,4,5)", "correct": false },
+        { "text": "sampleTuple = (1,2,3,4,5)", "correct": true },
         { "text": "sampleTuple = {1,2,3,4,5}", "correct": false },
-        { "text": "sampleTuple = \\[1,2,3,4,5\\]", "correct": true },
+        { "text": "sampleTuple = \\[1,2,3,4,5\\]", "correct": false },
         { "text": "sampleTuple = /1,2,3,4,5/", "correct": false }
       ]
     },
@@ -1257,8 +1257,8 @@
       "statement": "What is the output of the following code?  \n\n    print(1, 2, 3, 4, sep='*')​",
       "options": [
         { "text": "1 2 3 4", "correct": false },
-        { "text": "1\\*2\\*3\\*4", "correct": false },
-        { "text": "1234", "correct": true },
+        { "text": "1\\*2\\*3\\*4", "correct": true },
+        { "text": "1234", "correct": false },
         { "text": "24", "correct": false }
       ]
     },
@@ -1267,9 +1267,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=1",
       "statement": "What is the output of the following code?\n\n    numbers = [2, 3, 4]\n    print(numbers)",
       "options": [
-        { "text": "\\[2, 3, 4\\]", "correct": false },
+        { "text": "\\[2, 3, 4\\]", "correct": true },
         { "text": "2 3 4", "correct": false },
-        { "text": "2, 3, 4", "correct": true },
+        { "text": "2, 3, 4", "correct": false },
         { "text": "\\[2 3 4\\]", "correct": false }
       ]
     },
@@ -1302,8 +1302,8 @@
       "options": [
         { "text": "hello", "correct": false },
         { "text": "world", "correct": false },
-        { "text": "dlrowolleh", "correct": false },
-        { "text": "helloworld", "correct": true }
+        { "text": "dlrowolleh", "correct": true },
+        { "text": "helloworld", "correct": false }
       ]
     },
     {
@@ -1322,10 +1322,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=2",
       "statement": "What will be the output of the following Python code?\n\n    >>>example = \"snow world\"\n    >>>print(\"%s\" % example[4:7])",
       "options": [
-        { "text": "wo", "correct": false },
+        { "text": "wo", "correct": true },
         { "text": "world", "correct": false },
         { "text": "sn", "correct": false },
-        { "text": "rl", "correct": true }
+        { "text": "rl", "correct": false }
       ]
     },
     {
@@ -1334,9 +1334,9 @@
       "statement": "What will be the output of the following Python code?\n\n    >>>example = \"helle\"\n    >>>example.find(\"e\")",
       "options": [
         { "text": "\\-1", "correct": false },
-        { "text": "1", "correct": false },
+        { "text": "1", "correct": true },
         { "text": "0", "correct": false },
-        { "text": "Error", "correct": true }
+        { "text": "Error", "correct": false }
       ]
     },
     {
@@ -1344,10 +1344,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=2",
       "statement": "What will be the output of the following Python code?\n\n    >>>example=\"helloworld\"\n    >>>example[::-1].startswith(\"d\")",
       "options": [
-        { "text": "True", "correct": false },
+        { "text": "True", "correct": true },
         { "text": "\\-1", "correct": false },
         { "text": "dlrowolleh", "correct": false },
-        { "text": "None of the above", "correct": true }
+        { "text": "None of the above", "correct": false }
       ]
     },
     {
@@ -1357,8 +1357,8 @@
       "options": [
         { "text": "s3 = s1 . s2", "correct": false },
         { "text": "s3 = s1.add(s2)", "correct": false },
-        { "text": "s3 = s1.\\_\\_add\\_\\_(s2)", "correct": false },
-        { "text": "s3 = s1 \\* s2", "correct": true }
+        { "text": "s3 = s1.\\_\\_add\\_\\_(s2)", "correct": true },
+        { "text": "s3 = s1 \\* s2", "correct": false }
       ]
     },
     {
@@ -1378,15 +1378,15 @@
       "statement": "o check whether string s1 contains another string s2, use \\_\\_\\_\\_\\_\\_\\_\\_",
       "options": [
         { "text": "s2 in s1", "correct": false },
-        { "text": "s1.\\_\\_contains\\_\\_(s2)", "correct": false },
+        { "text": "s1.\\_\\_contains\\_\\_(s2)", "correct": true },
         { "text": "si.in(s2)", "correct": false },
-        { "text": "s1.contains(s2)", "correct": true }
+        { "text": "s1.contains(s2)", "correct": false }
       ]
     },
     {
       "type": "MCQ",
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=3",
-      "statement": " Is the following Python code valid?\n\n    >>> a,b=1,2,3",
+      "statement": " Is the following Python code valid?\n\n    >>> a,b=1,2,3",
       "options": [
         {
           "text": "Yes, this is an example of tuple unpacking. a=1 and b=2",
@@ -1409,9 +1409,9 @@
       "statement": "What will be the output of the following Python code?\n\n    >>> a,b=6,7\n    >>> a,b=b,a\n    >>> a,b",
       "options": [
         { "text": "(6,7)", "correct": false },
-        { "text": "(7,6)", "correct": false },
+        { "text": "(7,6)", "correct": true },
         { "text": "Invalid syntax", "correct": false },
-        { "text": "Nothing is printed", "correct": true }
+        { "text": "Nothing is printed", "correct": false }
       ]
     },
     {
@@ -1444,10 +1444,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=3",
       "statement": "Which of the following is not the correct syntax for creating a set?",
       "options": [
-        { "text": "set(\\[\\[1,2\\],\\[3,4\\]\\])", "correct": false },
+        { "text": "set(\\[\\[1,2\\],\\[3,4\\]\\])", "correct": true },
         { "text": "set(\\[1,2,2,3,4\\])", "correct": false },
         { "text": "set((1,2,3,4))", "correct": false },
-        { "text": "{1,2,3,4}", "correct": true }
+        { "text": "{1,2,3,4}", "correct": false }
       ]
     },
     {
@@ -1457,8 +1457,8 @@
       "options": [
         { "text": "5 5 6", "correct": false },
         { "text": "5 6 7", "correct": false },
-        { "text": "5 5 6 7 7 7", "correct": false },
-        { "text": "5 6 7 7 7", "correct": true }
+        { "text": "5 5 6 7 7 7", "correct": true },
+        { "text": "5 6 7 7 7", "correct": false }
       ]
     },
     {
@@ -1466,10 +1466,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=3",
       "statement": "What will be the output of the following Python code?\n\n    >>> a={5,4}\n    >>> b={1,2,4,5}\n    >>> a<b",
       "options": [
-        { "text": "True", "correct": false },
+        { "text": "True", "correct": true },
         { "text": "False", "correct": false },
         { "text": "{1,2}", "correct": false },
-        { "text": "Invalid operation", "correct": true }
+        { "text": "Invalid operation", "correct": false }
       ]
     },
     {
@@ -1478,14 +1478,14 @@
       "statement": "What will be the output of the following Python code?\n\n    >>> a={4,5,6}\n    >>> b={2,8,6}\n    >>> a-b",
       "options": [
         { "text": "{6}", "correct": false },
-        { "text": "{4,5}", "correct": false },
+        { "text": "{4,5}", "correct": true },
         {
           "text": "Error as unsupported operand type for set data type",
           "correct": false
         },
         {
           "text": "Error as the duplicate item 6 is present in both sets",
-          "correct": true
+          "correct": false
         }
       ]
     },
@@ -1496,8 +1496,8 @@
       "options": [
         { "text": "{5}", "correct": false },
         { "text": "{3,4,6,7}", "correct": false },
-        { "text": "{3, 4, 5, 6, 7}", "correct": false },
-        { "text": "Invalid operation", "correct": true }
+        { "text": "{3, 4, 5, 6, 7}", "correct": true },
+        { "text": "Invalid operation", "correct": false }
       ]
     },
     {
@@ -1505,10 +1505,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=3",
       "statement": "What will be the output of the following Python code?\n\n    s=set()\n    type(s)",
       "options": [
-        { "text": "`<class ‘set’>`", "correct": false },
+        { "text": "`<class ‘set’>`", "correct": true },
         { "text": "`<’set’>`", "correct": false },
         { "text": "class set", "correct": false },
-        { "text": "set", "correct": true }
+        { "text": "set", "correct": false }
       ]
     },
     {
@@ -1527,11 +1527,11 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=4",
       "statement": "What will be the output of the following Python code?\n\n    x = 'abcd'\n    print(list(map(list, x)))",
       "options": [
-        { "text": "\\[‘abcd’\\]", "correct": true },
+        { "text": "\\[‘abcd’\\]", "correct": false },
         { "text": "\\[‘a’, ‘b’, ‘c’, ‘d’\\]", "correct": false },
         {
           "text": "\\[\\[‘a’\\], \\[‘b’\\], \\[‘c’\\], \\[‘d’\\]\\]",
-          "correct": false
+          "correct": true
         },
         { "text": "None of the above", "correct": false }
       ]
@@ -1560,11 +1560,11 @@
       "options": [
         {
           "text": "A package can have subfolders and modules",
-          "correct": true
+          "correct": false
         },
         {
           "text": "Each import package need not introduce a namespace",
-          "correct": false
+          "correct": true
         },
         {
           "text": "import folder.subfolder.mod1 imports packages",
@@ -1581,14 +1581,14 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=4",
       "statement": "Which of the following is not an advantage of using modules?",
       "options": [
-        { "text": "Provides a means of dividing up tasks", "correct": true },
+        { "text": "Provides a means of dividing up tasks", "correct": false },
         {
           "text": "Provides a means of reuse of program code",
           "correct": false
         },
         {
           "text": "Provides a means of reducing the size of the program",
-          "correct": false
+          "correct": true
         },
         {
           "text": "Provides a means of testing individual parts of the program",
@@ -1601,10 +1601,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=4",
       "statement": "\\_\\_\\_\\_\\_\\_ is a string literal denoted by triple quotes for providing the specifications of certain program elements.",
       "options": [
-        { "text": "Interface", "correct": true },
+        { "text": "Interface", "correct": false },
         { "text": "Client", "correct": false },
         { "text": "Modularity", "correct": false },
-        { "text": "Docstring", "correct": false }
+        { "text": "Docstring", "correct": true }
       ]
     },
     {
@@ -1614,7 +1614,7 @@
       "options": [
         {
           "text": "Only the design of the program is addressed",
-          "correct": true
+          "correct": false
         },
         {
           "text": "Only the details of the program are addressed",
@@ -1622,7 +1622,7 @@
         },
         {
           "text": "The overall design of the program is addressed before the details",
-          "correct": false
+          "correct": true
         },
         {
           "text": "The details of a program design are addressed before the overall design",
@@ -1635,7 +1635,7 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=4",
       "statement": "What will be the output of the following Python code?\n\n    from math import factorial\n    print(math.factorial(5))",
       "options": [
-        { "text": "120", "correct": true },
+        { "text": "120", "correct": false },
         { "text": "Nothing is printed", "correct": false },
         {
           "text": "Error, method factorial doesn’t exist in math module",
@@ -1643,7 +1643,7 @@
         },
         {
           "text": "Error, the statement should be: print(factorial(5))",
-          "correct": false
+          "correct": true
         }
       ]
     },
@@ -1663,8 +1663,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=4",
       "statement": "What is math.factorial(4.0)?",
       "options": [
-        { "text": "1", "correct": true },
-        { "text": "24", "correct": false },
+        { "text": "1", "correct": false },
+        { "text": "24", "correct": true },
         { "text": "Error", "correct": false },
         { "text": "None of the above", "correct": false }
       ]
@@ -1691,10 +1691,10 @@
         },
         {
           "text": "    <_sre.SRE_Match object; span=(0, 4), match=’spam’>",
-          "correct": false
+          "correct": true
         },
         { "text": "No output", "correct": false },
-        { "text": "None of the above", "correct": true }
+        { "text": "None of the above", "correct": false }
       ]
     },
     {
@@ -1712,11 +1712,11 @@
         },
         {
           "text": "re.match(‘George(?=Washington)’, ‘GeorgeWashington’)",
-          "correct": false
+          "correct": true
         },
         {
           "text": "re.match(‘George(?=Washington)’, ‘Georgewashington’)",
-          "correct": true
+          "correct": false
         }
       ]
     },
@@ -1738,8 +1738,8 @@
       "options": [
         { "text": "\\[ \\]", "correct": false },
         { "text": "\\[‘3’\\]", "correct": false },
-        { "text": "\\[‘trees’\\]", "correct": false },
-        { "text": "Error", "correct": true }
+        { "text": "\\[‘trees’\\]", "correct": true },
+        { "text": "Error", "correct": false }
       ]
     },
     {
@@ -1748,9 +1748,9 @@
       "statement": "Which of the following lines of code will not show a match?",
       "options": [
         { "text": "\\>>> re.match(‘ab\\*’, ‘a’)", "correct": false },
-        { "text": "\\>>> re.match(‘ab\\*’, ‘ba’)", "correct": false },
+        { "text": "\\>>> re.match(‘ab\\*’, ‘ba’)", "correct": true },
         { "text": "\\>>> re.match(‘ab\\*’, ‘ab’)", "correct": false },
-        { "text": "\\>>> re.match(‘ab\\*’, ‘abb’)", "correct": true }
+        { "text": "\\>>> re.match(‘ab\\*’, ‘abb’)", "correct": false }
       ]
     },
     {
@@ -1758,10 +1758,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=5",
       "statement": "What will be the output of the following Python code?\n\n    re.sub('Y', 'X', 'AAAAAA', count=2)",
       "options": [
-        { "text": "‘AAAAAA’", "correct": false },
+        { "text": "‘AAAAAA’", "correct": true },
         { "text": "‘YXAAAA’", "correct": false },
         { "text": "(‘AAAAAA’)", "correct": false },
-        { "text": "(‘YXAAAA’)", "correct": true }
+        { "text": "(‘YXAAAA’)", "correct": false }
       ]
     },
     {
@@ -1772,7 +1772,7 @@
         { "text": "infile = open(“c:\\\\scores.txt”, “r”)", "correct": false },
         {
           "text": "infile = open(“c:\\\\\\\\scores.txt”, “r”)",
-          "correct": false
+          "correct": true
         },
         {
           "text": "infile = open(file = “c:\\\\scores.txt”, “r”)",
@@ -1780,7 +1780,7 @@
         },
         {
           "text": "infile = open(file = “c:\\\\\\\\scores.txt”, “r”)",
-          "correct": true
+          "correct": false
         }
       ]
     },
@@ -1809,10 +1809,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-3.php?page=5",
       "statement": "What will be the output of the following Python code?\n\n    f = None\n    for i in range (5):\n        with open(\"data.txt\", \"w\") as f:\n            if i > 2:\n                break\n    print(f.closed)",
       "options": [
-        { "text": "True", "correct": false },
+        { "text": "True", "correct": true },
         { "text": "False", "correct": false },
         { "text": "None", "correct": false },
-        { "text": "Error", "correct": true }
+        { "text": "Error", "correct": false }
       ]
     },
     {
@@ -1831,8 +1831,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=1",
       "statement": "What is the output of the following code?  \n\n    print(3 >= 3)​",
       "options": [
-        { "text": "True", "correct": false },
-        { "text": "False", "correct": true },
+        { "text": "True", "correct": true },
+        { "text": "False", "correct": false },
         { "text": "3 >= 3", "correct": false },
         { "text": "None of the above", "correct": false }
       ]
@@ -1843,8 +1843,8 @@
       "statement": "what is the output of the following code?  \n\n    print(type([1,2]))​",
       "options": [
         { "text": "<class 'tuple'>", "correct": false },
-        { "text": "<class 'int'>", "correct": true },
-        { "text": "<class 'list'>", "correct": false },
+        { "text": "<class 'int'>", "correct": false },
+        { "text": "<class 'list'>", "correct": true },
         { "text": "<class 'complex'>", "correct": false }
       ]
     },
@@ -1854,9 +1854,9 @@
       "statement": "What is the output when following code is executed ?  \n\n    >>> str1 = 'hello'\n    >>> str2 = ','\n    >>> str3 = 'world'\n    >>> str1[-1:]​",
       "options": [
         { "text": "olleh", "correct": false },
-        { "text": "hello", "correct": true },
+        { "text": "hello", "correct": false },
         { "text": "h", "correct": false },
-        { "text": "o", "correct": false }
+        { "text": "o", "correct": true }
       ]
     },
     {
@@ -1864,8 +1864,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=1",
       "statement": "What is the output when following code is executed ?\n\n    >>>str1=\"helloworld\"\n    >>>str1[::-1]",
       "options": [
-        { "text": "dlrowolleh", "correct": false },
-        { "text": "hello", "correct": true },
+        { "text": "dlrowolleh", "correct": true },
+        { "text": "hello", "correct": false },
         { "text": "world", "correct": false },
         { "text": "helloworld", "correct": false }
       ]
@@ -1888,9 +1888,9 @@
       "options": [
         {
           "text": "To give a class the methods and variables of an interface",
-          "correct": false
+          "correct": true
         },
-        { "text": "To create a new object", "correct": true },
+        { "text": "To create a new object", "correct": false },
         {
           "text": "To give an interface the methods and variables of a class",
           "correct": false
@@ -1917,8 +1917,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=1",
       "statement": "What does this function return?  \n\n    def f(a,b):\n     return a,b\n    f(**{'b':2,'a':1})​",
       "options": [
-        { "text": "(1, 2)", "correct": false },
-        { "text": "(2, 1)", "correct": true },
+        { "text": "(1, 2)", "correct": true },
+        { "text": "(2, 1)", "correct": false },
         {
           "text": "It causes TypeError: f() got an unexpected keyword argument",
           "correct": false
@@ -1932,8 +1932,8 @@
       "statement": "Which of these is not a Python datatype?",
       "options": [
         { "text": "int", "correct": false },
-        { "text": "long", "correct": true },
-        { "text": "decimal", "correct": false },
+        { "text": "long", "correct": false },
+        { "text": "decimal", "correct": true },
         { "text": "float", "correct": false }
       ]
     },
@@ -1953,10 +1953,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=2",
       "statement": "What function do you use to read a string?",
       "options": [
-        { "text": "input(“Enter a string”)", "correct": false },
+        { "text": "input(“Enter a string”)", "correct": true },
         { "text": "enter(“Enter a string”)", "correct": false },
         { "text": "eval(input(“Enter a string”))", "correct": false },
-        { "text": "eval(enter(“Enter a string”))", "correct": true }
+        { "text": "eval(enter(“Enter a string”))", "correct": false }
       ]
     },
     {
@@ -1964,10 +1964,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=2",
       "statement": "What will be the output of the following Python code?\n\n    print(\"Hello {name1} and {name2}\".format(name1='foo', name2='bin'))",
       "options": [
-        { "text": "Hello foo and bin", "correct": false },
+        { "text": "Hello foo and bin", "correct": true },
         { "text": "Hello and", "correct": false },
         { "text": "Hello {name1} and {name2}", "correct": false },
-        { "text": "Error", "correct": true }
+        { "text": "Error", "correct": false }
       ]
     },
     {
@@ -1976,9 +1976,9 @@
       "statement": "What will be the output of the following Python code?\n\n    print(\"Hello {0[0]} and {0[1]}\".format(('foo', 'bin')))",
       "options": [
         { "text": "Error", "correct": false },
-        { "text": "Hello foo and bin", "correct": false },
+        { "text": "Hello foo and bin", "correct": true },
         { "text": "Hello (‘foo’, ‘bin’) and (‘foo’, ‘bin’)", "correct": false },
-        { "text": "None of the above", "correct": true }
+        { "text": "None of the above", "correct": false }
       ]
     },
     {
@@ -1988,8 +1988,8 @@
       "options": [
         { "text": "1112223334", "correct": false },
         { "text": "111,222,333,4", "correct": false },
-        { "text": "1,112,223,334", "correct": false },
-        { "text": "Error", "correct": true }
+        { "text": "1,112,223,334", "correct": true },
+        { "text": "Error", "correct": false }
       ]
     },
     {
@@ -2009,9 +2009,9 @@
       "statement": "What will be the output of the following Python code?\n\n    print('a B'.isalpha())",
       "options": [
         { "text": "True", "correct": false },
-        { "text": "False", "correct": false },
+        { "text": "False", "correct": true },
         { "text": "None", "correct": false },
-        { "text": "Error", "correct": true }
+        { "text": "Error", "correct": false }
       ]
     },
     {
@@ -2019,10 +2019,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=2",
       "statement": "What will be the output of the following Python code snippet?\n\n    print('my_string'.isidentifier())",
       "options": [
-        { "text": "True", "correct": false },
+        { "text": "True", "correct": true },
         { "text": "False", "correct": false },
         { "text": "None", "correct": false },
-        { "text": "Error", "correct": true }
+        { "text": "Error", "correct": false }
       ]
     },
     {
@@ -2041,10 +2041,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=2",
       "statement": "What will be the output of the following Python code snippet?\n\n    print('abcdef12'.replace('cd', '12'))",
       "options": [
-        { "text": "ab12ef12", "correct": false },
+        { "text": "ab12ef12", "correct": true },
         { "text": "abcdef12", "correct": false },
         { "text": "ab12efcd", "correct": false },
-        { "text": "None of the above", "correct": true }
+        { "text": "None of the above", "correct": false }
       ]
     },
     {
@@ -2063,8 +2063,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=3",
       "statement": "Write a list comprehension for number and its cube for:\n\n    l=[1, 2, 3, 4, 5, 6, 7, 8, 9]",
       "options": [
-        { "text": "\\[x\\*\\*3 for x in l\\]", "correct": false },
-        { "text": "\\[x^3 for x in l\\]", "correct": true },
+        { "text": "\\[x\\*\\*3 for x in l\\]", "correct": true },
+        { "text": "\\[x^3 for x in l\\]", "correct": false },
         { "text": "\\[x\\*\\*3 in l\\]", "correct": false },
         { "text": "\\[x^3 in l\\]", "correct": false }
       ]
@@ -2075,9 +2075,9 @@
       "statement": "What will be the output of the following Python code?\n\n    s1={3, 4}\n    s2={1, 2}\n    s3=set()\n    i=0\n    j=0\n    for i in s1:\n        for j in s2:\n            s3.add((i,j))\n            i+=1\n            j+=1\n    print(s3)",
       "options": [
         { "text": "Error", "correct": false },
-        { "text": "{(3, 4), (1, 2)}", "correct": true },
+        { "text": "{(3, 4), (1, 2)}", "correct": false },
         { "text": "{(3, 1), (4, 2)}", "correct": false },
-        { "text": "{(4, 2), (3, 1), (4, 1), (5, 2)}", "correct": false }
+        { "text": "{(4, 2), (3, 1), (4, 1), (5, 2)}", "correct": true }
       ]
     },
     {
@@ -2085,8 +2085,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=3",
       "statement": "The \\_\\_\\_\\_ function removes the first element of a set and the last element of a list.",
       "options": [
-        { "text": "pop", "correct": false },
-        { "text": "remove", "correct": true },
+        { "text": "pop", "correct": true },
+        { "text": "remove", "correct": false },
         { "text": "dispose", "correct": false },
         { "text": "discard", "correct": false }
       ]
@@ -2097,8 +2097,8 @@
       "statement": "If we have two sets, s1 and s2, and we want to check if all the elements of s1 are present in s2 or not, we can use the function:",
       "options": [
         { "text": "s1.isset(s2)", "correct": false },
-        { "text": "s2.issubset(s1)", "correct": true },
-        { "text": "s2.issuperset(s1)", "correct": false },
+        { "text": "s2.issubset(s1)", "correct": false },
+        { "text": "s2.issuperset(s1)", "correct": true },
         { "text": "s1.issuperset(s2)", "correct": false }
       ]
     },
@@ -2107,8 +2107,11 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=3",
       "statement": "What will be the output of the following Python code snippet?\n\n    >>> a={1:\"A\",2:\"B\",3:\"C\"}\n    >>> del a",
       "options": [
-        { "text": "del deletes the entire dictionary", "correct": false },
-        { "text": "del deletes the values in the dictionary", "correct": true },
+        { "text": "del deletes the entire dictionary", "correct": true },
+        {
+          "text": "del deletes the values in the dictionary",
+          "correct": false
+        },
         { "text": "del deletes the keys in the dictionary", "correct": false },
         {
           "text": "method del doesn’t exist for the dictionary",
@@ -2122,8 +2125,8 @@
       "statement": "What will be the output of the following Python code snippet?\n\n    total={}\n    def insert(items):\n        if items in total:\n            total[items] += 1\n        else:\n            total[items] = 1\n    insert('Apple')\n    insert('Ball')\n    insert('Apple')\n    print (len(total))",
       "options": [
         { "text": "0", "correct": false },
-        { "text": "1", "correct": true },
-        { "text": "2", "correct": false },
+        { "text": "1", "correct": false },
+        { "text": "2", "correct": true },
         { "text": "3", "correct": false }
       ]
     },
@@ -2152,8 +2155,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=3",
       "statement": "What will be the output of the following Python code snippet?\n\n    test = {1:'A', 2:'B', 3:'C'}\n    del test[1]\n    test[1] = 'D'\n    del test[2]\n    print(len(test))",
       "options": [
-        { "text": "2", "correct": false },
-        { "text": "1", "correct": true },
+        { "text": "2", "correct": true },
+        { "text": "1", "correct": false },
         { "text": "0", "correct": false },
         {
           "text": "Error as the key-value pair of 1:’A’ is already deleted",
@@ -2167,8 +2170,8 @@
       "statement": "What will be the output of the following Python code snippet?\n\n    a={}\n    a['a']=1\n    a['b']=[2,3,4]\n    print(a)",
       "options": [
         { "text": "{‘b’: \\[2\\], ‘a’: 1}", "correct": false },
-        { "text": "{‘b’: \\[2\\], ‘a’: \\[3\\]}", "correct": true },
-        { "text": "{‘b’: \\[2, 3, 4\\], ‘a’: 1}", "correct": false },
+        { "text": "{‘b’: \\[2\\], ‘a’: \\[3\\]}", "correct": false },
+        { "text": "{‘b’: \\[2, 3, 4\\], ‘a’: 1}", "correct": true },
         { "text": "Exception is thrown", "correct": false }
       ]
     },
@@ -2188,10 +2191,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=4",
       "statement": "What will be the output of the following Python code if the system date is 18th August, 2016?\n\n    tday=datetime.date.today()\n    print(tday.month())",
       "options": [
-        { "text": "8", "correct": false },
+        { "text": "8", "correct": true },
         { "text": "08", "correct": false },
         { "text": "Aug", "correct": false },
-        { "text": "August", "correct": true }
+        { "text": "August", "correct": false }
       ]
     },
     {
@@ -2200,9 +2203,9 @@
       "statement": "Which of the following will throw an error if used after the following Python code?\n\n    tday=datetime.date.today()\n    bday=datetime.date(2017,9,18)\n    t_day=bday-tday",
       "options": [
         { "text": "print(t\\_day.max)", "correct": false },
-        { "text": "print(t\\_day.months)", "correct": false },
+        { "text": "print(t\\_day.months)", "correct": true },
         { "text": "print(t\\_day.seconds)", "correct": false },
-        { "text": "print(t\\_day.resolution)", "correct": true }
+        { "text": "print(t\\_day.resolution)", "correct": false }
       ]
     },
     {
@@ -2210,10 +2213,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=4",
       "statement": "To include the use of functions which are present in the random library, we must use the option:",
       "options": [
-        { "text": "import random", "correct": false },
+        { "text": "import random", "correct": true },
         { "text": "import.random", "correct": false },
         { "text": "random.random", "correct": false },
-        { "text": "random.h", "correct": true }
+        { "text": "random.h", "correct": false }
       ]
     },
     {
@@ -2234,8 +2237,8 @@
       "options": [
         { "text": "u", "correct": false },
         { "text": "sun", "correct": false },
-        { "text": "either s, u or n", "correct": false },
-        { "text": "Error", "correct": true }
+        { "text": "either s, u or n", "correct": true },
+        { "text": "Error", "correct": false }
       ]
     },
     {
@@ -2243,7 +2246,7 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=4",
       "statement": "What will be the output of the following Python code?\n\n    random.seed(3)\n    random.randint(1,5)\n    2\n    random.seed(3)\n    random.randint(1,5)",
       "options": [
-        { "text": "2", "correct": false },
+        { "text": "2", "correct": true },
         { "text": "3", "correct": false },
         {
           "text": "Any integer between 1 and 5, including 1 and 5",
@@ -2251,7 +2254,7 @@
         },
         {
           "text": "Any integer between 1 and 5, excluding 1 and 5",
-          "correct": true
+          "correct": false
         }
       ]
     },
@@ -2262,8 +2265,8 @@
       "options": [
         { "text": "32", "correct": false },
         { "text": "67", "correct": false },
-        { "text": "91", "correct": false },
-        { "text": "180", "correct": true }
+        { "text": "91", "correct": true },
+        { "text": "180", "correct": false }
       ]
     },
     {
@@ -2271,10 +2274,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=4",
       "statement": "Which of the following functions can help us to find the version of python that we are currently working on?",
       "options": [
-        { "text": "sys.version", "correct": false },
+        { "text": "sys.version", "correct": true },
         { "text": "sys.version()", "correct": false },
         { "text": "sys.version(0)", "correct": false },
-        { "text": "sys.version(1)", "correct": true }
+        { "text": "sys.version(1)", "correct": false }
       ]
     },
     {
@@ -2283,9 +2286,9 @@
       "statement": "What will be the output of the following Python code, if the code is run on Windows operating system?\n\n    import sys\n    if sys.platform[:2]== 'wi':\n    \tprint(\"Hello\")",
       "options": [
         { "text": "Error", "correct": false },
-        { "text": "Hello", "correct": false },
+        { "text": "Hello", "correct": true },
         { "text": "Junk value", "correct": false },
-        { "text": "No output", "correct": true }
+        { "text": "No output", "correct": false }
       ]
     },
     {
@@ -2304,10 +2307,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=5",
       "statement": "What will be the output of the following Python code? (If entered name is freetimelearn)\n\n    import sys\n    print 'Enter your name: ',\n    name = ''\n    while True:\n       c = sys.stdin.read(1)\n       if c == '\\n':\n          break\n       name = name + c\n     \n    print 'Your name is:', name",
       "options": [
-        { "text": "freetimelearn", "correct": false },
+        { "text": "freetimelearn", "correct": true },
         { "text": "freetimelearn, freetimelearn", "correct": false },
         { "text": "Fre", "correct": false },
-        { "text": "None of the above", "correct": true }
+        { "text": "None of the above", "correct": false }
       ]
     },
     {
@@ -2317,8 +2320,8 @@
       "options": [
         { "text": "r", "correct": false },
         { "text": "w", "correct": false },
-        { "text": "b", "correct": false },
-        { "text": "+", "correct": true }
+        { "text": "b", "correct": true },
+        { "text": "+", "correct": false }
       ]
     },
     {
@@ -2337,10 +2340,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=5",
       "statement": "Correct syntax of file.writelines() is?",
       "options": [
-        { "text": "fileObject.writelines(sequence)", "correct": false },
+        { "text": "fileObject.writelines(sequence)", "correct": true },
         { "text": "file.writelines(sequence)", "correct": false },
         { "text": "fileObject.writelines()", "correct": false },
-        { "text": "None of the above", "correct": true }
+        { "text": "None of the above", "correct": false }
       ]
     },
     {
@@ -2349,9 +2352,9 @@
       "statement": "How do you get the name of a file from a file object (fp)?",
       "options": [
         { "text": "fp.file(name)", "correct": false },
-        { "text": "fp.name", "correct": false },
+        { "text": "fp.name", "correct": true },
         { "text": "fp.\\_\\_name\\_\\_()", "correct": false },
-        { "text": "self.\\_\\_name\\_\\_(fp)", "correct": true }
+        { "text": "self.\\_\\_name\\_\\_(fp)", "correct": false }
       ]
     },
     {
@@ -2361,8 +2364,8 @@
       "options": [
         { "text": "close(fp)", "correct": false },
         { "text": "fclose(fp)", "correct": false },
-        { "text": "fp.close()", "correct": false },
-        { "text": "fp.\\_\\_close\\_\\_()", "correct": true }
+        { "text": "fp.close()", "correct": true },
+        { "text": "fp.\\_\\_close\\_\\_()", "correct": false }
       ]
     },
     {
@@ -2370,10 +2373,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-4.php?page=5",
       "statement": "How do you change the file position to an offset value from the start?",
       "options": [
-        { "text": "fp.seek(offset, 0)", "correct": false },
+        { "text": "fp.seek(offset, 0)", "correct": true },
         { "text": "fp.seek(offset, 1)", "correct": false },
         { "text": "fp.seek(offset, 2)", "correct": false },
-        { "text": "None of the above", "correct": true }
+        { "text": "None of the above", "correct": false }
       ]
     },
     {
@@ -2382,9 +2385,9 @@
       "statement": "Which function is called when the following Python code is executed?\n\n    f = foo()\n    format(f)",
       "options": [
         { "text": "str()", "correct": false },
-        { "text": "\\_\\_str\\_\\_()", "correct": false },
+        { "text": "\\_\\_str\\_\\_()", "correct": true },
         { "text": "format()", "correct": false },
-        { "text": "\\_\\_format\\_\\_()", "correct": true }
+        { "text": "\\_\\_format\\_\\_()", "correct": false }
       ]
     },
     {
@@ -2415,9 +2418,9 @@
       "statement": "What is a nested loop?",
       "options": [
         { "text": "a loop without condition", "correct": false },
-        { "text": "a loop called from an object", "correct": false },
+        { "text": "a loop called from an object", "correct": true },
         { "text": "a loop inside a loop", "correct": false },
-        { "text": "a recursive loop", "correct": true }
+        { "text": "a recursive loop", "correct": false }
       ]
     },
     {
@@ -2426,9 +2429,9 @@
       "statement": "Which of the following is a valid way to start a while loop in Python?",
       "options": [
         { "text": "while loop a < 10", "correct": false },
-        { "text": "while a < 10:", "correct": false },
+        { "text": "while a < 10:", "correct": true },
         { "text": "while(a < 10)", "correct": false },
-        { "text": "while loop a < 10:", "correct": true }
+        { "text": "while loop a < 10:", "correct": false }
       ]
     },
     {
@@ -2436,10 +2439,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=1",
       "statement": "How to access list elements?",
       "options": [
-        { "text": "print l->get(0)", "correct": false },
+        { "text": "print l->get(0)", "correct": true },
         { "text": "print l.item(0)", "correct": false },
         { "text": "print l(0)", "correct": false },
-        { "text": "print l\\[0\\]", "correct": true }
+        { "text": "print l\\[0\\]", "correct": false }
       ]
     },
     {
@@ -2449,8 +2452,8 @@
       "options": [
         { "text": "1", "correct": false },
         { "text": "2", "correct": false },
-        { "text": "4", "correct": false },
-        { "text": "5", "correct": true }
+        { "text": "4", "correct": true },
+        { "text": "5", "correct": false }
       ]
     },
     {
@@ -2460,8 +2463,8 @@
       "options": [
         { "text": "var a = 2", "correct": false },
         { "text": "int a = 2", "correct": false },
-        { "text": "a = 2", "correct": false },
-        { "text": "variable a = 2", "correct": true }
+        { "text": "a = 2", "correct": true },
+        { "text": "variable a = 2", "correct": false }
       ]
     },
     {
@@ -2480,10 +2483,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=1",
       "statement": "Which one of the following is a valid Python if statement",
       "options": [
-        { "text": " if a >= 22:", "correct": false },
+        { "text": " if a >= 22:", "correct": true },
         { "text": "if (a >= 22)", "correct": false },
         { "text": "if (a => 22)", "correct": false },
-        { "text": "if a >= 22", "correct": true }
+        { "text": "if a >= 22", "correct": false }
       ]
     },
     {
@@ -2493,8 +2496,8 @@
       "options": [
         { "text": "Current date only", "correct": false },
         { "text": "UTC time", "correct": false },
-        { "text": "Current date and time", "correct": false },
-        { "text": "Current time only", "correct": true }
+        { "text": "Current date and time", "correct": true },
+        { "text": "Current time only", "correct": false }
       ]
     },
     {
@@ -2502,10 +2505,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=1",
       "statement": "Which of the following is a valid way to start a function in Python?",
       "options": [
-        { "text": "def someFunction():", "correct": false },
+        { "text": "def someFunction():", "correct": true },
         { "text": "function someFunction()", "correct": false },
         { "text": "def someFunction()", "correct": false },
-        { "text": "function someFunction():", "correct": true }
+        { "text": "function someFunction():", "correct": false }
       ]
     },
     {
@@ -2524,10 +2527,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=2",
       "statement": "Which of the following commands will create a list?",
       "options": [
-        { "text": " list1 = \\[\\]", "correct": false },
-        { "text": " list1 = list()", "correct": true },
+        { "text": " list1 = \\[\\]", "correct": false },
+        { "text": " list1 = list()", "correct": false },
         { "text": "list1 = list(\\[1, 2, 3\\])", "correct": false },
-        { "text": "all of the mentioned", "correct": false }
+        { "text": "all of the mentioned", "correct": true }
       ]
     },
     {
@@ -2535,8 +2538,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=2",
       "statement": "Suppose list1 is \\[2445,133,12454,123\\], what is max(list1)?",
       "options": [
-        { "text": "12454", "correct": false },
-        { "text": "2445", "correct": true },
+        { "text": "12454", "correct": true },
+        { "text": "2445", "correct": false },
         { "text": "123", "correct": false },
         { "text": "133", "correct": false }
       ]
@@ -2547,8 +2550,8 @@
       "statement": "To shuffle the list(say list1) what function do we use?",
       "options": [
         { "text": "shuffle(list1)", "correct": false },
-        { "text": "list1.shuffle()", "correct": true },
-        { "text": "random.shuffle(list1)", "correct": false },
+        { "text": "list1.shuffle()", "correct": false },
+        { "text": "random.shuffle(list1)", "correct": true },
         { "text": "random.shuffleList(list1)", "correct": false }
       ]
     },
@@ -2569,8 +2572,8 @@
       "statement": "Suppose list1 = \\[0.5 \\* x for x in range(0, 4)\\], list1 is:",
       "options": [
         { "text": "\\[0, 1, 2, 3\\]", "correct": false },
-        { "text": "\\[0, 1, 2, 3, 4\\]", "correct": true },
-        { "text": "\\[0.0, 0.5, 1.0, 1.5\\]", "correct": false },
+        { "text": "\\[0, 1, 2, 3, 4\\]", "correct": false },
+        { "text": "\\[0.0, 0.5, 1.0, 1.5\\]", "correct": true },
         { "text": "\\[0.0, 0.5, 1.0, 1.5, 2.0\\]", "correct": false }
       ]
     },
@@ -2590,8 +2593,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=2",
       "statement": "To remove string “hello” from list1, we use which command?",
       "options": [
-        { "text": "list1.remove(“hello”)", "correct": false },
-        { "text": "list1.remove(hello)", "correct": true },
+        { "text": "list1.remove(“hello”)", "correct": true },
+        { "text": "list1.remove(hello)", "correct": false },
         { "text": "list1.removeAll(“hello”)", "correct": false },
         { "text": "list1.removeOne(“hello”)", "correct": false }
       ]
@@ -2602,8 +2605,8 @@
       "statement": "Suppose list1 is \\[3, 4, 5, 20, 5, 25, 1, 3\\], what is list1.count(5)?",
       "options": [
         { "text": "0", "correct": false },
-        { "text": "1", "correct": true },
-        { "text": "2", "correct": false },
+        { "text": "1", "correct": false },
+        { "text": "2", "correct": true },
         { "text": "3", "correct": false }
       ]
     },
@@ -2612,8 +2615,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=2",
       "statement": "Suppose listExample is \\[3, 4, 5, 20, 5, 25, 1, 3\\], what is list1 after listExample.extend(\\[34, 5\\])?",
       "options": [
-        { "text": "\\[3, 4, 5, 20, 5, 25, 1, 3, 34, 5\\]", "correct": false },
-        { "text": "\\[1, 3, 3, 4, 5, 5, 20, 25, 34, 5\\]", "correct": true },
+        { "text": "\\[3, 4, 5, 20, 5, 25, 1, 3, 34, 5\\]", "correct": true },
+        { "text": "\\[1, 3, 3, 4, 5, 5, 20, 25, 34, 5\\]", "correct": false },
         { "text": "\\[1, 3, 4, 5, 20, 5, 25, 3, 34, 5\\]", "correct": false },
         { "text": "\\[25, 20, 5, 5, 4, 3, 3, 1, 34, 5\\]", "correct": false }
       ]
@@ -2634,9 +2637,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=3",
       "statement": "What will be the output of the following Python code snippet?\n\n    >>> import collections\n    >>> a=collections.Counter([2,2,3,3,3,4])\n    >>> b=collections.Counter([2,2,3,4,4])\n    >>> a|b",
       "options": [
-        { "text": "Counter({3: 3, 2: 2, 4: 2})", "correct": false },
+        { "text": "Counter({3: 3, 2: 2, 4: 2})", "correct": true },
         { "text": "Counter({2: 2, 3: 1, 4: 1})", "correct": false },
-        { "text": "Counter({3: 2})", "correct": true },
+        { "text": "Counter({3: 2})", "correct": false },
         { "text": "Counter({4: 1})", "correct": false }
       ]
     },
@@ -2656,9 +2659,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=3",
       "statement": "What will be the output of the following Python function?\n\n    any([2>8, 4>2, 1>2])",
       "options": [
-        { "text": "True", "correct": false },
+        { "text": "True", "correct": true },
         { "text": "False", "correct": false },
-        { "text": "`4>2`", "correct": true },
+        { "text": "`4>2`", "correct": false },
         { "text": "Error", "correct": false }
       ]
     },
@@ -2669,8 +2672,8 @@
       "options": [
         { "text": "2", "correct": false },
         { "text": "\\-3", "correct": false },
-        { "text": "\\-4", "correct": true },
-        { "text": "False", "correct": false }
+        { "text": "\\-4", "correct": false },
+        { "text": "False", "correct": true }
       ]
     },
     {
@@ -2678,9 +2681,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=3",
       "statement": "Suppose there is a list such that: l=\\[2,3,4\\]. If we want to print this list in reverse order, which of the following methods should be used?",
       "options": [
-        { "text": "list(reversed(l))", "correct": false },
+        { "text": "list(reversed(l))", "correct": true },
         { "text": "list(reverse\\[(l)\\])", "correct": false },
-        { "text": "reversed(l)", "correct": true },
+        { "text": "reversed(l)", "correct": false },
         { "text": "reverse(l)", "correct": false }
       ]
     },
@@ -2690,8 +2693,8 @@
       "statement": "Which of the following functions does not throw an error?",
       "options": [
         { "text": "ord()", "correct": false },
-        { "text": "ord(‘ ‘)", "correct": false },
-        { "text": "ord(”)", "correct": true },
+        { "text": "ord(‘ ‘)", "correct": true },
+        { "text": "ord(”)", "correct": false },
         { "text": "ord(“”)", "correct": false }
       ]
     },
@@ -2712,8 +2715,8 @@
       "statement": "What will be the output of the following Python code?\n\n    def maximum(x, y):\n        if x > y:\n            return x\n        elif x == y:\n            return 'The numbers are equal'\n        else:\n            return y\n     \n    print(maximum(2, 3))",
       "options": [
         { "text": "2", "correct": false },
-        { "text": "3", "correct": false },
-        { "text": "The numbers are equal", "correct": true },
+        { "text": "3", "correct": true },
+        { "text": "The numbers are equal", "correct": false },
         { "text": "None of the above", "correct": false }
       ]
     },
@@ -2726,9 +2729,9 @@
         { "text": "Improving clarity of the code", "correct": false },
         {
           "text": "Decomposing complex problems into simpler pieces",
-          "correct": true
+          "correct": false
         },
-        { "text": "All of the mentioned", "correct": false }
+        { "text": "All of the mentioned", "correct": true }
       ]
     },
     {
@@ -2749,8 +2752,8 @@
       "options": [
         { "text": "hello", "correct": false },
         { "text": "‘hello’", "correct": false },
-        { "text": "hello5", "correct": false },
-        { "text": "‘hello\\\\n’", "correct": true }
+        { "text": "hello5", "correct": true },
+        { "text": "‘hello\\\\n’", "correct": false }
       ]
     },
     {
@@ -2770,12 +2773,12 @@
       "statement": "What does print(os.geteuid()) print?",
       "options": [
         { "text": "the group id of the current process", "correct": false },
-        { "text": "the user id of the current process", "correct": false },
+        { "text": "the user id of the current process", "correct": true },
         {
           "text": "both the group id and the user of the current process",
           "correct": false
         },
-        { "text": "None of the above", "correct": true }
+        { "text": "None of the above", "correct": false }
       ]
     },
     {
@@ -2783,10 +2786,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=4",
       "statement": "Which of the following can be used to create a directory?",
       "options": [
-        { "text": "os.mkdir()", "correct": false },
+        { "text": "os.mkdir()", "correct": true },
         { "text": "os.creat\\_dir()", "correct": false },
         { "text": "os.make\\_dir()", "correct": false },
-        { "text": "os.create\\_dir()", "correct": true }
+        { "text": "os.create\\_dir()", "correct": false }
       ]
     },
     {
@@ -2796,8 +2799,8 @@
       "options": [
         { "text": "kite", "correct": false },
         { "text": "square", "correct": false },
-        { "text": "triangle", "correct": false },
-        { "text": "rectangle", "correct": true }
+        { "text": "triangle", "correct": true },
+        { "text": "rectangle", "correct": false }
       ]
     },
     {
@@ -2806,9 +2809,9 @@
       "statement": "Fill in the blank such that the following Python code results in the formation of an inverted, equilateral triangle.\n\n    import turtle\n    t=turtle.Pen()\n    for i in range(0,3):\n    \tt.forward(150)\n    \tt.right(_____)",
       "options": [
         { "text": "\\-60", "correct": false },
-        { "text": "120", "correct": false },
+        { "text": "120", "correct": true },
         { "text": "\\-120", "correct": false },
-        { "text": "60", "correct": true }
+        { "text": "60", "correct": false }
       ]
     },
     {
@@ -2816,10 +2819,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=4",
       "statement": "What will be the output of the following Python code?\n\n    import turtle\n    t=turtle.Pen()\n    t.goto(300,9)\n    t.position()",
       "options": [
-        { "text": "300.00, 9.00", "correct": false },
+        { "text": "300.00, 9.00", "correct": true },
         { "text": "9.00, 300.00", "correct": false },
         { "text": "9, 300", "correct": false },
-        { "text": "300, 9", "correct": true }
+        { "text": "300, 9", "correct": false }
       ]
     },
     {
@@ -2828,14 +2831,14 @@
       "statement": "What will be the output of the following Python functions?\n\n    import turtle\n    t=turtle.Pen()\n    for i in range(0,3):\n    \tt.forward(100)\n    \tt.left(120)\n     \n    t.back(100)\n    for i in range(0,3):\n    \tt.forward(100)\n    \tt.left(120)",
       "options": [
         { "text": "Error", "correct": false },
-        { "text": "Two triangles, joined at one vertex", "correct": false },
+        { "text": "Two triangles, joined at one vertex", "correct": true },
         {
           "text": "Two triangles, joined by a straight line",
           "correct": false
         },
         {
           "text": "Two separate triangles, not connected by a line",
-          "correct": true
+          "correct": false
         }
       ]
     },
@@ -2845,9 +2848,9 @@
       "statement": "The function used to alter the thickness of the pen to ‘x’ units:",
       "options": [
         { "text": "turtle.span(x)", "correct": false },
-        { "text": "turtle.width(x)", "correct": false },
+        { "text": "turtle.width(x)", "correct": true },
         { "text": "turtle.girth(x)", "correct": false },
-        { "text": "turtle.thickness(x)", "correct": true }
+        { "text": "turtle.thickness(x)", "correct": false }
       ]
     },
     {
@@ -2867,8 +2870,8 @@
       "statement": "\\_\\_\\_\\_\\_ represents an entity in the real world with its identity and behaviour.",
       "options": [
         { "text": "A class", "correct": false },
-        { "text": "An object", "correct": false },
-        { "text": "A method", "correct": true },
+        { "text": "An object", "correct": true },
+        { "text": "A method", "correct": false },
         { "text": "An operator", "correct": false }
       ]
     },
@@ -2877,9 +2880,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=5",
       "statement": "What is getattr() used for?",
       "options": [
-        { "text": "To access the attribute of the object", "correct": false },
+        { "text": "To access the attribute of the object", "correct": true },
         { "text": "To check if an attribute exists or not", "correct": false },
-        { "text": "To delete an attribute", "correct": true },
+        { "text": "To delete an attribute", "correct": false },
         { "text": "To set an attribute", "correct": false }
       ]
     },
@@ -2910,8 +2913,8 @@
       "options": [
         { "text": "Deleting an instance of class", "correct": false },
         { "text": "Modifying an instance of class", "correct": false },
-        { "text": "Copying an instance of class", "correct": true },
-        { "text": "Creating an instance of class", "correct": false }
+        { "text": "Copying an instance of class", "correct": false },
+        { "text": "Creating an instance of class", "correct": true }
       ]
     },
     {
@@ -2920,8 +2923,8 @@
       "statement": "What will be the output of the following Python code?\n\n    class fruits:\n        def __init__(self, price):\n            self.price = price\n    obj=fruits(50)\n     \n    obj.quantity=10\n    obj.bags=2\n     \n    print(obj.quantity+len(obj.__dict__))",
       "options": [
         { "text": "12", "correct": false },
-        { "text": "13", "correct": false },
-        { "text": "52", "correct": true },
+        { "text": "13", "correct": true },
+        { "text": "52", "correct": false },
         { "text": "60", "correct": false }
       ]
     },
@@ -2940,11 +2943,11 @@
         },
         {
           "text": "Inheritance is one of the features of OOP",
-          "correct": true
+          "correct": false
         },
         {
           "text": "Private members of a class can be inherited and accessed",
-          "correct": false
+          "correct": true
         }
       ]
     },
@@ -2953,9 +2956,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-5.php?page=5",
       "statement": "What will be the output of the following Python code?\n\n    class A():\n        def disp(self):\n            print(\"A disp()\")\n    class B(A):\n        pass\n    obj = B()\n    obj.disp()",
       "options": [
-        { "text": "A disp()", "correct": false },
+        { "text": "A disp()", "correct": true },
         { "text": "Invalid syntax for inheritance", "correct": false },
-        { "text": "Nothing is printed", "correct": true },
+        { "text": "Nothing is printed", "correct": false },
         { "text": "None of the above", "correct": false }
       ]
     },
@@ -2976,8 +2979,8 @@
       "statement": "What type of inheritance is illustrated in the following Python code?\n\n    class A():\n        pass\n    class B():\n        pass\n    class C(A,B):\n        pass",
       "options": [
         { "text": "Multi-level inheritance", "correct": false },
-        { "text": "Multiple inheritance", "correct": false },
-        { "text": "Single-level inheritance", "correct": true },
+        { "text": "Multiple inheritance", "correct": true },
+        { "text": "Single-level inheritance", "correct": false },
         { "text": "Hierarchical inheritance", "correct": false }
       ]
     },
@@ -3003,7 +3006,7 @@
         },
         {
           "text": "myExample = {‘someItem’: 2, ‘otherItem’: 20}",
-          "correct": false
+          "correct": true
         },
         {
           "text": "myExample = (‘someItem’=>2, ‘otherItem’=>20)",
@@ -3011,7 +3014,7 @@
         },
         {
           "text": "myExample = (‘someItem’: 2, ‘otherItem’: 20)",
-          "correct": true
+          "correct": false
         }
       ]
     },
@@ -3022,8 +3025,8 @@
       "options": [
         { "text": "f = open(“test.txt”, “read”)", "correct": false },
         { "text": "f = open(“r”,”test.txt”)", "correct": false },
-        { "text": "f = open(“test.txt”, “r”)", "correct": false },
-        { "text": "f = open(“read”,”test.txt”)", "correct": true }
+        { "text": "f = open(“test.txt”, “r”)", "correct": true },
+        { "text": "f = open(“read”,”test.txt”)", "correct": false }
       ]
     },
     {
@@ -3052,9 +3055,9 @@
         },
         {
           "text": "A straight line of 100 units lying along the horizontal",
-          "correct": false
+          "correct": true
         },
-        { "text": "None of the above", "correct": true }
+        { "text": "None of the above", "correct": false }
       ]
     },
     {
@@ -3062,10 +3065,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=1",
       "statement": "What will be the output of the following Python code?\n\n    >>>\"Welcome to Python\".split()",
       "options": [
-        { "text": "\\[“Welcome”, “to”, “Python”\\]", "correct": false },
+        { "text": "\\[“Welcome”, “to”, “Python”\\]", "correct": true },
         { "text": "(“Welcome”, “to”, “Python”)", "correct": false },
         { "text": "{“Welcome”, “to”, “Python”}", "correct": false },
-        { "text": "“Welcome”, “to”, “Python”", "correct": true }
+        { "text": "“Welcome”, “to”, “Python”", "correct": false }
       ]
     },
     {
@@ -3073,10 +3076,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=1",
       "statement": "What will be the output of the following Python code?\n\n    myList = [1, 5, 5, 5, 5, 1]\n    max = myList[0]\n    indexOfMax = 0\n    for i in range(1, len(myList)):\n        if myList[i] > max:\n            max = myList[i]\n            indexOfMax = i\n     \n    >>>print(indexOfMax)",
       "options": [
-        { "text": "1", "correct": false },
+        { "text": "1", "correct": true },
         { "text": "2", "correct": false },
         { "text": "3", "correct": false },
-        { "text": "4", "correct": true }
+        { "text": "4", "correct": false }
       ]
     },
     {
@@ -3086,8 +3089,8 @@
       "options": [
         { "text": "1 1 2 3 4 5", "correct": false },
         { "text": "2 3 4 5 6 1", "correct": false },
-        { "text": "2 3 4 5 6 6", "correct": false },
-        { "text": "6 1 2 3 4 5", "correct": true }
+        { "text": "2 3 4 5 6 6", "correct": true },
+        { "text": "6 1 2 3 4 5", "correct": false }
       ]
     },
     {
@@ -3112,10 +3115,10 @@
         },
         {
           "text": "\\[\\[0, 1, 2\\], \\[1, 2, 3\\], \\[2, 3, 4\\]\\]",
-          "correct": false
+          "correct": true
         },
         { "text": "\\[1, 2, 3, 4, 5, 6, 7, 8, 9\\]", "correct": false },
-        { "text": "\\[0, 1, 2, 1, 2, 3, 2, 3, 4\\]", "correct": true }
+        { "text": "\\[0, 1, 2, 1, 2, 3, 2, 3, 4\\]", "correct": false }
       ]
     },
     {
@@ -3170,8 +3173,8 @@
       "options": [
         { "text": "1", "correct": false },
         { "text": "2", "correct": false },
-        { "text": "4", "correct": false },
-        { "text": "5", "correct": true }
+        { "text": "4", "correct": true },
+        { "text": "5", "correct": false }
       ]
     },
     {
@@ -3182,10 +3185,10 @@
         { "text": "prints all the vowels in my\\_string", "correct": false },
         {
           "text": "prints all characters of my\\_string that aren’t vowels",
-          "correct": false
+          "correct": true
         },
         { "text": "prints only on executing print(k)", "correct": false },
-        { "text": "prints all the consonants in my\\_string", "correct": true }
+        { "text": "prints all the consonants in my\\_string", "correct": false }
       ]
     },
     {
@@ -3195,11 +3198,11 @@
       "options": [
         {
           "text": "\\[(‘H’, 1), (‘E’, 1), (‘L’, 1), (‘L’, 1), (‘O’, 1), (‘ ‘, 1), (‘W’, 1), (‘O’, 1), (‘R’, 1), (‘L’, 1), (‘D’, 1)\\]",
-          "correct": false
+          "correct": true
         },
         { "text": "\\[(‘HELLO’, 5), (‘WORLD’, 5)\\]", "correct": false },
         { "text": "\\[(‘HELLO WORLD’, 11)\\]", "correct": false },
-        { "text": "None of the above", "correct": true }
+        { "text": "None of the above", "correct": false }
       ]
     },
     {
@@ -3208,9 +3211,9 @@
       "statement": "What will be the output of the following Python code snippet?\n\n    x = [i**+1 for i in range(3)]; print(x);",
       "options": [
         { "text": "\\[1, 2, 5\\]", "correct": false },
-        { "text": "\\[0, 1, 2\\]", "correct": false },
+        { "text": "\\[0, 1, 2\\]", "correct": true },
         { "text": "error, ‘;’ is not allowed", "correct": false },
-        { "text": "error, \\*\\*+ is not a valid operator", "correct": true }
+        { "text": "error, \\*\\*+ is not a valid operator", "correct": false }
       ]
     },
     {
@@ -3235,7 +3238,7 @@
         },
         {
           "text": "\\[\\[‘ad’, ‘bd’, ‘cd’\\], \\[‘ae’, ‘be’, ‘ce’\\], \\[‘af’, ‘bf’, ‘cf’\\]\\]",
-          "correct": false
+          "correct": true
         },
         {
           "text": "\\[‘da’, ‘ea’, ‘fa’, ‘db’, ‘eb’, ‘fb’, ‘dc’, ‘ec’, ‘fc’\\]",
@@ -3243,7 +3246,7 @@
         },
         {
           "text": "\\[‘ad’, ‘ae’, ‘af’, ‘bd’, ‘be’, ‘bf’, ‘cd’, ‘ce’, ‘cf’\\]",
-          "correct": true
+          "correct": false
         }
       ]
     },
@@ -3257,8 +3260,8 @@
           "correct": false
         },
         { "text": "\\[1/x for x in \\[(1, 2, 3)\\]\\]", "correct": false },
-        { "text": "\\[1/x for x in (1, 2, 3)\\]", "correct": false },
-        { "text": "None of the above", "correct": true }
+        { "text": "\\[1/x for x in (1, 2, 3)\\]", "correct": true },
+        { "text": "None of the above", "correct": false }
       ]
     },
     {
@@ -3288,9 +3291,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=3",
       "statement": "What will be the output of the following Python code?\n\n    i=0\n    def change(i):\n       i=i+1\n       return i\n    change(1)\n    print(i)",
       "options": [
-        { "text": "0", "correct": false },
+        { "text": "0", "correct": true },
         { "text": "1", "correct": false },
-        { "text": "Nothing is displayed", "correct": true },
+        { "text": "Nothing is displayed", "correct": false },
         { "text": "An exception is thrown", "correct": false }
       ]
     },
@@ -3300,8 +3303,8 @@
       "statement": "What will be the output of the following Python code?\n\n    def a(b):\n        b = b + [5]\n     \n    c = [1, 2, 3, 4]\n    a(c)\n    print(len(c))",
       "options": [
         { "text": "4", "correct": false },
-        { "text": "5", "correct": false },
-        { "text": "An exception is thrown", "correct": true },
+        { "text": "5", "correct": true },
+        { "text": "An exception is thrown", "correct": false },
         { "text": "None of the above", "correct": false }
       ]
     },
@@ -3310,9 +3313,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=3",
       "statement": "What will be the output of the following Python code?\n\n    def display(b, n):\n        while n > 0:\n            print(b,end=\"\")\n            n=n-1\n    display('z',3)",
       "options": [
-        { "text": "zzz", "correct": false },
+        { "text": "zzz", "correct": true },
         { "text": "zz", "correct": false },
-        { "text": "Infinite loop", "correct": true },
+        { "text": "Infinite loop", "correct": false },
         { "text": "None of the above", "correct": false }
       ]
     },
@@ -3322,8 +3325,8 @@
       "statement": "What is the length of sys.argv?",
       "options": [
         { "text": "number of arguments", "correct": false },
-        { "text": "number of arguments + 1", "correct": false },
-        { "text": "number of arguments – 1", "correct": true },
+        { "text": "number of arguments + 1", "correct": true },
+        { "text": "number of arguments – 1", "correct": false },
         { "text": "None of the above", "correct": false }
       ]
     },
@@ -3334,8 +3337,8 @@
       "options": [
         { "text": "\\[1, 0\\]", "correct": false },
         { "text": "\\[0, 1\\]", "correct": false },
-        { "text": "\\[0\\]", "correct": true },
-        { "text": "\\[1\\]", "correct": false }
+        { "text": "\\[0\\]", "correct": false },
+        { "text": "\\[1\\]", "correct": true }
       ]
     },
     {
@@ -3343,9 +3346,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=3",
       "statement": "What will be the output of the following Python code?\n\n    def foo(fname, val):\n        print(fname(val))\n    foo(max, [1, 2, 3])\n    foo(min, [1, 2, 3])",
       "options": [
-        { "text": "3 1", "correct": false },
+        { "text": "3 1", "correct": true },
         { "text": "1 3", "correct": false },
-        { "text": "Error", "correct": true },
+        { "text": "Error", "correct": false },
         { "text": "None of the above", "correct": false }
       ]
     },
@@ -3355,8 +3358,8 @@
       "statement": "What will be the output of the following Python code?\n\n    def foo(x):\n        x = ['def', 'abc']\n        return id(x)\n    q = ['abc', 'def']\n    print(id(q) == foo(q))",
       "options": [
         { "text": "True", "correct": false },
-        { "text": "False", "correct": false },
-        { "text": "Error", "correct": true },
+        { "text": "False", "correct": true },
+        { "text": "Error", "correct": false },
         { "text": "None", "correct": false }
       ]
     },
@@ -3387,9 +3390,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=4",
       "statement": "What will be the output shape of the following Python code?\n\n    import turtle\n    t=turtle.Pen()\n    for i in range(0,6):\n    \tt.forward(100)\n    \tt.left(60)",
       "options": [
-        { "text": "Hexagon", "correct": false },
+        { "text": "Hexagon", "correct": true },
         { "text": "Octagon", "correct": false },
-        { "text": "Pentagon", "correct": true },
+        { "text": "Pentagon", "correct": false },
         { "text": "Heptagon", "correct": false }
       ]
     },
@@ -3411,8 +3414,8 @@
       "options": [
         { "text": "dumps(), undumps()", "correct": false },
         { "text": "loads(), unloads()", "correct": false },
-        { "text": "loads(), dumps()", "correct": true },
-        { "text": "dumps(), loads()", "correct": false }
+        { "text": "loads(), dumps()", "correct": false },
+        { "text": "dumps(), loads()", "correct": true }
       ]
     },
     {
@@ -3431,9 +3434,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=4",
       "statement": "Which of the following functions can be used to find the protocol version of the pickle module currently being used?",
       "options": [
-        { "text": "pickle.DEFAULT\\_PROTOCOL", "correct": false },
+        { "text": "pickle.DEFAULT\\_PROTOCOL", "correct": true },
         { "text": "pickle.CURRENT\\_PROTOCOL", "correct": false },
-        { "text": "pickle.CURRENT", "correct": true },
+        { "text": "pickle.CURRENT", "correct": false },
         { "text": "pickle.DEFAULT", "correct": false }
       ]
     },
@@ -3443,8 +3446,8 @@
       "statement": "Which of the following functions can accept more than one positional argument?",
       "options": [
         { "text": "pickle.load", "correct": false },
-        { "text": "pickle.dumps", "correct": false },
-        { "text": "pickle.loads", "correct": true },
+        { "text": "pickle.dumps", "correct": true },
+        { "text": "pickle.loads", "correct": false },
         { "text": "pickle.dump", "correct": false }
       ]
     },
@@ -3465,8 +3468,8 @@
       "statement": "If \\_\\_getstate\\_\\_() returns \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ the \\_\\_setstate\\_\\_() module will not be called on pickling.",
       "options": [
         { "text": "True value", "correct": false },
-        { "text": "False value", "correct": false },
-        { "text": "ValueError", "correct": true },
+        { "text": "False value", "correct": true },
+        { "text": "ValueError", "correct": false },
         { "text": "OverflowError", "correct": false }
       ]
     },
@@ -3475,9 +3478,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=4",
       "statement": "The copy module uses the \\_\\_\\_\\_\\_\\_\\_\\_ protocol for shallow and deep copy.",
       "options": [
-        { "text": "pickle", "correct": false },
+        { "text": "pickle", "correct": true },
         { "text": "shelve", "correct": false },
-        { "text": "marshal", "correct": true },
+        { "text": "marshal", "correct": false },
         { "text": "copyreg", "correct": false }
       ]
     },
@@ -3503,9 +3506,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=5",
       "statement": "What will be the output of the following Python code?\n\n    class A:\n        def __str__(self):\n            return '1'\n    class B(A):\n        def __init__(self):\n            super().__init__()\n    class C(B):\n        def __init__(self):\n            super().__init__()\n    def main():\n        obj1 = B()\n        obj2 = A()\n        obj3 = C()\n        print(obj1, obj2,obj3)\n    main()",
       "options": [
-        { "text": "‘1’ ‘1’ ‘1’", "correct": true },
+        { "text": "‘1’ ‘1’ ‘1’", "correct": false },
         { "text": "1 2 3", "correct": false },
-        { "text": "1 1 1", "correct": false },
+        { "text": "1 1 1", "correct": true },
         { "text": "An exception is thrown", "correct": false }
       ]
     },
@@ -3514,9 +3517,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=5",
       "statement": "What will be the output of the following Python code?\n\n    class A:\n        def __init__(self):\n            self.multiply(15)\n            print(self.i)\n     \n        def multiply(self, i):\n            self.i = 4 * i;\n    class B(A):\n        def __init__(self):\n            super().__init__()\n     \n        def multiply(self, i):\n            self.i = 2 * i;\n    obj = B()",
       "options": [
-        { "text": "An exception is thrown", "correct": true },
+        { "text": "An exception is thrown", "correct": false },
         { "text": "60", "correct": false },
-        { "text": "30", "correct": false },
+        { "text": "30", "correct": true },
         { "text": "15", "correct": false }
       ]
     },
@@ -3525,8 +3528,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=5",
       "statement": "Is the following Python code valid?\n\n    try:\n        # Do something\n    except:\n        # Do something\n    finally:\n        # Do something",
       "options": [
-        { "text": "no, there is no such thing as finally", "correct": true },
-        { "text": "no, finally cannot be used with except", "correct": false },
+        { "text": "no, there is no such thing as finally", "correct": false },
+        { "text": "no, finally cannot be used with except", "correct": true },
         { "text": "no, finally must come before except", "correct": false },
         { "text": "None of the above", "correct": false }
       ]
@@ -3536,10 +3539,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=5",
       "statement": "What will be the output of the following Python code?\n\n    def foo():\n        try:\n            return 1\n        finally:\n            return 2\n    k = foo()\n    print(k)",
       "options": [
-        { "text": "Error", "correct": true },
+        { "text": "Error", "correct": false },
         { "text": "0", "correct": false },
         { "text": "1", "correct": false },
-        { "text": "2", "correct": false }
+        { "text": "2", "correct": true }
       ]
     },
     {
@@ -3547,9 +3550,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=5",
       "statement": "What will be the output of the following Python code?\n\n    try:\n        if '1' != 1:\n            raise \"someError\"\n        else:\n            print(\"someError has not occurred\")\n    except \"someError\":\n        print (\"someError has occurred\")",
       "options": [
-        { "text": "someError has occurred", "correct": true },
+        { "text": "someError has occurred", "correct": false },
         { "text": "someError has not occurred", "correct": false },
-        { "text": "invalid code", "correct": false },
+        { "text": "invalid code", "correct": true },
         { "text": "None of the above", "correct": false }
       ]
     },
@@ -3558,8 +3561,8 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=5",
       "statement": "What happens when ‘1’ == 1 is executed?",
       "options": [
-        { "text": "we get a True", "correct": true },
-        { "text": "we get a False", "correct": false },
+        { "text": "we get a True", "correct": false },
+        { "text": "we get a False", "correct": true },
         { "text": "an TypeError occurs", "correct": false },
         { "text": "a ValueError occurs", "correct": false }
       ]
@@ -3569,9 +3572,9 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=5",
       "statement": "What will be the output of the following Python code?\n\n    lst = [1, 2, 3]\n    lst[3]",
       "options": [
-        { "text": "NameError", "correct": true },
+        { "text": "NameError", "correct": false },
         { "text": "ValueError", "correct": false },
-        { "text": "IndexError", "correct": false },
+        { "text": "IndexError", "correct": true },
         { "text": "TypeError", "correct": false }
       ]
     },
@@ -3591,10 +3594,10 @@
       "source": "https://www.freetimelearning.com/online-quiz/python-quiz-section-6.php?page=5",
       "statement": "What will be the output of the following Python code if the input entered is 6?\n\n    valid = False\n    while not valid:\n        try:\n            n=int(input(\"Enter a number\"))\n            while n%2==0:\n                print(\"Bye\")\n            valid = True\n        except ValueError:\n            print(\"Invalid\")",
       "options": [
-        { "text": "No output", "correct": true },
+        { "text": "No output", "correct": false },
         { "text": "Invalid (printed once)", "correct": false },
         { "text": "Bye (printed once)", "correct": false },
-        { "text": "Bye (printed infinite number of times)", "correct": false }
+        { "text": "Bye (printed infinite number of times)", "correct": true }
       ]
     }
   ]
